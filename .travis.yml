@@ -1,0 +1,29 @@
+language : node_js
+
+node_js:
+ - "8"
+
+cache:
+  directories:
+    - "node_modules"
+
+branches:
+  only:
+    - develop
+
+install:
+  - yarn install
+  - yarn run generate:master
+
+script:
+  - yarn run lint
+  - yarn run test
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $PES_ACCESS_TOKEN
+  target-branch: master
+  local-dir: dist
+  on:
+    branch: develop
