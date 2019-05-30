@@ -25,10 +25,11 @@
             <v-layout row wrap justify-center align-center>
               <v-flex v-for="project in projects" :key="project.link" xs12 md3>
                 <a :href="`${project.link}`" target="_blank">
-                  <img
+                  <v-img
                     class="logo"
                     :src="`${project.img}`"
                     :title="`${project.title}`"
+                    width="200"
                   />
                 </a>
               </v-flex>
