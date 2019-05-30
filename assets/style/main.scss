@@ -17,119 +17,15 @@
 a {
   text-decoration: none;
 }
-/*
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.3s ease-out;
-}
-.page-enter,
-.page-leave-active {
-  opacity: 0;
-}
 
-.vv-main {
-  background-color: #fff;
+.section-head {
+  text-align: center;
 }
-
-.vv-heading {
-  font-weight: bold;
-  font-size: 40px;
-  letter-spacing: 1px;
+.section-title {
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 30px;
 }
-.vv-subheading {
-  font-size: 34px;
-  line-height: 44px;
+.section-desc {
+  margin: 0 0 20px;
 }
-.font-lato {
-  font-family: 'Lato', sans-serif;
-}
-
-.vv-card {
-  &:hover {
-    .vv-card-image {
-      &:before {
-        transition: 0.5s linear;
-        background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px,
-          0 calc(100% - 4px);
-      }
-    }
-  }
-
-  cursor: pointer;
-
-  .vv-card-image {
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 2;
-      background-image: linear-gradient(
-        135deg,
-        rgba(255, 255, 255, 0) 30%,
-        rgba(255, 255, 255, 0.8),
-        rgba(255, 255, 255, 0) 70%
-      );
-      background-repeat: no-repeat;
-      background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
-      background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
-    }
-  }
-
-  .title {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 1904px) {
-  .container {
-    max-width: 1400px;
-  }
-}
-
-.vv-container {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 30px;
-  &:before {
-    content: '';
-    position: absolute;
-    z-index: 0;
-    width: 100%;
-    height: 180%;
-    top: 16px;
-    -webkit-transform: skewY(-12deg);
-    transform: skewY(-39deg);
-    background: linear-gradient(220deg, #fff, #fff 27%, #47b784);
-  }
-}
-
-.indexed {
-  z-index: 1;
-}
-
-.container.indexed {
-  margin: 0 auto;
-}
-
-.vv-content {
-  padding-top: 30px;
-}
-
-@media (max-width: 960px) {
-  .vv-heading {
-    font-size: 26px;
-  }
-  .vv-subheading {
-    font-size: 22px;
-    line-height: 22px;
-  }
-}
-
-ul,
-li {
-  list-style: none;
-}
-*/

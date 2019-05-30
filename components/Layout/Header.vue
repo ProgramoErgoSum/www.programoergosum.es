@@ -1,12 +1,14 @@
 <template>
   <v-toolbar
     v-scroll="onScroll"
-    :color="isTransparent ? 'transparent' : '#666666'"
-    app
+    :color="isTransparent ? 'transparent' : '#2d3339'"
     flat
+    fixed
+    dense
+    app
   >
     <!--
-    <v-toolbar-title>
+    <v-toolbar-title v-show="!isTransparent">
       <nuxt-link to="/">
         <v-img
           :src="require('@/static/logo-programoergosum.png')"
@@ -14,21 +16,19 @@
         />
       </nuxt-link>
     </v-toolbar-title>
-    -->
+
     <v-spacer></v-spacer>
-    <!--
+
     <v-toolbar-items>
-      <v-btn flat tabs to="#asociacion" nuxt>
-        Asociación
-      </v-btn>
-      <v-btn flat to="#proyectos" nuxt>
-        Proyectos
-      </v-btn>
-      <v-btn flat to="#colabora" nuxt>
-        Colabora
-      </v-btn>
-      <v-btn flat to="#contacta" nuxt>
-        Contacta
+      <v-btn
+        v-for="item in navigation"
+        :key="item.link"
+        :to="item.link"
+        color="primary"
+        flat
+        nuxt
+      >
+        {{ item.title }}
       </v-btn>
     </v-toolbar-items>
     -->
@@ -40,7 +40,19 @@ export default {
   name: 'Header',
   data() {
     return {
-      isTransparent: true
+      isTransparent: true,
+      navigation: [
+        /*
+        {
+          title: 'Asociación',
+          link: '/asociacion'
+        },
+        */
+        {
+          title: 'Proyectos',
+          link: '/proyectos'
+        }
+      ]
     }
   },
   methods: {
