@@ -1,5 +1,11 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 
+const canonical = 'https://programoergosum.github.io'
+const title = 'Asociación Programo Ergo Sum'
+const description =
+  'Proyectos educativos abiertos para aprender programación y robótica con herramientas libres.'
+const keywords = 'asociación, educación'
+const image = 'https://programoergosum.github.io/default.png'
 const routerBase = {
   router: {
     base: process.env.DEPLOY_ENV === 'MASTER' ? '/' : '/'
@@ -10,6 +16,13 @@ export default {
   mode: 'universal',
 
   ...routerBase,
+  env: {
+    canonical: canonical,
+    title: title,
+    description: description,
+    keywords: keywords,
+    image: image
+  },
 
   /*
    ** Headers of the page

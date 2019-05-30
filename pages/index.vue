@@ -43,11 +43,10 @@
 <script>
 export default {
   head() {
-    const title = 'Asociación Programo Ergo Sum'
-    const description =
-      'Proyectos educativos abiertos para aprender programación y robótica con herramientas libres.'
-    const keywords = 'asociación, educación'
-    const image = 'default.png'
+    const title = process.env.title
+    const description = process.env.description
+    const keywords = process.env.keywords
+    const image = process.env.image
     const url = process.env.canonical + this.$route.path
     return {
       title: title,
