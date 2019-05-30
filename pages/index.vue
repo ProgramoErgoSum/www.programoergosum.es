@@ -3,24 +3,24 @@
     <v-layout row wrap justify-center align-center>
       <v-flex xs12 sm12 md7>
         <section class="mb-5">
-          <h1 class="mb-1 text-xs-center">
+          <h1 class="mb-3 text-xs-center">
             Asociación Programo Ergo Sum
           </h1>
-          <h3 class="mb-5 text-xs-center orange--text text--darken-4">
-            Iniciativa sin ánimo de lucro
-          </h3>
           <h2 class="text-xs-center">
-            Proyectos educativos <strong>abiertos</strong> para aprender
+            Proyectos educativos
+            <strong class="orange--text text--darken-4">abiertos</strong>
+            para aprender
             <span class="under orange darken-4">programación y robótica</span>
-            con herramientas <strong>libres</strong>.
+            con herramientas
+            <strong class="orange--text text--darken-4">libres</strong>.
           </h2>
         </section>
       </v-flex>
       <v-flex xs12>
         <section class="mb-5">
-          <h2 class="mb-3 title text-xs-center">
+          <h3 class="mb-3 title text-xs-center">
             Nuestros proyectos educativos
-          </h2>
+          </h3>
           <v-container grid-list-md text-xs-center>
             <v-layout row wrap justify-center align-center>
               <v-flex v-for="project in projects" :key="project.link" xs12 md3>
@@ -93,11 +93,6 @@ h1 {
   font-weight: 600;
   font-size: 40px;
 }
-h3 {
-  font-weight: 200;
-  font-style: italic;
-  font-size: 20px;
-}
 h2 {
   font-weight: 300;
   strong {
@@ -107,6 +102,10 @@ h2 {
     padding: 2px 5px;
     color: #fff;
   }
+}
+h3 {
+  font-weight: 400;
+  font-size: 20px;
 }
 .logo {
   display: inline-block;
