@@ -1,4 +1,6 @@
 <template>
+  <div />
+  <!--
   <v-toolbar
     v-scroll="onScroll"
     :color="isTransparent ? 'transparent' : '#2d3339'"
@@ -7,7 +9,6 @@
     dense
     app
   >
-    <!--
     <v-toolbar-title v-show="!isTransparent">
       <nuxt-link to="/">
         <v-img
@@ -31,8 +32,8 @@
         {{ item.title }}
       </v-btn>
     </v-toolbar-items>
-    -->
   </v-toolbar>
+  -->
 </template>
 
 <script>

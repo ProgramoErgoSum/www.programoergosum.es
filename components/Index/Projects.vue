@@ -11,7 +11,7 @@
     </div>
     <v-container fluid>
       <v-layout row wrap justify-center>
-        <v-flex v-for="project in projects" :key="project.link" md12 lg3>
+        <v-flex v-for="project in projects" :key="project.link" md12 lg4>
           <v-card class="ma-3" :href="project.link" target="_blank">
             <v-img :src="`${project.img}`" :title="`${project.title}`" />
             <v-card-title primary-title>
@@ -32,7 +32,6 @@ export default {
     projects: [
       {
         link: 'https://www.programoergosum.com',
-        tlink: 'programoergosum.com',
         img: 'programoergosum.png',
         title: 'Programo Ergo Sum',
         description:
@@ -40,7 +39,6 @@ export default {
       },
       {
         link: 'https://www.aprendeprogramando.es',
-        tlink: 'aprendeprogramando.es',
         img: 'aprendeprogramando.png',
         title: 'Aprende Programando',
         description:
@@ -48,7 +46,6 @@ export default {
       },
       {
         link: 'https://wikitic.github.io',
-        tlink: 'wikitic.github.io',
         img: 'wikitic.png',
         title: 'Wiki TIC',
         description:
@@ -61,7 +58,6 @@ export default {
 
 <style lang="scss" scoped>
 #projects {
-  padding: 50px 0;
   background: #fff;
 }
 </style>

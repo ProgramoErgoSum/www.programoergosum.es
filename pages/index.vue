@@ -3,7 +3,8 @@
     <v-layout>
       <v-flex>
         <Full class="mb-5" />
-        <Projects class="mb-5" />
+        <Projects class="mb-5 pa-5" />
+        <Collaborations class="mb-5 pa-5" />
       </v-flex>
     </v-layout>
   </v-container>
@@ -12,11 +13,13 @@
 <script>
 import Full from '@/components/Index/Full'
 import Projects from '@/components/Index/Projects'
+import Collaborations from '@/components/Index/Collaborations'
 
 export default {
   components: {
     Full,
-    Projects
+    Projects,
+    Collaborations
   },
   head() {
     const title = process.env.title
