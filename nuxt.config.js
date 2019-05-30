@@ -1,14 +1,20 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
-import pkg from './package'
+
+const routerBase = {
+  router: {
+    base: process.env.DEPLOY_ENV === 'MASTER' ? '/' : '/'
+  }
+}
 
 export default {
   mode: 'universal',
+
+  ...routerBase,
 
   /*
    ** Headers of the page
    */
   head: {
-    title: pkg.name,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
