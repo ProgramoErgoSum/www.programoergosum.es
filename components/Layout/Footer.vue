@@ -1,27 +1,81 @@
 <template>
-  <v-footer app fixed absolute inset height="auto">
-    <v-layout justify-center row wrap>
-      <v-flex secondary darknes-2 py-3 text-xs-center white--text xs12>
-        <div class="mb-3 text-center">
-          <v-btn
-            v-for="icon in icons"
-            :key="icon.icon"
-            :href="icon.link"
-            rel="noopener noreferrer"
-            target="_blank"
-            dark
-            icon
-          >
-            <v-icon>
-              {{ icon.icon }}
-            </v-icon>
-          </v-btn>
-        </div>
-        <p class="ma-0 pa-0 caption">
-          {{ new Date().getFullYear() }} - Asociación Programo Ergo Sum
-        </p>
-      </v-flex>
-    </v-layout>
+  <v-footer id="footer" app fixed absolute height="auto">
+    <v-container grid-list-md>
+      <v-layout row wrap justify-center text-xs-center>
+        <v-flex xs12 sm6 md4 lg3>
+          <div class="block">
+            <h4>Sobre nosotros</h4>
+            <ul>
+              <li
+                v-for="item in association"
+                :key="item.link"
+                :to="item.link"
+                flat
+                nuxt
+              >
+                <a
+                  target="_blank"
+                  :href="item.link"
+                  :title="item.title"
+                  rel="noopener noreferrer"
+                >
+                  {{ item.title }}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </v-flex>
+        <v-flex xs12 sm6 md4 lg3>
+          <div class="block">
+            <h4>Proyectos educativos</h4>
+            <ul>
+              <li
+                v-for="item in projects"
+                :key="item.link"
+                :to="item.link"
+                flat
+                nuxt
+              >
+                <a
+                  target="_blank"
+                  :href="item.link"
+                  :title="item.title"
+                  rel="noopener noreferrer"
+                >
+                  {{ item.title }}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </v-flex>
+        <v-flex xs12>
+          <div class="ma-3 text-center">
+            <v-btn
+              v-for="icon in icons"
+              :key="icon.icon"
+              :href="icon.link"
+              rel="noopener noreferrer"
+              target="_blank"
+              icon
+            >
+              <v-icon>
+                {{ icon.icon }}
+              </v-icon>
+            </v-btn>
+          </div>
+        </v-flex>
+        <v-flex xs12>
+          <div class="copyleft">
+            <p>
+              Salvo que se especifique lo contrario, todos nuestros proyectos
+              educativos están bajo licencia CC-BY-SA 4.0 (Creative Commons
+              Reconocimiento-CompartirIgual 4.0 Internacional).
+            </p>
+            <p>{{ new Date().getFullYear() }} - Asociación Programo Ergo Sum</p>
+          </div>
+        </v-flex>
+      </v-layout>
+    </v-container>
   </v-footer>
 </template>
 
@@ -29,6 +83,40 @@
 export default {
   name: 'Footer',
   data: () => ({
+    association: [
+      {
+        title: 'Asociación',
+        link: 'https://www.programoergosum.com/el-proyecto-programo-ergo-sum'
+      },
+      /*
+      {
+        title: 'Colabora',
+        link: '/colabora'
+      },
+      */
+      {
+        title: 'Hazte socio',
+        link: 'https://www.programoergosum.com/registro'
+      },
+      {
+        title: 'Contacta',
+        link: 'https://www.programoergosum.com/contacto'
+      }
+    ],
+    projects: [
+      {
+        title: 'Programo Ergo Sum',
+        link: 'https://www.programoergosum.com'
+      },
+      {
+        title: 'Aprende Programando',
+        link: 'https://www.aprendeprogramando.es'
+      },
+      {
+        title: 'Wiki TIC',
+        link: 'https://wikitic.github.io'
+      }
+    ],
     icons: [
       {
         icon: 'fab fa-twitter',
@@ -63,4 +151,38 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#footer {
+  margin: 0;
+  padding: 30px 0 0;
+  background: #fff;
+  .block {
+    margin: 0 0 30px;
+    h4 {
+      margin: 0 0 15px;
+      font-weight: 600;
+      color: #2d3339;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        margin-bottom: 10px;
+        font-weight: 300;
+      }
+    }
+  }
+  .v-icon {
+    color: #2d3339;
+  }
+  .copyleft {
+    margin-top: 30px;
+    font-size: 12px;
+    p {
+      margin: 0 0 5px;
+      padding: 0;
+    }
+  }
+}
+</style>
