@@ -3,6 +3,7 @@
     <Header />
     <v-content>
       <nuxt />
+      <ToTop />
     </v-content>
     <Footer />
   </v-app>
@@ -10,11 +11,13 @@
 
 <script>
 import Header from '@/components/Layout/Header'
+import ToTop from '@/components/Layout/ToTop'
 import Footer from '@/components/Layout/Footer'
 
 export default {
   components: {
     Header,
+    ToTop,
     Footer
   }
 }
