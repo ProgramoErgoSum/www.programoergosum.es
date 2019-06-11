@@ -1,5 +1,5 @@
 <template>
-  <v-container fill-height>
+  <v-container id="home" fluid fill-height>
     <v-layout justify-center align-center>
       <v-flex shrink>
         <section class="text-xs-center">

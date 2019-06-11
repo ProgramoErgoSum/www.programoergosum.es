@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Header />
-    <v-content>
+    <v-content class="content">
       <nuxt />
       <ToTop />
     </v-content>
@@ -23,4 +23,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.content {
+  padding: 20px;
+}
+</style>

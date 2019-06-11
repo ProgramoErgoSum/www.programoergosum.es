@@ -63,13 +63,11 @@ export default {
     return {
       isTransparent: true,
       navigation: [
-        /*
         {
           title: 'Asociación',
           icon: 'dashboard',
           link: '/asociacion'
         },
-        */
         {
           title: 'Proyectos',
           icon: 'dashboard',

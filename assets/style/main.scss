@@ -1,11 +1,14 @@
 #app {
-  background: #fff url(../images/bkg.png) center center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: #fff;
   color: #2d3339;
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
   word-spacing: 1px;
+  #home {
+    background: #fff url(../images/bkg.png) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
 *,
@@ -14,19 +17,6 @@
   box-sizing: border-box;
   margin: 0;
 }
-
 a {
   text-decoration: none;
-}
-
-.section-head {
-  text-align: center;
-}
-.section-title {
-  margin: 0 0 20px;
-  font-weight: 600;
-  font-size: 30px;
-}
-.section-desc {
-  margin: 0 0 20px;
 }
