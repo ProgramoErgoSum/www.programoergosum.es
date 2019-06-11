@@ -66,11 +66,6 @@
         </v-flex>
         <v-flex xs12>
           <div class="copyleft">
-            <p>
-              Salvo que se especifique lo contrario, todos nuestros proyectos
-              educativos están bajo licencia CC-BY-SA 4.0 (Creative Commons
-              Reconocimiento-CompartirIgual 4.0 Internacional).
-            </p>
             <p>{{ new Date().getFullYear() }} - Asociación Programo Ergo Sum</p>
           </div>
         </v-flex>

@@ -56,8 +56,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-#projects {
-  background: #fff;
-}
-</style>
+<style lang="scss" scoped></style>
