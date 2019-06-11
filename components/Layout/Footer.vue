@@ -2,6 +2,7 @@
   <v-footer id="footer" app fixed absolute height="auto">
     <v-container grid-list-md>
       <v-layout row wrap justify-center text-xs-center>
+        <!--
         <v-flex xs12 sm6 md4 lg3>
           <div class="block">
             <h4>Sobre nosotros</h4>
@@ -48,8 +49,9 @@
             </ul>
           </div>
         </v-flex>
+        -->
         <v-flex xs12>
-          <div class="ma-3 text-center">
+          <div class="ma-1 text-center">
             <v-btn
               v-for="icon in icons"
               :key="icon.icon"
@@ -149,7 +151,6 @@ export default {
 <style lang="scss" scoped>
 #footer {
   margin: 0;
-  padding: 30px 0 0;
   background: #fff;
   .block {
     margin: 0 0 30px;
@@ -172,7 +173,6 @@ export default {
     color: #2d3339;
   }
   .copyleft {
-    margin-top: 30px;
     font-size: 12px;
     p {
       margin: 0 0 5px;
