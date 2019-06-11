@@ -121,21 +121,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-section {
-  margin-bottom: 50px;
-  h1 {
-    margin-bottom: 20px;
-  }
-  h3 {
-    margin-bottom: 20px;
-  }
-  p,
-  ul {
-    margin-bottom: 20px;
-    li {
-      margin-bottom: 10px;
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>
