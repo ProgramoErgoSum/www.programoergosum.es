@@ -23,14 +23,19 @@ export default {
     Metas,
     Markdown
   },
-  async asyncData({ route }) {
-    const readme = await import(`~/static/asociacion/README.md`)
+  async asyncData({ route, params }) {
+    const metas = await import(
+      `~/static/actividades/${params.alias}/config.json`
+    )
+    const readme = await import(
+      `~/static/actividades/${params.alias}/README.md`
+    )
     const content = readme.body.split('![](').join(`![](${route.path}`)
     return {
-      title: process.env.title,
-      description: process.env.description,
-      keywords: process.env.keywords,
-      image: process.env.image,
+      title: metas.title,
+      description: metas.description,
+      image: `${route.path}preview.png`,
+      keywords: metas.keywords,
       content: content
     }
   }

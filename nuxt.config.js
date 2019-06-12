@@ -1,10 +1,12 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 
+const path = require('path')
+
 const canonical = 'https://programoergosum.github.io'
 const title = 'Asociación Programo Ergo Sum'
 const description =
   'Proyectos educativos abiertos para aprender programación y robótica con herramientas libres.'
-const keywords = 'asociación, educación'
+const keywords = ['asociación, educación']
 const image = 'https://programoergosum.github.io/default.png'
 const routerBase = {
   router: {
@@ -103,6 +105,16 @@ export default {
           exclude: /(node_modules)/
         })
       }
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        include: path.resolve(__dirname, 'static'),
+        options: {
+          vue: {
+            root: "dynamicMarkdown"
+          }
+        }
+      })
     }
   }
 }
