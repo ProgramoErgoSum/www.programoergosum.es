@@ -1,12 +1,12 @@
 <template>
-  <v-container id="home" fluid fill-height>
+  <v-container fluid fill-height>
     <v-layout justify-center align-center>
       <v-flex shrink>
         <section class="text-xs-center">
-          <h1 class="ma-3">
+          <h1 class="mb-3">
             Asociación Programo Ergo Sum
           </h1>
-          <h2>
+          <h2 class="mb-5">
             Proyectos educativos
             <strong>abiertos</strong>
             para aprender
