@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div>
     <Metas
       :title="title"
       :description="description"
@@ -33,9 +33,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.content {
-  padding: 20px;
-  background: #fff;
-}
-</style>
+<style lang="scss" scoped></style>

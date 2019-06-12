@@ -4,11 +4,11 @@
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
   word-spacing: 1px;
-  #home {
-    background: #fff url(../images/bkg.png) center center no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+}
+#app.home {
+  background: #fff url(../images/bkg.png) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 *,

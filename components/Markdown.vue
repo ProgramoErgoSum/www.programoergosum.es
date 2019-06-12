@@ -62,16 +62,24 @@ export default {
       margin: 0;
       padding: 0;
       a {
-        display: inline-block;
+        display: block;
+        padding: 10px;
+        color: #2d3339;
+        border-left: 3px solid transparent;
+        &:hover {
+          border-left-color: #2d3339;
+        }
       }
     }
   }
 }
-/*
 .markdown {
+  padding: 20px 30px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+
   font-size: 18px;
   h1 {
-    margin-top: 60px;
     margin-bottom: 20px;
     font-size: 1.5em;
     font-weight: 600;
@@ -246,5 +254,4 @@ export default {
     border: 1px solid #f0f0f0;
   }
 }
-*/
 </style>

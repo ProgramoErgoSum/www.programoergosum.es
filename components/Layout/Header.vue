@@ -26,11 +26,17 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-toolbar color="secondary" dark flat fixed app>
+    <v-toolbar
+      v-scroll="onScroll"
+      :color="isTransparent ? 'transparent' : '#ffffff'"
+      :flat="isTransparent"
+      fixed
+      app
+    >
       <v-toolbar-side-icon class="hidden-md-and-up" @click="toggleDrawer" />
       <v-toolbar-title>
         <nuxt-link to="/">
-          <Logo class="pt-1" color="white" />
+          <Logo class="pt-1" color="#2d3339" />
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer />
@@ -115,15 +121,11 @@ export default {
   },
   methods: {
     ...mapMutations(['setDrawer']),
-    ...mapMutations(['toggleDrawer'])
-  }
-  /*,
-  methods: {
+    ...mapMutations(['toggleDrawer']),
     onScroll() {
-      this.isTransparent = window.pageYOffset < 200
+      this.isTransparent = window.pageYOffset < 40
     }
   }
-  */
 }
 </script>
 
