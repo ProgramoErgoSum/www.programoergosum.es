@@ -15,6 +15,8 @@
 </template>
 
 <script>
+import activities from '@/static/actividades/list.json'
+
 import Metas from '@/components/Layout/Metas'
 import Markdown from '@/components/Markdown'
 
@@ -23,19 +25,20 @@ export default {
     Metas,
     Markdown
   },
-  async asyncData({ route, params }) {
-    const metas = await import(
-      `~/static/actividades/${params.alias}/config.json`
-    )
+  async asyncData({ params }) {
+    const activity = activities.find(e => {
+      return e.alias === params.alias
+    })
+    const path = `/actividades/${params.alias}/`
     const readme = await import(
       `~/static/actividades/${params.alias}/README.md`
     )
-    const content = readme.body.split('![](').join(`![](${route.path}`)
+    const content = readme.body.split('![](').join(`![](${path}`)
     return {
-      title: metas.title,
-      description: metas.description,
-      image: `${route.path}preview.png`,
-      keywords: metas.keywords,
+      title: activity.title,
+      description: activity.description,
+      image: `${path}/preview.png`,
+      keywords: activity.keywords,
       content: content
     }
   }

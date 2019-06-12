@@ -1,6 +1,6 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 
-const path = require('path')
+const path = import('path')
 
 const canonical = 'https://programoergosum.github.io'
 const title = 'Asociación Programo Ergo Sum'
@@ -111,7 +111,7 @@ export default {
         include: path.resolve(__dirname, 'static'),
         options: {
           vue: {
-            root: "dynamicMarkdown"
+            root: 'dynamicMarkdown'
           }
         }
       })
