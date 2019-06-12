@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid grid-list-md>
+  <v-container pa-0 fluid grid-list-md>
     <v-layout row wrap>
       <v-flex sm12 md9>
         <vue-markdown
@@ -47,10 +47,10 @@ export default {
 
 <style lang="scss">
 .toc {
-  margin-bottom: 30px;
-  padding: 10px 20px;
-  border-left: 1px solid #f0f0f0;
+  margin: 0;
+  padding: 10px;
   font-size: 16px;
+  font-weight: 100;
   ul {
     margin: 0;
     padding: 0;
@@ -59,14 +59,10 @@ export default {
       &:before {
         content: '';
       }
-      li {
-        margin: 0 0 0 20px;
-      }
+      margin: 0;
+      padding: 0;
       a {
         display: inline-block;
-        margin: 5px 0;
-        text-decoration: none;
-        font-weight: 500;
       }
     }
   }

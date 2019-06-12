@@ -2,9 +2,7 @@
   <v-app>
     <Header />
     <v-content>
-      <v-container grid-list-md>
-        <nuxt class="nuxt-content" />
-      </v-container>
+      <nuxt />
       <ToTop />
     </v-content>
     <Footer />

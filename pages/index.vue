@@ -22,6 +22,7 @@
 
 <script>
 export default {
+  layout: 'index',
   head() {
     const title = process.env.title
     const description = process.env.description

@@ -1,17 +1,13 @@
 <template>
-  <v-container grid-list-md>
-    <v-layout row wrap>
-      <v-flex shrink>
-        <Metas
-          :title="title"
-          :description="description"
-          :image="image"
-          :keywords="keywords"
-        />
-        <Markdown :content="content" />
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <div class="content">
+    <Metas
+      :title="title"
+      :description="description"
+      :image="image"
+      :keywords="keywords"
+    />
+    <Markdown :content="content" />
+  </div>
 </template>
 
 <script>
@@ -37,4 +33,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.content {
+  padding: 20px;
+  background: #fff;
+}
+</style>
