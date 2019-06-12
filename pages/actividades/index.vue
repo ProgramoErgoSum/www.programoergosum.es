@@ -1,10 +1,14 @@
 <template>
-  <v-container grid-list-md>
-    <v-layout row wrap>
-      <v-flex v-for="activity in activities" :key="activity.alias">
-        <nuxt-link :to="`/actividades/${activity.alias}`">
-          <h3>{{ activity.title }}</h3>
-        </nuxt-link>
+  <v-container pa-0 fluid>
+    <v-layout row wrap justify-center>
+      <v-flex v-for="activity in activities" :key="activity.alias" md12 lg4>
+        <v-card class="ma-3" :to="activity.alias">
+          <v-img :src="`${activity.img}`" :title="`${activity.title}`" />
+          <v-card-title primary-title>
+            <h3 class="mb-2">{{ activity.title }}</h3>
+            <div>{{ activity.description }}</div>
+          </v-card-title>
+        </v-card>
       </v-flex>
     </v-layout>
   </v-container>

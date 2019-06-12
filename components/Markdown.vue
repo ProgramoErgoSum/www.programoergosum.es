@@ -81,20 +81,20 @@ export default {
   font-size: 18px;
   h1 {
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 600;
     line-height: 50px;
   }
   h2 {
     margin-top: 40px;
     margin-bottom: 20px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 700;
   }
   h3 {
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 600;
   }
   h4 {
