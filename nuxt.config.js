@@ -1,6 +1,5 @@
+import path from 'path'
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
-
-const path = import('path')
 
 const canonical = 'https://programoergosum.github.io'
 const title = 'Asociación Programo Ergo Sum'

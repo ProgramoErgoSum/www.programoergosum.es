@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-navigation-drawer v-model="drawer" color="secondary" dark app>
+    <v-navigation-drawer v-model="drawer" app>
       <v-list>
         <template v-for="item in navigation">
           <v-list-tile :key="item.link" :to="item.link">
@@ -26,16 +26,11 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-toolbar color="primary" dark flat fixed app>
+    <v-toolbar color="secondary" dark flat fixed app>
       <v-toolbar-side-icon class="hidden-md-and-up" @click="toggleDrawer" />
       <v-toolbar-title>
         <nuxt-link to="/">
-          <v-img
-            :src="require('@/static/logo-programoergosum.png')"
-            class="mr-5"
-            contain
-            width="150"
-          />
+          <Logo class="pt-1" color="white" />
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer />
@@ -57,8 +52,13 @@
 <script>
 import { mapMutations } from 'vuex'
 
+import Logo from '@/components/Layout/Logo'
+
 export default {
   name: 'Header',
+  components: {
+    Logo
+  },
   data() {
     return {
       isTransparent: true,
