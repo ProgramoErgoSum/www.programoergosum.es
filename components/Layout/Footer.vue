@@ -13,14 +13,9 @@
                 flat
                 nuxt
               >
-                <a
-                  target="_blank"
-                  :href="item.link"
-                  :title="item.title"
-                  rel="noopener noreferrer"
-                >
+                <nuxt-link :to="item.link" :title="item.title">
                   {{ item.title }}
-                </a>
+                </nuxt-link>
               </li>
             </ul>
           </div>
@@ -81,14 +76,13 @@ export default {
     association: [
       {
         title: 'Asociación',
-        link: 'https://www.programoergosum.com/el-proyecto-programo-ergo-sum'
-      },
+        link: '/asociacion'
+      }
       /*
       {
         title: 'Colabora',
         link: '/colabora'
       },
-      */
       {
         title: 'Hazte socio',
         link: 'https://www.programoergosum.com/registro'
@@ -97,6 +91,7 @@ export default {
         title: 'Contacta',
         link: 'https://www.programoergosum.com/contacto'
       }
+      */
     ],
     projects: [
       {
