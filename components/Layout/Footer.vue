@@ -2,7 +2,6 @@
   <v-footer id="footer" app fixed absolute height="auto">
     <v-container grid-list-md>
       <v-layout row wrap justify-center text-xs-center>
-        <!--
         <v-flex xs12 sm6 md4 lg3>
           <div class="block">
             <h4>Sobre nosotros</h4>
@@ -49,7 +48,6 @@
             </ul>
           </div>
         </v-flex>
-        -->
         <v-flex xs12>
           <div class="ma-1 text-center">
             <v-btn
@@ -166,6 +164,9 @@ export default {
       li {
         margin-bottom: 10px;
         font-weight: 300;
+        a {
+          color: #2d3339;
+        }
       }
     }
   }
