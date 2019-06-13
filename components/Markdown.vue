@@ -47,6 +47,7 @@ export default {
 
 <style lang="scss">
 .toc {
+  position: fixed;
   margin: 0;
   padding: 10px;
   font-size: 16px;
