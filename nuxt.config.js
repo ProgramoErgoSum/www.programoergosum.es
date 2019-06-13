@@ -1,6 +1,8 @@
 import path from 'path'
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 
+import activities from './static/actividades/list.json'
+
 const canonical = 'https://programoergosum.github.io'
 const title = 'Asociación Programo Ergo Sum'
 const description =
@@ -78,6 +80,20 @@ export default {
    */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+  },
+
+  /*
+   ** Generate
+   */
+  generate: {
+    routes: async function() {
+      const a = await activities.map(a => {
+        return `/actividades/${a.alias}`
+      })
+      return Promise.all([a]).then(v => {
+        return [...v[0]]
+      })
+    }
   },
 
   /*
