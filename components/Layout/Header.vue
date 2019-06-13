@@ -92,14 +92,13 @@ export default {
               link: 'https://wikitic.github.io'
             }
           ]
-        }
-        /*
-        ,
+        },
         {
           title: 'Actividades',
           icon: 'dashboard',
           link: '/actividades'
-        },
+        }
+        /*
         {
           title: 'Contacta',
           icon: 'dashboard',

@@ -1,8 +1,14 @@
 <template>
   <v-container pa-0 fluid>
     <v-layout row wrap>
+      <Metas
+        :title="title"
+        :description="description"
+        :image="image"
+        :keywords="keywords"
+      />
       <v-flex v-for="activity in activities" :key="activity.alias" md12 lg4>
-        <v-card class="ma-3" :to="activity.alias">
+        <v-card class="ma-3" :to="`/actividades/${activity.alias}`">
           <v-img
             :src="`/actividades/${activity.alias}/images/preview.png`"
             :title="`${activity.title}`"
@@ -18,11 +24,19 @@
 </template>
 
 <script>
+import Metas from '@/components/Layout/Metas'
 import activities from '@/static/actividades/list.json'
 
 export default {
+  components: {
+    Metas
+  },
   asyncData() {
     return {
+      title: 'Actividades',
+      description: process.env.description,
+      keywords: process.env.keywords,
+      image: process.env.image,
       activities: activities
     }
   }
