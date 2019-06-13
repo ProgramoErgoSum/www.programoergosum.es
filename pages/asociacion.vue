@@ -1,13 +1,17 @@
 <template>
-  <div>
-    <Metas
-      :title="title"
-      :description="description"
-      :image="image"
-      :keywords="keywords"
-    />
-    <Content :content="content" />
-  </div>
+  <v-container class="asociacion">
+    <v-layout row wrap>
+      <v-flex xs12>
+        <Metas
+          :title="title"
+          :description="description"
+          :image="image"
+          :keywords="keywords"
+        />
+        <Content :content="content" />
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

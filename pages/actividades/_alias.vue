@@ -1,5 +1,5 @@
 <template>
-  <v-container grid-list-md>
+  <v-container class="_alias">
     <v-layout row wrap>
       <v-flex sm12 md9>
         <Metas
@@ -11,7 +11,9 @@
         <Content :content="content" />
       </v-flex>
       <v-flex md3 class="hidden-sm-and-down">
-        <Toc :content="content" />
+        <div class="toc">
+          <Toc :content="content" />
+        </div>
       </v-flex>
     </v-layout>
   </v-container>
@@ -50,4 +52,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.toc {
+  position: fixed;
+}
+</style>

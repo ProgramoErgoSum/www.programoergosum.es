@@ -1,28 +1,21 @@
 <template>
-  <section id="projects">
-    <div class="section-head">
-      <h3 class="section-title">
-        Proyectos
-      </h3>
-      <p class="section-desc">
-        Todos los proyectos educativos se encuentran bajo licencia
-        <b>Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional.</b>
-      </p>
-    </div>
-    <v-container pa-0 fluid>
-      <v-layout row wrap justify-center>
-        <v-flex v-for="project in projects" :key="project.link" md12 lg4>
-          <v-card class="ma-3" :href="project.link" target="_blank">
-            <v-img :src="`${project.img}`" :title="`${project.title}`" />
-            <v-card-title primary-title>
-              <h3 class="mb-2">{{ project.title }}</h3>
-              <div>{{ project.description }}</div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-      </v-layout>
-    </v-container>
-  </section>
+  <v-container fluid class="proyectos">
+    <v-layout row wrap>
+      <v-flex xs12>
+        <v-layout row wrap justify-center>
+          <v-flex v-for="project in projects" :key="project.link" md12 lg4>
+            <v-card class="ma-3" :href="project.link" target="_blank">
+              <v-img :src="`${project.img}`" :title="`${project.title}`" />
+              <v-card-title primary-title>
+                <h3 class="mb-2">{{ project.title }}</h3>
+                <div>{{ project.description }}</div>
+              </v-card-title>
+            </v-card>
+          </v-flex>
+        </v-layout>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

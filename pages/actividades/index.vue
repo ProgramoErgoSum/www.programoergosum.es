@@ -1,5 +1,5 @@
 <template>
-  <v-container pa-0 fluid>
+  <v-container fluid class="actividades">
     <v-layout row wrap>
       <Metas
         :title="title"

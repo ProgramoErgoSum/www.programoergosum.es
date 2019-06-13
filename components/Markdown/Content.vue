@@ -27,10 +27,6 @@ export default {
 
 <style lang="scss">
 .markdown {
-  padding: 20px 30px;
-  border: 1px solid #e1e1e1;
-  background: #fff;
-
   font-size: 18px;
   h1 {
     margin-bottom: 20px;
