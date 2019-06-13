@@ -1,25 +1,37 @@
 <template>
-  <v-container fluid class="proyectos">
-    <v-layout row wrap>
-      <v-flex xs12>
-        <v-layout row wrap justify-center>
-          <v-flex v-for="project in projects" :key="project.link" md12 lg4>
-            <v-card class="ma-3" :href="project.link" target="_blank">
-              <v-img :src="`${project.img}`" :title="`${project.title}`" />
-              <v-card-title primary-title>
-                <h3 class="mb-2">{{ project.title }}</h3>
-                <div>{{ project.description }}</div>
-              </v-card-title>
-            </v-card>
-          </v-flex>
-        </v-layout>
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <div id="proyectos">
+    <Metas
+      :title="title"
+      :description="description"
+      :image="image"
+      :keywords="keywords"
+    />
+    <Title :title="title" :description="description" />
+    <v-container fluid>
+      <v-layout row wrap justify-center>
+        <v-flex v-for="project in projects" :key="project.link" md12 lg4>
+          <v-card class="ma-3" :href="project.link" target="_blank">
+            <v-img :src="`${project.img}`" :title="`${project.title}`" />
+            <v-card-title primary-title>
+              <h3 class="mb-2">{{ project.title }}</h3>
+              <div>{{ project.description }}</div>
+            </v-card-title>
+          </v-card>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </div>
 </template>
 
 <script>
+import Metas from '@/components/Layout/Metas'
+import Title from '@/components/Layout/Title'
+
 export default {
+  components: {
+    Metas,
+    Title
+  },
   data: () => ({
     projects: [
       {
@@ -45,27 +57,12 @@ export default {
       }
     ]
   }),
-  head() {
-    const title = process.env.title
-    const description = process.env.description
-    const keywords = process.env.keywords
-    const image = process.env.image
-    const url = process.env.canonical + this.$route.path
+  asyncData({ route }) {
     return {
-      title: title,
-      meta: [
-        { rel: 'canonical', href: url },
-        { name: 'description', content: description },
-        { name: 'keywords', content: keywords },
-        { property: 'og:title', content: title },
-        { property: 'og:description', content: description },
-        { property: 'og:image', content: image },
-        { property: 'og:url', content: url },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: title },
-        { name: 'twitter:description', content: description },
-        { name: 'twitter:image', content: image }
-      ]
+      title: 'Proyectos educativos',
+      description: process.env.description,
+      keywords: process.env.keywords,
+      image: process.env.image
     }
   }
 }

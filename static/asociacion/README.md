@@ -1,10 +1,8 @@
-# Asociación Programo Ergo Sum
+Programo Ergo Sum es una iniciativa sin ánimo de lucro que pretende **acercar la programación y robótica a todas las edades** como medio para el desarrollo del pensamiento lógico y computacional.
 
-La Asociación Programo Ergo Sum es una iniciativa sin ánimo de lucro que pretende acercar la programación de ordenadores, videojuegos y aplicaciones a todas las edades, utilizando la programación informática y en concreto la programación de videojuegos como medio para el desarrollo de otras competencias (matemáticas, física, inglés, etc.), y no solo como un fin.
+Apostamos por una educación libre y accesible a través de recursos educativos de programación, robótica y nuevas tecnologías en todos los niveles. También tenemos un compromiso social ya que no queremos que ningún niño o niña se quede fuera de este movimiento, y por ello realizamos talleres y eventos gratuitos en Murcia.
 
-Apostamos por una forma diferente de educación a través de cursos online gratuitos de programación y nuevas tecnologías en todos los niveles. También tenemos un compromiso social ya que no queremos que ningún niño o niña se quede fuera de este movimiento, y por ello realizamos talleres y eventos gratuitos en Murcia.
-
-## ¿Cuáles son nuestros fines?
+## Fines de la asociación
 
 Los fines de la Asociación Programo Ergo Sum tenderán a promover el interés general y, en concreto, serán los siguientes:
 
@@ -15,7 +13,7 @@ Los fines de la Asociación Programo Ergo Sum tenderán a promover el interés g
 - Prestar servicios a la juventud, especialmente los relacionados con el desarrollo de los fines detallados arriba en sus diversas expresiones.
 - Cualesquiera otros fines que redunden en beneficio de la ciudadanía en general.
 
-## ¿Cuáles son nuestras actividades?
+## Actividades de la asociación
 
 Para el cumplimiento de los fines del artículo anterior, la Asociación podrá promover y organizar las siguientes actividades:
 

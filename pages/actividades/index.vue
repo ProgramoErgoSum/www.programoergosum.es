@@ -1,39 +1,51 @@
 <template>
-  <v-container fluid class="actividades">
-    <v-layout row wrap>
-      <Metas
-        :title="title"
-        :description="description"
-        :image="image"
-        :keywords="keywords"
-      />
-      <v-flex v-for="activity in activities" :key="activity.alias" xs12 md6 lg4>
-        <v-card class="ma-3" :to="`/actividades/${activity.alias}`">
-          <v-img
-            :src="`/actividades/${activity.alias}/images/preview.png`"
-            :title="`${activity.title}`"
-          />
-          <v-card-title primary-title>
-            <h3 class="mb-3 title">{{ activity.title }}</h3>
-            <div class="subheading">{{ activity.description }}</div>
-          </v-card-title>
-        </v-card>
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <div id="actividades">
+    <Metas
+      :title="title"
+      :description="description"
+      :image="image"
+      :keywords="keywords"
+    />
+    <Title :title="title" :description="description" />
+    <v-container fluid>
+      <v-layout row wrap>
+        <v-flex
+          v-for="activity in activities"
+          :key="activity.alias"
+          xs12
+          md6
+          lg4
+        >
+          <v-card class="ma-3" :to="`/actividades/${activity.alias}`">
+            <v-img
+              :src="`/actividades/${activity.alias}/images/preview.png`"
+              :title="`${activity.title}`"
+            />
+            <v-card-title primary-title>
+              <h3 class="mb-3 title">{{ activity.title }}</h3>
+              <div class="subheading">{{ activity.description }}</div>
+            </v-card-title>
+          </v-card>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </div>
 </template>
 
 <script>
-import Metas from '@/components/Layout/Metas'
 import activities from '@/static/actividades/list.json'
+
+import Metas from '@/components/Layout/Metas'
+import Title from '@/components/Layout/Title'
 
 export default {
   components: {
-    Metas
+    Metas,
+    Title
   },
   asyncData() {
     return {
-      title: 'Actividades',
+      title: 'Talleres y actividades',
       description: process.env.description,
       keywords: process.env.keywords,
       image: process.env.image,
