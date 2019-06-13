@@ -3,12 +3,18 @@
     "alias": "coderdojo-murcia",
     "title": "Club gratuito de Programación y Robótica en Murcia",
     "description": "Club gratuito de programación y robótica para chicos y chicas de 10 a 17 años en Murcia.",
-    "keywords": ["coderdojo", "coderdojo murcia", "club"]
+    "keywords": ["coderdojo", "murcia", "club"]
   },
   {
     "alias": "club-maker-murcia",
     "title": "Club maker de robótica en Murcia",
-    "description": "Club maker gratuito de programación y robótica para jóvenes en el IES Alfonso X de Murcia..",
-    "keywords": ["maker", "maker murcia", "club"]
+    "description": "Club maker gratuito de programación y robótica para jóvenes en el IES Alfonso X de Murcia.",
+    "keywords": ["maker", "murcia", "club"]
+  },
+  {
+    "alias": "participo-luego-existo",
+    "title": "Concurso Participo Luego Existo",
+    "description": "Concurso de programación y robótica destinado a colegios e institutos de la Región de Murcia..",
+    "keywords": ["concurso", "murcia"]
   }
 ]
