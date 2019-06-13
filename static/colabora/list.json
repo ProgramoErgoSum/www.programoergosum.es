@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Miguel Ángel Abellán",
+    "image": "https://pbs.twimg.com/profile_images/629634647912267777/gOmLRG8A_400x400.png",
+    "social": {
+      "twitter": "https://twitter.com/migueabellan",
+      "github": "https://github.com/migueabellan"
+    }
+  },
+  {
+    "name": "Carmen B. Martínez",
+    "image": "https://pbs.twimg.com/profile_images/650326709242302464/f27brfje_400x400.jpg",
+    "social": {
+      "twitter": "https://twitter.com/armenb_mg",
+      "github": ""
+    }
+  },
+  {
+    "name": "Miguel Manzano",
+    "image": "https://pbs.twimg.com/profile_images/975973650959618049/gRdPUS4g_400x400.jpg",
+    "social": {
+      "twitter": "https://twitter.com/mmanzano",
+      "github": "https://github.com/mmanzano"
+    }
+  }
+]
