@@ -14,7 +14,13 @@
   {
     "alias": "participo-luego-existo",
     "title": "Concurso Participo Luego Existo",
-    "description": "Concurso de programación y robótica destinado a colegios e institutos de la Región de Murcia..",
+    "description": "Concurso de programación y robótica destinado a colegios e institutos de la Región de Murcia.",
     "keywords": ["concurso", "murcia"]
+  },
+  {
+    "alias": "programacion-informatica-inclusiva",
+    "title": "Programación y Robótica inclusiva TEA",
+    "description": "Talleres de programación y robótica destinados a personas con autismo u otra diversidad funcional.",
+    "keywords": ["inclusión", "tea", "murcia"]
   }
 ]
