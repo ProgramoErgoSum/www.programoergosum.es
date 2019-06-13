@@ -2,7 +2,7 @@
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    height="36pt"
+    :height="size"
     viewBox="0 0 210 60"
     version="1.1"
   >
@@ -97,9 +97,13 @@
 export default {
   name: 'Logo',
   props: {
+    size: {
+      type: String,
+      default: '36pt'
+    },
     color: {
       type: String,
-      default: 'black'
+      default: '#2d3339'
     }
   }
 }

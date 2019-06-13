@@ -36,7 +36,7 @@
       <v-toolbar-side-icon class="hidden-md-and-up" @click="toggleDrawer" />
       <v-toolbar-title>
         <nuxt-link to="/">
-          <Logo class="pt-1" color="#2d3339" />
+          <Logo class="pt-1" />
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer />
@@ -99,6 +99,11 @@ export default {
           link: '/actividades'
         }
         /*
+        {
+          title: 'Colabora',
+          icon: 'dashboard',
+          link: '/colabora'
+        },
         {
           title: 'Contacta',
           icon: 'dashboard',

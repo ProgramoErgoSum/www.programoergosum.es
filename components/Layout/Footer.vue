@@ -1,7 +1,24 @@
 <template>
-  <v-footer id="footer" app fixed absolute height="auto">
-    <v-container grid-list-md>
-      <v-layout row wrap justify-center text-xs-center>
+  <v-footer id="footer" fixed absolute height="auto" app>
+    <v-container>
+      <v-layout row wrap>
+        <v-flex xs12>
+          <div class="follow">
+            <span>Síguenos:</span>
+            <v-btn
+              v-for="icon in icons"
+              :key="icon.icon"
+              :href="icon.link"
+              rel="noopener noreferrer"
+              target="_blank"
+              icon
+            >
+              <v-icon>
+                {{ icon.icon }}
+              </v-icon>
+            </v-btn>
+          </div>
+        </v-flex>
         <v-flex xs12 sm6 md4 lg3>
           <div class="block">
             <h4>Sobre nosotros</h4>
@@ -44,24 +61,15 @@
           </div>
         </v-flex>
         <v-flex xs12>
-          <div class="ma-1 text-center">
-            <v-btn
-              v-for="icon in icons"
-              :key="icon.icon"
-              :href="icon.link"
-              rel="noopener noreferrer"
-              target="_blank"
-              icon
-            >
-              <v-icon>
-                {{ icon.icon }}
-              </v-icon>
-            </v-btn>
-          </div>
-        </v-flex>
-        <v-flex xs12>
           <div class="copyleft">
             <p>{{ new Date().getFullYear() }} - Asociación Programo Ergo Sum</p>
+            <!--
+            <ul>
+              <li>{{ new Date().getFullYear() }} - Asociación Programo Ergo Sum</li>
+              <li>Código de conducta</li>
+              <li>Términos y servicios</li>
+            </ul>
+            -->
           </div>
         </v-flex>
       </v-layout>
@@ -143,13 +151,15 @@ export default {
 
 <style lang="scss" scoped>
 #footer {
-  margin: 0;
+  border-top: 1px solid #eaebeb;
   background: #fff;
+  .follow {
+    margin: 50px 0;
+  }
   .block {
-    margin: 0 0 30px;
     h4 {
       margin: 0 0 15px;
-      font-weight: 600;
+      font-weight: 400;
       color: #2d3339;
     }
     ul {
@@ -158,9 +168,13 @@ export default {
       list-style: none;
       li {
         margin-bottom: 10px;
-        font-weight: 300;
+        font-weight: 100;
+        font-size: 16px;
         a {
-          color: #2d3339;
+          color: #6c7074;
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }
@@ -169,11 +183,9 @@ export default {
     color: #2d3339;
   }
   .copyleft {
+    margin: 50px 0 0;
+    text-align: center;
     font-size: 12px;
-    p {
-      margin: 0 0 5px;
-      padding: 0;
-    }
   }
 }
 </style>

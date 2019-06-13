@@ -1,29 +1,72 @@
 <template>
-  <v-container pa-0 ma-0 class="home">
-    <v-layout row wrap>
-      <v-flex xs12>
-        <Metas
-          :title="title"
-          :description="description"
-          :image="image"
-          :keywords="keywords"
-        />
-        <section class="text-xs-center">
-          <h1 class="mb-3">
-            Asociación Programo Ergo Sum
-          </h1>
-          <h2 class="mb-5">
-            Proyectos educativos
-            <strong>abiertos</strong>
-            para aprender
-            <span class="stress">programación y robótica</span>
-            con herramientas
-            <strong>libres</strong>
-          </h2>
-        </section>
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <div>
+    <Metas
+      :title="title"
+      :description="description"
+      :image="image"
+      :keywords="keywords"
+    />
+
+    <v-container class="home">
+      <v-layout row wrap>
+        <v-flex xs12>
+          <section class="text-xs-center">
+            <h1 class="mb-3">
+              Asociación Programo Ergo Sum
+            </h1>
+            <h2 class="mb-5">
+              Proyectos educativos
+              <strong>abiertos</strong>
+              para aprender
+              <span class="stress">programación y robótica</span>
+              con herramientas
+              <strong>libres</strong>
+            </h2>
+          </section>
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <section class="somos">
+      <v-container>
+        <v-layout row justify-center>
+          <v-flex>
+            <v-layout row wrap>
+              <v-flex
+                v-for="item in doing"
+                :key="item.icon"
+                class="text-xs-center pa-3"
+                sm12
+                md4
+              >
+                <v-icon class="mb-4" large>{{ item.icon }}</v-icon>
+                <p class="title">{{ item.title }}</p>
+                <p class="subheading">{{ item.description }}</p>
+              </v-flex>
+            </v-layout>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </section>
+
+    <section class="asociacion">
+      <v-container>
+        <v-layout row wrap>
+          <v-flex>
+            <p class="headline font-weight-black">
+              Asociación Programo Ergo Sum
+            </p>
+            <p class="headline">
+              Iniciativa sin ánimo de lucro inscrita en el Registro de
+              Asociaciones por el Director General de Participación Ciudadana,
+              Unión Europea y Acción Exterior de la Consejería de Presidencia,
+              con el número de registro 12.731/1ª.
+            </p>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -33,6 +76,28 @@ export default {
   components: {
     Metas
   },
+  data: () => ({
+    doing: [
+      {
+        icon: 'fas fa-chalkboard-teacher',
+        title: 'Recursos educativos',
+        description:
+          'Fomentando el uso de la programación, robótica y nuevas tecnologías'
+      },
+      {
+        icon: 'fas fa-code',
+        title: 'Código abierto',
+        description:
+          'Proyectos de código abierto creados con herramientas libres'
+      },
+      {
+        icon: 'fas fa-globe',
+        title: 'Online',
+        description:
+          'Accede a todos nuestros proyectos desde tu casa y sin registrarte'
+      }
+    ]
+  }),
   asyncData() {
     return {
       title: process.env.title,
@@ -70,5 +135,14 @@ export default {
       color: #fff;
     }
   }
+}
+.somos {
+  padding: 50px 0;
+  background: #fff;
+}
+.asociacion {
+  padding: 50px;
+  background: #d25f34;
+  color: #fff;
 }
 </style>

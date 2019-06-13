@@ -74,6 +74,7 @@ export default {
     padding: 0;
     li {
       display: block;
+      margin-bottom: 10px;
       list-style: none;
       &:before {
         padding: 0 15px 0 0;
