@@ -1,28 +1,18 @@
 <template>
-  <v-container pa-0 fluid grid-list-md>
-    <v-layout row wrap>
-      <v-flex sm12 md9>
-        <vue-markdown
-          class="markdown"
-          :toc="true"
-          :toc-first-level="1"
-          :toc-anchor-link="false"
-          :source="content"
-          @toc-rendered="tocAllRight"
-        />
-      </v-flex>
-      <v-flex md3 class="hidden-sm-and-down">
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="toc" v-html="menu" />
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <vue-markdown
+    class="markdown"
+    :toc="true"
+    :toc-first-level="1"
+    :toc-anchor-link="false"
+    :source="content"
+  />
 </template>
 
 <script>
 import VueMarkdown from 'vue-markdown'
+
 export default {
-  name: 'Markdown',
+  name: 'Content',
   components: {
     VueMarkdown
   },
@@ -31,49 +21,11 @@ export default {
       type: String,
       default: ''
     }
-  },
-  data() {
-    return {
-      menu: ''
-    }
-  },
-  methods: {
-    tocAllRight: function(tocHtmlStr) {
-      this.menu = tocHtmlStr.split('"#').join(`"${this.$route.path}#`)
-    }
   }
 }
 </script>
 
 <style lang="scss">
-.toc {
-  position: fixed;
-  margin: 0;
-  padding: 10px;
-  font-size: 16px;
-  font-weight: 100;
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-      &:before {
-        content: '';
-      }
-      margin: 0;
-      padding: 0;
-      a {
-        display: block;
-        padding: 10px;
-        color: #2d3339;
-        border-left: 3px solid transparent;
-        &:hover {
-          border-left-color: #2d3339;
-        }
-      }
-    }
-  }
-}
 .markdown {
   padding: 20px 30px;
   border: 1px solid #e1e1e1;

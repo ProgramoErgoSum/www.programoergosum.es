@@ -6,18 +6,18 @@
       :image="image"
       :keywords="keywords"
     />
-    <Markdown :content="content" />
+    <Content :content="content" />
   </div>
 </template>
 
 <script>
 import Metas from '@/components/Layout/Metas'
-import Markdown from '@/components/Markdown'
+import Content from '@/components/Markdown/Content'
 
 export default {
   components: {
     Metas,
-    Markdown
+    Content
   },
   async asyncData({ route }) {
     const readme = await import(`~/static/asociacion/README.md`)
