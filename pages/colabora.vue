@@ -63,6 +63,22 @@
           <i class="fab fa-github" style="color:#333"></i>
         </v-btn>
       </v-flex>
+      <!--
+      <v-flex xs12>
+        <v-expansion-panel>
+          <v-expansion-panel-content v-for="item in contents" :key="item.title">
+            <div slot="header">
+              {{ item.title }}
+            </div>
+            <v-card>
+              <v-card-text class="grey lighten-3">
+                {{ item.description }}
+              </v-card-text>
+            </v-card>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-flex>
+      -->
     </v-layout>
   </v-container>
 </template>
@@ -75,6 +91,27 @@ export default {
   components: {
     Metas
   },
+  /*
+  data: () => ({
+    contents: [
+      {
+        title: 'Recursos educativos',
+        description:
+          'Fomentando el uso de la programación, robótica y nuevas tecnologías'
+      },
+      {
+        title: 'Código abierto',
+        description:
+          'Proyectos de código abierto creados con herramientas libres'
+      },
+      {
+        title: 'Online',
+        description:
+          'Accede a todos nuestros proyectos desde tu casa y sin registrarte'
+      }
+    ]
+  }),
+  */
   asyncData() {
     return {
       title: 'Colabora',
