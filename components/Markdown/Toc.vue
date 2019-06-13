@@ -1,8 +1,8 @@
 <template>
   <v-list>
     <template v-for="item in menu">
-      <v-list-tile :key="item.anchor" @click="$vuetify.goTo(`#${item.anchor}`)">
-        <v-list-tile-title v-text="item.content" />
+      <v-list-tile :key="item.anchor" @click="goTo(item.anchor)">
+        <v-list-tile-content v-text="item.content" />
       </v-list-tile>
     </template>
   </v-list>
@@ -42,6 +42,11 @@ export default {
       }
     })
     md.render(this.content)
+  },
+  methods: {
+    goTo(anchor) {
+      this.$vuetify.goTo(`#${anchor}`)
+    }
   }
 }
 </script>
