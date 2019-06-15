@@ -72,7 +72,8 @@ export default {
   asyncData() {
     return {
       title: 'Colaboradores',
-      description: process.env.description,
+      description:
+        '¿Quieres formar parte del equipo? Conviértete en colaborador.',
       keywords: process.env.keywords,
       image: process.env.image,
       collaborators: collaborators
