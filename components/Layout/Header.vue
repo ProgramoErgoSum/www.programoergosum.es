@@ -97,13 +97,13 @@ export default {
           title: 'Actividades',
           icon: 'dashboard',
           link: '/actividades'
-        }
-        /*
+        },
         {
           title: 'Colabora',
           icon: 'dashboard',
           link: '/colabora'
-        },
+        }
+        /*
         {
           title: 'Contacta',
           icon: 'dashboard',
