@@ -36,12 +36,15 @@
                 v-for="item in doing"
                 :key="item.icon"
                 class="text-xs-center pa-3"
+                xs12
                 sm12
                 md4
               >
-                <v-icon class="mb-4" large>{{ item.icon }}</v-icon>
-                <p class="title">{{ item.title }}</p>
-                <p class="subheading">{{ item.description }}</p>
+                <v-card class="card" flat>
+                  <v-icon class="mb-4" large>{{ item.icon }}</v-icon>
+                  <p class="title">{{ item.title }}</p>
+                  <p class="subheading">{{ item.description }}</p>
+                </v-card>
               </v-flex>
             </v-layout>
           </v-flex>
@@ -53,10 +56,10 @@
       <v-container>
         <v-layout row wrap>
           <v-flex>
-            <p class="headline font-weight-black">
+            <p class="font-weight-black">
               Asociación Programo Ergo Sum
             </p>
-            <p class="headline">
+            <p class="font-weight-light">
               Iniciativa sin ánimo de lucro inscrita en el Registro de
               Asociaciones por el Director General de Participación Ciudadana,
               Unión Europea y Acción Exterior de la Consejería de Presidencia,
@@ -114,8 +117,8 @@ export default {
   max-width: 100%;
   min-height: 100vh;
   max-height: 100vh;
-  margin-top: -70px !important;
-  padding-top: 35vh !important;
+  margin-top: -70px;
+  padding: 35vh 20px;
   h1 {
     font-weight: 600;
     font-size: 40px;
@@ -139,10 +142,47 @@ export default {
 .somos {
   padding: 50px 0;
   background: #fff;
+  .card {
+    width: 200px;
+    margin: 0 auto;
+  }
 }
 .asociacion {
   padding: 50px;
   background: #d25f34;
   color: #fff;
+  font-size: 20px;
+}
+@media only screen and (max-width: 1904px) {
+}
+@media only screen and (max-width: 1264px) {
+}
+@media only screen and (max-width: 960px) {
+  .home {
+    min-height: auto;
+    max-height: auto;
+    margin-top: -50px;
+    padding: 150px 20px 70px;
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .asociacion {
+    padding: 20px;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home {
+    h1 {
+      font-size: 26px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
 }
 </style>

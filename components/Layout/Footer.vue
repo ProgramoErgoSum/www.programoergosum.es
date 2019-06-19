@@ -85,21 +85,11 @@ export default {
       {
         title: 'Asociación',
         link: '/asociacion'
-      }
-      /*
+      },
       {
         title: 'Colabora',
         link: '/colabora'
-      },
-      {
-        title: 'Hazte socio',
-        link: 'https://www.programoergosum.com/registro'
-      },
-      {
-        title: 'Contacta',
-        link: 'https://www.programoergosum.com/contacto'
       }
-      */
     ],
     projects: [
       {
@@ -157,6 +147,7 @@ export default {
     margin: 50px 0;
   }
   .block {
+    margin: 0 0 50px;
     h4 {
       margin: 0 0 15px;
       font-weight: 400;
@@ -183,9 +174,27 @@ export default {
     color: #2d3339;
   }
   .copyleft {
-    margin: 50px 0 0;
     text-align: center;
     font-size: 12px;
   }
+}
+@media only screen and (max-width: 1904px) {
+}
+@media only screen and (max-width: 1264px) {
+}
+@media only screen and (max-width: 960px) {
+  #footer {
+    .follow {
+      span {
+        display: block;
+        margin-bottom: 20px;
+      }
+      .v-btn {
+        margin: 5px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
 }
 </style>
