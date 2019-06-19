@@ -34,7 +34,7 @@ export default {
     const blog = blogs.find(e => {
       return e.alias === params.alias
     })
-    return activity !== undefined
+    return blog !== undefined
   },
   async asyncData({ params, error }) {
     const blog = blogs.find(e => {
