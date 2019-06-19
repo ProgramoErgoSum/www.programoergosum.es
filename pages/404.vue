@@ -1,11 +1,10 @@
 <template>
-  <v-container fill-height>
-    <v-layout justify-center align-center>
-      <v-flex shrink>
-        <div>
-          <h1 class="display-1 font-weight-medium text-center">
-            Error 404: Página no encontrada
-          </h1>
+  <v-container fluid fill-height>
+    <v-layout align-center justify-center>
+      <v-flex>
+        <div class="text-xs-center">
+          <h1 class="errorcode font-weight-black">404</h1>
+          <h2 class="display ">Página no encontrada</h2>
         </div>
       </v-flex>
     </v-layout>
@@ -14,10 +13,15 @@
 
 <script>
 export default {
-  head: () => ({
-    title: 'Error 404: Página no encontrada'
-  })
+  layout: 'errors'
 }
 </script>
 
-<style lang="scss" scope></style>
+<style lang="scss" scoped>
+.errorcode {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 170px;
+  line-height: 170px;
+}
+</style>
