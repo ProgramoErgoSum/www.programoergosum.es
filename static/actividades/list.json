@@ -28,5 +28,11 @@
     "title": "Scratch Day Murcia",
     "description": "Evento mundial de programación de videojuegos con Scratch celebrado en más de 80 países del mundo.",
     "keywords": ["scratch", "day", "murcia"]
+  },
+  {
+    "alias": "codeweek-murcia",
+    "title": "CodeWeek Murcia",
+    "description": "Semana Europea de la programación donde aprenderás a programar con ayuda de mentores voluntarios.",
+    "keywords": ["codeweek", "murcia"]
   }
 ]
