@@ -13,6 +13,7 @@
           <v-card class="ma-3" :href="project.link" target="_blank">
             <v-img
               :src="`proyectos/images/${project.img}`"
+              :lazy-src="`/lazy.png`"
               :title="`${project.title}`"
               height="250"
             >
