@@ -59,6 +59,9 @@ export default {
 
 <style lang="scss" scoped>
 .toc {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 75px;
+  z-index: 2;
 }
 </style>
