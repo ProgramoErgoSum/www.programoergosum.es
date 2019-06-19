@@ -1,38 +1,80 @@
 [
   {
     "alias": "coderdojo-murcia",
-    "title": "Club gratuito de Programación y Robótica en Murcia",
+    "title": "Club de Programación y Robótica en Murcia",
     "description": "Club gratuito de programación y robótica para chicos y chicas de 10 a 17 años en Murcia.",
-    "keywords": ["coderdojo", "murcia", "club"]
+    "keywords": ["coderdojo", "murcia", "club"],
+    "extra": {
+      "address": "Centro Municipal 585m2, Murcia",
+      "calendar": {
+        "day": "1er y 3er sábado de cada mes",
+        "hour": "11:00 a 13:00"
+      }
+    }
   },
   {
     "alias": "club-maker-murcia",
     "title": "Club maker de robótica en Murcia",
     "description": "Club maker gratuito de programación y robótica para jóvenes en el IES Alfonso X de Murcia.",
-    "keywords": ["maker", "murcia", "club"]
+    "keywords": ["maker", "murcia", "club"],
+    "extra": {
+      "address": "IES Alfonso X, Murcia",
+      "calendar": {
+        "day": "Todos los viernes del curso",
+        "hour": "16:00 a 18:00"
+      }
+    }
   },
   {
     "alias": "participo-luego-existo",
     "title": "Concurso Participo Luego Existo",
     "description": "Concurso de programación y robótica destinado a colegios e institutos de la Región de Murcia.",
-    "keywords": ["concurso", "murcia"]
+    "keywords": ["concurso", "murcia"],
+    "extra": {
+      "address": "CEIP e IES de Murcia",
+      "calendar": {
+        "day": "Durante el mes de mayo",
+        "hour": "9:00 a 13:00"
+      }
+    }
   },
   {
     "alias": "programacion-informatica-inclusiva",
     "title": "Programación y Robótica inclusiva TEA",
     "description": "Talleres de programación y robótica destinados a personas con autismo u otra diversidad funcional.",
-    "keywords": ["inclusión", "tea", "murcia"]
+    "keywords": ["inclusión", "tea", "murcia"],
+    "extra": {
+      "address": "Asociaciones de Murcia",
+      "calendar": {
+        "day": "Previo a días festivos",
+        "hour": "Todo el día"
+      }
+    }
   },
   {
     "alias": "scratch-day-murcia",
-    "title": "Scratch Day Murcia",
+    "title": "Scratch Day en Murcia",
     "description": "Evento mundial de programación de videojuegos con Scratch celebrado en más de 80 países del mundo.",
-    "keywords": ["scratch", "day", "murcia"]
+    "keywords": ["scratch", "day", "murcia"],
+    "extra": {
+      "address": "Centro Municipal 585m2, Murcia",
+      "calendar": {
+        "day": "1ª y 2ª semana de mayo",
+        "hour": "Por la tarde"
+      }
+    }
   },
   {
     "alias": "codeweek-murcia",
-    "title": "CodeWeek Murcia",
+    "title": "CodeWeek en Murcia",
     "description": "Semana Europea de la programación donde aprenderás a programar con ayuda de mentores voluntarios.",
-    "keywords": ["codeweek", "murcia"]
+    "keywords": ["codeweek", "murcia"],
+    "extra": {
+      "address": "Centro Municipal 585m2, Murcia",
+      "calendar": {
+        "day": "1ª y 2ª semana de octubre",
+        "hour": "Por la tarde"
+      }
+    }
   }
 ]

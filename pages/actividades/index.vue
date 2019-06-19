@@ -22,9 +22,23 @@
               :title="`${activity.title}`"
             />
             <v-card-title primary-title>
-              <h3 class="mb-3 title">{{ activity.title }}</h3>
+              <h3 class="mb-4 title">{{ activity.title }}</h3>
               <div class="subheading">{{ activity.description }}</div>
             </v-card-title>
+            <v-card-text v-if="activity.extra">
+              <p>
+                <v-icon>map</v-icon>
+                {{ activity.extra.address }}
+              </p>
+              <p>
+                <v-icon>insert_invitation</v-icon>
+                {{ activity.extra.calendar.day }}
+              </p>
+              <p>
+                <v-icon>watch_later</v-icon>
+                {{ activity.extra.calendar.hour }}
+              </p>
+            </v-card-text>
           </v-card>
         </v-flex>
       </v-layout>
