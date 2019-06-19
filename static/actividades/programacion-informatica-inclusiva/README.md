@@ -21,3 +21,7 @@ Los talleres de programación y robótica inclusiva se realizan preferiblemente 
 Los talleres son totalmente gratuitos para la asociación, incluyendo desplazamiento, materiales de robótica, etc. Lo único a lo que se compromete la asociación es a aportar voluntarios, terapeutas, etc, para la realización del taller.
 
 ![](images/4.png)
+
+<!--
+![](images/5.png)
+-->
