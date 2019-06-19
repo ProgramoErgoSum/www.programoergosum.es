@@ -1,5 +1,5 @@
 <template>
-  <v-footer id="footer" fixed absolute height="auto" app>
+  <v-footer id="footer" app fixed absolute inset height="auto">
     <v-container>
       <v-layout row wrap>
         <v-flex xs12>

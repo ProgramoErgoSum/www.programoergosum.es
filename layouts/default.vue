@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <Header />
+    <Navigation :navigation="navigation" />
+    <Toolbar :navigation="navigation" />
     <v-content>
       <nuxt class="nuxt-content" />
       <ToTop />
@@ -10,15 +11,55 @@
 </template>
 
 <script>
-import Header from '@/components/Layout/Header'
+import Navigation from '@/components/Layout/Navigation'
+import Toolbar from '@/components/Layout/Toolbar'
 import ToTop from '@/components/Layout/ToTop'
 import Footer from '@/components/Layout/Footer'
 
 export default {
   components: {
-    Header,
+    Navigation,
+    Toolbar,
     ToTop,
     Footer
+  },
+  data() {
+    return {
+      navigation: [
+        {
+          title: 'Asociación',
+          icon: 'domain',
+          link: '/asociacion'
+        },
+        {
+          title: 'Proyectos',
+          icon: 'code',
+          link: '/proyectos'
+        },
+        {
+          title: 'Actividades',
+          icon: 'streetview',
+          link: '/actividades'
+        },
+        {
+          title: 'Colabora',
+          icon: 'group',
+          link: '/colabora'
+        },
+        {
+          title: 'Blog',
+          icon: 'description',
+          link: '/blog'
+        }
+        /*
+        {
+          title: 'Contacta',
+          icon: 'alternate_email',
+          link: '/contacta'
+        }
+        */
+      ]
+    }
   }
 }
 </script>
