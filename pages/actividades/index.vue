@@ -77,7 +77,7 @@ export default {
         'actividades',
         'extraescolares'
       ],
-      image: 'actividades/default.png',
+      image: 'actividades/preview.png',
       activities: activities
     }
   }
