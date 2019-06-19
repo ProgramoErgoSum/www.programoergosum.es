@@ -43,7 +43,7 @@ export default {
 <style lang="scss" scoped>
 #title {
   margin: 0 0 20px;
-  padding: 70px 0 100px;
+  padding: 90px 0 130px;
   background: #2d333927;
   background-size: 100%;
   background-position-y: center;
