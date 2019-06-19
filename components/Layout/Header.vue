@@ -40,17 +40,15 @@
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer />
-      <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn
-          v-for="item in navigation"
-          :key="item.link"
-          :to="item.link"
-          flat
-          nuxt
-        >
-          {{ item.title }}
-        </v-btn>
-      </v-toolbar-items>
+      <v-btn
+        v-for="item in navigation"
+        :key="item.link"
+        :to="item.link"
+        flat
+        nuxt
+      >
+        {{ item.title }}
+      </v-btn>
     </v-toolbar>
   </div>
 </template>
