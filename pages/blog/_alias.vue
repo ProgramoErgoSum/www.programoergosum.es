@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import activities from '@/static/blog/list.json'
+import blogs from '@/static/blog/list.json'
 
 import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
@@ -30,18 +30,27 @@ export default {
     Title,
     Content
   },
-  async asyncData({ params }) {
-    const activity = activities.find(e => {
+  async asyncData({ params, error }) {
+    const blog = blogs.find(e => {
       return e.alias === params.alias
     })
+    if (blog == null)
+      return error({ statusCode: 404, message: 'Página no encontrada' })
+
     const path = `blog/${params.alias}/`
-    const readme = await import(`~/static/blog/${params.alias}/README.md`)
+    let readme = ''
+    try {
+      readme = await import(`~/static/blog/${params.alias}/README.md`)
+    } catch (err) {
+      return error({ statusCode: 500, message: 'Ha ocurrido un error' })
+    }
+
     const content = readme.body.split('![](').join(`![](${path}`)
     return {
-      title: activity.title,
-      description: activity.description,
+      title: blog.title,
+      description: blog.description,
       image: `${path}/images/preview.png`,
-      keywords: activity.keywords,
+      keywords: blog.keywords,
       content: content
     }
   }
