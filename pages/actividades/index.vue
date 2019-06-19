@@ -6,7 +6,7 @@
       :image="image"
       :keywords="keywords"
     />
-    <Title :title="title" :description="description" />
+    <Title :title="title" :description="description" :image="image" />
     <v-container fluid>
       <v-layout row wrap>
         <v-flex
@@ -19,8 +19,16 @@
           <v-card class="ma-3" :to="`/actividades/${activity.alias}`">
             <v-img
               :src="`/actividades/${activity.alias}/images/preview.png`"
+              :lazy-src="`/actividades/default.png`"
               :title="`${activity.title}`"
-            />
+              height="250"
+            >
+              <template v-slot:placeholder>
+                <v-layout fill-height align-center justify-center ma-0>
+                  <v-progress-circular indeterminate color="grey lighten-5" />
+                </v-layout>
+              </template>
+            </v-img>
             <v-card-title primary-title>
               <h3 class="mb-4 title">{{ activity.title }}</h3>
               <div class="subheading">{{ activity.description }}</div>
@@ -59,10 +67,17 @@ export default {
   },
   asyncData() {
     return {
-      title: 'Talleres y actividades',
-      description: process.env.description,
-      keywords: process.env.keywords,
-      image: process.env.image,
+      title: 'Actividades',
+      description:
+        'Talleres y actividades gratuitas de programación y robótica en Murcia.',
+      keywords: [
+        'robótica',
+        'murcia',
+        'programación',
+        'actividades',
+        'extraescolares'
+      ],
+      image: 'actividades/default.png',
       activities: activities
     }
   }

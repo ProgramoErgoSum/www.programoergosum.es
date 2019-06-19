@@ -36,7 +36,7 @@ export default {
     const activity = activities.find(e => {
       return e.alias === params.alias
     })
-    const path = `/actividades/${params.alias}/`
+    const path = `actividades/${params.alias}/`
     const readme = await import(
       `~/static/actividades/${params.alias}/README.md`
     )
@@ -44,7 +44,7 @@ export default {
     return {
       title: activity.title,
       description: activity.description,
-      image: `${path}/preview.png`,
+      image: `${path}preview.png`,
       keywords: activity.keywords,
       content: content
     }
