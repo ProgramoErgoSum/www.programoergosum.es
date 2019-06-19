@@ -152,7 +152,7 @@ export default {
 <style lang="scss" scoped>
 #footer {
   border-top: 1px solid #eaebeb;
-  background: #fff;
+  background: #f0f0f0;
   .follow {
     margin: 50px 0;
   }
