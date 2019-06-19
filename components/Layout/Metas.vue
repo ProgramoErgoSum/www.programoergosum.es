@@ -8,22 +8,18 @@ export default {
   props: {
     title: {
       type: String,
-      required: true,
       default: process.env.title
     },
     description: {
       type: String,
-      required: true,
       default: process.env.description
     },
     keywords: {
       type: Array,
-      required: true,
       default: process.env.keywords
     },
     image: {
       type: String,
-      required: true,
       default: process.env.image
     }
   },
