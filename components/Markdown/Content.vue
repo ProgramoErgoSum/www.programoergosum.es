@@ -204,4 +204,30 @@ export default {
     border: 1px solid #f0f0f0;
   }
 }
+@media only screen and (max-width: 1904px) {
+}
+@media only screen and (max-width: 1264px) {
+}
+@media only screen and (max-width: 960px) {
+}
+@media only screen and (max-width: 600px) {
+  .markdown {
+    ul {
+      margin-left: 0;
+    }
+    font-size: 16px;
+    h1 {
+      font-size: 1.6em;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
+}
 </style>

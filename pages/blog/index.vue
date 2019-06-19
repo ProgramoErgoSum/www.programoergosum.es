@@ -10,7 +10,7 @@
     <v-container>
       <v-layout column>
         <v-flex v-for="blog in blogs" :key="blog.alias">
-          <v-card class="ma-3" :to="`/blog/${blog.alias}`">
+          <v-card :to="`/blog/${blog.alias}`">
             <v-layout row wrap>
               <v-flex xs12 md6 lg4>
                 <v-img

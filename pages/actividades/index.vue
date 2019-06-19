@@ -16,7 +16,7 @@
           md6
           lg4
         >
-          <v-card class="ma-3" :to="`/actividades/${activity.alias}`">
+          <v-card :to="`/actividades/${activity.alias}`">
             <v-img
               :src="`/actividades/${activity.alias}/images/preview.png`"
               :lazy-src="`/lazy.png`"

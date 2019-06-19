@@ -10,7 +10,7 @@
     <v-container fluid>
       <v-layout row wrap>
         <v-flex v-for="project in projects" :key="project.link" xs12 md12 lg4>
-          <v-card class="ma-3" :href="project.link" target="_blank">
+          <v-card :href="project.link" target="_blank">
             <v-img
               :src="`proyectos/images/${project.img}`"
               :lazy-src="`/lazy.png`"
