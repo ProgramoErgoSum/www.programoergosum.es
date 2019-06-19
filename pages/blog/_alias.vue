@@ -30,19 +30,23 @@ export default {
     Title,
     Content
   },
+  validate({ params }) {
+    const blog = blogs.find(e => {
+      return e.alias === params.alias
+    })
+    return activity !== undefined
+  },
   async asyncData({ params, error }) {
     const blog = blogs.find(e => {
       return e.alias === params.alias
     })
-    if (blog == null)
-      return error({ statusCode: 404, message: 'Página no encontrada' })
 
     const path = `blog/${params.alias}/`
     let readme = ''
     try {
       readme = await import(`~/static/blog/${params.alias}/README.md`)
     } catch (err) {
-      return error({ statusCode: 500, message: 'Ha ocurrido un error' })
+      return error({ statusCode: 404, message: 'Página no encontrada' })
     }
 
     const content = readme.body.split('![](').join(`![](${path}`)
