@@ -19,7 +19,7 @@
           <v-card class="ma-3" :to="`/actividades/${activity.alias}`">
             <v-img
               :src="`/actividades/${activity.alias}/images/preview.png`"
-              :lazy-src="`/actividades/default.png`"
+              :lazy-src="`/lazy.png`"
               :title="`${activity.title}`"
               height="250"
             >
@@ -33,6 +33,7 @@
               <h3 class="mb-4 title">{{ activity.title }}</h3>
               <div class="subheading">{{ activity.description }}</div>
             </v-card-title>
+            <v-divider class="mx-3"></v-divider>
             <v-card-text v-if="activity.extra">
               <p>
                 <v-icon>map</v-icon>

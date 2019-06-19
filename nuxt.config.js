@@ -2,6 +2,7 @@ import path from 'path'
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 
 import activities from './static/actividades/list.json'
+import blogs from './static/blog/list.json'
 
 const canonical = 'https://programoergosum.github.io/'
 const title = 'Asociación Programo Ergo Sum'
@@ -87,11 +88,14 @@ export default {
    */
   generate: {
     routes: async function() {
-      const a = await activities.map(a => {
-        return `/actividades/${a.alias}`
+      const a = await activities.map(item => {
+        return `/actividades/${item.alias}`
       })
-      return Promise.all([a]).then(v => {
-        return [...v[0]]
+      const b = await blogs.map(item => {
+        return `/blog/${item.alias}`
+      })
+      return Promise.all([a, b]).then(v => {
+        return [...v[0], ...v[1]]
       })
     }
   },

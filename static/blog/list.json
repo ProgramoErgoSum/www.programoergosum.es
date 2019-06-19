@@ -1,0 +1,20 @@
+[
+  {
+    "alias": "participo-luego-existo-un-concurso-en-el-que-todos-ganan",
+    "title": "Participo Luego Existo - Un concurso en el que todos ganan",
+    "description": "II Edición del concurso 'Participio Luego Existo', un concurso cuya filosofía hace hincapié en la importancia de participar y compartir para aprender.",
+    "keywords": ["concurso", "murcia", "robotica"]
+  },
+  {
+    "alias": "entrevistamos-a-diego-ninja-de-coderdojo-murcia",
+    "title": "Entrevistamos a Diego (Ninja de CoderDojo Murcia)",
+    "description": "Diego es uno de nuestros ninjas más antiguos y en ocasiones realiza la labor de mentor a sus tan solo 11 años.",
+    "keywords": ["coderdojo", "murcia", "club", "diego"]
+  },
+  {
+    "alias": "entrevistamos-a-ana-ninja-de-coderdojo-murcia",
+    "title": "Entrevistamos a Ana (Ninja de CoderDojo Murcia)",
+    "description": "Ana es ninja de CoderDojo Murcia desde hace más de 1 año. Es una apasionada de la música y en concreto toca el piano y muy bien.",
+    "keywords": ["coderdojo", "murcia", "club", "ana"]
+  }
+]

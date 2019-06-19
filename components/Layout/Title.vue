@@ -8,12 +8,12 @@
     <v-container class="asociacion">
       <v-layout row wrap>
         <v-flex xs12>
-          <h1 class="mb-3 display">
+          <h2 class="mb-5 display-2 font-weight-black">
             {{ title }}
-          </h1>
-          <p>
+          </h2>
+          <h3 class="title font-weight-regular">
             {{ description }}
-          </p>
+          </h3>
         </v-flex>
       </v-layout>
     </v-container>
