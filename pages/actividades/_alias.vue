@@ -1,34 +1,39 @@
 <template>
-  <v-container class="_alias">
-    <v-layout row wrap>
-      <v-flex sm12 md9>
-        <Metas
-          :title="title"
-          :description="description"
-          :image="image"
-          :keywords="keywords"
-        />
-        <Content :content="content" />
-      </v-flex>
-      <v-flex md3 class="hidden-sm-and-down">
-        <div class="toc">
-          <Toc :content="content" />
-        </div>
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <div class="_alias">
+    <Metas
+      :title="title"
+      :description="description"
+      :image="image"
+      :keywords="keywords"
+    />
+    <Title :title="title" :description="description" :image="image" />
+    <v-container>
+      <v-layout row wrap>
+        <v-flex sm12 md9>
+          <Content :content="content" />
+        </v-flex>
+        <v-flex md3 class="hidden-sm-and-down">
+          <div class="toc">
+            <Toc :content="content" />
+          </div>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </div>
 </template>
 
 <script>
 import activities from '@/static/actividades/list.json'
 
 import Metas from '@/components/Layout/Metas'
+import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 
 export default {
   components: {
     Metas,
+    Title,
     Content,
     Toc
   },
@@ -44,7 +49,7 @@ export default {
     return {
       title: activity.title,
       description: activity.description,
-      image: `${path}preview.png`,
+      image: `${path}/images/preview.png`,
       keywords: activity.keywords,
       content: content
     }
