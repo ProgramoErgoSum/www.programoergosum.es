@@ -8,10 +8,20 @@
     />
     <Title :title="title" :description="description" />
     <v-container fluid>
-      <v-layout row wrap justify-center>
-        <v-flex v-for="project in projects" :key="project.link" md12 lg4>
+      <v-layout row wrap>
+        <v-flex v-for="project in projects" :key="project.link" xs12 md12 lg4>
           <v-card class="ma-3" :href="project.link" target="_blank">
-            <v-img :src="`${project.img}`" :title="`${project.title}`" />
+            <v-img
+              :src="`proyectos/images/${project.img}`"
+              :title="`${project.title}`"
+              height="250"
+            >
+              <template v-slot:placeholder>
+                <v-layout fill-height align-center justify-center ma-0>
+                  <v-progress-circular indeterminate color="grey lighten-5" />
+                </v-layout>
+              </template>
+            </v-img>
             <v-card-title primary-title>
               <h3 class="mb-2">{{ project.title }}</h3>
               <div>{{ project.description }}</div>
