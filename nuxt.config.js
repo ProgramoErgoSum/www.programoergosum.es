@@ -88,14 +88,18 @@ export default {
    */
   generate: {
     routes: async function() {
+      const p = [
+        '/',
+        '/404'
+      ]
       const a = await activities.map(item => {
         return `/actividades/${item.alias}`
       })
       const b = await blogs.map(item => {
         return `/blog/${item.alias}`
       })
-      return Promise.all([a, b]).then(v => {
-        return [...v[0], ...v[1]]
+      return Promise.all([p, a, b]).then(v => {
+        return [...v[0], ...v[1], ...v[2]]
       })
     }
   },
