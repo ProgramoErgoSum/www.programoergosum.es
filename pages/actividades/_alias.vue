@@ -41,7 +41,7 @@ export default {
     const activity = activities.find(e => {
       return e.alias === params.alias
     })
-    return activity == null
+    return activity !== undefined
   },
   async asyncData({ params, router, error }) {
     const activity = activities.find(e => {
