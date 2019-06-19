@@ -37,19 +37,23 @@ export default {
     Content,
     Toc
   },
-  async asyncData({ params, error }) {
+  validate({ params }) {
     const activity = activities.find(e => {
       return e.alias === params.alias
     })
-    if (activity == null)
-      return error({ statusCode: 404, message: 'Página no encontrada' })
+    return activity == null
+  },
+  async asyncData({ params, router, error }) {
+    const activity = activities.find(e => {
+      return e.alias === params.alias
+    })
 
     const path = `actividades/${params.alias}/`
     let readme = ''
     try {
       readme = await import(`~/static/actividades/${params.alias}/README.md`)
     } catch (err) {
-      return error({ statusCode: 500, message: 'Ha ocurrido un error' })
+      return error({ statusCode: 404, message: 'Página no encontrada' })
     }
 
     const content = readme.body.split('![](').join(`![](${path}`)
