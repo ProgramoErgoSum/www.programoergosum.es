@@ -22,5 +22,11 @@
     "title": "Programación y Robótica inclusiva TEA",
     "description": "Talleres de programación y robótica destinados a personas con autismo u otra diversidad funcional.",
     "keywords": ["inclusión", "tea", "murcia"]
+  },
+  {
+    "alias": "scratch-day-murcia",
+    "title": "Scratch Day Murcia",
+    "description": "Evento mundial de programación de videojuegos con Scratch celebrado en más de 80 países del mundo.",
+    "keywords": ["scratch", "day", "murcia"]
   }
 ]
