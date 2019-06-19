@@ -19,10 +19,12 @@
 
 <script>
 export default {
-  props: {
-    error: {
-      type: Object,
-      default: null
+  asyncData() {
+    return {
+      title: 'Error 404',
+      description: '',
+      keywords: [],
+      image: ''
     }
   }
 }
