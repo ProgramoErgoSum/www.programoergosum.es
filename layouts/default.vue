@@ -41,11 +41,13 @@ export default {
           icon: 'streetview',
           link: '/actividades'
         },
+        /*
         {
           title: 'Colabora',
           icon: 'group',
           link: '/colabora'
         },
+        */
         {
           title: 'Blog',
           icon: 'description',
