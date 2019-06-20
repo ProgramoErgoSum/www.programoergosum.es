@@ -1,8 +1,12 @@
 <template>
-  <v-list>
+  <v-list v-scroll="onScroll">
     <template v-for="item in menu">
       <v-list-tile :key="item.anchor" @click="goTo(item.anchor, $event)">
-        <v-list-tile-content :id="item.anchor" v-text="item.content" />
+        <v-list-tile-content
+          :id="item.anchor"
+          :class="{ 'primary--text': currentAnchor === item.anchor }"
+          v-text="item.content"
+        />
       </v-list-tile>
     </template>
   </v-list>
@@ -27,7 +31,9 @@ export default {
   },
   data() {
     return {
-      menu: null
+      menu: null,
+      currentAnchor: null,
+      currentOffset: 0
     }
   },
   created() {
@@ -51,6 +57,17 @@ export default {
   methods: {
     goTo(anchor, event) {
       this.$vuetify.goTo(`#${anchor}`)
+    },
+    onScroll() {
+      this.currentOffset =
+        window.pageYOffset || document.documentElement.offsetTop
+
+      const items = this.menu
+      const index = items.slice().findIndex(item => {
+        const itemOffsetTop = document.querySelector(`#${item.anchor}`)
+        return itemOffsetTop.offsetTop > this.currentOffset
+      })
+      this.currentAnchor = this.menu[index].anchor
     }
   }
 }
