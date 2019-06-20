@@ -28,9 +28,10 @@ export default {
     Title,
     Content
   },
-  async asyncData({ route }) {
-    const readme = await import(`~/static/asociacion/README.md`)
-    const content = readme.body.split('![](').join(`![](${route.path}`)
+  async asyncData() {
+    const path = `asociacion/`
+    const readme = await import(`~/static/${path}README.md`)
+    const content = readme.body.split('![](').join(`![](${path}`)
     return {
       title: process.env.title,
       description: process.env.description,

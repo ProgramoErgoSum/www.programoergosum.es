@@ -68,7 +68,7 @@ export default {
       }
     ]
   }),
-  asyncData({ route }) {
+  asyncData() {
     return {
       title: 'Proyectos educativos',
       description: process.env.description,
