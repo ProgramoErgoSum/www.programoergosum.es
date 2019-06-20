@@ -67,7 +67,7 @@ export default {
         const itemOffsetTop = document.querySelector(`#${item.anchor}`)
         return itemOffsetTop.offsetTop > this.currentOffset
       })
-      this.currentAnchor = this.menu[index].anchor
+      this.currentAnchor = this.menu[index - 1].anchor
     }
   }
 }
