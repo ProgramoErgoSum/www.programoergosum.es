@@ -10,7 +10,7 @@
     <v-container>
       <v-layout>
         <v-flex>
-          <Content :content="content" />
+          <Content :readme="readme" />
         </v-flex>
       </v-layout>
     </v-container>
@@ -29,15 +29,20 @@ export default {
     Content
   },
   async asyncData() {
-    const path = `asociacion/`
-    const readme = await import(`~/static/${path}README.md`)
-    const content = readme.body.split('![](').join(`![](${path}`)
+    const path = `asociacion`
+    const file = await import(`@/static/${path}/README.md`)
+    const readme = {
+      path: path,
+      body: file.body
+      // image: `${path}/images/preview.png`
+    }
+
     return {
       title: process.env.title,
       description: process.env.description,
       keywords: process.env.keywords,
       image: process.env.image,
-      content: content
+      readme: readme
     }
   }
 }

@@ -10,11 +10,11 @@
     <v-container>
       <v-layout row wrap>
         <v-flex sm12 md9>
-          <Content :content="content" />
+          <Content :readme="readme" />
         </v-flex>
         <v-flex md3 class="hidden-sm-and-down">
           <div class="toc">
-            <Toc :content="content" />
+            <Toc :readme="readme" />
           </div>
         </v-flex>
       </v-layout>
@@ -48,15 +48,20 @@ export default {
       return e.alias === params.alias
     })
 
-    const path = `actividades/${params.alias}/`
-    const readme = await import(`~/static/${path}README.md`)
-    const content = readme.body.split('![](').join(`![](${path}`)
+    const path = `actividades/${params.alias}`
+    const file = await import(`@/static/${path}/README.md`)
+    const readme = {
+      path: path,
+      body: file.body,
+      image: `${path}/images/preview.png`
+    }
+
     return {
       title: activity.title,
       description: activity.description,
-      image: `${path}images/preview.png`,
+      image: readme.image,
       keywords: activity.keywords,
-      content: content
+      readme: readme
     }
   }
 }

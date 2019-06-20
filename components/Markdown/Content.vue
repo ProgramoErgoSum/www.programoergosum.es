@@ -1,14 +1,11 @@
 <template>
-  <vue-markdown
-    class="markdown"
-    :toc="true"
-    :toc-first-level="1"
-    :toc-anchor-link="false"
-    :source="content"
-  />
+  <vue-markdown class="markdown" :source="renderer" />
 </template>
 
 <script>
+import markdownIt from 'markdown-it'
+import toc from 'markdown-it-toc-and-anchor'
+
 import VueMarkdown from 'vue-markdown'
 
 export default {
@@ -17,9 +14,65 @@ export default {
     VueMarkdown
   },
   props: {
-    content: {
-      type: String,
-      default: ''
+    /**
+     * readme.path
+     * readme.body
+     * readme.image
+     */
+    readme: {
+      type: Object,
+      required: true
+    }
+  },
+  computed: {
+    renderer: function() {
+      const path = this.readme.path
+      const md = markdownIt({
+        html: true,
+        xhtmlOut: true,
+        breaks: true,
+        linkify: true,
+        typographer: true
+      })
+      md.use(toc, {
+        anchorClassName: 'toc-anchor',
+        anchorLink: false
+        /*
+        tocCallback: (tocMarkdown, tocArray, tocHtml) => {
+          if (tocHtml) {
+            this.menu = tocArray
+          }
+        }
+        */
+      })
+      // Renderer images relative path
+      md.renderer.rules.image = function(tokens, idx, options, env, slf) {
+        const token = tokens[idx]
+        token.attrs = token.attrs.map(attr => {
+          if (attr[0] === 'src') {
+            if (attr[1].substring(0, 4) !== 'http') {
+              attr[1] = `${path}/${attr[1]}`
+            }
+          }
+          return attr
+        })
+        return '<img' + slf.renderAttrs(token) + '>'
+      }
+      // Renderer a internals links
+      /*
+      md.renderer.rules.link_open = function(tokens, idx, options, env, slf) {
+        const token = tokens[idx]
+        token.attrs = token.attrs.map(attr => {
+          if (attr[0] === 'href') attr[0] = 'to'
+          return attr
+        })
+        return '<nuxt-link' + slf.renderAttrs(token) + '>'
+      }
+      md.renderer.rules.link_close = function() {
+        return '</nuxt-link>'
+      }
+      */
+      return md.render(this.readme.body)
     }
   }
 }

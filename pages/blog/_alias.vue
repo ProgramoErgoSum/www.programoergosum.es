@@ -10,7 +10,7 @@
     <v-container>
       <v-layout>
         <v-flex>
-          <Content :content="content" />
+          <Content :readme="readme" />
         </v-flex>
       </v-layout>
     </v-container>
@@ -41,15 +41,19 @@ export default {
       return e.alias === params.alias
     })
 
-    const path = `blog/${params.alias}/`
-    const readme = await import(`~/static/${path}README.md`)
-    const content = readme.body.split('![](').join(`![](${path}`)
+    const path = `blog/${params.alias}`
+    const file = await import(`@/static/${path}/README.md`)
+    const readme = {
+      path: path,
+      body: file.body,
+      image: `${path}/images/preview.png`
+    }
     return {
       title: blog.title,
       description: blog.description,
-      image: `${path}images/preview.png`,
+      image: readme.image,
       keywords: blog.keywords,
-      content: content
+      readme: readme
     }
   }
 }

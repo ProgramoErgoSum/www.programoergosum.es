@@ -15,9 +15,14 @@ import toc from 'markdown-it-toc-and-anchor'
 export default {
   name: 'Toc',
   props: {
-    content: {
-      type: String,
-      default: ''
+    /**
+     * readme.path
+     * readme.body
+     * readme.image
+     */
+    readme: {
+      type: Object,
+      required: true
     }
   },
   data() {
@@ -41,7 +46,7 @@ export default {
         }
       }
     })
-    md.render(this.content)
+    md.render(this.readme.body)
   },
   methods: {
     goTo(anchor, event) {
