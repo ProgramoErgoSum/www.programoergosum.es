@@ -42,18 +42,12 @@ export default {
     })
 
     const path = `blog/${params.alias}/`
-    let readme = ''
-    try {
-      readme = await import(`~/static/blog/${params.alias}/README.md`)
-    } catch (err) {
-      return error({ statusCode: 404, message: 'Página no encontrada' })
-    }
-
+    const readme = await import(`~/static/${path}README.md`)
     const content = readme.body.split('![](').join(`![](${path}`)
     return {
       title: blog.title,
       description: blog.description,
-      image: `${path}/images/preview.png`,
+      image: `${path}images/preview.png`,
       keywords: blog.keywords,
       content: content
     }

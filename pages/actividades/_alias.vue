@@ -49,19 +49,12 @@ export default {
     })
 
     const path = `actividades/${params.alias}/`
-    let readme = ''
-    try {
-      readme = await import(`~/static/actividades/${params.alias}/README.md`)
-    } catch (err) {
-      return error({ statusCode: 404, message: 'Página no encontrada' })
-    }
-
+    const readme = await import(`~/static/${path}README.md`)
     const content = readme.body.split('![](').join(`![](${path}`)
-
     return {
       title: activity.title,
       description: activity.description,
-      image: `${path}/images/preview.png`,
+      image: `${path}images/preview.png`,
       keywords: activity.keywords,
       content: content
     }
