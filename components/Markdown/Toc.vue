@@ -2,7 +2,7 @@
   <v-list>
     <template v-for="item in menu">
       <v-list-tile :key="item.anchor" @click="goTo(item.anchor, $event)">
-        <v-list-tile-content v-text="item.content" />
+        <v-list-tile-content :id="item.anchor" v-text="item.content" />
       </v-list-tile>
     </template>
   </v-list>
@@ -50,7 +50,6 @@ export default {
   },
   methods: {
     goTo(anchor, event) {
-      // event.target.classList.toggle('active')
       this.$vuetify.goTo(`#${anchor}`)
     }
   }

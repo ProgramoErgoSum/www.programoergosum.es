@@ -35,7 +35,6 @@ export default {
         typographer: true
       })
       md.use(toc, {
-        anchorClassName: 'toc-anchor',
         anchorLink: false
         /*
         tocCallback: (tocMarkdown, tocArray, tocHtml) => {
