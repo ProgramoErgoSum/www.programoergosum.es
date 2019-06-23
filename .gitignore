@@ -1,3 +1,9 @@
+# composer
+vendor/
+composer.json
+composer.lock
+deploy.php
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
