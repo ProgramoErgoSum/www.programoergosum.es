@@ -1,5 +1,5 @@
-# programoergosum.github.io
+# www.programoergosum.es
 
 > Asociación Programo Ergo Sum
 
-[![Build Status](https://travis-ci.org/ProgramoErgoSum/programoergosum.github.io.svg?branch=develop)](https://travis-ci.org/ProgramoErgoSum/programoergosum.github.io)
+[![Build Status](https://travis-ci.org/ProgramoErgoSum/www.programoergosum.es.svg?branch=develop)](https://travis-ci.org/ProgramoErgoSum/www.programoergosum.es)
