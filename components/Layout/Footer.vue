@@ -62,13 +62,42 @@
         </v-flex>
         <v-flex xs12>
           <div class="copyleft">
-            <p>{{ new Date().getFullYear() }} - Asociación Programo Ergo Sum</p>
+            <p>
+              {{ new Date().getFullYear() }} - Asociación Programo Ergo Sum.
+            </p>
             <!--
-            <ul>
-              <li>{{ new Date().getFullYear() }} - Asociación Programo Ergo Sum</li>
-              <li>Código de conducta</li>
-              <li>Términos y servicios</li>
-            </ul>
+            <p>
+              Made with <span class="heart">&hearts;</span> by
+              <a
+                href="https://github.com/migueabellan"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                @migueabellan
+              </a>
+              . Made with
+              <a
+                href="https://nuxtjs.org/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  height="9px"
+                  src="https://nuxtjs.org/logos/nuxtjs-typo.svg"
+                />
+              </a>
+              & Vuetify
+              <a
+                href="https://vuetifyjs.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  height="15px"
+                  src="https://cdn.vuetifyjs.com/images/logos/v-alt.svg"
+                />
+              </a>
+            </p>
             -->
           </div>
         </v-flex>
@@ -89,6 +118,10 @@ export default {
       {
         title: 'Colabora',
         link: '/colabora'
+      },
+      {
+        title: 'Código de Conducta',
+        link: '/coc'
       }
     ],
     projects: [
@@ -147,6 +180,12 @@ export default {
 #footer {
   border-top: 1px solid #eaebeb;
   background: #f0f0f0;
+  a {
+    color: #6c7074;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   .follow {
     margin: 50px 0;
   }
@@ -165,12 +204,6 @@ export default {
         margin-bottom: 10px;
         font-weight: 100;
         font-size: 16px;
-        a {
-          color: #6c7074;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
       }
     }
   }
@@ -180,6 +213,10 @@ export default {
   .copyleft {
     text-align: center;
     font-size: 12px;
+    .heart {
+      font-size: 20px;
+      color: red;
+    }
   }
 }
 @media only screen and (max-width: 1904px) {
