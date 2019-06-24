@@ -4,12 +4,12 @@ import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import activities from './static/actividades/list.json'
 import blogs from './static/blog/list.json'
 
-const canonical = 'https://programoergosum.github.io/'
+const canonical = 'https://www.programoergosum.es'
 const title = 'Asociación Programo Ergo Sum'
 const description =
   'Proyectos educativos abiertos para aprender programación y robótica con herramientas libres.'
 const keywords = ['asociación, educación']
-const image = 'default.png'
+const image = 'preview.png'
 const routerBase = {
   router: {
     base: process.env.DEPLOY_ENV === 'MASTER' ? '/' : '/'
@@ -67,7 +67,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/vuetify'],
+  plugins: [
+    { src: '~plugins/vuetify.js' },
+    { src: '~plugins/ga.js', ssr: false }
+  ],
 
   /*
    ** Nuxt.js modules
