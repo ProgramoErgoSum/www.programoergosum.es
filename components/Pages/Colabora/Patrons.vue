@@ -35,7 +35,6 @@
             target="_blank"
             rel="noopener noreferrer"
             outline
-            color="indigo"
           >
             Apóyanos a través de Patreon
           </v-btn>
