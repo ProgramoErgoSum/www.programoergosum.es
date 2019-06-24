@@ -6,19 +6,11 @@ Scratch Day es evento mundial para dar a conocer Scratch (entorno de programaci�
 
 El lenguaje utilizado para programar videojuegos es scratch, un programa programa creado por el MIT (Instituto Tecnológico de Masachusetts) que sirve de entorno de aprendizaje de programación para que niños y niñas entusiastas puedan iniciarse en esta rama de la tecnología. Los niños y niñas programan en una plataforma amigable a través de bloques gráficos y lo realizan en una interfaz muy sencilla e intuitiva.
 
-<!--
-## ¿Quién puede participar?
-
-Los talleres están destinados a asociaciones de personas con autismo u otra diversidad funcional de la Región de Murcia. Para participar tienes que enviarnos un email accediendo al formulario de contacto y te indicaremos los pasos a seguir.
-
-![](images/2.png)
--->
-
 ## Eventos de Scratch Day en Murcia
 
-- https://day.scratch.mit.edu/events/6968/
-- https://day.scratch.mit.edu/events/6967/
-- https://day.scratch.mit.edu/events/5422/
-- https://day.scratch.mit.edu/events/6970/
-- https://day.scratch.mit.edu/events/6969/
-- https://day.scratch.mit.edu/events/1289/
+- [585m2 Espacio Joven, Murcia (2019)](https://day.scratch.mit.edu/events/5422/)
+- [IES Alfonso X, Murcia (2019)](https://day.scratch.mit.edu/events/6968/)
+- [IES Alfonso X, Murcia (2018)](https://day.scratch.mit.edu/events/6967/)
+- [585m2 Espacio Joven, Murcia (2018)](https://day.scratch.mit.edu/events/6970/)
+- [585m2 Espacio Joven, Murcia (2017)](https://day.scratch.mit.edu/events/6969/)
+- [585m2 Espacio Joven, Murcia (2016)](https://day.scratch.mit.edu/events/1289/)
