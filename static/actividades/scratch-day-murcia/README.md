@@ -8,9 +8,9 @@ El lenguaje utilizado para programar videojuegos es scratch, un programa program
 
 ## Eventos de Scratch Day en Murcia
 
-- [585m2 Espacio Joven, Murcia (2019)](https://day.scratch.mit.edu/events/5422/)
-- [IES Alfonso X, Murcia (2019)](https://day.scratch.mit.edu/events/6968/)
-- [IES Alfonso X, Murcia (2018)](https://day.scratch.mit.edu/events/6967/)
-- [585m2 Espacio Joven, Murcia (2018)](https://day.scratch.mit.edu/events/6970/)
-- [585m2 Espacio Joven, Murcia (2017)](https://day.scratch.mit.edu/events/6969/)
-- [585m2 Espacio Joven, Murcia (2016)](https://day.scratch.mit.edu/events/1289/)
+- <a target="_blank" rel="noopener noreferrer" href="https://day.scratch.mit.edu/events/5422">585m2 Espacio Joven, Murcia (2019)</a>
+- <a target="_blank" rel="noopener noreferrer" href="https://day.scratch.mit.edu/events/6968">IES Alfonso X, Murcia (2019)</a>
+- <a target="_blank" rel="noopener noreferrer" href="https://day.scratch.mit.edu/events/6967">IES Alfonso X, Murcia (2018)</a>
+- <a target="_blank" rel="noopener noreferrer" href="https://day.scratch.mit.edu/events/6970">585m2 Espacio Joven, Murcia (2018)</a>
+- <a target="_blank" rel="noopener noreferrer" href="https://day.scratch.mit.edu/events/6969">585m2 Espacio Joven, Murcia (2017)</a>
+- <a target="_blank" rel="noopener noreferrer" href="https://day.scratch.mit.edu/events/1289">585m2 Espacio Joven, Murcia (2016)</a>
