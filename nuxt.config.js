@@ -81,7 +81,15 @@ export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    // Doc: https://github.com/nuxt-community/google-adsense-module
+    [
+      '@nuxtjs/google-adsense',
+      {
+        id: 'ca-pub-6757981017018187',
+        pageLevelAds: true
+      }
+    ]
   ],
   /*
    ** Axios module configuration
