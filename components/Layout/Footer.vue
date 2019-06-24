@@ -67,8 +67,8 @@
               src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg"
             />
             <br />
-            A menos que se especifique lo contrario, toda esta obra está bajo
-            una licencia de
+            A menos que se especifique lo contrario, todos los contenidos de
+            este proyecto están bajo una licencia de
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -80,9 +80,6 @@
         </v-flex>
         <v-flex xs12>
           <div class="copyleft">
-            <p>
-              {{ new Date().getFullYear() }} - Asociación Programo Ergo Sum.
-            </p>
             <!--
             <p>
               Made with <span class="heart">&hearts;</span> by
@@ -93,7 +90,7 @@
               >
                 @migueabellan
               </a>
-              . Made with
+              . Released with
               <a
                 href="https://nuxtjs.org/"
                 rel="noopener noreferrer"
@@ -117,6 +114,9 @@
               </a>
             </p>
             -->
+            <p>
+              2015-{{ new Date().getFullYear() }} Asociación Programo Ergo Sum.
+            </p>
           </div>
         </v-flex>
       </v-layout>
