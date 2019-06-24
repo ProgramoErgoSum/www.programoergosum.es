@@ -1,14 +1,14 @@
 # Participo Luego Existo
 
-Hasta el próximo 31 de Mayo, estará abierto el plazo de inscripción para la II Edición de «Participio Luego Existo», un concurso de programación, robótica y nuevas tecnologías cuya filosofía hace hincapié en la importancia de participar y compartir para aprender.
+Hasta el próximo 31 de Mayo, estará abierto el plazo de inscripción para la II Edición de «Participo Luego Existo», un concurso de programación, robótica y nuevas tecnologías cuya filosofía hace hincapié en la importancia de participar y compartir para aprender.
 
-> II Edición del concurso "Participio Luego Existo", lo importante es participar.
+> II Edición del concurso "Participo Luego Existo", lo importante es participar.
 
 ![](images/1.png)
 
-## ¿En qué consiste «Participio Luego Existo»?
+## ¿En qué consiste «Participo Luego Existo»?
 
-«Participio Luego Existo» es un concurso que pretende cambiar la filosofía de "concursos competitivos cuyos ganadores obtienen un premio como recompensa". Nuestro objetivo es hacer ver a los participantes que no es necesario competir y obtener un premio para pasarlo bien. Por eso mismo proponemos a los centros educativos que realicen un concurso con sus alumnos desarrollando un videojuego, aplicación o robot.
+«Participo Luego Existo» es un concurso que pretende cambiar la filosofía de "concursos competitivos cuyos ganadores obtienen un premio como recompensa". Nuestro objetivo es hacer ver a los participantes que no es necesario competir y obtener un premio para pasarlo bien. Por eso mismo proponemos a los centros educativos que realicen un concurso con sus alumnos desarrollando un videojuego, aplicación o robot.
 
 El centro de estudios interesado en participar recibirá una Master Class de programación y robótica de manos de nuestros mentores en horario lectivo en los últimos días de clase antes de las vacaciones de verano.
 
