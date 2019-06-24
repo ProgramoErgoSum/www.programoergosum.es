@@ -6,7 +6,7 @@
       :image="image"
       :keywords="keywords"
     />
-    <Title :title="title" :description="description" />
+    <Title :title="title" :description="description" :image="image" />
     <v-container>
       <v-layout>
         <v-flex>
@@ -33,15 +33,16 @@ export default {
     const file = await import(`@/static/${path}/README.md`)
     const readme = {
       path: path,
-      body: file.body
-      // image: `${path}/images/preview.png`
+      body: file.body,
+      image: `${path}/preview.png`
     }
 
     return {
-      title: process.env.title,
-      description: process.env.description,
-      keywords: process.env.keywords,
-      image: process.env.image,
+      title: 'Iniciativa Programo Ergo Sum',
+      description:
+        'Iniciativa sin ánimo de lucro para acercar la programación, robótica educativa y nuevas tecnologías a todas las edades.',
+      keywords: ['asociacion', 'murcia', 'programo ergo sum'],
+      image: readme.image,
       readme: readme
     }
   }

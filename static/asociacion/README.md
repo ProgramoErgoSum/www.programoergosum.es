@@ -1,6 +1,10 @@
-Programo Ergo Sum es una iniciativa sin ánimo de lucro que pretende **acercar la programación y robótica a todas las edades** como medio para el desarrollo del pensamiento lógico y computacional.
+# Asociación Programo Ergo Sum
 
-Apostamos por una educación libre y accesible a través de recursos educativos de programación, robótica y nuevas tecnologías en todos los niveles. También tenemos un compromiso social ya que no queremos que ningún niño o niña se quede fuera de este movimiento, y por ello realizamos talleres y eventos gratuitos en Murcia.
+Programo Ergo Sum es una iniciativa sin ánimo de lucro cuyo objetivo pretende **acercar la programación y la robótica educativa a todas las edades** como medio para el desarrollo del pensamiento lógico y computacional.
+
+Apostamos por una **educación libre y accesible** a través de recursos educativos de programación, robótica y nuevas tecnologías en todos los niveles. También tenemos un compromiso social ya que no queremos que ningún niño, niña, joven o adulto, se quede fuera de este movimiento, y por ello realizamos talleres y eventos gratuitos en la Región de Murcia y otras comunidades autónomas de España.
+
+![Talleres de Robótica en Murcia](images/asociacion.png)
 
 ## Fines de la asociación
 
