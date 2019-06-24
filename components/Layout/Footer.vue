@@ -182,6 +182,7 @@ export default {
 #footer {
   border-top: 1px solid #eaebeb;
   background: #f0f0f0;
+  z-index: 0;
   a {
     color: #6c7074;
     &:hover {
