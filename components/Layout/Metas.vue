@@ -27,8 +27,8 @@ export default {
     const title = this.title
     const description = this.description
     const keywords = this.keywords.toString()
-    const image = process.env.canonical + this.image
-    const url = process.env.canonical + this.$route.path
+    const image = `${process.env.canonical}/${this.image}`
+    const url = `${process.env.canonical}/${this.$route.path}`
     return {
       title: title,
       meta: [
