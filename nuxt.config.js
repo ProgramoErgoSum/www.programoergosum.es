@@ -71,7 +71,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~plugins/vuetify.js' }],
+  plugins: [
+    { src: '~plugins/vuetify.js' },
+    { src: '~plugins/ga.js', ssr: false }
+  ],
 
   /*
    ** Nuxt.js modules
