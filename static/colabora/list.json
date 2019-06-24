@@ -1,26 +1,57 @@
-[
-  {
-    "name": "Miguel Ángel Abellán",
-    "image": "https://pbs.twimg.com/profile_images/629634647912267777/gOmLRG8A_400x400.png",
-    "social": {
-      "twitter": "https://twitter.com/migueabellan",
-      "github": "https://github.com/migueabellan"
+{
+  "sponsors": [
+    {
+      "name": "Ayuntamiento de Murcia",
+      "image": "https://pbs.twimg.com/profile_images/1053406362225524737/Ks5mzOVw_400x400.jpg",
+      "description": "Subvenciones para el fomento de la participación juvenil en el municipio de Murcia",
+      "social": {
+        "url": "http://www.informajoven.org/convocatorias/fichaAnuncios.asp?CodigoFicha=29727",
+        "twitter": "https://twitter.com/AytoMurcia",
+        "github": ""
+      }
     }
-  },
-  {
-    "name": "Carmen B. Martínez",
-    "image": "https://pbs.twimg.com/profile_images/650326709242302464/f27brfje_400x400.jpg",
-    "social": {
-      "twitter": "https://twitter.com/armenb_mg",
-      "github": ""
+  ],
+  "volunteers": [
+    {
+      "name": "Miguel Ángel Abellán",
+      "image": "https://pbs.twimg.com/profile_images/629634647912267777/gOmLRG8A_400x400.png",
+      "description": "",
+      "social": {
+        "url": "https://migueabellan.github.io",
+        "twitter": "https://twitter.com/migueabellan",
+        "github": "https://github.com/migueabellan"
+      }
+    },
+    {
+      "name": "Carmen B. Martínez",
+      "image": "https://pbs.twimg.com/profile_images/650326709242302464/f27brfje_400x400.jpg",
+      "description": "",
+      "social": {
+        "url": "",
+        "twitter": "https://twitter.com/armenb_mg",
+        "github": ""
+      }
+    },
+    {
+      "name": "Miguel Manzano",
+      "image": "https://pbs.twimg.com/profile_images/975973650959618049/gRdPUS4g_400x400.jpg",
+      "description": "",
+      "social": {
+        "url": "",
+        "twitter": "https://twitter.com/mmanzano",
+        "github": "https://github.com/mmanzano"
+      }
+    },
+    {
+      "name": "Antonio García",
+      "image": "",
+      "description": "",
+      "social": {
+        "url": "",
+        "twitter": "",
+        "github": ""
+      }
     }
-  },
-  {
-    "name": "Miguel Manzano",
-    "image": "https://pbs.twimg.com/profile_images/975973650959618049/gRdPUS4g_400x400.jpg",
-    "social": {
-      "twitter": "https://twitter.com/mmanzano",
-      "github": "https://github.com/mmanzano"
-    }
-  }
-]
+  ],
+  "patrons": []
+}
