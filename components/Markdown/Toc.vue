@@ -63,11 +63,17 @@ export default {
         window.pageYOffset || document.documentElement.offsetTop
 
       const items = this.menu
-      const index = items.slice().findIndex(item => {
+      const i = items.slice().findIndex(item => {
         const itemOffsetTop = document.querySelector(`#${item.anchor}`)
         return itemOffsetTop.offsetTop > this.currentOffset
       })
-      this.currentAnchor = this.menu[index - 1].anchor
+
+      if (this.currentOffset < 550) {
+        this.currentAnchor = this.menu[0].anchor
+      } else {
+        const item = i - 1 < 0 ? items.length - 1 : i - 1
+        this.currentAnchor = this.menu[item].anchor
+      }
     }
   }
 }
