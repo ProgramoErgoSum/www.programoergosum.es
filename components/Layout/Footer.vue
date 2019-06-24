@@ -133,6 +133,10 @@ export default {
       {
         icon: 'fab fa-github',
         link: 'https://github.com/ProgramoErgoSum'
+      },
+      {
+        icon: 'fab fa-slack',
+        link: 'https://programoergosum.slack.com/'
       }
     ]
   })
