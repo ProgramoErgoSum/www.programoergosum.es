@@ -1,6 +1,6 @@
 # Concurso Participo Luego Existo
 
-Participio Luego Existo es un concurso que pretende cambiar la filosofía de concursos competitivos cuyos ganadores obtienen un premio. Nuestro objetivo es hacer ver a los participantes que no es necesario competir y obtener un premio para pasarlo bien.
+Participo Luego Existo es un concurso que pretende cambiar la filosofía de concursos competitivos cuyos ganadores obtienen un premio. Nuestro objetivo es hacer ver a los participantes que no es necesario competir y obtener un premio para pasarlo bien.
 
 El concurso consiste en desarrollar un proyecto tecnológico. Los estudiantes deberán exponer los proyectos realizados y tras la exposición se realizará una master class gratuita de programación y robótica.
 
