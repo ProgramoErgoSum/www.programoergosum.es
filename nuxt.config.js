@@ -35,7 +35,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'robots', content: 'index, follow' }
+      { name: 'robots', content: 'index, follow' },
+      {
+        name: 'google-site-verification',
+        content: 'FT0Qc7McHBOZwLy1lVLXXNONbp3A_o4MX1gTApbyX6Y'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -67,10 +71,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    { src: '~plugins/vuetify.js' },
-    { src: '~plugins/ga.js', ssr: false }
-  ],
+  plugins: [{ src: '~plugins/vuetify.js' }],
 
   /*
    ** Nuxt.js modules
