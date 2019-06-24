@@ -60,6 +60,24 @@
             </ul>
           </div>
         </v-flex>
+        <v-flex xs12 sm12 md4 lg3 offset-lg3>
+          <div class="block ccbysa">
+            <img
+              alt="Licencia de Creative Commons"
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg"
+            />
+            <br />
+            A menos que se especifique lo contrario, toda esta obra está bajo
+            una licencia de
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://creativecommons.org/licenses/by-sa/4.0/"
+            >
+              Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional.
+            </a>
+          </div>
+        </v-flex>
         <v-flex xs12>
           <div class="copyleft">
             <p>
@@ -193,7 +211,8 @@ export default {
     margin: 50px 0;
   }
   .block {
-    margin: 0 0 50px;
+    max-width: 300px;
+    margin: 0 auto 50px;
     h4 {
       margin: 0 0 15px;
       font-weight: 400;
@@ -208,6 +227,14 @@ export default {
         font-weight: 100;
         font-size: 16px;
       }
+    }
+  }
+  .ccbysa {
+    text-align: right;
+    font-size: 12px;
+    img {
+      width: 130px;
+      margin-bottom: 10px;
     }
   }
   .v-icon {
@@ -236,6 +263,11 @@ export default {
       .v-btn {
         margin: 5px;
       }
+    }
+    .follow,
+    .block,
+    .ccbysa {
+      text-align: center;
     }
   }
 }
