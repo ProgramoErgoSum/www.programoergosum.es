@@ -1,5 +1,5 @@
 <template>
-  <div id="coc">
+  <div class="_alias">
     <v-container>
       <v-layout>
         <v-flex>
@@ -17,23 +17,26 @@ export default {
   components: {
     Content
   },
-  async asyncData() {
-    const path = `coc`
+  validate({ params }) {
+    return params.alias !== undefined
+  },
+  async asyncData({ params }) {
+    const path = `legal/${params.alias}`
     const file = await import(`@/static/${path}/README.md`)
     const readme = {
       path: path,
       body: file.body
     }
-
     return {
       readme: readme
     }
   },
   head() {
-    const title = 'Código de conducta'
+    const title = 'Información'
 
     return {
-      title: title
+      title: title,
+      meta: [{ name: 'robots', content: 'nofollow' }]
     }
   }
 }

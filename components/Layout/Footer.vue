@@ -23,13 +23,7 @@
           <div class="block">
             <h4>Sobre nosotros</h4>
             <ul>
-              <li
-                v-for="item in association"
-                :key="item.link"
-                :to="item.link"
-                flat
-                nuxt
-              >
+              <li v-for="item in association" :key="item.link" :to="item.link">
                 <nuxt-link :to="item.link" :title="item.title">
                   {{ item.title }}
                 </nuxt-link>
@@ -41,13 +35,7 @@
           <div class="block">
             <h4>Proyectos educativos</h4>
             <ul>
-              <li
-                v-for="item in projects"
-                :key="item.link"
-                :to="item.link"
-                flat
-                nuxt
-              >
+              <li v-for="item in projects" :key="item.link" :to="item.link">
                 <a
                   target="_blank"
                   :href="item.link"
@@ -80,43 +68,59 @@
         </v-flex>
         <v-flex xs12>
           <div class="copyleft">
-            <!--
-            <p>
-              Made with <span class="heart">&hearts;</span> by
-              <a
-                href="https://github.com/migueabellan"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                @migueabellan
-              </a>
-              . Released with
-              <a
-                href="https://nuxtjs.org/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  height="9px"
-                  src="https://nuxtjs.org/logos/nuxtjs-typo.svg"
-                />
-              </a>
-              & Vuetify
-              <a
-                href="https://vuetifyjs.com"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  height="15px"
-                  src="https://cdn.vuetifyjs.com/images/logos/v-alt.svg"
-                />
-              </a>
-            </p>
-            -->
-            <p>
-              2015-{{ new Date().getFullYear() }} Asociación Programo Ergo Sum.
-            </p>
+            <ul>
+              <li>
+                2015-{{ new Date().getFullYear() }} Asociación Programo Ergo Sum
+              </li>
+              |
+              <li v-for="item in legal" :key="item.link" :to="item.link">
+                <nuxt-link
+                  :to="item.link"
+                  :title="item.title"
+                  rel="noopener noreferrer nofollow"
+                >
+                  {{ item.title }}
+                </nuxt-link>
+              </li>
+            </ul>
+            <ul class="mt-3 hidden-sm-and-down">
+              <li>
+                Made with <span class="heart">&hearts;</span> by
+                <a
+                  href="https://github.com/migueabellan"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  @migueabellan
+                </a>
+              </li>
+              |
+              <li>
+                Released with
+                <a
+                  href="https://nuxtjs.org/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    height="9px"
+                    src="https://nuxtjs.org/logos/nuxtjs-typo.svg"
+                  />
+                </a>
+                ,
+                <a
+                  href="https://vuetifyjs.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Vuetify
+                  <img
+                    height="10px"
+                    src="https://cdn.vuetifyjs.com/images/logos/v-alt.svg"
+                  />
+                </a>
+              </li>
+            </ul>
           </div>
         </v-flex>
       </v-layout>
@@ -137,12 +141,6 @@ export default {
         title: 'Colabora',
         link: '/colabora'
       }
-      /*
-      {
-        title: 'Código de Conducta',
-        link: '/coc'
-      }
-      */
     ],
     projects: [
       {
@@ -156,6 +154,16 @@ export default {
       {
         title: 'Wiki TIC',
         link: 'https://wikitic.github.io'
+      }
+    ],
+    legal: [
+      {
+        title: 'Código de Conducta',
+        link: '/legal/coc'
+      },
+      {
+        title: 'Ley de cookies',
+        link: '/legal/cookies'
       }
     ],
     icons: [
@@ -241,11 +249,21 @@ export default {
     color: #2d3339;
   }
   .copyleft {
+    margin: 30px 0 0;
     text-align: center;
     font-size: 12px;
     .heart {
       font-size: 20px;
       color: red;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        margin: 0 5px;
+        padding: 0 5px;
+      }
     }
   }
 }
