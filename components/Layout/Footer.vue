@@ -118,11 +118,13 @@ export default {
       {
         title: 'Colabora',
         link: '/colabora'
-      },
+      }
+      /*
       {
         title: 'Código de Conducta',
         link: '/coc'
       }
+      */
     ],
     projects: [
       {
