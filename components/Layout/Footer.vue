@@ -217,6 +217,11 @@ export default {
   }
   .follow {
     margin: 50px 0;
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
   .block {
     max-width: 300px;
