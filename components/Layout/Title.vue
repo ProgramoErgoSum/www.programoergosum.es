@@ -11,7 +11,7 @@
           <h2 class="font-weight-black">
             {{ title }}
           </h2>
-          <h3 class="font-weight-regular">
+          <h3 class="font-weight-light">
             {{ description }}
           </h3>
         </v-flex>
@@ -54,12 +54,15 @@ export default {
     font-size: 40px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 1904px) {
 }
 @media only screen and (max-width: 1264px) {
+  h3 {
+    font-size: 26px;
+  }
 }
 @media only screen and (max-width: 960px) {
   #title {
