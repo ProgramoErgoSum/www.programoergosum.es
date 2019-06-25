@@ -7,13 +7,13 @@
       :keywords="keywords"
     />
     <Title :title="title" :description="description" />
-    <div class="pb-3">
-      <Sponsors :sponsors="sponsors" />
+    <div class="pb-5">
+      <Sponsors />
     </div>
     <div class="pt-5 pb-5 block-grey">
       <Patrons :patrons="patrons" />
     </div>
-    <div class="pb-3">
+    <div class="pt-5 pb-5">
       <Volunteers :volunteers="volunteers" />
     </div>
   </div>
@@ -42,7 +42,6 @@ export default {
         '¿Quieres formar parte del proyecto? Únete al equipo aportando tu granito de arena.',
       keywords: process.env.keywords,
       image: process.env.image,
-      sponsors: collaborators.sponsors,
       volunteers: collaborators.volunteers,
       patrons: collaborators.patrons
     }

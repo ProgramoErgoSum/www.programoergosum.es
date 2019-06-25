@@ -3,14 +3,7 @@
     <v-container>
       <v-layout class="sponsors" row wrap>
         <v-flex xs12>
-          <div class="mb-5">
-            <h2 class="mb-3">Mentores / Voluntarios</h2>
-            <p>
-              Buscamos personas que quieran
-              <b>colaborar desinteresadamentes</b>. Personas interesadas en
-              aportar sus conocimientos, experiencia y tiempo. ¿Te apetece?
-            </p>
-          </div>
+          <h2 class="mb-3">Mentores / Voluntarios</h2>
         </v-flex>
         <v-flex
           v-for="item in volunteers"
@@ -24,9 +17,16 @@
           <Card :card="item" />
         </v-flex>
         <v-flex xs12>
-          <v-btn class="mt-5" to="/contacto" outline>
-            Hazte voluntario
-          </v-btn>
+          <div class="mt-3 mb-3">
+            <p>
+              Buscamos personas que quieran
+              <b>colaborar desinteresadamentes</b>. Personas interesadas en
+              aportar sus conocimientos, experiencia y tiempo. ¿Te apetece?
+            </p>
+            <v-btn to="/contacto" large outline>
+              Hazte voluntario
+            </v-btn>
+          </div>
         </v-flex>
       </v-layout>
     </v-container>
@@ -34,18 +34,16 @@
 </template>
 
 <script>
+import collaborators from '@/static/colabora/list.json'
 import Card from '@/components/Pages/Colabora/Card'
 
 export default {
   components: {
     Card
   },
-  props: {
-    volunteers: {
-      type: Object,
-      required: true
-    }
-  }
+  data: () => ({
+    volunteers: collaborators.volunteers
+  })
 }
 </script>
 

@@ -3,19 +3,7 @@
     <v-container>
       <v-layout class="sponsors" row wrap>
         <v-flex xs12>
-          <div class="mb-5">
-            <h2 class="mb-3">Patronos</h2>
-            <p>
-              Puedes apoyar nuestros proyectos educativos a través del canal de
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.patreon.com/ProgramoErgoSum"
-                >Patreon</a
-              >
-              y aparecerás en esta sección como agradecimiento. ¿Te apuntas?
-            </p>
-          </div>
+          <h2 class="mb-3">Patronos</h2>
         </v-flex>
         <v-flex
           v-for="item in patrons"
@@ -29,15 +17,23 @@
           <Card :card="item" />
         </v-flex>
         <v-flex xs12>
-          <v-btn
-            class="mt-5"
-            href="https://www.patreon.com/ProgramoErgoSum"
-            target="_blank"
-            rel="noopener noreferrer"
-            outline
-          >
-            Apóyanos a través de Patreon
-          </v-btn>
+          <div class="mt-3 mb-3">
+            <p>
+              Puedes apoyar nuestros proyectos educativos a través del canal de
+              Patreon y aparecerás en esta sección como agradecimiento. ¿Te
+              apuntas?
+            </p>
+            <v-btn
+              href="https://www.patreon.com/ProgramoErgoSum"
+              target="_blank"
+              rel="noopener noreferrer"
+              outline
+              large
+              color="primary"
+            >
+              Apóyanos a través de Patreon
+            </v-btn>
+          </div>
         </v-flex>
       </v-layout>
     </v-container>
@@ -45,18 +41,16 @@
 </template>
 
 <script>
+import collaborators from '@/static/colabora/list.json'
 import Card from '@/components/Pages/Colabora/Card'
 
 export default {
   components: {
     Card
   },
-  props: {
-    patrons: {
-      type: Object,
-      required: true
-    }
-  }
+  data: () => ({
+    patrons: collaborators.patrons
+  })
 }
 </script>
 
