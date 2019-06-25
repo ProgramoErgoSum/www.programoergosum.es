@@ -3,7 +3,7 @@
     <v-container>
       <v-layout class="sponsors" row wrap>
         <v-flex xs12>
-          <h2 class="mb-3">Patronos</h2>
+          <h2 class="mb-3">Patronos / Agradecimientos</h2>
         </v-flex>
         <v-flex
           v-for="item in patrons"
@@ -15,6 +15,11 @@
           class="text-xs-center pa-2"
         >
           <Card :card="item" />
+        </v-flex>
+        <v-flex xs12 sm6 md4 lg3 class="text-xs-center pa-2">
+          <v-card class="pa-3">
+            <Card :card="empty" />
+          </v-card>
         </v-flex>
         <v-flex xs12>
           <div class="mt-3 mb-3">
@@ -49,6 +54,16 @@ export default {
     Card
   },
   data: () => ({
+    empty: {
+      name: 'Tu nombre',
+      image: '',
+      description: 'Breve descripción sobre tí y tus aficiones...',
+      social: {
+        url: 'http://enlace-a-tu-web',
+        twitter: 'http://enlace-a-tu-twitter',
+        github: 'http://enlace-a-tu-github'
+      }
+    },
     patrons: collaborators.patrons
   })
 }

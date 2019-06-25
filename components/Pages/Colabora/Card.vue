@@ -1,7 +1,7 @@
 <template>
   <div id="card" class="ma-3">
     <v-avatar size="110">
-      <v-img :src="card.image" :lazy-src="`/lazy.png`">
+      <v-img :src="card.image" :lazy-src="`/lazy-user.png`">
         <v-layout
           slot="placeholder"
           fill-height
