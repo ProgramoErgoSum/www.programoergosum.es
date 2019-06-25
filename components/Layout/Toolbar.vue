@@ -24,6 +24,7 @@
         {{ item.title }}
       </v-btn>
     </div>
+    <Forkme />
   </v-toolbar>
 </template>
 
@@ -31,11 +32,13 @@
 import { mapMutations } from 'vuex'
 
 import Logo from '@/components/Layout/Logo'
+import Forkme from '@/components/Layout/Forkme'
 
 export default {
   name: 'Toolbar',
   components: {
-    Logo
+    Logo,
+    Forkme
   },
   props: {
     navigation: {
