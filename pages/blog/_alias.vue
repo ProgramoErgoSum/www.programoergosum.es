@@ -46,7 +46,7 @@ export default {
     const readme = {
       path: path,
       body: file.body,
-      image: `${path}/images/preview.png`
+      image: `${path}/preview.png`
     }
     return {
       title: blog.title,
