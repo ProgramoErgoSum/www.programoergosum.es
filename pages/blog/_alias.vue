@@ -43,11 +43,13 @@ export default {
       return e.alias === params.alias
     })
 
-    if (blog === undefined)
-      return error({ statusCode: 404, message: 'Not found' })
-
     const path = `blog/${params.alias}`
-    const file = await import(`@/static/${path}/README.md`)
+    let file
+    try {
+      file = await import(`@/static/${path}/README.md`)
+    } catch (e) {
+      return error({ statusCode: 404, message: 'Not found' })
+    }
 
     const readme = {
       path: path,
