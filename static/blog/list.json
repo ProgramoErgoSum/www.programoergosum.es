@@ -16,5 +16,11 @@
     "title": "Entrevistamos a Ana (Ninja de CoderDojo Murcia)",
     "description": "Ana es ninja de CoderDojo Murcia desde hace más de 1 año. Es una apasionada de la música y en concreto toca el piano y muy bien.",
     "keywords": ["coderdojo", "murcia", "club", "ana"]
+  },
+  {
+    "alias": "presentes-en-simo-educacion-2016",
+    "title": "Presentes en SIMO Educación 2016",
+    "description": "Asistimos a SIMO Educación 2016 realizando talleres para introducir la programación dentro del aula como medio de aprendizaje hacia otras asignaturas.",
+    "keywords": ["simo", "educacion", "asociacion"]
   }
 ]
