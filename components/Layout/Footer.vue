@@ -140,6 +140,10 @@ export default {
       {
         title: 'Colabora',
         link: '/colabora'
+      },
+      {
+        title: 'Contacto',
+        link: '/contacto'
       }
     ],
     projects: [

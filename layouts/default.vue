@@ -53,13 +53,6 @@ export default {
           icon: 'description',
           link: '/blog'
         }
-        /*
-        {
-          title: 'Contacta',
-          icon: 'alternate_email',
-          link: '/contacta'
-        }
-        */
       ]
     }
   }
