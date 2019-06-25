@@ -18,7 +18,7 @@
         >
           <v-card :to="`/actividades/${activity.alias}`">
             <v-img
-              :src="`/actividades/${activity.alias}/images/preview.png`"
+              :src="`/actividades/${activity.alias}/preview.png`"
               :lazy-src="`/lazy.png`"
               :title="`${activity.title}`"
               height="250"
@@ -68,9 +68,9 @@ export default {
   },
   asyncData() {
     return {
-      title: 'Actividades',
+      title: 'Cursos de robótica en Murcia',
       description:
-        'Talleres y actividades gratuitas de programación y robótica en Murcia.',
+        'Actividades extraescolares y talleres gratuitos de programación, electrónica y robótica en la Región de Murcia.',
       keywords: [
         'robótica',
         'murcia',

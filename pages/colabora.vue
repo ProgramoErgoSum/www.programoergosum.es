@@ -6,7 +6,7 @@
       :image="image"
       :keywords="keywords"
     />
-    <Title :title="title" :description="description" />
+    <Title :title="title" :description="description" :image="image" />
     <div class="pb-5">
       <Sponsors />
     </div>
@@ -16,6 +16,7 @@
     <div class="pt-5 pb-5">
       <Volunteers :volunteers="volunteers" />
     </div>
+    <Reg />
   </div>
 </template>
 
@@ -26,6 +27,7 @@ import Title from '@/components/Layout/Title'
 import Sponsors from '@/components/Pages/Colabora/Sponsors'
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Patrons from '@/components/Pages/Colabora/Patrons'
+import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
@@ -33,15 +35,17 @@ export default {
     Title,
     Sponsors,
     Volunteers,
-    Patrons
+    Patrons,
+    Reg
   },
   asyncData() {
+    const path = `colabora`
     return {
-      title: 'Colabora',
+      title: 'Colabora con la iniciativa',
       description:
-        '¿Quieres formar parte del proyecto? Únete al equipo aportando tu granito de arena.',
+        'Para poder hacer frente al mantenimiento en todos nuestros proyectos educativos necesitamos tu apoyo. ¿Quieres colaborar?',
       keywords: process.env.keywords,
-      image: process.env.image,
+      image: `${path}/preview.png`,
       volunteers: collaborators.volunteers,
       patrons: collaborators.patrons
     }
