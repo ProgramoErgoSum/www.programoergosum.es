@@ -69,6 +69,13 @@ export default {
   css: ['~/assets/style/app.styl', '~/assets/style/main.scss'],
 
   /*
+   ** Middleware
+   */
+  router: {
+    middleware: 'redirects'
+  },
+
+  /*
    ** Plugins to load before mounting the App
    */
   plugins: [
