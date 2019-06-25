@@ -42,15 +42,7 @@ export default {
     })
 
     const path = `blog/${params.alias}`
-    let file = null
-    if (blog === undefined) {
-      file = await import(`@/static/${path}/README.md`)
-    } else {
-      file = {
-        body: '# 404'
-      }
-    }
-
+    const file = await import(`@/static/${path}/README.md`)
     const readme = {
       path: path,
       body: file.body,
