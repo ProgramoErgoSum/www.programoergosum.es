@@ -30,20 +30,16 @@ export default {
     Title,
     Content
   },
-  /*
   validate({ params }) {
     const blog = blogs.find(e => {
       return e.alias === params.alias
     })
     return blog !== undefined
   },
-  */
   async asyncData({ params, error }) {
     const blog = blogs.find(e => {
       return e.alias === params.alias
     })
-
-    if (blog === undefined) return error({ statusCode: 404 })
 
     const path = `blog/${params.alias}`
     const file = await import(`@/static/${path}/README.md`)
