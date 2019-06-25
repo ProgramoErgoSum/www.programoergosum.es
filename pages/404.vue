@@ -3,12 +3,16 @@
     <v-container>
       <v-layout>
         <v-flex>
-          <h1 class="errorcode font-weight-black">
-            404
-          </h1>
-          <h2 class="display">
-            Página no encontrada :(
-          </h2>
+          <div class="text-xs-center">
+            <h1 class="errorcode font-weight-black">
+              404
+            </h1>
+            <h2 class="display">
+              <p>
+                Página no encontrada
+              </p>
+            </h2>
+          </div>
         </v-flex>
       </v-layout>
     </v-container>
