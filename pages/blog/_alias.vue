@@ -42,7 +42,16 @@ export default {
     })
 
     const path = `blog/${params.alias}`
-    const file = await import(`@/static/${path}/README.md`)
+    let file = null
+    try {
+      file = await import(`@/static/${path}/README.md`)
+    } catch (err) {
+      if (err.response.status !== 404) {
+        return error({ statusCode: 500 })
+      }
+      return error({ statusCode: 404 })
+    }
+
     const readme = {
       path: path,
       body: file.body,
