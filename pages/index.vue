@@ -32,7 +32,7 @@
       <Sponsors />
     </section>
     <section class="pt-5 pb-5">
-      <Patrons :patrons="patrons" />
+      <Patrons />
     </section>
     <section>
       <Reg />
