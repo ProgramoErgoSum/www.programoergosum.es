@@ -43,6 +43,9 @@ export default {
       return e.alias === params.alias
     })
 
+    if (blog === undefined)
+      return error({ statusCode: 404, message: 'Not found' })
+
     const path = `blog/${params.alias}`
     let file
     try {
