@@ -9,7 +9,7 @@
             </h1>
             <h2 class="display">
               <p>
-                Página no encontrada
+                Página no encontrada :(
               </p>
             </h2>
           </div>
