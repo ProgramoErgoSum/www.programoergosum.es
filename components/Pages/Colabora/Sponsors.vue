@@ -22,13 +22,11 @@
         >
           <Card :card="item" />
         </v-flex>
-        <!--
         <v-flex xs12>
-          <v-btn class="mt-5" to="/contacta" outline>
+          <v-btn class="mt-5" to="/contacto" outline>
             Hazte patrocinador
           </v-btn>
         </v-flex>
-        -->
       </v-layout>
     </v-container>
   </div>
