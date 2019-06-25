@@ -7,9 +7,15 @@
       :keywords="keywords"
     />
     <Title :title="title" :description="description" />
-    <Sponsors :sponsors="sponsors" />
-    <Volunteers :volunteers="volunteers" />
-    <Patrons :patrons="patrons" />
+    <div class="pb-3">
+      <Sponsors :sponsors="sponsors" />
+    </div>
+    <div class="pt-5 pb-5 block-grey">
+      <Patrons :patrons="patrons" />
+    </div>
+    <div class="pb-3">
+      <Volunteers :volunteers="volunteers" />
+    </div>
   </div>
 </template>
 
@@ -44,4 +50,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.block-grey {
+  background: #f0f0f0;
+}
+</style>

@@ -51,9 +51,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-#volunteers {
-  padding: 50px 0;
-  background: #f0f0f0;
-}
-</style>
+<style lang="scss" scoped></style>

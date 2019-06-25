@@ -50,9 +50,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-#sponsors {
-  padding-bottom: 50px;
-  padding-bottom: 50px;
-}
-</style>
+<style lang="scss" scoped></style>

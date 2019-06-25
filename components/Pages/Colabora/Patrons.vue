@@ -60,9 +60,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-#patrons {
-  margin-bottom: 50px;
-  padding: 50px;
-}
-</style>
+<style lang="scss" scoped></style>
