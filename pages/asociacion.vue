@@ -14,6 +14,10 @@
         </v-flex>
       </v-layout>
     </v-container>
+    <section class="pt-5 pb-5 block-grey">
+      <Volunteers />
+    </section>
+    <Reg />
   </div>
 </template>
 
@@ -21,12 +25,16 @@
 import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
+import Volunteers from '@/components/Pages/Colabora/Volunteers'
+import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
     Metas,
     Title,
-    Content
+    Content,
+    Volunteers,
+    Reg
   },
   async asyncData() {
     const path = `asociacion`
@@ -49,4 +57,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.block-grey {
+  background: #f0f0f0;
+}
+</style>
