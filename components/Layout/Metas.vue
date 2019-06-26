@@ -5,44 +5,43 @@
 <script>
 export default {
   name: 'Metas',
-  head() {
-    const description = 'asdf'
-
-    return {
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: description
-        }
-      ]
+  props: {
+    title: {
+      type: String,
+      default: process.env.title
+    },
+    description: {
+      type: String,
+      default: process.env.description
+    },
+    keywords: {
+      type: Array,
+      default: process.env.keywords
+    },
+    image: {
+      type: String,
+      default: process.env.image
     }
-  }
-  /*
+  },
   head() {
     const title = this.title
     const description = this.description
     const keywords = this.keywords.toString()
     const image = `${process.env.canonical}/${this.image}`
-    const url = `${process.env.canonical}/${this.$route.path}`
 
     return {
       title: title,
       meta: [
-        { rel: 'canonical', href: url },
-        { name: 'description', content: description },
-        { name: 'keywords', content: keywords },
-        { property: 'og:title', content: title },
-        { property: 'og:description', content: description },
-        { property: 'og:image', content: image },
-        { property: 'og:url', content: url },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: title },
-        { name: 'twitter:description', content: description },
-        { name: 'twitter:image', content: image }
+        { hid: 'description', name: 'description', content: description },
+        { hid: 'keywords', name: 'keywords', content: keywords },
+        { hid: 'o:t', property: 'og:title', content: title },
+        { hid: 'o:d', property: 'og:description', content: description },
+        { hid: 'o:i', property: 'og:image', content: image },
+        { hid: 't:t', name: 'twitter:title', content: title },
+        { hid: 't:d', name: 'twitter:description', content: description },
+        { hid: 't:i', name: 'twitter:image', content: image }
       ]
     }
   }
-  */
 }
 </script>

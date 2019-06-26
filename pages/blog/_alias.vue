@@ -1,8 +1,5 @@
 <template>
   <div class="_alias">
-    <!--
-      <Metas />
-    -->
     <Title :title="title" :description="description" :image="image" />
     <v-container>
       <v-layout>
@@ -17,13 +14,11 @@
 <script>
 import blogs from '@/static/blog/list.json'
 
-// import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 
 export default {
   components: {
-    // Metas,
     Title,
     Content
   },
@@ -58,23 +53,22 @@ export default {
     const description = this.description
     const keywords = this.keywords.toString()
     const image = `${process.env.canonical}/${this.image}`
-    const url = `${process.env.canonical}/${this.$route.path}`
 
     return {
       title: title,
       titleTemplate: 'Blog - %s',
       meta: [
-        { rel: 'canonical', href: url },
-        { name: 'description', content: description },
-        { name: 'keywords', content: keywords },
-        { property: 'og:title', content: title },
-        { property: 'og:description', content: description },
-        { property: 'og:image', content: image },
-        { property: 'og:url', content: url },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: title },
-        { name: 'twitter:description', content: description },
-        { name: 'twitter:image', content: image }
+        // Global
+        { hid: 'description', name: 'description', content: description },
+        { hid: 'keywords', name: 'keywords', content: keywords },
+        // Facebook
+        { hid: 'o:t', property: 'og:title', content: this.title },
+        { hid: 'o:d', property: 'og:description', content: description },
+        { hid: 'o:i', property: 'og:image', content: image },
+        // Twitter
+        { hid: 't:t', name: 'twitter:title', content: this.title },
+        { hid: 't:d', name: 'twitter:description', content: description },
+        { hid: 't:i', name: 'twitter:image', content: image }
       ]
     }
   }
