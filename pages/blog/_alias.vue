@@ -42,9 +42,16 @@ export default {
     return blog !== undefined
   },
   asyncData({ params, error }) {
-    const title = params.alias
+    const blog = blogs.find(e => {
+      return e.alias === params.alias
+    })
+
     return {
-      title: title
+      title: blog.title,
+      description: blog.description,
+      image: `${path}/preview.png`,
+      keywords: blog.keywords
+      // readme: readme
     }
   }
   /*
