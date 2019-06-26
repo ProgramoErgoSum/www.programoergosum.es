@@ -1,14 +1,16 @@
 <template>
   <div class="_alias">
     {{ title }}
+    <!--
     <Metas
       :title="title"
       :description="description"
       :image="image"
       :keywords="keywords"
     />
-    <!--
+    -->
     <Title :title="title" :description="description" :image="image" />
+    <!--
     <v-container>
       <v-layout>
         <v-flex>
@@ -23,15 +25,14 @@
 <script>
 import blogs from '@/static/blog/list.json'
 
-import Metas from '@/components/Layout/Metas'
-/*
+// import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
-import Content from '@/components/Markdown/Content'
-*/
+// import Content from '@/components/Markdown/Content'
+
 export default {
   components: {
-    Metas
-    // Title,
+    // Metas
+    Title
     // Content
   },
   validate({ params }) {
