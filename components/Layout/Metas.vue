@@ -13,23 +13,17 @@ export default {
     description: {
       type: String,
       default: process.env.description
-    },
-    image: {
-      type: String,
-      default: process.env.image
     }
   },
   head() {
     const title = this.title
     const description = this.description
-    const image = `${process.env.canonical}/${this.image}`
 
     return {
       meta: [
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: title },
-        { name: 'twitter:description', content: description },
-        { name: 'twitter:image', content: image }
+        { name: 'twitter:description', content: description }
       ]
     }
   }
