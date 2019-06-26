@@ -28,13 +28,11 @@ import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 */
 export default {
-  /*
   components: {
-    Metas,
-    Title,
-    Content
+    Metas
+    // Title,
+    // Content
   },
-  */
   validate({ params }) {
     const blog = blogs.find(e => {
       return e.alias === params.alias
