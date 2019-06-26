@@ -41,10 +41,24 @@ export default {
     })
     return blog !== undefined
   },
-  asyncData({ params, error }) {
-    const title = params.alias
+  async asyncData({ params, error }) {
+    const blog = blogs.find(e => {
+      return e.alias === params.alias
+    })
+
+    const path = `blog/${params.alias}`
+    const file = await import(`@/static/${path}/README.md`)
+    const readme = {
+      path: path,
+      body: file.body,
+      image: `${path}/preview.png`
+    }
     return {
-      title: title
+      title: blog.title,
+      description: blog.description,
+      image: readme.image,
+      keywords: blog.keywords,
+      readme: readme
     }
   }
   /*
