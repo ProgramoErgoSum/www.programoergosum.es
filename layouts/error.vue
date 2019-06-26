@@ -27,7 +27,8 @@ export default {
       type: Object,
       default: null
     }
-  }
+  },
+  layout: 'empty'
 }
 </script>
 
