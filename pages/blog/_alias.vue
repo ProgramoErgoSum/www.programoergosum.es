@@ -1,5 +1,6 @@
 <template>
   <div class="_alias">
+    {{ title }}
     <!--
     <Metas
       :title="title"
@@ -39,6 +40,12 @@ export default {
       return e.alias === params.alias
     })
     return blog !== undefined
+  },
+  asyncData({ params, error }) {
+    const title = params.alias
+    return {
+      title: title
+    }
   }
   /*
   async asyncData({ params, error }) {
