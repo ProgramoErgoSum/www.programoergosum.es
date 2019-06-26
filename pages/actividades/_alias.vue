@@ -1,11 +1,5 @@
 <template>
   <div class="_alias">
-    <Metas
-      :title="title"
-      :description="description"
-      :image="image"
-      :keywords="keywords"
-    />
     <Title :title="title" :description="description" :image="image" />
     <v-container>
       <v-layout row wrap>
@@ -25,14 +19,12 @@
 <script>
 import activities from '@/static/actividades/list.json'
 
-import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 
 export default {
   components: {
-    Metas,
     Title,
     Content,
     Toc
@@ -52,16 +44,39 @@ export default {
     const file = await import(`@/static/${path}/README.md`)
     const readme = {
       path: path,
-      body: file.body,
-      image: `${path}/preview.png`
+      body: file.body
     }
 
     return {
       title: activity.title,
       description: activity.description,
-      image: readme.image,
-      keywords: activity.keywords,
+      image: `${path}/preview.png`,
       readme: readme
+    }
+  },
+  head() {
+    const title = this.title
+    const description = this.description
+    const image = `${process.env.canonical}${this.image}`
+    const canonical = `${process.env.canonical}${this.$route.path}`
+
+    return {
+      title: title,
+      meta: [
+        // Global
+        { rel: 'canonical', href: canonical },
+        { hid: 'description', name: 'description', content: description },
+        // Facebook
+        { property: 'og:url', content: canonical },
+        { hid: 'o:t', property: 'og:title', content: title },
+        { hid: 'o:d', property: 'og:description', content: description },
+        { hid: 'o:i', property: 'og:image', content: image },
+        // Twitter
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 't:t', name: 'twitter:title', content: title },
+        { hid: 't:d', name: 'twitter:description', content: description },
+        { hid: 't:i', name: 'twitter:image', content: image }
+      ]
     }
   }
 }

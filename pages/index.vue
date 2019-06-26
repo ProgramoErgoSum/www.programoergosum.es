@@ -1,12 +1,5 @@
 <template>
   <div>
-    <Metas
-      :title="title"
-      :description="description"
-      :image="image"
-      :keywords="keywords"
-    />
-
     <v-container class="home">
       <v-layout row wrap>
         <v-flex xs12>
@@ -41,7 +34,8 @@
 </template>
 
 <script>
-import Metas from '@/components/Layout/Metas'
+import metas from '@/static/metas.json'
+
 import What from '@/components/Pages/Home/What'
 import Sponsors from '@/components/Pages/Colabora/Sponsors'
 import Patrons from '@/components/Pages/Colabora/Patrons'
@@ -49,7 +43,6 @@ import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Metas,
     What,
     Sponsors,
     Patrons,
@@ -57,10 +50,32 @@ export default {
   },
   asyncData() {
     return {
-      title: process.env.title,
-      description: process.env.description,
-      keywords: process.env.keywords,
-      image: process.env.image
+      metas: metas.index
+    }
+  },
+  head() {
+    const title = this.metas.title
+    const description = this.metas.description
+    const image = `${process.env.canonical}${this.metas.image}`
+    const canonical = `${process.env.canonical}${this.$route.path}`
+
+    return {
+      title: title,
+      meta: [
+        // Global
+        { rel: 'canonical', href: canonical },
+        { hid: 'description', name: 'description', content: description },
+        // Facebook
+        { property: 'og:url', content: canonical },
+        { hid: 'o:t', property: 'og:title', content: title },
+        { hid: 'o:d', property: 'og:description', content: description },
+        { hid: 'o:i', property: 'og:image', content: image },
+        // Twitter
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 't:t', name: 'twitter:title', content: title },
+        { hid: 't:d', name: 'twitter:description', content: description },
+        { hid: 't:i', name: 'twitter:image', content: image }
+      ]
     }
   }
 }

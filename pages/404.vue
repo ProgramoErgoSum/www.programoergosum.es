@@ -25,7 +25,13 @@ export default {
 
     return {
       title: title,
-      meta: [{ name: 'robots', content: 'nofollow' }]
+      meta: [
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'noindex, noarchive, nofollow'
+        }
+      ]
     }
   }
 }

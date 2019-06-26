@@ -1,12 +1,10 @@
 <template>
   <div id="actividades">
-    <Metas
-      :title="title"
-      :description="description"
-      :image="image"
-      :keywords="keywords"
+    <Title
+      :title="metas.title"
+      :description="metas.description"
+      :image="metas.image"
     />
-    <Title :title="title" :description="description" :image="image" />
     <v-container fluid>
       <v-layout row wrap>
         <v-flex
@@ -56,30 +54,44 @@
 </template>
 
 <script>
+import metas from '@/static/metas.json'
 import activities from '@/static/actividades/list.json'
 
-import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
 
 export default {
   components: {
-    Metas,
     Title
   },
   asyncData() {
     return {
-      title: 'Cursos de robótica en Murcia',
-      description:
-        'Actividades extraescolares y talleres gratuitos de programación, electrónica y robótica en la Región de Murcia.',
-      keywords: [
-        'robótica',
-        'murcia',
-        'programación',
-        'actividades',
-        'extraescolares'
-      ],
-      image: 'actividades/preview.png',
+      metas: metas.actividades,
       activities: activities
+    }
+  },
+  head() {
+    const title = this.metas.title
+    const description = this.metas.description
+    const image = `${process.env.canonical}${this.metas.image}`
+    const canonical = `${process.env.canonical}${this.$route.path}`
+
+    return {
+      title: title,
+      meta: [
+        // Global
+        { rel: 'canonical', href: canonical },
+        { hid: 'description', name: 'description', content: description },
+        // Facebook
+        { property: 'og:url', content: canonical },
+        { hid: 'o:t', property: 'og:title', content: title },
+        { hid: 'o:d', property: 'og:description', content: description },
+        { hid: 'o:i', property: 'og:image', content: image },
+        // Twitter
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 't:t', name: 'twitter:title', content: title },
+        { hid: 't:d', name: 'twitter:description', content: description },
+        { hid: 't:i', name: 'twitter:image', content: image }
+      ]
     }
   }
 }

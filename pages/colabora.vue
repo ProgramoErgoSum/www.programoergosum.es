@@ -1,12 +1,10 @@
 <template>
   <div id="colabora">
-    <Metas
-      :title="title"
-      :description="description"
-      :image="image"
-      :keywords="keywords"
+    <Title
+      :title="metas.title"
+      :description="metas.description"
+      :image="metas.image"
     />
-    <Title :title="title" :description="description" :image="image" />
     <div class="pb-5">
       <Sponsors />
     </div>
@@ -21,8 +19,9 @@
 </template>
 
 <script>
+import metas from '@/static/metas.json'
 import collaborators from '@/static/colabora/list.json'
-import Metas from '@/components/Layout/Metas'
+
 import Title from '@/components/Layout/Title'
 import Sponsors from '@/components/Pages/Colabora/Sponsors'
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
@@ -31,7 +30,6 @@ import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Metas,
     Title,
     Sponsors,
     Volunteers,
@@ -39,15 +37,35 @@ export default {
     Reg
   },
   asyncData() {
-    const path = `colabora`
     return {
-      title: 'Colabora con la iniciativa',
-      description:
-        'Para poder hacer frente al mantenimiento en todos nuestros proyectos educativos necesitamos tu apoyo. ¿Quieres colaborar?',
-      keywords: process.env.keywords,
-      image: `${path}/preview.png`,
+      metas: metas.colabora,
       volunteers: collaborators.volunteers,
       patrons: collaborators.patrons
+    }
+  },
+  head() {
+    const title = this.metas.title
+    const description = this.metas.description
+    const image = `${process.env.canonical}/${this.metas.image}`
+    const canonical = `${process.env.canonical}${this.$route.path}`
+
+    return {
+      title: title,
+      meta: [
+        // Global
+        { rel: 'canonical', href: canonical },
+        { hid: 'description', name: 'description', content: description },
+        // Facebook
+        { property: 'og:url', content: canonical },
+        { hid: 'o:t', property: 'og:title', content: title },
+        { hid: 'o:d', property: 'og:description', content: description },
+        { hid: 'o:i', property: 'og:image', content: image },
+        // Twitter
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 't:t', name: 'twitter:title', content: title },
+        { hid: 't:d', name: 'twitter:description', content: description },
+        { hid: 't:i', name: 'twitter:image', content: image }
+      ]
     }
   }
 }

@@ -44,29 +44,29 @@ export default {
       title: blog.title,
       description: blog.description,
       image: `${path}/preview.png`,
-      keywords: blog.keywords,
       readme: readme
     }
   },
   head() {
     const title = this.title
     const description = this.description
-    const keywords = this.keywords.toString()
-    const image = `${process.env.canonical}/${this.image}`
+    const image = `${process.env.canonical}${this.image}`
+    const canonical = `${process.env.canonical}${this.$route.path}`
 
     return {
       title: title,
-      titleTemplate: 'Blog - %s',
       meta: [
         // Global
+        { rel: 'canonical', href: canonical },
         { hid: 'description', name: 'description', content: description },
-        { hid: 'keywords', name: 'keywords', content: keywords },
         // Facebook
-        { hid: 'o:t', property: 'og:title', content: this.title },
+        { property: 'og:url', content: canonical },
+        { hid: 'o:t', property: 'og:title', content: title },
         { hid: 'o:d', property: 'og:description', content: description },
         { hid: 'o:i', property: 'og:image', content: image },
         // Twitter
-        { hid: 't:t', name: 'twitter:title', content: this.title },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 't:t', name: 'twitter:title', content: title },
         { hid: 't:d', name: 'twitter:description', content: description },
         { hid: 't:i', name: 'twitter:image', content: image }
       ]

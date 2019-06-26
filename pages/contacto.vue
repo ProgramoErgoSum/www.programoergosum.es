@@ -1,12 +1,10 @@
 <template>
   <div id="contacto">
-    <Metas
-      :title="title"
-      :description="description"
-      :image="image"
-      :keywords="keywords"
+    <Title
+      :title="metas.title"
+      :description="metas.description"
+      :image="metas.image"
     />
-    <Title :title="title" :description="description" />
     <v-container>
       <v-layout>
         <v-flex>
@@ -50,21 +48,42 @@
 </template>
 
 <script>
-import Metas from '@/components/Layout/Metas'
+import metas from '@/static/metas.json'
+
 import Title from '@/components/Layout/Title'
 
 export default {
   components: {
-    Metas,
     Title
   },
   asyncData() {
     return {
-      title: 'Contacta con nosotros',
-      description:
-        '¿Tienes algo que preguntarnos? Puedes contactar con nosotros a través de nuestro correo electrónico y redes sociales.',
-      keywords: ['asociacion', 'murcia', 'contacto'],
-      image: ''
+      metas: metas.contacto
+    }
+  },
+  head() {
+    const title = this.metas.title
+    const description = this.metas.description
+    const image = `${process.env.canonical}/${this.metas.image}`
+    const canonical = `${process.env.canonical}${this.$route.path}`
+
+    return {
+      title: title,
+      meta: [
+        // Global
+        { rel: 'canonical', href: canonical },
+        { hid: 'description', name: 'description', content: description },
+        // Facebook
+        { property: 'og:url', content: canonical },
+        { hid: 'o:t', property: 'og:title', content: title },
+        { hid: 'o:d', property: 'og:description', content: description },
+        { hid: 'o:i', property: 'og:image', content: image },
+        // Twitter
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 't:t', name: 'twitter:title', content: title },
+        { hid: 't:d', name: 'twitter:description', content: description },
+        { hid: 't:i', name: 'twitter:image', content: image }
+      ]
     }
   }
 }

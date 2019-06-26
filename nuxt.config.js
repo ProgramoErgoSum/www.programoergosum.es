@@ -5,11 +5,6 @@ import activities from './static/actividades/list.json'
 import blogs from './static/blog/list.json'
 
 const canonical = 'https://www.programoergosum.es'
-const title = 'Asociación Programo Ergo Sum'
-const description =
-  'Proyectos educativos abiertos para aprender programación y robótica con herramientas libres.'
-const keywords = ['asociación, educación']
-const image = 'preview.png'
 const routerBase = {
   router: {
     base: process.env.DEPLOY_ENV === 'MASTER' ? '/' : '/'
@@ -21,11 +16,7 @@ export default {
 
   ...routerBase,
   env: {
-    canonical: canonical,
-    title: title,
-    description: description,
-    keywords: keywords,
-    image: image
+    canonical: canonical
   },
 
   /*
@@ -35,7 +26,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'robots', content: 'index, follow' },
+      { hid: 'robots', name: 'robots', content: 'index, follow' },
       {
         name: 'google-site-verification',
         content: 'FT0Qc7McHBOZwLy1lVLXXNONbp3A_o4MX1gTApbyX6Y'

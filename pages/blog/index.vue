@@ -1,12 +1,10 @@
 <template>
   <div id="blog">
-    <Metas
-      :title="title"
-      :description="description"
-      :image="image"
-      :keywords="keywords"
+    <Title
+      :title="metas.title"
+      :description="metas.description"
+      :image="metas.image"
     />
-    <Title :title="title" :description="description" :image="image" />
     <v-container>
       <v-layout column>
         <v-flex v-for="blog in blogs" :key="blog.alias">
@@ -44,30 +42,44 @@
 </template>
 
 <script>
+import metas from '@/static/metas.json'
 import blogs from '@/static/blog/list.json'
 
-import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
 
 export default {
   components: {
-    Metas,
     Title
   },
   asyncData() {
     return {
-      title: 'Blog',
-      description:
-        'Últimas noticias sobre actividades y cursos realizados en la asociación.',
-      keywords: [
-        'noticias',
-        'murcia',
-        'programación',
-        'actividades',
-        'asociación'
-      ],
-      image: 'blog/preview.png',
+      metas: metas.blog,
       blogs: blogs
+    }
+  },
+  head() {
+    const title = this.metas.title
+    const description = this.metas.description
+    const image = `${process.env.canonical}${this.metas.image}`
+    const canonical = `${process.env.canonical}${this.$route.path}`
+
+    return {
+      title: title,
+      meta: [
+        // Global
+        { rel: 'canonical', href: canonical },
+        { hid: 'description', name: 'description', content: description },
+        // Facebook
+        { property: 'og:url', content: canonical },
+        { hid: 'o:t', property: 'og:title', content: title },
+        { hid: 'o:d', property: 'og:description', content: description },
+        { hid: 'o:i', property: 'og:image', content: image },
+        // Twitter
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 't:t', name: 'twitter:title', content: title },
+        { hid: 't:d', name: 'twitter:description', content: description },
+        { hid: 't:i', name: 'twitter:image', content: image }
+      ]
     }
   }
 }

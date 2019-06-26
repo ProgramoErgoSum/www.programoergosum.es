@@ -55,40 +55,6 @@ export default {
         */
       ]
     }
-  },
-  head() {
-    const title = 'Asociación Programo Ergo Sum'
-    const description =
-      'Proyectos educativos abiertos para aprender programación y robótica con herramientas libres.'
-    const keywords = [
-      'asociación',
-      'educación',
-      'informática',
-      'programación',
-      'robótica'
-    ].toString()
-    const image = `${process.env.canonical}/preview.png`
-    const canonical = `${process.env.canonical}${this.$route.path}`
-
-    return {
-      title: title,
-      meta: [
-        // Global
-        { rel: 'canonical', href: canonical },
-        { hid: 'description', name: 'description', content: description },
-        { hid: 'keywords', name: 'keywords', content: keywords },
-        // Facebook
-        { property: 'og:url', content: canonical },
-        { hid: 'o:t', property: 'og:title', content: title },
-        { hid: 'o:d', property: 'og:description', content: description },
-        { hid: 'o:i', property: 'og:image', content: image },
-        // Twitter
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { hid: 't:t', name: 'twitter:title', content: title },
-        { hid: 't:d', name: 'twitter:description', content: description },
-        { hid: 't:i', name: 'twitter:image', content: image }
-      ]
-    }
   }
 }
 </script>
