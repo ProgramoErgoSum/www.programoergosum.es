@@ -67,7 +67,9 @@ export default {
       titleTemplate: 'Blog - %s',
       meta: [
         {
-          hid: 'description', name: 'description', content: this.description
+          hid: 'description',
+          name: 'description',
+          content: this.description
         }
       ]
     }
