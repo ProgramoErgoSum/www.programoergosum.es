@@ -5,12 +5,6 @@
 <script>
 export default {
   name: 'Metas',
-  props: {
-    description: {
-      type: String,
-      default: 'defaul'
-    }
-  },
   head() {
     const description = 'asdf'
 

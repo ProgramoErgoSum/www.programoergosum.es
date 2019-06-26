@@ -1,6 +1,6 @@
 <template>
   <div class="_alias">
-    <Metas :description="description" />
+    <Metas />
     <Title :title="title" :description="description" :image="image" />
     <v-container>
       <v-layout>
