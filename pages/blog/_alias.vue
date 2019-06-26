@@ -40,7 +40,7 @@ export default {
     return blog !== undefined
   },
   */
-  asyncData({ params, error }) {
+  asyncData({ params, error, redirect }) {
     const readme = {
       path: `blog/${params.alias}`,
       body: '',
@@ -51,7 +51,10 @@ export default {
       return e.alias === params.alias
     })
 
-    if (blog === undefined) return error({ statusCode: 404 })
+    if (blog === undefined) {
+      redirect('/404')
+      return error({ statusCode: 404 })
+    }
 
     // console.log(readme)
     /*
