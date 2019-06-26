@@ -50,7 +50,7 @@ export default {
     return {
       title: activity.title,
       description: activity.description,
-      image: `${path}/preview.png`,
+      image: `/${path}/preview.png`,
       readme: readme
     }
   },

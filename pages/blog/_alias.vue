@@ -43,7 +43,7 @@ export default {
     return {
       title: blog.title,
       description: blog.description,
-      image: `${path}/preview.png`,
+      image: `/${path}/preview.png`,
       readme: readme
     }
   },

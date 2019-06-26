@@ -12,7 +12,7 @@
   "proyectos": {
     "title": "Proyectos educativos",
     "description": "Proyectos educativos abiertos para aprender informática, programación, robótica y nuevas tecnologías con herramientas libres.",
-    "image": ""
+    "image": "/preview.png"
   },
   "colabora": {
     "title": "Colabora con la iniciativa",
@@ -22,7 +22,7 @@
   "contacto": {
     "title": "Contacta con nosotros",
     "description": "¿Tienes algo que preguntarnos? Puedes contactar con nosotros a través de nuestro correo electrónico y redes sociales.",
-    "image": ""
+    "image": "/preview.png"
   },
   "blog": {
     "title": "Blog",
