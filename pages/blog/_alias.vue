@@ -50,6 +50,7 @@ export default {
       body: file.body,
       image: `${path}/preview.png`
     }
+
     return {
       title: blog.title,
       description: blog.description,

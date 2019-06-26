@@ -1,11 +1,13 @@
 <template>
   <div class="_alias">
+    <!--
     <Metas
       :title="title"
       :description="description"
       :image="image"
       :keywords="keywords"
     />
+    -->
     <Title :title="title" :description="description" :image="image" />
     <v-container>
       <v-layout row wrap>
@@ -25,14 +27,14 @@
 <script>
 import activities from '@/static/actividades/list.json'
 
-import Metas from '@/components/Layout/Metas'
+// import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 
 export default {
   components: {
-    Metas,
+    // Metas,
     Title,
     Content,
     Toc
