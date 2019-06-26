@@ -6,24 +6,21 @@
 export default {
   name: 'Metas',
   props: {
-    title: {
-      type: String,
-      default: process.env.title
-    },
     description: {
       type: String,
-      default: process.env.description
+      default: 'defaul'
     }
   },
   head() {
-    const title = this.title
     const description = this.description
 
     return {
       meta: [
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: title },
-        { name: 'twitter:description', content: description }
+        {
+          hid: 'description',
+          name: 'description',
+          content: description
+        }
       ]
     }
   }

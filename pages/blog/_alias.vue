@@ -1,13 +1,6 @@
 <template>
   <div class="_alias">
-    <!--
-    <Metas
-      :title="title"
-      :description="description"
-      :image="image"
-      :keywords="keywords"
-    />
-    -->
+    <Metas :description="description" />
     <Title :title="title" :description="description" :image="image" />
     <v-container>
       <v-layout>
@@ -22,13 +15,13 @@
 <script>
 import blogs from '@/static/blog/list.json'
 
-// import Metas from '@/components/Layout/Metas'
+import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 
 export default {
   components: {
-    // Metas,
+    Metas,
     Title,
     Content
   },
@@ -47,14 +40,13 @@ export default {
     const file = await import(`@/static/${path}/README.md`)
     const readme = {
       path: path,
-      body: file.body,
-      image: `${path}/preview.png`
+      body: file.body
     }
 
     return {
       title: blog.title,
       description: blog.description,
-      image: readme.image,
+      image: `${path}/preview.png`,
       keywords: blog.keywords,
       readme: readme
     }
@@ -64,17 +56,7 @@ export default {
 
     return {
       title: title,
-      titleTemplate: 'Blog - %s',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.description
-        },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: this.title },
-        { name: 'twitter:description', content: this.description }
-      ]
+      titleTemplate: 'Blog - %s'
     }
   }
 }
