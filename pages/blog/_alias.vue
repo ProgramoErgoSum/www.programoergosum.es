@@ -8,9 +8,8 @@
       :image="image"
       :keywords="keywords"
     />
-    -->
     <Title :title="title" :description="description" :image="image" />
-    <!--
+    -->
     <v-container>
       <v-layout>
         <v-flex>
@@ -18,7 +17,6 @@
         </v-flex>
       </v-layout>
     </v-container>
-    -->
   </div>
 </template>
 
@@ -26,14 +24,14 @@
 import blogs from '@/static/blog/list.json'
 
 // import Metas from '@/components/Layout/Metas'
-import Title from '@/components/Layout/Title'
-// import Content from '@/components/Markdown/Content'
+// import Title from '@/components/Layout/Title'
+import Content from '@/components/Markdown/Content'
 
 export default {
   components: {
     // Metas
-    Title
-    // Content
+    // Title
+    Content
   },
   validate({ params }) {
     const blog = blogs.find(e => {
