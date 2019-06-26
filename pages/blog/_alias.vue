@@ -20,7 +20,7 @@
 </template>
 
 <script>
-// import blogs from '@/static/blog/list.json'
+import blogs from '@/static/blog/list.json'
 /*
 import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
@@ -33,14 +33,14 @@ export default {
     Title,
     Content
   },
-  
+  */
   validate({ params }) {
     const blog = blogs.find(e => {
       return e.alias === params.alias
     })
     return blog !== undefined
   }
-  
+  /*
   async asyncData({ params, error }) {
     const blog = blogs.find(e => {
       return e.alias === params.alias
