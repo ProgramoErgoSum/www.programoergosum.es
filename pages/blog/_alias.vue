@@ -1,13 +1,14 @@
 <template>
   <div class="_alias">
+    <!--
     <Metas
       :title="title"
       :description="description"
       :image="image"
       :keywords="keywords"
     />
+    -->
     <Title :title="title" :description="description" :image="image" />
-    <!--
     <v-container>
       <v-layout>
         <v-flex>
@@ -15,22 +16,21 @@
         </v-flex>
       </v-layout>
     </v-container>
-    -->
   </div>
 </template>
 
 <script>
 import blogs from '@/static/blog/list.json'
 
-import Metas from '@/components/Layout/Metas'
+// import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
-// import Content from '@/components/Markdown/Content'
+import Content from '@/components/Markdown/Content'
 
 export default {
   components: {
-    Metas,
-    Title
-    // Content
+    // Metas,
+    Title,
+    Content
   },
   validate({ params }) {
     const blog = blogs.find(e => {
@@ -38,19 +38,24 @@ export default {
     })
     return blog !== undefined
   },
-  asyncData({ params }) {
+  async asyncData({ params }) {
     const blog = blogs.find(e => {
       return e.alias === params.alias
     })
 
     const path = `blog/${params.alias}`
-
+    const file = await import(`@/static/${path}/README.md`)
+    const readme = {
+      path: path,
+      body: file.body,
+      image: `${path}/preview.png`
+    }
     return {
       title: blog.title,
       description: blog.description,
-      image: `${path}/preview.png`,
-      keywords: blog.keywords
-      // readme: readme
+      image: readme.image,
+      keywords: blog.keywords,
+      readme: readme
     }
   }
   /*
