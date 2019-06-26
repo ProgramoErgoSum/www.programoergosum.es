@@ -12,7 +12,7 @@ export default {
     }
   },
   head() {
-    const description = this.description
+    const description = 'asdf'
 
     return {
       meta: [
