@@ -21,6 +21,7 @@
 
 <script>
 export default {
+  layouts: '404',
   head() {
     const title = '404 - Página no encontrada'
 
