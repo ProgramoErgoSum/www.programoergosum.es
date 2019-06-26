@@ -1,10 +1,6 @@
 <template>
   <div id="proyectos">
-    <Title
-      :title="metas.title"
-      :description="metas.description"
-      :image="metas.image"
-    />
+    <Title :title="metas.title" :description="metas.description" />
     <v-container fluid>
       <v-layout row wrap>
         <v-flex v-for="project in projects" :key="project.link" xs12 md12 lg4>

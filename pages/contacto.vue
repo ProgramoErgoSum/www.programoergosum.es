@@ -1,10 +1,6 @@
 <template>
   <div id="contacto">
-    <Title
-      :title="metas.title"
-      :description="metas.description"
-      :image="metas.image"
-    />
+    <Title :title="metas.title" :description="metas.description" />
     <v-container>
       <v-layout>
         <v-flex>
