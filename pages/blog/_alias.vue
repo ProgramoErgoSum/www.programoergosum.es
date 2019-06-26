@@ -1,6 +1,13 @@
 <template>
   <div class="_alias">
-    <Metas :title="title" :description="description" :image="image" />
+    <!--
+    <Metas
+      :title="title"
+      :description="description"
+      :image="image"
+      :keywords="keywords"
+    />
+    -->
     <Title :title="title" :description="description" :image="image" />
     <v-container>
       <v-layout>
@@ -15,13 +22,13 @@
 <script>
 import blogs from '@/static/blog/list.json'
 
-import Metas from '@/components/Layout/Metas'
+// import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 
 export default {
   components: {
-    Metas,
+    // Metas,
     Title,
     Content
   },
@@ -63,7 +70,10 @@ export default {
           hid: 'description',
           name: 'description',
           content: this.description
-        }
+        },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: this.title },
+        { name: 'twitter:description', content: this.description }
       ]
     }
   }
