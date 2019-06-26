@@ -46,6 +46,8 @@ export default {
       return e.alias === params.alias
     })
 
+    const path = `blog/${params.alias}`
+
     return {
       title: blog.title,
       description: blog.description,
