@@ -1,5 +1,6 @@
 <template>
   <div class="_alias">
+    <!--
     <Metas
       :title="title"
       :description="description"
@@ -14,28 +15,32 @@
         </v-flex>
       </v-layout>
     </v-container>
+    -->
   </div>
 </template>
 
 <script>
-import blogs from '@/static/blog/list.json'
-
+// import blogs from '@/static/blog/list.json'
+/*
 import Metas from '@/components/Layout/Metas'
 import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
-
+*/
 export default {
+  /*
   components: {
     Metas,
     Title,
     Content
   },
+  
   validate({ params }) {
     const blog = blogs.find(e => {
       return e.alias === params.alias
     })
     return blog !== undefined
-  },
+  }
+  
   async asyncData({ params, error }) {
     const blog = blogs.find(e => {
       return e.alias === params.alias
@@ -56,6 +61,7 @@ export default {
       readme: readme
     }
   }
+  */
 }
 </script>
 
