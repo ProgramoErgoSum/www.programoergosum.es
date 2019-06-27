@@ -19,14 +19,14 @@
           <p>
             Todos nuestros proyectos educativos son
             <b>libres y de código abierto</b>. Por eso mismo necesitamos el
-            apoyo de patrocinadores. El importe de los patrocinios estarán
-            destinados al
+            apoyo de patrocinadores. El importe recaudado será destinados al
             <span class="stress">
               mantenimiento informático y desarrollo de nuevos proyectos
-              educativos </span
-            >.
+              educativos
+            </span>
+            y aparecerás en esta sección como colaborador.
           </p>
-          <v-btn to="/contacto" large color="primary">
+          <v-btn to="/contacto" x-large color="primary">
             Hazte patrocinador
           </v-btn>
         </div>

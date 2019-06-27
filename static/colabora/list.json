@@ -11,6 +11,8 @@
       }
     }
   ],
+  "patrons": [],
+  "paypals": [],
   "volunteers": [
     {
       "name": "Miguel Ángel Abellán",
@@ -52,6 +54,5 @@
         "github": ""
       }
     }
-  ],
-  "patrons": []
+  ]
 }

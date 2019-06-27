@@ -21,11 +21,14 @@
     </v-container>
 
     <What />
-    <section class="pt-5 pb-5 block-grey">
+    <section class="pt-5 pb-5">
       <Sponsors />
     </section>
-    <section class="pt-5 pb-5">
+    <section class="pt-5 pb-5 block-grey">
       <Patrons />
+    </section>
+    <section class="pt-5 pb-5">
+      <Paypals />
     </section>
     <section>
       <Reg />
@@ -39,6 +42,7 @@ import metas from '@/static/metas.json'
 import What from '@/components/Pages/Home/What'
 import Sponsors from '@/components/Pages/Colabora/Sponsors'
 import Patrons from '@/components/Pages/Colabora/Patrons'
+import Paypals from '@/components/Pages/Colabora/Paypals'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
@@ -46,6 +50,7 @@ export default {
     What,
     Sponsors,
     Patrons,
+    Paypals,
     Reg
   },
   asyncData() {

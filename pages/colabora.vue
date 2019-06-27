@@ -9,10 +9,13 @@
       <Sponsors />
     </div>
     <div class="pt-5 pb-5 block-grey">
-      <Patrons :patrons="patrons" />
+      <Patrons />
     </div>
     <div class="pt-5 pb-5">
-      <Volunteers :volunteers="volunteers" />
+      <Paypals />
+    </div>
+    <div class="pt-5 pb-5 block-grey">
+      <Volunteers />
     </div>
     <Reg />
   </div>
@@ -20,27 +23,26 @@
 
 <script>
 import metas from '@/static/metas.json'
-import collaborators from '@/static/colabora/list.json'
 
 import Title from '@/components/Layout/Title'
 import Sponsors from '@/components/Pages/Colabora/Sponsors'
-import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Patrons from '@/components/Pages/Colabora/Patrons'
+import Paypals from '@/components/Pages/Colabora/Paypals'
+import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
     Title,
     Sponsors,
-    Volunteers,
     Patrons,
+    Paypals,
+    Volunteers,
     Reg
   },
   asyncData() {
     return {
-      metas: metas.colabora,
-      volunteers: collaborators.volunteers,
-      patrons: collaborators.patrons
+      metas: metas.colabora
     }
   },
   head() {
