@@ -50,6 +50,12 @@
         </v-flex>
       </v-layout>
     </v-container>
+    <section class="pt-5 pb-5 block-grey">
+      <Volunteers />
+    </section>
+    <section>
+      <Reg />
+    </section>
   </div>
 </template>
 
@@ -58,10 +64,14 @@ import metas from '@/static/metas.json'
 import activities from '@/static/actividades/list.json'
 
 import Title from '@/components/Layout/Title'
+import Volunteers from '@/components/Pages/Colabora/Volunteers'
+import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Title
+    Title,
+    Volunteers,
+    Reg
   },
   asyncData() {
     return {
@@ -97,4 +107,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.block-grey {
+  background: #f0f0f0;
+}
+</style>

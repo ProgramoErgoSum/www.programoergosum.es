@@ -14,9 +14,6 @@
     <div class="pt-5 pb-5">
       <Paypals />
     </div>
-    <div class="pt-5 pb-5 block-grey">
-      <Volunteers />
-    </div>
     <Reg />
   </div>
 </template>
@@ -28,7 +25,6 @@ import Title from '@/components/Layout/Title'
 import Sponsors from '@/components/Pages/Colabora/Sponsors'
 import Patrons from '@/components/Pages/Colabora/Patrons'
 import Paypals from '@/components/Pages/Colabora/Paypals'
-import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
@@ -37,7 +33,6 @@ export default {
     Sponsors,
     Patrons,
     Paypals,
-    Volunteers,
     Reg
   },
   asyncData() {
