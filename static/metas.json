@@ -19,6 +19,11 @@
     "description": "Para poder hacer frente al mantenimiento en todos nuestros proyectos educativos necesitamos tu apoyo. ¿Quieres colaborar?",
     "image": "/colabora/preview.png"
   },
+  "merchandising": {
+    "title": "Merchandising",
+    "description": "Una forma de colaborar es ayudarnos a difundir la iniciativa. ¿Quieres colaborar?",
+    "image": "/preview.png"
+  },
   "contacto": {
     "title": "Contacta con nosotros",
     "description": "¿Tienes algo que preguntarnos? Puedes contactar con nosotros a través de nuestro correo electrónico y redes sociales.",
