@@ -7,7 +7,7 @@
         </v-flex>
         <v-flex
           v-for="item in stickers"
-          :key="item.link"
+          :key="item.name"
           xs12
           sm6
           md4
