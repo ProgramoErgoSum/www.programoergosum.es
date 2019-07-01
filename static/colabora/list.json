@@ -11,7 +11,18 @@
       }
     }
   ],
-  "patrons": [],
+  "patrons": [
+    {
+      "name": "Tolo Piza",
+      "image": "https://pbs.twimg.com/profile_images/1139828064672800768/rtKYnHjC_400x400.jpg",
+      "description": "🏳️‍🌈⚜P.h.D in Science,Teacher. Investigant Didàctica de la Ciència(UIB), Col/Reviewer Scienceinschool.",
+      "social": {
+        "url": "http://Scienceinschool.org",
+        "twitter": "https://twitter.com/tolo_piza",
+        "github": ""
+      }
+    }
+  ],
   "paypals": [],
   "volunteers": [
     {
