@@ -39,11 +39,6 @@ export default {
           title: 'Colabora',
           icon: 'group',
           link: '/colabora'
-        },
-        {
-          title: 'Merchandising',
-          icon: 'shop',
-          link: '/merchandising'
         }
         /*
         {

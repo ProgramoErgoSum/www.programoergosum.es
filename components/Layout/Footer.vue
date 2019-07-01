@@ -142,6 +142,10 @@ export default {
         link: '/colabora'
       },
       {
+        title: 'Merchandising',
+        link: '/merchandising'
+      },
+      {
         title: 'Contacto',
         link: '/contacto'
       }
@@ -158,6 +162,10 @@ export default {
       {
         title: 'Wiki TIC',
         link: 'https://wikitic.github.io'
+      },
+      {
+        title: 'El Cable Amarillo',
+        link: 'https://www.elcableamarillo.cc'
       }
     ],
     legal: [
