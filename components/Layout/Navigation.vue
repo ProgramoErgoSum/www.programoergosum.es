@@ -1,12 +1,5 @@
 <template>
   <v-navigation-drawer v-model="drawer" fixed app>
-    <!--
-    <div class="logo">
-      <nuxt-link to="/">
-        <Logo class="pt-2" />
-      </nuxt-link>
-    </div>
-    -->
     <v-list>
       <v-list-tile>
         <v-list-tile-action>
@@ -32,15 +25,8 @@
 <script>
 import { mapMutations } from 'vuex'
 
-// import Logo from '@/components/Layout/Logo'
-
 export default {
   name: 'Navigation',
-  /*
-  components: {
-    Logo
-  },
-  */
   props: {
     navigation: {
       type: Array,
@@ -63,10 +49,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.logo {
-  padding: 25px 5px;
-  text-align: center;
-  background: #f5f5f5;
-}
-</style>
+<style lang="scss" scoped></style>
