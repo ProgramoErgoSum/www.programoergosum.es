@@ -46,6 +46,17 @@ export default {
           'sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr',
         crossorigin: 'anonymous'
       }
+    ],
+    script: [
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        async: true
+      },
+      {
+        innerHTML:
+          '(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-6757981017018187", enable_page_level_ads: true });',
+        type: 'text/javascript'
+      }
     ]
   },
 
