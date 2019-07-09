@@ -1,6 +1,16 @@
 <template>
   <div class="_alias">
     <Title :title="title" :description="description" :image="image" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    />
+    <script>
+      ;(adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: 'ca-pub-6757981017018187',
+        enable_page_level_ads: true
+      })
+    </script>
     <v-container>
       <v-layout>
         <v-flex>
