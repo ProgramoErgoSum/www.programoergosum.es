@@ -53,7 +53,7 @@ export default {
   asyncData() {
     const title = 'Gracias'
     const description =
-      'Gracias por colaborar con la iniciativa. En unos días aparecerás en el apartado como colaborador, para antes deberás enviarnos mediante email el nombre e imagen que quieres que aparezca.'
+      'Gracias por colaborar con la iniciativa. En unos días aparecerás en el apartado como colaborador.'
     return {
       title: title,
       description: description
