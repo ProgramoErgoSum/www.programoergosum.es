@@ -21,6 +21,16 @@
         "twitter": "https://twitter.com/tolo_piza",
         "github": ""
       }
+    },
+    {
+      "name": "Pablo Nuñez",
+      "image": "https://pbs.twimg.com/profile_images/1065513983145324544/AwLqh2Zc_400x400.jpg",
+      "description": "Maker en @fablableon Fundador de @alac2013. Champion en @coderdojoleon. Hago realidad tus ideas en @fabricotusideas.",
+      "social": {
+        "url": "http://fabricotusideas.com",
+        "twitter": "https://twitter.com/eltercerlugar",
+        "github": "https://github.com/eltercerlugar"
+      }
     }
   ],
   "paypals": [],

@@ -66,7 +66,8 @@ export default {
       social: {
         url: 'http://enlace-a-tu-web',
         twitter: 'http://enlace-a-tu-twitter',
-        github: 'http://enlace-a-tu-github'
+        github: 'http://enlace-a-tu-github',
+        linkedin: 'http://enlace-a-tu-linkedin'
       }
     },
     patrons: collaborators.patrons

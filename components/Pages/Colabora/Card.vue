@@ -16,7 +16,9 @@
     <p class="mt-3 mb-0">
       {{ card.name }}
     </p>
-    <p class="mt-2 mb-0 font-weight-thin description">{{ card.description }}</p>
+    <p class="mt-2 mb-0 font-weight-thin description">
+      {{ card.description }}
+    </p>
     <v-btn
       v-if="card.social.url"
       class="mt-0 mx-0"
@@ -69,7 +71,7 @@ export default {
 <style lang="scss" scoped>
 #card {
   .description {
-    max-width: 200px;
+    max-width: 220px;
     margin: 0 auto;
     font-size: 14px;
   }
