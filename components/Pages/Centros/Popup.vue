@@ -1,5 +1,5 @@
 <template>
-  <div id="popup" class="text-xs-center">
+  <div class="text-xs-center">
     <v-avatar size="110">
       <v-img :src="center.image" :lazy-src="`/lazy-user.png`">
         <v-layout

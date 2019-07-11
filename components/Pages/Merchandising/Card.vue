@@ -1,5 +1,5 @@
 <template>
-  <div id="card" class="ma-3">
+  <div class="card ma-3">
     <v-card :href="card.link" target="_blank">
       <v-img
         :src="`merchandising/images/${card.img}`"
@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#card {
+.card {
   .description {
     max-width: 200px;
     margin: 0 auto;

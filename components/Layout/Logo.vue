@@ -6,7 +6,7 @@
     viewBox="0 0 210 60"
     version="1.1"
   >
-    <g id="surface1">
+    <g>
       <path
         style="fill:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:10;"
         :style="`stroke:${color}`"

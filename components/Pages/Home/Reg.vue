@@ -1,5 +1,5 @@
 <template>
-  <div id="reg">
+  <div class="reg">
     <v-container>
       <v-layout>
         <v-flex>
@@ -23,7 +23,7 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-#reg {
+.reg {
   padding: 50px;
   background: #d25f34;
   color: #fff;
@@ -34,7 +34,7 @@ export default {}
 @media only screen and (max-width: 1264px) {
 }
 @media only screen and (max-width: 960px) {
-  #reg {
+  .reg {
     padding: 20px;
     font-size: 18px;
   }

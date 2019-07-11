@@ -1,5 +1,5 @@
 <template>
-  <div id="what">
+  <div class="what">
     <v-container>
       <v-layout row justify-center>
         <v-flex>
@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#what {
+.what {
   padding: 50px 0;
   background: #2d3339;
   color: #fff;

@@ -1,5 +1,5 @@
 <template>
-  <div id="card" class="ma-3">
+  <div class="card ma-3">
     <v-avatar size="110">
       <v-img :src="card.image" :lazy-src="`/lazy-user.png`">
         <v-layout
@@ -69,7 +69,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#card {
+.card {
   .description {
     max-width: 220px;
     margin: 0 auto;

@@ -1,5 +1,5 @@
 <template>
-  <v-footer id="footer" app fixed absolute inset height="auto">
+  <v-footer class="footer" app fixed absolute inset height="auto">
     <v-container>
       <v-layout row wrap>
         <v-flex xs12>
@@ -221,7 +221,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#footer {
+.footer {
   border-top: 1px solid #eaebeb;
   background: #f0f0f0;
   z-index: 0;
@@ -293,7 +293,7 @@ export default {
 @media only screen and (max-width: 1264px) {
 }
 @media only screen and (max-width: 960px) {
-  #footer {
+  .footer {
     .follow {
       span {
         display: block;

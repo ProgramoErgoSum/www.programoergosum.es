@@ -1,23 +1,21 @@
 <template>
-  <div id="printer">
-    <v-container>
-      <v-layout row wrap>
-        <v-flex xs12>
-          <h2 class="mb-3">Impresión 3D</h2>
-        </v-flex>
-        <v-flex
-          v-for="item in printer"
-          :key="item.link"
-          xs12
-          sm6
-          md4
-          class="pa-2"
-        >
-          <Card :card="item" />
-        </v-flex>
-      </v-layout>
-    </v-container>
-  </div>
+  <v-container>
+    <v-layout row wrap>
+      <v-flex xs12>
+        <h2 class="mb-3">Impresión 3D</h2>
+      </v-flex>
+      <v-flex
+        v-for="item in printer"
+        :key="item.link"
+        xs12
+        sm6
+        md4
+        class="pa-2"
+      >
+        <Card :card="item" />
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

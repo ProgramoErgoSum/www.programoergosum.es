@@ -1,5 +1,5 @@
 <template>
-  <div id="title" :style="background()">
+  <div class="title" :style="background()">
     <v-container class="asociacion">
       <v-layout row wrap>
         <v-flex xs12>
@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#title {
+.title {
   padding: 90px 0 130px;
   background: #2d333927;
   background-size: cover;
@@ -68,7 +68,7 @@ export default {
   }
 }
 @media only screen and (max-width: 960px) {
-  #title {
+  .title {
     padding: 30px 0 50px;
     h2 {
       font-size: 30px;
@@ -79,7 +79,7 @@ export default {
   }
 }
 @media only screen and (max-width: 600px) {
-  #title {
+  .title {
     padding: 30px 0 50px;
     h2 {
       font-size: 20px;
