@@ -2,7 +2,7 @@
 
 En este artículo entrevistamos a Manolo, ninja de CoderDojo Murcia. A sus 11 años todavía no sabe que le gustaría ser de mayor, pero lo que tiene claro es que le gustan mucho los videojuegos excepto Minecraft que lo odia y mucho! :)
 
-![](images/1.png)
+![](img/1.png)
 
 ## Dime ¿Cuáles son tus aficiones? 
 
@@ -12,7 +12,7 @@ Hola me llamo Manolo y lo que más me gusta es el reto de la botella. Estudio en
 
 Decidí apuntarme a estos talleres de programación porque no estoy muy relacionado con la tecnología moderna y los últimos videojuegos que he hecho en los talleres ha sido programar con codecombat.
 
-![](images/2.png)
+![](img/2.png)
 
 ## ¿Recuerdas el día que mejor te lo pasaste en los talleres?
 

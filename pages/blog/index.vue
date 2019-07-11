@@ -12,7 +12,7 @@
             <v-layout row wrap>
               <v-flex xs12 md6 lg4>
                 <v-img
-                  :src="`/blog/${blog.alias}/preview.png`"
+                  :src="`/blog/${blog.alias}/${blog.image}`"
                   :lazy-src="`/lazy.png`"
                   :title="`${blog.title}`"
                   height="140"

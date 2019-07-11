@@ -4,7 +4,7 @@ Hasta el próximo 31 de Mayo, estará abierto el plazo de inscripción para la I
 
 > II Edición del concurso "Participo Luego Existo", lo importante es participar.
 
-![](images/1.png)
+![](img/1.png)
 
 ## ¿En qué consiste «Participo Luego Existo»?
 
@@ -14,22 +14,22 @@ El centro de estudios interesado en participar recibirá una Master Class de pro
 
 > El premio que recibirán TODOS los participantes será la realización de una Master Class de programación y robótica.
 
-![](images/2.png)
+![](img/2.png)
 
 ## ¿Quién puede participar?
 
 El concurso va dirigido a centros de enseñanza de primaria o secundaria de la Región de Murcia. El centro participante en el concurso deberá realizar el seguimiento de los proyectos de sus alumnos. Los estudiantes deberán exponer los proyectos delante de sus compañeros explicando en qué consiste su creación. Cada grupo tendrá entre 2 y 5 minutos. Tras la exposición de los trabajos, se realizará una Master Class de programación y robótica y se procederá a la entrega de obsequios a todos los participantes.
 
-![](images/3.png)
+![](img/3.png)
 
 ## ¿Cuánto tengo que pagar?
 
 La Master Class es totalmente gratuita para el centro, incluyendo desplazamiento, materiales de robótica, etc. Lo único a lo que se compromete el centro es en hacer el seguimiento de los alumnos.
 
-![](images/4.png)
+![](img/4.png)
 
 ## ¿Cuál es el procedimiento de inscripción?
 
 Para participar en el concurso, ponte en contacto con nosotros antes del 31 de Mayo de 2018 a través del formulario de contacto y te indicaremos los pasos a seguir.
 
-![](images/5.png)
+![](img/5.png)

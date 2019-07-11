@@ -2,7 +2,7 @@
 
 En este artículo entrevistamos a Pepe, ninja de CoderDojo Murcia. Tiene 10 años y ha aprendido a programar diferentes tipos de videojuegos con Scratch y los lenguajes de programación por bloques.
 
-![](images/1.png)
+![](img/1.png)
 
 ## Dime ¿Cuáles son tus aficiones? 
 
@@ -12,7 +12,7 @@ Hola me llamo Pepe y lo que más me gusta es hacer muchas cosas en general y jug
 
 Decidí apuntarme a estos talleres de programación porque cuando pasen unos años ya habrá muchos electrodomésticos y pensé que podría aprender a usarlos. Los últimos videojuegos que he hecho en los talleres de CoderDojo han sido con Scratch.
 
-![](images/2.png)
+![](img/2.png)
 
 ## ¿Recuerdas el día que mejor te lo pasaste en los talleres?
 

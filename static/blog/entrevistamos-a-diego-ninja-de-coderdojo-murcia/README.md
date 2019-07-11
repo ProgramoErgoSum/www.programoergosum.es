@@ -2,7 +2,7 @@
 
 En este post entrevistamos a uno de nuestros ninjas de CoderDojo Murcia. Diego tiene 11 años y además de asisitir desde hace más de 2 años a todos los talleres, este año se convertirá en mentor para ayudar a los nuevos ninjas.
 
-![](images/1.png)
+![](img/1.png)
 
 ## Dime ¿Cuáles son tus aficiones? 
 
@@ -16,7 +16,7 @@ Decidí apuntarme a estos talleres de programación porque me gustan los videoju
 
 Los últimos videojuegos que he hecho en los talleres han sido juegos de Unity y Scratch.
 
-![](images/2.png)
+![](img/2.png)
 
 ## ¿Recuerdas el día que mejor te lo pasaste en los talleres?
 

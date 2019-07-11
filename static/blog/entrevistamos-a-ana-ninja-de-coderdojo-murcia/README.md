@@ -2,7 +2,7 @@
 
 En esta ocasión entrevistamos a Ana de 10 años y ninja de CoderDojo Murcia desde hace más de 1 año. Le gusta la música, bailar, patinar y sobre todo jugar a sus propios videojuegos.
 
-![](images/1.png)
+![](img/1.png)
 
 ## Dime ¿Cuáles son tus aficiones?
 
@@ -14,7 +14,7 @@ De mayor me gustaría ser bailarina y profesora.
 
 Decidí apuntarme a estos talleres de programación porque quería saber cómo se hacen los videojuegos. He aprendido a hacer un teclado con trozos de cartón, cables y papel de aluminio.
 
-![](images/2.png)
+![](img/2.png)
 
 ## ¿Recuerdas el día que mejor te lo pasaste en los talleres?
 

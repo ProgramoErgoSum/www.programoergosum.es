@@ -3,36 +3,66 @@
     "alias": "participo-luego-existo-un-concurso-en-el-que-todos-ganan",
     "title": "Participo Luego Existo - Un concurso en el que todos ganan",
     "description": "II Edición del concurso 'Participio Luego Existo', un concurso cuya filosofía hace hincapié en la importancia de participar y compartir para aprender.",
-    "keywords": ["concurso", "murcia", "robotica"]
+    "image": "img/preview.png",
+    "tags": ["concurso", "murcia", "robotica"],
+    "date": {
+      "cdate": "2018-01-28 10:42:24",
+      "mdate": "2019-07-09 14:05:12"
+    }
   },
   {
     "alias": "entrevistamos-a-diego-ninja-de-coderdojo-murcia",
     "title": "Entrevistamos a Diego (Ninja de CoderDojo Murcia)",
     "description": "Diego es uno de nuestros ninjas más antiguos y en ocasiones realiza la labor de mentor a sus tan solo 11 años.",
-    "keywords": ["coderdojo", "murcia", "club", "diego"]
+    "image": "img/preview.png",
+    "tags": ["coderdojo", "murcia", "club", "diego"],
+    "date": {
+      "cdate": "2017-12-28 11:07:45",
+      "mdate": "2019-07-09 14:05:12"
+    }
   },
   {
     "alias": "entrevistamos-a-ana-ninja-de-coderdojo-murcia",
     "title": "Entrevistamos a Ana (Ninja de CoderDojo Murcia)",
     "description": "Ana es ninja de CoderDojo Murcia desde hace más de 1 año. Es una apasionada de la música y en concreto toca el piano y muy bien.",
-    "keywords": ["coderdojo", "murcia", "club", "ana"]
+    "image": "img/preview.png",
+    "tags": ["coderdojo", "murcia", "club", "ana"],
+    "date": {
+      "cdate": "2017-12-28 11:07:45",
+      "mdate": "2019-07-09 14:05:12"
+    }
   },
   {
     "alias": "entrevistamos-a-manolo-ninja-de-coderdojo-murcia",
     "title": "Entrevistamos a Manolo (Ninja de CoderDojo Murcia)",
     "description": "Manolo es ninja de CoderDojo Murcia y futuro mentor. Durante el curso anterior aprendió a programar videojuegos con tan solo 11 años.",
-    "keywords": ["coderdojo", "murcia", "club", "manolo"]
+    "image": "img/preview.png",
+    "tags": ["coderdojo", "murcia", "club", "manolo"],
+    "date": {
+      "cdate": "2017-12-28 11:07:45",
+      "mdate": "2019-07-09 14:05:12"
+    }
   },
   {
     "alias": "entrevistamos-a-pepe-ninja-de-coderdojo-murcia",
     "title": "Entrevistamos a Pepe (Ninja de CoderDojo Murcia)",
     "description": "Con tan solo 10 años empezó a programar videojuegos con Scratch y poco a poco está aprendiendo varios lenguajes de programación.",
-    "keywords": ["coderdojo", "murcia", "club", "pepe"]
+    "image": "img/preview.png",
+    "tags": ["coderdojo", "murcia", "club", "pepe"],
+    "date": {
+      "cdate": "2017-12-28 11:07:45",
+      "mdate": "2019-07-09 14:05:12"
+    }
   },
   {
     "alias": "presentes-en-simo-educacion-2016",
     "title": "Presentes en SIMO Educación 2016",
     "description": "Asistimos a SIMO Educación 2016 realizando talleres para introducir la programación dentro del aula como medio de aprendizaje hacia otras asignaturas.",
-    "keywords": ["simo", "educacion", "asociacion"]
+    "image": "img/preview.png",
+    "tags": ["simo", "educacion", "asociacion"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
   }
 ]
