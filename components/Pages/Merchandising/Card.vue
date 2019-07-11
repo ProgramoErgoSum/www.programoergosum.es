@@ -4,7 +4,7 @@
       <v-img
         :src="`merchandising/images/${card.img}`"
         :lazy-src="`/lazy.png`"
-        :title="`${card.title}`"
+        :alt="card.title"
         height="250"
       >
         <template v-slot:placeholder>

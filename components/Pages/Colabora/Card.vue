@@ -1,7 +1,7 @@
 <template>
   <div class="card ma-3">
     <v-avatar size="110">
-      <v-img :src="card.image" :lazy-src="`/lazy-user.png`">
+      <v-img :src="card.image" :lazy-src="`/lazy-user.png`" :alt="card.title">
         <v-layout
           slot="placeholder"
           fill-height
@@ -25,6 +25,7 @@
       icon
       :href="card.social.url"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <i class="fas fa-link" style="color:#000"></i>
     </v-btn>
@@ -34,6 +35,7 @@
       icon
       :href="card.social.twitter"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <i class="fab fa-twitter" style="color:#1da1f2"></i>
     </v-btn>
@@ -43,6 +45,7 @@
       icon
       :href="card.social.github"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <i class="fab fa-github" style="color:#333"></i>
     </v-btn>
