@@ -146,6 +146,10 @@ export default {
         link: '/merchandising'
       },
       {
+        title: 'Blog',
+        link: '/blog'
+      },
+      {
         title: 'Contacto',
         link: '/contacto'
       }
