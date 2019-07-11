@@ -6,30 +6,17 @@
           <h2 class="mb-3">Donaciones / Agradecimientos</h2>
         </v-flex>
         <v-flex
-          v-for="item in paypals"
-          :key="item.name"
+          v-for="(item, index) in sortedPaypals"
+          :key="index"
           xs12
           sm6
           md4
-          lg3
+          lg2
           class="text-xs-center pa-2"
         >
           <v-chip>
-            <v-avatar>
-              <v-img :src="item.image" :lazy-src="`/lazy-user.png`" />
-            </v-avatar>
             {{ item.name }}
           </v-chip>
-        </v-flex>
-        <v-flex xs12 sm6 md4 lg3 class="text-xs-center pa-2">
-          <v-card class="pa-3">
-            <v-chip>
-              <v-avatar>
-                <v-img :src="empty.image" :lazy-src="`/lazy-user.png`" />
-              </v-avatar>
-              {{ empty.name }}
-            </v-chip>
-          </v-card>
         </v-flex>
         <v-flex xs12>
           <div class="mt-3 mb-3">
@@ -62,29 +49,19 @@
 
 <script>
 import collaborators from '@/static/colabora/list.json'
-// import Card from '@/components/Pages/Colabora/Card'
 
 export default {
-  /*
-  components: {
-    Card
-  },
-  */
-  data: () => ({
-    empty: {
-      name: 'Nombre del donante',
-      image: ''
-      /*
-      description: 'Breve descripción sobre tí y tus aficiones...',
-      social: {
-        url: 'http://enlace-a-tu-web',
-        twitter: 'http://enlace-a-tu-twitter',
-        github: 'http://enlace-a-tu-github'
+  computed: {
+    sortedPaypals: function() {
+      function compare(a, b) {
+        if (a.qty < b.qty) return 1
+        if (a.qty > b.qty) return -1
+        return 0
       }
-      */
-    },
-    paypals: collaborators.paypals
-  })
+
+      return collaborators.paypals.sort(compare)
+    }
+  }
 }
 </script>
 

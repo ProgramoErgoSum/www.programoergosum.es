@@ -6,8 +6,8 @@
           <h2 class="mb-3">Patronos / Agradecimientos</h2>
         </v-flex>
         <v-flex
-          v-for="item in sortedPatrons"
-          :key="item.name"
+          v-for="(item, index) in sortedPatrons"
+          :key="index"
           xs12
           sm6
           md4

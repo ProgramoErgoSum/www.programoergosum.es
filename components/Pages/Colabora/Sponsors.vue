@@ -5,8 +5,8 @@
         <h2 class="mb-3">Patrocinadores</h2>
       </v-flex>
       <v-flex
-        v-for="item in sponsors"
-        :key="item.name"
+        v-for="(item, index) in sponsors"
+        :key="index"
         xs12
         sm6
         md4

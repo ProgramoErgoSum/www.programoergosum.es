@@ -57,7 +57,12 @@
       "qty": 5
     }
   ],
-  "paypals": [],
+  "paypals": [
+    {
+      "name": "Carlos Hernán Mora",
+      "qty": 1
+    }
+  ],
   "volunteers": [
     {
       "name": "Miguel Ángel Abellán",

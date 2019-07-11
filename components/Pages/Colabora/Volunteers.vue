@@ -6,8 +6,8 @@
           <h2 class="mb-3">Mentores / Voluntarios</h2>
         </v-flex>
         <v-flex
-          v-for="item in volunteers"
-          :key="item.name"
+          v-for="(item, index) in volunteers"
+          :key="index"
           xs12
           sm6
           md4
