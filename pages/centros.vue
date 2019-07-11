@@ -21,7 +21,7 @@
               ¿Cómo ser un centro Programo Ergo Sum?
             </v-toolbar-title>
           </v-toolbar>
-          <v-list class="subheading">
+          <v-list>
             <v-list-tile>
               <v-list-tile-avatar>
                 <v-icon class="fas fa-users"></v-icon>
@@ -60,6 +60,14 @@
               </v-list-tile-avatar>
               <v-list-tile-content>
                 Sitúate en el mapa
+              </v-list-tile-content>
+            </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-avatar />
+              <v-list-tile-content class="mt-3">
+                <v-btn to="/contacto" x-large color="secondary">
+                  Inscríbete
+                </v-btn>
               </v-list-tile-content>
             </v-list-tile>
           </v-list>
