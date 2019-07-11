@@ -1,6 +1,6 @@
 <template>
   <div class="card ma-3">
-    <v-card :href="card.link" target="_blank">
+    <v-card :href="card.link" target="_blank" rel="noopener noreferrer">
       <v-img
         :src="`merchandising/images/${card.img}`"
         :lazy-src="`/lazy.png`"

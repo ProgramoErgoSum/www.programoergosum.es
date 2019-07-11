@@ -25,6 +25,7 @@
       icon
       :href="center.social.url"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <i class="fas fa-link" style="color:#000"></i>
     </v-btn>
@@ -34,6 +35,7 @@
       icon
       :href="center.social.twitter"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <i class="fab fa-twitter" style="color:#1da1f2"></i>
     </v-btn>
