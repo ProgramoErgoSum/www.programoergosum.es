@@ -7,7 +7,18 @@
     "tags": ["concurso", "murcia", "robotica"],
     "date": {
       "cdate": "2018-01-28 10:42:24",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2019-05-09 14:05:12"
+    }
+  },
+  {
+    "alias": "programacion-orientada-a-objetos-con-scratch",
+    "title": "Programación Orientada a Objetos con Scratch",
+    "description": "El lenguaje de programación por bloques de Scratch es una herramienta muy poderosa para aprender el paradigma de la Programación Orientada a Objetos.",
+    "image": "img/preview.png",
+    "tags": ["poo", "scratch", "programación"],
+    "date": {
+      "cdate": "2018-01-28 10:42:24",
+      "mdate": "2019-05-09 14:05:12"
     }
   },
   {
@@ -18,7 +29,18 @@
     "tags": ["coderdojo", "murcia", "club", "diego"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2019-04-09 14:05:12"
+    }
+  },
+  {
+    "alias": "curso-de-programacion-en-minecraft-en-murcia",
+    "title": "Curso de programación en Minecraft en Murcia",
+    "description": "Finaliza el curso de programación de videojuegos en Murcia utilizando el lenguaje Python y Minecraft.",
+    "image": "img/preview.png",
+    "tags": ["minecraft", "murcia", "curso"],
+    "date": {
+      "cdate": "2017-12-28 11:07:45",
+      "mdate": "2019-04-09 14:05:12"
     }
   },
   {
@@ -29,7 +51,18 @@
     "tags": ["coderdojo", "murcia", "club", "ana"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2019-03-09 14:05:12"
+    }
+  },
+  {
+    "alias": "semana-tecnologica-en-el-ies-juan-carlos-i",
+    "title": "Semana tecnológica en el IES Juan Carlos I",
+    "description": "Semana de programación y nuevas tecnologías en el IES Juan Carlos I de Murcia.",
+    "image": "img/preview.png",
+    "tags": ["curso", "murcia", "instituto"],
+    "date": {
+      "cdate": "2017-12-28 11:07:45",
+      "mdate": "2019-03-09 14:05:12"
     }
   },
   {
@@ -39,8 +72,8 @@
     "image": "img/preview.png",
     "tags": ["curso", "minecraft", "murcia"],
     "date": {
-      "cdate": "2016-10-20 08:13:00",
-      "mdate": "2019-07-09 14:05:12"
+      "cdate": "2017-10-20 08:13:00",
+      "mdate": "2019-01-09 14:05:12"
     }
   },
   {
@@ -51,7 +84,7 @@
     "tags": ["coderdojo", "murcia", "club", "manolo"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2018-12-09 14:05:12"
     }
   },
   {
@@ -62,7 +95,18 @@
     "tags": ["coderdojo", "murcia", "club", "pepe"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2018-09-09 14:05:12"
+    }
+  },
+  {
+    "alias": "aprendiendo-a-programar-videojuegos-con-python-en-murcia",
+    "title": "Aprendiendo a programar videojuegos con Python en Murcia",
+    "description": "Los chicos del IES El Carmen de Murcia programando videojuegos en lenguaje de programación Python.",
+    "image": "img/preview.png",
+    "tags": ["python", "murcia", "club", "curso"],
+    "date": {
+      "cdate": "2017-12-28 11:07:45",
+      "mdate": "2018-09-09 14:05:12"
     }
   },
   {
@@ -73,7 +117,7 @@
     "tags": ["simo", "educacion", "asociacion"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2017-07-09 14:05:12"
     }
   },
   {
@@ -84,7 +128,7 @@
     "tags": ["master class", "scratch", "murcia"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2017-07-09 14:05:12"
     }
   },
   {
@@ -95,7 +139,18 @@
     "tags": ["hackathon", "scratch", "murcia"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2017-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "cronica-hackathon-coderdojo-murcia-13-febrero",
+    "title": "Crónica #Hackathon CoderDojo Murcia - 13 Febrero",
+    "description": "Crónica del hackathon familiar de CoderDojo Murcia para sensibilizar y acabar con el acoso escolar.",
+    "image": "img/preview.png",
+    "tags": ["hackathon", "bullying", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2017-07-09 14:05:12"
     }
   },
   {
@@ -106,7 +161,7 @@
     "tags": ["scratch", "murcia"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2017-07-09 14:05:12"
     }
   },
   {
@@ -117,7 +172,29 @@
     "tags": ["hour of code", "scratch", "murcia"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2017-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "asistimos-a-la-primera-sesion-de-coderdojo-en-san-javier-murcia",
+    "title": "Asistimos a la primera sesión de CoderDojo en San Javier (Murcia)",
+    "description": "Asistimos a la inauguración del Club de programación gratuito para niños y niñas de 7 a 17 años en San Javier (Murcia).",
+    "image": "img/preview.png",
+    "tags": ["coder dojo", "club", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2017-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "presentacion-del-nuevo-curso-de-coderdojo-2016-2017",
+    "title": "Presentación del nuevo curso de CoderDojo 2016/2017",
+    "description": "Primera sesión de la nueva temporada 2016/3017 del Club de Programación gratuito para jóvenes de 7 a 17 años.",
+    "image": "img/preview.png",
+    "tags": ["coder dojo", "programación", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2017-07-09 14:05:12"
     }
   }
 ]
