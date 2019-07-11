@@ -4,7 +4,7 @@
     <v-container fluid>
       <v-layout row wrap>
         <v-flex v-for="project in projects" :key="project.link" xs12 md12 lg4>
-          <v-card :href="project.link" target="_blank">
+          <v-card :href="project.link" target="_blank" rel="noopener noreferrer">
             <v-img
               :src="`proyectos/images/${project.img}`"
               :lazy-src="`/lazy.png`"
