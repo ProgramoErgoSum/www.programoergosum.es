@@ -2,7 +2,7 @@
 
 Scratch Day es evento mundial para dar a conocer Scratch (entorno de programación libre enfocado a personas que no tienen conocimientos de programación) donde niños y adultos se reúnen para compartir proyectos y aprender unos de otros.
 
-![](images/1.png)
+![](img/1.png)
 
 El lenguaje utilizado para programar videojuegos es scratch, un programa programa creado por el MIT (Instituto Tecnológico de Masachusetts) que sirve de entorno de aprendizaje de programación para que niños y niñas entusiastas puedan iniciarse en esta rama de la tecnología. Los niños y niñas programan en una plataforma amigable a través de bloques gráficos y lo realizan en una interfaz muy sencilla e intuitiva.
 

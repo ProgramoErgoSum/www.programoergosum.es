@@ -2,7 +2,7 @@
 
 La Semana de la Programación de la UE es una iniciativa popular organizada por voluntarios que fomentan la programación, el pensamiento computacional y actividades relacionadas en sus países.
 
-![](images/1.png)
+![](img/1.png)
 
 Aprender a programar nos ayuda a comprender nuestro mundo actual, altamente tecnificado y sometido a continuos cambios tecnológicos, comprender cómo funciona la tecnología que usamos y desarrollar habilidades y capacidades valiosas para la creación y la innovación
 

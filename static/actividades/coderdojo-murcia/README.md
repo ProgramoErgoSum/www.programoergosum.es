@@ -2,11 +2,11 @@
 
 CoderDojo es una iniciativa sin ánimo de lucro nacida en Irlanda en 2011 que promueve el despliegue de clubes gratuitos de programación. Los ninjas (niños, niñas y jóvenes de 10 a 17 años) aprenden a programar en un entorno abierto e informal siguiendo su ritmo de aprendizaje.
 
-![](images/1.png)
+![](img/1.png)
 
 Los clubes son **organizados y gestionados por mentores voluntarios** que dedican parte de su tiempo libre para guiar a los ninjas en el aprendizaje de las diferentes disciplinas y lenguajes de programación.
 
-![](images/2.png)
+![](img/2.png)
 
 ## ¿Quién puede participar?
 
@@ -14,7 +14,7 @@ Cualquier niño, niña o jóven entre 10 y 17 años que le guste la tecnología.
 
 > Si eres estudiante de la Universidad de Murcia y participas como voluntario obtendrás créditos CRAU.
 
-![](images/3.png)
+![](img/3.png)
 
 ## ¿Cuándo se realiza?
 
@@ -22,20 +22,20 @@ Los talleres se realizan el primer y tercer sábado de cada mes (salvo festivos)
 
 La organización de los talleres funciona de la siguiente manera; dependiendo del número de mentores disponibles se asigna el número de plazas, es decir, intentamos que asistan 5 ninjas por cada mentor, de esta forma en caso de disponer de 3 mentores se avisarían a 15 ninjas por orden de inscripción.
 
-![](images/4.png)
+![](img/4.png)
 
 ## ¿Cuánto hay que pagar?
 
 **Los talleres son totalmente gratuitos** ya que es una iniciativa donde los mentores dedican parte de su tiempo libre para guiar a los ninjas en el aprendizaje de las diferentes disciplinas y lenguajes de programación. Además, los ninjas deberán llevar obligatoriamente un ordenador portátil. También pueden llevar material de electrónica o robótica (si los tuvieran) para compartir con el resto de sus compañeros.
 
-![](images/5.png)
+![](img/5.png)
 
 ## ¿Quién organiza CoderDojo Murcia?
 
 CoderDojo Murcia está organizado por nuestros mentores en programación, robótica y nuevas tecnologías; Miguel Ángel, Carmen Belén y Miguel.
 
 <!--
-![](images/migueabellan.png) ![](images/carmenb_mg.png) ![](images/manzano.png)
+![](img/migueabellan.png) ![](img/carmenb_mg.png) ![](img/manzano.png)
 -->
 
 ## ¿Quién patrocina CoderDojo Murcia?

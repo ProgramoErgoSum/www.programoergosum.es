@@ -2,26 +2,26 @@
 
 En el club maker pueden participar todos los alumnos del IES Alfonso X "El sabio" de Murcia. Los participantes aprenderán a construir robots pasando por las diferentes etapas de diseño, impresión, fabricación y programación.
 
-![](images/1.png)
+![](img/1.png)
 
 
 ## ¿Quién puede participar?
 
 El club maker está destinado a alumnos del IES Alfonso X de Murcia. Para participar tienes que enviarnos un email accediendo al formulario de contacto y te indicaremos los pasos a seguir.
 
-![](images/2.png)
+![](img/2.png)
 
 ## ¿Cuándo se realiza?
 
 Los talleres de programación y robótica se realizan durante el curso escolar los viernes por la tarde de 16:00 a 18:00 en el aula de tecnología del centro.
 
-![](images/3.png)
+![](img/3.png)
 
 ## ¿Cuánto hay que pagar?
 
 Los talleres son totalmente gratuitos, gracias al convenio de colaboración entre la Concejalía de Juventud y Cooperación al Desarrollo del Ayuntamiento de Murcia y el IES Alfonso X El Sabio (Murcia), para la promoción y puesta en marcha de actividades extraescolares durante el curso escolar.
 
-![](images/4.png)
+![](img/4.png)
 
 ## ¿Quién organiza el club maker?
 
