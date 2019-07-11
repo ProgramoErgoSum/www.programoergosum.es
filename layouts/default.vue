@@ -47,10 +47,11 @@ export default {
           link: '/colabora'
         }
         /*
+        ,
         {
-          title: 'Blog',
-          icon: 'description',
-          link: '/blog'
+          title: 'Centros',
+          icon: 'school',
+          link: '/centros'
         }
         */
       ]

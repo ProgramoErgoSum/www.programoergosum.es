@@ -1,0 +1,41 @@
+[
+  {
+    "name": "CEIP San Isidro",
+    "address": {
+      "city": "Los Belones",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1210231414/logo_400x400.png",
+    "coordinates": ["37.6235489","-0.7813239"],
+    "social": {
+      "url": "http://www.ceipsanisidro.com",
+      "twitter": "https://twitter.com/ceipsanisidro"
+    },
+    "teachers": [
+      {
+        "name": "Anibal Parra"
+      }
+    ]
+  },
+  {
+    "name": "IES Hermanos Amorós",
+    "address": {
+      "city": "Villena",
+      "province": "Alicante"
+    },
+    "image": "https://pbs.twimg.com/profile_images/809897644654989312/RtOUC1LC_400x400.jpg",
+    "coordinates": ["38.6438542","-0.8756787"],
+    "social": {
+      "url": "http://www.ieshermanosamoros.com",
+      "twitter": "https://twitter.com/HermanosAmoros"
+    },
+    "teachers": [
+      {
+        "name": "Wladi"
+      },
+      {
+        "name": "Encarni"
+      }
+    ]
+  }
+]
