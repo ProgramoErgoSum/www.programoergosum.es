@@ -5,15 +5,7 @@
       :description="metas.description"
       :image="metas.image"
     />
-    <div
-      id="map-wrap"
-      style="height: 800px; margin: -43px 0 -20px; position: relative; z-index: 1"
-    >
-      <l-map :min-zoom="6" :max-zoom="12" :center="[40.4636688, -3.7492199]">
-        <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png" />
-        <Market v-for="center in centers" :key="center.name" :center="center" />
-      </l-map>
-    </div>
+    <Map :centers="centers" />
   </div>
 </template>
 
@@ -22,12 +14,12 @@ import metas from '@/static/metas.json'
 import centers from '@/static/centros/list.json'
 
 import Title from '@/components/Layout/Title'
-import Market from '@/components/Pages/Centros/Market'
+import Map from '@/components/Pages/Centros/Map'
 
 export default {
   components: {
     Title,
-    Market
+    Map
   },
   asyncData() {
     return {
