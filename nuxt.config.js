@@ -5,10 +5,16 @@ import activities from './static/actividades/list.json'
 import blogs from './static/blog/list.json'
 
 const canonical = 'https://www.programoergosum.es'
+const routerBase = {
+  router: {
+    base: '/'
+  }
+}
 
 export default {
   mode: 'universal',
 
+  ...routerBase,
   env: {
     canonical: canonical
   },
