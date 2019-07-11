@@ -84,6 +84,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/sitemap',
     'nuxt-leaflet'
   ],
   /*
@@ -91,6 +92,38 @@ export default {
    */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+  },
+  /*
+   ** Sitemap module configuration
+   */
+  sitemap: {
+    hostname: canonical,
+    gzip: true,
+    defaults: {
+      changefreq: 'weekly',
+      priority: 1,
+      lastmod: new Date()
+    },
+    exclude: ['/404', '/legal', '/gracias'],
+    routes() {
+      const a = activities.map(item => {
+        return {
+          url: `/actividades/${item.alias}`,
+          changefreq: 'monthly',
+          priority: 0.8,
+          lastmod: new Date()
+        }
+      })
+      const b = blogs.map(item => {
+        return {
+          url: `/blog/${item.alias}`,
+          changefreq: 'monthly',
+          priority: 0.3,
+          lastmod: item.date.mdate
+        }
+      })
+      return a.concat(b)
+    }
   },
 
   /*
