@@ -6,7 +6,7 @@
           <h2 class="mb-3">Patronos / Agradecimientos</h2>
         </v-flex>
         <v-flex
-          v-for="item in patrons"
+          v-for="item in sortedPatrons"
           :key="item.name"
           xs12
           sm6
@@ -16,18 +16,13 @@
         >
           <Card :card="item" />
         </v-flex>
-        <v-flex xs12 sm6 md4 lg3 class="text-xs-center pa-2">
-          <v-card class="pa-3">
-            <Card :card="empty" />
-          </v-card>
-        </v-flex>
         <v-flex xs12>
           <div class="mt-3 mb-3">
             <p>
-              Puedes <strong>apoyar desinteresadamente</strong> nuestros
-              proyectos educativos aportando lo que esté a tu alcance
-              <b>a través de la plataforma de crowdfunding Patreon</b>. El
-              importe recaudado será destinados al
+              Puedes <strong>apoyar mensualmente</strong> nuestros proyectos
+              educativos aportando lo que esté a tu alcance a través de la
+              plataforma de crowdfunding <b>Patreon</b> o a través de
+              <b>PayPal</b>. El importe recaudado será destinados al
               <span class="stress">
                 mantenimiento informático y desarrollo de nuevos proyectos
                 educativos
@@ -42,6 +37,15 @@
               color="primary"
             >
               Apóyanos a través de Patreon
+            </v-btn>
+            <v-btn
+              href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url"
+              target="_blank"
+              rel="noopener noreferrer"
+              x-large
+              color="primary"
+            >
+              Apóyanos a través de PayPal
             </v-btn>
           </div>
         </v-flex>
@@ -58,19 +62,17 @@ export default {
   components: {
     Card
   },
-  data: () => ({
-    empty: {
-      name: 'Tu nombre',
-      image: '',
-      description: 'Breve descripción sobre tí y tus aficiones...',
-      social: {
-        url: 'http://enlace-a-tu-web',
-        twitter: 'http://enlace-a-tu-twitter',
-        github: 'http://enlace-a-tu-github'
+  computed: {
+    sortedPatrons: function() {
+      function compare(a, b) {
+        if (a.qty < b.qty) return 1
+        if (a.qty > b.qty) return -1
+        return 0
       }
-    },
-    patrons: collaborators.patrons
-  })
+
+      return collaborators.patrons.sort(compare)
+    }
+  }
 }
 </script>
 

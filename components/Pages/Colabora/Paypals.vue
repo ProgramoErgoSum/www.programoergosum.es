@@ -35,9 +35,8 @@
           <div class="mt-3 mb-3">
             <p>
               También puedes <strong>realizar una donación</strong> con el
-              importe que creas necesario y tantas veces como puedas
-              <b> a través de PayPal</b>. El importe recaudado será destinados
-              al
+              importe que creas necesario <b> a través de PayPal</b>. El importe
+              recaudado será destinados al
               <span class="stress">
                 mantenimiento informático y desarrollo de nuevos proyectos
                 educativos
@@ -50,9 +49,9 @@
               target="_blank"
               rel="noopener noreferrer"
               x-large
-              color="primary"
+              color="secondary"
             >
-              Apóyanos a través de PayPal
+              Realiza una donación
             </v-btn>
           </div>
         </v-flex>

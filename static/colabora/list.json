@@ -20,7 +20,8 @@
         "url": "http://Scienceinschool.org",
         "twitter": "https://twitter.com/tolo_piza",
         "github": ""
-      }
+      },
+      "qty": 1
     },
     {
       "name": "Pablo Nuñez",
@@ -30,7 +31,30 @@
         "url": "http://fabricotusideas.com",
         "twitter": "https://twitter.com/eltercerlugar",
         "github": "https://github.com/eltercerlugar"
-      }
+      },
+      "qty": 2
+    },
+    {
+      "name": "Francisco Román",
+      "image": "",
+      "description": "",
+      "social": {
+        "url": "",
+        "twitter": "",
+        "github": ""
+      },
+      "qty": 2
+    },
+    {
+      "name": "David Sánchez",
+      "image": "https://pbs.twimg.com/profile_images/1052073604119183360/yzCeW8KJ_400x400.jpg",
+      "description": "Maestro de música, Jefe de Estudios en CEIP San Miguel de Nerja y pedagogo. Metido en las TIC desde 2004 y robótica desde 2014.",
+      "social": {
+        "url": "https://scratchdaynerja.wordpress.com",
+        "twitter": "https://twitter.com/davidsanlo78",
+        "github": ""
+      },
+      "qty": 5
     }
   ],
   "paypals": [],
