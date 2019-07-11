@@ -5,7 +5,7 @@
   >
     <l-map :min-zoom="6" :max-zoom="12" :center="[40.4636688, -3.7492199]">
       <l-tile-layer url="https://{s}.tile.osm.org/{z}/{x}/{y}.png" />
-      <Market v-for="center in centers" :key="center.name" :center="center" />
+      <Market v-for="(item, index) in centers" :key="index" :center="item" />
     </l-map>
   </div>
 </template>
