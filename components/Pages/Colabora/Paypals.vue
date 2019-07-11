@@ -3,23 +3,18 @@
     <v-container>
       <v-layout class="paypals" row wrap>
         <v-flex xs12>
-          <h2 class="mb-3">Donaciones / Agradecimientos</h2>
+          <h2 class="mb-5">Donaciones / Agradecimientos</h2>
         </v-flex>
-        <v-flex
-          v-for="(item, index) in sortedPaypals"
-          :key="index"
-          xs12
-          sm6
-          md4
-          lg2
-          class="text-xs-center pa-2"
-        >
-          <v-chip>
+        <v-flex xs12>
+          <v-chip v-for="(item, index) in sortedPaypals" :key="index">
+            <v-avatar>
+              <v-icon>account_circle</v-icon>
+            </v-avatar>
             {{ item.name }}
           </v-chip>
         </v-flex>
         <v-flex xs12>
-          <div class="mt-3 mb-3">
+          <div class="mt-5 mb-3">
             <p>
               También puedes <strong>realizar una donación</strong> con el
               importe que creas necesario <b> a través de PayPal</b>. El importe
