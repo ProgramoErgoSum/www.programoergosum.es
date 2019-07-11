@@ -55,5 +55,23 @@
         "name": "David Sánchez"
       }
     ]
+  },
+  {
+    "name": "CC Sant Vicenç de Paül (Sóller) - FECIB",
+    "address": {
+      "city": "Sóller",
+      "province": "Illes Balears"
+    },
+    "image": "https://scontent.fmad8-1.fna.fbcdn.net/v/t1.0-9/10994068_758970267538017_167376538702352586_n.png?_nc_cat=102&_nc_oc=AQkfXElHo2GOfj5E7NIcV75rnlu2CsVrDFDhYY9UGPuZ3Fk8Uf6uqg6IsAeHid9r97c&_nc_ht=scontent.fmad8-1.fna&oh=f2b47cf06163d516cb7661fba3761d8d&oe=5DBBA44A",
+    "coordinates": ["39.7657891","2.7113723"],
+    "social": {
+      "url": "svpsoller.fecib.net",
+      "twitter": ""
+    },
+    "teachers": [
+      {
+        "name": "Tolo Piza"
+      }
+    ]
   }
 ]

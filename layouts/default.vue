@@ -45,15 +45,12 @@ export default {
           title: 'Colabora',
           icon: 'group',
           link: '/colabora'
-        }
-        /*
-        ,
+        },
         {
           title: 'Centros',
           icon: 'school',
           link: '/centros'
         }
-        */
       ]
     }
   }

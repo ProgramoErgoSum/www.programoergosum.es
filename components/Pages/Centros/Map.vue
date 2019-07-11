@@ -1,8 +1,5 @@
 <template>
-  <div
-    id="map-wrap"
-    style="height: 800px; margin: -43px 0 -20px; position: relative; z-index: 1"
-  >
+  <div id="map">
     <l-map :min-zoom="6" :max-zoom="12" :center="[40.4636688, -3.7492199]">
       <l-tile-layer url="https://{s}.tile.osm.org/{z}/{x}/{y}.png" />
       <Market v-for="(item, index) in centers" :key="index" :center="item" />
@@ -26,3 +23,11 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+#map {
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+</style>

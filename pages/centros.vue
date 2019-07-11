@@ -5,7 +5,62 @@
       :description="metas.description"
       :image="metas.image"
     />
-    <Map :centers="centers" />
+    <v-container fluid>
+      <v-layout wrap row>
+        <v-flex xs12 order-xs2 md12 order-md2 lg8 order-lg1>
+          <Map :centers="centers" />
+        </v-flex>
+        <v-flex xs12 order-xs1 md12 order-md1 lg4 order-lg2>
+          <v-toolbar primary dark>
+            <v-toolbar-title>
+              ¿Cómo ser un centro Programo Ergo Sum?
+            </v-toolbar-title>
+          </v-toolbar>
+          <v-list class="subheading">
+            <v-list-tile>
+              <v-list-tile-avatar>
+                <v-icon class="fas fa-users"></v-icon>
+              </v-list-tile-avatar>
+              <v-list-tile-content>
+                Un docente comprometido (Embajador)
+              </v-list-tile-content>
+            </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-avatar>
+                <v-icon class="fas fa-envelope"></v-icon>
+              </v-list-tile-avatar>
+              <v-list-tile-content>
+                Explícanos cómo usas las plataformas
+              </v-list-tile-content>
+            </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-avatar>
+                <v-icon class="fas fa-graduation-cap"></v-icon>
+              </v-list-tile-avatar>
+              <v-list-tile-content>
+                Enseña los logros conseguidos
+              </v-list-tile-content>
+            </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-avatar>
+                <v-icon class="fas fa-comments"></v-icon>
+              </v-list-tile-avatar>
+              <v-list-tile-content>
+                Haz difusión de la iniciativa
+              </v-list-tile-content>
+            </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-avatar>
+                <v-icon class="fas fa-map-marker"></v-icon>
+              </v-list-tile-avatar>
+              <v-list-tile-content>
+                Sitúate en el mapa
+              </v-list-tile-content>
+            </v-list-tile>
+          </v-list>
+        </v-flex>
+      </v-layout>
+    </v-container>
   </div>
 </template>
 
