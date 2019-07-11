@@ -1,3 +1,19 @@
 ErrorDocument 404 /404.html
 
+# Actividades
 Redirect 301 /actividades/codeweek-2015-murcia https://www.programoergosum.es/actividades/codeweek-murcia
+
+# Actividades -> Blog
+Redirect 301 /actividades/master-class-murcia https://www.programoergosum.es/blog/master-class-murcia
+Redirect 301 /actividades/hourofcode-2015-murcia https://www.programoergosum.es/blog/hourofcode-2015-murcia
+Redirect 301 /actividades/hackathon-familiar-murcia https://www.programoergosum.es/blog/hackathon-familiar-murcia
+Redirect 301 /actividades/scratch-day-murcia https://www.programoergosum.es/blog/scratch-day-murcia
+Redirect 301 /actividades/104-aprende-a-programar-con-minecraft-ies-el-carmen-murcia https://www.programoergosum.es/blog/aprende-a-programar-con-minecraft-ies-el-carmen-murcia
+
+# Blog
+Redirect 301 /blog/221-participo-luego-existo-un-concurso-en-el-que-todos-ganan https://www.programoergosum.es/blog/participo-luego-existo-un-concurso-en-el-que-todos-ganan
+Redirect 301 /blog/194-entrevistamos-a-diego-ninja-de-coderdojo-murcia https://www.programoergosum.es/blog/entrevistamos-a-diego-ninja-de-coderdojo-murcia
+Redirect 301 /blog/193-entrevistamos-a-ana-ninja-de-coderdojo-murcia https://www.programoergosum.es/blog/entrevistamos-a-ana-ninja-de-coderdojo-murcia
+Redirect 301 /blog/191-entrevista-a-manolo-ninja-de-coderdojo-murcia https://www.programoergosum.es/blog/entrevistamos-a-manolo-ninja-de-coderdojo-murcia
+Redirect 301 /blog/190-entrevista-a-pepe-ninja-de-coderdojo-murcia https://www.programoergosum.es/blog/entrevistamos-a-pepe-ninja-de-coderdojo-murcia
+Redirect 301 /blog/192-presentes-en-simo-educacion-2016 https://www.programoergosum.es/blog/presentes-en-simo-educacion-2016

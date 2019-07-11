@@ -33,6 +33,17 @@
     }
   },
   {
+    "alias": "aprende-a-programar-con-minecraft-ies-el-carmen-murcia",
+    "title": "Aprende a programar con Minecraft - IES El Carmen Murcia",
+    "description": "Curso en Murcia para aprender a programar videojuegos con ayuda de Minecraft.",
+    "image": "img/preview.png",
+    "tags": ["curso", "minecraft", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
     "alias": "entrevistamos-a-manolo-ninja-de-coderdojo-murcia",
     "title": "Entrevistamos a Manolo (Ninja de CoderDojo Murcia)",
     "description": "Manolo es ninja de CoderDojo Murcia y futuro mentor. Durante el curso anterior aprendió a programar videojuegos con tan solo 11 años.",
@@ -60,6 +71,50 @@
     "description": "Asistimos a SIMO Educación 2016 realizando talleres para introducir la programación dentro del aula como medio de aprendizaje hacia otras asignaturas.",
     "image": "img/preview.png",
     "tags": ["simo", "educacion", "asociacion"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "master-class-murcia",
+    "title": "MasterClass de programación con Scratch en Murcia",
+    "description": "Master Class de programación de videojuegos utilizando el lenguaje Scratch.",
+    "image": "img/preview.png",
+    "tags": ["master class", "scratch", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "hackathon-familiar-murcia",
+    "title": "Hackathon Familiar de programación con Scratch Murcia",
+    "description": "Hackathon familiar de sensibilización para acabar con el acoso escolar y bullying.",
+    "image": "img/preview.png",
+    "tags": ["hackathon", "scratch", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "scratch-day-murcia",
+    "title": "Aprende a programar en el Scratch Day 2016 en Murcia",
+    "description": "Evento mundial de programación con Scratch celebrado en más de 80 países.",
+    "image": "img/preview.png",
+    "tags": ["scratch", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "hourofcode-2015-murcia",
+    "title": "Hora de la programación y el código en Murcia",
+    "description": "Durante una hora aprende a programar ordenadores, videojuegos y aplicaciones gratis.",
+    "image": "img/preview.png",
+    "tags": ["hour of code", "scratch", "murcia"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2019-07-09 14:05:12"
