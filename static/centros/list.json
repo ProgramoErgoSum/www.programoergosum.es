@@ -18,6 +18,60 @@
     ]
   },
   {
+    "name": "IES Alfonso X El Sabio",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/965879059870900224/USpYHGCQ_400x400.jpg",
+    "coordinates": ["37.9950942","-1.1280427"],
+    "social": {
+      "url": "https://www.iax.es",
+      "twitter": "https://twitter.com/iaxmurcia"
+    },
+    "teachers": [
+      {
+        "name": "Matías"
+      }
+    ]
+  },
+  {
+    "name": "IES Miguel de cervantes",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/915124237039480833/x7hfNtm5_400x400.jpg",
+    "coordinates": ["37.9949282","-1.144677"],
+    "social": {
+      "url": "http://iesmigueldecervantes.com",
+      "twitter": "https://twitter.com/IESMdCervantes"
+    },
+    "teachers": [
+      {
+        "name": "Mónica"
+      }
+    ]
+  },
+  {
+    "name": "IES Antonio Hellín Costa",
+    "address": {
+      "city": "Puerto de Mazarrón",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1115605572982677504/WZBiYdsO_400x400.png",
+    "coordinates": ["37.5694088","-1.2716645"],
+    "social": {
+      "url": "https://www.iesantoniohellin.es",
+      "twitter": "https://twitter.com/ieshellincosta"
+    },
+    "teachers": [
+      {
+        "name": "José Antonio"
+      }
+    ]
+  },
+  {
     "name": "IES Hermanos Amorós",
     "address": {
       "city": "Villena",
@@ -65,7 +119,7 @@
     "image": "https://scontent.fmad8-1.fna.fbcdn.net/v/t1.0-9/10994068_758970267538017_167376538702352586_n.png?_nc_cat=102&_nc_oc=AQkfXElHo2GOfj5E7NIcV75rnlu2CsVrDFDhYY9UGPuZ3Fk8Uf6uqg6IsAeHid9r97c&_nc_ht=scontent.fmad8-1.fna&oh=f2b47cf06163d516cb7661fba3761d8d&oe=5DBBA44A",
     "coordinates": ["39.7657891","2.7113723"],
     "social": {
-      "url": "svpsoller.fecib.net",
+      "url": "http://www.svpsoller.fecib.net",
       "twitter": ""
     },
     "teachers": [

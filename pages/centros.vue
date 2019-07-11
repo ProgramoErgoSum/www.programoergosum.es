@@ -8,10 +8,15 @@
     <v-container fluid>
       <v-layout wrap row>
         <v-flex xs12 order-xs2 md12 order-md2 lg8 order-lg1>
+          <v-toolbar primary dark>
+            <v-toolbar-title>
+              {{ centers.length }} centros educativos inscritos
+            </v-toolbar-title>
+          </v-toolbar>
           <Map :centers="centers" />
         </v-flex>
         <v-flex xs12 order-xs1 md12 order-md1 lg4 order-lg2>
-          <v-toolbar primary dark>
+          <v-toolbar color="primary" dark>
             <v-toolbar-title>
               ¿Cómo ser un centro Programo Ergo Sum?
             </v-toolbar-title>

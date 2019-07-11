@@ -17,8 +17,8 @@ export default {
   },
   props: {
     centers: {
-      type: Object,
-      default: () => {}
+      type: Array,
+      default: () => []
     }
   }
 }
