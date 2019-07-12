@@ -36,11 +36,11 @@
     },
     {
       "name": "Francisco Román",
-      "image": "",
-      "description": "",
+      "image": "https://pbs.twimg.com/profile_images/1149583692739690496/tW04KD5b_400x400.jpg",
+      "description": "Profesor de Secundaria de Robótica, Tecnología y TIC en el Colegio Reina Sofía de Totana (Murcia).",
       "social": {
         "url": "",
-        "twitter": "",
+        "twitter": "https://twitter.com/FranciscoRomnC2",
         "github": ""
       },
       "qty": 2
