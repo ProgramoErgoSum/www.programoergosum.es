@@ -46,12 +46,8 @@
 <script>
 import metas from '@/static/metas.json'
 
-import Title from '@/components/Layout/Title'
-
 export default {
-  components: {
-    Title
-  },
+  components: {},
   asyncData() {
     return {
       metas: metas.contacto

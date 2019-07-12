@@ -63,13 +63,11 @@
 import metas from '@/static/metas.json'
 import activities from '@/static/actividades/list.json'
 
-import Title from '@/components/Layout/Title'
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Title,
     Volunteers,
     Reg
   },

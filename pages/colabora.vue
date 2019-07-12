@@ -21,7 +21,6 @@
 <script>
 import metas from '@/static/metas.json'
 
-import Title from '@/components/Layout/Title'
 import Sponsors from '@/components/Pages/Colabora/Sponsors'
 import Patrons from '@/components/Pages/Colabora/Patrons'
 import Paypals from '@/components/Pages/Colabora/Paypals'
@@ -29,7 +28,6 @@ import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Title,
     Sponsors,
     Patrons,
     Paypals,

@@ -44,12 +44,8 @@
 </template>
 
 <script>
-import Title from '@/components/Layout/Title'
-
 export default {
-  components: {
-    Title
-  },
+  components: {},
   asyncData() {
     const title = 'Gracias'
     const description =

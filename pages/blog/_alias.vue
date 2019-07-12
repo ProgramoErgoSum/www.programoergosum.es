@@ -14,12 +14,10 @@
 <script>
 import blogs from '@/static/blog/list.json'
 
-import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 
 export default {
   components: {
-    Title,
     Content
   },
   validate({ params }) {

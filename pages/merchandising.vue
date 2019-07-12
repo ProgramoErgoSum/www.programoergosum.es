@@ -9,13 +9,11 @@
 <script>
 import metas from '@/static/metas.json'
 
-import Title from '@/components/Layout/Title'
 import Printer from '@/components/Pages/Merchandising/Printer'
 import Stickers from '@/components/Pages/Merchandising/Stickers'
 
 export default {
   components: {
-    Title,
     Printer,
     Stickers
   },

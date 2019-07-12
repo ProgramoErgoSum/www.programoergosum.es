@@ -19,13 +19,11 @@
 <script>
 import activities from '@/static/actividades/list.json'
 
-import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 
 export default {
   components: {
-    Title,
     Content,
     Toc
   },

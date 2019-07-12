@@ -81,12 +81,10 @@
 import metas from '@/static/metas.json'
 import centers from '@/static/centros/list.json'
 
-import Title from '@/components/Layout/Title'
 import Map from '@/components/Pages/Centros/Map'
 
 export default {
   components: {
-    Title,
     Map
   },
   asyncData() {

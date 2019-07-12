@@ -22,14 +22,12 @@
 <script>
 import metas from '@/static/metas.json'
 
-import Title from '@/components/Layout/Title'
 import Content from '@/components/Markdown/Content'
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Title,
     Content,
     Volunteers,
     Reg

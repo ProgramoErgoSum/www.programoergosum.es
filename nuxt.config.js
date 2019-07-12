@@ -78,6 +78,7 @@ export default {
    */
   plugins: [
     { src: '~plugins/vuetify.js' },
+    { src: '~plugins/components.js' },
     { src: '~plugins/ga.js', ssr: false }
   ],
 
