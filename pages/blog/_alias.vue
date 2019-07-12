@@ -54,6 +54,7 @@ export default {
 
     return {
       title: title,
+      titleTemplate: 'Blog - %s',
       meta: [
         // Global
         { hid: 'description', name: 'description', content: description },

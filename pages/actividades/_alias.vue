@@ -61,6 +61,7 @@ export default {
 
     return {
       title: title,
+      titleTemplate: 'Actividades - %s',
       meta: [
         // Global
         { hid: 'description', name: 'description', content: description },
