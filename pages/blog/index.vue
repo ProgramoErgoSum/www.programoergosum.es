@@ -50,7 +50,7 @@ export default {
   asyncData() {
     return {
       metas: metas.blog,
-      blogs: blogs
+      blogs: blogs // .slice(0, 10)
     }
   },
   head() {

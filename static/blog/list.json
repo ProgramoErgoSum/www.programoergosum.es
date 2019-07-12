@@ -44,22 +44,22 @@
     }
   },
   {
-    "alias": "entrevistamos-a-ana-ninja-de-coderdojo-murcia",
-    "title": "Entrevistamos a Ana (Ninja de CoderDojo Murcia)",
-    "description": "Ana es ninja de CoderDojo Murcia desde hace más de 1 año. Es una apasionada de la música y en concreto toca el piano y muy bien.",
+    "alias": "semana-tecnologica-en-el-ies-juan-carlos-i",
+    "title": "Semana tecnológica en el IES Juan Carlos I",
+    "description": "Semana de programación y nuevas tecnologías en el IES Juan Carlos I de Murcia.",
     "image": "img/preview.png",
-    "tags": ["coderdojo", "murcia", "club", "ana"],
+    "tags": ["curso", "murcia", "instituto"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2019-03-09 14:05:12"
     }
   },
   {
-    "alias": "semana-tecnologica-en-el-ies-juan-carlos-i",
-    "title": "Semana tecnológica en el IES Juan Carlos I",
-    "description": "Semana de programación y nuevas tecnologías en el IES Juan Carlos I de Murcia.",
+    "alias": "entrevistamos-a-ana-ninja-de-coderdojo-murcia",
+    "title": "Entrevistamos a Ana (Ninja de CoderDojo Murcia)",
+    "description": "Ana es ninja de CoderDojo Murcia desde hace más de 1 año. Es una apasionada de la música y en concreto toca el piano y muy bien.",
     "image": "img/preview.png",
-    "tags": ["curso", "murcia", "instituto"],
+    "tags": ["coderdojo", "murcia", "club", "ana"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2019-03-09 14:05:12"
@@ -88,22 +88,22 @@
     }
   },
   {
-    "alias": "entrevistamos-a-pepe-ninja-de-coderdojo-murcia",
-    "title": "Entrevistamos a Pepe (Ninja de CoderDojo Murcia)",
-    "description": "Con tan solo 10 años empezó a programar videojuegos con Scratch y poco a poco está aprendiendo varios lenguajes de programación.",
+    "alias": "aprendiendo-a-programar-videojuegos-con-python-en-murcia",
+    "title": "Aprendiendo a programar videojuegos con Python en Murcia",
+    "description": "Los chicos del IES El Carmen de Murcia programando videojuegos en lenguaje de programación Python.",
     "image": "img/preview.png",
-    "tags": ["coderdojo", "murcia", "club", "pepe"],
+    "tags": ["python", "murcia", "club", "curso"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2018-09-09 14:05:12"
     }
   },
   {
-    "alias": "aprendiendo-a-programar-videojuegos-con-python-en-murcia",
-    "title": "Aprendiendo a programar videojuegos con Python en Murcia",
-    "description": "Los chicos del IES El Carmen de Murcia programando videojuegos en lenguaje de programación Python.",
+    "alias": "entrevistamos-a-pepe-ninja-de-coderdojo-murcia",
+    "title": "Entrevistamos a Pepe (Ninja de CoderDojo Murcia)",
+    "description": "Con tan solo 10 años empezó a programar videojuegos con Scratch y poco a poco está aprendiendo varios lenguajes de programación.",
     "image": "img/preview.png",
-    "tags": ["python", "murcia", "club", "curso"],
+    "tags": ["coderdojo", "murcia", "club", "pepe"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2018-09-09 14:05:12"
