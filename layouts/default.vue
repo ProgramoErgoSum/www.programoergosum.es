@@ -55,14 +55,18 @@ export default {
     }
   },
   head() {
-    const canonical = `${process.env.canonical}${this.$route.path}` // domain + / path /
+    const canonical = `${process.env.www}${this.$route.path}`
     return {
       meta: [
         // Global
         { rel: 'canonical', href: canonical },
         // Facebook
+        { property: 'og:site_name', content: 'ProgramoErgoSum' },
+        { property: 'og:type', content: 'article' },
         { property: 'og:url', content: canonical },
         // Twitter
+        { name: 'twitter:site', content: '@ProgramoErgoSum' },
+        { name: 'twitter:creator', content: '@ProgramoErgoSum' },
         { name: 'twitter:card', content: 'summary_large_image' }
       ]
     }

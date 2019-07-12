@@ -48,7 +48,7 @@ export default {
   head() {
     const title = this.title
     const description = this.description
-    const image = `${process.env.canonical}${this.image}`
+    const image = `${process.env.cdn}${this.image}`
 
     return {
       title: title,

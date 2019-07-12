@@ -61,7 +61,7 @@ export default {
   head() {
     const title = this.metas.title
     const description = this.metas.description
-    const image = `${process.env.canonical}${this.metas.image}`
+    const image = `${process.env.cdn}${this.metas.image}`
 
     return {
       title: title,

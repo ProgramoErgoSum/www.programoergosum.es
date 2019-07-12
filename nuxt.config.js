@@ -4,19 +4,24 @@ import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import activities from './static/actividades/list.json'
 import blogs from './static/blog/list.json'
 
-const canonical = 'https://www.programoergosum.es'
-const routerBase = {
-  router: {
-    base: '/'
-  }
-}
+const www =
+  process.env.NODE_ENV === 'development'
+    ? 'http://localhost:3000'
+    : 'https://www.programoergosum.es'
+const cdn =
+  process.env.NODE_ENV === 'development'
+    ? 'http://localhost:3000'
+    : 'https://www.programoergosum.es'
 
 export default {
   mode: 'universal',
 
-  ...routerBase,
+  router: {
+    base: '/'
+  },
   env: {
-    canonical: canonical
+    www: www,
+    cdn: cdn
   },
 
   /*
@@ -101,7 +106,7 @@ export default {
    ** Sitemap module configuration
    */
   sitemap: {
-    hostname: canonical,
+    hostname: www,
     gzip: true,
     defaults: {
       changefreq: 'weekly',
