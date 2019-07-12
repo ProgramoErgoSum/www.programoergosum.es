@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  // layout: 'empty',
+  layout: 'empty',
   head() {
     const title = '404 - Página no encontrada'
 
