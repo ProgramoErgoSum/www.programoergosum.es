@@ -2,46 +2,46 @@
   "index": {
     "title": "Iniciativa Programo Ergo Sum",
     "description": "Iniciativa sin ánimo de lucro para acercar la programación, robótica educativa y nuevas tecnologías a todas las edades.",
-    "image": "/preview.png"
+    "image": "preview.png"
   },
   "asociacion": {
     "title": "Asociación Programo Ergo Sum",
     "description": "Iniciativa sin ánimo de lucro para acercar la programación, robótica educativa y nuevas tecnologías a todas las edades.",
-    "image": "/asociacion/preview.png"
+    "image": "asociacion/preview.png"
   },
   "proyectos": {
     "title": "Proyectos educativos",
     "description": "Proyectos educativos abiertos para aprender informática, programación, robótica y nuevas tecnologías con herramientas libres.",
-    "image": "/preview.png"
+    "image": "preview.png"
   },
   "colabora": {
     "title": "Colabora con la iniciativa",
     "description": "Para poder hacer frente al mantenimiento en todos nuestros proyectos educativos necesitamos tu apoyo. ¿Quieres colaborar?",
-    "image": "/colabora/preview.png"
+    "image": "colabora/preview.png"
   },
   "centros": {
     "title": "Centros educativos difundiendo la iniciativa",
     "description": "¿Todavía no usas ninguna de nuestras plataformas educativas en tu centro? ¿A qué esperas? Convierte tu centro en un centro Programo Ergo Sum.",
-    "image": "/centros/preview.png"
+    "image": "centros/preview.png"
   },
   "merchandising": {
     "title": "Merchandising",
     "description": "Una forma de colaborar es ayudarnos a difundir la iniciativa. ¿Quieres colaborar?",
-    "image": "/preview.png"
+    "image": "preview.png"
   },
   "contacto": {
     "title": "Contacta con nosotros",
     "description": "¿Tienes algo que preguntarnos? Puedes contactar con nosotros a través de nuestro correo electrónico y redes sociales.",
-    "image": "/preview.png"
+    "image": "preview.png"
   },
   "blog": {
     "title": "Blog",
     "description": "Aquí contrarás las últimas noticias sobre actividades, talleres y cursos realizados por la asociación.",
-    "image": "/blog/preview.png"
+    "image": "blog/preview.png"
   },
   "actividades": {
     "title": "Cursos de robótica en Murcia",
     "description": "Actividades extraescolares y talleres gratuitos de programación, electrónica y robótica en la Región de Murcia.",
-    "image": "/actividades/preview.png"
+    "image": "actividades/preview.png"
   }
 }
