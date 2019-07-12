@@ -240,5 +240,28 @@
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
     }
+  },
+  {
+    "alias": "buscas-actividades-extraescolares-en-murcia",
+    "title": "Actividades gratuitas de programación y robótica en Murcia",
+    "description": "¿Buscas actividades extraescolares en Murcia? Cursos de programación de páginas web y videojuegos en Murcia.",
+    "image": "img/preview.png",
+    "tags": ["actividades", "extraescolares", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2017-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "aprendiendo-a-programar-paginas-web-en-el-ies-el-carmen-de-murcia",
+    "title": "Aprendiendo a programar páginas web en el IES El Carmen de Murcia",
+    "description": "Jóvenes aprendiendo a programar en el curso de páginas web en el IES El Carmen de Murcia.",
+    "image": "img/preview.png",
+    "tags": ["actividades", "extraescolares", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2017-07-09 14:05:12"
+    }
   }
+
 ]
