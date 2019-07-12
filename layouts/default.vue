@@ -53,6 +53,19 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    const canonical = `${process.env.canonical}${this.$route.path}` // domain + / path /
+    return {
+      meta: [
+        // Global
+        { rel: 'canonical', href: canonical },
+        // Facebook
+        { property: 'og:url', content: canonical },
+        // Twitter
+        { name: 'twitter:card', content: 'summary_large_image' }
+      ]
+    }
   }
 }
 </script>
