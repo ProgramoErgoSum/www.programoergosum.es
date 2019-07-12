@@ -196,5 +196,49 @@
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
     }
+  },
+  {
+    "alias": "con-nuestros-compis-de-la-asociacion-byl-inedu",
+    "title": "Con nuestros compis de la Asociación ByLInEdu",
+    "description": "Visitamos en Valencia a nuestros amigos de la Asociación ByL InEdu con motivo de su 4º aniversario.",
+    "image": "img/preview.png",
+    "tags": ["coder dojo", "bylinedu", "valencia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2017-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "encuentro-de-coderdojo-espana-en-valencia",
+    "title": "Encuentro de CoderDojo España en Valencia",
+    "description": "Encuentro de CoderDojo España el próximo 25 de junio de 2016 en Las Naves (Valencia). Reserva tu plaza.",
+    "image": "img/preview.png",
+    "tags": ["coder dojo", "españa", "valencia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2017-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "aprendiendo-electronica-con-kiwibot-en-murcia",
+    "title": "Aprendiendo electrónica con KiwiBot en Murcia",
+    "description": "Aprendiendo programación y electrónica con el escudo kiwibot para arduino.",
+    "image": "img/preview.png",
+    "tags": ["kiwibot", "curso", "murcia"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2017-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "i-encuentro-de-coderdojo-espana-en-medialab-prado-madrid",
+    "title": "I encuentro de CoderDojo España en Medialab Prado, Madrid",
+    "description": "Encuentro de CoderDojo España para recopilar buenas prácticas en diferentes centros de España.",
+    "image": "img/preview.png",
+    "tags": ["coder dojo", "españa", "encuentro"],
+    "date": {
+      "cdate": "2016-10-20 08:13:00",
+      "mdate": "2017-07-09 14:05:12"
+    }
   }
 ]
