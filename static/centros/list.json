@@ -59,6 +59,24 @@
       }
     ]
   },
+  {
+    "name": "Colegio Reina Sofía",
+    "address": {
+      "city": "Totana",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/3675568430/dc5bbfb7e6400c2a1b4498016ee28fcd_400x400.jpeg",
+    "coordinates": ["37.7773581","-1.4985646"],
+    "social": {
+      "url": "http://www.rsofia.es/",
+      "twitter": "https://twitter.com/CReinaSofia"
+    },
+    "teachers": [
+      {
+        "name": "Francisco Román"
+      }
+    ]
+  },
 
   {
     "name": "IES Alfonso X El Sabio",
