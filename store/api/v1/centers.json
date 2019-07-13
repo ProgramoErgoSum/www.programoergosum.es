@@ -97,7 +97,61 @@
     ]
   },
   {
-    "name": "IES Miguel de cervantes",
+    "name": "IES Florida Blanca",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1092767612373815296/JB9IeQ_J_400x400.jpg",
+    "coordinates": ["37.979799","-1.120516"],
+    "social": {
+      "url": "http://www.iesfloridablanca.com",
+      "twitter": "https://twitter.com/iesflori"
+    },
+    "ambassadors": [
+      {
+        "name": "José Antonio"
+      }
+    ]
+  },
+  {
+    "name": "IES Juan Carlos I",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1021662639615877120/HusEihru_400x400.jpg",
+    "coordinates": ["37.9989132","-1.1380948"],
+    "social": {
+      "url": "http://www.iesjuancarlosi.es",
+      "twitter": "https://twitter.com/JuancarlosiIes"
+    },
+    "ambassadors": [
+      {
+        "name": "Agustín"
+      }
+    ]
+  },
+  {
+    "name": "IES La Flota",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/956144408885329920/et6PX0j5_400x400.png",
+    "coordinates": ["37.9967587","-1.1248994"],
+    "social": {
+      "url": "https://ieslaflota.blogspot.com",
+      "twitter": "https://twitter.com/ieslaflota"
+    },
+    "ambassadors": [
+      {
+        "name": "José Antonio"
+      }
+    ]
+  },
+  {
+    "name": "IES Miguel de Cervantes",
     "address": {
       "city": "Murcia",
       "province": "Murcia"
