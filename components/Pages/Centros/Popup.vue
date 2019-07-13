@@ -1,5 +1,5 @@
 <template>
-  <div class="text-xs-center">
+  <div class="popup text-xs-center">
     <v-avatar size="110">
       <v-img :src="center.image" :lazy-src="`/lazy-user.png`">
         <v-layout
@@ -39,6 +39,17 @@
     >
       <i class="fab fa-twitter" style="color:#1da1f2"></i>
     </v-btn>
+    <!--
+    <div class="mt-1 text-xs-left">
+      <b v-if="center.ambassadors.length > 1">Embajadores</b>
+      <b v-else>Embajador</b>
+      <ul class="mt-1">
+        <li v-for="(ambassador, index) in center.ambassadors" :key="index">
+          {{ ambassador.name }}
+        </li>
+      </ul>
+    </div>
+    -->
   </div>
 </template>
 
@@ -54,4 +65,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.popup {
+  width: 150px;
+}
+</style>
