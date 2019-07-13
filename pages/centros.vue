@@ -79,7 +79,6 @@
 
 <script>
 import metas from '@/static/metas.json'
-// import centers from '@/static/centros/list.json'
 
 import Map from '@/components/Pages/Centros/Map'
 
