@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import metas from '@/static/metas.json'
+import metas from '@/store/api/v1/metas.json'
 
 export default {
   components: {},

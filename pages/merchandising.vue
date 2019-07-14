@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import metas from '@/static/metas.json'
+import metas from '@/store/api/v1/metas.json'
 
 import Printer from '@/components/Pages/Merchandising/Printer'
 import Stickers from '@/components/Pages/Merchandising/Stickers'

@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import metas from '@/static/metas.json'
+import metas from '@/store/api/v1/metas.json'
 
 import Content from '@/components/Markdown/Content'
 import Volunteers from '@/components/Pages/Colabora/Volunteers'

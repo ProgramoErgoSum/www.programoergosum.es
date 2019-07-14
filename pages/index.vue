@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import metas from '@/static/metas.json'
+import metas from '@/store/api/v1/metas.json'
 
 import What from '@/components/Pages/Home/What'
 import Sponsors from '@/components/Pages/Colabora/Sponsors'

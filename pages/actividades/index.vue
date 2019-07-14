@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import metas from '@/static/metas.json'
+import metas from '@/store/api/v1/metas.json'
 
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
