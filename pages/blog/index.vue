@@ -7,15 +7,34 @@
     />
     <v-container>
       <v-layout column>
-        <v-flex v-for="blog in blogs" :key="blog.alias">
+        <v-flex xs12>
+          <v-card class="mb-4" flat>
+            <v-subheader>Filtro: {{ currentTag }}</v-subheader>
+            <div class="px-2">
+              <v-chip label dark @click="currentTag = 'todos'">
+                Todos
+              </v-chip>
+              <v-chip
+                v-for="tag in tags"
+                :key="tag"
+                label
+                :outline="tag !== currentTag"
+                @click="currentTag = tag"
+              >
+                {{ tag }}
+              </v-chip>
+            </div>
+          </v-card>
+        </v-flex>
+        <v-flex v-for="blog in filterBlogs" :key="blog.alias">
           <v-card :to="`/blog/${blog.alias}`">
             <v-layout row wrap>
-              <v-flex xs12 md6 lg4>
+              <v-flex class="pa-1" xs12 md6 lg4>
                 <v-img
                   :src="`/images/blog/${blog.alias}/${blog.image}`"
                   :lazy-src="`/lazy.png`"
                   :title="`${blog.title}`"
-                  height="140"
+                  height="185"
                 >
                   <template v-slot:placeholder>
                     <v-layout fill-height align-center justify-center ma-0>
@@ -29,8 +48,22 @@
               </v-flex>
               <v-flex xs12 md6 lg8>
                 <v-card-title primary-title>
-                  <h3 class="mb-4 title">{{ blog.title }}</h3>
-                  <div class="subheading">{{ blog.description }}</div>
+                  <h3 class="mb-4 title">
+                    {{ blog.title }}
+                  </h3>
+                  <div class="subheading font-weight-thin">
+                    {{ blog.description }}
+                  </div>
+                  <div class="mt-3">
+                    <v-chip
+                      v-for="tag in blog.tags"
+                      :key="tag"
+                      label
+                      :outline="tag !== currentTag"
+                    >
+                      {{ tag }}
+                    </v-chip>
+                  </div>
                 </v-card-title>
               </v-flex>
             </v-layout>
@@ -46,9 +79,21 @@ import metas from '@/store/api/v1/metas.json'
 
 export default {
   components: {},
+  data() {
+    return {
+      currentTag: 'todos'
+    }
+  },
+  computed: {
+    filterBlogs() {
+      if (this.currentTag === 'todos') return this.blogs
+      return this.$store.getters['blogs/filterByTag'](this.currentTag)
+    }
+  },
   asyncData({ store }) {
     return {
       metas: metas.blog,
+      tags: store.state.blogs.tags,
       blogs: store.state.blogs.list
     }
   },
