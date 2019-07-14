@@ -39,14 +39,14 @@ export default {
     const path = `actividades/${params.alias}`
     const file = await import(`@/doc/${path}/README.md`)
     const readme = {
-      path: path,
+      path: `images/${path}`,
       body: file.body
     }
 
     return {
       title: activity.title,
       description: activity.description,
-      image: `/${path}/${activity.image}`,
+      image: `/images/${path}/${activity.image}`,
       readme: readme
     }
   },

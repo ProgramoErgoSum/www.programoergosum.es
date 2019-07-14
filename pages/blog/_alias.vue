@@ -32,14 +32,14 @@ export default {
     const path = `blog/${params.alias}`
     const file = await import(`@/doc/${path}/README.md`)
     const readme = {
-      path: path,
+      path: `images/${path}`,
       body: file.body
     }
 
     return {
       title: blog.title,
       description: blog.description,
-      image: `/${path}/${blog.image}`,
+      image: `/images/${path}/${blog.image}`,
       readme: readme
     }
   },

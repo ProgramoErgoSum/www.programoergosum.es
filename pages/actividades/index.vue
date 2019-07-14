@@ -16,7 +16,7 @@
         >
           <v-card :to="`/actividades/${activity.alias}`">
             <v-img
-              :src="`/actividades/${activity.alias}/${activity.image}`"
+              :src="`/images/actividades/${activity.alias}/${activity.image}`"
               :lazy-src="`/lazy.png`"
               :title="`${activity.title}`"
               height="250"

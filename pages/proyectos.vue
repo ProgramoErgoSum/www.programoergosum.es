@@ -10,7 +10,7 @@
             rel="noopener noreferrer"
           >
             <v-img
-              :src="`proyectos/images/${project.img}`"
+              :src="`images/proyectos/${project.img}`"
               :lazy-src="`/lazy.png`"
               :title="`${project.title}`"
               height="250"

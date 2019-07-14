@@ -2,7 +2,7 @@
   <div class="card ma-3">
     <v-card :href="card.link" target="_blank" rel="noopener noreferrer">
       <v-img
-        :src="`merchandising/images/${card.img}`"
+        :src="`images/merchandising/${card.img}`"
         :lazy-src="`/lazy.png`"
         :alt="card.title"
         height="250"
