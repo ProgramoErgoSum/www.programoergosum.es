@@ -5,7 +5,7 @@
         <h2 class="mb-3">Patronos / Agradecimientos</h2>
       </v-flex>
       <v-flex
-        v-for="(item, index) in sortedPatrons"
+        v-for="(item, index) in patrons"
         :key="index"
         xs12
         sm6
@@ -53,7 +53,6 @@
 </template>
 
 <script>
-import collaborators from '@/static/colabora/list.json'
 import Card from '@/components/Pages/Colabora/Card'
 
 export default {
@@ -61,14 +60,8 @@ export default {
     Card
   },
   computed: {
-    sortedPatrons: function() {
-      function compare(a, b) {
-        if (a.qty < b.qty) return 1
-        if (a.qty > b.qty) return -1
-        return 0
-      }
-
-      return collaborators.patrons.sort(compare)
+    patrons() {
+      return this.$store.state.collaborators.patrons
     }
   }
 }

@@ -5,7 +5,7 @@
         <h2 class="mb-5">Donaciones / Agradecimientos</h2>
       </v-flex>
       <v-flex xs12>
-        <v-chip v-for="(item, index) in sortedPaypals" :key="index">
+        <v-chip v-for="(item, index) in paypals" :key="index">
           <v-avatar>
             <v-icon>account_circle</v-icon>
           </v-avatar>
@@ -41,18 +41,10 @@
 </template>
 
 <script>
-import collaborators from '@/static/colabora/list.json'
-
 export default {
   computed: {
-    sortedPaypals: function() {
-      function compare(a, b) {
-        if (a.qty < b.qty) return 1
-        if (a.qty > b.qty) return -1
-        return 0
-      }
-
-      return collaborators.paypals.sort(compare)
+    paypals() {
+      return this.$store.state.collaborators.paypals
     }
   }
 }

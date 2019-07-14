@@ -36,16 +36,17 @@
 </template>
 
 <script>
-import collaborators from '@/static/colabora/list.json'
 import Card from '@/components/Pages/Colabora/Card'
 
 export default {
   components: {
     Card
   },
-  data: () => ({
-    sponsors: collaborators.sponsors
-  })
+  computed: {
+    sponsors() {
+      return this.$store.state.collaborators.sponsors
+    }
+  }
 }
 </script>
 
