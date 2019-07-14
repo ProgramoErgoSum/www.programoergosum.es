@@ -1,7 +1,7 @@
-import centers from '~/store/api/v1/centers.json'
+import blogs from '~/store/api/v1/blogs.json'
 
 const state = () => ({
-  list: centers
+  list: blogs
 })
 
 const getters = {}

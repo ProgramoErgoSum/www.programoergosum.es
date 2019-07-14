@@ -1,8 +1,8 @@
 import path from 'path'
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 
-import activities from './static/actividades/list.json'
-import blogs from './static/blog/list.json'
+import activities from './store/api/v1/activities.json'
+import blogs from './store/api/v1/blogs.json'
 
 const www =
   process.env.NODE_ENV === 'development'
@@ -177,7 +177,7 @@ export default {
       config.module.rules.push({
         test: /\.md$/,
         loader: 'frontmatter-markdown-loader',
-        include: path.resolve(__dirname, 'static'),
+        include: path.resolve(__dirname, 'doc'),
         options: {
           vue: {
             root: 'dynamicMarkdown'

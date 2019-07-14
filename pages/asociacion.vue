@@ -33,10 +33,9 @@ export default {
     Reg
   },
   async asyncData() {
-    const path = `asociacion`
-    const file = await import(`@/static/${path}/README.md`)
+    const file = await import('@/doc/asociacion/README.md')
     const readme = {
-      path: path,
+      path: 'images/asociacion',
       body: file.body
     }
 

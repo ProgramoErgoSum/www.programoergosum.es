@@ -12,27 +12,25 @@
 </template>
 
 <script>
-import blogs from '@/static/blog/list.json'
-
 import Content from '@/components/Markdown/Content'
 
 export default {
   components: {
     Content
   },
-  validate({ params }) {
-    const blog = blogs.find(e => {
+  validate({ store, params }) {
+    const blog = store.state.blogs.list.find(e => {
       return e.alias === params.alias
     })
     return blog !== undefined
   },
-  async asyncData({ params }) {
-    const blog = blogs.find(e => {
+  async asyncData({ store, params }) {
+    const blog = store.state.blogs.list.find(e => {
       return e.alias === params.alias
     })
 
     const path = `blog/${params.alias}`
-    const file = await import(`@/static/${path}/README.md`)
+    const file = await import(`@/doc/${path}/README.md`)
     const readme = {
       path: path,
       body: file.body

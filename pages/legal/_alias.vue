@@ -22,7 +22,7 @@ export default {
   },
   async asyncData({ params }) {
     const path = `legal/${params.alias}`
-    const file = await import(`@/static/${path}/README.md`)
+    const file = await import(`@/doc/${path}/README.md`)
     const readme = {
       path: path,
       body: file.body

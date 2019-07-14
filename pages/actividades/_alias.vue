@@ -17,8 +17,6 @@
 </template>
 
 <script>
-import activities from '@/static/actividades/list.json'
-
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 
@@ -27,19 +25,19 @@ export default {
     Content,
     Toc
   },
-  validate({ params }) {
-    const activity = activities.find(e => {
+  validate({ store, params }) {
+    const activity = store.state.activities.list.find(e => {
       return e.alias === params.alias
     })
     return activity !== undefined
   },
-  async asyncData({ params, router, error }) {
-    const activity = activities.find(e => {
+  async asyncData({ store, params }) {
+    const activity = store.state.activities.list.find(e => {
       return e.alias === params.alias
     })
 
     const path = `actividades/${params.alias}`
-    const file = await import(`@/static/${path}/README.md`)
+    const file = await import(`@/doc/${path}/README.md`)
     const readme = {
       path: path,
       body: file.body

@@ -7,7 +7,7 @@
   "asociacion": {
     "title": "Asociación Programo Ergo Sum",
     "description": "Iniciativa sin ánimo de lucro para acercar la programación, robótica educativa y nuevas tecnologías a todas las edades.",
-    "image": "/asociacion/preview.png"
+    "image": "/preview/asociacion.png"
   },
   "proyectos": {
     "title": "Proyectos educativos",
@@ -37,11 +37,11 @@
   "blog": {
     "title": "Blog",
     "description": "Aquí contrarás las últimas noticias sobre actividades, talleres y cursos realizados por la asociación.",
-    "image": "/blog/preview.png"
+    "image": "/preview/blog.png"
   },
   "actividades": {
     "title": "Cursos de robótica en Murcia",
     "description": "Actividades extraescolares y talleres gratuitos de programación, electrónica y robótica en la Región de Murcia.",
-    "image": "/actividades/preview.png"
+    "image": "/preview/actividades.png"
   }
 }

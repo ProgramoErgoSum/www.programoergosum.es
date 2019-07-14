@@ -43,14 +43,13 @@
 
 <script>
 import metas from '@/static/metas.json'
-import blogs from '@/static/blog/list.json'
 
 export default {
   components: {},
-  asyncData() {
+  asyncData({ store }) {
     return {
       metas: metas.blog,
-      blogs: blogs // .slice(0, 10)
+      blogs: store.state.blogs.list
     }
   },
   head() {

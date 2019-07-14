@@ -61,7 +61,6 @@
 
 <script>
 import metas from '@/static/metas.json'
-import activities from '@/static/actividades/list.json'
 
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
@@ -71,10 +70,10 @@ export default {
     Volunteers,
     Reg
   },
-  asyncData() {
+  asyncData({ store }) {
     return {
       metas: metas.actividades,
-      activities: activities
+      activities: store.state.activities.list
     }
   },
   head() {
