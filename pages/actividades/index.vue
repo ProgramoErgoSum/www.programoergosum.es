@@ -53,9 +53,6 @@
     <section class="pt-5 pb-5 block-grey">
       <Volunteers />
     </section>
-    <section>
-      <Reg />
-    </section>
   </div>
 </template>
 
@@ -63,12 +60,10 @@
 import metas from '@/store/api/v1/metas.json'
 
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
-import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Volunteers,
-    Reg
+    Volunteers
   },
   asyncData({ store }) {
     return {

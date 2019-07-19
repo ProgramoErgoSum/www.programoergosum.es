@@ -4,11 +4,12 @@
       <v-layout row wrap>
         <v-flex xs12>
           <div class="follow">
-            <span>Síguenos:</span>
+            <h4>Síguenos</h4>
             <v-btn
               v-for="icon in icons"
               :key="icon.icon"
               :href="icon.link"
+              class="ma-0 mr-2"
               rel="noopener noreferrer"
               target="_blank"
               icon
@@ -222,14 +223,20 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-  border-top: 1px solid #eaebeb;
-  background: #f0f0f0;
-  z-index: 0;
+  background: #101a24;
+  color: #aeb1b5;
+  font-weight: 300;
   a {
-    color: #6c7074;
+    color: #aeb1b5;
+    font-weight: 300;
     &:hover {
       text-decoration: underline;
     }
+  }
+  h4 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #f0f0f0;
   }
   .follow {
     margin: 50px 0;
@@ -242,11 +249,6 @@ export default {
   .block {
     max-width: 300px;
     margin: 0 auto 50px;
-    h4 {
-      margin: 0 0 15px;
-      font-weight: 400;
-      color: #2d3339;
-    }
     ul {
       margin: 0;
       padding: 0;
@@ -260,14 +262,14 @@ export default {
   }
   .ccbysa {
     text-align: right;
-    font-size: 12px;
+    font-size: 13px;
     img {
       width: 130px;
       margin-bottom: 10px;
     }
   }
   .v-icon {
-    color: #2d3339;
+    color: #656e77;
   }
   .copyleft {
     margin: 30px 0 0;

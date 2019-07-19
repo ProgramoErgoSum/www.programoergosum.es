@@ -13,17 +13,22 @@
         </v-flex>
       </v-layout>
     </v-container>
+    <section class="pt-5 pb-5 block-grey">
+      <Volunteers />
+    </section>
   </div>
 </template>
 
 <script>
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
+import Volunteers from '@/components/Pages/Colabora/Volunteers'
 
 export default {
   components: {
     Content,
-    Toc
+    Toc,
+    Volunteers
   },
   validate({ store, params }) {
     const activity = store.state.activities.list.find(e => {
@@ -80,5 +85,8 @@ export default {
   position: -webkit-sticky;
   position: sticky;
   top: 75px;
+}
+.block-grey {
+  background: #f0f0f0;
 }
 </style>
