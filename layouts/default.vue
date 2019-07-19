@@ -26,11 +26,13 @@ export default {
   data() {
     return {
       navigation: [
+        /*
         {
           title: 'Asociación',
           icon: 'domain',
           link: '/asociacion'
         },
+        */
         {
           title: 'Proyectos',
           icon: 'code',
