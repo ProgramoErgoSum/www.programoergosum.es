@@ -18,12 +18,14 @@ export default {
   components: {
     Content
   },
+  /*
   validate({ store, params }) {
     const blog = store.state.blogs.list.find(e => {
       return e.alias === params.alias
     })
     return blog !== undefined
   },
+  */
   async asyncData({ store, params }) {
     const blog = store.state.blogs.list.find(e => {
       return e.alias === params.alias
