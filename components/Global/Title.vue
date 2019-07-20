@@ -2,13 +2,20 @@
   <div class="title" :style="background()">
     <v-container class="asociacion">
       <v-layout row wrap>
-        <v-flex xs12>
+        <v-flex class="py-5" xs12>
           <h2 class="font-weight-black">
             {{ title }}
           </h2>
           <h3 class="font-weight-light">
             {{ description }}
           </h3>
+        </v-flex>
+        <v-flex xs12>
+          <v-breadcrumbs
+            class="breadcrumb pa-0"
+            :items="breadcrumb"
+            divider=">"
+          />
         </v-flex>
       </v-layout>
     </v-container>
@@ -30,12 +37,16 @@ export default {
     image: {
       type: String,
       default: ''
+    },
+    breadcrumb: {
+      type: Array,
+      default: () => []
     }
   },
   methods: {
     background() {
       const background =
-        'background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.7))'
+        'background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5))'
       return this.image !== ''
         ? `${background}, url(${this.image});`
         : background
@@ -46,8 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 .title {
-  padding: 50px 0 90px;
-  background: #2d333927;
+  background: #2d3339b7;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -60,6 +70,9 @@ export default {
   h3 {
     font-size: 28px;
     line-height: 1.3;
+  }
+  .breadcrumb {
+    min-height: 30px;
   }
 }
 @media only screen and (max-width: 1904px) {

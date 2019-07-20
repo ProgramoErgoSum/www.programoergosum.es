@@ -1,6 +1,11 @@
 <template>
   <div class="_alias">
-    <Title :title="title" :description="description" :image="image" />
+    <Title
+      :title="title"
+      :description="description"
+      :image="image"
+      :breadcrumb="breadcrumb"
+    />
     <v-container>
       <v-layout row wrap>
         <v-flex sm12 md9>
@@ -49,7 +54,19 @@ export default {
       title: activity.title,
       description: activity.description,
       image: `/images/${path}/${activity.image}`,
-      readme: readme
+      readme: readme,
+      breadcrumb: [
+        {
+          text: 'Actividades',
+          disabled: false,
+          href: 'actividades'
+        },
+        {
+          text: activity.title,
+          disabled: true,
+          href: ''
+        }
+      ]
     }
   },
   head() {
