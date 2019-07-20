@@ -79,7 +79,7 @@ export default {
 
 <style lang="scss">
 .markdown {
-  font-size: 18px;
+  font-size: 20px;
   h1 {
     margin-bottom: 20px;
     font-size: 1.8em;
