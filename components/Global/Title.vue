@@ -35,7 +35,7 @@ export default {
   methods: {
     background() {
       const background =
-        'background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5))'
+        'background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.7))'
       return this.image !== ''
         ? `${background}, url(${this.image});`
         : background
@@ -46,18 +46,20 @@ export default {
 
 <style lang="scss" scoped>
 .title {
-  padding: 90px 0 130px;
+  padding: 50px 0 90px;
   background: #2d333927;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
+  background-attachment: fixed;
   color: #2d3339;
   h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 40px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 28px;
+    line-height: 1.3;
   }
 }
 @media only screen and (max-width: 1904px) {
