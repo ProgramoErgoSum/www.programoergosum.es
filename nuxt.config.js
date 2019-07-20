@@ -136,9 +136,8 @@ export default {
    ** Generate
    */
   generate: {
-    fallback: true,
     routes: async function() {
-      const p = ['/', '/404', '/legal/coc', '/legal/cookies']
+      const p = ['/', '404', '/legal/coc', '/legal/cookies']
       const a = await activities.map(item => {
         return `/actividades/${item.alias}`
       })
