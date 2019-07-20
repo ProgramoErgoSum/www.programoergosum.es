@@ -136,8 +136,7 @@ export default {
    ** Generate
    */
   generate: {
-    fallback: '404.html',
-    subFolders: false,
+    fallback: true,
     routes: async function() {
       const p = ['/', '/404', '/legal/coc', '/legal/cookies']
       const a = await activities.map(item => {

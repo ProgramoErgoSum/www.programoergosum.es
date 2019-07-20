@@ -19,10 +19,7 @@ export default {
     Content
   },
   validate({ store, params }) {
-    const blog = store.state.blogs.list.find(e => {
-      return e.alias === params.alias
-    })
-    return blog !== undefined
+    return store.state.blogs.list.find(e => e.alias === params.alias)
   },
   async asyncData({ store, params }) {
     const blog = store.state.blogs.list.find(e => {
