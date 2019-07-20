@@ -31,10 +31,7 @@ export default {
     Volunteers
   },
   validate({ store, params }) {
-    const activity = store.state.activities.list.find(e => {
-      return e.alias === params.alias
-    })
-    return activity !== undefined
+    return store.state.activities.list.find(e => e.alias === params.alias)
   },
   async asyncData({ store, params }) {
     const activity = store.state.activities.list.find(e => {

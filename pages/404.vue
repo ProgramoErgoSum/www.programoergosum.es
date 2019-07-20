@@ -9,10 +9,9 @@
           <h2 class="display">
             <p class="mb-5 pb-5">Página no encontrada <span>&#128534;</span></p>
             <p class="font-weight-light">
-              La página a la que estás intentando acceder ya no existe. En su
-              lugar puedes acceder a la
-              <nuxt-link to="/">página principal</nuxt-link> o navegar a través
-              del menú de navegación superior o inferior.
+              La página a la que estás intentando acceder ya no existe.<br />En
+              su lugar puedes acceder a la
+              <nuxt-link to="/">página principal</nuxt-link>.
             </p>
           </h2>
         </div>
