@@ -4,7 +4,7 @@
       :title="title"
       :description="description"
       :image="image"
-      :breadcrumb="breadcrumb"
+      :breadcrumbs="breadcrumbs"
     />
     <v-container>
       <v-layout row wrap>
@@ -55,16 +55,16 @@ export default {
       description: activity.description,
       image: `/images/${path}/${activity.image}`,
       readme: readme,
-      breadcrumb: [
+      breadcrumbs: [
         {
           text: 'Actividades',
           disabled: false,
-          href: 'actividades'
+          to: '/actividades'
         },
         {
           text: activity.title,
           disabled: true,
-          href: ''
+          to: ''
         }
       ]
     }

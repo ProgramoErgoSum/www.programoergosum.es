@@ -13,9 +13,18 @@
         <v-flex xs12>
           <v-breadcrumbs
             class="breadcrumb pa-0"
-            :items="breadcrumb"
+            :items="breadcrumbs"
             divider=">"
-          />
+          >
+            <template v-slot:item="props">
+              <nuxt-link
+                :to="props.item.to"
+                :class="[props.item.disabled && 'disabled']"
+              >
+                {{ props.item.text }}
+              </nuxt-link>
+            </template>
+          </v-breadcrumbs>
         </v-flex>
       </v-layout>
     </v-container>
@@ -38,7 +47,7 @@ export default {
       type: String,
       default: ''
     },
-    breadcrumb: {
+    breadcrumbs: {
       type: Array,
       default: () => []
     }
@@ -72,7 +81,13 @@ export default {
     line-height: 1.3;
   }
   .breadcrumb {
-    min-height: 30px;
+    min-height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    .disabled {
+      color: #454b52;
+      pointer-events: none;
+    }
   }
 }
 @media only screen and (max-width: 1904px) {

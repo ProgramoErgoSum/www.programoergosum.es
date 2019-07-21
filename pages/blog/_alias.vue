@@ -4,7 +4,7 @@
       :title="title"
       :description="description"
       :image="image"
-      :breadcrumb="breadcrumb"
+      :breadcrumbs="breadcrumbs"
     />
     <v-container>
       <v-layout>
@@ -43,16 +43,16 @@ export default {
       description: blog.description,
       image: `/images/${path}/${blog.image}`,
       readme: readme,
-      breadcrumb: [
+      breadcrumbs: [
         {
           text: 'Blog',
           disabled: false,
-          href: 'blog'
+          to: '/blog'
         },
         {
           text: blog.title,
           disabled: true,
-          href: ''
+          to: ''
         }
       ]
     }
