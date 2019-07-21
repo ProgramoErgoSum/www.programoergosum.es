@@ -1,6 +1,6 @@
 <template>
   <div class="title" :style="background()">
-    <v-container class="asociacion">
+    <v-container class="pb-5">
       <v-layout row wrap>
         <v-flex class="py-5" xs12>
           <h2 class="font-weight-black">
@@ -55,7 +55,7 @@ export default {
   methods: {
     background() {
       const background =
-        'background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5))'
+        'background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.7))'
       return this.image !== ''
         ? `${background}, url(${this.image});`
         : background
@@ -85,7 +85,7 @@ export default {
     font-size: 14px;
     font-weight: 400;
     .disabled {
-      color: #454b52;
+      color: #49525a;
       pointer-events: none;
     }
   }
@@ -93,6 +93,9 @@ export default {
 @media only screen and (max-width: 1904px) {
 }
 @media only screen and (max-width: 1264px) {
+  h2 {
+    font-size: 32px;
+  }
   h3 {
     font-size: 26px;
   }
