@@ -1,9 +1,10 @@
 <template>
-  <v-list v-scroll="onScroll">
+  <v-list class="toc" v-scroll="onScroll">
     <template v-for="item in menu">
       <v-list-tile :key="item.anchor" @click="goTo(item.anchor, $event)">
         <v-list-tile-content
           :id="item.anchor"
+          class="item font-weight-light"
           :class="{ 'primary--text': currentAnchor === item.anchor }"
           v-text="item.content"
         />
@@ -79,4 +80,4 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss" scoped></style>

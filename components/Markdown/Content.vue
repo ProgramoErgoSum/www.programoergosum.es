@@ -82,9 +82,10 @@ export default {
   font-size: 20px;
   h1 {
     margin-bottom: 20px;
-    font-size: 1.8em;
+    padding-bottom: 10px;
+    font-size: 1.7em;
     font-weight: 600;
-    line-height: 50px;
+    border-bottom: 1px solid #f0f0f0;
   }
   h2 {
     margin-top: 40px;
@@ -95,7 +96,7 @@ export default {
   h3 {
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 600;
   }
   h4 {
