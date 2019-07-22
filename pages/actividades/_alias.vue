@@ -99,7 +99,9 @@ export default {
   position: -webkit-sticky;
   position: sticky;
   top: 75px;
-  margin-left: 10px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 4px solid #f0f0f0;
 }
 .block-grey {
   background: #f0f0f0;

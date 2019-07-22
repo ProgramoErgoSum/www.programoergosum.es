@@ -83,7 +83,7 @@ export default {
 <style lang="scss">
 .v-list__tile {
   height: auto;
-  padding: 10px 5px;
-  font-size: 16px;
+  padding: 5px;
+  font-size: 14px;
 }
 </style>
