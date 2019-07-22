@@ -6,7 +6,9 @@ CoderDojo es una iniciativa sin ánimo de lucro nacida en Irlanda en 2011 que pr
 
 Los clubes son **organizados y gestionados por mentores voluntarios** que dedican parte de su tiempo libre para guiar a los ninjas en el aprendizaje de las diferentes disciplinas y lenguajes de programación.
 
-![](2.png)
+<div class="iframe">
+  <iframe src="//www.youtube.com/embed/1YDcXzvvauM" allowfullscreen></iframe>
+</div>
 
 ## ¿Quién puede participar?
 
@@ -34,9 +36,7 @@ La organización de los talleres funciona de la siguiente manera; dependiendo de
 
 CoderDojo Murcia está organizado por nuestros mentores en programación, robótica y nuevas tecnologías; Miguel Ángel, Carmen Belén y Miguel.
 
-<!--
-![](migueabellan.png) ![](carmenb_mg.png) ![](manzano.png)
--->
+![](2.png)
 
 ## ¿Quién patrocina CoderDojo Murcia?
 
