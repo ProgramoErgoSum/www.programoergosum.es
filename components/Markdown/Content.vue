@@ -258,6 +258,20 @@ export default {
     margin: 60px 0;
     border: 1px solid #f0f0f0;
   }
+  .iframe {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+  }
+  .iframe iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    margin: 20px 0 30px;
+    border: 0;
+  }
 }
 @media only screen and (max-width: 1904px) {
 }
