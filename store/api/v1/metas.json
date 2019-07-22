@@ -1,12 +1,12 @@
 {
   "index": {
     "title": "Iniciativa Programo Ergo Sum",
-    "description": "Iniciativa sin ánimo de lucro para acercar la programación, robótica educativa y nuevas tecnologías a todas las edades.",
+    "description": "Proyectos educativos abiertos para aprender informática, programación y robótica con herramientas de software libre.",
     "image": "/images/preview.png"
   },
   "asociacion": {
     "title": "Asociación Programo Ergo Sum",
-    "description": "Iniciativa sin ánimo de lucro para acercar la programación, robótica educativa y nuevas tecnologías a todas las edades.",
+    "description": "Iniciativa sin ánimo de lucro para acercar la informática, programación, electrónica y robótica a todas las edades.",
     "image": "/images/asociacion.png"
   },
   "proyectos": {

@@ -11,9 +11,9 @@
               Proyectos educativos
               <strong>abiertos</strong>
               para aprender
-              <span class="stress">programación y robótica</span>
-              con herramientas
-              <strong>libres</strong>
+              <span class="stress">informática, programación y robótica</span>
+              con herramientas de
+              <strong>software libre</strong>
             </h2>
           </section>
         </v-flex>
@@ -94,10 +94,11 @@ export default {
     font-size: 40px;
   }
   h2 {
-    max-width: 600px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 300;
+    line-height: 1.8;
     strong {
       font-weight: 500;
       color: #d25f34;
