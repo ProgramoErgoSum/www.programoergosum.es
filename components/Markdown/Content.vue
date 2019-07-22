@@ -88,13 +88,15 @@ export default {
     border-bottom: 1px solid #f0f0f0;
   }
   h2 {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 1.7rem;
     font-weight: 700;
+    border-bottom: 1px solid #f0f0f0;
   }
   h3 {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 20px;
     font-size: 1.5rem;
     font-weight: 600;
@@ -141,7 +143,7 @@ export default {
     border-left: 3px solid #999;
     background: #f0f0f0;
     font-style: italic;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
     p {
       margin: 0;
