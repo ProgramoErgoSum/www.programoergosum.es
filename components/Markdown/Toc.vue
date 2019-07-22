@@ -1,5 +1,5 @@
 <template>
-  <v-list class="toc" v-scroll="onScroll">
+  <v-list v-scroll="onScroll" class="toc">
     <template v-for="item in menu">
       <v-list-tile :key="item.anchor" @click="goTo(item.anchor, $event)">
         <v-list-tile-content
