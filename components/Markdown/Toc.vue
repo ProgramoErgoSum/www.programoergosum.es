@@ -4,8 +4,10 @@
       <v-list-tile :key="item.anchor" @click="goTo(item.anchor, $event)">
         <v-list-tile-content
           :id="item.anchor"
-          class="item font-weight-regular"
-          :class="{ 'primary--text': currentAnchor === item.anchor }"
+          :class="[
+            { 'primary--text': currentAnchor === item.anchor },
+            `level-${item.level}`
+          ]"
           v-text="item.content"
         />
       </v-list-tile>
@@ -85,5 +87,20 @@ export default {
   height: auto;
   padding: 5px;
   font-size: 14px;
+  font-weight: 300;
+  .level-1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 500;
+  }
+  .level-2 {
+    padding-left: 0px;
+  }
+  .level-3 {
+    padding-left: 15px;
+  }
+  .level-4 {
+    padding-left: 30px;
+  }
 }
 </style>

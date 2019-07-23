@@ -7,9 +7,14 @@
       :breadcrumbs="breadcrumbs"
     />
     <v-container>
-      <v-layout>
-        <v-flex>
+      <v-layout row wrap>
+        <v-flex sm12 md9>
           <Content :readme="readme" />
+        </v-flex>
+        <v-flex md3 class="hidden-sm-and-down">
+          <div class="toc">
+            <Toc :readme="readme" />
+          </div>
         </v-flex>
       </v-layout>
     </v-container>
@@ -18,10 +23,12 @@
 
 <script>
 import Content from '@/components/Markdown/Content'
+import Toc from '@/components/Markdown/Toc'
 
 export default {
   components: {
-    Content
+    Content,
+    Toc
   },
   validate({ store, params }) {
     return store.state.blogs.list.find(e => e.alias === params.alias)
@@ -82,4 +89,13 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.toc {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 75px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 4px solid #f0f0f0;
+}
+</style>
