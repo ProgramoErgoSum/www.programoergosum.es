@@ -102,7 +102,6 @@ export default {
 }
 @media only screen and (max-width: 960px) {
   .title {
-    padding: 30px 0 50px;
     h2 {
       font-size: 30px;
     }
@@ -113,7 +112,6 @@ export default {
 }
 @media only screen and (max-width: 600px) {
   .title {
-    padding: 30px 0 50px;
     h2 {
       font-size: 20px;
       margin-bottom: 20px;
