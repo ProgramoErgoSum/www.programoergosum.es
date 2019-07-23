@@ -14,6 +14,22 @@
         <v-flex md3 class="hidden-sm-and-down">
           <div class="toc">
             <Toc :readme="readme" />
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            />
+            <!-- [PES-es] Toc /actividades /blog -->
+            <ins
+              class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-6757981017018187"
+              data-ad-slot="9699220490"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+            <script>
+              ;(adsbygoogle = window.adsbygoogle || []).push({})
+            </script>
           </div>
         </v-flex>
       </v-layout>
