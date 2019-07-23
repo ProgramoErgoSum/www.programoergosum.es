@@ -15,22 +15,7 @@
           <div class="toc">
             <Toc :readme="readme" />
             <div class="mt-5">
-              <script
-                async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-              />
-              <!-- [PES-es] Toc /actividades /blog -->
-              <ins
-                class="adsbygoogle"
-                style="display:block"
-                data-ad-client="ca-pub-6757981017018187"
-                data-ad-slot="9699220490"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              ></ins>
-              <script>
-                ;(adsbygoogle = window.adsbygoogle || []).push({})
-              </script>
+              <Blog-Toc />
             </div>
           </div>
         </v-flex>
@@ -42,11 +27,13 @@
 <script>
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
+import BlogToc from '@/components/Adsense/BlogToc'
 
 export default {
   components: {
     Content,
-    Toc
+    Toc,
+    BlogToc
   },
   validate({ store, params }) {
     return store.state.blogs.list.find(e => e.alias === params.alias)
