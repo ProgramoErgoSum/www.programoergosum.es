@@ -8,10 +8,10 @@
     />
     <v-container>
       <v-layout row wrap>
-        <v-flex sm12 md9>
+        <v-flex sm12 order-sm2 md9 order-md1>
           <Content :readme="readme" />
         </v-flex>
-        <v-flex md3 class="hidden-sm-and-down">
+        <v-flex sm12 order-sm1 md3 order-md2>
           <div class="toc">
             <Toc :readme="readme" />
             <div class="mt-5">
@@ -115,5 +115,19 @@ export default {
   margin-left: 15px;
   padding-left: 15px;
   border-left: 4px solid #f0f0f0;
+}
+@media only screen and (max-width: 1904px) {
+}
+@media only screen and (max-width: 1264px) {
+}
+@media only screen and (max-width: 960px) {
+  .toc {
+    margin: 0 20px 30px;
+    padding-left: 0;
+    border-left: none;
+    border-bottom: 4px solid #f0f0f0;
+  }
+}
+@media only screen and (max-width: 600px) {
 }
 </style>
