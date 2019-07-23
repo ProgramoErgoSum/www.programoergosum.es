@@ -8,10 +8,10 @@
     />
     <v-container>
       <v-layout row wrap>
-        <v-flex sm12 order-sm2 md9 order-md1>
+        <v-flex xs-12 order-xs2 sm12 order-sm2 md9 order-md1>
           <Content :readme="readme" />
         </v-flex>
-        <v-flex sm12 order-sm1 md3 order-md2>
+        <v-flex xs-12 order-xs1 sm12 order-sm1 md3 order-md2>
           <div class="toc">
             <Toc :readme="readme" />
             <div class="mt-5">
