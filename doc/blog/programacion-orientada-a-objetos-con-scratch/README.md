@@ -10,7 +10,7 @@ Este entorno gráfico hace que la programación sea más atractiva y accesible p
 
 La aplicación de los lenguajes de programación por bloques permiten una presentación visual del paradigma y metodología de la programación informática permitiendo centrarse en la lógica de la programación dejando a un lado la sintaxis propia de los lenguajes de programación (puntos y comas, paréntesis, etc).
 
-## Programación Orientada a Objetos con Scratch
+## Metodología y tecnología de la programación
 
 Además de aprender a programar, aprenderemos buenas prácticas de programación, pero sobre todo el paradigma de la programación, y metodologías como programación orientada a objetos, programación concurrente, etc. Un ejemplo de los conceptos avanzados que se pueden explicar con Scratch los representamos en las siguientes imágenes.
 
