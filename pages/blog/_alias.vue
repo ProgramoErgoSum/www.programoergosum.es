@@ -112,8 +112,8 @@ export default {
   position: -webkit-sticky;
   position: sticky;
   top: 75px;
-  margin-left: 15px;
-  padding-left: 15px;
+  margin-left: 5px;
+  padding-left: 5px;
   border-left: 4px solid #f0f0f0;
 }
 @media only screen and (max-width: 1904px) {

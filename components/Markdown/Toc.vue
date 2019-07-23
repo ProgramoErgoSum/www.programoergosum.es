@@ -1,15 +1,16 @@
 <template>
-  <v-list v-scroll="onScroll">
+  <v-list v-scroll="onScroll" dense>
     <template v-for="item in menu">
       <v-list-tile :key="item.anchor" @click="goTo(item.anchor, $event)">
         <v-list-tile-content
           :id="item.anchor"
           :class="[
             { 'primary--text': currentAnchor === item.anchor },
-            `level-${item.level}`
+            `level level-${item.level}`
           ]"
-          v-text="item.content"
-        />
+        >
+          <v-list-tile-title v-text="item.content" />
+        </v-list-tile-content>
       </v-list-tile>
     </template>
   </v-list>
@@ -82,24 +83,20 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.v-list__tile {
-  height: auto;
-  padding: 5px;
+<style lang="scss" scoped>
+.level {
   font-size: 14px;
   font-weight: 300;
-  .level-1 {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #f0f0f0;
+  &.level-1 {
     font-weight: 500;
   }
-  .level-2 {
+  &.level-2 {
     padding-left: 0px;
   }
-  .level-3 {
+  &.level-3 {
     padding-left: 15px;
   }
-  .level-4 {
+  &.level-4 {
     padding-left: 30px;
   }
 }
