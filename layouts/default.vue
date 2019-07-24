@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Navigation :navigation="navigation" />
-    <Toolbar :navigation="navigation" />
+    <Toolbar />
     <v-content>
       <nuxt class="nuxt-content" />
       <ToTop />

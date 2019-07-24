@@ -14,15 +14,14 @@
     <v-spacer />
     <v-toolbar-side-icon class="hidden-md-and-up" @click="toggleDrawer" />
     <div class="hidden-sm-and-down">
-      <v-btn
-        v-for="item in navigation"
-        :key="item.link"
-        :to="item.link"
-        flat
-        nuxt
-      >
-        {{ item.title }}
-      </v-btn>
+      <template v-for="(item, index) in navigation">
+        <v-btn v-if="item.to" :key="index" :to="item.to" flat nuxt>
+          {{ item.title }}
+        </v-btn>
+        <v-btn v-else :key="index" :href="item.href" flat nuxt>
+          {{ item.title }}
+        </v-btn>
+      </template>
     </div>
     <Forkme />
   </v-toolbar>
@@ -40,15 +39,37 @@ export default {
     Logo,
     Forkme
   },
-  props: {
-    navigation: {
-      type: Array,
-      required: true
-    }
-  },
   data() {
     return {
-      isTransparent: true
+      isTransparent: true,
+      navigation: [
+        {
+          title: 'Asociación',
+          to: '/asociacion'
+        },
+        {
+          title: 'Proyectos',
+          to: '/proyectos'
+        },
+        /*
+        {
+          title: 'Tutoriales',
+          href: 'https://www.programoergosum.com/tutoriales'
+        },
+        */
+        {
+          title: 'Actividades',
+          to: '/actividades'
+        },
+        {
+          title: 'Colabora',
+          to: '/colabora'
+        },
+        {
+          title: 'Centros',
+          to: '/centros'
+        }
+      ]
     }
   },
   methods: {
