@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Navigation :navigation="navigation" />
+    <Navigation />
     <Toolbar />
     <v-content>
       <nuxt class="nuxt-content" />
@@ -22,39 +22,6 @@ export default {
     Toolbar,
     ToTop,
     Footer
-  },
-  data() {
-    return {
-      navigation: [
-        /*
-        {
-          title: 'Asociación',
-          icon: 'domain',
-          link: '/asociacion'
-        },
-        */
-        {
-          title: 'Proyectos',
-          icon: 'code',
-          link: '/proyectos'
-        },
-        {
-          title: 'Actividades',
-          icon: 'streetview',
-          link: '/actividades'
-        },
-        {
-          title: 'Colabora',
-          icon: 'group',
-          link: '/colabora'
-        },
-        {
-          title: 'Centros',
-          icon: 'school',
-          link: '/centros'
-        }
-      ]
-    }
   },
   head() {
     const canonical = `${process.env.www}${this.$route.path}`
