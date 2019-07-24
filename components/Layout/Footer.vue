@@ -142,10 +142,12 @@ export default {
         title: 'Colabora',
         link: '/colabora'
       },
+      /*
       {
         title: 'Merchandising',
         link: '/merchandising'
       },
+      */
       {
         title: 'Blog',
         link: '/blog'
