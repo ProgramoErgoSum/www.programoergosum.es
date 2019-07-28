@@ -1,6 +1,6 @@
 <template>
   <div class="popup text-xs-center">
-    <v-avatar size="110">
+    <v-avatar size="110" class="mt-2">
       <v-img :src="center.image" :lazy-src="`/lazy-user.png`">
         <v-layout
           slot="placeholder"
@@ -67,7 +67,8 @@ export default {
 
 <style lang="scss" scoped>
 .popup {
-  width: 150px;
+  width: 200px;
+  padding: 5px;
   font-size: 14px;
 }
 </style>

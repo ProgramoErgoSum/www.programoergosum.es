@@ -51,7 +51,7 @@
       <v-layout wrap row>
         <v-flex xs12>
           <template v-for="(item, index) in centers">
-            <v-card :key="index" class="v-card">
+            <v-card :key="index" class="v-card" flat>
               <Popup :center="item" />
             </v-card>
           </template>
