@@ -47,6 +47,17 @@
         </v-flex>
       </v-layout>
     </v-container>
+    <v-container fluid>
+      <v-layout wrap row>
+        <v-flex xs12>
+          <template v-for="(item, index) in centers">
+            <v-card :key="index" class="v-card">
+              <Popup :center="item" />
+            </v-card>
+          </template>
+        </v-flex>
+      </v-layout>
+    </v-container>
   </div>
 </template>
 
@@ -54,10 +65,12 @@
 import metas from '@/store/api/v1/metas.json'
 
 import Map from '@/components/Pages/Centros/Map'
+import Popup from '@/components/Pages/Centros/Popup'
 
 export default {
   components: {
-    Map
+    Map,
+    Popup
   },
   data: () => ({
     faqs: [
@@ -113,4 +126,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.v-card {
+  display: inline-block;
+}
+</style>

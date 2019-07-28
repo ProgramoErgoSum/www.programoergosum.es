@@ -68,5 +68,6 @@ export default {
 <style lang="scss" scoped>
 .popup {
   width: 150px;
+  font-size: 14px;
 }
 </style>
