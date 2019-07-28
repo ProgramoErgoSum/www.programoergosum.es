@@ -21,52 +21,25 @@
               ¿Cómo ser un centro Programo Ergo Sum?
             </v-toolbar-title>
           </v-toolbar>
+          <v-list two-line>
+            <v-list-tile v-for="(item, key) in faqs" :key="key">
+              <v-list-tile-avatar>
+                <v-icon class="fas">{{ item.icon }}</v-icon>
+              </v-list-tile-avatar>
+              <v-list-tile-content>
+                <v-list-item-title>{{ item.title }}</v-list-item-title>
+                <v-list-item-subtitle class="font-weight-light">
+                  {{ item.description }}
+                </v-list-item-subtitle>
+              </v-list-tile-content>
+            </v-list-tile>
+          </v-list>
           <v-list>
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-users"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
-                Un docente comprometido (Embajador)
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-envelope"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
-                Explícanos cómo usas las plataformas
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-graduation-cap"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
-                Enseña los logros conseguidos
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-comments"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
-                Haz difusión de la iniciativa
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-map-marker"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
-                Sitúate en el mapa
-              </v-list-tile-content>
-            </v-list-tile>
             <v-list-tile>
               <v-list-tile-avatar />
               <v-list-tile-content class="mt-3">
                 <v-btn to="/contacto" x-large color="secondary">
-                  Inscríbete
+                  Más información
                 </v-btn>
               </v-list-tile-content>
             </v-list-tile>
@@ -86,6 +59,30 @@ export default {
   components: {
     Map
   },
+  data: () => ({
+    faqs: [
+      {
+        icon: 'fas fa-users',
+        title: 'Un docente (embajador)',
+        description: 'Comprometido con las TIC en el ámbito educativo.'
+      },
+      {
+        icon: 'fas fa-comments',
+        title: 'Haz difusión de la iniciativa',
+        description: 'Explícanos cómo usas las plataformas y cómo mejorarlas.'
+      },
+      {
+        icon: 'fas fa-graduation-cap',
+        title: 'Enseña los logros conseguidos',
+        description: 'Recibirás diplomas para entregar a tus alumnos.'
+      },
+      {
+        icon: 'fas fa-map-marker',
+        title: 'Sitúate en el mapa',
+        description: 'Aparecerás en el mapa como centro colaborador.'
+      }
+    ]
+  }),
   asyncData({ store }) {
     return {
       metas: metas.centros,
