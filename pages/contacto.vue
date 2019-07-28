@@ -81,12 +81,17 @@ export default {
           {
             title: '¿Qué es Programo Ergo Sum?',
             description:
-              'Programo Ergo Sum es una iniciativa sin ánimo de lucro cuyo objetivo pretende acercar la programación y la robótica a todas las edades a través de proyectos educativos libres y abiertos.'
+              'La Asociación Programo Ergo Sum es una iniciativa sin ánimo de lucro cuyo objetivo pretende acercar la programación y la robótica a todas las edades a través de proyectos educativos libres y abiertos.'
           },
           {
             title: '¿Cómo puedo colaborar con la iniciativa?',
             description:
-              'Puedes colaborar con la iniciativa realizando una donación desinteresada a través de la plataforma de crowdfunding Patreon o a través de PayPal. Con la donación podrás aparecer en el apartado de colaboradores solamente.'
+              'Para colaborar, puedes realizar una donación desinteresada a través de la plataforma de crowdfunding Patreon o a través de PayPal, hacerte voluntario para la realización de actividades o de cualquier forma que se te ocurra que pueda ayudar a la asociación.'
+          },
+          {
+            title: '¿Qué beneficios obtengo si hago una donación?',
+            description:
+              'No se obtiene ningún tipo de beneficio con la donación (como el propio nombre indica), simplemente podrás aparecer en el apartado de colaboradores de la web según el tipo de donación y cantidad.'
           }
         ]
       },
@@ -118,6 +123,16 @@ export default {
       {
         title: 'Sobre plataformas educativas ...',
         items: [
+          {
+            title: '¿Cómo ser un centro colaborador?',
+            description:
+              'Cualquier docente (embajador) de un centro educativo podrá inscribir su centro de estudios para aparecer en el mapa de centros colaboradores de la iniciativa.'
+          },
+          {
+            title: '¿Cómo accedo a contenidos para socios?',
+            description:
+              'En estos momentos estamos actualizando las plataformas y solo los socios ya registrados pueden acceder a los contenidos.'
+          },
           {
             title: '¿Cómo puedo tener una cuenta premium?',
             description:
