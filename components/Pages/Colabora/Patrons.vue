@@ -2,7 +2,7 @@
   <v-container>
     <v-layout class="sponsors" row wrap>
       <v-flex xs12>
-        <h2 class="mb-3">Patronos / Agradecimientos</h2>
+        <h2 class="mb-3">Patronos / Colaboradores</h2>
       </v-flex>
       <v-flex
         v-for="(item, index) in patrons"
@@ -20,14 +20,18 @@
           <p>
             Puedes <strong>apoyar mensualmente</strong> nuestros proyectos
             educativos aportando lo que esté a tu alcance a través de la
-            plataforma de crowdfunding <b>Patreon</b> o a través de
-            <b>PayPal</b>. El importe recaudado será destinados al
-            <span class="stress">
-              mantenimiento informático y desarrollo de nuevos proyectos
-              educativos
-            </span>
-            y aparecerás en esta sección como colaborador.
+            plataforma de crowdfunding
+            <a
+              href="https://www.patreon.com/ProgramoErgoSum"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Patreon</a
+            >
+            o a través de <b>PayPal</b>. El importe recaudado será destinados al
+            mantenimiento informático y desarrollo de nuevos proyectos
+            educativos y aparecerás en esta sección como colaborador.
           </p>
+          <!--
           <v-btn
             href="https://www.patreon.com/ProgramoErgoSum"
             target="_blank"
@@ -37,6 +41,7 @@
           >
             Apóyanos a través de Patreon
           </v-btn>
+          -->
           <v-btn
             href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url"
             target="_blank"
