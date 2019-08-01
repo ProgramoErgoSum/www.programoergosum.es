@@ -27,10 +27,10 @@
                 <v-icon class="fas">{{ item.icon }}</v-icon>
               </v-list-tile-avatar>
               <v-list-tile-content>
-                <v-list-item-title>{{ item.title }}</v-list-item-title>
-                <v-list-item-subtitle class="font-weight-light">
+                <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+                <v-list-tile-sub-title>
                   {{ item.description }}
-                </v-list-item-subtitle>
+                </v-list-tile-sub-title>
               </v-list-tile-content>
             </v-list-tile>
           </v-list>
