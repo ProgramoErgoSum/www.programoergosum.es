@@ -10,6 +10,7 @@
       <v-layout row wrap>
         <v-flex xs-12 order-xs2 sm12 order-sm2 md9 order-md1>
           <Content :readme="readme" />
+          <Contributing :edit-link="editLink" :date="date" />
         </v-flex>
         <v-flex xs-12 order-xs1 sm12 order-sm1 md3 order-md2>
           <div class="toc">
@@ -26,12 +27,14 @@
 
 <script>
 import Content from '@/components/Markdown/Content'
+import Contributing from '@/components/Markdown/Contributing'
 import Toc from '@/components/Markdown/Toc'
 import BlogToc from '@/components/Adsense/BlogToc'
 
 export default {
   components: {
     Content,
+    Contributing,
     Toc,
     BlogToc
   },
@@ -55,6 +58,8 @@ export default {
       description: blog.description,
       image: `/images/${path}/${blog.image}`,
       readme: readme,
+      editLink: `doc/${path}/README.md`,
+      date: blog.date.mdate,
       breadcrumbs: [
         {
           text: 'Blog',
