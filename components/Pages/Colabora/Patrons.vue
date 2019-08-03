@@ -40,8 +40,9 @@
             rel="noopener noreferrer"
             x-large
             color="primary"
+            class="subheading"
           >
-            Apóyanos a través de PayPal
+            Apóyanos mensualmente
           </v-btn>
         </div>
       </v-flex>
