@@ -17,14 +17,10 @@
       <v-flex xs12>
         <div class="mt-3 mb-3">
           <p>
-            Todos nuestros proyectos educativos son
-            <b>libres y de código abierto</b>. Por eso mismo necesitamos el
-            apoyo de patrocinadores. El importe recaudado será destinados al
-            <span class="stress">
-              mantenimiento informático y desarrollo de nuevos proyectos
-              educativos
-            </span>
-            y aparecerás en esta sección como colaborador.
+            Todos los proyectos educativos que realizamos en la asociación son
+            <b>libres, gratuitos y de código abierto</b>. Necesitamos apoyo en
+            patrocinios para poder hacer frente a los gastos en mantenimiento
+            que supone.
           </p>
           <v-btn to="/contacto" x-large color="primary">
             Hazte patrocinador
@@ -50,9 +46,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.stress {
-  font-weight: bold;
-  color: #d25f34;
-}
-</style>
+<style lang="scss" scoped></style>
