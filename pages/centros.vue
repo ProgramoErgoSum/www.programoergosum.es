@@ -21,7 +21,7 @@
               ¿Cómo ser un centro Programo Ergo Sum?
             </v-toolbar-title>
           </v-toolbar>
-          <v-list two-line>
+          <v-list three-line>
             <v-list-tile v-for="(item, key) in faqs" :key="key">
               <v-list-tile-avatar>
                 <v-icon class="fas">{{ item.icon }}</v-icon>
