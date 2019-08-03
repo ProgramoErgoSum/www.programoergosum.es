@@ -18,18 +18,10 @@
       <v-flex xs12>
         <div class="mt-3 mb-3">
           <p>
-            Puedes <strong>apoyar mensualmente</strong> nuestros proyectos
-            educativos aportando lo que esté a tu alcance a través de la
-            plataforma de crowdfunding
-            <a
-              href="https://www.patreon.com/ProgramoErgoSum"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Patreon</a
-            >
-            o a través de <b>PayPal</b>. El importe recaudado será destinados al
-            mantenimiento informático y desarrollo de nuevos proyectos
-            educativos y aparecerás en esta sección como colaborador.
+            Puedes colaborar <strong>apoyando mensualmente</strong> los
+            proyectos educativos de la asociación y aparecerás en esta sección.
+            El importe recaudado será destinados al mantenimiento informático y
+            desarrollo de nuevos proyectos educativos.
           </p>
           <!--
           <v-btn
@@ -72,9 +64,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.stress {
-  font-weight: bold;
-  color: #d25f34;
-}
-</style>
+<style lang="scss" scoped></style>
