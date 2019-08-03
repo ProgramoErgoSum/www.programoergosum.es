@@ -8,20 +8,13 @@
     <v-container fluid>
       <v-layout wrap row>
         <v-flex xs12 order-xs2 md12 order-md2 lg8 order-lg1>
-          <v-toolbar primary dark>
-            <v-toolbar-title>
-              {{ centers.length }} centros educativos inscritos
-            </v-toolbar-title>
-          </v-toolbar>
           <Map :centers="centers" />
         </v-flex>
         <v-flex xs12 order-xs1 md12 order-md1 lg4 order-lg2>
-          <v-toolbar color="primary" dark>
-            <v-toolbar-title>
-              ¿Cómo ser un centro Programo Ergo Sum?
-            </v-toolbar-title>
-          </v-toolbar>
           <v-list three-line>
+            <v-subheader class="title">
+              ¿Cómo ser un centro Programo Ergo Sum?
+            </v-subheader>
             <v-list-tile v-for="(item, key) in faqs" :key="key">
               <v-list-tile-avatar>
                 <v-icon class="fas">{{ item.icon }}</v-icon>
@@ -50,6 +43,12 @@
     <v-container fluid>
       <v-layout wrap row>
         <v-flex xs12>
+          <v-toolbar primary dark>
+            <v-toolbar-title>
+              {{ centers.length }} centros educativos inscritos
+            </v-toolbar-title>
+          </v-toolbar>
+          <div class="mt-3" />
           <template v-for="(item, index) in centers">
             <v-card :key="index" class="v-card" flat>
               <Popup :center="item" />
@@ -77,7 +76,7 @@ export default {
       {
         icon: 'fas fa-users',
         title: 'Un docente (embajador)',
-        description: 'Comprometido con las TIC en el ámbito educativo.'
+        description: 'Comprometido con las TIC y la educación libre.'
       },
       {
         icon: 'fas fa-comments',
