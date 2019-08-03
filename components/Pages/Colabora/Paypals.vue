@@ -2,7 +2,7 @@
   <v-container>
     <v-layout class="paypals" row wrap>
       <v-flex xs12>
-        <h2 class="mb-5">Donaciones / Agradecimientos</h2>
+        <h2 class="mb-5">Donaciones</h2>
       </v-flex>
       <v-flex xs12>
         <v-chip v-for="(item, index) in paypals" :key="index">
@@ -16,13 +16,9 @@
         <div class="mt-5 mb-3">
           <p>
             También puedes <strong>realizar una donación</strong> con el importe
-            que creas necesario <b> a través de PayPal</b>. El importe recaudado
-            será destinados al
-            <span class="stress">
-              mantenimiento informático y desarrollo de nuevos proyectos
-              educativos
-            </span>
-            y aparecerás en esta sección como colaborador.
+            que creas necesario y aparecerás en esta sección. El importe
+            recaudado será destinados al mantenimiento informático y desarrollo
+            de nuevos proyectos educativos.
           </p>
 
           <v-btn
@@ -50,9 +46,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.stress {
-  font-weight: bold;
-  color: #d25f34;
-}
-</style>
+<style lang="scss" scoped></style>
