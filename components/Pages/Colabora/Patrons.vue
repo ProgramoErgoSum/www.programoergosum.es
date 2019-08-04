@@ -18,10 +18,11 @@
       <v-flex xs12>
         <div class="mt-3 mb-3">
           <p>
-            Puedes colaborar <strong>apoyando mensualmente</strong> los
-            proyectos educativos de la asociación y aparecerás en esta sección.
-            El importe recaudado será destinados al mantenimiento informático y
-            desarrollo de nuevos proyectos educativos.
+            Puedes convertirte en colaborador
+            <strong>apoyando mensualmente</strong> los proyectos educativos de
+            la asociación y aparecerás en esta sección. El importe recaudado
+            será destinados al mantenimiento informático y desarrollo de nuevos
+            proyectos educativos.
           </p>
           <!--
           <v-btn
