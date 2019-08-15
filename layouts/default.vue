@@ -26,9 +26,11 @@ export default {
   head() {
     const canonical = `${process.env.www}${this.$route.path}`
     return {
-      meta: [
+      link: [
         // Global
-        { rel: 'canonical', href: canonical },
+        { rel: 'canonical', href: canonical }
+      ],
+      meta: [
         // Facebook
         { property: 'og:site_name', content: 'ProgramoErgoSum' },
         { property: 'og:type', content: 'article' },
