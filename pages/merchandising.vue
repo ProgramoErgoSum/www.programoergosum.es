@@ -30,6 +30,11 @@ export default {
     return {
       title: title,
       meta: [
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'noindex, noarchive, nofollow'
+        },
         // Global
         { hid: 'description', name: 'description', content: description },
         // Facebook
