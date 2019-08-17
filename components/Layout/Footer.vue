@@ -166,12 +166,10 @@ export default {
         title: 'Aprende Programando',
         link: 'https://www.aprendeprogramando.es'
       },
-      /*
       {
         title: 'Wiki TIC',
         link: 'https://wikitic.github.io'
       },
-      */
       {
         title: 'El Cable Amarillo',
         link: 'https://www.elcableamarillo.cc'

@@ -78,13 +78,11 @@ export default {
               icon: '',
               href: 'https://www.aprendeprogramando.es'
             },
-            /*
             {
               title: 'Wiki TIC',
               icon: '',
               href: 'https://wikitic.github.io'
             },
-            */
             {
               title: 'El Cable Amarillo',
               icon: '',
