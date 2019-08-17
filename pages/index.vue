@@ -8,12 +8,15 @@
               Asociación Programo Ergo Sum
             </h1>
             <h2 class="mb-5">
-              Proyectos educativos
-              <strong>abiertos</strong>
+              Proyectos educativos libres de
+              <strong>código abierto</strong>
               para aprender
-              <span class="stress">informática, programación y robótica</span>
-              con herramientas de
-              <strong>software libre</strong>
+              <span class="stress"
+                >informática, programación, electrónica y robótica
+                educativa</span
+              >
+              utilizando herramientas de
+              <strong>software y hardware libre</strong>
             </h2>
           </section>
         </v-flex>
@@ -94,7 +97,7 @@ export default {
     font-size: 40px;
   }
   h2 {
-    max-width: 800px;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 300;
