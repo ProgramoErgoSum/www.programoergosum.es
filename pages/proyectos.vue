@@ -3,7 +3,7 @@
     <Title :title="metas.title" :description="metas.description" />
     <v-container fluid>
       <v-layout row wrap>
-        <v-flex v-for="project in projects" :key="project.link" xs12 md12 lg4>
+        <v-flex v-for="project in projects" :key="project.link" xs12 md6 lg3>
           <v-card
             :href="project.link"
             target="_blank"
@@ -54,21 +54,19 @@ export default {
           'Plataforma de aprendizaje STEM a través de la programación en distintos niveles de ESO y Bachiller.'
       },
       {
-        link: 'https://www.elcableamarillo.cc',
-        img: 'elcableamarillo.png',
-        title: 'El Cable Amarillo',
-        description:
-          'Proyecto educativo de código abierto para fomentar el uso de la robótica en los centros educativos.'
-      }
-      /*
-      {
         link: 'https://wikitic.github.io',
         img: 'wikitic.png',
         title: 'Wiki TIC',
         description:
-          'Proyecto educativo de código abierto para fomentar el uso de las TIC en los niveles de ESO y Bachiller.'
+          'Recopilatorio de prácticas educativas para fomentar el uso de las TIC en los niveles de ESO y Bachiller.'
+      },
+      {
+        link: 'https://www.elcableamarillo.cc',
+        img: 'elcableamarillo.png',
+        title: 'El Cable Amarillo',
+        description:
+          'Proyecto educativo para fomentar el uso de la programación y la robótica en primaria y secundaria.'
       }
-      */
     ]
   }),
   asyncData() {
