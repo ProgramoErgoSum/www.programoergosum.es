@@ -13,10 +13,12 @@
           <Contributing :edit-link="editLink" :date="date" />
         </v-flex>
         <v-flex xs-12 order-xs1 sm12 order-sm1 md3 order-md2>
-          <div class="toc">
-            <Toc :readme="readme" />
-            <div class="mt-5">
-              <Blog-Toc />
+          <div class="position-sticky">
+            <div class="hidden-sm-and-down">
+              <Toc :readme="readme" />
+            </div>
+            <div class="px-2 my-4">
+              <Adsense-Blog-Toc />
             </div>
           </div>
         </v-flex>
@@ -29,14 +31,14 @@
 import Content from '@/components/Markdown/Content'
 import Contributing from '@/components/Markdown/Contributing'
 import Toc from '@/components/Markdown/Toc'
-import BlogToc from '@/components/Adsense/BlogToc'
+import AdsenseBlogToc from '@/components/Adsense/BlogToc'
 
 export default {
   components: {
     Content,
     Contributing,
     Toc,
-    BlogToc
+    AdsenseBlogToc
   },
   validate({ store, params }) {
     return store.state.blogs.list.find(e => e.alias === params.alias)
@@ -100,26 +102,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.toc {
+.position-sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 75px;
-  margin-left: 5px;
-  padding-left: 5px;
-  border-left: 4px solid #f0f0f0;
-}
-@media only screen and (max-width: 1904px) {
-}
-@media only screen and (max-width: 1264px) {
-}
-@media only screen and (max-width: 960px) {
-  .toc {
-    margin: 0 20px 30px;
-    padding-left: 0;
-    border-left: none;
-    border-bottom: 4px solid #f0f0f0;
-  }
-}
-@media only screen and (max-width: 600px) {
 }
 </style>
