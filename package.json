@@ -1,9 +1,7 @@
 {
-  "name": "programoergosum.github.io",
-  "version": "1.0.0",
-  "description": "Asociación Programo Ergo Sum",
-  "author": "@migueabellan",
-  "private": true,
+  "name": "www.programoergosum.es",
+  "version": "19.06.1",
+  "description": "Web de la Asociación Programo Ergo Sum",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -55,5 +53,21 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue-jest": "^3.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgramoErgoSum/www.programoergosum.es.git"
+  },
+  "keywords": [
+    "ProgramoErgoSum",
+    "website",
+    "nuxtjs",
+    "vuetify"
+  ],
+  "author": "migueabellan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProgramoErgoSum/www.programoergosum.es/issues"
+  },
+  "homepage": "https://github.com/ProgramoErgoSum/www.programoergosum.es#readme"
 }
