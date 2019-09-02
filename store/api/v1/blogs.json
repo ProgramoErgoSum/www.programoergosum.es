@@ -1,5 +1,16 @@
 [
   {
+    "alias": "curso-de-domotica-e-internet-de-las-cosas-para-docentes",
+    "title": "Curso de Domótica e Internet de las Cosas para docentes",
+    "description": "II Edición del curso de Domótica e Internet de las cosas para profesores de secundaria a través del Centro de Profesorado y Recursos de la Región de Murcia.",
+    "image": "preview.png",
+    "tags": ["curso", "profesores"],
+    "date": {
+      "cdate": "2019-09-02 10:42:24",
+      "mdate": "2019-09-02 14:05:12"
+    }
+  },
+  {
     "alias": "participo-luego-existo-un-concurso-en-el-que-todos-ganan",
     "title": "Participo Luego Existo - Un concurso en el que todos ganan",
     "description": "II Edición del concurso «Participo Luego Existo», un concurso cuya filosofía hace hincapié en la importancia de participar y compartir para aprender.",
