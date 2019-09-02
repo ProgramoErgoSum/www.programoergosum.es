@@ -10,9 +10,7 @@ Raspberry Pi es un miniordenador de bajo coste desarrollado para estimular la en
 
 Profesorado no universitario de la Consejería de Educación, Juventud y Deportes de centros educativos sostenidos con fondos públicos de la Región de Murcia: Profesorado de Ed. Secundar y Profesorado de Formación Profesional.
 
-<div class="iframe">
-  <iframe src="https://www.google.com/url?q=https%3A%2F%2Fcpreval.murciaeduca.es%2Fformacion%2Factividades%2Fconvocatorias.html%3Fid%3D007720&sa=D&ust=1567877051831000&usg=AFQjCNFSYj6V1h3EZ7AXAn_haXnIdzyqYQ" allowfullscreen></iframe>
-</div>
+> Inscripción en la <a target="_blank" href="https://servicios.educarm.es/zonassl/autentificacion.php?a=1&redirect=http%3A%2F%2Fservicios.educarm.es%2Fadmin%2Findex2.php%3Faplicacion%3DACTIVIDADES_FORMACION%26module%3DactividadesFormacion%26action%3Dindex%26cod_unificado%3D30300001007720">actividad 0077</a> en CPR Murcia.
 
 ## Objetivos
 
