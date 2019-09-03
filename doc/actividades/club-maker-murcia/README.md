@@ -1,4 +1,4 @@
-# Club maker de robótica en Murcia
+## ¿Qué es el Club Maker Murcia?
 
 En el club maker pueden participar todos los alumnos del IES Alfonso X "El sabio" de Murcia. Los participantes aprenderán a construir robots pasando por las diferentes etapas de diseño, impresión, fabricación y programación.
 

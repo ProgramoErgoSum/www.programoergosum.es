@@ -1,8 +1,8 @@
 <template>
   <div class="reg">
     <v-container>
-      <v-layout>
-        <v-flex>
+      <v-row>
+        <v-col cols="12">
           <p class="font-weight-black">
             Asociación Programo Ergo Sum
           </p>
@@ -12,8 +12,8 @@
             Unión Europea y Acción Exterior de la Consejería de Presidencia, con
             el número de registro 12.731/1ª.
           </p>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>

@@ -7,8 +7,6 @@
 </template>
 
 <script>
-import metas from '@/store/api/v1/metas.json'
-
 import Printer from '@/components/Pages/Merchandising/Printer'
 import Stickers from '@/components/Pages/Merchandising/Stickers'
 
@@ -17,9 +15,9 @@ export default {
     Printer,
     Stickers
   },
-  asyncData() {
+  asyncData({ store }) {
     return {
-      metas: metas.merchandising
+      metas: store.state.metas.merchandising
     }
   },
   head() {

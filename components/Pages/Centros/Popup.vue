@@ -1,43 +1,37 @@
 <template>
-  <div class="popup text-xs-center">
-    <v-avatar size="110" class="mt-2">
+  <div class="popup text-center">
+    <v-avatar size="110">
       <v-img :src="center.image" :lazy-src="`/lazy-user.png`">
-        <v-layout
-          slot="placeholder"
-          fill-height
-          align-center
-          justify-center
-          ma-0
-        >
-          <v-progress-circular indeterminate color="grey lighten-5" />
-        </v-layout>
+        <template v-slot:placeholder>
+          <v-row class="fill-height ma-0" align="center" justify="center">
+            <v-progress-circular indeterminate color="grey lighten-5" />
+          </v-row>
+        </template>
       </v-img>
     </v-avatar>
     <p class="ma-0 mt-3 font-weight-bold">
       {{ center.name }}
     </p>
-    <p class="ma-0 font-weight-thin">
+    <p class="ma-0 font-weight-light">
       {{ center.address.city }}, {{ center.address.province }}
     </p>
     <v-btn
       v-if="center.social.url"
-      class="mt-0 mx-0"
       icon
       :href="center.social.url"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i class="fas fa-link" style="color:#000"></i>
+      <v-icon size="18" color="#000">mdi-link</v-icon>
     </v-btn>
     <v-btn
       v-if="center.social.twitter"
-      class="mt-0 mx-0"
       icon
       :href="center.social.twitter"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i class="fab fa-twitter" style="color:#1da1f2"></i>
+      <v-icon size="18" color="#1da1f2">mdi-twitter</v-icon>
     </v-btn>
     <!--
     <div class="mt-1 text-xs-left">

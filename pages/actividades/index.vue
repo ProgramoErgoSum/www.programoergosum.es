@@ -1,20 +1,23 @@
 <template>
-  <div id="actividades">
+  <div>
     <Title
       :title="metas.title"
       :description="metas.description"
       :image="metas.image"
     />
     <v-container fluid>
-      <v-layout row wrap>
-        <v-flex
+      <v-row>
+        <v-col
           v-for="activity in activities"
           :key="activity.alias"
-          xs12
-          md6
-          lg4
+          cols="12"
+          xs="12"
+          sm="12"
+          md="6"
+          lg="4"
+          xl="3"
         >
-          <v-card :to="`/actividades/${activity.alias}`">
+          <v-card :to="`/actividades/${activity.alias}`" nuxt>
             <v-img
               :src="`/images/actividades/${activity.alias}/${activity.image}`"
               :lazy-src="`/lazy.png`"
@@ -22,43 +25,42 @@
               height="250"
             >
               <template v-slot:placeholder>
-                <v-layout fill-height align-center justify-center ma-0>
+                <v-row class="fill-height ma-0" align="center" justify="center">
                   <v-progress-circular indeterminate color="grey lighten-5" />
-                </v-layout>
+                </v-row>
               </template>
             </v-img>
             <v-card-title primary-title>
               <h3 class="mb-4 title">{{ activity.title }}</h3>
-              <div class="subheading">{{ activity.description }}</div>
+              <div class="subtitle-1">{{ activity.description }}</div>
             </v-card-title>
-            <v-divider class="mx-3"></v-divider>
+            <v-divider class="mx-3 my-3"></v-divider>
             <v-card-text v-if="activity.extra">
               <p>
-                <v-icon>map</v-icon>
+                <v-icon>mdi-map</v-icon>
                 {{ activity.extra.address }}
               </p>
               <p>
-                <v-icon>insert_invitation</v-icon>
+                <v-icon>mdi-calendar</v-icon>
                 {{ activity.extra.calendar.day }}
               </p>
               <p>
-                <v-icon>watch_later</v-icon>
+                <v-icon>mdi-clock</v-icon>
                 {{ activity.extra.calendar.hour }}
               </p>
             </v-card-text>
           </v-card>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
-    <section class="pt-5 pb-5 block-grey">
+
+    <section class="py-12 block-grey">
       <Volunteers />
     </section>
   </div>
 </template>
 
 <script>
-import metas from '@/store/api/v1/metas.json'
-
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
 
 export default {
@@ -67,7 +69,7 @@ export default {
   },
   asyncData({ store }) {
     return {
-      metas: metas.actividades,
+      metas: store.state.metas.actividades,
       activities: store.state.activities.list
     }
   },
@@ -95,8 +97,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.block-grey {
-  background: #f0f0f0;
-}
-</style>
+<style lang="scss" scoped></style>

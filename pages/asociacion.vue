@@ -1,18 +1,18 @@
 <template>
-  <div id="asociacion">
+  <div>
     <Title
       :title="metas.title"
       :description="metas.description"
       :image="metas.image"
     />
     <v-container>
-      <v-layout>
-        <v-flex>
+      <v-row>
+        <v-col cols="12">
           <Content :readme="readme" />
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
-    <section class="pt-5 pb-5 block-grey">
+    <section class="py-12 block-grey">
       <Volunteers />
     </section>
     <Reg />
@@ -20,8 +20,6 @@
 </template>
 
 <script>
-import metas from '@/store/api/v1/metas.json'
-
 import Content from '@/components/Markdown/Content'
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
@@ -32,15 +30,15 @@ export default {
     Volunteers,
     Reg
   },
-  async asyncData() {
+  async asyncData({ store }) {
     const file = await import('@/doc/asociacion/README.md')
     const readme = {
-      path: 'images/asociacion',
+      cdn: 'images/asociacion',
       body: file.body
     }
 
     return {
-      metas: metas.asociacion,
+      metas: store.state.metas.asociacion,
       readme: readme
     }
   },
@@ -68,8 +66,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.block-grey {
-  background: #f0f0f0;
-}
-</style>
+<style lang="scss" scoped></style>

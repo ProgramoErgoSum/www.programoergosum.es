@@ -1,22 +1,24 @@
 <template>
   <v-container>
-    <v-layout class="sponsors" row wrap>
-      <v-flex xs12>
+    <v-row>
+      <v-col cols="12">
         <h2 class="mb-3">Patronos / Colaboradores</h2>
-      </v-flex>
-      <v-flex
+      </v-col>
+      <v-col
         v-for="(item, index) in patrons"
         :key="index"
-        xs12
-        sm6
-        md4
-        lg3
-        class="text-xs-center pa-2"
+        cols="12"
+        xs="12"
+        sm="6"
+        md="4"
+        lg="3"
+        xl="3"
+        class="pa-2"
       >
         <Card :card="item" />
-      </v-flex>
-      <v-flex xs12>
-        <div class="mt-3 mb-3">
+      </v-col>
+      <v-col cols="12">
+        <div class="my-6">
           <p>
             Puedes convertirte en colaborador
             <strong>apoyando mensualmente</strong> los proyectos educativos de
@@ -29,7 +31,7 @@
             href="https://www.patreon.com/ProgramoErgoSum"
             target="_blank"
             rel="noopener noreferrer"
-            x-large
+            tile
             color="primary"
           >
             Apóyanos a través de Patreon
@@ -39,19 +41,20 @@
             href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url"
             target="_blank"
             rel="noopener noreferrer"
-            x-large
+            tile
             color="primary"
-            class="subheading"
           >
             Apóyanos mensualmente
           </v-btn>
         </div>
-      </v-flex>
-    </v-layout>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 import Card from '@/components/Pages/Colabora/Card'
 
 export default {
@@ -59,9 +62,7 @@ export default {
     Card
   },
   computed: {
-    patrons() {
-      return this.$store.state.collaborators.patrons
-    }
+    ...mapGetters({ patrons: 'collaborators/patrons' })
   }
 }
 </script>

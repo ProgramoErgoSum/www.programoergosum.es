@@ -1,4 +1,4 @@
-# Curso de Domótica e Internet de las Cosas para profesores - CPR Murcia
+## Domótica e Internet de las Cosas
 
 Se ha detectado la necesidad de aplicar lenguajes de programación en modo texto como evolución a los lenguajes de programación por bloques realizados en cursos anteriores en el centro de Profesorado y Recursos de la Región de Murcia.
 

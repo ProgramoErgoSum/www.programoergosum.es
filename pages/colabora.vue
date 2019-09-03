@@ -1,17 +1,17 @@
 <template>
-  <div id="colabora">
+  <div>
     <Title
       :title="metas.title"
       :description="metas.description"
       :image="metas.image"
     />
-    <div class="pb-5">
+    <div class="py-12">
       <Sponsors />
     </div>
-    <div class="pt-5 pb-5 block-grey">
+    <div class="py-12 block-grey">
       <Patrons />
     </div>
-    <div class="pt-5 pb-5">
+    <div class="py-12">
       <Paypals />
     </div>
     <Reg />
@@ -19,8 +19,6 @@
 </template>
 
 <script>
-import metas from '@/store/api/v1/metas.json'
-
 import Sponsors from '@/components/Pages/Colabora/Sponsors'
 import Patrons from '@/components/Pages/Colabora/Patrons'
 import Paypals from '@/components/Pages/Colabora/Paypals'
@@ -33,9 +31,9 @@ export default {
     Paypals,
     Reg
   },
-  asyncData() {
+  asyncData({ store }) {
     return {
-      metas: metas.colabora
+      metas: store.state.metas.colabora
     }
   },
   head() {
@@ -62,8 +60,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.block-grey {
-  background: #f0f0f0;
-}
-</style>
+<style lang="scss" scoped></style>

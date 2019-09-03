@@ -1,13 +1,13 @@
 <template>
-  <div class="legal">
+  <div>
     <v-container>
-      <v-layout>
-        <v-flex>
+      <v-row>
+        <v-col cols="12">
           <!--
           <Content :readme="readme" />
           -->
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>

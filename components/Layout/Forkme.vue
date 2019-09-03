@@ -37,11 +37,11 @@ export default {
 
 <style lang="scss" scoped>
 .svg {
-  fill: #2d3339;
+  fill: #101a24;
   color: #fff;
   position: relative;
-  top: 0;
-  right: -25px;
+  top: 5px;
+  right: -20px;
 }
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;

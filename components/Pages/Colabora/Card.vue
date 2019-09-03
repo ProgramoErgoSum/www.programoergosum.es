@@ -2,52 +2,45 @@
   <div class="card ma-3">
     <v-avatar size="110">
       <v-img :src="card.image" :lazy-src="`/lazy-user.png`" :alt="card.title">
-        <v-layout
-          slot="placeholder"
-          fill-height
-          align-center
-          justify-center
-          ma-0
-        >
-          <v-progress-circular indeterminate color="grey lighten-5" />
-        </v-layout>
+        <template v-slot:placeholder>
+          <v-row class="fill-height ma-0" align="center" justify="center">
+            <v-progress-circular indeterminate color="grey lighten-5" />
+          </v-row>
+        </template>
       </v-img>
     </v-avatar>
-    <p class="mt-3 mb-0">
+    <p class="my-3">
       {{ card.name }}
     </p>
-    <p class="mt-2 mb-0 font-weight-thin description">
+    <p class="my-3 font-weight-light description">
       {{ card.description }}
     </p>
     <v-btn
       v-if="card.social.url"
-      class="mt-0 mx-0"
       icon
       :href="card.social.url"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i class="fas fa-link" style="color:#000"></i>
+      <v-icon size="18" color="#000">mdi-link</v-icon>
     </v-btn>
     <v-btn
       v-if="card.social.twitter"
-      class="mt-0 mx-0"
       icon
       :href="card.social.twitter"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i class="fab fa-twitter" style="color:#1da1f2"></i>
+      <v-icon size="18" color="#1da1f2">mdi-twitter</v-icon>
     </v-btn>
     <v-btn
       v-if="card.social.github"
-      class="mt-0 mx-0"
       icon
       :href="card.social.github"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i class="fab fa-github" style="color:#333"></i>
+      <v-icon size="18" color="#333">mdi-github-circle</v-icon>
     </v-btn>
   </div>
 </template>
@@ -73,6 +66,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
+  text-align: center;
   .description {
     max-width: 220px;
     margin: 0 auto;

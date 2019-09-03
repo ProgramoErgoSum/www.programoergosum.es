@@ -1,4 +1,4 @@
-# CodeWeek Murcia
+## ¿Qué es CodeWeek Murcia?
 
 La Semana de la Programación de la UE es una iniciativa popular organizada por voluntarios que fomentan la programación, el pensamiento computacional y actividades relacionadas en sus países.
 
@@ -6,7 +6,7 @@ La Semana de la Programación de la UE es una iniciativa popular organizada por 
 
 Aprender a programar nos ayuda a comprender nuestro mundo actual, altamente tecnificado y sometido a continuos cambios tecnológicos, comprender cómo funciona la tecnología que usamos y desarrollar habilidades y capacidades valiosas para la creación y la innovación
 
-## Eventos de CodeWeek en Murcia
+## Ediciones anteriores
 
 - <a target="_blank" rel="noopener noreferrer" href="https://codeweek.eu/view/141278/club-gratuito-de-programacion-y-robotica">585m2 Espacio Joven, Murcia (2018)</a>
 - <a target="_blank" rel="noopener noreferrer" href="https://codeweek.eu/view/141282/club-gratuito-de-programacion-y-robotica">585m2 Espacio Joven, Murcia (2017)</a>

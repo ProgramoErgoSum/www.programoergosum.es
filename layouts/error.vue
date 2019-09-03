@@ -1,22 +1,18 @@
 <template>
   <v-container fluid fill-height>
-    <v-layout align-center justify-center>
-      <v-flex>
-        <div class="text-xs-center">
-          <h1 class="errorcode font-weight-black">
-            {{ error.statusCode }}
-          </h1>
-          <h2 class="display">
-            <p v-if="error.statusCode == 404">
-              Página no encontrada
-            </p>
-            <p v-else>
-              {{ error.message }}
-            </p>
-          </h2>
-        </div>
-      </v-flex>
-    </v-layout>
+    <v-row align="center" justify="center">
+      <v-col class="errorcode text-center" cols="12">
+        <h3 class="font-weight-black">
+          {{ error.statusCode }}
+        </h3>
+        <p v-if="error.statusCode == 404">
+          Página no encontrada
+        </p>
+        <p v-else>
+          {{ error.message }}
+        </p>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -33,9 +29,12 @@ export default {
 
 <style lang="scss" scoped>
 .errorcode {
-  text-align: center;
-  vertical-align: middle;
-  font-size: 170px;
-  line-height: 170px;
+  h3 {
+    font-size: 170px;
+    line-height: 170px;
+  }
+  p {
+    font-size: 30px;
+  }
 }
 </style>

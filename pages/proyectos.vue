@@ -1,40 +1,49 @@
 <template>
-  <div id="proyectos">
+  <div>
     <Title :title="metas.title" :description="metas.description" />
     <v-container fluid>
-      <v-layout row wrap>
-        <v-flex v-for="project in projects" :key="project.link" xs12 md6 lg3>
+      <v-row>
+        <v-col
+          v-for="project in projects"
+          :key="project.link"
+          cols="12"
+          xs="12"
+          sm="12"
+          md="6"
+          lg="3"
+          xl="3"
+        >
           <v-card
             :href="project.link"
             target="_blank"
             rel="noopener noreferrer"
+            flat
           >
             <v-img
               :src="`images/proyectos/${project.img}`"
               :lazy-src="`/lazy.png`"
-              :title="`${project.title}`"
+              :alt="`${project.title}`"
+              class="white--text"
               height="250"
+              gradient="to bottom, rgba(16,26,36,0), rgba(16,26,36,1)"
             >
               <template v-slot:placeholder>
-                <v-layout fill-height align-center justify-center ma-0>
+                <v-row class="fill-height ma-0" align="center" justify="center">
                   <v-progress-circular indeterminate color="grey lighten-5" />
-                </v-layout>
+                </v-row>
               </template>
+              <v-card-title class="align-end fill-height">
+                {{ project.title }}
+              </v-card-title>
             </v-img>
-            <v-card-title primary-title>
-              <h3 class="mb-2">{{ project.title }}</h3>
-              <div>{{ project.description }}</div>
-            </v-card-title>
           </v-card>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
 
 <script>
-import metas from '@/store/api/v1/metas.json'
-
 export default {
   components: {},
   data: () => ({
@@ -69,9 +78,9 @@ export default {
       }
     ]
   }),
-  asyncData() {
+  asyncData({ store }) {
     return {
-      metas: metas.proyectos
+      metas: store.state.metas.proyectos
     }
   },
   head() {

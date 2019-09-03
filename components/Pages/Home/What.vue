@@ -1,28 +1,31 @@
 <template>
   <div class="what">
     <v-container>
-      <v-layout row justify-center>
-        <v-flex>
-          <v-layout row wrap>
-            <v-flex
+      <v-row>
+        <v-col cols="12">
+          <v-row>
+            <v-col
               v-for="item in doing"
               :key="item.icon"
-              class="text-xs-center pa-3"
-              xs12
-              sm12
-              md4
+              class="text-center pa-3"
+              cols="12"
+              xs="12"
+              sm="12"
+              md="4"
+              lg="4"
+              xl="4"
             >
               <v-card class="card" flat>
-                <v-icon class="mb-4" dark large>{{ item.icon }}</v-icon>
+                <v-icon class="mb-6" dark size="60">{{ item.icon }}</v-icon>
                 <p class="title">{{ item.title }}</p>
-                <p class="subheading font-weight-thin">
+                <p class="body-1 font-weight-light">
                   {{ item.description }}
                 </p>
               </v-card>
-            </v-flex>
-          </v-layout>
-        </v-flex>
-      </v-layout>
+            </v-col>
+          </v-row>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
@@ -32,19 +35,19 @@ export default {
   data: () => ({
     doing: [
       {
-        icon: 'fas fa-chalkboard-teacher',
+        icon: 'mdi-school',
         title: 'Recursos educativos',
         description:
           'Fomentando el uso de la programación, robótica y nuevas tecnologías'
       },
       {
-        icon: 'fas fa-code',
+        icon: 'mdi-open-source-initiative',
         title: 'Código abierto',
         description:
-          'Proyectos de código abierto creados con herramientas libres'
+          'Proyectos educativos de código abierto creados con herramientas libres'
       },
       {
-        icon: 'fas fa-globe',
+        icon: 'mdi-earth',
         title: 'Online',
         description:
           'Accede a todos nuestros proyectos desde tu casa y sin registrarte'
@@ -57,10 +60,10 @@ export default {
 <style lang="scss" scoped>
 .what {
   padding: 50px 0;
-  background: #2d3339;
+  background: #101a24;
   color: #fff;
   .card {
-    width: 200px;
+    width: 240px;
     margin: 0 auto;
     background: transparent;
     color: #f0f0f0;

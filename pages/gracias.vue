@@ -1,9 +1,9 @@
 <template>
-  <div id="gracias">
+  <div>
     <Title :title="title" :description="description" />
     <v-container>
-      <v-layout>
-        <v-flex>
+      <v-row>
+        <v-col cols="12">
           <p>
             Programo Ergo Sum es una
             <b>iniciativa sin ánimo de lucro</b> inscrita en el Registro de
@@ -11,34 +11,34 @@
             Unión Europea y Acción Exterior de la Consejería de Presidencia, con
             el número de registro 12.731/1ª.
           </p>
-          <v-list class="subheading">
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-map-marker"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
+          <v-list class="px-6 mb-12">
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-map</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
                 Región de Murcia
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-envelope"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-email-outline</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
                 info@programoergosum.com
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-globe"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-earth</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
                 www.programoergosum.es
-              </v-list-tile-content>
-            </v-list-tile>
+              </v-list-item-content>
+            </v-list-item>
           </v-list>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>

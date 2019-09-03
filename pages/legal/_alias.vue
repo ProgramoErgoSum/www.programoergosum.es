@@ -1,11 +1,11 @@
 <template>
-  <div class="_alias">
+  <div>
     <v-container>
-      <v-layout>
-        <v-flex>
+      <v-row>
+        <v-col cols="12">
           <Content :readme="readme" />
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
     const path = `legal/${params.alias}`
     const file = await import(`@/doc/${path}/README.md`)
     const readme = {
-      path: path,
+      cdn: path,
       body: file.body
     }
     return {

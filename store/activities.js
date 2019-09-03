@@ -4,7 +4,9 @@ const state = () => ({
   list: activities
 })
 
-const getters = {}
+const getters = {
+  findAll: state => state.list
+}
 
 const actions = {}
 

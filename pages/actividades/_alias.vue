@@ -7,18 +7,19 @@
       :breadcrumbs="breadcrumbs"
     />
     <v-container>
-      <v-layout row wrap>
-        <v-flex sm12 md9>
+      <v-row>
+        <v-col xs="12" sm="12" md="9" lg="9" xl="9">
           <Content :readme="readme" />
-        </v-flex>
-        <v-flex md3 class="hidden-sm-and-down">
-          <div class="toc">
+        </v-col>
+        <v-col class="hidden-sm-and-down" md="3" lg="3" xl="3">
+          <div class="sticky-top">
             <Toc :readme="readme" />
           </div>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
-    <section class="pt-5 pb-5 block-grey">
+
+    <section class="py-12 block-grey">
       <Volunteers />
     </section>
   </div>
@@ -46,7 +47,7 @@ export default {
     const path = `actividades/${params.alias}`
     const file = await import(`@/doc/${path}/README.md`)
     const readme = {
-      path: `images/${path}`,
+      cdn: `images/${path}`,
       body: file.body
     }
 
@@ -95,15 +96,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.toc {
+.nuxt-content > .container {
+  margin-bottom: 50px;
+}
+.sticky-top {
   position: -webkit-sticky;
   position: sticky;
-  top: 75px;
-  margin-left: 5px;
-  padding-left: 5px;
-  border-left: 4px solid #f0f0f0;
-}
-.block-grey {
-  background: #f0f0f0;
+  top: 140px;
 }
 </style>

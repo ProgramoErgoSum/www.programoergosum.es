@@ -1,77 +1,73 @@
 <template>
-  <div id="contacto">
+  <div>
     <Title :title="metas.title" :description="metas.description" />
     <v-container>
-      <v-layout row wrap>
+      <v-row>
         <template v-for="faq in faqs">
-          <v-flex :key="faq.title" xs12>
-            <h2 class="mb-3">
+          <v-col :key="faq.title" cols="12">
+            <h2 class="mb-6">
               {{ faq.title }}
             </h2>
-            <v-expansion-panel popout class="mb-5">
-              <v-expansion-panel-content
-                v-for="item in faq.items"
-                :key="item.title"
-              >
-                <template v-slot:header>
-                  <div class="subheading">
-                    {{ item.title }}
-                  </div>
-                </template>
-                <v-card>
-                  <v-card-text class="grey lighten-3 subheading">
-                    {{ item.description }}
-                  </v-card-text>
-                </v-card>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-          </v-flex>
+            <v-expansion-panels focusable multiple class="px-6 mb-12">
+              <v-expansion-panel v-for="item in faq.items" :key="item.title">
+                <v-expansion-panel-header class="subtitle-1">
+                  {{ item.title }}
+                </v-expansion-panel-header>
+                <v-expansion-panel-content
+                  class="pt-5 font-weight-regular subtitle-1"
+                >
+                  {{ item.description }}
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+            </v-expansion-panels>
+          </v-col>
         </template>
-        <v-flex>
-          <h2 class="mb-3">
+        <v-col cols="12">
+          <h2 class="mb-6">
             También puedes contactar con nosotros a través de email
           </h2>
-          <v-list class="subheading">
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-map-marker"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
+          <v-list class="px-6 mb-12">
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-map</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
                 Región de Murcia
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-envelope"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-email-outline</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
                 info@programoergosum.com
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-avatar>
-                <v-icon class="fas fa-globe"></v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-earth</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
                 www.programoergosum.es
-              </v-list-tile-content>
-            </v-list-tile>
+              </v-list-item-content>
+            </v-list-item>
           </v-list>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
+
+    <!--
     <Reg />
+    -->
   </div>
 </template>
 
 <script>
-import metas from '@/store/api/v1/metas.json'
-
-import Reg from '@/components/Pages/Home/Reg'
+// import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Reg
+    // Reg
   },
   data: () => ({
     faqs: [
@@ -92,6 +88,26 @@ export default {
             title: '¿Qué beneficios obtengo si hago una donación?',
             description:
               'No se obtiene ningún tipo de beneficio con la donación (como el propio nombre indica), simplemente podrás aparecer en el apartado de colaboradores de la web según el tipo de donación y cantidad.'
+          },
+          {
+            title: '¿Cómo ser un centro colaborador?',
+            description:
+              'Cualquier docente (embajador) de un centro educativo podrá inscribir su centro de estudios para aparecer en el mapa de centros colaboradores de la iniciativa.'
+          }
+        ]
+      },
+      {
+        title: 'Sobre cursos online ...',
+        items: [
+          {
+            title: '¿Cómo accedo a contenidos para socios?',
+            description:
+              'En estos momentos estamos actualizando las plataformas y solo los socios ya registrados pueden acceder a los contenidos.'
+          },
+          {
+            title: '¿Cómo puedo tener una cuenta premium?',
+            description:
+              'En estos momentos no es posible crear una cuenta premium.'
           }
         ]
       },
@@ -119,32 +135,12 @@ export default {
               'Las actividades se organizan a través de la asociación con ayuda de los voluntarios mentores. Si para una actividad no se consiguen voluntarios, se cancelará por falta de mentores voluntarios.'
           }
         ]
-      },
-      {
-        title: 'Sobre plataformas educativas ...',
-        items: [
-          {
-            title: '¿Cómo ser un centro colaborador?',
-            description:
-              'Cualquier docente (embajador) de un centro educativo podrá inscribir su centro de estudios para aparecer en el mapa de centros colaboradores de la iniciativa.'
-          },
-          {
-            title: '¿Cómo accedo a contenidos para socios?',
-            description:
-              'En estos momentos estamos actualizando las plataformas y solo los socios ya registrados pueden acceder a los contenidos.'
-          },
-          {
-            title: '¿Cómo puedo tener una cuenta premium?',
-            description:
-              'En estos momentos no es posible crear una cuenta premium.'
-          }
-        ]
       }
     ]
   }),
-  asyncData() {
+  asyncData({ store }) {
     return {
-      metas: metas.contacto
+      metas: store.state.metas.contacto
     }
   },
   head() {

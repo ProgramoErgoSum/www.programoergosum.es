@@ -6,37 +6,44 @@
       :image="image"
       :breadcrumbs="breadcrumbs"
     />
-    <v-container>
-      <v-layout row wrap>
-        <v-flex xs-12 order-xs2 sm12 order-sm2 md9 order-md1>
-          <Content :readme="readme" />
-          <Contributing :edit-link="editLink" :date="date" />
-        </v-flex>
-        <v-flex xs-12 order-xs1 sm12 order-sm1 md3 order-md2>
-          <div class="position-sticky">
-            <div class="hidden-sm-and-down">
-              <Toc :readme="readme" />
-            </div>
-            <div class="px-2 my-4">
-              <Adsense-Blog-Toc />
-            </div>
+    <v-container fluid>
+      <v-row>
+        <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
+          <div class="sticky-top">
+            <Adsense-Blog-Toc />
           </div>
-        </v-flex>
-      </v-layout>
+        </v-col>
+        <v-col xs="12" sm="12" md="9" lg="7" xl="8">
+          <!--
+          <Tags :tags="tags" class="my-7" />
+          <Authors :authors="authors" />
+          -->
+          <Content :readme="readme" />
+          <!--
+          <div class="separation" />
+          <Contributing :edit-link="editLink" :date="date" />
+          -->
+        </v-col>
+        <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
+          <div class="sticky-top">
+            <Toc :readme="readme" />
+          </div>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
 
 <script>
 import Content from '@/components/Markdown/Content'
-import Contributing from '@/components/Markdown/Contributing'
+// import Contributing from '@/components/Markdown/Contributing'
 import Toc from '@/components/Markdown/Toc'
 import AdsenseBlogToc from '@/components/Adsense/BlogToc'
 
 export default {
   components: {
     Content,
-    Contributing,
+    // Contributing,
     Toc,
     AdsenseBlogToc
   },
@@ -51,7 +58,7 @@ export default {
     const path = `blog/${params.alias}`
     const file = await import(`@/doc/${path}/README.md`)
     const readme = {
-      path: `images/${path}`,
+      cdn: `images/${path}`,
       body: file.body
     }
 
@@ -102,9 +109,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.position-sticky {
+.nuxt-content > .container {
+  margin-bottom: 50px;
+}
+.sticky-top {
   position: -webkit-sticky;
   position: sticky;
-  top: 75px;
+  top: 140px;
 }
+/*
+.separation {
+  margin: 100px 0 50px;
+  border-top: 1px solid #f0f0f0;
+}
+*/
 </style>

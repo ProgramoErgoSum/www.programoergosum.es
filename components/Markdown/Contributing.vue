@@ -54,9 +54,6 @@ export default {
 
 <style lang="scss" scoped>
 .contributing {
-  margin: 50px 0;
-  padding: 50px 0 0;
-  border-top: 1px solid #f0f0f0;
   font-size: 14px;
   p {
     margin: 0 0 5px;

@@ -1,56 +1,38 @@
 <template>
+  <!--
+  <v-footer color="secondary" dark inset padless absolute app>
+  -->
   <div class="footer">
-    <v-container>
-      <v-layout row wrap>
-        <v-flex xs12>
-          <div class="follow">
+    <v-container align="center" justify="center">
+      <v-row wrap>
+        <v-col class="my-5" xs="12" cols="12" sm="12" md="6" lg="6">
+          <div class="socials">
             <h4>Síguenos</h4>
             <v-btn
-              v-for="icon in icons"
-              :key="icon.icon"
-              :href="icon.link"
+              v-for="social in socials"
+              :key="social.icon"
+              :href="social.href"
               class="ma-0 mr-2"
               rel="noopener noreferrer"
               target="_blank"
               icon
             >
               <v-icon>
-                {{ icon.icon }}
+                {{ social.icon }}
               </v-icon>
             </v-btn>
           </div>
-        </v-flex>
-        <v-flex xs12 sm6 md4 lg3>
-          <div class="block">
-            <h4>Sobre nosotros</h4>
-            <ul>
-              <li v-for="item in association" :key="item.link" :to="item.link">
-                <nuxt-link :to="item.link" :title="item.title">
-                  {{ item.title }}
-                </nuxt-link>
-              </li>
-            </ul>
-          </div>
-        </v-flex>
-        <v-flex xs12 sm6 md4 lg3>
-          <div class="block">
-            <h4>Proyectos educativos</h4>
-            <ul>
-              <li v-for="item in projects" :key="item.link" :to="item.link">
-                <a
-                  target="_blank"
-                  :href="item.link"
-                  :title="item.title"
-                  rel="noopener noreferrer"
-                >
-                  {{ item.title }}
-                </a>
-              </li>
-            </ul>
-          </div>
-        </v-flex>
-        <v-flex xs12 sm12 md4 lg3 offset-lg3>
-          <div class="block ccbysa">
+        </v-col>
+        <v-col
+          class="my-5"
+          cols="12"
+          xs="12"
+          sm="12"
+          md="6"
+          offset-lg="3"
+          lg="3"
+        >
+          <div class="ccbysa">
             <img
               alt="Licencia de Creative Commons"
               src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg"
@@ -66,65 +48,45 @@
               Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional.
             </a>
           </div>
-        </v-flex>
-        <v-flex xs12>
+        </v-col>
+        <v-col class="mt-5" cols="12">
           <div class="copyleft">
-            <ul>
-              <li>
-                2015-{{ new Date().getFullYear() }} Asociación Programo Ergo Sum
-              </li>
-              |
-              <li v-for="item in legal" :key="item.link" :to="item.link">
+            <p class="madewith">
+              This project is Open Source on
+              <a
+                href="https://github.com/ProgramoErgoSum/www.programoergosum.es"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              and made with <span class="heart">&hearts;</span> by
+              <a
+                href="https://www.migueabellan.es"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                @migueabellan
+              </a>
+            </p>
+            <p>
+              2015-{{ new Date().getFullYear() }} Asociación Programo Ergo Sum
+              <!--
+              <template v-for="item in legal">
+                <span :key="item.link" class="px-2">|</span>
                 <nuxt-link
+                  :key="item.link"
                   :to="item.link"
-                  :title="item.title"
                   rel="noopener noreferrer nofollow"
                 >
                   {{ item.title }}
                 </nuxt-link>
-              </li>
-            </ul>
-            <ul class="mt-3 hidden-sm-and-down">
-              <li>
-                Made with <span class="heart">&hearts;</span> by
-                <a
-                  href="https://github.com/migueabellan"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  @migueabellan
-                </a>
-              </li>
-              |
-              <li>
-                Released with
-                <a
-                  href="https://nuxtjs.org/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    height="9px"
-                    src="https://nuxtjs.org/logos/nuxtjs-typo.svg"
-                  />
-                </a>
-                ,
-                <a
-                  href="https://vuetifyjs.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Vuetify
-                  <img
-                    height="10px"
-                    src="https://cdn.vuetifyjs.com/images/logos/v-alt.svg"
-                  />
-                </a>
-              </li>
-            </ul>
+              </template>
+              -->
+            </p>
           </div>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
@@ -133,46 +95,40 @@
 export default {
   name: 'Footer',
   data: () => ({
-    association: [
+    socials: [
       {
-        title: 'Asociación',
-        link: '/asociacion'
+        icon: 'mdi-twitter',
+        href: 'https://twitter.com/ProgramoErgoSum'
       },
       {
-        title: 'Colabora',
-        link: '/colabora'
+        icon: 'mdi-youtube',
+        href: 'https://www.youtube.com/c/ProgramoErgoSum?sub_confirmation=1'
+      },
+      {
+        icon: 'mdi-instagram',
+        href: 'https://www.instagram.com/programoergosum'
+      },
+      {
+        icon: 'mdi-facebook',
+        href: 'https://www.facebook.com/ProgramoErgoSum'
+      },
+      {
+        icon: 'mdi-linkedin',
+        href: 'https://www.linkedin.com/company/programo-ergo-sum'
       },
       /*
       {
-        title: 'Merchandising',
-        link: '/merchandising'
+        icon: 'mdi-slideshare',
+        href: 'https://www.slideshare.net/ProgramoErgoSum'
       },
       */
       {
-        title: 'Blog',
-        link: '/blog'
+        icon: 'mdi-github-circle',
+        href: 'https://github.com/ProgramoErgoSum'
       },
       {
-        title: 'Contacto',
-        link: '/contacto'
-      }
-    ],
-    projects: [
-      {
-        title: 'Programo Ergo Sum',
-        link: 'https://www.programoergosum.com'
-      },
-      {
-        title: 'Aprende Programando',
-        link: 'https://www.aprendeprogramando.es'
-      },
-      {
-        title: 'Wiki TIC',
-        link: 'https://wikitic.github.io'
-      },
-      {
-        title: 'El Cable Amarillo',
-        link: 'https://www.elcableamarillo.cc'
+        icon: 'mdi-slack',
+        href: 'https://programoergosum.slack.com/'
       }
     ],
     legal: [
@@ -183,40 +139,6 @@ export default {
       {
         title: 'Ley de cookies',
         link: '/legal/cookies'
-      }
-    ],
-    icons: [
-      {
-        icon: 'fab fa-twitter',
-        link: 'https://twitter.com/ProgramoErgoSum'
-      },
-      {
-        icon: 'fab fa-youtube',
-        link: 'https://www.youtube.com/c/ProgramoErgoSum?sub_confirmation=1'
-      },
-      {
-        icon: 'fab fa-instagram',
-        link: 'https://www.instagram.com/programoergosum'
-      },
-      {
-        icon: 'fab fa-facebook',
-        link: 'https://www.facebook.com/ProgramoErgoSum'
-      },
-      {
-        icon: 'fab fa-linkedin',
-        link: 'https://www.linkedin.com/company/programo-ergo-sum'
-      },
-      {
-        icon: 'fab fa-slideshare',
-        link: 'https://www.slideshare.net/ProgramoErgoSum'
-      },
-      {
-        icon: 'fab fa-github',
-        link: 'https://github.com/ProgramoErgoSum'
-      },
-      {
-        icon: 'fab fa-slack',
-        link: 'https://programoergosum.slack.com/'
       }
     ]
   })
@@ -231,74 +153,60 @@ export default {
   a {
     color: #aeb1b5;
     font-weight: 300;
+    text-decoration: none;
     &:hover {
       text-decoration: underline;
     }
   }
   h4 {
     margin: 0 0 15px;
+    font-size: 20px;
     font-weight: 400;
     color: #f0f0f0;
   }
-  .follow {
-    margin: 50px 0;
+  .socials {
     a {
       &:hover {
         text-decoration: none;
       }
     }
-  }
-  .block {
-    max-width: 300px;
-    margin: 0 auto 50px;
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      li {
-        margin-bottom: 10px;
-        font-weight: 100;
-        font-size: 16px;
-      }
+    .v-icon {
+      color: #656e77;
     }
   }
   .ccbysa {
     text-align: right;
-    font-size: 13px;
+    font-size: 12px;
     img {
-      width: 130px;
+      width: 150px;
       margin-bottom: 10px;
     }
   }
-  .v-icon {
-    color: #656e77;
-  }
   .copyleft {
-    margin: 30px 0 0;
     text-align: center;
+    font-weight: 300;
     font-size: 12px;
-    .heart {
-      font-size: 20px;
-      color: red;
+    a {
+      color: #f0f0f0;
+      text-decoration: none;
     }
-    ul {
+    p {
       margin: 0;
       padding: 0;
-      li {
-        display: inline-block;
-        margin: 0 5px;
-        padding: 0 5px;
+    }
+    .madewith {
+      margin: 0 0 5px;
+      font-size: 14px;
+      .heart {
+        font-size: 18px;
+        color: #f00;
       }
     }
   }
 }
-@media only screen and (max-width: 1904px) {
-}
-@media only screen and (max-width: 1264px) {
-}
 @media only screen and (max-width: 960px) {
   .footer {
-    .follow {
+    .socials {
       span {
         display: block;
         margin-bottom: 20px;
@@ -307,13 +215,11 @@ export default {
         margin: 5px;
       }
     }
-    .follow,
+    .socials,
     .block,
     .ccbysa {
       text-align: center;
     }
   }
-}
-@media only screen and (max-width: 600px) {
 }
 </style>

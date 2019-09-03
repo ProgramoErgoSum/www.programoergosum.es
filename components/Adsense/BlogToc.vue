@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="isProduction" class="text-xs-center">
+    <div v-if="isProduction">
       <ins
         class="adsbygoogle"
         style="display:block"
@@ -14,7 +14,7 @@
       </script>
     </div>
     <div v-else>
-      <v-alert :value="true" color="warning" icon="priority_high">
+      <v-alert type="warning">
         ADSENSE
       </v-alert>
     </div>

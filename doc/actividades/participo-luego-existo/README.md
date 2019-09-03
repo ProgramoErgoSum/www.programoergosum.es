@@ -1,4 +1,4 @@
-# Concurso Participo Luego Existo
+## ¿Qué es Participo Luego Existo?
 
 Participo Luego Existo es un concurso que pretende cambiar la filosofía de concursos competitivos cuyos ganadores obtienen un premio. Nuestro objetivo es hacer ver a los participantes que no es necesario competir y obtener un premio para pasarlo bien.
 

@@ -6,43 +6,68 @@
       :image="metas.image"
     />
     <v-container fluid>
-      <v-layout wrap row>
-        <v-flex xs12 order-xs2 md12 order-md2 lg8 order-lg1>
+      <v-row>
+        <v-col
+          xs="12"
+          order-xs="2"
+          sm="12"
+          order-sm="2"
+          md="12"
+          order-md="2"
+          lg="8"
+          order-lg="1"
+          xl="9"
+          order-xl="1"
+        >
           <Map :centers="centers" />
-        </v-flex>
-        <v-flex xs12 order-xs1 md12 order-md1 lg4 order-lg2>
-          <v-list three-line>
-            <v-subheader class="title">
+        </v-col>
+        <v-col
+          xs="12"
+          order-xs="1"
+          sm="12"
+          order-sm="1"
+          md="12"
+          order-md="1"
+          lg="4"
+          order-lg="2"
+          xl="3"
+          order-xl="2"
+        >
+          <v-toolbar flat>
+            <v-toolbar-title>
               ¿Cómo ser un centro Programo Ergo Sum?
-            </v-subheader>
-            <v-list-tile v-for="(item, key) in faqs" :key="key">
-              <v-list-tile-avatar>
-                <v-icon class="fas">{{ item.icon }}</v-icon>
-              </v-list-tile-avatar>
-              <v-list-tile-content>
-                <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-                <v-list-tile-sub-title>
+            </v-toolbar-title>
+          </v-toolbar>
+          <v-list three-line>
+            <v-list-item v-for="(item, key) in faqs" :key="key">
+              <v-list-item-avatar>
+                <v-icon>{{ item.icon }}</v-icon>
+              </v-list-item-avatar>
+              <v-list-item-content>
+                <v-list-item-title>{{ item.title }}</v-list-item-title>
+                <v-list-item-subtitle>
                   {{ item.description }}
-                </v-list-tile-sub-title>
-              </v-list-tile-content>
-            </v-list-tile>
+                </v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
           </v-list>
           <v-list>
-            <v-list-tile>
-              <v-list-tile-avatar />
-              <v-list-tile-content class="mt-3">
-                <v-btn to="/contacto" x-large color="secondary">
+            <v-list-item>
+              <v-list-item-avatar />
+              <v-list-item-content class="mt-3">
+                <v-btn to="/contacto" nuxt color="secondary">
                   Más información
                 </v-btn>
-              </v-list-tile-content>
-            </v-list-tile>
+              </v-list-item-content>
+            </v-list-item>
           </v-list>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
+
     <v-container fluid>
-      <v-layout wrap row>
-        <v-flex xs12>
+      <v-row>
+        <v-col cols="12">
           <v-toolbar primary dark>
             <v-toolbar-title>
               {{ centers.length }} centros educativos inscritos
@@ -50,19 +75,17 @@
           </v-toolbar>
           <div class="mt-3" />
           <template v-for="(item, index) in centers">
-            <v-card :key="index" class="v-card" flat>
+            <v-card :key="index" class="ma-3 v-card" flat>
               <Popup :center="item" />
             </v-card>
           </template>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
 
 <script>
-import metas from '@/store/api/v1/metas.json'
-
 import Map from '@/components/Pages/Centros/Map'
 import Popup from '@/components/Pages/Centros/Popup'
 
@@ -74,22 +97,22 @@ export default {
   data: () => ({
     faqs: [
       {
-        icon: 'fas fa-users',
+        icon: 'mdi-account-multiple',
         title: 'Un docente (embajador)',
         description: 'Comprometido con las TIC y la educación libre.'
       },
       {
-        icon: 'fas fa-comments',
+        icon: 'mdi-chat-outline',
         title: 'Haz difusión de la iniciativa',
         description: 'Explícanos cómo usas las plataformas y cómo mejorarlas.'
       },
       {
-        icon: 'fas fa-graduation-cap',
+        icon: 'mdi-school',
         title: 'Enseña los logros conseguidos',
         description: 'Recibirás diplomas para entregar a tus alumnos.'
       },
       {
-        icon: 'fas fa-map-marker',
+        icon: 'mdi-map-marker',
         title: 'Sitúate en el mapa',
         description: 'Aparecerás en el mapa como centro colaborador.'
       }
@@ -97,7 +120,7 @@ export default {
   }),
   asyncData({ store }) {
     return {
-      metas: metas.centros,
+      metas: store.state.metas.centros,
       centers: store.state.centers.list
     }
   },

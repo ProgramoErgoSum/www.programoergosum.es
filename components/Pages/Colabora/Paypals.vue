@@ -1,19 +1,19 @@
 <template>
   <v-container>
-    <v-layout class="paypals" row wrap>
-      <v-flex xs12>
-        <h2 class="mb-5">Donaciones</h2>
-      </v-flex>
-      <v-flex xs12>
-        <v-chip v-for="(item, index) in paypals" :key="index">
+    <v-row>
+      <v-col cols="12">
+        <h2 class="mb-3">Donaciones</h2>
+      </v-col>
+      <v-col cols="12">
+        <v-chip v-for="(item, index) in paypals" :key="index" class="ml-1">
           <v-avatar>
-            <v-icon>account_circle</v-icon>
+            <v-icon>mdi-account-circle</v-icon>
           </v-avatar>
           {{ item.name }}
         </v-chip>
-      </v-flex>
-      <v-flex xs12>
-        <div class="mt-5 mb-3">
+      </v-col>
+      <v-col cols="12">
+        <div class="my-6">
           <p>
             También puedes <strong>realizar una donación</strong> con el importe
             que creas necesario y aparecerás en esta sección. El importe
@@ -25,23 +25,23 @@
             href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url"
             target="_blank"
             rel="noopener noreferrer"
-            x-large
+            tile
             color="secondary"
           >
             Realiza una donación
           </v-btn>
         </div>
-      </v-flex>
-    </v-layout>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
   computed: {
-    paypals() {
-      return this.$store.state.collaborators.paypals
-    }
+    ...mapGetters({ paypals: 'collaborators/paypals' })
   }
 }
 </script>

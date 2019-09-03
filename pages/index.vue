@@ -1,9 +1,9 @@
 <template>
   <div>
     <v-container class="home">
-      <v-layout row wrap>
-        <v-flex xs12>
-          <section class="text-xs-center">
+      <v-row>
+        <v-col cols="12">
+          <section class="text-center">
             <h1 class="mb-3">
               Asociación Programo Ergo Sum
             </h1>
@@ -19,20 +19,26 @@
               <strong>software y hardware libre</strong>
             </h2>
           </section>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
     </v-container>
 
-    <What />
-    <section class="pt-5 pb-5">
+    <section>
+      <What />
+    </section>
+
+    <!--
+    <section class="py-12">
       <Sponsors />
     </section>
-    <section class="pt-5 pb-5 block-grey">
+    -->
+    <section class="py-12 block-grey">
       <Patrons />
     </section>
-    <section class="pt-5 pb-5">
-      <Paypals />
+    <section class="py-12">
+      <Volunteers />
     </section>
+
     <section>
       <Reg />
     </section>
@@ -40,25 +46,23 @@
 </template>
 
 <script>
-import metas from '@/store/api/v1/metas.json'
-
 import What from '@/components/Pages/Home/What'
-import Sponsors from '@/components/Pages/Colabora/Sponsors'
+// import Sponsors from '@/components/Pages/Colabora/Sponsors'
 import Patrons from '@/components/Pages/Colabora/Patrons'
-import Paypals from '@/components/Pages/Colabora/Paypals'
+import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
     What,
-    Sponsors,
+    // Sponsors,
     Patrons,
-    Paypals,
+    Volunteers,
     Reg
   },
-  asyncData() {
+  asyncData({ store }) {
     return {
-      metas: metas.index
+      metas: store.state.metas.index
     }
   },
   head() {
@@ -90,7 +94,7 @@ export default {
   max-width: 100%;
   min-height: 100vh;
   max-height: 100vh;
-  margin-top: -70px;
+  margin-top: -110px;
   padding: 35vh 20px;
   h1 {
     font-weight: 600;
@@ -112,9 +116,6 @@ export default {
       color: #fff;
     }
   }
-}
-.block-grey {
-  background: #f0f0f0;
 }
 @media only screen and (max-width: 1904px) {
 }

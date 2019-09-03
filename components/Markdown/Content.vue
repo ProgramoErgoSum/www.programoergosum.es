@@ -1,21 +1,20 @@
 <template>
-  <vue-markdown class="markdown" :source="renderer" />
+  <!-- eslint-disable-next-line vue/no-v-html -->
+  <div class="markdown" v-html="renderer" />
 </template>
 
 <script>
 import markdownIt from 'markdown-it'
 import toc from 'markdown-it-toc-and-anchor'
-
-import VueMarkdown from 'vue-markdown'
+import hljs from 'highlight.js'
+import 'highlight.js/styles/xcode.css'
 
 export default {
   name: 'Content',
-  components: {
-    VueMarkdown
-  },
+  components: {},
   props: {
     /**
-     * readme.path
+     * readme.cdn
      * readme.body
      * readme.image
      */
@@ -25,52 +24,57 @@ export default {
     }
   },
   computed: {
+    // Doc: https://github.com/markdown-it/markdown-it
     renderer: function() {
-      const path = this.readme.path
-      const md = markdownIt({
+      const cdn = this.readme.cdn
+      const md = markdownIt('commonmark', {
         html: true,
         xhtmlOut: true,
         breaks: true,
+        langPrefix: 'language-',
         linkify: true,
-        typographer: true
+        typographer: true,
+        highlight: function(str, lang) {
+          if (lang && hljs.getLanguage(lang)) {
+            try {
+              return hljs.highlight(lang, str).value
+            } catch (__) {}
+          }
+          return ''
+        }
       })
       md.use(toc, {
         anchorLink: false
-        /*
-        tocCallback: (tocMarkdown, tocArray, tocHtml) => {
-          if (tocHtml) {
-            this.menu = tocArray
-          }
-        }
-        */
+        // slugify: string => `/${this.$route.path}/#${string}`
       })
-      // Renderer images relative path
+
+      // console.log(md.renderer)
+      // Renderer images relative url cdn
       md.renderer.rules.image = function(tokens, idx, options, env, slf) {
         const token = tokens[idx]
         token.attrs = token.attrs.map(attr => {
           if (attr[0] === 'src') {
             if (attr[1].substring(0, 4) !== 'http') {
-              attr[1] = `${path}/${attr[1]}`
+              attr[1] = `${cdn}/${attr[1]}`
             }
           }
           return attr
         })
         return '<img' + slf.renderAttrs(token) + '>'
       }
-      // Renderer a internals links
+
+      // Renderer iframe
       /*
-      md.renderer.rules.link_open = function(tokens, idx, options, env, slf) {
+      md.renderer.rules.html_block = function(tokens, idx, options, env, slf) {
         const token = tokens[idx]
-        token.attrs = token.attrs.map(attr => {
-          if (attr[0] === 'href') attr[0] = 'to'
-          return attr
-        })
-        return '<nuxt-link' + slf.renderAttrs(token) + '>'
-      }
-      md.renderer.rules.link_close = function() {
-        return '</nuxt-link>'
+        if (token.content.includes('class="iframe"')) {
+          // console.log(token)
+          return token.content + '<Component />'
+        }
+        return 'FIX'
       }
       */
+
       return md.render(this.readme.body)
     }
   }
@@ -82,13 +86,14 @@ export default {
   font-size: 20px;
   h1 {
     margin-bottom: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 1.7em;
+    font-size: 1.2em;
     font-weight: 600;
     border-bottom: 1px solid #f0f0f0;
   }
   h2 {
-    margin-top: 60px;
+    margin-top: 10px;
     margin-bottom: 20px;
     padding-bottom: 10px;
     font-size: 1.7rem;
@@ -106,6 +111,9 @@ export default {
     margin-bottom: 20px;
     font-size: 1.2rem;
     font-weight: 500;
+  }
+  br {
+    margin: 20px 0;
   }
   a {
     text-decoration: underline;
@@ -143,8 +151,7 @@ export default {
     border-left: 3px solid #999;
     background: #f0f0f0;
     font-style: italic;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
     p {
       margin: 0;
       code {
@@ -156,28 +163,23 @@ export default {
   code {
     padding: 1px 3px;
     background: #f0f0f0;
+    color: #1e2125;
+    font-weight: normal;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 200;
-    color: #2d2d2d;
-    background: #f0f0f0;
     border-radius: 3px;
   }
   pre {
     display: block;
     margin: 0 0 30px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.6rem;
-    font-weight: normal;
-    line-height: 1.6rem;
+    font-size: 18px;
     white-space: pre-wrap;
     word-wrap: pre-wrap;
     code {
       display: block;
       position: relative;
-      padding: 1.6rem;
-      line-height: 2rem;
-      background: #e0e0e0;
+      padding: 20px;
+      // background: #e0e0e0;
       border-radius: 2px 2px 0 0;
       // language-sh
       &.language-sh {
@@ -251,7 +253,7 @@ export default {
   img {
     display: block;
     max-width: 100%;
-    margin: 20px auto 30px;
+    margin: 20px auto 50px;
   }
   hr {
     display: block;
@@ -262,6 +264,7 @@ export default {
     overflow: hidden;
     padding-top: 56.25%;
     position: relative;
+    margin: 20px auto 50px;
   }
   .iframe iframe {
     position: absolute;

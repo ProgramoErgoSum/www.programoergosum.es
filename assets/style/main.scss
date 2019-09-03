@@ -1,10 +1,10 @@
 #app {
   background: #fff;
-  color: #2d3339;
-  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #2d3339; //101a24
   font-size: 18px;
   word-spacing: 1px;
 }
+
 #app .home {
   background: #fff url(../images/bkg.png) center center no-repeat;
   background-size: cover;
@@ -21,24 +21,32 @@ a {
   text-decoration: none;
 }
 
+/*
+.nuxt-content > .container {
+  margin-bottom: 50px;
+}
+*/
 
-.flex > {
-  .v-card {
-    margin: 0 10px 20px;
+/*
+.v-toolbar__content {
+  .v-btn--active {
   }
 }
-@media only screen and (max-width: 1904px) {
-}
-@media only screen and (max-width: 1264px) {
-}
-@media only screen and (max-width: 960px) {
-  .flex > {
-    .v-card {
-      margin: 0 0 20px;
-    }
+*/
+.v-toolbar__extension {
+  // height: 48px !important;
+  padding: 0 !important;
+  background: #d25f34;
+  .v-btn {
+    color: #fff !important;
+    // border-bottom: 3px solid transparent;
   }
-}
-@media only screen and (max-width: 600px) {
+  /*
+  .v-btn:hover,
+  .v-btn--active {
+    border-bottom: 3px solid #101a24;
+  }
+  */
 }
 
 .page-enter-active, .page-leave-active {
@@ -47,3 +55,18 @@ a {
 .page-enter, .page-leave-to {
   opacity: 0;
 }
+
+.block-grey {
+  background: #f0f0f0;
+}
+
+/*
+@media only screen and (max-width: 1904px) {
+}
+@media only screen and (max-width: 1264px) {
+}
+@media only screen and (max-width: 960px) {
+}
+@media only screen and (max-width: 600px) {
+}
+*/

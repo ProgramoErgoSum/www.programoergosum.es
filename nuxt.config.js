@@ -1,5 +1,4 @@
 import path from 'path'
-import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 
 import activities from './store/api/v1/activities.json'
 import blogs from './store/api/v1/blogs.json'
@@ -40,42 +39,44 @@ export default {
         content: 'FT0Qc7McHBOZwLy1lVLXXNONbp3A_o4MX1gTApbyX6Y'
       }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://use.fontawesome.com/releases/v5.7.2/css/all.css',
-        integrity:
-          'sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr',
-        crossorigin: 'anonymous'
-      }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#d25f34' },
+  loading: { color: '#eb8059' },
 
   /*
    ** Global CSS
    */
-  css: ['~/assets/style/app.styl', '~/assets/style/main.scss'],
+  css: ['~/assets/style/main.scss'],
 
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: '~plugins/vuetify.js' },
     { src: '~plugins/components.js' },
     { src: '~plugins/ga.js', ssr: false }
   ],
 
+  buildModules: [
+    // Simple usage
+    '@nuxtjs/eslint-module',
+    // Doc: https://github.com/nuxt-community/vuetify-module/
+    '@nuxtjs/vuetify'
+  ],
+  vuetify: {
+    theme: {
+      light: true,
+      themes: {
+        light: {
+          primary: '#d25f34',
+          secondary: '#101a24'
+        }
+      }
+    }
+  },
   /*
    ** Nuxt.js modules
    */
@@ -117,7 +118,7 @@ export default {
           url: `/actividades/${item.alias}`,
           changefreq: 'monthly',
           priority: 0.8,
-          lastmod: new Date()
+          lastmod: item.date.mdate
         }
       })
       const b = blogs.map(item => {
@@ -154,13 +155,6 @@ export default {
    ** Build configuration
    */
   build: {
-    transpile: ['vuetify/lib'],
-    plugins: [new VuetifyLoaderPlugin()],
-    loaders: {
-      stylus: {
-        import: ['~assets/style/variables.styl']
-      }
-    },
     /*
      ** You can extend webpack config here
      */

@@ -1,4 +1,4 @@
-# Programación y Robótica inclusiva TEA
+## ¿Qué es Robo-TEA?
 
 Robótica TEA inclusiva pretende estrechar la brecha tecnológica de la población realizando talleres gratuitos inclusivos con ayuda de voluntarios con conocimientos en inclusión y nuevas tencologías.
 
