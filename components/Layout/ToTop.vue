@@ -4,8 +4,6 @@
       v-show="fab"
       v-scroll="onScroll"
       fab
-      dark
-      color="secondary"
       fixed
       bottom
       right
