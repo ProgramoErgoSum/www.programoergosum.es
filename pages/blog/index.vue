@@ -23,17 +23,9 @@
           </v-chip>
         </v-col>
         <v-col v-for="blog in filterBlogs" :key="blog.alias" cols="12">
-          <v-card :to="`/blog/${blog.alias}`" nuxt>
-            <v-row>
-              <v-col
-                class="pa-1"
-                cols="12"
-                xs="12"
-                sm="12"
-                md="6"
-                lg="4"
-                xl="3"
-              >
+          <v-card :to="`/blog/${blog.alias}`" tile nuxt>
+            <v-row no-gutters>
+              <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="3">
                 <v-img
                   :src="`/images/blog/${blog.alias}/${blog.image}`"
                   :lazy-src="`/lazy.png`"
@@ -54,7 +46,7 @@
                   </template>
                 </v-img>
               </v-col>
-              <v-col cols="12" xs="12" sm="12" md="6" lg="8" xl="9">
+              <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="9">
                 <v-card-title primary-title>
                   <h3 class="mb-4 title">
                     {{ blog.title }}
