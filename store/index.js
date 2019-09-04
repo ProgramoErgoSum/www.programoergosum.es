@@ -7,10 +7,10 @@ const state = () => ({
     {
       title: 'Asociación',
       icon: 'mdi-information-variant',
-      to: '/asociacion',
+      to: '/',
       items: [
         {
-          title: 'Asociación',
+          title: 'Nosotros',
           icon: '',
           to: '/asociacion'
         },
@@ -30,6 +30,16 @@ const state = () => ({
           to: '/blog'
         },
         {
+          title: 'Colabora',
+          icon: '',
+          to: '/colabora'
+        },
+        {
+          title: 'Centros',
+          icon: '',
+          to: '/centros'
+        },
+        {
           title: 'Contacto',
           icon: '',
           to: '/contacto'
@@ -40,6 +50,11 @@ const state = () => ({
       title: 'Tutoriales',
       icon: 'mdi-code-tags',
       href: 'https://www.programoergosum.com'
+    },
+    {
+      title: 'Steam',
+      icon: 'mdi-language-python',
+      href: 'https://www.aprendeprogramando.es'
     },
     {
       title: 'Colabora',
@@ -58,7 +73,7 @@ const getters = {
   metas: state => state.metas,
   navigation: state => state.navigation,
   subNavigation: state => {
-    return state.navigation.find(el => el.to === '/asociacion').items
+    return state.navigation.find(el => el.to === '/').items
   }
 }
 

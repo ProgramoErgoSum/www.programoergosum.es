@@ -31,13 +31,18 @@
           <v-list-item
             v-if="item.href"
             :href="item.href"
+            rel="noopener noreferrer"
+            target="_blank"
             :disabled="item.disabled"
           >
             <v-list-item-icon>
               <v-icon v-text="item.icon" />
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title v-text="item.title" />
+              <v-list-item-title>
+                {{ item.title }}
+                <v-icon class="pl-1" size="12">mdi-open-in-new</v-icon>
+              </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 

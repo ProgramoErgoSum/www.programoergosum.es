@@ -1,9 +1,9 @@
 <template>
   <div class="title" :style="background()">
-    <v-container class="pb-12">
+    <v-container class="pb-6">
       <v-row>
-        <v-col class="py-12" cols="12">
-          <h1 class="font-weight-bold">
+        <v-col class="pt-12" cols="12">
+          <h1 class="pb-6 font-weight-bold">
             {{ title }}
           </h1>
           <h2 class="font-weight-light">
@@ -12,7 +12,7 @@
         </v-col>
         <v-col cols="12">
           <v-breadcrumbs
-            class="breadcrumb pa-0"
+            class="breadcrumb hidden-sm-and-down pa-0"
             :items="breadcrumbs"
             divider=">"
           >
@@ -55,7 +55,7 @@ export default {
   methods: {
     background() {
       const background =
-        'background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,1))'
+        'background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.7))'
       return this.image !== ''
         ? `${background}, url(${this.image});`
         : background
@@ -72,52 +72,18 @@ export default {
   background-position: top center;
   background-attachment: fixed;
   h1 {
-    margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 1.7em;
   }
   h2 {
-    font-size: 28px;
-    line-height: 1.3;
+    font-size: 1.5em;
   }
   .breadcrumb {
-    min-height: 35px;
-    font-size: 14px;
+    font-size: 0.7em;
     font-weight: 400;
     .disabled {
       color: #49525a;
       pointer-events: none;
       text-decoration: none;
-    }
-  }
-}
-@media only screen and (max-width: 1904px) {
-}
-@media only screen and (max-width: 1264px) {
-  h1 {
-    font-size: 32px;
-  }
-  h2 {
-    font-size: 26px;
-  }
-}
-@media only screen and (max-width: 960px) {
-  .title {
-    h1 {
-      font-size: 30px;
-    }
-    h2 {
-      font-size: 24px;
-    }
-  }
-}
-@media only screen and (max-width: 600px) {
-  .title {
-    h1 {
-      font-size: 20px;
-      margin-bottom: 20px;
-    }
-    h2 {
-      font-size: 18px;
     }
   }
 }
