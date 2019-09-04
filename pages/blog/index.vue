@@ -7,7 +7,7 @@
     />
     <v-container>
       <v-row>
-        <v-col cols="12">
+        <v-col class="hidden-sm-and-down" cols="12">
           <v-chip label dark @click="currentTag = 'todos'">
             Todos
           </v-chip>
