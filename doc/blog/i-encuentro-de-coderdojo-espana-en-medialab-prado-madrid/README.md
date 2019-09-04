@@ -1,4 +1,4 @@
-# I encuentro de CoderDojo España en Medialab Prado, Madrid
+## Encuentro CoderDojo España
 
 Este fin de semana desde el 15 al 17 de abril, champions y mentores de CoderDojo Murcia han asistido a las instalaciones de MediaLab Prado en Madrid para reunirse con el resto de champions y mentores de CoderDojo de España, entre otros. Han asistido champions y mentores de Bilbao, León, Valencia, Madri y Murcia.
 

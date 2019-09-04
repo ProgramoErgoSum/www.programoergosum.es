@@ -1,4 +1,4 @@
-# Aprende a programar con Minecraft - IES El Carmen Murcia
+## Minecraft en el IES El Carmen Murcia
 
 En este taller de programación de videojuegos con ayuda de Minecraft, los participantes adquieren conocimientos sobre el juego a la vez que se desarrollan diferentes capacidad como el conocimiento del lenguaje de programación Python o la creatividad.
 

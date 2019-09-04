@@ -1,4 +1,4 @@
-# Encuentro de CoderDojo España en Valencia
+## CoderDojo España en Valencia
 
 El próximo 25 de junio de 2016, tendrá lugar un Encuentro de la Asociación CoderDojo España en las instalaciones de Las Naves (Valencia), gracias a la colaboración de la Fundación InnDEA, promovida por el Ayuntamiento de Valencia y organizado por la Asociación ByL InEdu.
 

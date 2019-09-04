@@ -1,4 +1,4 @@
-# Hackathon Familiar de programación con Scratch Murcia
+## Hackathon Familiar en Murcia
 
 Durante la tarde del sábado 13 de febrero los ninjas de CoderDojo Murcia participan en un Hackathon (o maratón de programación) con la idea de realizar un juego con Scratch para poner fin al acoso escolar, bullying.
 

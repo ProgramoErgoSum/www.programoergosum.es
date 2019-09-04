@@ -1,4 +1,4 @@
-# Presentes en SIMO Educación 2016
+## SIMO Educación 2016
 
 Programo Ergo Sum estuvo presente en la pasada edición de SIMO Educación 2016, participando en un taller para maestros y profesores e impulsando la programación informática como medio hacia el aprendizaje en otras asignaturas.
 

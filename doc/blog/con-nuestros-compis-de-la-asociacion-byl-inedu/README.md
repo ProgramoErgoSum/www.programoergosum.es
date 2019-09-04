@@ -1,4 +1,4 @@
-# Con nuestros compis de la Asociación ByLInEdu
+## Asociación ByLInEdu
 
 El pasado fin de semana estuvimos en Valencia con nuestros amigos de la Asociación ByL InEdu con motivo de su 4º aniversario como asociación sin ánimo de lucro en innovación educativa.
 

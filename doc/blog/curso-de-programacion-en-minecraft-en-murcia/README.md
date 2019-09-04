@@ -1,4 +1,4 @@
-# Curso de programación en Minecraft en Murcia
+## Minecraft en Murcia
 
 Finaliza el cruso de programación de videojuegos para chicos de 14 años en el IES el Carmen de Murcia.
 

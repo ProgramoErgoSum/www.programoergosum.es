@@ -1,4 +1,4 @@
-# Entrevista a Diego
+## Entrevista a Diego
 
 En este post entrevistamos a uno de nuestros ninjas de CoderDojo Murcia. Diego tiene 11 años y además de asisitir desde hace más de 2 años a todos los talleres, este año se convertirá en mentor para ayudar a los nuevos ninjas.
 

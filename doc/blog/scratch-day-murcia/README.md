@@ -1,4 +1,4 @@
-# Aprende a programar en el Scratch Day 2016 en Murcia
+## Scratch Day 2016 en Murcia
 
 Durante la mañana del sábado 14 de Mayo los ninjas de CoderDojo Murcia participan en el Scratch Day.
 

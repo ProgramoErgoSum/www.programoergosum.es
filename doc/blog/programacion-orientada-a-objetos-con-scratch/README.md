@@ -1,4 +1,4 @@
-# Programación Orientada a Objetos con Scratch
+## Programación Orientada a Objetos
 
 Scratch es un entorno gráfico de programación desarrollado por un grupo de investigadores del Lifelong Kindergarten Group del Laboratorio de Medios del MIT, bajo la dirección del Dr. Mitchel Resnick.
 

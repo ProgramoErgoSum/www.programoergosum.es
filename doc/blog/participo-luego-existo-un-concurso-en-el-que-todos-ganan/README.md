@@ -1,4 +1,4 @@
-# Participo Luego Existo
+## Participo Luego Existo
 
 Hasta el próximo 31 de Mayo, estará abierto el plazo de inscripción para la II Edición de «Participo Luego Existo», un concurso de programación, robótica y nuevas tecnologías cuya filosofía hace hincapié en la importancia de participar y compartir para aprender.
 

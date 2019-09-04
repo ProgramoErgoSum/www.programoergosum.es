@@ -1,4 +1,4 @@
-# Aprendiendo a programar páginas web en el IES El Carmen de Murcia
+## Páginas web en el IES El Carmen Murcia
 
 Llegamos al ecuador del curso de programación de páginas web nivel iniciación en IES El Carmen de Murcia.
 

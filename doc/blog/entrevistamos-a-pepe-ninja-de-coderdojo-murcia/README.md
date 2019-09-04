@@ -1,4 +1,4 @@
-# Entrevista a Pepe
+## Entrevista a Pepe
 
 En este artículo entrevistamos a Pepe, ninja de CoderDojo Murcia. Tiene 10 años y ha aprendido a programar diferentes tipos de videojuegos con Scratch y los lenguajes de programación por bloques.
 

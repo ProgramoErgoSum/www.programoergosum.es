@@ -1,4 +1,4 @@
-# Presentación del nuevo curso de CoderDojo 2016/2017
+## Nueva temporada CoderDojo 2016/2017
 
 Durante el pasado sábado 1 de Octubre de 2016 tuvo lugar el primer CoderDojo de la temporada. En actividad los niños acuden al Espacio Jóven 585m2 de Murcia con un portátil y con muchas ganas de aprender, y los mentores (profesionales voluntarios del mundo de la programación y robótica) les ayudan a adquirir y experimentar nuevos conceptos del campo de las Nuevas Tecnologías e Internet de las Cosas.
 

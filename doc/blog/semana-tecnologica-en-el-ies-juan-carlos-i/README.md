@@ -1,4 +1,4 @@
-# Semana tecnológica en el IES Juan Carlos I
+## MasterClass en el IES Juan Carlos I
 
 Durante esta semana se han llevado a cabo varios talleres de programación informática y nuevas tecnologías en el IES Juan Carlos I de Murcia. Una semana tecnológica promovida por la Asociación de madres y padres de alumnos del Instituto de Enseñanza Secundaria Juan Carlos I.
 

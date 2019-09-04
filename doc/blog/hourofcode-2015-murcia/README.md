@@ -1,4 +1,4 @@
-# Hora de la programación y el código en Murcia
+## Hora del código en Murcia
 
 Durante la segunda semana de diciembre (del 7 al 12 de diciembre), estamos preparando la Hora del Código. Un evento internacional donde simultaneamente en todas las partes del mundo se dedica una hora a la programación.
 

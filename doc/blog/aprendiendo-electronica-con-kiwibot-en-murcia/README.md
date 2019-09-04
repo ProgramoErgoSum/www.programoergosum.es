@@ -1,10 +1,12 @@
-# Aprendiendo electrónica con KiwiBot en Murcia
+## KiwiBot en Murcia
 
 Durante la tarde de hoy, los participantes del programa Redes para el ocio y tiempo libre de Murcia, han estado aprendiendo programación de videojuegos y electrónica en el IES El Carmen de Murcia.
 
 En este taller hemos probado el escudo kiwibot para arduino desarrollado por la asociación sevillana kiwibot.
 
 ![](1.png)
+
+## Aprendiendo
 
 El juego consistia en el típico juego de persigue con Scratch, donde el personaje principal tiene que conseguir puntos al tocar un objeto en posiciones aleatorias, al mismo tiempo que otro personaje, en este caso el murciélago, persigue a scratch hasta que lo toca y finaliza el juego.
 
