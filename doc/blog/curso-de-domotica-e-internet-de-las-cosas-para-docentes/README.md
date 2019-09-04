@@ -18,7 +18,7 @@ Profesorado no universitario de la Consejería de Educación, Juventud y Deporte
 - Aprender a programar en el lenguaje de programación "Python".
 - Conocer el mundo digital y físico con la "Raspberry Pi".
 
-## Contenidos:
+## Contenidos
 
 - Introducción a la programación textual con "Python".
 - Programación de videojuegos en "Python".
