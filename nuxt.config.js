@@ -169,12 +169,20 @@ export default {
         })
       }
       config.module.rules.push({
+        // Doc: https://www.npmjs.com/package/frontmatter-markdown-loader
         test: /\.md$/,
         loader: 'frontmatter-markdown-loader',
         include: path.resolve(__dirname, 'doc'),
         options: {
+          mode: [
+            /*
+            'meta', 'html',
+            'vue-component', 'vue-render-functions'
+            */
+            'body'
+          ],
           vue: {
-            root: 'dynamicMarkdown'
+            root: 'dynamicContent'
           }
         }
       })
