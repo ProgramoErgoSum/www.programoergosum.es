@@ -23,52 +23,7 @@
           </v-chip>
         </v-col>
         <v-col v-for="blog in filterBlogs" :key="blog.alias" cols="12">
-          <v-card :to="`/blog/${blog.alias}`" tile nuxt>
-            <v-row no-gutters>
-              <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="3">
-                <v-img
-                  :src="`/images/blog/${blog.alias}/${blog.image}`"
-                  :lazy-src="`/lazy.png`"
-                  :title="`${blog.title}`"
-                  height="185"
-                >
-                  <template v-slot:placeholder>
-                    <v-row
-                      class="fill-height ma-0"
-                      align="center"
-                      justify="center"
-                    >
-                      <v-progress-circular
-                        indeterminate
-                        color="grey lighten-5"
-                      />
-                    </v-row>
-                  </template>
-                </v-img>
-              </v-col>
-              <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="9">
-                <v-card-title primary-title>
-                  <h3 class="mb-4 title">
-                    {{ blog.title }}
-                  </h3>
-                  <div class="body-1 font-weight-light">
-                    {{ blog.description }}
-                  </div>
-                  <div class="mt-3">
-                    <v-chip
-                      v-for="tag in blog.tags"
-                      :key="tag"
-                      class="ml-1"
-                      label
-                      :outlined="tag !== currentTag"
-                    >
-                      {{ tag }}
-                    </v-chip>
-                  </div>
-                </v-card-title>
-              </v-col>
-            </v-row>
-          </v-card>
+          <Item :blog="blog" />
         </v-col>
       </v-row>
     </v-container>
@@ -76,10 +31,12 @@
 </template>
 
 <script>
-import metas from '@/store/api/v1/metas.json'
+import Item from '@/components/Pages/Blog/Item'
 
 export default {
-  components: {},
+  components: {
+    Item
+  },
   data() {
     return {
       currentTag: 'todos'
@@ -93,7 +50,7 @@ export default {
   },
   asyncData({ store }) {
     return {
-      metas: metas.blog,
+      metas: store.state.metas.blog,
       tags: store.state.blogs.tags,
       blogs: store.state.blogs.list
     }
