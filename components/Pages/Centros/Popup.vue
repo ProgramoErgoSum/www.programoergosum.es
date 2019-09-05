@@ -1,6 +1,7 @@
 <template>
   <div class="popup text-center">
     <v-avatar size="110">
+      <!--
       <v-img :src="center.image" :lazy-src="`/lazy-user.png`">
         <template v-slot:placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
@@ -8,6 +9,13 @@
           </v-row>
         </template>
       </v-img>
+      -->
+      <vuetify-lazy-image
+        :src="center.image || `/lazy-user.png`"
+        src-placeholder="/lazy-user.png"
+        :title="center.name"
+        :aspect-ratio="1.77"
+      />
     </v-avatar>
     <p class="ma-0 mt-3 font-weight-bold">
       {{ center.name }}
