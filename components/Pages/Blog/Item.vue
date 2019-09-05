@@ -53,13 +53,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.v-lazy-image {
-  max-height: 150px;
-  opacity: 0;
-  transition: opacity 2s;
-}
-.v-lazy-image-loaded {
-  opacity: 1;
-}
-</style>
+<style lang="scss" scoped></style>
