@@ -2,7 +2,6 @@
   <v-card :to="`/blog/${blog.alias}`" tile nuxt>
     <v-row no-gutters>
       <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="3">
-        <!--
         <v-img
           :src="`/images/blog/${blog.alias}/${blog.image}`"
           :lazy-src="`/lazy.png`"
@@ -15,12 +14,13 @@
             </v-layout>
           </template>
         </v-img>
-        -->
+        <!--
         <vuetify-lazy-image
           :src="`/images/blog/${blog.alias}/${blog.image}`"
           :title="`${blog.title}`"
           :aspect-ratio="2.25"
         />
+        -->
       </v-col>
       <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="9">
         <v-card-title primary-title>
