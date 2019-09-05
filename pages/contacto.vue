@@ -8,7 +8,7 @@
             <h2 class="mb-6">
               {{ faq.title }}
             </h2>
-            <v-expansion-panels focusable multiple class="px-6 mb-12">
+            <v-expansion-panels focusable multiple class="mb-12">
               <v-expansion-panel v-for="item in faq.items" :key="item.title">
                 <v-expansion-panel-header class="subtitle-1">
                   {{ item.title }}
@@ -26,7 +26,7 @@
           <h2 class="mb-6">
             También puedes contactar con nosotros a través de email
           </h2>
-          <v-list class="px-6 mb-12">
+          <v-list class="mb-12">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-map</v-icon>
