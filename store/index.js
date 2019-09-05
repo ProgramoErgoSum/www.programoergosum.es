@@ -2,7 +2,7 @@ import metas from '~/store/api/v1/metas.json'
 
 const state = () => ({
   drawer: false,
-  metas: metas,
+  metas,
   navigation: [
     {
       title: 'Asociación',

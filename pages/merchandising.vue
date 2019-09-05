@@ -26,7 +26,7 @@ export default {
     const image = `${process.env.cdn}${this.metas.image}`
 
     return {
-      title: title,
+      title,
       meta: [
         {
           hid: 'robots',

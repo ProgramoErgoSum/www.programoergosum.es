@@ -51,8 +51,8 @@ export default {
     const description =
       'Gracias por colaborar con la iniciativa. En unos días aparecerás en el apartado como colaborador.'
     return {
-      title: title,
-      description: description
+      title,
+      description
     }
   },
   head() {

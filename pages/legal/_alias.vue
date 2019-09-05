@@ -28,14 +28,14 @@ export default {
       body: file.body
     }
     return {
-      readme: readme
+      readme
     }
   },
   head() {
     const title = 'Información'
 
     return {
-      title: title,
+      title,
       meta: [
         {
           hid: 'robots',

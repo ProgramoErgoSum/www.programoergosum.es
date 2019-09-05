@@ -104,7 +104,7 @@ export default {
     const image = `${process.env.cdn}${this.metas.image}`
 
     return {
-      title: title,
+      title,
       meta: [
         // Global
         { hid: 'description', name: 'description', content: description },

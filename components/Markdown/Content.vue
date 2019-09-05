@@ -25,7 +25,7 @@ export default {
   },
   computed: {
     // Doc: https://github.com/markdown-it/markdown-it
-    renderer: function() {
+    renderer() {
       const cdn = this.readme.cdn
       const md = markdownIt('commonmark', {
         html: true,
@@ -34,7 +34,7 @@ export default {
         langPrefix: 'language-',
         linkify: true,
         typographer: true,
-        highlight: function(str, lang) {
+        highlight(str, lang) {
           if (lang && hljs.getLanguage(lang)) {
             try {
               return hljs.highlight(lang, str).value

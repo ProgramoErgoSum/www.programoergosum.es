@@ -1,7 +1,7 @@
 import collaborators from '~/store/api/v1/collaborators.json'
 
 const state = () => ({
-  collaborators: collaborators
+  collaborators
 })
 
 const getters = {

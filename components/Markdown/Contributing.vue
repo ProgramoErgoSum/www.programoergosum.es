@@ -43,7 +43,7 @@ export default {
     }
   },
   computed: {
-    fullEditLink: function() {
+    fullEditLink() {
       const repo = 'https://github.com/ProgramoErgoSum/www.programoergosum.es'
       const branch = 'develop'
       return `${repo}/blob/${branch}/${this.editLink}`

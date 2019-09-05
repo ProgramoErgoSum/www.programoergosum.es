@@ -24,7 +24,7 @@ export default {
   head() {
     const title = '404 - Página no encontrada'
     return {
-      title: title,
+      title,
       meta: [
         {
           hid: 'robots',

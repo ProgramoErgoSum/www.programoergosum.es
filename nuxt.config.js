@@ -19,8 +19,8 @@ export default {
     base: '/'
   },
   env: {
-    www: www,
-    cdn: cdn
+    www,
+    cdn
   },
 
   /*
@@ -137,7 +137,7 @@ export default {
    ** Generate
    */
   generate: {
-    routes: async function() {
+    async routes() {
       const p = ['/', '/404', '/legal/coc', '/legal/cookies']
       const a = await activities.map(item => {
         return `/actividades/${item.alias}`

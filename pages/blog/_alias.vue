@@ -66,7 +66,7 @@ export default {
       title: blog.title,
       description: blog.description,
       image: `/images/${path}/${blog.image}`,
-      readme: readme,
+      readme,
       editLink: `doc/${path}/README.md`,
       date: blog.date.mdate,
       breadcrumbs: [
@@ -89,7 +89,7 @@ export default {
     const image = `${process.env.cdn}${this.image}`
 
     return {
-      title: title,
+      title,
       titleTemplate: 'Blog - %s',
       meta: [
         // Global

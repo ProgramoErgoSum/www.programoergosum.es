@@ -3,7 +3,7 @@ import blogs from '~/store/api/v1/blogs.json'
 const tags = []
 blogs.map(blog => {
   blog.tags.map(tag => {
-    if (tags.indexOf(tag) === -1) tags.push(tag)
+    if (!tags.includes(tag)) tags.push(tag)
   })
 })
 

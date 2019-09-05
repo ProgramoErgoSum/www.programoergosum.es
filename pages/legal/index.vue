@@ -18,7 +18,7 @@ export default {
     const title = 'Información'
 
     return {
-      title: title,
+      title,
       meta: [
         {
           hid: 'robots',

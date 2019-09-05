@@ -55,7 +55,7 @@ export default {
       title: activity.title,
       description: activity.description,
       image: `/images/${path}/${activity.image}`,
-      readme: readme,
+      readme,
       breadcrumbs: [
         {
           text: 'Actividades',
@@ -76,7 +76,7 @@ export default {
     const image = `${process.env.cdn}${this.image}`
 
     return {
-      title: title,
+      title,
       titleTemplate: 'Actividades - %s',
       meta: [
         // Global
