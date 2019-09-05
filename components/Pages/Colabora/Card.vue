@@ -1,6 +1,7 @@
 <template>
   <div class="card ma-3">
     <v-avatar size="110">
+      <!--
       <v-img :src="card.image" :lazy-src="`/lazy-user.png`" :alt="card.title">
         <template v-slot:placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
@@ -8,6 +9,13 @@
           </v-row>
         </template>
       </v-img>
+      -->
+      <vuetify-lazy-image
+        :src="card.image || `/lazy-user.png`"
+        src-placeholder="/lazy-user.png"
+        :title="card.title"
+        :aspect-ratio="1.77"
+      />
     </v-avatar>
     <p class="my-3">
       {{ card.name }}
