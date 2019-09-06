@@ -3,7 +3,7 @@
     <v-row no-gutters>
       <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="3">
         <v-img
-          :src="`/images/blog/${blog.alias}/${blog.image}`"
+          :src="`${repo_raw}/${blog.alias}/img/${blog.image}`"
           :lazy-src="`/lazy.png`"
           :title="`${blog.title}`"
           height="185"
@@ -20,13 +20,12 @@
           <h3 class="mb-4 title">
             {{ blog.title }}
           </h3>
-          <div class="body-1 font-weight-light">
+          <div class="mb-6 body-1 font-weight-light">
             {{ blog.description }}
           </div>
-          <div class="mt-3">
-            <v-chip v-for="tag in blog.tags" :key="tag" class="ml-1" label>
-              {{ tag }}
-            </v-chip>
+          <div>
+            <Posted :cdate="blog.date.cdate" :mdate="blog.date.mdate" />
+            <Tags :tags="blog.tags" class="ml-3" />
           </div>
         </v-card-title>
       </v-col>
@@ -35,12 +34,26 @@
 </template>
 
 <script>
+import Posted from '@/components/Pages/Blog/Posted'
+import Tags from '@/components/Pages/Blog/Tags'
+
 export default {
   name: 'Item',
+  components: {
+    Posted,
+    Tags
+  },
   props: {
     blog: {
       type: Object,
       required: true
+    }
+  },
+  computed: {
+    repo_raw: {
+      get() {
+        return this.$store.state.blogs.repo_raw
+      }
     }
   }
 }

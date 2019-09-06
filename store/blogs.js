@@ -8,6 +8,9 @@ blogs.map(blog => {
 })
 
 const state = () => ({
+  repo_url: 'https://github.com/ProgramoErgoSum/Blog/tree/master',
+  repo_raw: 'https://raw.githubusercontent.com/ProgramoErgoSum/Blog/master',
+  repo_edit: 'https://github.com/ProgramoErgoSum/Blog/edit/master',
   list: blogs,
   tags: tags.sort()
 })

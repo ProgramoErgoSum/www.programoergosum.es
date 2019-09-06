@@ -5,6 +5,7 @@
     "description": "II Edición del curso de Domótica e Internet de las cosas para profesores de secundaria a través del Centro de Profesorado y Recursos de la Región de Murcia.",
     "image": "preview.png",
     "tags": ["curso", "profesores"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2019-09-02 10:42:24",
       "mdate": "2019-09-02 14:05:12"
@@ -16,6 +17,7 @@
     "description": "II Edición del concurso «Participo Luego Existo», un concurso cuya filosofía hace hincapié en la importancia de participar y compartir para aprender.",
     "image": "preview.png",
     "tags": ["concurso", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2018-01-28 10:42:24",
       "mdate": "2019-05-09 14:05:12"
@@ -27,6 +29,7 @@
     "description": "El lenguaje de programación por bloques de Scratch es una herramienta muy poderosa para aprender el paradigma de la Programación Orientada a Objetos.",
     "image": "preview.png",
     "tags": ["programación", "scratch"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2018-01-28 10:42:24",
       "mdate": "2019-05-09 14:05:12"
@@ -38,6 +41,7 @@
     "description": "Entrevistamos a Diego, además de ser uno de nuestros ninjas más antiguos en CoderDojo, en ocasiones mentoriza a otros niños y niñas del club de programación.",
     "image": "preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2019-04-09 14:05:12"
@@ -49,6 +53,7 @@
     "description": "Resumen del curso gratuito de programación de videojuegos en Minecraft realizado en el IES El Carmen de Murcia a través de Redes para el tiempo libre.",
     "image": "preview.png",
     "tags": ["extraescolar", "programación", "minecraft"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2019-04-09 14:05:12"
@@ -60,6 +65,7 @@
     "description": "Resumen del curso gratuito de programación, electrónica y robótica realizado en el IES Juan Carlos I de Murcia, durante la semana tecnológica.",
     "image": "preview.png",
     "tags": ["extraescolar", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2019-03-09 14:05:12"
@@ -71,6 +77,7 @@
     "description": "Entrevistamos a Ana, que además de ser una de nuestras ninjas de CoderDojo Murcia desde hace más de 1 año, es una apasionada de la música y la danza.",
     "image": "preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2019-03-09 14:05:12"
@@ -82,6 +89,7 @@
     "description": "Contenidos del curso gratuito de programación de videojuegos con el lenguaje de programación Python realizado en el IES El Carmen de Murcia.",
     "image": "preview.png",
     "tags": ["extraescolar", "programación", "minecraft"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2017-10-20 08:13:00",
       "mdate": "2019-01-09 14:05:12"
@@ -93,6 +101,7 @@
     "description": "Entrevistamos a Manolo, que además de ser uno de nuestros ninjas de CoderDojo, le apasiona programar videojuegos y robots educativos.",
     "image": "preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2018-12-09 14:05:12"
@@ -115,6 +124,7 @@
     "description": "Entrevistamos a Pepe que con tan solo 10 años empezó a programar videojuegos con Scratch y poco a poco está aprendiendo varios lenguajes de programación.",
     "image": "preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2017-12-28 11:07:45",
       "mdate": "2018-09-09 14:05:12"
@@ -126,6 +136,7 @@
     "description": "Asistimos a SIMO Educación 2016 realizando talleres para introducir la programación dentro del aula como medio de aprendizaje hacia otras asignaturas.",
     "image": "preview.png",
     "tags": ["coderdojo"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -137,6 +148,7 @@
     "description": "Realizamos una Master Class gratuita de programación de videojuegos utilizando el lenguaje Scratch en el Centro Municipal 585m2 Espacio Joven de Murcia.",
     "image": "preview.png",
     "tags": ["programación", "scratch"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -148,6 +160,7 @@
     "description": "Crónica del hackathon familiar de CoderDojo Murcia para sensibilizar y acabar con el acoso escolar realizados en el Centro Municipal 585m2 de Murcia.",
     "image": "preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -170,6 +183,7 @@
     "description": "Realizamos un Hackathon familiar de sensibilización para acabar con el acoso escolar y bullying con los ninjas del club gratuito de programación CoderDojo Murcia.",
     "image": "preview.png",
     "tags": ["coderdojo", "programación", "scratch"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -192,6 +206,7 @@
     "description": "Asistimos a la primera sesión de CoderDojo en San Javier (Murcia) para ayudar a la Fundación Rafa Puede en esta nueva aventura como champion de CoderDojo.",
     "image": "preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -203,6 +218,7 @@
     "description": "Presentación de CoderDojo en la primera sesión de la nueva temporada 2016/2017 del club de programación gratuito para jóvenes de 7 a 17 años en Murcia.",
     "image": "preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -225,6 +241,7 @@
     "description": "Resumen del curso gratuito de programación y electrónica en el IES El Carmen de Murcia con la colaboración del centro de juventud de Murcia.",
     "image": "preview.png",
     "tags": ["extraescolar", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -236,6 +253,7 @@
     "description": "Encuentro nacional de CoderDojo España en Las Naves (Valencia) con motivo del 4º aniversario de nuestros amigos de ByL InEdu.",
     "image": "preview.png",
     "tags": ["coderdojo"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -247,6 +265,7 @@
     "description": "Encuentro nacional de clubes de CoderDojo en España con el objetivo de recopilar buenas prácticas en diferentes centros de España.",
     "image": "preview.png",
     "tags": ["coderdojo"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -258,6 +277,7 @@
     "description": "¿Buscas actividades extraescolares en Murcia? Realizamos numerosas actividades gratuitos de programación, electrónica y robótica en Murcia.",
     "image": "preview.png",
     "tags": ["extraescolar", "programación", "robótica"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"
@@ -269,6 +289,7 @@
     "description": "Resumen del curso gratuito de programación de páginas web realizado en el IES El Carmen de Murcia con la colaboración de InformaJoven Murcia.",
     "image": "preview.png",
     "tags": ["extraescolar", "programación"],
+    "authors": ["migueabellan"],
     "date": {
       "cdate": "2016-10-20 08:13:00",
       "mdate": "2017-07-09 14:05:12"

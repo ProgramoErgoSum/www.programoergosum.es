@@ -1,5 +1,5 @@
 <template>
-  <div class="_alias">
+  <div>
     <Title
       :title="title"
       :description="description"
@@ -14,15 +14,12 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <!--
-          <Tags :tags="tags" class="my-7" />
-          <Authors :authors="authors" />
-          -->
-          <Content :readme="readme" />
-          <!--
-          <div class="separation" />
-          <Contributing :edit-link="editLink" :date="date" />
-          -->
+          <Posted :cdate="date.cdate" :mdate="date.mdate" />
+          <Tags :tags="tags" class="ml-3" />
+          <Authors :authors="authors" class="mt-6" />
+          <Contributing :edit-link="editLink" class="mt-1" />
+
+          <Content :readme="readme" class="mt-12" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
@@ -35,15 +32,23 @@
 </template>
 
 <script>
+import axios from 'axios'
+
+import Posted from '@/components/Pages/Blog/Posted'
+import Tags from '@/components/Pages/Blog/Tags'
+import Authors from '@/components/Pages/Blog/Authors'
+import Contributing from '@/components/Pages/Blog/Contributing'
 import Content from '@/components/Markdown/Content'
-// import Contributing from '@/components/Markdown/Contributing'
 import Toc from '@/components/Markdown/Toc'
 import AdsenseBlogToc from '@/components/Adsense/BlogToc'
 
 export default {
   components: {
+    Posted,
+    Tags,
+    Authors,
+    Contributing,
     Content,
-    // Contributing,
     Toc,
     AdsenseBlogToc
   },
@@ -55,20 +60,28 @@ export default {
       return e.alias === params.alias
     })
 
-    const path = `blog/${params.alias}`
-    const file = await import(`@/doc/${path}/README.md`)
+    const raw = `${store.state.blogs.repo_raw}/${blog.alias}`
+    const endpoint = `${store.state.blogs.repo_raw}/${blog.alias}/README.md`
+    const edit = `${store.state.blogs.repo_edit}/${blog.alias}/README.md`
+
+    const markdown = await axios.get(endpoint).then(res => {
+      return res.data
+    })
+
     const readme = {
-      cdn: `images/${path}`,
-      body: file.body
+      cdn: raw,
+      body: markdown
     }
 
     return {
       title: blog.title,
       description: blog.description,
-      image: `/images/${path}/${blog.image}`,
+      image: `${raw}/img/${blog.image}`,
+      date: blog.date,
+      tags: blog.tags,
+      editLink: edit,
+      authors: blog.authors,
       readme,
-      editLink: `doc/${path}/README.md`,
-      date: blog.date.mdate,
       breadcrumbs: [
         {
           text: 'Blog',
@@ -86,7 +99,7 @@ export default {
   head() {
     const title = this.title
     const description = this.description
-    const image = `${process.env.cdn}${this.image}`
+    const image = this.image
 
     return {
       title,
