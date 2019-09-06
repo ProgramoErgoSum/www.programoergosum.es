@@ -1,5 +1,5 @@
 <template>
-  <v-snackbar v-model="snackbar" dark bottom left timeout="10000">
+  <v-snackbar v-model="snackbar" dark bottom left>
     <p class="ma-0 pa-0">
       Utilizamos cookies propias y de terceros para obtener datos estadísticos
       de la navegación de nuestros usuarios. Si continúa navegando consideramos
