@@ -8,14 +8,6 @@
           </v-row>
         </template>
       </v-img>
-      <!--
-      <vuetify-lazy-image
-        :src="center.image || `/lazy-user.png`"
-        src-placeholder="/lazy-user.png"
-        :title="center.name"
-        :aspect-ratio="1.77"
-      />
-      -->
     </v-avatar>
     <p class="ma-0 mt-3 font-weight-bold">
       {{ center.name }}

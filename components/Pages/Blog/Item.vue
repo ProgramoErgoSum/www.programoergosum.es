@@ -14,13 +14,6 @@
             </v-layout>
           </template>
         </v-img>
-        <!--
-        <vuetify-lazy-image
-          :src="`/images/blog/${blog.alias}/${blog.image}`"
-          :title="`${blog.title}`"
-          :aspect-ratio="2.25"
-        />
-        -->
       </v-col>
       <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="9">
         <v-card-title primary-title>

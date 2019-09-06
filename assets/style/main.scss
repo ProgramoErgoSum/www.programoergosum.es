@@ -80,19 +80,6 @@ a {
   opacity: 0;
 }
 
-
-
-.v-lazy-image {
-  max-height: 150px;
-  opacity: 0;
-  transition: opacity 2s;
-}
-.v-lazy-image-loaded {
-  opacity: 1;
-}
-
-
-
 .block-grey {
   background: #f0f0f0;
 }

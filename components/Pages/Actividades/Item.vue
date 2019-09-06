@@ -12,13 +12,6 @@
         </v-row>
       </template>
     </v-img>
-    <!--
-    <vuetify-lazy-image
-      :src="`/images/actividades/${activity.alias}/${activity.image}`"
-      :title="`${activity.title}`"
-      :aspect-ratio="1.5"
-    />
-    -->
     <v-card-title primary-title>
       <h3 class="mb-4 title">{{ activity.title }}</h3>
       <div class="subtitle-1">{{ activity.description }}</div>

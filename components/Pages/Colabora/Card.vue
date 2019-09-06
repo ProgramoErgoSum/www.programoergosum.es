@@ -8,14 +8,6 @@
           </v-row>
         </template>
       </v-img>
-      <!--
-      <vuetify-lazy-image
-        :src="card.image || `/lazy-user.png`"
-        src-placeholder="/lazy-user.png"
-        :title="card.title"
-        :aspect-ratio="1.77"
-      />
-      -->
     </v-avatar>
     <p class="my-3">
       {{ card.name }}
