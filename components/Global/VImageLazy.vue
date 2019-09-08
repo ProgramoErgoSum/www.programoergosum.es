@@ -1,5 +1,5 @@
 <template>
-  <v-img :src="setSrc" :lazy-src="`/lazy.png`" :title="title" :height="height">
+  <v-img :src="setSrc" :lazy-src="lazySrc" :title="title" :height="height">
     <template v-slot:placeholder>
       <v-layout fill-height align-center justify-center ma-0>
         <v-progress-circular indeterminate color="grey lighten-5" />
@@ -16,13 +16,17 @@ export default {
       type: String,
       required: true
     },
+    lazySrc: {
+      type: String,
+      default: '/lazy.png'
+    },
     title: {
       type: String,
       required: true
     },
     height: {
       type: Number,
-      default: 185
+      default: undefined
     }
   },
   data: () => ({

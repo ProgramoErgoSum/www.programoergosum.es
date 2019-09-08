@@ -1,13 +1,7 @@
 <template>
   <div class="popup text-center">
     <v-avatar size="110">
-      <v-img :src="center.image" :lazy-src="`/lazy-user.png`">
-        <template v-slot:placeholder>
-          <v-row class="fill-height ma-0" align="center" justify="center">
-            <v-progress-circular indeterminate color="grey lighten-5" />
-          </v-row>
-        </template>
-      </v-img>
+      <VImageLazy :src="center.image" :title="center.name" />
     </v-avatar>
     <p class="ma-0 mt-3 font-weight-bold">
       {{ center.name }}

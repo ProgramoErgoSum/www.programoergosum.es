@@ -1,17 +1,10 @@
 <template>
   <v-card :to="`/actividades/${activity.alias}`" nuxt>
-    <v-img
+    <VImageLazy
       :src="`/images/actividades/${activity.alias}/${activity.image}`"
-      :lazy-src="`/lazy.png`"
-      :title="`${activity.title}`"
-      height="250"
-    >
-      <template v-slot:placeholder>
-        <v-row class="fill-height ma-0" align="center" justify="center">
-          <v-progress-circular indeterminate color="grey lighten-5" />
-        </v-row>
-      </template>
-    </v-img>
+      :title="activity.title"
+      :height="250"
+    />
     <v-card-title primary-title>
       <h3 class="mb-4 title">{{ activity.title }}</h3>
       <div class="subtitle-1">{{ activity.description }}</div>

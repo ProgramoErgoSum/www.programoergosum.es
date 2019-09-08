@@ -8,17 +8,10 @@
         target="_blank"
       >
         <v-avatar size="50">
-          <v-img
+          <VImageLazy
             :src="`https://avatars.githubusercontent.com/${author}`"
-            :lazy-src="`/lazy-user.png`"
-            :alt="author"
-          >
-            <template v-slot:placeholder>
-              <v-row class="fill-height ma-0" align="center" justify="center">
-                <v-progress-circular indeterminate color="grey lighten-5" />
-              </v-row>
-            </template>
-          </v-img>
+            :title="author"
+          />
         </v-avatar>
       </a>
     </template>
