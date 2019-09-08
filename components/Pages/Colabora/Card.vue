@@ -4,7 +4,7 @@
       <VImageLazy
         :src="card.image"
         lazy-src="/lazy-user.png"
-        :title="card.title"
+        :title="card.name"
       />
     </v-avatar>
     <p class="my-3">
