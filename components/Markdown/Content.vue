@@ -45,22 +45,30 @@ export default {
       })
       md.use(toc, {
         anchorLink: false
-        // slugify: string => `/${this.$route.path}/#${string}`
       })
 
       // console.log(md.renderer)
       // Renderer images relative url cdn
       md.renderer.rules.image = function(tokens, idx, options, env, slf) {
         const token = tokens[idx]
+        const src = '/lazy.png'
+        let dataSrc = ''
+        let alt = ''
         token.attrs = token.attrs.map(attr => {
           if (attr[0] === 'src') {
             if (attr[1].substring(0, 4) !== 'http') {
               attr[1] = `${cdn}/${attr[1]}`
             }
+            dataSrc = attr[1]
+          }
+          if (attr[0] === 'title') {
+            if (attr[1] !== '') alt = attr[1]
           }
           return attr
         })
-        return '<img' + slf.renderAttrs(token) + '>'
+        // console.log(token.attrs)
+        // return '<img' + slf.renderAttrs(token) + '>'
+        return `<figure><img data-src="${src}" src="${dataSrc}" alt="${alt}"><figcaption>${alt}</figcaption></figure>`
       }
 
       // Renderer iframe
@@ -250,10 +258,24 @@ export default {
       background: #f0f0f0;
     }
   }
+  /*
   img {
     display: block;
     max-width: 100%;
     margin: 20px auto 50px;
+  }
+  */
+  figure {
+    margin: 20px auto 50px;
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+    figcaption {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+    }
   }
   hr {
     display: block;
