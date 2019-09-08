@@ -2,18 +2,13 @@
   <v-card :to="`/blog/${blog.alias}`" tile nuxt>
     <v-row no-gutters>
       <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="3">
-        <v-img
-          :src="setSrc"
-          :lazy-src="`/lazy.png`"
-          :title="`${blog.title}`"
-          height="185"
-        >
-          <template v-slot:placeholder>
-            <v-layout fill-height align-center justify-center ma-0>
-              <v-progress-circular indeterminate color="grey lighten-5" />
-            </v-layout>
-          </template>
-        </v-img>
+        <VImageLazy
+          :src="
+            `${this.$store.state.blogs.repo_raw}/${blog.alias}/img/${blog.image}`
+          "
+          :title="blog.title"
+          :height="185"
+        />
       </v-col>
       <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="9">
         <v-card-title primary-title>
@@ -48,29 +43,6 @@ export default {
       type: Object,
       required: true
     }
-  },
-  data: () => ({
-    observer: null,
-    intersected: false
-  }),
-  computed: {
-    setSrc() {
-      const src = `${this.$store.state.blogs.repo_raw}/${this.blog.alias}/img/${this.blog.image}`
-      return this.intersected ? src : ''
-    }
-  },
-  mounted() {
-    this.observer = new IntersectionObserver(entries => {
-      const image = entries[0]
-      if (image.isIntersecting) {
-        this.intersected = true
-        this.observer.disconnect()
-      }
-    })
-    this.observer.observe(this.$el)
-  },
-  destroyed() {
-    this.observer.disconnect()
   }
 }
 </script>
