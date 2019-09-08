@@ -3,7 +3,7 @@
     <v-row no-gutters>
       <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="3">
         <v-img
-          :src="`${repo_raw}/${blog.alias}/img/${blog.image}`"
+          :src="setSrc"
           :lazy-src="`/lazy.png`"
           :title="`${blog.title}`"
           height="185"
@@ -49,12 +49,28 @@ export default {
       required: true
     }
   },
+  data: () => ({
+    observer: null,
+    intersected: false
+  }),
   computed: {
-    repo_raw: {
-      get() {
-        return this.$store.state.blogs.repo_raw
-      }
+    setSrc() {
+      const src = `${this.$store.state.blogs.repo_raw}/${this.blog.alias}/img/${this.blog.image}`
+      return this.intersected ? src : ''
     }
+  },
+  mounted() {
+    this.observer = new IntersectionObserver(entries => {
+      const image = entries[0]
+      if (image.isIntersecting) {
+        this.intersected = true
+        this.observer.disconnect()
+      }
+    })
+    this.observer.observe(this.$el)
+  },
+  destroyed() {
+    this.observer.disconnect()
   }
 }
 </script>
