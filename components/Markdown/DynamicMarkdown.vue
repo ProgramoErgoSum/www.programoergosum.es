@@ -51,7 +51,9 @@ export default {
     this.$options.staticRenderFns = new Function(this.staticRenderFuncs)()
   },
   render(createElement) {
-    return this.templateRender()
+    return this.templateRender
+      ? this.templateRender()
+      : createElement('div', 'Rendering')
   }
 }
 </script>
