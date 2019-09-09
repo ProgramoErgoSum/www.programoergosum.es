@@ -37,13 +37,8 @@ import toc from 'markdown-it-toc-and-anchor'
 export default {
   name: 'Toc',
   props: {
-    /**
-     * readme.path
-     * readme.body
-     * readme.image
-     */
-    readme: {
-      type: Object,
+    raw: {
+      type: String,
       required: true
     }
   },
@@ -55,13 +50,12 @@ export default {
     }
   },
   created() {
-    const md = markdownIt({
+    // Doc: https://github.com/markdown-it/markdown-it
+    const md = markdownIt('commonmark', {
       html: true,
-      xhtmlOut: true,
-      breaks: true,
-      linkify: true,
-      typographer: true
+      linkify: true
     })
+    // Add anchor toc
     md.use(toc, {
       anchorClassName: 'toc-anchor',
       tocCallback: (tocMarkdown, tocArray, tocHtml) => {
@@ -74,7 +68,8 @@ export default {
         }
       }
     })
-    md.render(this.readme.body)
+
+    md.render(this.raw)
   },
   methods: {
     goTo(anchor, event) {

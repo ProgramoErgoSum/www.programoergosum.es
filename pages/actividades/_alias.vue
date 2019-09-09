@@ -9,11 +9,11 @@
     <v-container>
       <v-row>
         <v-col xs="12" sm="12" md="9" lg="9" xl="9">
-          <Content :readme="readme" />
+          <Content :raw="raw" :cdn="cdn" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="3">
           <div class="sticky-top">
-            <Toc :readme="readme" />
+            <Toc :raw="raw" />
           </div>
         </v-col>
       </v-row>
@@ -39,23 +39,22 @@ export default {
   validate({ store, params }) {
     return store.state.activities.list.find(e => e.alias === params.alias)
   },
-  async asyncData({ store, params }) {
+  async asyncData({ env, store, params }) {
     const activity = store.state.activities.list.find(e => {
       return e.alias === params.alias
     })
 
     const path = `actividades/${params.alias}`
     const file = await import(`@/doc/${path}/README.md`)
-    const readme = {
-      cdn: `images/${path}`,
-      body: file.body
-    }
 
     return {
       title: activity.title,
       description: activity.description,
-      image: `/images/${path}/${activity.image}`,
-      readme,
+      image: `${env.cdn}/images/${path}/${activity.image}`,
+
+      raw: file.body,
+      cdn: `${env.cdn}/images/${path}/`,
+
       breadcrumbs: [
         {
           text: 'Actividades',
@@ -73,7 +72,7 @@ export default {
   head() {
     const title = this.title
     const description = this.description
-    const image = `${process.env.cdn}${this.image}`
+    const image = `${this.cdn}${this.image}`
 
     return {
       title,

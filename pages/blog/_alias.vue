@@ -19,11 +19,11 @@
           <Authors :authors="authors" class="mt-6" />
           <Contributing :edit-link="editLink" class="mt-1" />
 
-          <Content :readme="readme" class="mt-12" />
+          <Content :raw="raw" :cdn="cdn" class="mt-12" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
-            <Toc :readme="readme" />
+            <Toc :raw="raw" />
           </div>
         </v-col>
       </v-row>
@@ -60,28 +60,27 @@ export default {
       return e.alias === params.alias
     })
 
-    const raw = `${store.state.blogs.repo_raw}/${blog.alias}`
+    const urlRaw = `${store.state.blogs.repo_raw}/${blog.alias}`
     const endpoint = `${store.state.blogs.repo_raw}/${blog.alias}/README.md`
     const edit = `${store.state.blogs.repo_edit}/${blog.alias}/README.md`
 
-    const markdown = await axios.get(endpoint).then(res => {
+    const file = await axios.get(endpoint).then(res => {
       return res.data
     })
-
-    const readme = {
-      cdn: raw,
-      body: markdown
-    }
 
     return {
       title: blog.title,
       description: blog.description,
-      image: `${raw}/img/${blog.image}`,
+      image: `${urlRaw}/img/${blog.image}`,
+
       date: blog.date,
       tags: blog.tags,
       editLink: edit,
       authors: blog.authors,
-      readme,
+
+      raw: file,
+      cdn: `${urlRaw}/`,
+
       breadcrumbs: [
         {
           text: 'Blog',

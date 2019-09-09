@@ -1,6 +1,6 @@
 <template>
   <!-- eslint-disable-next-line vue/no-v-html -->
-  <div class="markdown" v-html="renderer" />
+  <div class="DynamicMarkdown" v-html="renderer" />
 </template>
 
 <script>
@@ -13,20 +13,19 @@ export default {
   name: 'Content',
   components: {},
   props: {
-    /**
-     * readme.cdn
-     * readme.body
-     * readme.image
-     */
-    readme: {
-      type: Object,
+    raw: {
+      type: String,
       required: true
+    },
+    cdn: {
+      type: String,
+      default: ''
     }
   },
   computed: {
     // Doc: https://github.com/markdown-it/markdown-it
     renderer() {
-      const cdn = this.readme.cdn
+      const cdn = this.cdn
       const md = markdownIt('commonmark', {
         html: true,
         xhtmlOut: true,
@@ -43,58 +42,64 @@ export default {
           return ''
         }
       })
+
       md.use(toc, {
         anchorLink: false
       })
 
-      // console.log(md.renderer)
-      // Renderer images relative url cdn
+      // Lazy images and cdn
       md.renderer.rules.image = function(tokens, idx, options, env, slf) {
         const token = tokens[idx]
-        let src = '/lazy.png'
-        // let dataSrc = ''
+        const src = '/lazy.png'
+        let dataSrc = ''
         let alt = ''
         token.attrs = token.attrs.map(attr => {
           if (attr[0] === 'src') {
             if (attr[1].substring(0, 4) !== 'http') {
-              attr[1] = `${cdn}/${attr[1]}`
+              attr[1] = `${cdn}${attr[1]}`
             }
-            src = attr[1]
+            dataSrc = attr[1]
           }
-          if (attr[0] === 'title') {
-            if (attr[1] !== '') alt = attr[1]
-          }
+
+          if (attr[0] === 'title' && attr[1] !== '') alt = attr[1]
+
           return attr
         })
-        return `<figure><img src="${src}" alt="${alt}"><figcaption>${alt}</figcaption></figure>`
-        /*
-        return Vue.component('async-example', {
-          template: '<div>I am async!</div>'
+        return `<figure><img class="lazy" src="${src}" data-src="${dataSrc}" alt="${alt}"><figcaption>${alt}</figcaption></figure>`
+      }
+
+      return md.render(this.raw)
+    }
+  },
+  mounted() {
+    const lazyImages = [].slice.call(
+      document.querySelectorAll('.DynamicMarkdown img.lazy')
+    )
+    if ('IntersectionObserver' in window) {
+      const lazyImageObserver = new IntersectionObserver(function(
+        entries,
+        observer
+      ) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            const lazyImage = entry.target
+            lazyImage.src = lazyImage.dataset.src
+            // lazyImage.srcset = lazyImage.dataset.srcset
+            lazyImage.classList.remove('lazy')
+            lazyImageObserver.unobserve(lazyImage)
+          }
         })
-        */
-        // return `<VImageLazy :src="${src}" :title="${alt}" />`
-      }
-
-      // Renderer iframe
-      /*
-      md.renderer.rules.html_block = function(tokens, idx, options, env, slf) {
-        const token = tokens[idx]
-        if (token.content.includes('class="iframe"')) {
-          // console.log(token)
-          return token.content + '<Component />'
-        }
-        return 'FIX'
-      }
-      */
-
-      return md.render(this.readme.body)
+      })
+      lazyImages.forEach(function(lazyImage) {
+        lazyImageObserver.observe(lazyImage)
+      })
     }
   }
 }
 </script>
 
 <style lang="scss">
-.markdown {
+.DynamicMarkdown {
   font-size: 20px;
   h1 {
     margin-bottom: 20px;
