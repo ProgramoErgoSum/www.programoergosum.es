@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col cols="12">
-          <Content :readme="readme" />
+          <Content :raw="raw" />
         </v-col>
       </v-row>
     </v-container>
@@ -23,12 +23,9 @@ export default {
   async asyncData({ params }) {
     const path = `legal/${params.alias}`
     const file = await import(`@/doc/${path}/README.md`)
-    const readme = {
-      cdn: path,
-      body: file.body
-    }
+
     return {
-      readme
+      raw: file.body
     }
   },
   head() {
