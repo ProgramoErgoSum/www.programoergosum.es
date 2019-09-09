@@ -1,20 +1,4 @@
 <script>
-/*
-import hljs from 'highlight.js/lib/highlight'
-import javascript from 'highlight.js/lib/languages/javascript'
-import css from 'highlight.js/lib/languages/css'
-import xml from 'highlight.js/lib/languages/xml'
-import bash from 'highlight.js/lib/languages/bash'
-import ini from 'highlight.js/lib/languages/ini'
-
-import 'highlight.js/styles/a11y-light.css'
-hljs.registerLanguage('javascript', javascript)
-hljs.registerLanguage('css', css)
-hljs.registerLanguage('xml', xml)
-hljs.registerLanguage('bash', bash)
-hljs.registerLanguage('bash', ini)
-*/
-
 export default {
   name: 'DynamicMarkdown',
   components: {},
@@ -39,6 +23,9 @@ export default {
       images.forEach(image => {
         image.src = image.src.replace(image.baseURI, this.cdn)
       })
+    },
+    renderer() {
+      return this.templateRender
     }
   },
   mounted() {
@@ -57,6 +44,7 @@ export default {
   }
 }
 </script>
+
 <style lang="scss">
 .DynamicMarkdown {
   font-size: 20px;
@@ -226,13 +214,11 @@ export default {
       background: #f0f0f0;
     }
   }
-  /*
   img {
     display: block;
     max-width: 100%;
     margin: 20px auto 50px;
   }
-  */
   figure {
     margin: 20px auto 50px;
     text-align: center;
