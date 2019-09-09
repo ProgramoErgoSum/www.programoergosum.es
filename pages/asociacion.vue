@@ -8,19 +8,15 @@
     <v-container>
       <v-row>
         <v-col xs="12" sm="12" md="9" lg="9" xl="9">
-          <client-only>
-            <DynamicMarkdown
-              :cdn="cdn"
-              :render-func="renderFunc"
-              :static-render-funcs="staticRenderFns"
-            />
-          </client-only>
+          <DynamicMarkdown
+            :cdn="cdn"
+            :render-func="renderFunc"
+            :static-render-funcs="staticRenderFns"
+          />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="3">
           <div class="sticky-top">
-            <client-only>
-              <DynamicToc :raw="raw" />
-            </client-only>
+            <DynamicToc :raw="raw" />
           </div>
         </v-col>
       </v-row>
