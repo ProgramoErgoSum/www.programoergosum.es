@@ -1,7 +1,11 @@
 <script>
+import VImageLazy from '@/components/Global/VImageLazy'
+
 export default {
   name: 'DynamicMarkdown',
-  components: {},
+  components: {
+    VImageLazy
+  },
   props: {
     cdn: {
       type: String,
@@ -14,6 +18,11 @@ export default {
     staticRenderFuncs: {
       type: String,
       required: true
+    }
+  },
+  data() {
+    return {
+      templateRender: null
     }
   },
   computed: {
