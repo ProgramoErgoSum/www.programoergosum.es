@@ -1,100 +1,64 @@
-<template>
-  <!-- eslint-disable-next-line vue/no-v-html -->
-  <div class="markdown" v-html="renderer" />
-</template>
-
 <script>
-import markdownIt from 'markdown-it'
-import toc from 'markdown-it-toc-and-anchor'
-import hljs from 'highlight.js'
-import 'highlight.js/styles/xcode.css'
+/*
+import hljs from 'highlight.js/lib/highlight'
+import javascript from 'highlight.js/lib/languages/javascript'
+import css from 'highlight.js/lib/languages/css'
+import xml from 'highlight.js/lib/languages/xml'
+import bash from 'highlight.js/lib/languages/bash'
+import ini from 'highlight.js/lib/languages/ini'
+
+import 'highlight.js/styles/a11y-light.css'
+hljs.registerLanguage('javascript', javascript)
+hljs.registerLanguage('css', css)
+hljs.registerLanguage('xml', xml)
+hljs.registerLanguage('bash', bash)
+hljs.registerLanguage('bash', ini)
+*/
 
 export default {
-  name: 'Content',
+  name: 'DynamicMarkdown',
   components: {},
   props: {
-    /**
-     * readme.cdn
-     * readme.body
-     * readme.image
-     */
-    readme: {
-      type: Object,
+    cdn: {
+      type: String,
+      default: ''
+    },
+    renderFunc: {
+      type: String,
+      required: true
+    },
+    staticRenderFuncs: {
+      type: String,
       required: true
     }
   },
   computed: {
-    // Doc: https://github.com/markdown-it/markdown-it
-    renderer() {
-      const cdn = this.readme.cdn
-      const md = markdownIt('commonmark', {
-        html: true,
-        xhtmlOut: true,
-        breaks: true,
-        langPrefix: 'language-',
-        linkify: true,
-        typographer: true,
-        highlight(str, lang) {
-          if (lang && hljs.getLanguage(lang)) {
-            try {
-              return hljs.highlight(lang, str).value
-            } catch (__) {}
-          }
-          return ''
-        }
+    // eslint-disable-next-line vue/return-in-computed-property
+    initImages() {
+      const images = document.querySelectorAll('.DynamicMarkdown img')
+      images.forEach(image => {
+        image.src = image.src.replace(image.baseURI, this.cdn)
       })
-      md.use(toc, {
-        anchorLink: false
-      })
-
-      // console.log(md.renderer)
-      // Renderer images relative url cdn
-      md.renderer.rules.image = function(tokens, idx, options, env, slf) {
-        const token = tokens[idx]
-        let src = '/lazy.png'
-        // let dataSrc = ''
-        let alt = ''
-        token.attrs = token.attrs.map(attr => {
-          if (attr[0] === 'src') {
-            if (attr[1].substring(0, 4) !== 'http') {
-              attr[1] = `${cdn}/${attr[1]}`
-            }
-            src = attr[1]
-          }
-          if (attr[0] === 'title') {
-            if (attr[1] !== '') alt = attr[1]
-          }
-          return attr
-        })
-        return `<figure><img src="${src}" alt="${alt}"><figcaption>${alt}</figcaption></figure>`
-        /*
-        return Vue.component('async-example', {
-          template: '<div>I am async!</div>'
-        })
-        */
-        // return `<VImageLazy :src="${src}" :title="${alt}" />`
-      }
-
-      // Renderer iframe
-      /*
-      md.renderer.rules.html_block = function(tokens, idx, options, env, slf) {
-        const token = tokens[idx]
-        if (token.content.includes('class="iframe"')) {
-          // console.log(token)
-          return token.content + '<Component />'
-        }
-        return 'FIX'
-      }
-      */
-
-      return md.render(this.readme.body)
     }
+  },
+  mounted() {
+    if (this.cdn !== '') return this.initImages
+  },
+  created() {
+    // eslint-disable-next-line no-new-func
+    this.templateRender = new Function(this.renderFunc)()
+    // eslint-disable-next-line no-new-func
+    this.$options.staticRenderFns = new Function(this.staticRenderFuncs)()
+  },
+  render(createElement) {
+    return this.templateRender
+      ? this.templateRender()
+      : createElement('div', 'Rendering')
   }
 }
 </script>
-
 <style lang="scss">
-.markdown {
+.DynamicMarkdown {
   font-size: 20px;
   h1 {
     margin-bottom: 20px;

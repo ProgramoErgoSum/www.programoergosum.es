@@ -1,4 +1,6 @@
 import path from 'path'
+import MarkdownIt from 'markdown-it'
+import toc from 'markdown-it-toc-and-anchor'
 
 import activities from './store/api/v1/activities.json'
 import blogs from './store/api/v1/blogs.json'
@@ -175,14 +177,28 @@ export default {
         include: path.resolve(__dirname, 'doc'),
         options: {
           mode: [
-            /*
-            'meta', 'html',
-            'vue-component', 'vue-render-functions'
-            */
+            // 'meta',
+            // 'html',
+            // 'vue-component',
+            'vue-render-functions',
             'body'
           ],
+          markdown: body => {
+            const md = new MarkdownIt({
+              html: true,
+              xhtmlOut: true,
+              breaks: true,
+              langPrefix: 'language-',
+              linkify: true,
+              typographer: true
+            })
+            md.use(toc, {
+              anchorLink: false
+            })
+            return md.render(body)
+          },
           vue: {
-            root: 'dynamicContent'
+            root: 'DynamicMarkdown'
           }
         }
       })

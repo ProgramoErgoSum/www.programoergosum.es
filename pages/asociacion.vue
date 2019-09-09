@@ -7,10 +7,36 @@
     />
     <v-container>
       <v-row>
-        <v-col cols="12">
-          <Content :readme="readme" />
+        <v-col xs="12" sm="12" md="9" lg="9" xl="9">
+          <client-only>
+            <DynamicMarkdown
+              :cdn="cdn"
+              :render-func="renderFunc"
+              :static-render-funcs="staticRenderFns"
+            />
+          </client-only>
+        </v-col>
+        <v-col class="hidden-sm-and-down" md="3" lg="3" xl="3">
+          <div class="sticky-top">
+            <client-only>
+              <DynamicToc :raw="raw" />
+            </client-only>
+          </div>
         </v-col>
       </v-row>
+      <!--
+      <v-row>
+        <v-col cols="12">
+          <client-only>
+            <DynamicMarkdown
+              :cdn="cdn"
+              :render-func="renderFunc"
+              :static-render-funcs="staticRenderFns"
+            />
+          </client-only>
+        </v-col>
+      </v-row>
+      -->
     </v-container>
     <section class="py-12 block-grey">
       <Volunteers />
@@ -20,26 +46,27 @@
 </template>
 
 <script>
-import Content from '@/components/Markdown/Content'
+import DynamicMarkdown from '@/components/Markdown/DynamicMarkdown'
+import DynamicToc from '@/components/Markdown/DynamicToc'
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Content,
+    DynamicMarkdown,
+    DynamicToc,
     Volunteers,
     Reg
   },
-  async asyncData({ store }) {
+  async asyncData({ store, env }) {
     const file = await import('@/doc/asociacion/README.md')
-    const readme = {
-      cdn: 'images/asociacion',
-      body: file.body
-    }
 
     return {
       metas: store.state.metas.asociacion,
-      readme
+      raw: file.body,
+      cdn: `${env.cdn}/images/asociacion/`,
+      renderFunc: file.vue.render,
+      staticRenderFns: file.vue.staticRenderFns
     }
   },
   head() {
@@ -66,4 +93,10 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 140px;
+}
+</style>
