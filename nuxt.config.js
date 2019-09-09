@@ -1,6 +1,6 @@
 import path from 'path'
-// import MarkdownIt from 'markdown-it'
-// import toc from 'markdown-it-toc-and-anchor'
+import MarkdownIt from 'markdown-it'
+import toc from 'markdown-it-toc-and-anchor'
 
 import activities from './store/api/v1/activities.json'
 import blogs from './store/api/v1/blogs.json'
@@ -183,7 +183,6 @@ export default {
             'vue-render-functions',
             'body'
           ],
-          /*
           markdown: body => {
             const md = new MarkdownIt({
               html: true,
@@ -198,7 +197,6 @@ export default {
             })
             return md.render(body)
           },
-          */
           vue: {
             root: 'DynamicMarkdown'
           }

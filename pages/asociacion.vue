@@ -9,7 +9,6 @@
       <v-row>
         <v-col xs="12" sm="12" md="9" lg="9" xl="9">
           <DynamicMarkdown
-            :raw="raw"
             :cdn="cdn"
             :render-func="renderFunc"
             :static-render-funcs="staticRenderFns"

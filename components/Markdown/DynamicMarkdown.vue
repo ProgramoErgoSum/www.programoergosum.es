@@ -1,11 +1,7 @@
 <script>
-import VImageLazy from '@/components/Global/VImageLazy'
-
 export default {
   name: 'DynamicMarkdown',
-  components: {
-    VImageLazy
-  },
+  components: {},
   props: {
     cdn: {
       type: String,
@@ -25,6 +21,7 @@ export default {
       templateRender: null
     }
   },
+  /*
   computed: {
     // eslint-disable-next-line vue/return-in-computed-property
     initImages() {
@@ -32,14 +29,12 @@ export default {
       images.forEach(image => {
         image.src = image.src.replace(image.baseURI, this.cdn)
       })
-    },
-    renderer() {
-      return this.templateRender
     }
   },
   mounted() {
     if (this.cdn !== '') return this.initImages
   },
+  */
   created() {
     // eslint-disable-next-line no-new-func
     this.templateRender = new Function(this.renderFunc)()
