@@ -72,6 +72,7 @@ export default {
     }
   },
   mounted() {
+    // Doc: https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/
     const lazyImages = [].slice.call(
       document.querySelectorAll('.DynamicMarkdown img.lazy')
     )
