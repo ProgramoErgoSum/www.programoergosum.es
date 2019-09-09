@@ -72,7 +72,7 @@ export default {
   head() {
     const title = this.title
     const description = this.description
-    const image = `${this.cdn}${this.image}`
+    const image = this.image
 
     return {
       title,

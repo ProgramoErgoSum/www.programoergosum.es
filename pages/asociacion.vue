@@ -1,10 +1,6 @@
 <template>
   <div>
-    <Title
-      :title="metas.title"
-      :description="metas.description"
-      :image="metas.image"
-    />
+    <Title :title="title" :description="description" :image="image" />
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -30,18 +26,23 @@ export default {
     Reg
   },
   async asyncData({ env, store }) {
+    const metas = store.state.metas.asociacion
+
     const file = await import('@/doc/asociacion/README.md')
 
     return {
-      metas: store.state.metas.asociacion,
+      title: metas.title,
+      description: metas.description,
+      image: `${env.cdn}${metas.image}`,
+
       raw: file.body,
       cdn: `${env.cdn}/images/asociacion/`
     }
   },
   head() {
-    const title = this.metas.title
-    const description = this.metas.description
-    const image = `${process.env.cdn}${this.metas.image}`
+    const title = this.title
+    const description = this.description
+    const image = this.image
     return {
       title,
       meta: [
