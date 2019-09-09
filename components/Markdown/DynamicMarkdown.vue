@@ -21,7 +21,6 @@ export default {
       templateRender: null
     }
   },
-  /*
   computed: {
     // eslint-disable-next-line vue/return-in-computed-property
     initImages() {
@@ -34,7 +33,6 @@ export default {
   mounted() {
     if (this.cdn !== '') return this.initImages
   },
-  */
   created() {
     // eslint-disable-next-line no-new-func
     this.templateRender = new Function(this.renderFunc)()
@@ -42,7 +40,7 @@ export default {
     this.$options.staticRenderFns = new Function(this.staticRenderFuncs)()
   },
   render(createElement) {
-    return this.templateRender
+    return this.templateRender !== null
       ? this.templateRender()
       : createElement('div', 'Rendering')
   }

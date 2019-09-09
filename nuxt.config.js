@@ -176,6 +176,7 @@ export default {
         loader: 'frontmatter-markdown-loader',
         include: path.resolve(__dirname, 'doc'),
         options: {
+          /*
           mode: [
             // 'meta',
             // 'html',
@@ -183,6 +184,7 @@ export default {
             'vue-render-functions',
             'body'
           ],
+          */
           markdown: body => {
             const md = new MarkdownIt({
               html: true,
