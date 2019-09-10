@@ -108,11 +108,11 @@ export default {
     line-height: 1.8;
     strong {
       font-weight: 500;
-      color: #d25f34;
+      color: #ae4119;
     }
     .stress {
       padding: 2px 5px;
-      background: #d25f34;
+      background: #ae4119;
       color: #fff;
     }
   }

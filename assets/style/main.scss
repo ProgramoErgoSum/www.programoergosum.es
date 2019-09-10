@@ -19,7 +19,7 @@
 }
 a {
   text-decoration: none;
-  color: #d25f34;
+  color: #ae4119;
 }
 
 .nuxt-content {
@@ -30,9 +30,15 @@ a {
 
 .v-toolbar__content {
   // height: 64px !important;
+  .v-btn {
+    font-weight: 300;
+  }
   .v-btn:hover,
   .v-btn--active {
-    color: #d25f34 !important;
+    color: #ae4119 !important;
+  }
+  .v-btn--active {
+    font-weight: 500;
   }
   .v-btn:hover::before,
   .v-btn--active::before {
@@ -45,13 +51,13 @@ a {
   padding: 0 !important;
   border-top: 1px solid #f0f0f0;
   .v-btn {
-    // color: #d25f34 !important;
+    // color: #ae4119 !important;
     border-bottom: 3px solid transparent;
   }
   .v-btn:hover,
   .v-btn--active {
-    color: #d25f34 !important;
-    border-bottom: 3px solid #d25f34;
+    color: #ae4119 !important;
+    border-bottom: 3px solid #ae4119;
   }
   .v-btn:hover::before,
   .v-btn--active::before {
@@ -84,6 +90,6 @@ a {
   background: #f0f0f0;
 }
 .block-orange {
-  background: #d25f34;
+  background: #ae4119;
   color: #fff;
 }

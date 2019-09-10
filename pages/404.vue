@@ -42,7 +42,7 @@ export default {
   h3 {
     font-size: 170px;
     line-height: 170px;
-    color: #d25f34;
+    color: #ae4119;
   }
   p {
     font-size: 30px;

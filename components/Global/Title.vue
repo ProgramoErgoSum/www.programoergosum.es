@@ -66,7 +66,7 @@ export default {
 
 <style lang="scss" scoped>
 .title {
-  background: #d25f34b7;
+  background: #ae4119b7;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;

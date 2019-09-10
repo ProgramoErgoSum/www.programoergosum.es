@@ -26,7 +26,7 @@
           :key="index"
           :to="item.to"
           :disabled="item.disabled"
-          class="font-weight-light text-capitalize py-4"
+          class="text-capitalize py-4"
           :class="item.to === '/' ? 'v-btn--active' : ''"
           text
           small
@@ -41,7 +41,7 @@
           :disabled="item.disabled"
           rel="noopener noreferrer"
           target="_blank"
-          class="font-weight-light text-capitalize py-4"
+          class="text-capitalize py-4"
           small
           text
         >

@@ -1,5 +1,5 @@
 <template>
-  <div id="centros">
+  <div>
     <Title
       :title="metas.title"
       :description="metas.description"
