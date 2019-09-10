@@ -34,10 +34,7 @@
           lg="3"
         >
           <div class="ccbysa">
-            <img
-              alt="Licencia de Creative Commons"
-              src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg"
-            />
+            <ccbysa />
             <br />
             A menos que se especifique lo contrario, todos los contenidos de
             este proyecto están bajo una licencia de
@@ -93,8 +90,13 @@
 </template>
 
 <script>
+import ccbysa from '@/components/Layout/Logos/ccbysa'
+
 export default {
   name: 'Footer',
+  components: {
+    ccbysa
+  },
   data: () => ({
     socials: [
       {
@@ -185,8 +187,7 @@ export default {
   .ccbysa {
     text-align: right;
     font-size: 12px;
-    img {
-      width: 150px;
+    svg {
       margin-bottom: 10px;
     }
   }
