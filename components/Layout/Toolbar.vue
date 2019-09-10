@@ -10,7 +10,7 @@
     app
   >
     <v-toolbar-title class="hidden-md-and-up">
-      <nuxt-link to="/">
+      <nuxt-link to="/" aria-label="Inicio">
         <Logo size="36" class="mt-2" />
       </nuxt-link>
     </v-toolbar-title>
@@ -58,7 +58,7 @@
     <template v-if="$vuetify.breakpoint.mdAndUp" v-slot:extension>
       <v-toolbar-items class="extension">
         <v-toolbar-title class="px-3 mr-5">
-          <nuxt-link to="/">
+          <nuxt-link to="/" aria-label="Inicio">
             <Logo class="mt-2" />
           </nuxt-link>
         </v-toolbar-title>

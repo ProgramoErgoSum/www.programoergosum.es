@@ -8,6 +8,7 @@
       bottom
       right
       @click="toTop"
+      aria-label="Subir"
     >
       <v-icon>mdi-chevron-up</v-icon>
     </v-btn>

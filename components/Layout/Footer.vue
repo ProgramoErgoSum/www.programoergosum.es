@@ -16,6 +16,7 @@
               rel="noopener noreferrer"
               target="_blank"
               icon
+              :aria-label="social.name"
             >
               <v-icon>
                 {{ social.icon }}
@@ -98,22 +99,27 @@ export default {
     socials: [
       {
         icon: 'mdi-twitter',
+        name: 'Twitter',
         href: 'https://twitter.com/ProgramoErgoSum'
       },
       {
         icon: 'mdi-youtube',
+        name: 'YouTube',
         href: 'https://www.youtube.com/c/ProgramoErgoSum?sub_confirmation=1'
       },
       {
         icon: 'mdi-instagram',
+        name: 'Instagram',
         href: 'https://www.instagram.com/programoergosum'
       },
       {
         icon: 'mdi-facebook',
+        name: 'Facebook',
         href: 'https://www.facebook.com/ProgramoErgoSum'
       },
       {
         icon: 'mdi-linkedin',
+        name: 'LinkedIn',
         href: 'https://www.linkedin.com/company/programo-ergo-sum'
       },
       /*
@@ -124,10 +130,12 @@ export default {
       */
       {
         icon: 'mdi-github-circle',
+        name: 'GitHub',
         href: 'https://github.com/ProgramoErgoSum'
       },
       {
         icon: 'mdi-slack',
+        name: 'Slack',
         href: 'https://programoergosum.slack.com/'
       }
     ],
