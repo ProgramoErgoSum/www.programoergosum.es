@@ -18,6 +18,18 @@ const state = () => ({
 const getters = {
   filterByTag: state => tag => {
     return state.list.filter(item => item.tags.includes(tag))
+  },
+  filterByTags: state => tags => {
+    let blogs = []
+    state.list.map(item => {
+      tags.map(tag => {
+        if (item.tags.includes(tag)) blogs.push(item)
+      })
+    })
+    blogs = blogs.filter((v, i, a) => a.indexOf(v) === i)
+    const ini = Math.floor(Math.random() * (blogs.length - 3))
+    const fin = ini + 3
+    return blogs.slice(ini, fin)
   }
 }
 

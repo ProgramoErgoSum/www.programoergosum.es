@@ -19,7 +19,7 @@
           <Authors :authors="authors" class="mt-6" />
           <Contributing :edit-link="editLink" class="mt-1" />
 
-          <Content :raw="raw" :cdn="cdn" class="mt-12" />
+          <Content :raw="raw" :cdn="cdn" class="my-12" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
@@ -28,6 +28,26 @@
         </v-col>
       </v-row>
     </v-container>
+
+    <section v-show="related.length > 1" class="mt-12 py-12 block-grey">
+      <v-container>
+        <v-row>
+          <v-col cols="12">
+            <h2>También te puede interesar</h2>
+          </v-col>
+          <v-col
+            v-for="blog in related"
+            :key="blog.alias"
+            cols="12"
+            xs="12"
+            sm="12"
+            md="4"
+          >
+            <ItemCol :blog="blog" />
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
   </div>
 </template>
 
@@ -39,6 +59,7 @@ import Tags from '@/components/Pages/Blog/Tags'
 import Authors from '@/components/Pages/Blog/Authors'
 import Contributing from '@/components/Pages/Blog/Contributing'
 import Content from '@/components/Markdown/Content'
+import ItemCol from '@/components/Pages/Blog/ItemCol'
 import Toc from '@/components/Markdown/Toc'
 import AdsenseBlogToc from '@/components/Adsense/BlogToc'
 
@@ -49,6 +70,7 @@ export default {
     Authors,
     Contributing,
     Content,
+    ItemCol,
     Toc,
     AdsenseBlogToc
   },
@@ -80,6 +102,8 @@ export default {
 
       raw: file,
       cdn: `${urlRaw}/`,
+
+      related: store.getters['blogs/filterByTags'](blog.tags),
 
       breadcrumbs: [
         {
@@ -121,18 +145,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.nuxt-content > .container {
-  margin-bottom: 50px;
-}
 .sticky-top {
   position: -webkit-sticky;
   position: sticky;
   top: 140px;
 }
-/*
-.separation {
-  margin: 100px 0 50px;
-  border-top: 1px solid #f0f0f0;
-}
-*/
 </style>
