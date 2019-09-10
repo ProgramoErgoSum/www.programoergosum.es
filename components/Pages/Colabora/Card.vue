@@ -19,6 +19,7 @@
       :href="card.social.url"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="Url"
     >
       <v-icon size="18" color="#000">mdi-link</v-icon>
     </v-btn>
@@ -28,6 +29,7 @@
       :href="card.social.twitter"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="Twitter"
     >
       <v-icon size="18" color="#1da1f2">mdi-twitter</v-icon>
     </v-btn>
@@ -37,6 +39,7 @@
       :href="card.social.github"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="GitHub"
     >
       <v-icon size="18" color="#333">mdi-github-circle</v-icon>
     </v-btn>
