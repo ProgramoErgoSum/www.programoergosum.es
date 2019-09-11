@@ -50,14 +50,15 @@ a {
   height: 64px !important;
   padding: 0 !important;
   border-top: 1px solid #f0f0f0;
+  /*
   .v-btn {
-    // color: #ae4119 !important;
-    border-bottom: 3px solid transparent;
+    // border-bottom: 3px solid transparent;
   }
+  */
   .v-btn:hover,
   .v-btn--active {
     color: #ae4119 !important;
-    border-bottom: 3px solid #ae4119;
+    // border-bottom: 3px solid #ae4119;
   }
   .v-btn:hover::before,
   .v-btn--active::before {

@@ -90,6 +90,14 @@
           </v-btn>
         </template>
       </v-toolbar-items>
+      <v-progress-linear
+        v-scroll="onScroll"
+        :value="progress"
+        height="3"
+        background-color="transparent"
+        absolute
+        bottom
+      />
     </template>
   </v-app-bar>
 </template>
@@ -106,11 +114,22 @@ export default {
     Logo
     // Forkme
   },
+  data() {
+    return {
+      progress: 0
+    }
+  },
   computed: {
     ...mapGetters(['navigation', 'subNavigation'])
   },
   methods: {
-    ...mapMutations(['toggleDrawer'])
+    ...mapMutations(['toggleDrawer']),
+    onScroll() {
+      if (typeof window === 'undefined') return
+      const windowHeight = window.pageYOffset
+      const pageHeight = document.body.offsetHeight - window.innerHeight
+      this.progress = (windowHeight * 100) / pageHeight
+    }
   }
 }
 </script>
