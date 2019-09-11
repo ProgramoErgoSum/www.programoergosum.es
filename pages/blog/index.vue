@@ -7,6 +7,16 @@
     />
     <v-container>
       <v-row>
+        <v-col cols="12">
+          <v-text-field
+            v-model="search"
+            label="Buscar"
+            outlined
+            hide-details
+            append-icon="mdi-magnify"
+          />
+        </v-col>
+        <!--
         <v-col class="hidden-sm-and-down" cols="12">
           <v-chip label dark @click="currentTag = 'todos'">
             Todos
@@ -22,7 +32,8 @@
             {{ tag }}
           </v-chip>
         </v-col>
-        <v-col v-for="blog in filterBlogs" :key="blog.alias" cols="12">
+        -->
+        <v-col v-for="blog in filterSearch" :key="blog.alias" cols="12">
           <Item :blog="blog" />
         </v-col>
       </v-row>
@@ -39,19 +50,26 @@ export default {
   },
   data() {
     return {
-      currentTag: 'todos'
+      search: ''
+      // currentTag: 'todos'
     }
   },
   computed: {
+    /*
     filterBlogs() {
       if (this.currentTag === 'todos') return this.blogs
       return this.$store.getters['blogs/filterByTag'](this.currentTag)
+    },
+    */
+    filterSearch() {
+      if (this.search === '') return this.blogs
+      return this.$store.getters['blogs/filterSearch'](this.search)
     }
   },
   asyncData({ store }) {
     return {
       metas: store.state.metas.blog,
-      tags: store.state.blogs.tags,
+      // tags: store.state.blogs.tags,
       blogs: store.state.blogs.list
     }
   },
