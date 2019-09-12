@@ -92,7 +92,6 @@
           </v-btn>
         </template>
       </v-toolbar-items>
-      <!--
       <v-progress-linear
         v-scroll="onScroll"
         :value="progress"
@@ -101,7 +100,6 @@
         absolute
         bottom
       />
-      -->
     </template>
   </v-app-bar>
 </template>
@@ -125,15 +123,15 @@ export default {
     ...mapGetters(['navigation', 'subNavigation'])
   },
   methods: {
-    ...mapMutations(['toggleDrawer'])
-    /*
+    ...mapMutations(['toggleDrawer']),
     onScroll() {
-      if (typeof window === 'undefined') return
-      const windowHeight = window.pageYOffset
-      const pageHeight = document.body.offsetHeight - window.innerHeight
-      this.progress = (windowHeight * 100) / pageHeight
+      this.progress = Math.round(
+        (window.scrollY /
+          (document.body.scrollHeight -
+            document.documentElement.clientHeight)) *
+          100
+      )
     }
-    */
   }
 }
 </script>
