@@ -69,10 +69,15 @@ export default {
   vuetify: {
     theme: {
       light: true,
+      // dark: true,
       themes: {
         light: {
           primary: '#ae4119',
           secondary: '#101a24'
+        },
+        dark: {
+          primary: '#ae4119',
+          secondary: '#222222'
         }
       }
     }

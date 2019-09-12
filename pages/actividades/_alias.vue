@@ -19,7 +19,7 @@
       </v-row>
     </v-container>
 
-    <section class="py-12 block-grey">
+    <section class="py-12" :class="background">
       <Volunteers />
     </section>
   </div>
@@ -35,6 +35,11 @@ export default {
     Content,
     Toc,
     Volunteers
+  },
+  computed: {
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
+    }
   },
   validate({ store, params }) {
     return store.state.activities.list.find(e => e.alias === params.alias)

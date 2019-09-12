@@ -4,11 +4,17 @@
     :extension-height="$vuetify.breakpoint.mdAndUp ? 48 : 0"
     elevate-on-scroll
     :hide-on-scroll="$vuetify.breakpoint.mdAndUp"
-    color="white"
     fixed
     dense
     app
   >
+    <v-switch
+      v-model="$vuetify.theme.dark"
+      class="mt-6 hidden-sm-and-down"
+      label="Cambia de tema"
+      color="primary"
+    />
+
     <v-toolbar-title class="hidden-md-and-up">
       <nuxt-link to="/" aria-label="Inicio">
         <Logo size="36" class="mt-2" />
@@ -51,10 +57,6 @@
       </template>
     </div>
 
-    <!--
-    <Forkme />
-    -->
-
     <template v-if="$vuetify.breakpoint.mdAndUp" v-slot:extension>
       <v-toolbar-items class="extension">
         <v-toolbar-title class="px-3 mr-5">
@@ -90,6 +92,7 @@
           </v-btn>
         </template>
       </v-toolbar-items>
+      <!--
       <v-progress-linear
         v-scroll="onScroll"
         :value="progress"
@@ -98,6 +101,7 @@
         absolute
         bottom
       />
+      -->
     </template>
   </v-app-bar>
 </template>
@@ -106,13 +110,11 @@
 import { mapGetters, mapMutations } from 'vuex'
 
 import Logo from '@/components/Layout/Logo'
-// import Forkme from '@/components/Layout/Forkme'
 
 export default {
   name: 'Toolbar',
   components: {
     Logo
-    // Forkme
   },
   data() {
     return {
@@ -123,13 +125,15 @@ export default {
     ...mapGetters(['navigation', 'subNavigation'])
   },
   methods: {
-    ...mapMutations(['toggleDrawer']),
+    ...mapMutations(['toggleDrawer'])
+    /*
     onScroll() {
       if (typeof window === 'undefined') return
       const windowHeight = window.pageYOffset
       const pageHeight = document.body.offsetHeight - window.innerHeight
       this.progress = (windowHeight * 100) / pageHeight
     }
+    */
   }
 }
 </script>

@@ -5,15 +5,15 @@
       :description="metas.description"
       :image="metas.image"
     />
-    <div class="py-12">
+    <section class="py-12">
       <Sponsors />
-    </div>
-    <div class="py-12 block-grey">
+    </section>
+    <section class="py-12" :class="background">
       <Patrons />
-    </div>
-    <div class="py-12">
+    </section>
+    <section class="py-12">
       <Paypals />
-    </div>
+    </section>
     <Reg />
   </div>
 </template>
@@ -30,6 +30,11 @@ export default {
     Patrons,
     Paypals,
     Reg
+  },
+  computed: {
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
+    }
   },
   asyncData({ store }) {
     return {

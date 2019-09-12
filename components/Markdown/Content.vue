@@ -168,6 +168,7 @@ export default {
     padding: 10px 10px 10px 20px;
     border-left: 3px solid #999;
     background: #f0f0f0;
+    color: #1e2125;
     font-style: italic;
     font-size: 1rem;
     p {

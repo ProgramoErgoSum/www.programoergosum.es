@@ -8,7 +8,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <section class="py-12 block-grey">
+    <section class="py-12" :class="background">
       <Volunteers />
     </section>
     <Reg />
@@ -24,6 +24,11 @@ export default {
     Content,
     Volunteers,
     Reg
+  },
+  computed: {
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
+    }
   },
   async asyncData({ env, store }) {
     const metas = store.state.metas.asociacion

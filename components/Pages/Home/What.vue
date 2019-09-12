@@ -1,5 +1,5 @@
 <template>
-  <div class="what">
+  <div class="py-12 white--text secondary">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -15,7 +15,7 @@
               lg="4"
               xl="4"
             >
-              <v-card class="card" flat>
+              <v-card class="white--text secondary" flat>
                 <v-icon class="mb-6" dark size="60">{{ item.icon }}</v-icon>
                 <p class="title">{{ item.title }}</p>
                 <p class="body-1 font-weight-light">
@@ -58,15 +58,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.what {
-  padding: 50px 0;
-  background: #101a24;
-  color: #fff;
-  .card {
-    width: 240px;
-    margin: 0 auto;
-    background: transparent;
-    color: #f0f0f0;
-  }
+.v-card {
+  width: 240px;
+  margin: 0 auto;
 }
 </style>

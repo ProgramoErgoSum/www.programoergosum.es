@@ -1,5 +1,5 @@
 <template>
-  <div class="block-orange">
+  <div class="primary white--text">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -21,7 +21,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'Reg'
+}
 </script>
 
 <style lang="scss" scoped></style>

@@ -29,7 +29,7 @@
       </v-row>
     </v-container>
 
-    <section v-show="related.length > 1" class="mt-12 py-12 block-grey">
+    <section v-show="related.length > 1" class="py-12" :class="background">
       <v-container>
         <v-row>
           <v-col cols="12">
@@ -73,6 +73,11 @@ export default {
     ItemCol,
     Toc,
     AdsenseBlogToc
+  },
+  computed: {
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
+    }
   },
   validate({ store, params }) {
     return store.state.blogs.list.find(e => e.alias === params.alias)

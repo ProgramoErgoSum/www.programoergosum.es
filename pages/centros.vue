@@ -73,12 +73,18 @@
               {{ centers.length }} centros educativos inscritos
             </v-toolbar-title>
           </v-toolbar>
-          <div class="mt-3" />
-          <template v-for="(item, index) in centers">
-            <v-card :key="index" class="ma-3 v-card" flat>
-              <Popup :center="item" />
-            </v-card>
-          </template>
+        </v-col>
+        <v-col
+          v-for="(item, index) in centers"
+          :key="index"
+          xs="6"
+          sm="4"
+          md="3"
+          lg="2"
+          xl="2"
+          class="pa-2"
+        >
+          <Popup :center="item" />
         </v-col>
       </v-row>
     </v-container>

@@ -1,13 +1,10 @@
 <template>
-  <!--
-  <v-footer color="secondary" dark inset padless absolute app>
-  -->
-  <div class="footer">
+  <div class="secondary white--text">
     <v-container align="center" justify="center">
       <v-row wrap>
         <v-col class="my-5" xs="12" cols="12" sm="12" md="6" lg="6">
-          <div class="socials">
-            <h4>Síguenos</h4>
+          <div class="text-md-left text-center">
+            <h4 class="mb-3 title font-weight-medium">Síguenos</h4>
             <v-btn
               v-for="social in socials"
               :key="social.icon"
@@ -18,7 +15,7 @@
               icon
               :aria-label="social.name"
             >
-              <v-icon>
+              <v-icon class="grey--text">
                 {{ social.icon }}
               </v-icon>
             </v-btn>
@@ -33,54 +30,45 @@
           offset-lg="3"
           lg="3"
         >
-          <div class="ccbysa">
+          <div class="text-md-right text-center caption font-weight-light">
             <ccbysa />
-            <br />
+            <br class="my-2" />
             A menos que se especifique lo contrario, todos los contenidos de
             este proyecto están bajo una licencia de
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="http://creativecommons.org/licenses/by-sa/4.0/"
+              class="grey--text"
             >
               Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional.
             </a>
           </div>
         </v-col>
         <v-col class="mt-5" cols="12">
-          <div class="copyleft">
-            <p class="madewith">
+          <div class="text-center body-2 font-weight-light">
+            <p class="ma-0 mb-2">
               This project is Open Source on
               <a
                 href="https://github.com/ProgramoErgoSum/www.programoergosum.es"
                 rel="noopener noreferrer"
                 target="_blank"
+                class="grey--text text--lighten-3 font-weight-medium"
               >
                 GitHub
               </a>
-              and made with <span class="heart">&hearts;</span> by
+              and made with <span class="body-1 red--text">&hearts;</span> by
               <a
                 href="https://www.migueabellan.es"
                 rel="noopener noreferrer"
                 target="_blank"
+                class="grey--text text--lighten-3 font-weight-bold"
               >
                 @migueabellan
               </a>
             </p>
-            <p>
+            <p class="ma-0 caption">
               2015-{{ new Date().getFullYear() }} Asociación Programo Ergo Sum
-              <!--
-              <template v-for="item in legal">
-                <span :key="item.link" class="px-2">|</span>
-                <nuxt-link
-                  :key="item.link"
-                  :to="item.link"
-                  rel="noopener noreferrer nofollow"
-                >
-                  {{ item.title }}
-                </nuxt-link>
-              </template>
-              -->
             </p>
           </div>
         </v-col>
@@ -140,95 +128,9 @@ export default {
         name: 'Slack',
         href: 'https://programoergosum.slack.com/'
       }
-    ],
-    legal: [
-      {
-        title: 'Código de Conducta',
-        link: '/legal/coc'
-      },
-      {
-        title: 'Ley de cookies',
-        link: '/legal/cookies'
-      }
     ]
   })
 }
 </script>
 
-<style lang="scss" scoped>
-.footer {
-  background: #101a24;
-  color: #aeb1b5;
-  font-weight: 300;
-  a {
-    color: #aeb1b5;
-    font-weight: 300;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-  h4 {
-    margin: 0 0 15px;
-    font-size: 20px;
-    font-weight: 400;
-    color: #f0f0f0;
-  }
-  .socials {
-    a {
-      &:hover {
-        text-decoration: none;
-      }
-    }
-    .v-icon {
-      color: #656e77;
-    }
-  }
-  .ccbysa {
-    text-align: right;
-    font-size: 12px;
-    svg {
-      margin-bottom: 10px;
-    }
-  }
-  .copyleft {
-    text-align: center;
-    font-weight: 300;
-    font-size: 12px;
-    a {
-      color: #f0f0f0;
-      text-decoration: none;
-    }
-    p {
-      margin: 0;
-      padding: 0;
-    }
-    .madewith {
-      margin: 0 0 5px;
-      font-size: 14px;
-      .heart {
-        font-size: 18px;
-        color: #f00;
-      }
-    }
-  }
-}
-@media only screen and (max-width: 960px) {
-  .footer {
-    .socials {
-      span {
-        display: block;
-        margin-bottom: 20px;
-      }
-      .v-btn {
-        margin: 5px;
-      }
-    }
-    .socials,
-    .block,
-    .ccbysa {
-      text-align: center;
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="title" :style="background()">
+  <div class="title primary" :style="background()">
     <v-container class="pb-6">
       <v-row>
         <v-col class="pt-12" cols="12">
@@ -20,6 +20,7 @@
               <nuxt-link
                 :to="props.item.to"
                 :class="[props.item.disabled && 'disabled']"
+                class="grey--text text--darken-3"
               >
                 {{ props.item.text }}
               </nuxt-link>
@@ -54,8 +55,12 @@ export default {
   },
   methods: {
     background() {
-      const background =
+      let background =
         'background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.7))'
+
+      if (this.$vuetify.theme.isDark)
+        background =
+          'background-image: linear-gradient(rgba(174,65,25,1), rgba(174,65,25,0.5))'
       return this.image !== ''
         ? `${background}, url(${this.image});`
         : background
@@ -66,7 +71,6 @@ export default {
 
 <style lang="scss" scoped>
 .title {
-  background: #ae4119b7;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;

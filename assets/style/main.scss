@@ -1,12 +1,11 @@
 #app {
-  background: #fff;
-  color: #2d3339; //101a24
+  // color: #2d3339; //101a24
   font-size: 18px;
   word-spacing: 1px;
 }
 
 #app .home {
-  background: #fff url(../images/bkg.jpg) center center no-repeat;
+  background: url('../images/cover.png') center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -30,6 +29,9 @@ a {
 
 .v-toolbar__content {
   // height: 64px !important;
+  label {
+    font-size: 12px;
+  }
   .v-btn {
     font-weight: 300;
   }
@@ -78,19 +80,9 @@ a {
 @media only screen and (max-width: 600px) {
 }
 
-
-
 .page-enter-active, .page-leave-active {
   transition: opacity .25s;
 }
 .page-enter, .page-leave-to {
   opacity: 0;
-}
-
-.block-grey {
-  background: #f0f0f0;
-}
-.block-orange {
-  background: #ae4119;
-  color: #fff;
 }

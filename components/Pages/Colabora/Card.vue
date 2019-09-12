@@ -1,5 +1,5 @@
 <template>
-  <div class="card ma-3">
+  <div class="ma-3 text-center">
     <v-avatar size="110">
       <VImageLazy
         :src="card.image"
@@ -10,7 +10,7 @@
     <p class="my-3">
       {{ card.name }}
     </p>
-    <p class="my-3 font-weight-light description">
+    <p class="my-3 font-weight-light subtitle-2">
       {{ card.description }}
     </p>
     <v-btn
@@ -66,12 +66,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card {
-  text-align: center;
-  .description {
-    max-width: 220px;
-    margin: 0 auto;
-    font-size: 14px;
-  }
+.v-card {
+  max-width: 220px;
+  margin: 0 auto;
 }
 </style>

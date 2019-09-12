@@ -138,14 +138,16 @@ export default {
     size: {
       type: String,
       default: '46'
-    },
-    colorIcon: {
-      type: String,
-      default: '#ae4119'
-    },
-    colorText: {
-      type: String,
-      default: '#2d3339'
+    }
+  },
+  data() {
+    return {
+      colorIcon: '#ae4119'
+    }
+  },
+  computed: {
+    colorText() {
+      return this.$vuetify.theme.isDark ? '#f0f0f0' : '#2d3339'
     }
   }
 }

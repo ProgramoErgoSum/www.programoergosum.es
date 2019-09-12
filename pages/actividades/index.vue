@@ -22,7 +22,7 @@
       </v-row>
     </v-container>
 
-    <section class="py-12 block-grey">
+    <section class="py-12" :class="background">
       <Volunteers />
     </section>
   </div>
@@ -36,6 +36,11 @@ export default {
   components: {
     Item,
     Volunteers
+  },
+  computed: {
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
+    }
   },
   asyncData({ store }) {
     return {
