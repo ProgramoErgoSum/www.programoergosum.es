@@ -6,8 +6,22 @@ import Index from '@/pages/index.vue'
 Vue.use(Vuetify)
 
 describe('Index', () => {
-  test('mounts properly', () => {
-    const wrapper = shallowMount(Index)
+  let vuetify
+
+  beforeEach(() => {
+    vuetify = new Vuetify({
+      mocks: {
+        $vuetify: {
+          theme: {
+            isDark: false
+          }
+        }
+      }
+    })
+  })
+
+  it('mounts properly', () => {
+    const wrapper = shallowMount(Index, { vuetify })
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
 })
