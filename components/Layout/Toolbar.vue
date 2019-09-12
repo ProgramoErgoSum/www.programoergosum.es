@@ -12,7 +12,7 @@
       v-model="$vuetify.theme.dark"
       class="mt-6 hidden-sm-and-down"
       :label="
-        $vuetify.theme.dark ? `Cambia a tema claro` : `Cambia a tema oscuro`
+        $vuetify.theme.dark ? `Cambia al tema claro` : `Cambia al tema oscuro`
       "
       color="primary"
     />
