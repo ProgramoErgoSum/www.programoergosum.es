@@ -11,7 +11,9 @@
     <v-switch
       v-model="$vuetify.theme.dark"
       class="mt-6 hidden-sm-and-down"
-      label="Cambia de tema"
+      :label="
+        $vuetify.theme.dark ? `Cambia a tema claro` : `Cambia a tema oscuro`
+      "
       color="primary"
     />
 
