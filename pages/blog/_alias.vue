@@ -98,7 +98,7 @@ export default {
     return {
       title: blog.title,
       description: blog.description,
-      image: `${urlRaw}/img/${blog.image}`,
+      image: `${urlRaw}/${blog.image}`,
 
       date: blog.date,
       tags: blog.tags,

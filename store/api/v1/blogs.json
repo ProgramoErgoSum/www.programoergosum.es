@@ -1,9 +1,21 @@
 [
   {
+    "alias": "programacion-orientada-a-objetos-con-scratch",
+    "title": "Programación Orientada a Objetos con Scratch",
+    "description": "El lenguaje de programación por bloques de Scratch es una herramienta muy poderosa para aprender el paradigma de la Programación Orientada a Objetos.",
+    "image": "img/preview.png",
+    "tags": ["programación", "scratch"],
+    "authors": ["migueabellan"],
+    "date": {
+      "cdate": "2018-01-28 10:42:24",
+      "mdate": "2019-09-12 19:37:12"
+    }
+  },
+  {
     "alias": "curso-de-domotica-e-internet-de-las-cosas-para-docentes",
     "title": "Curso de Domótica e Internet de las Cosas para docentes",
     "description": "II Edición del curso de Domótica e Internet de las cosas para profesores de secundaria a través del Centro de Profesorado y Recursos de la Región de Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["curso", "programación", "profesores"],
     "authors": ["migueabellan"],
     "date": {
@@ -15,20 +27,8 @@
     "alias": "participo-luego-existo-un-concurso-en-el-que-todos-ganan",
     "title": "Participo Luego Existo - Un concurso en el que todos ganan",
     "description": "II Edición del concurso «Participo Luego Existo», un concurso cuya filosofía hace hincapié en la importancia de participar y compartir para aprender.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["concurso", "programación", "robótica"],
-    "authors": ["migueabellan"],
-    "date": {
-      "cdate": "2018-01-28 10:42:24",
-      "mdate": "2019-05-09 14:05:12"
-    }
-  },
-  {
-    "alias": "programacion-orientada-a-objetos-con-scratch",
-    "title": "Programación Orientada a Objetos con Scratch",
-    "description": "El lenguaje de programación por bloques de Scratch es una herramienta muy poderosa para aprender el paradigma de la Programación Orientada a Objetos.",
-    "image": "preview.png",
-    "tags": ["programación", "scratch"],
     "authors": ["migueabellan"],
     "date": {
       "cdate": "2018-01-28 10:42:24",
@@ -39,7 +39,7 @@
     "alias": "entrevistamos-a-diego-ninja-de-coderdojo-murcia",
     "title": "Entrevistamos a Diego (Ninja de CoderDojo Murcia)",
     "description": "Entrevistamos a Diego, además de ser uno de nuestros ninjas más antiguos en CoderDojo, en ocasiones mentoriza a otros niños y niñas del club de programación.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
     "authors": ["migueabellan", "mmanzano"],
     "date": {
@@ -51,7 +51,7 @@
     "alias": "curso-de-programacion-en-minecraft-en-murcia",
     "title": "Curso de programación en Minecraft en Murcia",
     "description": "Resumen del curso gratuito de programación de videojuegos en Minecraft realizado en el IES El Carmen de Murcia a través de Redes para el tiempo libre.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["extraescolar", "programación", "minecraft"],
     "authors": ["migueabellan"],
     "date": {
@@ -63,7 +63,7 @@
     "alias": "semana-tecnologica-en-el-ies-juan-carlos-i",
     "title": "Semana tecnológica en el IES Juan Carlos I",
     "description": "Resumen del curso gratuito de programación, electrónica y robótica realizado en el IES Juan Carlos I de Murcia, durante la semana tecnológica.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["extraescolar", "programación", "robótica"],
     "authors": ["migueabellan"],
     "date": {
@@ -75,7 +75,7 @@
     "alias": "entrevistamos-a-ana-ninja-de-coderdojo-murcia",
     "title": "Entrevistamos a Ana (Ninja de CoderDojo Murcia)",
     "description": "Entrevistamos a Ana, que además de ser una de nuestras ninjas de CoderDojo Murcia desde hace más de 1 año, es una apasionada de la música y la danza.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
     "authors": ["migueabellan", "mmanzano"],
     "date": {
@@ -87,7 +87,7 @@
     "alias": "aprende-a-programar-con-minecraft-ies-el-carmen-murcia",
     "title": "Aprende a programar con Minecraft - IES El Carmen Murcia",
     "description": "Contenidos del curso gratuito de programación de videojuegos con el lenguaje de programación Python realizado en el IES El Carmen de Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["extraescolar", "programación", "minecraft"],
     "authors": ["migueabellan"],
     "date": {
@@ -99,7 +99,7 @@
     "alias": "entrevistamos-a-manolo-ninja-de-coderdojo-murcia",
     "title": "Entrevistamos a Manolo (Ninja de CoderDojo Murcia)",
     "description": "Entrevistamos a Manolo, que además de ser uno de nuestros ninjas de CoderDojo, le apasiona programar videojuegos y robots educativos.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
     "authors": ["migueabellan", "mmanzano"],
     "date": {
@@ -111,7 +111,7 @@
     "alias": "aprendiendo-a-programar-videojuegos-con-python-en-murcia",
     "title": "Aprendiendo a programar videojuegos con Python en Murcia",
     "description": "Los alumnos del IES El Carmen de Murcia aprenden a programar videojuegos en el curso gratuito de programación con Python.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["extraescolar", "programación"],
     "authors": ["migueabellan"],
     "date": {
@@ -123,7 +123,7 @@
     "alias": "entrevistamos-a-pepe-ninja-de-coderdojo-murcia",
     "title": "Entrevistamos a Pepe (Ninja de CoderDojo Murcia)",
     "description": "Entrevistamos a Pepe que con tan solo 10 años empezó a programar videojuegos con Scratch y poco a poco está aprendiendo varios lenguajes de programación.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
     "authors": ["migueabellan", "mmanzano"],
     "date": {
@@ -135,7 +135,7 @@
     "alias": "presentes-en-simo-educacion-2016",
     "title": "Presentes en SIMO Educación 2016",
     "description": "Asistimos a SIMO Educación 2016 realizando talleres para introducir la programación dentro del aula como medio de aprendizaje hacia otras asignaturas.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo"],
     "authors": ["migueabellan", "bernatllopis", "eltercerlugar"],
     "date": {
@@ -147,7 +147,7 @@
     "alias": "master-class-murcia",
     "title": "MasterClass de programación con Scratch en Murcia",
     "description": "Realizamos una Master Class gratuita de programación de videojuegos utilizando el lenguaje Scratch en el Centro Municipal 585m2 Espacio Joven de Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["programación", "scratch"],
     "authors": ["migueabellan"],
     "date": {
@@ -159,7 +159,7 @@
     "alias": "cronica-hackathon-coderdojo-murcia-13-febrero",
     "title": "Crónica del Hackathon CoderDojo Murcia - 13 Febrero",
     "description": "Crónica del hackathon familiar de CoderDojo Murcia para sensibilizar y acabar con el acoso escolar realizados en el Centro Municipal 585m2 de Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
     "authors": ["migueabellan", "mmanzano"],
     "date": {
@@ -171,7 +171,7 @@
     "alias": "scratch-day-murcia",
     "title": "Aprende a programar en el Scratch Day 2016 en Murcia",
     "description": "Resumen del taller gratuito de programación de videojuegos con Scratch celebrado en el Centro Municipal 585m2 Espacio Joven de Murcia durante el Scratch Day.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["scratch"],
     "authors": ["migueabellan"],
     "date": {
@@ -183,7 +183,7 @@
     "alias": "hackathon-familiar-murcia",
     "title": "Hackathon Familiar de programación con Scratch Murcia",
     "description": "Realizamos un Hackathon familiar de sensibilización para acabar con el acoso escolar y bullying con los ninjas del club gratuito de programación CoderDojo Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo", "programación", "scratch"],
     "authors": ["migueabellan", "mmanzano"],
     "date": {
@@ -195,7 +195,7 @@
     "alias": "hourofcode-2015-murcia",
     "title": "Hora de la programación y el código en Murcia",
     "description": "Resumen del taller gratuito de programación para jóvenes celebrado en el Centro Municipal 585m2 Espacio Joven de Murcia durante la semana europea de la programación.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["programación"],
     "authors": ["migueabellan"],
     "date": {
@@ -207,7 +207,7 @@
     "alias": "asistimos-a-la-primera-sesion-de-coderdojo-en-san-javier-murcia",
     "title": "Inauguración del Club de programación CoderDojo San Javier (Murcia)",
     "description": "Asistimos a la primera sesión de CoderDojo en San Javier (Murcia) para ayudar a la Fundación Rafa Puede en esta nueva aventura como champion de CoderDojo.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
     "authors": ["migueabellan"],
     "date": {
@@ -219,7 +219,7 @@
     "alias": "presentacion-del-nuevo-curso-de-coderdojo-2016-2017",
     "title": "Presentación del nuevo curso de CoderDojo 2016/2017",
     "description": "Presentación de CoderDojo en la primera sesión de la nueva temporada 2016/2017 del club de programación gratuito para jóvenes de 7 a 17 años en Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo", "programación", "robótica"],
     "authors": ["migueabellan", "mmanzano"],
     "date": {
@@ -231,7 +231,7 @@
     "alias": "con-nuestros-compis-de-la-asociacion-byl-inedu",
     "title": "Con nuestros compis de la Asociación ByLInEdu",
     "description": "Desde Murcia nos desplazamos hasta Valencia para visitar a nuestros amigos de la Asociación ByL InEdu con motivo de su 4º aniversario.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo"],
     "authors": ["migueabellan", "bernatllopis"],
     "date": {
@@ -243,7 +243,7 @@
     "alias": "aprendiendo-electronica-con-kiwibot-en-murcia",
     "title": "Aprendiendo electrónica con KiwiBot en Murcia",
     "description": "Resumen del curso gratuito de programación y electrónica en el IES El Carmen de Murcia con la colaboración del centro de juventud de Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["extraescolar", "programación", "robótica"],
     "authors": ["migueabellan"],
     "date": {
@@ -255,7 +255,7 @@
     "alias": "encuentro-de-coderdojo-espana-en-valencia",
     "title": "Encuentro de CoderDojo España en Valencia",
     "description": "Encuentro nacional de CoderDojo España en Las Naves (Valencia) con motivo del 4º aniversario de nuestros amigos de ByL InEdu.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo"],
     "authors": ["migueabellan", "bernatllopis"],
     "date": {
@@ -267,7 +267,7 @@
     "alias": "i-encuentro-de-coderdojo-espana-en-medialab-prado-madrid",
     "title": "I encuentro de CoderDojo España en Medialab Prado, Madrid",
     "description": "Encuentro nacional de clubes de CoderDojo en España con el objetivo de recopilar buenas prácticas en diferentes centros de España.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo"],
     "authors": ["migueabellan", "bernatllopis", "eltercerlugar"],
     "date": {
@@ -279,7 +279,7 @@
     "alias": "buscas-actividades-extraescolares-en-murcia",
     "title": "Actividades gratuitas de programación y robótica en Murcia",
     "description": "¿Buscas actividades extraescolares en Murcia? Realizamos numerosas actividades gratuitos de programación, electrónica y robótica en Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["extraescolar", "programación", "robótica"],
     "authors": ["migueabellan"],
     "date": {
@@ -291,7 +291,7 @@
     "alias": "aprendiendo-a-programar-paginas-web-en-el-ies-el-carmen-de-murcia",
     "title": "Aprendiendo a programar páginas web en el IES El Carmen de Murcia",
     "description": "Resumen del curso gratuito de programación de páginas web realizado en el IES El Carmen de Murcia con la colaboración de InformaJoven Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["extraescolar", "programación"],
     "authors": ["migueabellan"],
     "date": {

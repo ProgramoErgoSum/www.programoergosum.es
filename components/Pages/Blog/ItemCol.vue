@@ -1,9 +1,7 @@
 <template>
   <v-card :to="`/blog/${blog.alias}`" tile nuxt>
     <VImageLazy
-      :src="
-        `${this.$store.state.blogs.repo_raw}/${blog.alias}/img/${blog.image}`
-      "
+      :src="`${this.$store.state.blogs.repo_raw}/${blog.alias}/${blog.image}`"
       :title="blog.title"
       :height="185"
     />

@@ -4,7 +4,7 @@
       <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="3">
         <VImageLazy
           :src="
-            `${this.$store.state.blogs.repo_raw}/${blog.alias}/img/${blog.image}`
+            `${this.$store.state.blogs.repo_raw}/${blog.alias}/${blog.image}`
           "
           :title="blog.title"
           :height="185"
