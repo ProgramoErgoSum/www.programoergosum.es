@@ -10,7 +10,7 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <!-- [PES-es] /blog LEFT -->
+            <!-- [PES-es] /blog/{alias} LEFT -->
             <Adsense-Display data-ad-slot="9699220490" />
           </div>
         </v-col>
@@ -19,6 +19,9 @@
           <Tags :tags="tags" class="ml-3" />
           <Authors :authors="authors" class="mt-6" />
           <Contributing :edit-link="editLink" class="mt-1" />
+
+          <!-- [PES-es] /blog/{alias} CONTENT -->
+          <Adsense-Inarticle data-ad-slot="8749654187" class="mt-12" />
 
           <Content :raw="raw" :cdn="cdn" class="my-12" />
         </v-col>
@@ -63,6 +66,7 @@ import Content from '@/components/Markdown/Content'
 import ItemCol from '@/components/Pages/Blog/ItemCol'
 import Toc from '@/components/Markdown/Toc'
 import AdsenseDisplay from '@/components/Adsense/Display'
+import AdsenseInarticle from '@/components/Adsense/Inarticle'
 
 export default {
   components: {
@@ -73,7 +77,8 @@ export default {
     Content,
     ItemCol,
     Toc,
-    AdsenseDisplay
+    AdsenseDisplay,
+    AdsenseInarticle
   },
   computed: {
     background() {

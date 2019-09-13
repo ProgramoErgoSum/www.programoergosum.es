@@ -7,9 +7,9 @@
       ></script>
       <ins
         class="adsbygoogle"
-        style="display:block"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
         data-ad-format="fluid"
-        data-ad-layout-key="-df-2r+b4+7x-14z"
         data-ad-client="ca-pub-6757981017018187"
         :data-ad-slot="dataAdSlot"
       ></ins>
@@ -18,14 +18,14 @@
       </script>
     </div>
     <div v-else>
-      <v-alert type="warning">IN FEED {{ dataAdSlot }}</v-alert>
+      <v-alert type="warning">IN ARTICLE {{ dataAdSlot }}</v-alert>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Infeed',
+  name: 'Inarticle',
   props: {
     dataAdSlot: {
       type: String,
