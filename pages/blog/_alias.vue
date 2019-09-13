@@ -20,10 +20,13 @@
           <Authors :authors="authors" class="mt-6" />
           <Contributing :edit-link="editLink" class="mt-1" />
 
-          <!-- [PES-es] /blog/{alias} CONTENT -->
+          <!-- [PES-es] /blog/{alias} CONTENT-TOP -->
           <Adsense-Inarticle data-ad-slot="8749654187" class="mt-12" />
 
           <Content :raw="raw" :cdn="cdn" class="my-12" />
+
+          <!-- [PES-es] /blog/{alias} CONTENT-BOTTOM -->
+          <Adsense-Inarticle data-ad-slot="8649581830" class="my-12" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
