@@ -10,7 +10,7 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <!-- [PES-es] Toc /blog -->
+            <!-- [PES-es] /blog LEFT -->
             <Adsense-Display data-ad-slot="9699220490" />
           </div>
         </v-col>

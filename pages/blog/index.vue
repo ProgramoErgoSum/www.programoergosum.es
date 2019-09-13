@@ -33,8 +33,14 @@
           </v-chip>
         </v-col>
         -->
-        <v-col v-for="blog in filterSearch" :key="blog.alias" cols="12">
+        <v-col v-for="(blog, key) in filterSearch" :key="blog.alias" cols="12">
           <Item :blog="blog" />
+          <!-- [PES-es] /blog LIST -->
+          <Adsense-Infeed
+            v-if="key % 5 === 0"
+            class="mt-10"
+            data-ad-slot="6318738446"
+          />
         </v-col>
       </v-row>
     </v-container>
@@ -43,10 +49,12 @@
 
 <script>
 import Item from '@/components/Pages/Blog/Item'
+import AdsenseInfeed from '@/components/Adsense/Infeed'
 
 export default {
   components: {
-    Item
+    Item,
+    AdsenseInfeed
   },
   data() {
     return {
