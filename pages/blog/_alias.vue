@@ -10,7 +10,8 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <Adsense-Blog-Toc />
+            <!-- [PES-es] Toc /blog -->
+            <Adsense-Display data-ad-slot="9699220490" />
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
@@ -61,7 +62,7 @@ import Contributing from '@/components/Pages/Blog/Contributing'
 import Content from '@/components/Markdown/Content'
 import ItemCol from '@/components/Pages/Blog/ItemCol'
 import Toc from '@/components/Markdown/Toc'
-import AdsenseBlogToc from '@/components/Adsense/BlogToc'
+import AdsenseDisplay from '@/components/Adsense/Display'
 
 export default {
   components: {
@@ -72,7 +73,7 @@ export default {
     Content,
     ItemCol,
     Toc,
-    AdsenseBlogToc
+    AdsenseDisplay
   },
   computed: {
     background() {
