@@ -269,13 +269,6 @@ export default {
       background: #f0f0f0;
     }
   }
-  /*
-  img {
-    display: block;
-    max-width: 100%;
-    margin: 20px auto 50px;
-  }
-  */
   figure {
     margin: 20px auto 50px;
     text-align: center;

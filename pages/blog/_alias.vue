@@ -165,6 +165,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.nuxt-content > .container {
+  margin-bottom: 50px;
+}
 .sticky-top {
   position: -webkit-sticky;
   position: sticky;
