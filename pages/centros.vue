@@ -74,8 +74,17 @@
             </v-toolbar-title>
           </v-toolbar>
         </v-col>
+        <v-col cols="12">
+          <v-text-field
+            v-model="search"
+            label="Buscar"
+            outlined
+            hide-details
+            append-icon="mdi-magnify"
+          />
+        </v-col>
         <v-col
-          v-for="(item, index) in centers"
+          v-for="(item, index) in filterSearch"
           :key="index"
           xs="6"
           sm="4"
@@ -101,6 +110,7 @@ export default {
     Popup
   },
   data: () => ({
+    search: '',
     faqs: [
       {
         icon: 'mdi-account-multiple',
@@ -124,6 +134,12 @@ export default {
       }
     ]
   }),
+  computed: {
+    filterSearch() {
+      if (this.search === '') return this.centers
+      return this.$store.getters['centers/filterSearch'](this.search)
+    }
+  },
   asyncData({ store }) {
     return {
       metas: store.state.metas.centros,
