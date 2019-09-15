@@ -170,7 +170,7 @@ export default {
     background: #f0f0f0;
     color: #1e2125;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 1.1rem;
     p {
       margin: 0;
       code {
@@ -307,11 +307,16 @@ export default {
 @media only screen and (max-width: 1264px) {
 }
 @media only screen and (max-width: 960px) {
+  .DynamicMarkdown {
+    ul {
+      margin: 0 0 30px 0;
+    }
+  }
 }
 @media only screen and (max-width: 600px) {
-  .markdown {
+  .DynamicMarkdown {
     ul {
-      margin-left: 0;
+      margin: 0 0 30px 0;
     }
     font-size: 16px;
     h1 {
