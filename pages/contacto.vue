@@ -100,14 +100,9 @@ export default {
         title: 'Sobre cursos online ...',
         items: [
           {
-            title: '¿Cómo accedo a contenidos para socios?',
+            title: '¿Cómo accedo a los contenidos?',
             description:
-              'En estos momentos estamos actualizando las plataformas y solo los socios ya registrados pueden acceder a los contenidos.'
-          },
-          {
-            title: '¿Cómo puedo tener una cuenta premium?',
-            description:
-              'En estos momentos no es posible crear una cuenta premium.'
+              'En estos momentos solamente los socios y profesores colaboradores pueden acceder a los contenidos y soluciones a los ejercicios propuestos.'
           }
         ]
       },
