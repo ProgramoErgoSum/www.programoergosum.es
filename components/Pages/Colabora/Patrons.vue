@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <h2 class="mb-3">Patronos / Colaboradores</h2>
+        <h2 class="mb-3">Patronos</h2>
       </v-col>
       <v-col
         v-for="(item, index) in patrons"
