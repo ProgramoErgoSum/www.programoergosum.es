@@ -14,11 +14,13 @@ const state = () => ({
           icon: '',
           to: '/asociacion'
         },
+        /*
         {
           title: 'Proyectos',
           icon: '',
           to: '/proyectos'
         },
+        */
         {
           title: 'Actividades',
           icon: '',
