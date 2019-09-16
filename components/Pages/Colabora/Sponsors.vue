@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <h2 class="mb-3">Patrocinadores</h2>
+        <h2 class="mb-3">Con el apoyo de ...</h2>
       </v-col>
       <v-col
         v-for="(item, index) in sponsors"
@@ -11,12 +11,13 @@
         xs="12"
         sm="6"
         md="4"
-        lg="3"
-        xl="3"
+        lg="4"
+        xl="4"
         class="pa-2"
       >
         <Card :card="item" />
       </v-col>
+      <!--
       <v-col cols="12">
         <div class="my-6">
           <p>
@@ -30,6 +31,7 @@
           </v-btn>
         </div>
       </v-col>
+      -->
     </v-row>
   </v-container>
 </template>
