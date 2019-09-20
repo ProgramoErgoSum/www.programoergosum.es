@@ -204,6 +204,24 @@
       }
     ]
   },
+  {
+    "name": "IES Príncipe Asturias",
+    "address": {
+      "city": "Lorca",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/854999859648188417/YPoNx-aP_400x400.jpg",
+    "coordinates": ["37.6793618","-1.6925855"],
+    "social": {
+      "url": "http://www.iesprincipe.com",
+      "twitter": "https://twitter.com/iesprincipe"
+    },
+    "ambassadors": [
+      {
+        "name": "Antonio Manuel"
+      }
+    ]
+  },
 
 
 
