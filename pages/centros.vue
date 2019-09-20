@@ -35,7 +35,7 @@
         >
           <v-toolbar flat>
             <v-toolbar-title>
-              ¿Cómo ser un centro Programo Ergo Sum?
+              Hazte centro colaborador
             </v-toolbar-title>
           </v-toolbar>
           <v-list three-line>
@@ -115,12 +115,12 @@ export default {
       {
         icon: 'mdi-account-multiple',
         title: 'Un docente (embajador)',
-        description: 'Comprometido con las TIC y la educación libre.'
+        description: 'Comprometido con las TIC.'
       },
       {
         icon: 'mdi-chat-outline',
-        title: 'Haz difusión de la iniciativa',
-        description: 'Explícanos cómo usas las plataformas y cómo mejorarlas.'
+        title: 'Difunde la iniciativa',
+        description: 'Utiliza nuestras plataformas en el aula.'
       },
       {
         icon: 'mdi-school',
