@@ -2,7 +2,14 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <h2 class="mb-3">Patronos</h2>
+        <h2 class="mb-3">Patronos / Colaboradores</h2>
+        <p>
+          Puedes convertirte en patrono
+          <strong>apoyando mensualmente</strong> los proyectos educativos de la
+          asociación y aparecerás en esta sección. El importe recaudado será
+          destinados al mantenimiento informático y desarrollo de nuevos
+          proyectos educativos.
+        </p>
       </v-col>
       <v-col
         v-for="(item, index) in patrons"
@@ -19,24 +26,6 @@
       </v-col>
       <v-col cols="12">
         <div class="my-6">
-          <p>
-            Puedes convertirte en colaborador
-            <strong>apoyando mensualmente</strong> los proyectos educativos de
-            la asociación y aparecerás en esta sección. El importe recaudado
-            será destinados al mantenimiento informático y desarrollo de nuevos
-            proyectos educativos.
-          </p>
-          <!--
-          <v-btn
-            href="https://www.patreon.com/ProgramoErgoSum"
-            target="_blank"
-            rel="noopener noreferrer"
-            tile
-            color="primary"
-          >
-            Apóyanos a través de Patreon
-          </v-btn>
-          -->
           <v-btn
             href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url"
             target="_blank"
