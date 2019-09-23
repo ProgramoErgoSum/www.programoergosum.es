@@ -21,6 +21,24 @@
 
 
   {
+    "name": "CEIP Francisco Villaespesa",
+    "address": {
+      "city": "El Parador, Roquetas de Mar",
+      "province": "Almería"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1115196146299867137/05CXextj_400x400.png",
+    "coordinates": ["36.8067133","-2.5999698"],
+    "social": {
+      "url": "http://www.ceipvillaespesa.es/",
+      "twitter": ""
+    },
+    "ambassadors": [
+      {
+        "name": "José Sánchez"
+      }
+    ]
+  },
+  {
     "name": "CEIP San Miguel",
     "address": {
       "city": "Nerja",
