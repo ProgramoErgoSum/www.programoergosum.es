@@ -34,7 +34,7 @@
   "patrons": [
     {
       "name": "David Sánchez",
-      "image": "https://pbs.twimg.com/profile_images/1052073604119183360/yzCeW8KJ_400x400.jpg",
+      "image": "images/colabora/davidsanlo78.jpg",
       "description": "Maestro de música, Jefe de Estudios en CEIP San Miguel de Nerja y pedagogo. Metido en las TIC desde 2004 y robótica desde 2014.",
       "social": {
         "url": "https://scratchdaynerja.wordpress.com",
@@ -43,8 +43,18 @@
       }
     },
     {
+      "name": "José García",
+      "image": "images/colabora/ppgarsan123.jpg",
+      "description": "Director del CEIP Francisco Villaespesa El Parador de Roquetas de Mar. Cacharreando en temas de robótica educativa desde 1978.",
+      "social": {
+        "url": "",
+        "twitter": "",
+        "github": ""
+      }
+    },
+    {
       "name": "Pablo Nuñez",
-      "image": "https://pbs.twimg.com/profile_images/1065513983145324544/AwLqh2Zc_400x400.jpg",
+      "image": "images/colabora/eltercerlugar.jpg",
       "description": "Maker en @fablableon Fundador de @alac2013. Champion en @coderdojoleon. Hago realidad tus ideas en @fabricotusideas.",
       "social": {
         "url": "http://fabricotusideas.com",
@@ -54,7 +64,7 @@
     },
     {
       "name": "Francisco Román",
-      "image": "https://pbs.twimg.com/profile_images/1149583692739690496/tW04KD5b_400x400.jpg",
+      "image": "images/colabora/FranciscoRomnC2.jpg",
       "description": "Profesor de Secundaria de Robótica, Tecnología y TIC en el Colegio Reina Sofía de Totana (Murcia).",
       "social": {
         "url": "",
@@ -64,7 +74,7 @@
     },
     {
       "name": "Tolo Piza",
-      "image": "https://pbs.twimg.com/profile_images/1158101041516359680/mAaY7KkV_400x400.jpg",
+      "image": "images/colabora/tolo_piza.jpg",
       "description": "🏳️‍🌈⚜P.h.D in Science,Teacher. Investigant Didàctica de la Ciència(UIB), Col/Reviewer Scienceinschool.",
       "social": {
         "url": "http://Scienceinschool.org",

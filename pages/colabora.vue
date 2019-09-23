@@ -5,13 +5,15 @@
       :description="metas.description"
       :image="metas.image"
     />
+    <!--
     <section class="py-12">
       <Sponsors />
     </section>
-    <section class="py-12" :class="background">
+    -->
+    <section class="py-12">
       <Patrons />
     </section>
-    <section class="py-12">
+    <section class="py-12" :class="background">
       <Donations />
     </section>
     <Reg />
@@ -19,14 +21,14 @@
 </template>
 
 <script>
-import Sponsors from '@/components/Pages/Colabora/Sponsors'
+// import Sponsors from '@/components/Pages/Colabora/Sponsors'
 import Patrons from '@/components/Pages/Colabora/Patrons'
 import Donations from '@/components/Pages/Colabora/Donations'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Sponsors,
+    // Sponsors,
     Patrons,
     Donations,
     Reg
