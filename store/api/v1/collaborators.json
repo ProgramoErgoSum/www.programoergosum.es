@@ -53,16 +53,6 @@
       }
     },
     {
-      "name": "Pablo Nuñez",
-      "image": "images/colabora/eltercerlugar.jpg",
-      "description": "Maker en @fablableon Fundador de @alac2013. Champion en @coderdojoleon. Hago realidad tus ideas en @fabricotusideas.",
-      "social": {
-        "url": "http://fabricotusideas.com",
-        "twitter": "https://twitter.com/eltercerlugar",
-        "github": "https://github.com/eltercerlugar"
-      }
-    },
-    {
       "name": "Francisco Román",
       "image": "images/colabora/FranciscoRomnC2.jpg",
       "description": "Profesor de Secundaria de Robótica, Tecnología y TIC en el Colegio Reina Sofía de Totana (Murcia).",
@@ -80,6 +70,16 @@
         "url": "http://Scienceinschool.org",
         "twitter": "https://twitter.com/tolo_piza",
         "github": ""
+      }
+    },
+    {
+      "name": "Pablo Nuñez",
+      "image": "images/colabora/eltercerlugar.jpg",
+      "description": "Maker en @fablableon Fundador de @alac2013. Champion en @coderdojoleon. Hago realidad tus ideas en @fabricotusideas.",
+      "social": {
+        "url": "http://fabricotusideas.com",
+        "twitter": "https://twitter.com/eltercerlugar",
+        "github": "https://github.com/eltercerlugar"
       }
     }
   ],
