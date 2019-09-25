@@ -12,7 +12,7 @@
         Ver más
       </nuxt-link>
     </p>
-    <v-btn text small @click="snackbar = false">
+    <v-btn text small @click="close">
       Cerrar
     </v-btn>
   </v-snackbar>
@@ -23,8 +23,19 @@ export default {
   name: 'Privacy',
   data() {
     return {
-      snackbar: true,
-      timeout: 10000
+      snackbar: false,
+      timeout: 0
+    }
+  },
+  mounted() {
+    if (process.browser) {
+      this.snackbar = localStorage.getItem('privacy') === null
+    }
+  },
+  methods: {
+    close() {
+      localStorage.setItem('privacy', false)
+      this.snackbar = false
     }
   }
 }
