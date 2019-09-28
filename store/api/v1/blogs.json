@@ -2,7 +2,7 @@
   {
     "alias": "aprender-a-programar-con-scratch-en-raspberry-pi",
     "title": "Aprender a programar con Scratch en Raspberry Pi",
-    "description": "Ya está disponible la versión oflline de Scratch 3.0 en el Sistema Operativo Raspbian para Raspberry Pi con bloques para controlar los pines GPIO.",
+    "description": "Ya está disponible la versión offline de Scratch 3.0 en el Sistema Operativo Raspbian para Raspberry Pi con bloques para controlar los pines GPIO.",
     "image": "img/preview.jpg",
     "tags": ["scratch", "raspberry pi"],
     "authors": ["migueabellan"],
