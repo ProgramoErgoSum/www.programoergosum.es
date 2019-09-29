@@ -1,13 +1,18 @@
 <template>
   <span>
-    <v-icon>mdi-calendar</v-icon>
-    <span class="caption font-weight-light">{{ mdate }}</span>
+    <v-icon size="20">mdi-calendar</v-icon>
+    <time :datetime="mdate" class="body-2 font-weight-light">
+      {{ mdate | formatDate }}
+    </time>
   </span>
 </template>
 
 <script>
+import { formatDate } from '@/mixins/formatDate'
+
 export default {
   name: 'Posted',
+  filters: { formatDate },
   props: {
     cdate: {
       type: String,
@@ -15,7 +20,7 @@ export default {
     },
     mdate: {
       type: String,
-      default: ''
+      required: true
     }
   }
 }
