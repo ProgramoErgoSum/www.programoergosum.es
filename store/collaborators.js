@@ -6,8 +6,7 @@ const state = () => ({
 
 const getters = {
   sponsors: state => state.collaborators.sponsors,
-  patrons: state => state.collaborators.patrons,
-  volunteers: state => state.collaborators.volunteers
+  patrons: state => state.collaborators.patrons
 }
 
 const actions = {}

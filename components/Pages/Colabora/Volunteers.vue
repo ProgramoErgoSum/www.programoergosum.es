@@ -35,17 +35,63 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
-
 import Card from '@/components/Pages/Colabora/Card'
 
 export default {
   components: {
     Card
   },
-  computed: {
-    ...mapGetters({ volunteers: 'collaborators/volunteers' })
-  }
+  data: () => ({
+    volunteers: [
+      {
+        name: 'Miguel Ángel Abellán',
+        image:
+          'https://pbs.twimg.com/profile_images/629634647912267777/gOmLRG8A_400x400.png',
+        description:
+          'Porque disfruto programando y tengo la suerte de aprender todos los días.',
+        social: {
+          url: 'https://migueabellan.github.io',
+          twitter: 'https://twitter.com/migueabellan',
+          github: 'https://github.com/migueabellan'
+        }
+      },
+      {
+        name: 'Carmen B. Martínez',
+        image:
+          'https://pbs.twimg.com/profile_images/650326709242302464/f27brfje_400x400.jpg',
+        description:
+          'Psicóloga en constante reinvención. De todas las personas se aprende algo nuevo.',
+        social: {
+          url: '',
+          twitter: 'https://twitter.com/carmenb_mg',
+          github: ''
+        }
+      },
+      {
+        name: 'Miguel Manzano',
+        image:
+          'https://pbs.twimg.com/profile_images/975973650959618049/gRdPUS4g_400x400.jpg',
+        description:
+          'Aporrea el teclado, eso sí, primero hace un commit por si los bytes.',
+        social: {
+          url: '',
+          twitter: 'https://twitter.com/mmanzano',
+          github: 'https://github.com/mmanzano'
+        }
+      },
+      {
+        name: 'Antonio García',
+        image: '',
+        description:
+          'Productor de televisión al que le apasiona la enseñanza de la programación.',
+        social: {
+          url: '',
+          twitter: '',
+          github: ''
+        }
+      }
+    ]
+  })
 }
 </script>
 
