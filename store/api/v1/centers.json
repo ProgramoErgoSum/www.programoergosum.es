@@ -1,5 +1,26 @@
 [
   {
+    "name": "IES Salvador de Madariaga",
+    "address": {
+      "city": "A Coruña",
+      "province": "La Coruña"
+    },
+    "image": "http://www.edu.xunta.gal/centros/iessalvadormadariaga/system/files/zeropoint_logo.png",
+    "coordinates": ["43.3700571","-8.4206792"],
+    "social": {
+      "url": "http://www.edu.xunta.gal/centros/iessalvadormadariaga/",
+      "twitter": ""
+    },
+    "ambassadors": [
+      {
+        "name": "Julio"
+      }
+    ]
+  },
+
+
+
+  {
     "name": "CC Sant Vicenç de Paül (Sóller) - FECIB",
     "address": {
       "city": "Sóller",
