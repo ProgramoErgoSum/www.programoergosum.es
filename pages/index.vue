@@ -8,9 +8,6 @@
     </section>
 
     <section class="py-12" :class="background">
-      <Patrons />
-    </section>
-    <section class="py-12">
       <Volunteers />
     </section>
 
@@ -23,7 +20,6 @@
 <script>
 import Cover from '@/components/Pages/Home/Cover'
 import What from '@/components/Pages/Home/What'
-import Patrons from '@/components/Pages/Colabora/Patrons'
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
 
@@ -31,7 +27,6 @@ export default {
   components: {
     Cover,
     What,
-    Patrons,
     Volunteers,
     Reg
   },

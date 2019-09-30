@@ -4,8 +4,8 @@
       <v-col cols="12">
         <h2 class="mb-3">Donaciones</h2>
         <p>
-          Realiza una <b>donación totalmente desinteresada</b> con el importe
-          que creas necesario y aparecerás en esta sección.
+          Realiza una <b>donación casual</b> con el importe que creas necesario
+          y aparecerás en esta sección.
         </p>
       </v-col>
       <v-col cols="12">

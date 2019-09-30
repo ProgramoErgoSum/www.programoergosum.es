@@ -10,7 +10,7 @@
         <v-row>
           <v-col cols="12">
             <h2 class="mb-3">
-              ¿Por qué necesitamos patronos / donaciones?
+              ¿Por qué necesitamos donaciones?
             </h2>
             <p>
               Cuando en 2015 se creó la Asociación Programo Ergo Sum, se

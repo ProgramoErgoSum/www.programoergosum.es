@@ -2,13 +2,10 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <h2 class="mb-3">Patronos / Colaboradores</h2>
+        <h2 class="mb-3">Donaciones mensuales</h2>
         <p>
-          Puedes convertirte en patrono
-          <strong>apoyando mensualmente</strong> los proyectos educativos de la
-          asociación y aparecerás en esta sección. El importe recaudado será
-          destinados al mantenimiento informático y desarrollo de nuevos
-          proyectos educativos.
+          Realiza una <b>donación mensual</b> con el importe que creas necesario
+          y aparecerás en esta sección.
         </p>
       </v-col>
       <v-col
