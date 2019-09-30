@@ -265,6 +265,25 @@
 
 
   {
+    "name": "IES Monastil",
+    "address": {
+      "city": "Elda",
+      "province": "Alicante"
+    },
+    "image": "https://pbs.twimg.com/profile_images/938844271490355202/y7dX2Sp3_400x400.jpg",
+    "coordinates": ["38.4803587","-0.8066305"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/ies_monastil"
+    },
+    "ambassadors": [
+      {
+        "name": "Juan José"
+      }
+    ]
+  },
+  
+  {
     "name": "IES Hermanos Amorós",
     "address": {
       "city": "Villena",
