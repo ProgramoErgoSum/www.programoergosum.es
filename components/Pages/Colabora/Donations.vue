@@ -9,11 +9,11 @@
         </p>
       </v-col>
       <v-col cols="12">
-        <v-chip v-for="(item, index) in donations" :key="index" class="ml-1">
+        <v-chip v-for="item in donations" :key="item" class="ml-1">
           <v-avatar class="mr-1">
             <v-icon>mdi-account</v-icon>
           </v-avatar>
-          {{ item.name }}
+          {{ item }}
         </v-chip>
       </v-col>
       <v-col cols="12">
@@ -34,13 +34,18 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
-
 export default {
   name: 'Donations',
-  computed: {
-    ...mapGetters({ donations: 'collaborators/donations' })
-  }
+  data: () => ({
+    donations: [
+      'Julio Clemente Cordeiro',
+      'Nasim Maldonado',
+      'David Pons',
+      'Carlos Hernán Mora',
+      'Julieta Brenda',
+      'Andres Montilla'
+    ]
+  })
 }
 </script>
 
