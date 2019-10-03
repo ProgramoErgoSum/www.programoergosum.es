@@ -6,6 +6,7 @@
       :image="image"
       :breadcrumbs="breadcrumbs"
     />
+    {{ related }}
     <v-container fluid>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
@@ -123,7 +124,7 @@ export default {
       raw: file,
       cdn: `${urlRaw}/`,
 
-      related: store.getters['blogs/filterByTags'](blog.tags),
+      related: store.getters['blogs/related'](blog),
 
       breadcrumbs: [
         {

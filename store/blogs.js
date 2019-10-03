@@ -1,32 +1,21 @@
 import blogs from '~/store/api/v1/blogs.json'
 
-const tags = []
-blogs.map(blog => {
-  blog.tags.map(tag => {
-    if (!tags.includes(tag)) tags.push(tag)
-  })
-})
-
 const state = () => ({
   repo_url: 'https://github.com/ProgramoErgoSum/Blog/tree/master',
   repo_raw: 'https://raw.githubusercontent.com/ProgramoErgoSum/Blog/master',
   repo_edit: 'https://github.com/ProgramoErgoSum/Blog/edit/master',
-  list: blogs,
-  tags: tags.sort()
+  list: blogs
 })
 
 const getters = {
-  filterByTags: state => tags => {
-    let blogs = []
-    state.list.map(item => {
-      tags.map(tag => {
-        if (item.tags.includes(tag)) blogs.push(item)
+  related: state => item => {
+    const blogs = []
+    item.tags.map(tag => {
+      state.list.map(el => {
+        if (el.tags.includes(tag) && el.title !== item.title) blogs.push(el)
       })
     })
-    blogs = blogs.filter((v, i, a) => a.indexOf(v) === i)
-    const ini = Math.floor(Math.random() * (blogs.length - 3))
-    const fin = ini + 3
-    return blogs.slice(ini, fin)
+    return blogs.slice(0, 3)
   }
 }
 
