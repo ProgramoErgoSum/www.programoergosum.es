@@ -12,38 +12,26 @@
             v-model="search"
             label="Buscar"
             outlined
-            hide-details
+            rounded
+            :messages="`${filter.length} artículos en el blog`"
             append-icon="mdi-magnify"
+            validate-on-blur
           />
         </v-col>
-        <!--
-        <v-col class="hidden-sm-and-down" cols="12">
-          <v-chip label dark @click="currentTag = 'todos'">
-            Todos
-          </v-chip>
-          <v-chip
-            v-for="tag in tags"
-            :key="tag"
-            class="ml-1"
-            label
-            :outlined="tag !== currentTag"
-            @click="currentTag = tag"
-          >
-            {{ tag }}
-          </v-chip>
-        </v-col>
-        -->
-        <v-col v-for="blog in filterSearch" :key="blog.alias" cols="12">
-          <Item :blog="blog" />
-          <!-- [PES-es] /blog LIST -->
-          <!--
-          <Adsense-Infeed
-            v-if="key % 5 === 0"
-            class="mt-10"
-            data-ad-slot="6318738446"
-          />
-          -->
-        </v-col>
+        <template v-for="blog in filter">
+          <v-col :key="blog.alias" cols="12">
+            <Item :blog="blog" />
+            <v-divider class="mt-6" />
+            <!-- [PES-es] /blog LIST -->
+            <!--
+            <Adsense-Infeed
+              v-if="key === 1"
+              class="mt-10"
+              data-ad-slot="6318738446"
+            />
+            -->
+          </v-col>
+        </template>
       </v-row>
     </v-container>
   </div>
@@ -60,26 +48,32 @@ export default {
   },
   data() {
     return {
-      search: ''
-      // currentTag: 'todos'
+      search: '',
+      maxItems: 5
     }
   },
   computed: {
-    /*
-    filterBlogs() {
-      if (this.currentTag === 'todos') return this.blogs
-      return this.$store.getters['blogs/filterByTag'](this.currentTag)
-    },
-    */
-    filterSearch() {
-      if (this.search === '') return this.blogs
-      return this.$store.getters['blogs/filterSearch'](this.search)
+    filter() {
+      let blogs = this.blogs
+
+      if (this.search !== '') {
+        const search = this.search.toLowerCase()
+        blogs = blogs.filter(el => {
+          // const title = el.title.toLowerCase()
+          const description = el.description.toLowerCase()
+          return (
+            // title.search(search) !== -1 ||
+            description.search(search) !== -1
+          )
+        })
+      }
+
+      return blogs
     }
   },
   asyncData({ store }) {
     return {
       metas: store.state.metas.blog,
-      // tags: store.state.blogs.tags,
       blogs: store.state.blogs.list
     }
   },

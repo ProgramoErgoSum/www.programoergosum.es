@@ -16,19 +16,6 @@ const state = () => ({
 })
 
 const getters = {
-  filterSearch: state => search => {
-    return state.list.filter(item => {
-      return (
-        item.title.toLowerCase().search(search.toLowerCase()) !== -1 ||
-        item.description.toLowerCase().search(search.toLowerCase()) !== -1
-      )
-    })
-  },
-  /*
-  filterByTag: state => tag => {
-    return state.list.filter(item => item.tags.includes(tag))
-  },
-  */
   filterByTags: state => tags => {
     let blogs = []
     state.list.map(item => {

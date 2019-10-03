@@ -1,14 +1,8 @@
 <template>
-  <v-card :to="`/blog/${blog.alias}`" tile nuxt>
+  <v-card :to="`/blog/${blog.alias}`" flat tile nuxt>
     <v-row no-gutters>
       <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="3">
-        <VImageLazy
-          :src="
-            `${this.$store.state.blogs.repo_raw}/${blog.alias}/${blog.image}`
-          "
-          :title="blog.title"
-          :height="185"
-        />
+        <VImageLazy :src="absoluteUrlImage" :title="blog.title" :height="185" />
       </v-col>
       <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="9">
         <v-card-title primary-title>
@@ -42,6 +36,11 @@ export default {
     blog: {
       type: Object,
       required: true
+    }
+  },
+  computed: {
+    absoluteUrlImage() {
+      return `${this.$store.state.blogs.repo_raw}/${this.blog.alias}/${this.blog.image}`
     }
   }
 }
