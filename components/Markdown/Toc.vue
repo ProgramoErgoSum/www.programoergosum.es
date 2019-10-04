@@ -1,16 +1,14 @@
 <template>
   <v-list v-scroll="onScroll" shaped tile color="transparent" class="pa-0">
-    <!--
-    <v-list-item-group>
+    <v-list-item-group v-show="title">
       <v-list-item disabled>
         <v-list-item-content>
           <v-list-item-title class="font-weight-bold body-1">
-            Lecciones del tutorial
+            {{ title }}
           </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </v-list-item-group>
-    -->
     <v-list-item-group color="primary">
       <template v-for="item in menu">
         <v-list-item
@@ -40,6 +38,10 @@ export default {
     raw: {
       type: String,
       required: true
+    },
+    title: {
+      type: String,
+      default: null
     }
   },
   data() {
