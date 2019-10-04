@@ -1,0 +1,33 @@
+[
+  {
+    "alias": "programacion-en-python-con-raspberry-pi",
+    "title": "Programación en Python con Raspberry Pi",
+    "description": "Curso de introducción a la domótica e internet de las cosas con Raspberry Pi para profesores de educación secundaria.",
+    "image": "img/preview.jpg",
+    "tags": ["python", "raspberry-pi", "cprmurcia", "secundaria"],
+    "editions": [
+      {
+        "number": "3ª Edición",
+        "date": "Septiembre 2019",
+        "center": "IES Miguel de Cervantes, Murcia",
+        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
+      },
+      {
+        "number": "2ª Edición",
+        "date": "Abril 2019",
+        "center": "IES Miguel de Cervantes, Murcia",
+        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
+      },
+      {
+        "number": "1ª Edición",
+        "date": "Octubre 2017",
+        "center": "IES Miguel Espinosa, Murcia",
+        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
+      }
+    ],
+    "date": {
+      "cdate": "2017-09-28 11:07:45",
+      "mdate": "2019-10-05 14:05:12"
+    }
+  }
+]
