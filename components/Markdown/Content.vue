@@ -291,6 +291,8 @@ export default {
     padding-top: 56.25%;
     position: relative;
     margin: 20px auto 50px;
+    border: 20px solid #333;
+    border-radius: 20px;
   }
   .iframe iframe {
     position: absolute;
@@ -298,7 +300,7 @@ export default {
     top: 0;
     height: 100%;
     width: 100%;
-    margin: 20px 0 30px;
+    margin: 0;
     border: 0;
   }
 }
