@@ -86,3 +86,8 @@ a {
 .page-enter, .page-leave-to {
   opacity: 0;
 }
+
+
+.v-card__title {
+  word-break: normal !important;
+}
