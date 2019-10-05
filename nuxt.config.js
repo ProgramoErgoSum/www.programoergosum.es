@@ -2,6 +2,7 @@ import path from 'path'
 
 import activities from './store/api/v1/activities.json'
 import blogs from './store/api/v1/blogs.json'
+import formaciones from './store/api/v1/formaciones.json'
 
 const www =
   process.env.NODE_ENV === 'development'
@@ -146,8 +147,11 @@ export default {
       const b = await blogs.map(item => {
         return `/blog/${item.alias}`
       })
-      return Promise.all([p, a, b]).then(v => {
-        return [...v[0], ...v[1], ...v[2]]
+      const f = await formaciones.map(item => {
+        return `/formaciones/${item.alias}`
+      })
+      return Promise.all([p, a, b, f]).then(v => {
+        return [...v[0], ...v[1], ...v[2], ...v[3]]
       })
     }
   },
