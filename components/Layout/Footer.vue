@@ -2,7 +2,7 @@
   <div class="secondary white--text">
     <v-container align="center" justify="center">
       <v-row wrap>
-        <v-col class="my-5" xs="12" cols="12" sm="12" md="6" lg="6">
+        <v-col class="my-5" cols="12">
           <div class="text-md-left text-center">
             <h4 class="mb-3 title font-weight-medium">Síguenos</h4>
             <v-btn
@@ -21,6 +21,55 @@
             </v-btn>
           </div>
         </v-col>
+
+        <v-col class="my-5" cols="12" xs="12" sm="12" md="3" lg="3">
+          <div class="text-md-left text-center">
+            <h4 class="mb-3 title font-weight-medium">
+              Asociación
+            </h4>
+            <ul class="body-1 font-weight-light">
+              <template v-for="(item, index) in association">
+                <li v-if="item.to" :key="index">
+                  <nuxt-link :to="item.to" :title="item.title">
+                    {{ item.title }}
+                  </nuxt-link>
+                </li>
+                <li v-if="item.href" :key="index">
+                  <a target="_blank" :href="item.href" :title="item.title">
+                    {{ item.title }}
+                    <v-icon class="pl-1" size="12">mdi-open-in-new</v-icon>
+                  </a>
+                </li>
+              </template>
+            </ul>
+          </div>
+        </v-col>
+
+        <v-col class="my-5" cols="12" xs="12" sm="12" md="3" lg="3">
+          <div class="text-md-left text-center">
+            <h4 class="mb-3 title font-weight-medium">
+              Cursos y Tutoriales
+            </h4>
+            <ul class="body-1 font-weight-light">
+              <template v-for="(item, index) in learning">
+                <li v-if="item.to" :key="index">
+                  <nuxt-link :to="item.to" :title="item.title">
+                    {{ item.title }}
+                  </nuxt-link>
+                </li>
+                <li v-if="item.href" :key="index">
+                  <a target="_blank" :href="item.href" :title="item.title">
+                    {{ item.title }}
+                    <v-icon class="pl-1" size="12" dark>
+                      mdi-open-in-new
+                    </v-icon>
+                  </a>
+                </li>
+              </template>
+            </ul>
+          </div>
+        </v-col>
+
         <v-col
           class="my-5"
           cols="12"
@@ -45,6 +94,7 @@
             </a>
           </div>
         </v-col>
+
         <v-col class="mt-5" cols="12">
           <div class="text-center body-2 font-weight-light">
             <p class="ma-0 mb-2">
@@ -128,9 +178,55 @@ export default {
         name: 'Slack',
         href: 'https://programoergosum.slack.com/'
       }
+    ],
+    association: [
+      {
+        title: 'Nosotros',
+        to: '/asociacion'
+      },
+      {
+        title: 'Extraescolares',
+        to: '/actividades'
+      },
+      {
+        title: 'Blog',
+        to: '/blog'
+      },
+      {
+        title: 'Contacto',
+        to: '/contacto'
+      }
+    ],
+    learning: [
+      {
+        title: 'Cursos de programación',
+        href: 'https://www.programoergosum.com'
+      },
+      {
+        title: 'Aprende con las STEM',
+        href: 'https://www.aprendeprogramando.es'
+      },
+      {
+        title: 'Formación del profesorado',
+        to: '/formaciones'
+      }
     ]
   })
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    color: #fff;
+    a {
+      display: inline-block;
+      padding: 5px 0;
+      color: #a9a9a9;
+    }
+  }
+}
+</style>
