@@ -131,7 +131,15 @@ export default {
           lastmod: item.date.mdate
         }
       })
-      return a.concat(b)
+      const f = formaciones.map(item => {
+        return {
+          url: `/formaciones/${item.alias}`,
+          changefreq: 'monthly',
+          priority: 0.3,
+          lastmod: item.date.mdate
+        }
+      })
+      return a.concat(b).concat(f)
     }
   },
 
