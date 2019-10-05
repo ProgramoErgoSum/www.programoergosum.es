@@ -35,7 +35,12 @@
                   </nuxt-link>
                 </li>
                 <li v-if="item.href" :key="index">
-                  <a target="_blank" :href="item.href" :title="item.title">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    :href="item.href"
+                    :title="item.title"
+                  >
                     {{ item.title }}
                     <v-icon class="pl-1" size="12">mdi-open-in-new</v-icon>
                   </a>
@@ -58,7 +63,12 @@
                   </nuxt-link>
                 </li>
                 <li v-if="item.href" :key="index">
-                  <a target="_blank" :href="item.href" :title="item.title">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    :href="item.href"
+                    :title="item.title"
+                  >
                     {{ item.title }}
                     <v-icon class="pl-1" size="12" dark>
                       mdi-open-in-new
