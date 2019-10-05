@@ -3,6 +3,25 @@ import metas from '~/store/api/v1/metas.json'
 const state = () => ({
   drawer: false,
   metas,
+  /*
+  topNavigation: [
+    {
+      title: 'Asociación',
+      icon: 'mdi-information-variant',
+      to: '/asociacion'
+    },
+    {
+      title: 'Centros',
+      icon: 'mdi-school',
+      to: '/centros'
+    },
+    {
+      title: 'Colabora',
+      icon: 'mdi-account-heart-outline',
+      to: '/colabora'
+    }
+  ],
+  */
   navigation: [
     {
       title: 'Asociación',

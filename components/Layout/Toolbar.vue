@@ -72,7 +72,7 @@
             :key="index"
             :to="item.to"
             :disabled="item.disabled"
-            class="font-weight-medium text-capitalize mr-2"
+            class="font-weight-medium text-none mr-2"
             text
             tile
             nuxt
@@ -86,7 +86,7 @@
             :disabled="item.disabled"
             rel="noopener noreferrer"
             target="_blank"
-            class="font-weight-medium text-capitalize mr-2"
+            class="font-weight-medium text-none mr-2"
             text
             title
           >
