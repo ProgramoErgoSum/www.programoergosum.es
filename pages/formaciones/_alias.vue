@@ -22,6 +22,7 @@
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
             <Toc :raw="raw" title="Temario del curso" />
+            <Collaborators class="mt-12" />
           </div>
         </v-col>
       </v-row>
@@ -35,6 +36,7 @@ import axios from 'axios'
 // import Editions from '@/components/Pages/Formaciones/Editions'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
+import Collaborators from '@/components/Pages/Formaciones/Collaborators'
 // import AdsenseDisplay from '@/components/Adsense/Display'
 // import AdsenseInarticle from '@/components/Adsense/Inarticle'
 
@@ -42,7 +44,8 @@ export default {
   components: {
     // Editions,
     Content,
-    Toc
+    Toc,
+    Collaborators
     // AdsenseDisplay,
     // AdsenseInarticle
   },
