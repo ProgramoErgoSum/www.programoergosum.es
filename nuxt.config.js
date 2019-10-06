@@ -119,7 +119,7 @@ export default {
         return {
           url: `/actividades/${item.alias}`,
           changefreq: 'monthly',
-          priority: 0.8,
+          priority: 0.5,
           lastmod: item.date.mdate
         }
       })
@@ -134,8 +134,8 @@ export default {
       const f = formaciones.map(item => {
         return {
           url: `/formaciones/${item.alias}`,
-          changefreq: 'monthly',
-          priority: 0.3,
+          changefreq: 'weekly',
+          priority: 0.8,
           lastmod: item.date.mdate
         }
       })
