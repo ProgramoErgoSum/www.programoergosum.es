@@ -1,5 +1,5 @@
 <template>
-  <v-list shaped tile color="transparent" class="pa-0">
+  <v-list shaped tile disabled color="transparent" class="pa-0">
     <v-list-item-group>
       <v-list-item disabled>
         <v-list-item-content>
