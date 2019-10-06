@@ -23,18 +23,9 @@
       "mdate": "2019-09-14 11:41:12"
     }
   },
-  {
-    "alias": "curso-de-domotica-e-internet-de-las-cosas-para-docentes",
-    "title": "Curso de Domótica e Internet de las Cosas para docentes",
-    "description": "II Edición del curso de Domótica e Internet de las cosas para profesores de secundaria a través del Centro de Profesorado y Recursos de la Región de Murcia.",
-    "image": "img/preview.png",
-    "tags": ["curso", "programación", "profesores"],
-    "authors": ["migueabellan"],
-    "date": {
-      "cdate": "2019-09-02 10:42:24",
-      "mdate": "2019-09-02 14:05:12"
-    }
-  },
+
+
+
   {
     "alias": "participo-luego-existo-un-concurso-en-el-que-todos-ganan",
     "title": "Participo Luego Existo - Un concurso en el que todos ganan",
