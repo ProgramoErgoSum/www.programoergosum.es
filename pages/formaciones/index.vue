@@ -7,8 +7,23 @@
     />
     <v-container fluid>
       <v-row>
+        <v-col cols="12" class="text-center">
+          <v-chip label dark @click="currentTag = 'todos'">
+            Todos los puestos docentes
+          </v-chip>
+          <v-chip
+            v-for="tag in tags"
+            :key="tag"
+            class="ml-1"
+            label
+            :outlined="tag !== currentTag"
+            @click="currentTag = tag"
+          >
+            {{ tag }}
+          </v-chip>
+        </v-col>
         <v-col
-          v-for="formacion in formaciones"
+          v-for="formacion in filter"
           :key="formacion.alias"
           cols="12"
           xs="12"
@@ -30,6 +45,22 @@ import Item from '@/components/Pages/Formaciones/Item'
 export default {
   components: {
     Item
+  },
+  data() {
+    return {
+      tags: ['infantil', 'primaria', 'secundaria', 'bachillerato'],
+      currentTag: 'todos'
+    }
+  },
+  computed: {
+    filter() {
+      let formaciones = this.formaciones
+      if (this.currentTag !== 'todos')
+        formaciones = formaciones.filter(el =>
+          el.tags.includes(this.currentTag)
+        )
+      return formaciones
+    }
   },
   asyncData({ store }) {
     return {
