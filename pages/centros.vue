@@ -33,12 +33,7 @@
           xl="3"
           order-xl="2"
         >
-          <v-toolbar flat>
-            <v-toolbar-title>
-              Hazte centro colaborador
-            </v-toolbar-title>
-          </v-toolbar>
-          <v-list three-line>
+          <v-list color="transparent" three-line>
             <v-list-item v-for="(item, key) in faqs" :key="key">
               <v-list-item-avatar>
                 <v-icon>{{ item.icon }}</v-icon>
@@ -50,8 +45,6 @@
                 </v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
-          </v-list>
-          <v-list>
             <v-list-item>
               <v-list-item-avatar />
               <v-list-item-content class="mt-3">
@@ -68,23 +61,18 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12">
-          <v-toolbar primary dark>
-            <v-toolbar-title>
-              {{ centers.length }} centros educativos inscritos
-            </v-toolbar-title>
-          </v-toolbar>
-        </v-col>
-        <v-col cols="12">
           <v-text-field
             v-model="search"
             label="Buscar"
             outlined
-            hide-details
+            rounded
+            :messages="`${filter.length} centros educativos inscritos`"
             append-icon="mdi-magnify"
+            validate-on-blur
           />
         </v-col>
         <v-col
-          v-for="(item, index) in filterSearch"
+          v-for="(item, index) in filter"
           :key="index"
           xs="6"
           sm="4"
@@ -113,9 +101,14 @@ export default {
     search: '',
     faqs: [
       {
+        icon: 'mdi-domain',
+        title: 'Centros educativos',
+        description: 'Colegios o institutos.'
+      },
+      {
         icon: 'mdi-account-multiple',
-        title: 'Un docente (embajador)',
-        description: 'Comprometido con las TIC.'
+        title: 'Un docente',
+        description: 'Comprometido con la iniciativa.'
       },
       {
         icon: 'mdi-chat-outline',
@@ -135,9 +128,24 @@ export default {
     ]
   }),
   computed: {
-    filterSearch() {
-      if (this.search === '') return this.centers
-      return this.$store.getters['centers/filterSearch'](this.search)
+    filter() {
+      let centers = this.centers
+
+      if (this.search !== '') {
+        const search = this.search.toLowerCase()
+        centers = centers.filter(el => {
+          const name = el.name.toLowerCase()
+          const city = el.address.city.toLowerCase()
+          const province = el.address.province.toLowerCase()
+          return (
+            name.search(search) !== -1 ||
+            city.search(search) !== -1 ||
+            province.search(search) !== -1
+          )
+        })
+      }
+
+      return centers
     }
   },
   asyncData({ store }) {
