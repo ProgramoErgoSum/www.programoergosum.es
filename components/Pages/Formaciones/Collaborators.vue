@@ -15,7 +15,7 @@
           <v-list-item-title>
             <img
               width="200px"
-              src="~/static/logos/cprmurcia.jpg"
+              src="~/static/logos/cprmurcia.png"
               title="Centro de Profesores y Recursos"
             />
           </v-list-item-title>
