@@ -76,7 +76,7 @@ export default {
         {
           text: 'Formación del profesorado',
           disabled: false,
-          to: '/formacion'
+          to: '/formaciones'
         },
         {
           text: formacion.title,

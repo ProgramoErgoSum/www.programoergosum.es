@@ -7,6 +7,7 @@
     />
     <v-container fluid>
       <v-row>
+        <!--
         <v-col cols="12" class="text-center">
           <v-chip label dark @click="currentTag = 'todos'">
             Todos los puestos docentes
@@ -22,8 +23,9 @@
             {{ tag }}
           </v-chip>
         </v-col>
+        -->
         <v-col
-          v-for="formacion in filter"
+          v-for="formacion in formaciones"
           :key="formacion.alias"
           cols="12"
           xs="12"
@@ -46,6 +48,7 @@ export default {
   components: {
     Item
   },
+  /*
   data() {
     return {
       tags: ['infantil', 'primaria', 'secundaria', 'bachillerato'],
@@ -62,6 +65,7 @@ export default {
       return formaciones
     }
   },
+  */
   asyncData({ store }) {
     return {
       metas: store.state.metas.formaciones,
