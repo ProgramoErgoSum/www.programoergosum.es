@@ -134,10 +134,11 @@ export default {
     margin: 20px 0;
   }
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
     color: #333;
     &:hover {
-      color: #111;
+      color: #ae4119;
     }
   }
   p {
