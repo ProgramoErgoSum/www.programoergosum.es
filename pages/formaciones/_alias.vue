@@ -14,9 +14,8 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <!--
-          <Editions :editions="editions" />
-          -->
+          <Editions :editions="editions" class="mb-12" />
+
           <Content :raw="raw" :cdn="cdn" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
@@ -33,7 +32,7 @@
 <script>
 import axios from 'axios'
 
-// import Editions from '@/components/Pages/Formaciones/Editions'
+import Editions from '@/components/Pages/Formaciones/Editions'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 import Collaborators from '@/components/Pages/Formaciones/Collaborators'
@@ -42,7 +41,7 @@ import Collaborators from '@/components/Pages/Formaciones/Collaborators'
 
 export default {
   components: {
-    // Editions,
+    Editions,
     Content,
     Toc,
     Collaborators
