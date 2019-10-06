@@ -84,7 +84,7 @@
     "title": "Programación en Python con Raspberry Pi",
     "description": "Curso de introducción a la domótica e internet de las cosas con Raspberry Pi para profesores de educación secundaria.",
     "image": "img/preview.jpg",
-    "tags": ["programación", "robótica", "secundaria"],
+    "tags": ["programación", "robótica", "secundaria", "bachillerato"],
     "editions": [
       {
         "number": "3ª Edición",
@@ -115,7 +115,7 @@
     "title": "Robótica para la integración de alumnos con NEE",
     "description": "Curso de introducción a la programación y robótica para la integración de alumnos con necesidades educativas especiales.",
     "image": "img/preview.jpg",
-    "tags": ["programación", "robótica", "primaria", "secundaria"],
+    "tags": ["programación", "robótica", "infantil", "primaria", "secundaria"],
     "editions": [
       {
         "number": "3ª Edición",
@@ -146,7 +146,7 @@
     "title": "Recursos educativos mediante la programación",
     "description": "Curso sobre creación de recursos educativos mediante la programación de videojuegos y robótica educativa.",
     "image": "img/preview.jpg",
-    "tags": ["programación", "robótica", "primaria", "secundaria"],
+    "tags": ["programación", "robótica", "secundaria", "bachillerato"],
     "editions": [
       {
         "number": "2ª Edición",
@@ -171,7 +171,7 @@
     "title": "Jornadas sobre programación y robótica en Murcia",
     "description": "Jornadas sobre experiencias en programación y robótica educativa en educación primaria y secundaria.",
     "image": "img/preview.jpg",
-    "tags": ["programación", "robótica", "jornadas", "primaria", "secundaria"],
+    "tags": ["programación", "robótica", "infantil", "primaria", "secundaria", "bachillerato"],
     "editions": [
       {
         "number": "5ª Edición",
