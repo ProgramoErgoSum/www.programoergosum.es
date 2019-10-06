@@ -18,7 +18,7 @@
     <v-divider />
 
     <v-list>
-      <template v-for="(item, index) in navigation">
+      <template v-for="(item, index) in mobile">
         <v-list-item-group :key="index">
           <v-list-item v-if="item.to" :to="item.to" :disabled="item.disabled">
             <v-list-item-icon>
@@ -72,7 +72,7 @@ import { mapGetters, mapMutations } from 'vuex'
 export default {
   name: 'Navigation',
   computed: {
-    ...mapGetters(['navigation']),
+    ...mapGetters(['mobile']),
     drawer: {
       get() {
         return this.$store.state.drawer

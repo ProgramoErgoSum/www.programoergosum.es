@@ -3,13 +3,18 @@ import metas from '~/store/api/v1/metas.json'
 const state = () => ({
   drawer: false,
   metas,
-  /*
   topNavigation: [
     {
-      title: 'Asociación',
-      icon: 'mdi-information-variant',
-      to: '/asociacion'
+      title: 'Tutoriales de programación',
+      icon: '',
+      href: 'https://www.programoergosum.com'
     },
+    {
+      title: 'Plataforma STEM',
+      icon: '',
+      href: 'https://www.aprendeprogramando.es'
+    }
+    /*
     {
       title: 'Centros',
       icon: 'mdi-school',
@@ -20,9 +25,43 @@ const state = () => ({
       icon: 'mdi-account-heart-outline',
       to: '/colabora'
     }
+    */
   ],
-  */
   navigation: [
+    {
+      title: 'Asociación',
+      icon: '',
+      to: '/asociacion'
+    },
+    {
+      title: 'Extraescolares',
+      icon: '',
+      to: '/actividades'
+    },
+    /*
+    {
+      title: 'Blog',
+      icon: '',
+      to: '/blog'
+    },
+    */
+    {
+      title: 'Formación del profesorado',
+      icon: '',
+      to: '/formaciones'
+    },
+    {
+      title: 'Centros',
+      icon: '',
+      to: '/centros'
+    },
+    {
+      title: 'Colabora',
+      icon: '',
+      to: '/colabora'
+    }
+  ],
+  mobile: [
     {
       title: 'Asociación',
       icon: 'mdi-information-variant',
@@ -33,15 +72,8 @@ const state = () => ({
           icon: '',
           to: '/asociacion'
         },
-        /*
         {
-          title: 'Proyectos',
-          icon: '',
-          to: '/proyectos'
-        },
-        */
-        {
-          title: 'Actividades',
+          title: 'Extraescolares',
           icon: '',
           to: '/actividades'
         },
@@ -49,16 +81,6 @@ const state = () => ({
           title: 'Blog',
           icon: '',
           to: '/blog'
-        },
-        {
-          title: 'Colabora',
-          icon: '',
-          to: '/colabora'
-        },
-        {
-          title: 'Centros',
-          icon: '',
-          to: '/centros'
         },
         {
           title: 'Contacto',
@@ -78,6 +100,11 @@ const state = () => ({
       href: 'https://www.aprendeprogramando.es'
     },
     {
+      title: 'Formación profesores',
+      icon: 'mdi-school',
+      to: '/formaciones'
+    },
+    {
       title: 'Colabora',
       icon: 'mdi-account-heart-outline',
       to: '/colabora'
@@ -92,10 +119,9 @@ const state = () => ({
 
 const getters = {
   metas: state => state.metas,
+  topNavigation: state => state.topNavigation,
   navigation: state => state.navigation,
-  subNavigation: state => {
-    return state.navigation.find(el => el.to === '/').items
-  }
+  mobile: state => state.mobile
 }
 
 const actions = {}

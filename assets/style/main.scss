@@ -38,6 +38,10 @@ a {
   .v-btn:hover,
   .v-btn--active {
     color: #ae4119 !important;
+    font-weight: 300 !important;
+    .v-icon {
+      color: #ae4119 !important;
+    }
   }
   .v-btn--active {
     font-weight: 500;

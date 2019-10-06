@@ -28,31 +28,37 @@
     <v-app-bar-nav-icon class="hidden-md-and-up" @click="toggleDrawer" />
 
     <div class="navigation hidden-sm-and-down">
-      <template v-for="(item, index) in navigation">
+      <template v-for="(item, index) in topNavigation">
         <v-btn
           v-if="item.to"
           :key="index"
           :to="item.to"
           :disabled="item.disabled"
-          class="text-capitalize py-4"
+          class="text-none py-5"
           :class="item.to === '/' ? 'v-btn--active' : ''"
           text
           small
           nuxt
         >
+          <v-icon class="pr-1" size="18" color="grey">
+            {{ item.icon }}
+          </v-icon>
           {{ item.title }}
         </v-btn>
         <v-btn
-          v-else
+          v-if="item.href"
           :key="index"
           :href="item.href"
           :disabled="item.disabled"
           rel="noopener noreferrer"
           target="_blank"
-          class="text-capitalize py-4"
+          class="text-none py-5"
           small
           text
         >
+          <v-icon class="pr-1" size="18" color="grey">
+            {{ item.icon }}
+          </v-icon>
           {{ item.title }}
           <v-icon class="pl-1" size="12">mdi-open-in-new</v-icon>
         </v-btn>
@@ -66,7 +72,7 @@
             <Logo class="mt-2" />
           </nuxt-link>
         </v-toolbar-title>
-        <template v-for="(item, index) in subNavigation">
+        <template v-for="(item, index) in navigation">
           <v-btn
             v-if="item.to"
             :key="index"
@@ -80,7 +86,7 @@
             {{ item.title }}
           </v-btn>
           <v-btn
-            v-else
+            v-if="item.href"
             :key="index"
             :href="item.href"
             :disabled="item.disabled"
@@ -91,6 +97,7 @@
             title
           >
             {{ item.title }}
+            <v-icon class="pl-1" size="14">mdi-open-in-new</v-icon>
           </v-btn>
         </template>
       </v-toolbar-items>
@@ -122,7 +129,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['navigation', 'subNavigation'])
+    ...mapGetters(['topNavigation', 'navigation'])
   },
   methods: {
     ...mapMutations(['toggleDrawer']),
