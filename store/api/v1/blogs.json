@@ -16,7 +16,7 @@
     "title": "Programación Orientada a Objetos con Scratch",
     "description": "El lenguaje de programación por bloques de Scratch es una herramienta muy poderosa para aprender el paradigma de la Programación Orientada a Objetos.",
     "image": "img/preview.jpg",
-    "tags": ["scratch", "pensamiento computacional"],
+    "tags": ["pensamiento computacional", "scratch"],
     "authors": ["migueabellan"],
     "date": {
       "cdate": "2018-01-28 10:42:24",
