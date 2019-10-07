@@ -16,11 +16,23 @@
     "title": "Programación Orientada a Objetos con Scratch",
     "description": "El lenguaje de programación por bloques de Scratch es una herramienta muy poderosa para aprender el paradigma de la Programación Orientada a Objetos.",
     "image": "img/preview.jpg",
-    "tags": ["scratch", "poo"],
+    "tags": ["scratch", "pensamiento computacional"],
     "authors": ["migueabellan"],
     "date": {
       "cdate": "2018-01-28 10:42:24",
       "mdate": "2019-09-14 11:41:12"
+    }
+  },
+  {
+    "alias": "aprender-a-programar-sin-ordenador",
+    "title": "Aprender a programar sin ordenador",
+    "description": "Aprendiendo conceptos del paradigma de la programación informática sin necesidad de disponer de un ordenador.",
+    "image": "img/preview.jpg",
+    "tags": ["pensamiento computacional"],
+    "authors": ["migueabellan"],
+    "date": {
+      "cdate": "2019-09-07 11:31:24",
+      "mdate": "2019-09-02 11:31:24"
     }
   },
 
