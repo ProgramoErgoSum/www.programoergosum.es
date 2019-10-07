@@ -180,6 +180,9 @@ export default {
       }
     }
   }
+  .twitter-tweet {
+    margin: 0 auto;
+  }
   code {
     padding: 1px 3px;
     background: #f0f0f0;
