@@ -14,7 +14,7 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <Editions :editions="editions" class="mb-12" />
+          <Info :speakers="speakers" :editions="editions" class="mb-12" />
 
           <Content :raw="raw" :cdn="cdn" />
         </v-col>
@@ -32,7 +32,7 @@
 <script>
 import axios from 'axios'
 
-import Editions from '@/components/Pages/Formaciones/Editions'
+import Info from '@/components/Pages/Formaciones/Info'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 import Collaborators from '@/components/Pages/Formaciones/Collaborators'
@@ -41,7 +41,7 @@ import Collaborators from '@/components/Pages/Formaciones/Collaborators'
 
 export default {
   components: {
-    Editions,
+    Info,
     Content,
     Toc,
     Collaborators
@@ -69,6 +69,7 @@ export default {
       description: formacion.description,
       image: `${urlRaw}/${formacion.image}`,
 
+      speakers: formacion.speakers,
       editions: formacion.editions,
 
       raw: file,
