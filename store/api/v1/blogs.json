@@ -35,6 +35,18 @@
       "mdate": "2019-09-02 11:31:24"
     }
   },
+  {
+    "alias": "pensamiento-computacional-con-scratch",
+    "title": "Pensamiento computacional con Scratch",
+    "description": "El pensamiento computacional está directamente relacionado con la informática y puede analizarse a través de Scratch.",
+    "image": "img/preview.jpg",
+    "tags": ["pensamiento computacional", "scratch"],
+    "authors": ["migueabellan"],
+    "date": {
+      "cdate": "2017-01-07 11:31:24",
+      "mdate": "2019-08-16 18:34:22"
+    }
+  },
 
 
 
