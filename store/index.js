@@ -7,11 +7,13 @@ const state = () => ({
     {
       title: 'Tutoriales de programación',
       icon: '',
+      class: '',
       href: 'https://www.programoergosum.com'
     },
     {
       title: 'Plataforma STEM',
       icon: '',
+      class: '',
       href: 'https://www.aprendeprogramando.es'
     },
     {
