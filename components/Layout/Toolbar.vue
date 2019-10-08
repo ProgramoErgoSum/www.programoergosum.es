@@ -8,6 +8,7 @@
     dense
     app
   >
+    <!--
     <v-switch
       v-model="$vuetify.theme.dark"
       class="mt-6 hidden-sm-and-down"
@@ -16,6 +17,26 @@
       "
       color="primary"
     />
+    -->
+    <!--
+    <span class="caption primary--text">
+      Este proyecto es de
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on }">
+          <span v-on="on" class="font-weight-bold">código abierto</span>
+        </template>
+        <span>License MIT</span>
+      </v-tooltip>
+      y todo el
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on }">
+          <span v-on="on" class="font-weight-bold">contenido es libre</span>
+        </template>
+        <span>License CC-BY-SA</span>
+      </v-tooltip>
+      salvo que se exprese lo contrario.
+    </span>
+    -->
 
     <v-toolbar-title class="hidden-md-and-up">
       <nuxt-link to="/" aria-label="Inicio">
@@ -52,7 +73,8 @@
           :disabled="item.disabled"
           rel="noopener noreferrer"
           target="_blank"
-          class="text-none py-5"
+          class="text-none py-4"
+          :class="item.class"
           small
           text
         >

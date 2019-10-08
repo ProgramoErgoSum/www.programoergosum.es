@@ -13,6 +13,13 @@ const state = () => ({
       title: 'Plataforma STEM',
       icon: '',
       href: 'https://www.aprendeprogramando.es'
+    },
+    {
+      title: 'Donaciones',
+      icon: 'mdi-paypal',
+      class: 'primary',
+      href:
+        'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url'
     }
     /*
     {

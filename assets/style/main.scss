@@ -43,6 +43,15 @@ a {
       color: #ae4119 !important;
     }
   }
+  .v-btn.primary{
+    color: #fff !important;
+    .v-icon {
+      color: #fff !important;
+    }
+  }
+  .v-btn:hover.primary{
+    color: #fff !important;
+  }
   .v-btn--active {
     font-weight: 500;
   }
@@ -56,15 +65,9 @@ a {
   height: 64px !important;
   padding: 0 !important;
   border-top: 1px solid #f0f0f0;
-  /*
-  .v-btn {
-    // border-bottom: 3px solid transparent;
-  }
-  */
   .v-btn:hover,
   .v-btn--active {
     color: #ae4119 !important;
-    // border-bottom: 3px solid #ae4119;
   }
   .v-btn:hover::before,
   .v-btn--active::before {
