@@ -9,16 +9,6 @@
     app
   >
     <!--
-    <v-switch
-      v-model="$vuetify.theme.dark"
-      class="mt-6 hidden-sm-and-down"
-      :label="
-        $vuetify.theme.dark ? `Cambia al tema claro` : `Cambia al tema oscuro`
-      "
-      color="primary"
-    />
-    -->
-    <!--
     <span class="caption primary--text">
       Este proyecto es de
       <v-tooltip bottom>

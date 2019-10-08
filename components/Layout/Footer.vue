@@ -105,7 +105,18 @@
           </div>
         </v-col>
 
-        <v-col class="mt-5" cols="12">
+        <v-col cols="12" class="mt-5 hidden-md-and-down">
+          <v-switch
+            v-model="$vuetify.theme.dark"
+            :label="
+              $vuetify.theme.dark
+                ? `Cambia al tema claro`
+                : `Cambia al tema oscuro`
+            "
+            dark
+          />
+        </v-col>
+        <v-col cols="12" class="mt-5">
           <div class="text-center body-2 font-weight-light">
             <p class="ma-0 mb-2">
               This project is Open Source on
