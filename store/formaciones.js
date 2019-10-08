@@ -10,7 +10,17 @@ const state = () => ({
   list: formaciones
 })
 
-const getters = {}
+const getters = {
+  related: state => item => {
+    const blogs = []
+    item.tags.map(tag => {
+      state.list.map(el => {
+        if (el.tags.includes(tag) && el.title !== item.title) blogs.push(el)
+      })
+    })
+    return blogs.slice(0, 3)
+  }
+}
 
 const actions = {}
 

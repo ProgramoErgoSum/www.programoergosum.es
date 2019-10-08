@@ -26,6 +26,26 @@
         </v-col>
       </v-row>
     </v-container>
+
+    <section v-show="related.length > 1" class="py-12" :class="background">
+      <v-container>
+        <v-row>
+          <v-col cols="12">
+            <h2>Cursos de formación relacionados</h2>
+          </v-col>
+          <v-col
+            v-for="formacion in related"
+            :key="formacion.alias"
+            cols="12"
+            xs="12"
+            sm="12"
+            md="4"
+          >
+            <ItemCol :formacion="formacion" />
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
   </div>
 </template>
 
@@ -36,6 +56,7 @@ import Info from '@/components/Pages/Formaciones/Info'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 import Collaborators from '@/components/Pages/Formaciones/Collaborators'
+import ItemCol from '@/components/Pages/Formaciones/ItemCol'
 // import AdsenseDisplay from '@/components/Adsense/Display'
 // import AdsenseInarticle from '@/components/Adsense/Inarticle'
 
@@ -44,9 +65,15 @@ export default {
     Info,
     Content,
     Toc,
-    Collaborators
+    Collaborators,
+    ItemCol
     // AdsenseDisplay,
     // AdsenseInarticle
+  },
+  computed: {
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
+    }
   },
   validate({ store, params }) {
     return store.state.formaciones.list.find(e => e.alias === params.alias)
@@ -74,6 +101,8 @@ export default {
 
       raw: file,
       cdn: `${urlRaw}/`,
+
+      related: store.getters['formaciones/related'](formacion),
 
       breadcrumbs: [
         {
