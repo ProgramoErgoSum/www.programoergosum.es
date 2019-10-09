@@ -5,7 +5,7 @@ const state = () => ({
   repo_raw: 'https://raw.githubusercontent.com/ProgramoErgoSum/Blog/master',
   repo_edit: 'https://github.com/ProgramoErgoSum/Blog/edit/master',
   adsense: {
-    left: '9699220490', // [PES-es] /blog/{alias} LEFT
+    left: '9699220490', // [PES-es] /blog/{alias} CONTENT-LEFT
     top: '8749654187', // [PES-es] /blog/{alias} CONTENT-TOP
     bottom: '8649581830' // [PES-es] /blog/{alias} CONTENT-BOTTOM
   },
