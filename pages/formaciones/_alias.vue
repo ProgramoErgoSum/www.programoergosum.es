@@ -10,7 +10,7 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <!-- -->
+            <Collaborators />
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
@@ -21,7 +21,6 @@
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
             <Toc :raw="raw" title="Temario del curso" />
-            <Collaborators class="mt-12" />
           </div>
         </v-col>
       </v-row>
