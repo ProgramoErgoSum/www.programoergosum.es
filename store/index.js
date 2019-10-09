@@ -42,16 +42,11 @@ const state = () => ({
       icon: '',
       to: '/asociacion'
     },
+    /*
     {
       title: 'Extraescolares',
       icon: '',
       to: '/actividades'
-    },
-    /*
-    {
-      title: 'Blog',
-      icon: '',
-      to: '/blog'
     },
     */
     {
@@ -68,6 +63,11 @@ const state = () => ({
       title: 'Colabora',
       icon: '',
       to: '/colabora'
+    },
+    {
+      title: 'Blog',
+      icon: '',
+      to: '/blog'
     }
   ],
   mobile: [
@@ -104,7 +104,7 @@ const state = () => ({
       href: 'https://www.programoergosum.com'
     },
     {
-      title: 'Steam',
+      title: 'Plataforma STEM',
       icon: 'mdi-language-python',
       href: 'https://www.aprendeprogramando.es'
     },
