@@ -10,10 +10,11 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <!-- [PES-es] /blog/{alias} LEFT -->
-            <!--
-            <Adsense-Display data-ad-slot="9699220490" />
-            -->
+            <Adsense
+              v-if="isAdsense"
+              type="display"
+              :data-ad-slot="adsense.left"
+            />
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
@@ -22,17 +23,21 @@
           <Authors :authors="authors" class="mt-6" />
           <Contributing :edit-link="editLink" class="mt-1" />
 
-          <!-- [PES-es] /blog/{alias} CONTENT-TOP -->
-          <!--
-          <Adsense-Inarticle data-ad-slot="8749654187" class="mt-12" />
-          -->
+          <Adsense
+            v-if="isAdsense"
+            type="inarticle"
+            :data-ad-slot="adsense.top"
+            class="mt-12"
+          />
 
           <Content :raw="raw" :cdn="cdn" class="my-12" />
 
-          <!-- [PES-es] /blog/{alias} CONTENT-BOTTOM -->
-          <!--
-          <Adsense-Inarticle data-ad-slot="8649581830" class="my-12" />
-          -->
+          <Adsense
+            v-if="isAdsense"
+            type="inarticle"
+            :data-ad-slot="adsense.bottom"
+            class="mt-12"
+          />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
@@ -65,6 +70,8 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 import axios from 'axios'
 
 import Posted from '@/components/Pages/Blog/Posted'
@@ -74,8 +81,7 @@ import Contributing from '@/components/Pages/Blog/Contributing'
 import Content from '@/components/Markdown/Content'
 import ItemCol from '@/components/Pages/Blog/ItemCol'
 import Toc from '@/components/Markdown/Toc'
-// import AdsenseDisplay from '@/components/Adsense/Display'
-// import AdsenseInarticle from '@/components/Adsense/Inarticle'
+import Adsense from '@/components/Adsense/Index'
 
 export default {
   components: {
@@ -85,11 +91,11 @@ export default {
     Contributing,
     Content,
     ItemCol,
-    Toc
-    // AdsenseDisplay,
-    // AdsenseInarticle
+    Toc,
+    Adsense
   },
   computed: {
+    ...mapGetters({ adsense: 'blogs/adsense' }),
     background() {
       return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
     }
@@ -122,6 +128,8 @@ export default {
 
       raw: file,
       cdn: `${urlRaw}/`,
+
+      isAdsense: blog.adsense,
 
       related: store.getters['blogs/related'](blog),
 
