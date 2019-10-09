@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div v-if="isProduction">
+    <template v-if="isProduction">
       <Display v-if="type === 'display'" :data-ad-slot="dataAdSlot" />
       <Inarticle v-if="type === 'inarticle'" :data-ad-slot="dataAdSlot" />
       <Infeed v-if="type === 'infeed'" :data-ad-slot="dataAdSlot" />
-    </div>
-    <div v-else>
+    </template>
+    <template v-else>
       <v-alert type="warning">{{ type }} ({{ dataAdSlot }})</v-alert>
-    </div>
+    </template>
   </div>
 </template>
 
