@@ -1,8 +1,8 @@
 <template>
   <span>
-    <v-icon size="20">mdi-calendar</v-icon>
+    <!--<v-icon size="20">mdi-calendar</v-icon>-->
     <time :datetime="mdate" class="body-2 font-weight-light">
-      {{ mdate | formatDate }}
+      Última actualización: {{ mdate | formatDate }}
     </time>
   </span>
 </template>
