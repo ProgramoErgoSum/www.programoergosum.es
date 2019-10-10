@@ -30,18 +30,21 @@ export default {
     const canonical = `${process.env.www}${this.$route.path}`
     return {
       link: [
+        // Global
         { rel: 'canonical', href: canonical }
         // { hid: 'description', name: 'description', content: description }
       ],
       meta: [
+        // Open Graph https://ogp.me/
         { property: 'og:locale', content: 'es' },
         { property: 'og:site_name', content: 'Asociación Programo Ergo Sum' },
-        { property: 'og:type', content: 'article' }, // website
         { property: 'og:url', content: canonical },
+        { hid: 'o:ty', property: 'og:type', content: 'website' },
         // { hid: 'o:t', property: 'og:title', content: title }
         // { hid: 'o:d', property: 'og:description', content: description }
         // { hid: 'o:i', property: 'og:image', content: image }
 
+        // Twitter
         { name: 'twitter:site', content: '@ProgramoErgoSum' },
         { name: 'twitter:creator', content: '@ProgramoErgoSum' },
         { name: 'twitter:card', content: 'summary_large_image' }
