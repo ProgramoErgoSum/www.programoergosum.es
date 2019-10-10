@@ -138,7 +138,7 @@ export default {
       meta: [
         // Global
         { hid: 'description', name: 'description', content: description },
-        // Facebook
+        // Open Graph
         { hid: 'o:t', property: 'og:title', content: title },
         { hid: 'o:d', property: 'og:description', content: description },
         { hid: 'o:i', property: 'og:image', content: image },

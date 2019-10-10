@@ -98,6 +98,9 @@ export default {
       speakers: formacion.speakers,
       editions: formacion.editions,
 
+      date: formacion.date,
+      tags: formacion.tags,
+
       raw: file,
       cdn: `${urlRaw}/`,
 
@@ -121,6 +124,8 @@ export default {
     const title = this.title
     const description = this.description
     const image = this.image
+    const date = this.date
+    const tags = this.tags
 
     return {
       title,
@@ -128,10 +133,14 @@ export default {
       meta: [
         // Global
         { hid: 'description', name: 'description', content: description },
-        // Facebook
+        // Open Graph
         { hid: 'o:t', property: 'og:title', content: title },
         { hid: 'o:d', property: 'og:description', content: description },
         { hid: 'o:i', property: 'og:image', content: image },
+        { property: 'og:article:published_time', content: date.cdate },
+        { property: 'og:article:modified_time', content: date.mdate },
+        { property: 'og:article:section', content: 'Formación profesorado' },
+        { property: 'og:article:tag', content: tags },
         // Twitter
         { hid: 't:t', name: 'twitter:title', content: title },
         { hid: 't:d', name: 'twitter:description', content: description },
