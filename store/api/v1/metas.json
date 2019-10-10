@@ -46,7 +46,7 @@
   },
   "formaciones": {
     "title": "Cursos de Formación Permanente del Profesorado",
-    "description": "Cursos de formación en informática, programación y robótica educativa para docentes, maestros de educación primaria y profesores de secundaria o bachillerato.",
+    "description": "Cursos de formación en programación y robótica educativa para docentes, maestros de educación primaria y profesores de secundaria o bachillerato.",
     "image": "/images/formaciones.jpg"
   }
 }
