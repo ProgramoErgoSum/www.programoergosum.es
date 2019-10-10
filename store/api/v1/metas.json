@@ -40,13 +40,13 @@
     "image": "/images/blog.png"
   },
   "actividades": {
-    "title": "Extraescolares de robótica en Murcia",
+    "title": "Actividades extraescolares de robótica en Murcia",
     "description": "Cursos, talleres gratuitos y actividades extraescolares de informática, programación, electrónica y robótica en la Región de Murcia.",
     "image": "/images/actividades.png"
   },
   "formaciones": {
-    "title": "Formación Permanente del Profesorado",
-    "description": "Cursos de formación en informática, programación, electrónica y robótica educativa para docentes de educación primaria, secundaria y bachillerato.",
+    "title": "Cursos de Formación Permanente del Profesorado",
+    "description": "Cursos de formación en informática, programación y robótica educativa para docentes, maestros de educación primaria y profesores de secundaria o bachillerato.",
     "image": "/images/formaciones.jpg"
   }
 }
