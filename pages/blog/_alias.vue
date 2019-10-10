@@ -10,11 +10,7 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <Adsense
-              v-if="isAdsense"
-              type="display"
-              :data-ad-slot="adsense.left"
-            />
+            <Adsense type="display" :data-ad-slot="adsense.left" />
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
@@ -23,21 +19,25 @@
           <Authors :authors="authors" class="mt-6" />
           <Contributing :edit-link="editLink" class="mt-1" />
 
+          <!--
           <Adsense
             v-if="isAdsense"
             type="inarticle"
             :data-ad-slot="adsense.top"
             class="mt-12"
           />
+          -->
 
           <Content :raw="raw" :cdn="cdn" class="my-12" />
 
+          <!--
           <Adsense
             v-if="isAdsense"
             type="inarticle"
             :data-ad-slot="adsense.bottom"
             class="mt-12"
           />
+          -->
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
@@ -129,7 +129,7 @@ export default {
       raw: file,
       cdn: `${urlRaw}/`,
 
-      isAdsense: blog.adsense,
+      // isAdsense: blog.adsense,
 
       related: store.getters['blogs/related'](blog),
 
