@@ -52,9 +52,11 @@ export default {
   methods: {
     close() {
       this.sheet = false
+      /*
       setTimeout(() => {
         this.sheet = true
       }, 60 * 1000)
+      */
     }
   }
 }
