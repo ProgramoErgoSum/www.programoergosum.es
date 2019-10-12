@@ -5,7 +5,9 @@
     <v-content>
       <nuxt class="nuxt-content" />
     </v-content>
+    <!--
     <Bottomsheet />
+    -->
     <Privacy />
     <ToTop />
     <Footer />
@@ -15,7 +17,7 @@
 <script>
 import Navigation from '@/components/Layout/Navigation'
 import Toolbar from '@/components/Layout/Toolbar'
-import Bottomsheet from '@/components/Layout/Bottomsheet'
+// import Bottomsheet from '@/components/Layout/Bottomsheet'
 import Privacy from '@/components/Layout/Privacy'
 import ToTop from '@/components/Layout/ToTop'
 import Footer from '@/components/Layout/Footer'
@@ -24,7 +26,7 @@ export default {
   components: {
     Navigation,
     Toolbar,
-    Bottomsheet,
+    // Bottomsheet,
     Privacy,
     ToTop,
     Footer
