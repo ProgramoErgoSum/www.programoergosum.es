@@ -48,8 +48,14 @@
             <v-list-item>
               <v-list-item-avatar />
               <v-list-item-content class="mt-3">
-                <v-btn to="/contacto" nuxt color="secondary">
-                  Más información
+                <v-btn
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf5ABk072HFY0JUlAHwcPuGF_7JGMrwpnUANeZuO7N4qNTGrw/viewform"
+                  nuxt
+                  color="secondary"
+                >
+                  Solicitud de centro
                 </v-btn>
               </v-list-item-content>
             </v-list-item>
