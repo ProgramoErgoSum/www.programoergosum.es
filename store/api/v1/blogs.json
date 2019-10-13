@@ -47,6 +47,18 @@
       "mdate": "2019-08-28 18:34:22"
     }
   },
+  {
+    "alias": "robots-educativos-de-suelo",
+    "title": "Robots educativos de suelo",
+    "description": "Comparativa sobre los principales robots educativos de suelo para usar en el aula con alumnos desde educación infantil.",
+    "image": "img/preview.jpg",
+    "tags": ["pensamiento computacional", "robótica"],
+    "authors": ["migueabellan"],
+    "date": {
+      "cdate": "2018-01-17 11:21:29",
+      "mdate": "2019-08-13 10:01:35"
+    }
+  },
 
 
 
