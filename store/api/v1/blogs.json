@@ -1,5 +1,17 @@
 [
   {
+    "alias": "aprender-a-programar-sin-ordenador",
+    "title": "Aprender a programar sin ordenador",
+    "description": "Aprendiendo conceptos del paradigma de la programación informática sin necesidad de disponer de un ordenador.",
+    "image": "img/preview.jpg",
+    "tags": ["pensamiento computacional"],
+    "authors": ["migueabellan"],
+    "date": {
+      "cdate": "2017-01-07 11:31:24",
+      "mdate": "2019-10-13 10:01:35"
+    }
+  },
+  {
     "alias": "aprender-a-programar-con-scratch-en-raspberry-pi",
     "title": "Aprender a programar con Scratch en Raspberry Pi",
     "description": "Ya está disponible la versión offline de Scratch 3.0 en el Sistema Operativo Raspbian para Raspberry Pi con bloques para controlar los pines GPIO.",
@@ -23,21 +35,6 @@
       "mdate": "2019-09-14 11:41:12"
     }
   },
-
-
-
-  {
-    "alias": "aprender-a-programar-sin-ordenador",
-    "title": "Aprender a programar sin ordenador",
-    "description": "Aprendiendo conceptos del paradigma de la programación informática sin necesidad de disponer de un ordenador.",
-    "image": "img/preview.jpg",
-    "tags": ["pensamiento computacional"],
-    "authors": ["migueabellan"],
-    "date": {
-      "cdate": "2017-01-07 11:31:24",
-      "mdate": "2019-09-07 17:01:35"
-    }
-  },
   {
     "alias": "pensamiento-computacional-con-scratch",
     "title": "Pensamiento computacional con Scratch",
@@ -47,7 +44,7 @@
     "authors": ["migueabellan"],
     "date": {
       "cdate": "2017-01-07 11:31:24",
-      "mdate": "2019-08-16 18:34:22"
+      "mdate": "2019-08-28 18:34:22"
     }
   },
 
