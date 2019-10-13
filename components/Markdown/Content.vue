@@ -41,7 +41,7 @@ export default {
           }
           return ''
         }
-      })
+      }).enable(['table'])
 
       md.use(toc, {
         anchorLink: false
