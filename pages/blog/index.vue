@@ -18,7 +18,7 @@
             validate-on-blur
           />
         </v-col>
-        <template v-for="blog in filter">
+        <template v-for="blog in filter.slice(0, pagItems)">
           <v-col :key="blog.alias" cols="12">
             <Item :blog="blog" />
             <v-divider class="mt-6" />
@@ -32,6 +32,16 @@
             -->
           </v-col>
         </template>
+        <v-col cols="12" class="text-center">
+          <v-btn
+            v-show="pagItems < maxItems"
+            depressed
+            small
+            @click="pagItems += 5"
+          >
+            Mostrar más
+          </v-btn>
+        </v-col>
       </v-row>
     </v-container>
   </div>
@@ -49,21 +59,21 @@ export default {
   data() {
     return {
       search: '',
-      maxItems: 5
+      maxItems: 0,
+      pagItems: 5
     }
   },
   computed: {
     filter() {
       let blogs = this.blogs
 
-      if (this.search !== '') {
+      if (this.search !== '' && this.search.length > 2) {
         const search = this.search.toLowerCase()
         blogs = blogs.filter(el => {
-          // const title = el.title.toLowerCase()
+          const title = el.title.toLowerCase()
           const description = el.description.toLowerCase()
           return (
-            // title.search(search) !== -1 ||
-            description.search(search) !== -1
+            title.search(search) !== -1 || description.search(search) !== -1
           )
         })
       }
@@ -76,6 +86,9 @@ export default {
       metas: store.state.metas.blog,
       blogs: store.state.blogs.list
     }
+  },
+  created() {
+    this.maxItems = this.blogs.length
   },
   head() {
     const title = this.metas.title
