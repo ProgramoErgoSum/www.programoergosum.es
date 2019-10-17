@@ -108,28 +108,28 @@ export default {
     faqs: [
       {
         icon: 'mdi-domain',
-        title: 'Centros educativos',
-        description: 'Colegios o institutos.'
-      },
-      {
-        icon: 'mdi-account-multiple',
-        title: 'Un docente',
-        description: 'Comprometido con la iniciativa.'
-      },
-      {
-        icon: 'mdi-chat-outline',
-        title: 'Difunde la iniciativa',
-        description: 'Utiliza nuestras plataformas en el aula.'
+        title: 'Formación del profesorado',
+        description: 'Centros de profesores y recursos'
       },
       {
         icon: 'mdi-school',
-        title: 'Enseña los logros conseguidos',
-        description: 'Recibirás diplomas para entregar a tus alumnos.'
+        title: 'Centros de enseñanza',
+        description: 'Colegios e institutos públicos o concertados'
+      },
+      {
+        icon: 'mdi-chat-outline',
+        title: 'Ayúdanos a mejorar',
+        description: 'Ponte en contacto con nosotros de forma regular'
+      },
+      {
+        icon: 'mdi-account-multiple',
+        title: 'En el aula',
+        description: 'Utiliza nuestras plataformas con tus alumnos'
       },
       {
         icon: 'mdi-map-marker',
         title: 'Sitúate en el mapa',
-        description: 'Aparecerás en el mapa como centro colaborador.'
+        description: 'Aparecerás en el mapa como centro colaborador'
       }
     ]
   }),
