@@ -60,7 +60,7 @@ export default {
     return {
       search: '',
       maxItems: 0,
-      pagItems: 5
+      pagItems: 6
     }
   },
   computed: {

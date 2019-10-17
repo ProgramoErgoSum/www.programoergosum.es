@@ -12,15 +12,15 @@
     }
   },
   {
-    "alias": "aprender-a-programar-con-scratch-en-raspberry-pi",
-    "title": "Aprender a programar con Scratch en Raspberry Pi",
-    "description": "Ya está disponible la versión offline de Scratch 3.0 en el Sistema Operativo Raspbian para Raspberry Pi con bloques para controlar los pines GPIO.",
+    "alias": "pensamiento-computacional-con-scratch",
+    "title": "Pensamiento computacional con Scratch",
+    "description": "El pensamiento computacional está directamente relacionado con la informática y puede analizarse a través de la programación con Scratch.",
     "image": "img/preview.jpg",
-    "tags": ["scratch", "raspberry pi"],
+    "tags": ["pensamiento computacional", "scratch"],
     "authors": ["migueabellan"],
     "date": {
-      "cdate": "2019-09-26 11:31:24",
-      "mdate": "2019-09-26 11:31:24"
+      "cdate": "2017-01-07 11:31:24",
+      "mdate": "2019-08-28 18:34:22"
     }
   },
   {
@@ -48,19 +48,31 @@
     }
   },
   {
-    "alias": "pensamiento-computacional-con-scratch",
-    "title": "Pensamiento computacional con Scratch",
-    "description": "El pensamiento computacional está directamente relacionado con la informática y puede analizarse a través de la programación con Scratch.",
+    "alias": "aprender-a-programar-con-la-hora-del-codigo",
+    "title": "Aprender a programar con La Hora del Código",
+    "description": "Plataforma educativa con asistente guiado para aprender a programar en el aula con los alumnos.",
     "image": "img/preview.jpg",
-    "tags": ["pensamiento computacional", "scratch"],
+    "tags": ["pensamiento computacional"],
     "authors": ["migueabellan"],
     "date": {
       "cdate": "2017-01-07 11:31:24",
-      "mdate": "2019-08-28 18:34:22"
+      "mdate": "2019-10-17 10:01:35"
     }
   },
-
-
+  {
+    "alias": "aprender-a-programar-con-scratch-en-raspberry-pi",
+    "title": "Aprender a programar con Scratch en Raspberry Pi",
+    "description": "Ya está disponible la versión offline de Scratch 3.0 en el Sistema Operativo Raspbian para Raspberry Pi con bloques para controlar los pines GPIO.",
+    "image": "img/preview.jpg",
+    "tags": ["scratch", "raspberry pi"],
+    "authors": ["migueabellan"],
+    "date": {
+      "cdate": "2019-09-26 11:31:24",
+      "mdate": "2019-09-26 11:31:24"
+    }
+  },
+  
+  
 
   {
     "alias": "participo-luego-existo-un-concurso-en-el-que-todos-ganan",
