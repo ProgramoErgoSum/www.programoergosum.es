@@ -39,17 +39,71 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
-
 import Card from '@/components/Pages/Colabora/Card'
 
 export default {
   components: {
     Card
   },
-  computed: {
-    ...mapGetters({ patrons: 'collaborators/patrons' })
-  }
+  data: () => ({
+    patrons: [
+      {
+        name: 'David Sánchez',
+        image: 'images/colabora/davidsanlo78.jpg',
+        description:
+          'Maestro de música, Jefe de Estudios en CEIP San Miguel de Nerja y pedagogo. Metido en las TIC desde 2004 y robótica desde 2014.',
+        social: {
+          url: 'https://scratchdaynerja.wordpress.com',
+          twitter: 'https://twitter.com/davidsanlo78',
+          github: ''
+        }
+      },
+      {
+        name: 'Pepe García',
+        image: 'images/colabora/ppgarsan123.jpg',
+        description:
+          'Director del CEIP Francisco Villaespesa El Parador de Roquetas de Mar. Cacharreando en temas de robótica educativa desde 1978.',
+        social: {
+          url: '',
+          twitter: '',
+          github: ''
+        }
+      },
+      {
+        name: 'Francisco Román',
+        image: 'images/colabora/FranciscoRomnC2.jpg',
+        description:
+          'Profesor de Secundaria de Robótica, Tecnología y TIC en el Colegio Reina Sofía de Totana (Murcia).',
+        social: {
+          url: '',
+          twitter: 'https://twitter.com/FranciscoRomnC2',
+          github: ''
+        }
+      },
+      {
+        name: 'Tolo Piza',
+        image: 'images/colabora/tolo_piza.jpg',
+        description:
+          '🏳️‍🌈⚜P.h.D in Science,Teacher. Investigant Didàctica de la Ciència(UIB), Col/Reviewer Scienceinschool.',
+        social: {
+          url: 'http://Scienceinschool.org',
+          twitter: 'https://twitter.com/tolo_piza',
+          github: ''
+        }
+      },
+      {
+        name: 'Pablo Nuñez',
+        image: 'images/colabora/eltercerlugar.jpg',
+        description:
+          'Maker en @fablableon Fundador de @alac2013. Champion en @coderdojoleon. Hago realidad tus ideas en @fabricotusideas.',
+        social: {
+          url: 'http://fabricotusideas.com',
+          twitter: 'https://twitter.com/eltercerlugar',
+          github: 'https://github.com/eltercerlugar'
+        }
+      }
+    ]
+  })
 }
 </script>
 
