@@ -10,7 +10,7 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <Collaborators />
+            <Adsense type="display" :data-ad-slot="adsense.left" />
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
@@ -21,6 +21,7 @@
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
             <Toc :raw="raw" title="Temario del curso" />
+            <Collaborators class="mt-12" />
           </div>
         </v-col>
       </v-row>
@@ -49,6 +50,8 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 import axios from 'axios'
 
 import Info from '@/components/Pages/Formaciones/Info'
@@ -56,8 +59,7 @@ import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 import Collaborators from '@/components/Pages/Formaciones/Collaborators'
 import ItemCol from '@/components/Pages/Formaciones/ItemCol'
-// import AdsenseDisplay from '@/components/Adsense/Display'
-// import AdsenseInarticle from '@/components/Adsense/Inarticle'
+import Adsense from '@/components/Adsense/Index'
 
 export default {
   components: {
@@ -65,11 +67,11 @@ export default {
     Content,
     Toc,
     Collaborators,
-    ItemCol
-    // AdsenseDisplay,
-    // AdsenseInarticle
+    ItemCol,
+    Adsense
   },
   computed: {
+    ...mapGetters({ adsense: 'formaciones/adsense' }),
     background() {
       return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
     }

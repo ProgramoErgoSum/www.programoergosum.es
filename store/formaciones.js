@@ -7,10 +7,14 @@ const state = () => ({
   repo_url: `https://github.com/${repo}/tree/master`,
   repo_raw: `https://raw.githubusercontent.com/${repo}/master`,
   repo_edit: `https://github.com/${repo}/edit/master`,
+  adsense: {
+    left: '4490512803' // [PES-es] /formaciones/{alias} CONTENT-LEFT
+  },
   list: formaciones
 })
 
 const getters = {
+  adsense: state => state.adsense,
   related: state => item => {
     const blogs = []
     item.tags.map(tag => {
