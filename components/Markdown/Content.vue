@@ -68,6 +68,18 @@ export default {
         return `<figure><img class="lazy" src="${src}" data-src="${dataSrc}" alt="${alt}"><figcaption>${alt}</figcaption></figure>`
       }
 
+      // Renderer a internals links in markdown
+      md.renderer.rules.link_open = function(tokens, idx, options, env, slf) {
+        return (
+          '<a target="_blank" rel="nofollow noopener noreferrer"' +
+          slf.renderAttrs(tokens[idx]) +
+          '>'
+        )
+      }
+      md.renderer.rules.link_close = function() {
+        return '<i aria-hidden="true" class="v-icon notranslate pl-1 mdi mdi-open-in-new" style="font-size:12px;"></i></a>'
+      }
+
       return md.render(this.raw)
     }
   },
