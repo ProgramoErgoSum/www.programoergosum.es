@@ -75,8 +75,8 @@ export default {
   },
   methods: {
     goTo(anchor, event) {
-      this.$router.push(`${this.$route.path}#${anchor}`)
-      this.$vuetify.goTo(`#${anchor}`)
+      // this.$router.push(`${this.$route.path}#${anchor}`)
+      this.$vuetify.goTo(`#${anchor}`, { offset: 50 })
     },
     onScroll() {
       this.currentOffset =
