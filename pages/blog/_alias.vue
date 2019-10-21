@@ -16,28 +16,27 @@
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
           <Posted :cdate="date.cdate" :mdate="date.mdate" />
           <Tags :tags="tags" class="ml-3" />
-          <Authors :authors="authors" class="mt-6" />
-          <Contributing :edit-link="editLink" class="mt-1" />
-
           <!--
           <Adsense
-            v-if="isAdsense"
             type="inarticle"
             :data-ad-slot="adsense.top"
-            class="mt-12"
+            class="mt-12 mb-6"
           />
           -->
-
-          <Content :raw="raw" :cdn="cdn" class="my-12" />
-
+          <Content :raw="raw" :cdn="cdn" class="py-12" />
           <!--
           <Adsense
-            v-if="isAdsense"
             type="inarticle"
             :data-ad-slot="adsense.bottom"
-            class="mt-12"
+            class="mt-0 mb-12"
           />
           -->
+          <v-divider />
+          <Contributing
+            :authors="authors"
+            :edit-link="editLink"
+            class="py-12"
+          />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
@@ -76,7 +75,6 @@ import axios from 'axios'
 
 import Posted from '@/components/Pages/Blog/Posted'
 import Tags from '@/components/Pages/Blog/Tags'
-import Authors from '@/components/Pages/Blog/Authors'
 import Contributing from '@/components/Pages/Blog/Contributing'
 import Content from '@/components/Markdown/Content'
 import ItemCol from '@/components/Pages/Blog/ItemCol'
@@ -87,7 +85,6 @@ export default {
   components: {
     Posted,
     Tags,
-    Authors,
     Contributing,
     Content,
     ItemCol,
@@ -128,8 +125,6 @@ export default {
 
       raw: file,
       cdn: `${urlRaw}/`,
-
-      // isAdsense: blog.adsense,
 
       related: store.getters['blogs/related'](blog),
 
