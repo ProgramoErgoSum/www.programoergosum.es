@@ -1,13 +1,14 @@
 <template>
   <div>
     <h3 class="mb-3">Contribuciones</h3>
-    <p class="mt-2 font-weight-light">
-      ¿Has encontrado algún error o quieres contribuir?
+    <p class="font-weight-light">
+      ¿Has encontrado algún error en el contenido? Edita
       <a :href="editLink" rel="noopener noreferrer nofollow" target="_blank">
-        Edita el contenido de esta página
+        esta página
         <v-icon size="14" color="primary">mdi-open-in-new</v-icon>
       </a>
-      en <b>GitHub</b> y aparecerás aquí.
+      en <b>GitHub</b> y estarás colaborando con el proyecto. Además, aparecerás
+      en el apartado de contribuciones.
     </p>
     <Author
       v-for="(author, index) in authors"
