@@ -33,7 +33,7 @@
       </v-row>
     </v-container>
 
-    <section v-show="related.length > 1" class="py-12" :class="background">
+    <section v-show="related.length > 0" class="py-12" :class="background">
       <v-container>
         <v-row>
           <v-col cols="12">
