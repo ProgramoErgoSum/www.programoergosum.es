@@ -14,7 +14,7 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <Posted :cdate="date.cdate" :mdate="date.mdate" />
+          <Posted :mdate="date.mdate" />
           <Tags :tags="tags" class="ml-3" />
           <!--
           <Adsense
@@ -73,8 +73,6 @@ import { mapGetters } from 'vuex'
 
 import axios from 'axios'
 
-import Posted from '@/components/Pages/Blog/Posted'
-import Tags from '@/components/Pages/Blog/Tags'
 import Content from '@/components/Markdown/Content'
 import ItemCol from '@/components/Pages/Blog/ItemCol'
 import Toc from '@/components/Markdown/Toc'
@@ -82,8 +80,6 @@ import Adsense from '@/components/Adsense/Index'
 
 export default {
   components: {
-    Posted,
-    Tags,
     Content,
     ItemCol,
     Toc,

@@ -31,13 +31,9 @@
 </template>
 
 <script>
-import Tags from '@/components/Pages/Formaciones/Tags'
-
 export default {
   name: 'Item',
-  components: {
-    Tags
-  },
+  components: {},
   props: {
     formacion: {
       type: Object,

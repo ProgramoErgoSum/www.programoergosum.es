@@ -12,13 +12,9 @@
 </template>
 
 <script>
-import Tags from '@/components/Pages/Tutoriales/Tags'
-
 export default {
   name: 'Item',
-  components: {
-    Tags
-  },
+  components: {},
   props: {
     tutorial: {
       type: Object,

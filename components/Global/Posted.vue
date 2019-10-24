@@ -14,10 +14,6 @@ export default {
   name: 'Posted',
   filters: { formatDate },
   props: {
-    cdate: {
-      type: String,
-      default: ''
-    },
     mdate: {
       type: String,
       required: true

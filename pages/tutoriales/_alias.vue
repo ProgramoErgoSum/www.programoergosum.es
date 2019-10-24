@@ -16,7 +16,10 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <Content :raw="raw" :cdn="cdn" />
+          <Posted :mdate="date.mdate" />
+          <Tags :tags="tags" class="ml-3" />
+
+          <Content :raw="raw" :cdn="cdn" class="py-12" />
 
           <v-divider />
           <Contributing

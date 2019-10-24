@@ -23,15 +23,9 @@
 </template>
 
 <script>
-import Posted from '@/components/Pages/Blog/Posted'
-import Tags from '@/components/Pages/Blog/Tags'
-
 export default {
   name: 'Item',
-  components: {
-    Posted,
-    Tags
-  },
+  components: {},
   props: {
     blog: {
       type: Object,
