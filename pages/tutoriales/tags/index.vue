@@ -20,7 +20,27 @@
                 validate-on-blur
               />
               <v-divider class="my-6" />
-              <template v-for="tag in tags">
+              <p>Categorías</p>
+              <template
+                v-for="tag in tags.filter(el => el.category === 'categorias')"
+              >
+                <v-checkbox
+                  :key="tag.alias"
+                  v-model="tagsSelected"
+                  :label="tag.name"
+                  :value="tag.alias"
+                  :disabled="!tag.visible"
+                  color="primary"
+                  hide-details
+                />
+              </template>
+              <v-divider class="my-6" />
+              <p>Subcategorías</p>
+              <template
+                v-for="tag in tags.filter(
+                  el => el.category === 'subcategorias'
+                )"
+              >
                 <v-checkbox
                   :key="tag.alias"
                   v-model="tagsSelected"
