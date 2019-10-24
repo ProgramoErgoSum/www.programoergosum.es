@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import Author from '@/components/Pages/Blog/Author'
+import Author from '@/components/Global/Author'
 
 export default {
   name: 'Contributing',

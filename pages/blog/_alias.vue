@@ -75,7 +75,6 @@ import axios from 'axios'
 
 import Posted from '@/components/Pages/Blog/Posted'
 import Tags from '@/components/Pages/Blog/Tags'
-import Contributing from '@/components/Pages/Blog/Contributing'
 import Content from '@/components/Markdown/Content'
 import ItemCol from '@/components/Pages/Blog/ItemCol'
 import Toc from '@/components/Markdown/Toc'
@@ -85,7 +84,6 @@ export default {
   components: {
     Posted,
     Tags,
-    Contributing,
     Content,
     ItemCol,
     Toc,

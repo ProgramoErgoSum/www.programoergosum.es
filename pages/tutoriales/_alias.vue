@@ -61,7 +61,6 @@ import { mapGetters } from 'vuex'
 import axios from 'axios'
 
 import Content from '@/components/Markdown/Content'
-import Contributing from '@/components/Pages/Tutoriales/Contributing'
 import Toc from '@/components/Markdown/Toc'
 import ItemCol from '@/components/Pages/Tutoriales/ItemCol'
 // import Adsense from '@/components/Adsense/Index'
@@ -69,7 +68,6 @@ import ItemCol from '@/components/Pages/Tutoriales/ItemCol'
 export default {
   components: {
     Content,
-    Contributing,
     Toc,
     ItemCol
     // Adsense
