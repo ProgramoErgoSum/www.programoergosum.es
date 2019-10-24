@@ -72,7 +72,6 @@ import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 import Collaborators from '@/components/Pages/Formaciones/Collaborators'
 import ItemCol from '@/components/Pages/Formaciones/ItemCol'
-import Adsense from '@/components/Adsense/Index'
 
 export default {
   components: {
@@ -80,8 +79,7 @@ export default {
     Content,
     Toc,
     Collaborators,
-    ItemCol,
-    Adsense
+    ItemCol
   },
   computed: {
     ...mapGetters({ adsense: 'formaciones/adsense' }),

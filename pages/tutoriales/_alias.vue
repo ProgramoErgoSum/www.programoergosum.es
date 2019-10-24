@@ -78,14 +78,12 @@ import axios from 'axios'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 import ItemCol from '@/components/Pages/Tutoriales/ItemCol'
-// import Adsense from '@/components/Adsense/Index'
 
 export default {
   components: {
     Content,
     Toc,
     ItemCol
-    // Adsense
   },
   computed: {
     ...mapGetters({ adsense: 'tutoriales/adsense' }),

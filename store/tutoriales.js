@@ -11,7 +11,9 @@ const state = () => ({
   repo_edit: `https://github.com/${repo}/edit/master/${version}`,
   adsense: {
     // ToDo: Add in .env file
-    left: 'xxxxxxxx' // [PES-es] /tutoriales/{alias} CONTENT-LEFT
+    left: 'xxxxxxxxxx', // [PES-es] /tutoriales/{alias} CONTENT-LEFT
+    top: 'xxxxxxxxxx', // [PES-es] /tutoriales/{alias} CONTENT-TOP
+    bottom: 'xxxxxxxxxx' // [PES-es] /tutoriales/{alias} CONTENT-BOTTOM
   },
   list: tutoriales,
   tags

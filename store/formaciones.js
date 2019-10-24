@@ -2,13 +2,17 @@ import formaciones from '~/store/api/v1/formaciones.json'
 
 // ToDo: Add in .env file
 const repo = 'ProgramoErgoSum/Formaciones'
+// const version = 'v1'
 
 const state = () => ({
   repo_url: `https://github.com/${repo}/tree/master`,
   repo_raw: `https://raw.githubusercontent.com/${repo}/master`,
   repo_edit: `https://github.com/${repo}/edit/master`,
   adsense: {
-    left: '4490512803' // [PES-es] /formaciones/{alias} CONTENT-LEFT
+    // ToDo: Add in .env file
+    left: '4490512803', // [PES-es] /formaciones/{alias} CONTENT-LEFT
+    top: 'xxxxxxxxxx', // [PES-es] /formaciones/{alias} CONTENT-TOP
+    bottom: 'xxxxxxxxxx' // [PES-es] /formaciones/{alias} CONTENT-BOTTOM
   },
   list: formaciones
 })

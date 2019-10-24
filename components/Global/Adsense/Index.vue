@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import Display from '@/components/Adsense/Blocks/Display'
-import Inarticle from '@/components/Adsense/Blocks/Inarticle'
-import Infeed from '@/components/Adsense/Blocks/Infeed'
+import Display from '@/components/Global/Adsense/Blocks/Display'
+import Inarticle from '@/components/Global/Adsense/Blocks/Inarticle'
+import Infeed from '@/components/Global/Adsense/Blocks/Infeed'
 
 export default {
   name: 'Index',
