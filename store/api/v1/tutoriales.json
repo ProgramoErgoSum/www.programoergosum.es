@@ -1,5 +1,38 @@
 [
   {
+    "alias": "robotica-educativa-con-beebot",
+    "title": "Introducción a la robótica educativa con Bee-Bot",
+    "description": "Usos de la Bee-Bot en el aula para la inclusión de alumnos con Necesidades Educativas Especiales.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-10-23 14:05:12"
+    }
+  },
+  {
+    "alias": "robotica-educativa-con-escornabot",
+    "title": "Introducción a la robótica educativa con Escornabot",
+    "description": "Usos del robot de suelo Escornabot en el aula de educación infantil y primaria.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-10-23 13:05:12"
+    }
+  },
+
+
+
+  {
     "alias": "prusa-i3-bq-hephestos",
     "title": "Impresora 3D Prusa i3 BQ Hephestos",
     "description": "Curso de configuración y mantenimiento de una impresora 3D Prusa i3 BQ Hephestos.",
@@ -11,7 +44,7 @@
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
-      "mdate": "2019-10-02 14:05:12"
+      "mdate": "2019-10-23 14:05:12"
     }
   },
   {
@@ -26,7 +59,7 @@
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
-      "mdate": "2019-10-02 14:15:12"
+      "mdate": "2019-10-23 14:15:12"
     }
   },
   {
@@ -41,7 +74,7 @@
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
-      "mdate": "2019-10-02 14:28:12"
+      "mdate": "2019-10-23 14:28:12"
     }
   }
 ]
