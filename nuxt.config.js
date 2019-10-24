@@ -1,8 +1,10 @@
 import path from 'path'
 
-import activities from './store/api/v1/activities.json'
-import blogs from './store/api/v1/blogs.json'
-import formaciones from './store/api/v1/formaciones.json'
+import apiActivities from './store/api/v1/activities.json'
+import apiBlogs from './store/api/v1/blogs.json'
+import apiFormaciones from './store/api/v1/formaciones.json'
+import apiTags from './store/api/v1/tags.json'
+import apiTutoriales from './store/api/v1/tutoriales.json'
 
 const www =
   process.env.NODE_ENV === 'development'
@@ -110,36 +112,63 @@ export default {
     gzip: true,
     defaults: {
       changefreq: 'weekly',
-      priority: 1,
+      priority: 0.5,
       lastmod: new Date()
     },
-    exclude: ['/404', '/legal', '/gracias'],
+    exclude: [
+      '/404',
+      '/legal',
+      '/gracias',
+      '/merchandising',
+      '/tutoriales/tags'
+    ],
     routes() {
-      const a = activities.map(item => {
+      const pagesActividades = apiActivities.map(el => {
         return {
-          url: `/actividades/${item.alias}`,
-          changefreq: 'monthly',
-          priority: 0.5,
-          lastmod: item.date.mdate
-        }
-      })
-      const b = blogs.map(item => {
-        return {
-          url: `/blog/${item.alias}`,
+          url: `/actividades/${el.alias}`,
           changefreq: 'monthly',
           priority: 0.3,
-          lastmod: item.date.mdate
+          lastmod: el.date.mdate
         }
       })
-      const f = formaciones.map(item => {
+      const pagesBlogs = apiBlogs.map(el => {
         return {
-          url: `/formaciones/${item.alias}`,
+          url: `/blog/${el.alias}`,
+          changefreq: 'monthly',
+          priority: 0.3,
+          lastmod: el.date.mdate
+        }
+      })
+      const pagesFormaciones = apiFormaciones.map(el => {
+        return {
+          url: `/formaciones/${el.alias}`,
           changefreq: 'weekly',
           priority: 0.8,
-          lastmod: item.date.mdate
+          lastmod: el.date.mdate
         }
       })
-      return a.concat(b).concat(f)
+      const pagesTags = apiTags.map(el => {
+        return {
+          url: `/tutoriales/tags/${el.alias}`,
+          changefreq: 'weekly',
+          priority: 0.5,
+          lastmod: el.date.mdate
+        }
+      })
+      const pagesTutoriales = apiTutoriales.map(el => {
+        return {
+          url: `/tutoriales/${el.alias}`,
+          changefreq: 'weekly',
+          priority: 1,
+          lastmod: el.date.mdate
+        }
+      })
+
+      return pagesActividades
+        .concat(pagesBlogs)
+        .concat(pagesFormaciones)
+        .concat(pagesTags)
+        .concat(pagesTutoriales)
     }
   },
 
@@ -148,18 +177,32 @@ export default {
    */
   generate: {
     async routes() {
-      const p = ['/', '/404', '/legal/coc', '/legal/cookies']
-      const a = await activities.map(item => {
-        return `/actividades/${item.alias}`
+      const pagesDefault = ['/', '/404', '/legal/coc', '/legal/cookies']
+      const pagesActividades = await apiActivities.map(el => {
+        return `/actividades/${el.alias}`
       })
-      const b = await blogs.map(item => {
-        return `/blog/${item.alias}`
+      const pagesBlogs = await apiBlogs.map(el => {
+        return `/blog/${el.alias}`
       })
-      const f = await formaciones.map(item => {
-        return `/formaciones/${item.alias}`
+      const pagesFormaciones = await apiFormaciones.map(el => {
+        return `/formaciones/${el.alias}`
       })
-      return Promise.all([p, a, b, f]).then(v => {
-        return [...v[0], ...v[1], ...v[2], ...v[3]]
+      const pagesTags = await apiTags.map(el => {
+        return `/tutoriales/tags/${el.alias}`
+      })
+      const pagesTutoriales = await apiTutoriales.map(el => {
+        return `/tutoriales/${el.alias}`
+      })
+
+      return Promise.all([
+        pagesDefault,
+        pagesActividades,
+        pagesBlogs,
+        pagesFormaciones,
+        pagesTags,
+        pagesTutoriales
+      ]).then(v => {
+        return [...v[0], ...v[1], ...v[2], ...v[3], ...v[4], ...v[5]]
       })
     }
   },

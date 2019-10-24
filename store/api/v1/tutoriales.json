@@ -1,0 +1,47 @@
+[
+  {
+    "alias": "prusa-i3-bq-hephestos",
+    "title": "Impresora 3D Prusa i3 BQ Hephestos",
+    "description": "Curso de configuración y mantenimiento de una impresora 3D Prusa i3 BQ Hephestos.",
+    "image": "img/preview.jpg",
+    "tags": ["impresion-3d"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-10-02 14:05:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-tinkercad",
+    "title": "Introducción al diseño 3D con TinkerCAD",
+    "description": "Curso para aprender a utilizar la herramienta TinkerCAD para crear diseños en 3D.",
+    "image": "img/preview.jpg",
+    "tags": ["impresion-3d", "tinkercad"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-10-02 14:15:12"
+    }
+  },
+  {
+    "alias": "llavero-personalizado-en-tinkercad",
+    "title": "Llavero personalizado en TinkerCAD",
+    "description": "Curso para aprender a utilizar la herramienta TinkerCAD para crear diseños en 3D.",
+    "image": "img/preview.jpg",
+    "tags": ["impresion-3d", "tinkercad"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-10-02 14:28:12"
+    }
+  }
+]
