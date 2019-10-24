@@ -163,6 +163,7 @@ export default {
           lastmod: el.date.mdate
         }
       })
+
       return pagesFormaciones
         .concat(pagesTags)
         .concat(pagesTutoriales)
