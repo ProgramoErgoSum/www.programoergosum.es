@@ -123,6 +123,30 @@ export default {
       '/tutoriales/tags'
     ],
     routes() {
+      const pagesFormaciones = apiFormaciones.map(el => {
+        return {
+          url: `/formaciones/${el.alias}`,
+          changefreq: 'weekly',
+          priority: 0.8,
+          lastmod: el.date.mdate
+        }
+      })
+      const pagesTags = apiTags.map(el => {
+        return {
+          url: `/tutoriales/tags/${el.alias}`,
+          changefreq: 'weekly',
+          priority: 0.5,
+          lastmod: new Date()
+        }
+      })
+      const pagesTutoriales = apiTutoriales.map(el => {
+        return {
+          url: `/tutoriales/${el.alias}`,
+          changefreq: 'weekly',
+          priority: 1,
+          lastmod: el.date.mdate
+        }
+      })
       const pagesActividades = apiActivities.map(el => {
         return {
           url: `/actividades/${el.alias}`,
@@ -139,36 +163,11 @@ export default {
           lastmod: el.date.mdate
         }
       })
-      const pagesFormaciones = apiFormaciones.map(el => {
-        return {
-          url: `/formaciones/${el.alias}`,
-          changefreq: 'weekly',
-          priority: 0.8,
-          lastmod: el.date.mdate
-        }
-      })
-      const pagesTags = apiTags.map(el => {
-        return {
-          url: `/tutoriales/tags/${el.alias}`,
-          changefreq: 'weekly',
-          priority: 0.5,
-          lastmod: el.date.mdate
-        }
-      })
-      const pagesTutoriales = apiTutoriales.map(el => {
-        return {
-          url: `/tutoriales/${el.alias}`,
-          changefreq: 'weekly',
-          priority: 1,
-          lastmod: el.date.mdate
-        }
-      })
-
-      return pagesActividades
-        .concat(pagesBlogs)
-        .concat(pagesFormaciones)
+      return pagesFormaciones
         .concat(pagesTags)
         .concat(pagesTutoriales)
+        .concat(pagesActividades)
+        .concat(pagesBlogs)
     }
   },
 
