@@ -138,7 +138,7 @@
     ]
   },
   {
-    "name": "Colegio Reina Sofía",
+    "name": "CC Reina Sofía",
     "address": {
       "city": "Totana",
       "province": "Murcia"
@@ -340,6 +340,27 @@
       },
       {
         "name": "Encarni"
+      }
+    ]
+  },
+
+
+
+  {
+    "name": "IES Murillo",
+    "address": {
+      "city": "Sevilla",
+      "province": "Sevilla"
+    },
+    "image": "images/centros/ies-murillo.jpg",
+    "coordinates": ["37.3793557","-5.9819078"],
+    "social": {
+      "url": "https://iesmurillo.com/",
+      "twitter": ""
+    },
+    "ambassadors": [
+      {
+        "name": "@toninosevilla"
       }
     ]
   }
