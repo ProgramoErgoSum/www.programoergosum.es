@@ -1,10 +1,43 @@
 [
   {
+    "alias": "introduccion-a-scratch-2",
+    "title": "Iniciación a la programación con Scratch 2.0",
+    "description": "Tutorial de iniciación a la programación para aprender a programar videojuegos con Scratch 2.0.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "scratch-2"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:05:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-laberinto-con-scratch-2",
+    "title": "Videojuego del laberinto programado con Scratch 2.0",
+    "description": "Aprende a programar paso a paso con Scratch el famoso videojuego del laberinto con obstáculos.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "scratch-2", "videojuego"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:05:12"
+    }
+  },
+
+
+
+  {
     "alias": "nueva-version-de-scratch-3",
     "title": "Nueva versión de Scratch 3.0",
     "description": "Repasamos las principales mejoras de la nueva versión de Scratch 3.0.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "scratch-3"],
+    "tags": ["scratch", "scratch-3"],
     "authors": ["migueabellan"],
     "extra": {
       "level": "Iniciación"
@@ -19,7 +52,7 @@
     "title": "Programación Orientada a Objetos con Scratch",
     "description": "Paradigma de la programación orientada a objetos (POO) con Scratch.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch"],
+    "tags": ["scratch"],
     "authors": ["migueabellan"],
     "extra": {
       "level": "Iniciación"
@@ -34,7 +67,7 @@
     "title": "Aprender a programar con Scratch en Raspberry Pi",
     "description": "Disponible la versión offline de Scratch 3.0 para Raspbian en Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "raspberry-pi"],
+    "tags": ["scratch", "raspberry-pi"],
     "authors": ["migueabellan"],
     "extra": {
       "level": "Iniciación"
@@ -42,23 +75,6 @@
     "date": {
       "cdate": "2019-09-26 11:31:24",
       "mdate": "2019-09-26 11:31:24"
-    }
-  },
-
-  {
-    "alias": "introduccion-a-scratch-2",
-    "title": "Iniciación a la programación con Scratch 2.0",
-    "description": "Tutorial de iniciación a la programación para aprender a programar videojuegos con Scratch 2.0.",
-    "image": "img/preview.jpg",
-    "category": "scratch",
-    "tags": ["programacion", "scratch", "scratch-2"],
-    "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
-    },
-    "date": {
-      "cdate": "2017-06-01 00:00:00",
-      "mdate": "2019-10-25 14:05:12"
     }
   },
 
