@@ -15,7 +15,7 @@
     "title": "Tutoriales de programación",
     "description": "Cursos y tutoriales online de programación.",
     "image": "images/tutoriales/tutoriales.jpg",
-    "visible": false
+    "visible": true
   },
   {
     "category": "categorias",
@@ -54,7 +54,7 @@
     "title": "Tutoriales de Scratch",
     "description": "Cursos y tutoriales online para aprender a programar con Scratch.",
     "image": "images/tutoriales/scratch.jpg",
-    "visible": false
+    "visible": true
   },
   {
     "category": "subcategorias",

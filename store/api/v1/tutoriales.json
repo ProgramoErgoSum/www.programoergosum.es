@@ -1,5 +1,39 @@
 [
   {
+    "alias": "nueva-version-de-scratch-3",
+    "title": "Nueva versión de Scratch 3.0",
+    "description": "Repasamos las principales mejoras de la nueva versión de Scratch 3.0.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "scratch-3"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-01-15 17:53:47",
+      "mdate": "2019-10-25 16:05:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-scratch-2",
+    "title": "Iniciación a la programación con Scratch 2.0",
+    "description": "Tutorial de iniciación a la programación para aprender a programar videojuegos con Scratch 2.0.",
+    "image": "img/preview.jpg",
+    "category": "scratch",
+    "tags": ["programacion", "scratch", "scratch-2"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:05:12"
+    }
+  },
+
+
+
+  {
     "alias": "robotica-educativa-con-beebot",
     "title": "Introducción a la robótica educativa con Bee-Bot",
     "description": "Usos de la Bee-Bot en el aula para la inclusión de alumnos con necesidades educativas.",
