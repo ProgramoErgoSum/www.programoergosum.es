@@ -217,12 +217,10 @@ export default {
         title: 'Extraescolares',
         to: '/actividades'
       },
-      /*
       {
         title: 'Blog',
         to: '/blog'
       },
-      */
       {
         title: 'Contacto',
         to: '/contacto'

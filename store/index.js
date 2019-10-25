@@ -4,8 +4,9 @@ const state = () => ({
   drawer: false,
   metas,
   topNavigation: [
+    /*
     {
-      title: 'Tutoriales de programación',
+      title: 'Cursos de programación',
       icon: '',
       class: '',
       href: 'https://www.programoergosum.com'
@@ -16,7 +17,7 @@ const state = () => ({
       class: '',
       href: 'https://www.aprendeprogramando.es'
     },
-    /*
+    */
     {
       title: 'Centros',
       icon: 'mdi-school-outline',
@@ -29,7 +30,6 @@ const state = () => ({
       class: '',
       to: '/colabora'
     },
-    */
     {
       title: 'Donaciones',
       icon: 'mdi-paypal',
@@ -44,18 +44,17 @@ const state = () => ({
       icon: '',
       to: '/asociacion'
     },
-    /*
     {
       title: 'Tutoriales',
       icon: '',
       to: '/tutoriales'
     },
-    */
     {
       title: 'Formación del profesorado',
       icon: '',
       to: '/formaciones'
-    },
+    }
+    /*
     {
       title: 'Centros',
       icon: 'mdi-school-outline',
@@ -73,6 +72,7 @@ const state = () => ({
       icon: '',
       to: '/blog'
     }
+    */
   ],
   mobile: [
     {
@@ -80,13 +80,11 @@ const state = () => ({
       icon: 'mdi-information-variant',
       to: '/asociacion'
     },
-    /*
     {
       title: 'Tutoriales',
       icon: 'mdi-file-document-outline',
       to: '/tutoriales'
     },
-    */
     {
       title: 'Formación profesores',
       icon: 'mdi-teach',
