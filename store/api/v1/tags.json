@@ -90,7 +90,7 @@
     "title": "Tutoriales con Raspberry Pi",
     "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
     "image": "images/tutoriales/raspberry-pi.jpg",
-    "visible": false
+    "visible": true
   },
   {
     "category": "subcategorias",
