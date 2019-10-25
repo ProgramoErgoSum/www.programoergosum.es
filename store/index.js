@@ -16,6 +16,20 @@ const state = () => ({
       class: '',
       href: 'https://www.aprendeprogramando.es'
     },
+    /*
+    {
+      title: 'Centros',
+      icon: 'mdi-school-outline',
+      class: '',
+      to: '/centros'
+    },
+    {
+      title: 'Colabora',
+      icon: 'mdi-account-heart-outline',
+      class: '',
+      to: '/colabora'
+    },
+    */
     {
       title: 'Donaciones',
       icon: 'mdi-paypal',
@@ -23,18 +37,6 @@ const state = () => ({
       href:
         'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url'
     }
-    /*
-    {
-      title: 'Centros',
-      icon: 'mdi-school',
-      to: '/centros'
-    },
-    {
-      title: 'Colabora',
-      icon: 'mdi-account-heart-outline',
-      to: '/colabora'
-    }
-    */
   ],
   navigation: [
     {
@@ -44,9 +46,9 @@ const state = () => ({
     },
     /*
     {
-      title: 'Extraescolares',
+      title: 'Tutoriales',
       icon: '',
-      to: '/actividades'
+      to: '/tutoriales'
     },
     */
     {
@@ -56,12 +58,14 @@ const state = () => ({
     },
     {
       title: 'Centros',
-      icon: '',
+      icon: 'mdi-school-outline',
+      class: '',
       to: '/centros'
     },
     {
       title: 'Colabora',
-      icon: '',
+      icon: 'mdi-account-heart-outline',
+      class: '',
       to: '/colabora'
     },
     {
@@ -74,44 +78,24 @@ const state = () => ({
     {
       title: 'Asociación',
       icon: 'mdi-information-variant',
-      to: '/',
-      items: [
-        {
-          title: 'Nosotros',
-          icon: '',
-          to: '/asociacion'
-        },
-        {
-          title: 'Extraescolares',
-          icon: '',
-          to: '/actividades'
-        },
-        {
-          title: 'Blog',
-          icon: '',
-          to: '/blog'
-        },
-        {
-          title: 'Contacto',
-          icon: '',
-          to: '/contacto'
-        }
-      ]
+      to: '/asociacion'
     },
+    /*
     {
       title: 'Tutoriales',
-      icon: 'mdi-code-tags',
-      href: 'https://www.programoergosum.com'
+      icon: 'mdi-file-document-outline',
+      to: '/tutoriales'
     },
-    {
-      title: 'Plataforma STEM',
-      icon: 'mdi-language-python',
-      href: 'https://www.aprendeprogramando.es'
-    },
+    */
     {
       title: 'Formación profesores',
-      icon: 'mdi-school',
+      icon: 'mdi-teach',
       to: '/formaciones'
+    },
+    {
+      title: 'Centros',
+      icon: 'mdi-school-outline',
+      to: '/centros'
     },
     {
       title: 'Colabora',
@@ -119,9 +103,9 @@ const state = () => ({
       to: '/colabora'
     },
     {
-      title: 'Centros',
-      icon: 'mdi-school',
-      to: '/centros'
+      title: 'Contacto',
+      icon: 'mdi-at',
+      to: '/contacto'
     }
   ]
 })

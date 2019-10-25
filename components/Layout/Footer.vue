@@ -53,7 +53,7 @@
         <v-col class="my-5" cols="12" xs="12" sm="12" md="3" lg="3">
           <div class="text-md-left text-center">
             <h4 class="mb-3 title font-weight-medium">
-              Cursos y Tutoriales
+              Proyectos educativos
             </h4>
             <ul class="body-1 font-weight-light">
               <template v-for="(item, index) in learning">
@@ -206,13 +206,23 @@ export default {
         to: '/asociacion'
       },
       {
+        title: 'Centros',
+        to: '/centros'
+      },
+      {
+        title: 'Colabora',
+        to: '/colabora'
+      },
+      {
         title: 'Extraescolares',
         to: '/actividades'
       },
+      /*
       {
         title: 'Blog',
         to: '/blog'
       },
+      */
       {
         title: 'Contacto',
         to: '/contacto'
@@ -226,6 +236,10 @@ export default {
       {
         title: 'Aprende con las STEM',
         href: 'https://www.aprendeprogramando.es'
+      },
+      {
+        title: 'Prácticas de robótica',
+        href: 'https://www.elcableamarillo.cc'
       },
       {
         title: 'Formación del profesorado',
