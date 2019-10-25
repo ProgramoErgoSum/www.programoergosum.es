@@ -4,7 +4,7 @@
     "title": "Iniciación a la programación con Scratch 2.0",
     "description": "Tutorial de iniciación a la programación para aprender a programar videojuegos con Scratch 2.0.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "scratch-2"],
+    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
     "extra": {
       "level": "Iniciación"
@@ -19,7 +19,7 @@
     "title": "Videojuego del laberinto programado con Scratch 2.0",
     "description": "Aprende a programar paso a paso con Scratch el famoso videojuego del laberinto con obstáculos.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "scratch-2", "videojuego"],
+    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
     "extra": {
       "level": "Iniciación"
@@ -31,13 +31,12 @@
   },
 
 
-
   {
     "alias": "nueva-version-de-scratch-3",
-    "title": "Nueva versión de Scratch 3.0",
-    "description": "Repasamos las principales mejoras de la nueva versión de Scratch 3.0.",
+    "title": "Mejoras en la nueva versión de Scratch 3.0",
+    "description": "Repasamos las principales mejoras que encontrarás en la nueva versión de Scratch 3.0.",
     "image": "img/preview.jpg",
-    "tags": ["scratch", "scratch-3"],
+    "tags": ["scratch"],
     "authors": ["migueabellan"],
     "extra": {
       "level": "Iniciación"
@@ -50,7 +49,7 @@
   {
     "alias": "programacion-orientada-a-objetos-con-scratch",
     "title": "Programación Orientada a Objetos con Scratch",
-    "description": "Paradigma de la programación orientada a objetos (POO) con Scratch.",
+    "description": "Aprendiendo el paradigma de la programación orientada a objetos (POO) con Scratch.",
     "image": "img/preview.jpg",
     "tags": ["scratch"],
     "authors": ["migueabellan"],
@@ -62,28 +61,15 @@
       "mdate": "2019-09-14 11:41:12"
     }
   },
-  {
-    "alias": "aprender-a-programar-con-scratch-en-raspberry-pi",
-    "title": "Aprender a programar con Scratch en Raspberry Pi",
-    "description": "Disponible la versión offline de Scratch 3.0 para Raspbian en Raspberry Pi.",
-    "image": "img/preview.jpg",
-    "tags": ["scratch", "raspberry-pi"],
-    "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
-    },
-    "date": {
-      "cdate": "2019-09-26 11:31:24",
-      "mdate": "2019-09-26 11:31:24"
-    }
-  },
+
+
 
 
 
   {
     "alias": "robotica-educativa-con-beebot",
     "title": "Introducción a la robótica educativa con Bee-Bot",
-    "description": "Usos de la Bee-Bot en el aula para la inclusión de alumnos con necesidades educativas.",
+    "description": "Usos de la Bee-Bot para la inclusión de alumnos con necesidades educativas.",
     "image": "img/preview.jpg",
     "tags": ["robotica-educativa"],
     "authors": ["migueabellan"],
@@ -113,10 +99,32 @@
 
 
 
+
+
+  {
+    "alias": "aprender-a-programar-con-scratch-en-raspberry-pi",
+    "title": "Aprender a programar con Scratch en Raspberry Pi",
+    "description": "Disponible la versión offline de Scratch 3.0 para Raspbian en Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["raspberry-pi", "scratch"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-09-26 11:31:24",
+      "mdate": "2019-09-26 11:31:24"
+    }
+  },
+
+
+
+
+
   {
     "alias": "prusa-i3-bq-hephestos",
-    "title": "Impresora 3D Prusa i3 BQ Hephestos",
-    "description": "Curso de configuración y mantenimiento de una impresora 3D Prusa i3 BQ Hephestos.",
+    "title": "Introducción a la impresora 3D Prusa i3 BQ Hephestos",
+    "description": "Configuración y mantenimiento de una impresora 3D Prusa i3 BQ Hephestos.",
     "image": "img/preview.jpg",
     "tags": ["impresion-3d"],
     "authors": ["migueabellan"],
@@ -131,7 +139,7 @@
   {
     "alias": "introduccion-a-tinkercad",
     "title": "Introducción al diseño 3D con TinkerCAD",
-    "description": "Curso para aprender a utilizar la herramienta TinkerCAD para crear diseños en 3D.",
+    "description": "Aprende a utilizar la herramienta TinkerCAD para crear diseños en 3D.",
     "image": "img/preview.jpg",
     "tags": ["impresion-3d", "tinkercad"],
     "authors": ["migueabellan"],
@@ -145,8 +153,8 @@
   },
   {
     "alias": "llavero-personalizado-en-tinkercad",
-    "title": "Llavero personalizado en TinkerCAD",
-    "description": "Curso para aprender a utilizar la herramienta TinkerCAD para crear diseños en 3D.",
+    "title": "Llavero personalizado en 3D con TinkerCAD",
+    "description": "Aprende a utilizar la herramienta TinkerCAD y créate un llavero en 3D.",
     "image": "img/preview.jpg",
     "tags": ["impresion-3d", "tinkercad"],
     "authors": ["migueabellan"],

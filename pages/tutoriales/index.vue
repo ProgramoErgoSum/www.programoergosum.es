@@ -60,9 +60,10 @@
               :key="tutorial.alias"
               xs="12"
               sm="6"
-              md="6"
-              lg="4"
+              md="4"
+              lg="3"
               xl="3"
+              class="pa-2"
             >
               <Item :tutorial="tutorial" />
             </v-col>
@@ -94,7 +95,7 @@ export default {
     return {
       search: '',
       maxItems: 0,
-      pagItems: 6,
+      pagItems: 12,
       tagsSelected: []
     }
   },
