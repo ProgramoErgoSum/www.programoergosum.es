@@ -15,7 +15,6 @@
                 v-model="search"
                 label="Buscar"
                 outlined
-                rounded
                 :messages="`${filter.length} tutoriales`"
                 append-icon="mdi-magnify"
                 validate-on-blur
