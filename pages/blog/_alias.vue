@@ -10,30 +10,33 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <Adsense type="display" :data-ad-slot="adsense.left" />
+            <Adsense
+              type="display"
+              :data-ad-slot="adsense.left"
+              class="mb-0 pb-0"
+            />
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <!--
           <Adsense
             type="inarticle"
             :data-ad-slot="adsense.top"
-            class="mt-12 mb-6"
+            class="mb-0 pb-0"
           />
-          -->
+
           <Content :raw="raw" :cdn="cdn" class="pb-6" />
-          <!--
+
           <Adsense
             type="inarticle"
             :data-ad-slot="adsense.bottom"
-            class="mt-0 mb-12"
+            class="my-0 my-0"
           />
-          -->
-          <v-divider class="my-6" />
+
+          <v-divider class="mt-12 mb-0" />
           <Contributing
             :authors="authors"
             :edit-link="editLink"
-            class="mb-6 py-12"
+            class="mb-0 py-12"
           />
           <Posted :mdate="date.mdate" />
           <Tags :tags="tags" class="ml-3" />
