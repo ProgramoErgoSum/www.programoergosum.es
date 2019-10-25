@@ -6,7 +6,7 @@
     ></script>
     <ins
       class="adsbygoogle"
-      style="display:block; margin: 50px;"
+      style="display:block;"
       data-ad-client="ca-pub-6757981017018187"
       :data-ad-slot="dataAdSlot"
       data-ad-format="auto"
