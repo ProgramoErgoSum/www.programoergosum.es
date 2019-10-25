@@ -10,31 +10,19 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <Adsense type="display" :data-ad-slot="adsense.left" />
+            <!--
+              <Adsense type="display" :data-ad-slot="adsense.left" />
+            -->
+            <Collaborators title="Centro de formación" />
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
           <Info :speakers="speakers" :editions="editions" class="mb-12" />
-          <!--
-          <Adsense
-            type="inarticle"
-            :data-ad-slot="adsense.top"
-            class="mt-12 mb-6"
-          />
-          -->
-          <Content :raw="raw" :cdn="cdn" class="pb-6" />
-          <!--
-          <Adsense
-            type="inarticle"
-            :data-ad-slot="adsense.bottom"
-            class="mt-0 mb-12"
-          />
-          -->
+          <Content :raw="raw" :cdn="cdn" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
             <Toc :raw="raw" title="Temario del curso" />
-            <Collaborators class="mt-12" />
           </div>
         </v-col>
       </v-row>

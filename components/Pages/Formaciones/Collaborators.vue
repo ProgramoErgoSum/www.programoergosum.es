@@ -4,7 +4,7 @@
       <v-list-item disabled>
         <v-list-item-content>
           <v-list-item-title class="font-weight-bold body-1">
-            Colabora
+            {{ title }}
           </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
@@ -28,7 +28,13 @@
 
 <script>
 export default {
-  name: 'Collaborators'
+  name: 'Collaborators',
+  props: {
+    title: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 
