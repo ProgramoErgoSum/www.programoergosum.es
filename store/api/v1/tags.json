@@ -103,11 +103,11 @@
   },
   {
     "category": "subcategorias",
-    "alias": "tinkercad",
-    "name": "TinkerCAD",
-    "title": "Tutoriales de TinkerCAD",
-    "description": "Cursos y tutoriales de TinkerCAD para makers desde cero.",
-    "image": "images/tutoriales/tinkercad.jpg",
+    "alias": "videojuegos",
+    "name": "Videojuegos",
+    "title": "Tutoriales de videojuegos",
+    "description": "Cursos y tutoriales online para aprender a programar videojuegos.",
+    "image": "images/tutoriales/scratch.jpg",
     "visible": true
   },
   {
@@ -117,6 +117,15 @@
     "title": "Tutoriales de Realidad aumentada con Scratch",
     "description": "Cursos y tutoriales online para aprender a programar Realidad aumentada con Scratch.",
     "image": "images/tutoriales/scratch.jpg",
+    "visible": true
+  },
+  {
+    "category": "subcategorias",
+    "alias": "tinkercad",
+    "name": "TinkerCAD",
+    "title": "Tutoriales de TinkerCAD",
+    "description": "Cursos y tutoriales de TinkerCAD para makers desde cero.",
+    "image": "images/tutoriales/tinkercad.jpg",
     "visible": true
   },
   {

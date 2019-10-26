@@ -8,7 +8,7 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
-          <div class="sticky-top">
+          <div class="sticky-top-false">
             <v-card flat color="transparent" class="pa-3">
               <v-text-field
                 v-model="search"
@@ -18,7 +18,10 @@
                 append-icon="mdi-magnify"
                 validate-on-blur
               />
-              <v-divider class="my-6" />
+            </v-card>
+          </div>
+          <div class="sticky-top-false">
+            <v-card flat color="transparent" class="pa-3">
               <p>Categorías</p>
               <template
                 v-for="tag in tags.filter(el => el.category === 'categorias')"
@@ -33,7 +36,10 @@
                   hide-details
                 />
               </template>
-              <v-divider class="my-6" />
+            </v-card>
+          </div>
+          <div class="sticky-top">
+            <v-card flat color="transparent" class="pa-3">
               <p>Subcategorías</p>
               <template
                 v-for="tag in tags.filter(
