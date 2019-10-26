@@ -59,6 +59,52 @@
       "mdate": "2019-10-25 14:35:12"
     }
   },
+  {
+    "alias": "videojuego-de-futbol-con-scratch-2",
+    "title": "Videojuego de Fútbol programado con Scratch 2.0",
+    "description": "Aprende a programar un sencillo videojuego de fútbol utilizando el lenguaje por bloques de Scratch.",
+    "image": "img/preview.jpg",
+    "category": "scratch",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:45:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-arkanoid-con-scratch-2",
+    "title": "Videojuego de Arkanoid programado con Scratch 2.0",
+    "description": "Aprende a programar el video juego de Arkanoid a través de video tutoriales y buenas prácticas de programación.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:55:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-duck-hunt-con-scratch-2",
+    "title": "Videojuego de Duck Hunt programado con Scratch 2.0",
+    "description": "Aprende a programar con Scratch el juego de Duck Hunt explicado paso a paso a través de video tutoriales.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 15:05:12"
+    }
+  },
 
 
   {
