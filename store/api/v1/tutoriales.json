@@ -105,6 +105,96 @@
       "mdate": "2019-10-25 15:05:12"
     }
   },
+  {
+    "alias": "videojuego-de-flappy-bird-con-scratch-2",
+    "title": "Videojuego de Flappy Bird programado con Scratch 2.0",
+    "description": "Aprende a programar con Scratch el mítico video juego de Flappy Bird ayudándote de video tutoriales.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 15:15:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-space-invaders-con-scratch-2",
+    "title": "Videojuego de Space Invaders programado con Scratch 2.0",
+    "description": "Aprende paso a paso como programar con Scratch el mítico videojuego de Space Invaders.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 15:25:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-frogger-con-scratch-2",
+    "title": "Videojuego de Frogger programado con Scratch 2.0",
+    "description": "Aprende a programar el juego de la rana a través de la programación con Scratch.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 15:35:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-battle-city-con-scratch-2",
+    "title": "Videojuego de Battle City programado con Scratch 2.0",
+    "description": "Aprende paso a paso como programar con Scratch el videojuego de tanques Battle City.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 15:45:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-pac-man-con-scratch-2",
+    "title": "Videojuego de Pac Man programado con Scratch 2.0",
+    "description": "Aprende a programar el famoso videojuego del come cocos o Pac-Man con Scratch.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 15:55:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-berzerk-con-scratch-2",
+    "title": "Videojuego de Berzerk programado con Scratch 2.0",
+    "description": "Aprende paso a paso como programar con Scratch el videojuego de Berzerk de atari.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 16:05:12"
+    }
+  },
 
 
   {
