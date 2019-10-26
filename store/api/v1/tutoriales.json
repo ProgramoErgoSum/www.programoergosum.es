@@ -195,8 +195,96 @@
       "mdate": "2019-10-25 16:05:12"
     }
   },
-
-
+  {
+    "alias": "atrapa-las-vocales-con-scratch-2",
+    "title": "Aprende las vocales con Scratch 2.0",
+    "description": "Aprende a programar un videojuego educativo con Scratch para atrapar las vocales u otros objetos.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "educativo"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 16:15:12"
+    }
+  },
+  {
+    "alias": "pokemon-go-con-scratch-2",
+    "title": "Pokemon Go con Scratch 2.0",
+    "description": "Tutorial de realidad aumentada para aprender a programar con Scratch el videojuego de Pokemon.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "realidad-aumentada"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 16:25:12"
+    }
+  },
+  {
+    "alias": "efecto-nieve-con-scratch-2",
+    "title": "Efecto nieve con Scratch 2.0",
+    "description": "Tutorial de realidad aumentada para aprender a programar con Scratch el efecto de nieve.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "realidad-aumentada"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:05:12"
+    }
+  },
+  {
+    "alias": "efecto-altavoz-con-scratch-2",
+    "title": "Efecto altavoz con Scratch 2.0",
+    "description": "Realidad aumentada para aprender a programar con Scratch el efecto de detección de audio.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "realidad-aumentada"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:05:12"
+    }
+  },
+  {
+    "alias": "control-de-volumen-con-scratch-2",
+    "title": "Control de volumen con Scratch 2.0",
+    "description": "Aplicación de realidad aumentada programada con Scratch para detectar el audio de una sala.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "realidad-aumentada"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:05:12"
+    }
+  },
+  {
+    "alias": "graficas-de-audio-con-scratch-2",
+    "title": "Gráficas de audio con Scratch 2.0",
+    "description": "Aplicación de realidad aumentada programada con Scratch para simular gráficas con el volumen del micrófono.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "realidad-aumentada"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:05:12"
+    }
+  },
   {
     "alias": "nueva-version-de-scratch-3",
     "title": "Mejoras en la nueva versión de Scratch 3.0",

@@ -96,7 +96,7 @@ export default {
     return {
       search: '',
       maxItems: 0,
-      pagItems: 18,
+      pagItems: 16,
       tagsSelected: []
     }
   },
