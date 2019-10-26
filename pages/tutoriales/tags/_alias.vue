@@ -73,7 +73,7 @@
                 v-show="pagItems < maxItems"
                 depressed
                 small
-                @click="pagItems += 5"
+                @click="pagItems += 8"
               >
                 Mostrar más
               </v-btn>
