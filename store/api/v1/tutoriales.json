@@ -29,12 +29,42 @@
       "mdate": "2019-10-25 14:05:12"
     }
   },
+  {
+    "alias": "videojuego-de-pong-con-scratch-2",
+    "title": "Videojuego de Pong programado con Scratch 2.0",
+    "description": "Aprende a programar utilizando Scratch el videojuego de Pong en su versión para 2 jugadores.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:25:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-pajaros-con-scratch-2",
+    "title": "Videojuego de pájaros programado con Scratch 2.0",
+    "description": "Aprende a programar clones con Scratch programando este sencillo videojuego de cazar pájaros.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "scratch", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-25 14:35:12"
+    }
+  },
 
 
   {
     "alias": "nueva-version-de-scratch-3",
     "title": "Mejoras en la nueva versión de Scratch 3.0",
-    "description": "Repasamos las principales mejoras que encontrarás en la nueva versión de Scratch 3.0.",
+    "description": "Repasamos las principales mejoras que encontrarás sobre la nueva versión de Scratch 3.0.",
     "image": "img/preview.jpg",
     "tags": ["scratch"],
     "authors": ["migueabellan"],
@@ -49,7 +79,7 @@
   {
     "alias": "programacion-orientada-a-objetos-con-scratch",
     "title": "Programación Orientada a Objetos con Scratch",
-    "description": "Aprendiendo el paradigma de la programación orientada a objetos (POO) con Scratch.",
+    "description": "Aprendiendo el paradigma de la programación orientada a objetos o POO, con Scratch 3.0.",
     "image": "img/preview.jpg",
     "tags": ["scratch"],
     "authors": ["migueabellan"],
@@ -69,7 +99,7 @@
   {
     "alias": "robotica-educativa-con-beebot",
     "title": "Introducción a la robótica educativa con Bee-Bot",
-    "description": "Usos de la Bee-Bot para la inclusión de alumnos con necesidades educativas.",
+    "description": "Aprende diferentes usos de la Bee-Bot para la inclusión de alumnos con necesidades educativas.",
     "image": "img/preview.jpg",
     "tags": ["robotica-educativa"],
     "authors": ["migueabellan"],
@@ -84,7 +114,7 @@
   {
     "alias": "robotica-educativa-con-escornabot",
     "title": "Introducción a la robótica educativa con Escornabot",
-    "description": "Usos del robot de suelo Escornabot en el aula de educación infantil y primaria.",
+    "description": "Aprende diferentes usos del robot de suelo Escornabot en el aula de educación infantil y primaria.",
     "image": "img/preview.jpg",
     "tags": ["robotica-educativa"],
     "authors": ["migueabellan"],
@@ -104,7 +134,7 @@
   {
     "alias": "aprender-a-programar-con-scratch-en-raspberry-pi",
     "title": "Aprender a programar con Scratch en Raspberry Pi",
-    "description": "Disponible la versión offline de Scratch 3.0 para Raspbian en Raspberry Pi.",
+    "description": "Disponible la nueva versión offline de Scratch 3.0 para Raspbian Buster en Raspberry Pi.",
     "image": "img/preview.jpg",
     "tags": ["raspberry-pi", "scratch"],
     "authors": ["migueabellan"],
@@ -124,7 +154,7 @@
   {
     "alias": "prusa-i3-bq-hephestos",
     "title": "Introducción a la impresora 3D Prusa i3 BQ Hephestos",
-    "description": "Configuración y mantenimiento de una impresora 3D Prusa i3 BQ Hephestos.",
+    "description": "Configuración y mantenimiento de una impresora 3D como la Prusa i3 de BQ Hephestos.",
     "image": "img/preview.jpg",
     "tags": ["impresion-3d"],
     "authors": ["migueabellan"],
@@ -139,7 +169,7 @@
   {
     "alias": "introduccion-a-tinkercad",
     "title": "Introducción al diseño 3D con TinkerCAD",
-    "description": "Aprende a utilizar la herramienta TinkerCAD para crear diseños en 3D.",
+    "description": "Aprende a utilizar la herramienta TinkerCAD para crear diferentes diseños en 3D.",
     "image": "img/preview.jpg",
     "tags": ["impresion-3d", "tinkercad"],
     "authors": ["migueabellan"],
