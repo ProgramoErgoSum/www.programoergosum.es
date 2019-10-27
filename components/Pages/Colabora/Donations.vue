@@ -39,6 +39,7 @@ export default {
   data: () => ({
     donations: [
       'Julio Clemente Cordeiro',
+      'Pepe García',
       'Nasim Maldonado',
       'David Pons',
       'Carlos Hernán Mora',

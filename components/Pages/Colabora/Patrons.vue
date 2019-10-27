@@ -14,8 +14,8 @@
         cols="12"
         xs="12"
         sm="6"
-        md="4"
-        lg="4"
+        md="3"
+        lg="3"
         xl="3"
         class="pa-2"
       >
@@ -58,6 +58,7 @@ export default {
           github: ''
         }
       },
+      /*
       {
         name: 'Pepe García',
         image: 'images/colabora/ppgarsan123.jpg',
@@ -69,6 +70,7 @@ export default {
           github: ''
         }
       },
+      */
       {
         name: 'Francisco Román',
         image: 'images/colabora/FranciscoRomnC2.jpg',
