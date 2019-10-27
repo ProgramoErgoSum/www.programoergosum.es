@@ -48,7 +48,7 @@
               xs="12"
               sm="6"
               md="4"
-              lg="3"
+              lg="4"
               xl="3"
               class="pa-2"
             >
@@ -59,7 +59,7 @@
                 v-if="filter.length > pagItems"
                 depressed
                 small
-                @click="pagItems += 16"
+                @click="pagItems += 12"
               >
                 Mostrar más
               </v-btn>
@@ -81,7 +81,7 @@ export default {
   data() {
     return {
       search: '',
-      pagItems: 16,
+      pagItems: 12,
       tagsSelected: []
     }
   },
