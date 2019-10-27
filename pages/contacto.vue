@@ -40,7 +40,7 @@
                 <v-icon>mdi-email-outline</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
-                info@programoergosum.com
+                info&#64;programoergosum&#46;com
               </v-list-item-content>
             </v-list-item>
             <v-list-item>
@@ -75,34 +75,44 @@ export default {
         title: 'Sobre la asociación ...',
         items: [
           {
-            title: '¿Qué es Programo Ergo Sum?',
+            title: '¿Cuáles son nuestros objetivos?',
             description:
-              'La Asociación Programo Ergo Sum es una iniciativa sin ánimo de lucro cuyo objetivo pretende acercar la programación y la robótica a todas las edades a través de proyectos educativos libres y abiertos.'
+              'Nuestro objetivo principal es acercar las nuevas tecnologías a todas las edades. Cada alumno de cada escuela debería tener la oportunidad de aprender informática, programación y robótica.'
           },
           {
-            title: '¿Cómo puedo colaborar con la iniciativa?',
+            title: '¿Cómo puedo colaborar?',
             description:
-              'Para colaborar, puedes realizar una donación desinteresada a través de la plataforma de crowdfunding Patreon o a través de PayPal, hacerte voluntario para la realización de actividades o de cualquier forma que se te ocurra que pueda ayudar a la asociación.'
-          },
-          {
-            title: '¿Qué beneficios obtengo si hago una donación?',
-            description:
-              'No se obtiene ningún tipo de beneficio con la donación (como el propio nombre indica), simplemente podrás aparecer en el apartado de colaboradores de la web según el tipo de donación y cantidad.'
+              'Puedes realizar una donación totalmente desinteresada y el importe estará destinado al mantenimiento de las plataformas educativas y nuevas mejoras informáticas.'
           },
           {
             title: '¿Cómo ser un centro colaborador?',
             description:
-              'Cualquier docente (embajador) de un centro educativo podrá inscribir su centro de estudios para aparecer en el mapa de centros colaboradores de la iniciativa.'
+              'Para ser un centro colaborador deberás solicitar acceso como centro y demostrar que tu centro está colaborando de alguna forma con nosotros.'
           }
         ]
       },
       {
-        title: 'Sobre cursos online ...',
+        title: 'Sobre los tutoriales ...',
         items: [
           {
-            title: '¿Cómo accedo a los contenidos?',
+            title: '¿Cuánto tengo que pagar?',
             description:
-              'En estos momentos solamente los socios y profesores colaboradores pueden acceder a los contenidos y soluciones a los ejercicios propuestos.'
+              'Todos los tutoriales son 100% gratuitos. No tienes que pagar nada ni registrarte para acceder a todos los tutoriales.'
+          },
+          {
+            title: '¿Cómo descargo los materiales?',
+            description:
+              'Solamente los profesores verificados podrán obtener los materiales con el fin de ayudar a sus alumnos en clase. Solicita el acceso como profesor.'
+          }
+        ]
+      },
+      {
+        title: 'Sobre cursos para profesores ...',
+        items: [
+          {
+            title: '¿Cómo puedo realizar los cursos para profesores?',
+            description:
+              'Los cursos de formación permanente del profesorado se realizan a través del Centro de Profesores y Recursos de la Región de Murcia (CPR Murcia). Para asistir a los cursos deberás cumplir los requisitos de docente en la Región de Murcia.'
           }
         ]
       },
@@ -112,22 +122,12 @@ export default {
           {
             title: '¿Quién puede participar?',
             description:
-              'En las actividades extraescolares que organizamos puede participar cualquier niño, niña o jóven sin ningún tipo de discriminación. Al ser actividades gratuitas, el padre, madre o tutor del participante deberá estar presente en todo momento (salvo que se exprese lo contrario) haciéndose responsable de los actos u opiniones del participante.'
-          },
-          {
-            title: '¿Cuándo se realizan?',
-            description:
-              'En el apartado de actividades podrás consultar las fechas de cada una de las actividades extraescolares de programación y robótica que organizamos desde la asociación.'
+              'Cualquier niño, niña o jóven sin ningún tipo de discriminación podrá participar en las actividades extraescolares. Al ser actividades gratuitas, el padre, madre o tutor del participante deberá estar presente en todo momento (salvo que se exprese lo contrario) haciéndose responsable de los actos u opiniones del participante.'
           },
           {
             title: '¿Cuánto hay que pagar?',
             description:
-              'Todas las actividades extraescolares que realizamos son gratuitas y se accede mediante orden riguroso de reserva previa. En caso de confirmar una asistencia se deberá acudir o avisar obligatoriamente o se sancionará impidiendo el acceso a futuras actividades.'
-          },
-          {
-            title: '¿Quién organiza las actividades?',
-            description:
-              'Las actividades se organizan a través de la asociación con ayuda de los voluntarios mentores. Si para una actividad no se consiguen voluntarios, se cancelará por falta de mentores voluntarios.'
+              'Todas las actividades extraescolares que realizamos son gratuitas y se accede mediante orden riguroso de reserva previa.'
           }
         ]
       }
