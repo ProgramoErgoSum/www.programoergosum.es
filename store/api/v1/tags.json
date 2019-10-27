@@ -1,12 +1,12 @@
 [
   {
-    "category": "categorias-disabled",
+    "category": "categorias",
     "alias": "informatica",
     "name": "Informática",
     "title": "Tutoriales de informática",
     "description": "Cursos y tutoriales online de informática.",
     "image": "images/tutoriales/tutoriales.jpg",
-    "visible": false
+    "visible": true
   },
   {
     "category": "categorias",
@@ -24,7 +24,7 @@
     "title": "Tutoriales de electrónica",
     "description": "Cursos y tutoriales online de electrónica.",
     "image": "images/tutoriales/tutoriales.jpg",
-    "visible": false
+    "visible": true
   },
   {
     "category": "categorias",
@@ -88,6 +88,24 @@
     "alias": "raspberry-pi",
     "name": "Raspberry Pi",
     "title": "Tutoriales con Raspberry Pi",
+    "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
+    "image": "images/tutoriales/raspberry-pi.jpg",
+    "visible": true
+  },
+  {
+    "category": "subcategorias-disabled",
+    "alias": "python",
+    "name": "Python",
+    "title": "Tutoriales de Python con Raspberry Pi",
+    "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
+    "image": "images/tutoriales/raspberry-pi.jpg",
+    "visible": true
+  },
+  {
+    "category": "subcategorias-disabled",
+    "alias": "gpio",
+    "name": "Pines GPIO",
+    "title": "Tutoriales de electrónica con Raspberry Pi",
     "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
     "image": "images/tutoriales/raspberry-pi.jpg",
     "visible": true

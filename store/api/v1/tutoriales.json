@@ -401,11 +401,116 @@
 
 
   {
+    "alias": "introduccion-a-raspberry-pi",
+    "title": "Introducción a Raspberry Pi",
+    "description": "Introducción a Raspberry Pi e instalación del sistema operativo Raspbian.",
+    "image": "img/preview.jpg",
+    "tags": ["raspberry-pi"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-26 16:10:00"
+    }
+  },
+  {
+    "alias": "instalar-raspbian-con-noobs",
+    "title": "Instalar Raspbian en Raspberry Pi con NOOBs",
+    "description": "Instalación del sistema operativo Raspbian a través del asistente NOOBs.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "raspbian"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 15:08:12"
+    }
+  },
+  {
+    "alias": "instalar-raspbian-con-etcher",
+    "title": "Instalar imagen de Raspbian en Raspberry Pi",
+    "description": "Instalación del sistema operativo Raspbian a través de una imagen con Etcher.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "raspbian"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 16:08:12"
+    }
+  },
+  {
+    "alias": "actualizar-raspbian-en-raspberry-pi",
+    "title": "Actualizar el sistema operativo Raspbian",
+    "description": "Actualización del sistema operativo Raspbian a través de la terminal o consola.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "raspbian"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 17:08:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-raspbian-en-raspberry-pi",
+    "title": "Introducción al sistema operativo Raspbian",
+    "description": "Primeros pasos y configuración del sistema operativo Raspbian para Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "raspbian"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 17:08:12"
+    }
+  },
+  {
+    "alias": "clonar-raspbian-en-raspberry-pi",
+    "title": "Clonar tarjeta SD Raspbian en Raspberry Pi con piclone",
+    "description": "Clonar tarjetas con Raspbian utilizando el programa SD Card Copier (piclone).",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "raspbian"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 17:18:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-gpio-con-scratch-en-raspberry-pi",
+    "title": "Introducción a GPIO con Scratch en Raspberry Pi",
+    "description": "Programa con Scratch en los pines GPIO de tu Raspberry Pi para activar entradas y salidas.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "raspberry-pi", "scratch", "gpio"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-09-26 14:05:12"
+    }
+  },
+  {
     "alias": "aprender-a-programar-con-scratch-en-raspberry-pi",
     "title": "Aprender a programar con Scratch en Raspberry Pi",
     "description": "Disponible la nueva versión offline de Scratch 3.0 para Raspbian Buster en Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["raspberry-pi", "scratch"],
+    "tags": ["programacion", "raspberry-pi", "scratch"],
     "authors": ["migueabellan"],
     "extra": {
       "level": "Iniciación"
@@ -413,6 +518,66 @@
     "date": {
       "cdate": "2019-09-26 11:31:24",
       "mdate": "2019-09-26 11:31:24"
+    }
+  },
+  {
+    "alias": "introduccion-a-python-en-raspberry-pi",
+    "title": "Introducción a Python en Raspberry Pi",
+    "description": "Tutorial de iniciación a la programación con el  lenguaje Python a través de Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "raspberry-pi", "python"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-09-26 14:05:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-turtle-python-en-raspberry-pi",
+    "title": "Introducción a Python Turtle Graphics en Raspberry Pi",
+    "description": "Tutorial de Programación Orientada a Objetos en Python a través de Turtle Graphics en Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "raspberry-pi", "python"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-09-26 14:05:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-pygame-en-raspberry-pi",
+    "title": "Introducción a PyGame en Raspberry Pi",
+    "description": "Tutorial de programación de videojuegos en Python utilizando el módulo PyGame.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "raspberry-pi", "python", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-09-26 14:05:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-minecraft-en-raspberry-pi",
+    "title": "Introducción a Minecraft en Raspberry Pi",
+    "description": "Aprende a programar tus propios mundos en Minecraft Pi  con el lenguaje de programación Python.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "raspberry-pi", "python", "videojuegos", "minecraft"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-09-26 14:05:12"
     }
   },
 
