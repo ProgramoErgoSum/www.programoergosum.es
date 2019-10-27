@@ -90,6 +90,7 @@ export default {
       meta: [
         // Global
         { hid: 'description', name: 'description', content: description },
+        { hid: 'keywords', name: 'keywords', content: tags },
         // Open Graph
         { hid: 'o:t', property: 'og:title', content: title },
         { hid: 'o:d', property: 'og:description', content: description },

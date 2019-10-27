@@ -38,6 +38,7 @@ export default {
         // Global
         { rel: 'canonical', href: canonical }
         // { hid: 'description', name: 'description', content: description }
+        // { hid: 'keywords', name: 'keywords', content: tags }
       ],
       meta: [
         // Open Graph https://ogp.me/
