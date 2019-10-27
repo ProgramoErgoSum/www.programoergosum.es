@@ -162,7 +162,7 @@ export default {
         { hid: 'o:i', property: 'og:image', content: image },
         { property: 'og:article:published_time', content: date.cdate },
         { property: 'og:article:modified_time', content: date.mdate },
-        { property: 'og:article:section', content: 'Formación profesorado' },
+        { property: 'og:article:section', content: 'Tutoriales' },
         { property: 'og:article:tag', content: tags },
         // Twitter
         { hid: 't:t', name: 'twitter:title', content: title },
