@@ -328,7 +328,7 @@
     "tags": ["robotica-educativa", "beebot"],
     "authors": ["migueabellan"],
     "extra": {
-      "level": "Infantil y Primaria"
+      "level": "Iniciación"
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -343,7 +343,7 @@
     "tags": ["robotica-educativa", "escornabot"],
     "authors": ["migueabellan"],
     "extra": {
-      "level": "Infantil y Primaria"
+      "level": "Iniciación"
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -358,7 +358,7 @@
     "tags": ["robotica-educativa", "makey-makey"],
     "authors": ["migueabellan"],
     "extra": {
-      "level": "Infantil y Primaria"
+      "level": "Iniciación"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -373,7 +373,7 @@
     "tags": ["robotica-educativa", "makey-makey", "scratch"],
     "authors": ["migueabellan"],
     "extra": {
-      "level": "Infantil y Primaria"
+      "level": "Iniciación"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -388,7 +388,7 @@
     "tags": ["robotica-educativa", "makey-makey", "scratch"],
     "authors": ["migueabellan"],
     "extra": {
-      "level": "Infantil y Primaria"
+      "level": "Iniciación"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -610,11 +610,306 @@
       "mdate": "2019-10-26 14:05:12"
     }
   },
+  {
+    "alias": "consola-arcade-basada-en-raspberry-pi-con-retropie",
+    "title": "Consola arcade basada en Raspberry Pi con RetroPie",
+    "description": "Crea una consola arcade basada en Raspberry Pi con el sistema operativo RetroPie.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "retropie"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "direcciones-ip-en-raspberry-pi",
+    "title": "Direcciones IP en Raspberry Pi",
+    "description": "Establecer una dirección IP Fija a nuestra Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "redes"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "escritorio-remoto-a-traves-de-vnc",
+    "title": "Escritorio remoto a través de VNC",
+    "description": "Accede a tu Raspberry Pi desde otro ordenador a través de un escritorio remoto con VNC.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "redes"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "acceso-remoto-a-traves-de-ssh",
+    "title": "Acceso remoto a través de SSH",
+    "description": "Accede a tu Raspberry Pi desde otro ordenador a través del protocolo SSH.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "redes"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "punto-de-acceso-wifi-en-raspberry-pi",
+    "title": "Punto de acceso WiFi con Raspberry Pi",
+    "description": "Crea un punto de acceso con RaspAp Webgui para tu raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "redes"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "red-privada-virtual-con-openvpn",
+    "title": "Red Privada Virtual con OpenVPN",
+    "description": "Configura una red privada virtual con OpenVPN.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "redes"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "webcam-con-luvcview-en-raspberry-pi",
+    "title": "Configura una webcam en Raspberry Pi con LUVCview",
+    "description": "Visualiza y captura el contenido de una webcam con LUVCview en tu Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "webcam"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "webcam-con-fswebcam-en-raspberry-pi",
+    "title": "Imágenes automáticas con fswebcam en Raspberry Pi",
+    "description": "Tomar imágenes de forma automática con una webcam en Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "webcam"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 15:05:12"
+    }
+  },
+  {
+    "alias": "webcam-con-motion-en-raspberry-pi",
+    "title": "Detecta movimientos con una webcam y Motion en Raspberry Pi",
+    "description": "Con Motion podrás detectar movimientos utilizando una webcam en tu Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "webcam"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-mu-editor-en-raspbian",
+    "title": "Primeros pasos con Micro:bit y Mu Editor",
+    "description": "Programa tu Micro:bit en Raspberry Pi con MicroPython.",
+    "image": "img/preview.jpg",
+    "category": "raspberry-pi",
+    "tags": ["raspberry-pi", "microbit", "micropython"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-pines-gpio-en-raspbian",
+    "title": "Primeros pasos con Pines GPIO en Raspberry Pi",
+    "description": "Programación en Python de los pines GPIO en Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["electronica", "raspberry-pi", "gpio"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "servidor-web-con-flask-en-raspberry-pi",
+    "title": "Servidor web con Flask en Python",
+    "description": "Programación en Python para crear un servidor web en Python con Flask",
+    "image": "img/preview.jpg",
+    "category": "raspberry-pi",
+    "tags": ["programacion", "raspberry-pi", "python"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "control-de-gpio-con-flask-en-raspberry-pi",
+    "title": "Control de GPIO con Flask en Python",
+    "description": "Controlar los pines GPIO a través de un servidor web en Python.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "raspberry-pi", "python", "gpio"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "arranque-automatico-en-raspbian",
+    "title": "Arranque automático en Raspbian",
+    "description": "Ejecutar programas de forma automática al arrancar Raspbian.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "raspbian"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "instalar-arduino-ide-en-raspbian",
+    "title": "Instalar Arduino IDE en Raspberry Pi",
+    "description": "Instalación de Arduino IDE en Raspberry Pi con Raspbian.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "raspberry-pi", "arduino"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "conectando-arduino-con-pyserial",
+    "title": "Conectando Raspberry Pi y Arduino con PySerial",
+    "description": "Enviando datos desde Raspberry Pi a Arduino a través del Serial.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "raspberry-pi", "python", "arduino"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-node-red-en-raspberry-pi",
+    "title": "Introducción a Node-RED en Raspberry Pi",
+    "description": "Programando con Node-RED en Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["raspberry-pi", "node-red"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "control-de-gpio-con-node-red-en-raspberry-pi",
+    "title": "Pines GPIO a través de Node-RED",
+    "description": "Programando pines GPIO a través de Node-RED en Raspberry Pi..",
+    "image": "img/preview.jpg",
+    "tags": ["raspberry-pi", "node-red", "gpio"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  
 
 
 
 
 
+  {
+    "alias": "introduccion-a-github",
+    "title": "Introducción a GitHub",
+    "description": "Control de versiones GIT en la plataforma GitHub.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "github"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-04-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  
+  
+  
+
+
+  
+  
   {
     "alias": "prusa-i3-bq-hephestos",
     "title": "Introducción a la impresora 3D Prusa i3 BQ Hephestos",

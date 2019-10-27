@@ -21,31 +21,11 @@
               />
             </v-card>
           </div>
-          <div class="sticky-top-false">
+          <div class="sticky-top">
             <v-card flat color="transparent" class="pa-3">
               <p>Categorías</p>
               <template
                 v-for="tag in tags.filter(el => el.category === 'categorias')"
-              >
-                <v-checkbox
-                  :key="tag.alias"
-                  v-model="tagsSelected"
-                  :label="tag.name"
-                  :value="tag.alias"
-                  :disabled="!tag.visible"
-                  color="primary"
-                  hide-details
-                />
-              </template>
-            </v-card>
-          </div>
-          <div class="sticky-top">
-            <v-card flat color="transparent" class="pa-3">
-              <p>Subcategorías</p>
-              <template
-                v-for="tag in tags.filter(
-                  el => el.category === 'subcategorias'
-                )"
               >
                 <v-checkbox
                   :key="tag.alias"
@@ -76,10 +56,10 @@
             </v-col>
             <v-col cols="12" class="text-center">
               <v-btn
-                v-show="pagItems < maxItems"
+                v-if="filter.length > pagItems"
                 depressed
                 small
-                @click="pagItems += 8"
+                @click="pagItems += 16"
               >
                 Mostrar más
               </v-btn>
@@ -101,7 +81,6 @@ export default {
   data() {
     return {
       search: '',
-      maxItems: 0,
       pagItems: 16,
       tagsSelected: []
     }
@@ -158,7 +137,6 @@ export default {
     }
   },
   created() {
-    this.maxItems = this.tutoriales.length
     this.tagsSelected.push(this.tag.alias)
   },
   head() {

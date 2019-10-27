@@ -1,6 +1,6 @@
 [
   {
-    "category": "categorias",
+    "category": "learning",
     "alias": "informatica",
     "name": "Informática",
     "title": "Tutoriales de informática",
@@ -9,7 +9,7 @@
     "visible": true
   },
   {
-    "category": "categorias",
+    "category": "learning",
     "alias": "programacion",
     "name": "Programación",
     "title": "Tutoriales de programación",
@@ -18,12 +18,105 @@
     "visible": true
   },
   {
-    "category": "categorias",
+    "category": "learning",
     "alias": "electronica",
     "name": "Electrónica",
     "title": "Tutoriales de electrónica",
     "description": "Cursos y tutoriales online de electrónica.",
     "image": "images/tutoriales/tutoriales.jpg",
+    "visible": true
+  },
+
+
+
+  {
+    "category": "categorias",
+    "alias": "scratch",
+    "name": "Scratch",
+    "title": "Tutoriales de Scratch",
+    "description": "Cursos y tutoriales online para aprender a programar con Scratch.",
+    "image": "images/tutoriales/scratch.jpg",
+    "visible": true
+  },
+  {
+    "category": "categorias-disabled",
+    "alias": "mblock",
+    "name": "mBlock",
+    "title": "Tutoriales de mBlock",
+    "description": "Cursos y tutoriales de programación y electrónica con mBlock.",
+    "image": "images/tutoriales/mblock.jpg",
+    "visible": false
+  },
+  {
+    "category": "categorias-disabled",
+    "alias": "mbot",
+    "name": "mBot",
+    "title": "Tutoriales de mBot",
+    "description": "Cursos y tutoriales de robótica educativa con mBot.",
+    "image": "images/tutoriales/mbot.jpg",
+    "visible": false
+  },
+  {
+    "category": "categorias",
+    "alias": "arduino",
+    "name": "Arduino",
+    "title": "Tutoriales de Arduino",
+    "description": "Cursos y tutoriales de programación y electrónica de placas Arduino.",
+    "image": "images/tutoriales/arduino.jpg",
+    "visible": true
+  },
+  {
+    "category": "categorias",
+    "alias": "raspberry-pi",
+    "name": "Raspberry Pi",
+    "title": "Tutoriales con Raspberry Pi",
+    "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
+    "image": "images/tutoriales/raspberry-pi.jpg",
+    "visible": true
+  },
+  {
+    "category": "categorias-disabled",
+    "alias": "python",
+    "name": "Python",
+    "title": "Tutoriales de Python con Raspberry Pi",
+    "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
+    "image": "images/tutoriales/raspberry-pi.jpg",
+    "visible": true
+  },
+  {
+    "category": "categorias-disabled",
+    "alias": "gpio",
+    "name": "Pines GPIO",
+    "title": "Tutoriales de electrónica con Raspberry Pi",
+    "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
+    "image": "images/tutoriales/raspberry-pi.jpg",
+    "visible": true
+  },
+  {
+    "category": "categorias-disabled",
+    "alias": "microbit",
+    "name": "Micro:bit",
+    "title": "Tutoriales con Micro:bit",
+    "description": "Cursos y tutoriales de programación y electrónica con Micro:bit.",
+    "image": "images/tutoriales/microbit.jpg",
+    "visible": true
+  },
+  {
+    "category": "categorias-disabled",
+    "alias": "videojuegos",
+    "name": "Videojuegos",
+    "title": "Tutoriales de videojuegos",
+    "description": "Cursos y tutoriales online para aprender a programar videojuegos.",
+    "image": "images/tutoriales/scratch.jpg",
+    "visible": true
+  },
+  {
+    "category": "categorias",
+    "alias": "realidad-aumentada",
+    "name": "Realidad aumentada",
+    "title": "Tutoriales de Realidad aumentada con Scratch",
+    "description": "Cursos y tutoriales online para aprender a programar Realidad aumentada con Scratch.",
+    "image": "images/tutoriales/scratch.jpg",
     "visible": true
   },
   {
@@ -44,101 +137,8 @@
     "image": "images/tutoriales/impresion-3d.jpg",
     "visible": true
   },
-
-
-
   {
-    "category": "subcategorias",
-    "alias": "scratch",
-    "name": "Scratch",
-    "title": "Tutoriales de Scratch",
-    "description": "Cursos y tutoriales online para aprender a programar con Scratch.",
-    "image": "images/tutoriales/scratch.jpg",
-    "visible": true
-  },
-  {
-    "category": "subcategorias-disabled",
-    "alias": "mblock",
-    "name": "mBlock",
-    "title": "Tutoriales de mBlock",
-    "description": "Cursos y tutoriales de programación y electrónica con mBlock.",
-    "image": "images/tutoriales/mblock.jpg",
-    "visible": false
-  },
-  {
-    "category": "subcategorias-disabled",
-    "alias": "mbot",
-    "name": "mBot",
-    "title": "Tutoriales de mBot",
-    "description": "Cursos y tutoriales de robótica educativa con mBot.",
-    "image": "images/tutoriales/mbot.jpg",
-    "visible": false
-  },
-  {
-    "category": "subcategorias",
-    "alias": "arduino",
-    "name": "Arduino",
-    "title": "Tutoriales de Arduino",
-    "description": "Cursos y tutoriales de programación y electrónica de placas Arduino.",
-    "image": "images/tutoriales/arduino.jpg",
-    "visible": false
-  },
-  {
-    "category": "subcategorias",
-    "alias": "raspberry-pi",
-    "name": "Raspberry Pi",
-    "title": "Tutoriales con Raspberry Pi",
-    "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
-    "image": "images/tutoriales/raspberry-pi.jpg",
-    "visible": true
-  },
-  {
-    "category": "subcategorias-disabled",
-    "alias": "python",
-    "name": "Python",
-    "title": "Tutoriales de Python con Raspberry Pi",
-    "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
-    "image": "images/tutoriales/raspberry-pi.jpg",
-    "visible": true
-  },
-  {
-    "category": "subcategorias-disabled",
-    "alias": "gpio",
-    "name": "Pines GPIO",
-    "title": "Tutoriales de electrónica con Raspberry Pi",
-    "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
-    "image": "images/tutoriales/raspberry-pi.jpg",
-    "visible": true
-  },
-  {
-    "category": "subcategorias",
-    "alias": "microbit",
-    "name": "Micro:bit",
-    "title": "Tutoriales con Micro:bit",
-    "description": "Cursos y tutoriales de programación y electrónica con Micro:bit.",
-    "image": "images/tutoriales/microbit.jpg",
-    "visible": false
-  },
-  {
-    "category": "subcategorias",
-    "alias": "videojuegos",
-    "name": "Videojuegos",
-    "title": "Tutoriales de videojuegos",
-    "description": "Cursos y tutoriales online para aprender a programar videojuegos.",
-    "image": "images/tutoriales/scratch.jpg",
-    "visible": true
-  },
-  {
-    "category": "subcategorias",
-    "alias": "realidad-aumentada",
-    "name": "Realidad aumentada",
-    "title": "Tutoriales de Realidad aumentada con Scratch",
-    "description": "Cursos y tutoriales online para aprender a programar Realidad aumentada con Scratch.",
-    "image": "images/tutoriales/scratch.jpg",
-    "visible": true
-  },
-  {
-    "category": "subcategorias",
+    "category": "categorias-disabled",
     "alias": "tinkercad",
     "name": "TinkerCAD",
     "title": "Tutoriales de TinkerCAD",
@@ -147,7 +147,7 @@
     "visible": true
   },
   {
-    "category": "subcategorias",
+    "category": "categorias-disabled",
     "alias": "appinventor",
     "name": "AppInventor",
     "title": "Tutoriales de AppInventor",
@@ -156,7 +156,7 @@
     "visible": false
   },
   {
-    "category": "subcategorias-disabled",
+    "category": "categorias-disabled",
     "alias": "paginas-web",
     "name": "Páginas web",
     "title": "Tutoriales de páginas web.",
