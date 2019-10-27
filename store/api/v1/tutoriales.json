@@ -502,7 +502,7 @@
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
-      "mdate": "2019-09-26 14:05:12"
+      "mdate": "2019-10-26 14:05:12"
     }
   },
   {
@@ -516,8 +516,8 @@
       "level": "Iniciación"
     },
     "date": {
-      "cdate": "2019-09-26 11:31:24",
-      "mdate": "2019-09-26 11:31:24"
+      "cdate": "2019-10-26 11:31:24",
+      "mdate": "2019-10-26 11:31:24"
     }
   },
   {
@@ -532,7 +532,7 @@
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
-      "mdate": "2019-09-26 14:05:12"
+      "mdate": "2019-10-26 14:05:12"
     }
   },
   {
@@ -547,7 +547,7 @@
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
-      "mdate": "2019-09-26 14:05:12"
+      "mdate": "2019-10-26 14:05:12"
     }
   },
   {
@@ -562,7 +562,7 @@
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
-      "mdate": "2019-09-26 14:05:12"
+      "mdate": "2019-10-26 14:05:12"
     }
   },
   {
@@ -577,7 +577,37 @@
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
-      "mdate": "2019-09-26 14:05:12"
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "introduccion-a-la-terminal-en-raspberry-pi",
+    "title": "Introducción a la terminal en Raspberry Pi",
+    "description": "Tutorial de introducción a los comandos de linux a través de Raspbian para Raspberry Pi.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi", "raspbian"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "maquina-virtual-de-raspberry-pi-con-pixel",
+    "title": "Máquina virtual de Raspberry Pi con Pixel",
+    "description": "Crea una máquina virtual con el sistema operativo de Pixel para emular una Raspberry Pi en tu PC.",
+    "image": "img/preview.jpg",
+    "tags": ["informatica", "raspberry-pi"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-26 14:05:12"
     }
   },
 
