@@ -9,12 +9,41 @@
         </p>
       </v-col>
       <v-col cols="12">
-        <v-chip v-for="item in donations" :key="item" class="ml-1">
-          <v-avatar class="mr-1">
-            <v-icon>mdi-account</v-icon>
-          </v-avatar>
-          {{ item }}
-        </v-chip>
+        <template v-for="(item, key) in donations">
+          <v-chip
+            v-if="item.twitter"
+            :key="key"
+            label
+            outlined
+            class="ma-1"
+            :href="item.twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <v-avatar class="mr-1">
+              <v-icon size="18" color="#00aced">mdi-twitter</v-icon>
+            </v-avatar>
+            {{ item.name }}
+          </v-chip>
+          <v-chip
+            v-else-if="item.website"
+            :key="key"
+            label
+            outlined
+            class="ma-1"
+            :href="item.website"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <v-avatar class="mr-1">
+              <v-icon size="18" color="#333">mdi-link</v-icon>
+            </v-avatar>
+            {{ item.name }}
+          </v-chip>
+          <v-chip v-else :key="key" label outlined class="ma-1">
+            {{ item.name }}
+          </v-chip>
+        </template>
       </v-col>
       <v-col cols="12">
         <div class="my-6">
@@ -38,13 +67,38 @@ export default {
   name: 'Donations',
   data: () => ({
     donations: [
-      'Julio Clemente Cordeiro',
-      'Pepe García',
-      'Nasim Maldonado',
-      'David Pons',
-      'Carlos Hernán Mora',
-      'Julieta Brenda',
-      'Andres Montilla'
+      // 15
+      {
+        name: 'Julio Clemente Cordeiro',
+        website: 'http://www.edu.xunta.gal/centros/iessalvadormadariaga'
+      },
+      // 10
+      {
+        name: 'Juan Antonio Pérez',
+        twitter: 'https://twitter.com/toninosevilla'
+      },
+      // 5
+      {
+        name: 'Pepe García',
+        website: 'http://www.ceipvillaespesa.es'
+      },
+      {
+        name: 'David Pons',
+        twitter: 'https://twitter.com/DavidPons'
+      },
+      {
+        name: 'Nasim Maldonado'
+      },
+      // 1
+      {
+        name: 'Andres Montilla'
+      },
+      {
+        name: 'Julieta Brenda'
+      },
+      {
+        name: 'Carlos Hernán'
+      }
     ]
   })
 }
