@@ -1002,6 +1002,71 @@
       "mdate": "2019-10-26 14:05:12"
     }
   },
+
+
+
+
+
+  {
+    "alias": "matriz-de-leds-en-microbit-con-python",
+    "title": "Matriz de LEDs en Microbit con Python",
+    "description": "Crear imágenes en la matriz de LED de Micro:bit con MicroPython.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "microbit", "python"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-02-11 13:42:34",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "botones-en-microbit-con-python",
+    "title": "Botones en Microbit con Python",
+    "description": "Utiliza los botones de Micro:bit con MicroPython.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "microbit", "python"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-02-11 13:42:34",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "pines-gpio-en-microbit-con-python",
+    "title": "Pines GPIO en Microbit con Python",
+    "description": "Utiliza los pines de entrada y salida de Micro:bit con MicroPython.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "microbit", "python"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-02-11 13:42:34",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
+  {
+    "alias": "acelerometro-en-microbit-con-python",
+    "title": "Acelerómetro en Microbit con Python",
+    "description": "Utiliza el acelerómetro de Micro:bit con MicroPython.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "microbit", "python"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-02-11 13:42:34",
+      "mdate": "2019-10-26 14:05:12"
+    }
+  },
   
 
 
