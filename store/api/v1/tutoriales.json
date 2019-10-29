@@ -395,6 +395,126 @@
       "mdate": "2019-10-26 14:05:12"
     }
   },
+  {
+    "alias": "robotica-educativa-con-echidna",
+    "title": "Introducción a la robótica educativa con Echidna Shield",
+    "description": "Programación de videojuegos utilizando la placa educativa Echidna Shield con mBlock.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa", "echidna-shield", "mblock", "snap4arduino"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-27 14:05:12"
+    }
+  },
+  {
+    "alias": "robotica-educativa-con-mbot",
+    "title": "Introducción a la robótica educativa con mBot",
+    "description": "Programación del robot mBot para introducir la robótica en el aula.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa", "mbot", "mblock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-27 14:05:12"
+    }
+  },
+  {
+    "alias": "led-rgb-del-robot-mbot",
+    "title": "Led RGB del robot mBot con mBlock",
+    "description": "Programación de los Led RGB en el robot mBot utilizando mblock.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa", "mbot", "mblock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-27 14:05:12"
+    }
+  },
+  {
+    "alias": "sensor-ultrasonidos-del-robot-mbot",
+    "title": "Sensor ultrasonidos del robot mBot con mBlock",
+    "description": "Programación del sensor de ultrasonidos en el robot mBot utilizando mblock.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa", "mbot", "mblock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-27 14:05:12"
+    }
+  },
+  {
+    "alias": "sensor-sigue-lineas-del-robot-mbot",
+    "title": "Sensor sigue-líneas del robot mBot con mBlock",
+    "description": "Programación del sensor sigue-líneas en el robot mBot utilizando Scratch y mblock.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa", "mbot", "mblock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-27 14:05:12"
+    }
+  },
+  {
+    "alias": "mando-ir-del-robot-mbot",
+    "title": "Mando IR del robot mBot con mBlock",
+    "description": "Programación del mando a distancia IR en el robot mBot utilizando mblock.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa", "mbot", "mblock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-10-27 14:05:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-tocado-con-mblock-y-arduino",
+    "title": "Videojuego de tocado con mBlock y Arduino",
+    "description": "Programación de un videojuego utilizando Arduino y el lenguaje de programación por bloques de mBlock.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa", "arduino", "mblock", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-02-11 13:42:34",
+      "mdate": "2019-10-27 14:05:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-arkanoid-con-mblock-y-arduino",
+    "title": "Videojuego de Arkanoid con mBlock y Arduino",
+    "description": "Programación del videojuego de Arkanoid utilizando Arduino y el lenguaje de programación por bloques de mBlock.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa", "arduino", "mblock", "videojuegos"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-02-11 13:42:34",
+      "mdate": "2019-10-27 14:05:12"
+    }
+  },
 
 
 

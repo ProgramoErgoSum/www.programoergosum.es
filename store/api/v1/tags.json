@@ -48,15 +48,6 @@
     "visible": false
   },
   {
-    "category": "categorias-disabled",
-    "alias": "mbot",
-    "name": "mBot",
-    "title": "Tutoriales de mBot",
-    "description": "Cursos y tutoriales de robótica educativa con mBot.",
-    "image": "images/tutoriales/mbot.jpg",
-    "visible": false
-  },
-  {
     "category": "categorias",
     "alias": "arduino",
     "name": "Arduino",
@@ -112,20 +103,29 @@
   },
   {
     "category": "categorias",
-    "alias": "realidad-aumentada",
-    "name": "Realidad aumentada",
-    "title": "Tutoriales de Realidad aumentada con Scratch",
-    "description": "Cursos y tutoriales online para aprender a programar Realidad aumentada con Scratch.",
-    "image": "images/tutoriales/scratch.jpg",
-    "visible": true
-  },
-  {
-    "category": "categorias",
     "alias": "robotica-educativa",
     "name": "Robótica educativa",
     "title": "Tutoriales de Robótica educativa",
     "description": "Cursos y tutoriales de robótica educativa.",
     "image": "images/tutoriales/robotica-educativa.jpg",
+    "visible": true
+  },
+  {
+    "category": "categorias",
+    "alias": "mbot",
+    "name": "Robot mBot",
+    "title": "Tutoriales de mBot",
+    "description": "Cursos y tutoriales de robótica educativa con mBot.",
+    "image": "images/tutoriales/mbot.jpg",
+    "visible": true
+  },
+  {
+    "category": "categorias",
+    "alias": "realidad-aumentada",
+    "name": "Realidad aumentada",
+    "title": "Tutoriales de Realidad aumentada con Scratch",
+    "description": "Cursos y tutoriales online para aprender a programar Realidad aumentada con Scratch.",
+    "image": "images/tutoriales/scratch.jpg",
     "visible": true
   },
   {
