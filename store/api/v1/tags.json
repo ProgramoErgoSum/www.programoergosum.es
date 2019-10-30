@@ -111,6 +111,15 @@
     "visible": true
   },
   {
+    "category": "categorias-disabled",
+    "alias": "makey-makey",
+    "name": "Makey-Makey",
+    "title": "Tutoriales de Makey-Makey",
+    "description": "Cursos y tutoriales de Makey-Makey.",
+    "image": "images/tutoriales/robotica-educativa.jpg",
+    "visible": true
+  },
+  {
     "category": "categorias",
     "alias": "mbot",
     "name": "Robot mBot",
