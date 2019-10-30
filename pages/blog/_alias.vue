@@ -19,9 +19,6 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <div class="mb-6">
-            <Tags :tags="tags" />
-          </div>
           <!--
           <Adsense
             v-if="isAdsense"
@@ -46,6 +43,7 @@
             class="mb-0 py-12"
           />
           <Posted :mdate="date.mdate" />
+          <Tags :tags="tags" class="ml-3" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
