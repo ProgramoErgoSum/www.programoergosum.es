@@ -10,9 +10,9 @@ const state = () => ({
   repo_edit: `https://github.com/${repo}/edit/master`,
   adsense: {
     // ToDo: Add in .env file
-    left: '4490512803' // [PES-es] /formaciones/{alias} CONTENT-LEFT
-    // top: 'xxxxxxxxxx', // [PES-es] /formaciones/{alias} CONTENT-TOP
-    // bottom: 'xxxxxxxxxx' // [PES-es] /formaciones/{alias} CONTENT-BOTTOM
+    left: '4490512803' // [PES-es] /formaciones/{alias} CONTENT-LEFT "display"
+    // top: 'xxxxxxxxxx', // [PES-es] /formaciones/{alias} CONTENT-TOP "inarticle"
+    // bottom: 'xxxxxxxxxx' // [PES-es] /formaciones/{alias} CONTENT-BOTTOM "inarticle"
   },
   list: formaciones
 })
