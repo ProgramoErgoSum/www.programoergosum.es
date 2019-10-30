@@ -15,9 +15,6 @@
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
           <div class="mb-3">
-            <!--
-            <span class="body-2 font-weight-light">Etiquetas:</span>
-            -->
             <Tags :tags="tags" />
           </div>
 
@@ -42,9 +39,6 @@
             class="mb-6 py-12"
           />
           <Posted :mdate="date.mdate" />
-          <!--
-          <Tags :tags="tags" class="ml-3" />
-          -->
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
