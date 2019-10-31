@@ -75,8 +75,12 @@ export default {
   },
   methods: {
     goTo(anchor, event) {
-      // this.$router.push(`${this.$route.path}#${anchor}`)
-      this.$vuetify.goTo(`#${anchor}`, { offset: 50 })
+      const options = {
+        duration: 1000,
+        offset: 50,
+        easing: 'easeInOutCubic'
+      }
+      this.$vuetify.goTo(`#${anchor}`, options)
     },
     onScroll() {
       this.currentOffset =
