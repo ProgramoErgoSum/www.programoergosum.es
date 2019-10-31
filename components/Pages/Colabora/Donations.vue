@@ -87,6 +87,10 @@ export default {
         twitter: 'https://twitter.com/DavidPons'
       },
       {
+        name: 'Maria Moure',
+        website: ''
+      },
+      {
         name: 'Nasim Maldonado'
       },
       // 1
