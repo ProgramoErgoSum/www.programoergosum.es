@@ -5,7 +5,7 @@
     "name": "Informática",
     "title": "Tutoriales de informática",
     "description": "Cursos y tutoriales online de informática.",
-    "image": "images/tutoriales/tutoriales.jpg",
+    "image": "/images/tutoriales/tutoriales.jpg",
     "visible": true
   },
   {
@@ -14,7 +14,7 @@
     "name": "Programación",
     "title": "Tutoriales de programación",
     "description": "Cursos y tutoriales online de programación.",
-    "image": "images/tutoriales/tutoriales.jpg",
+    "image": "/images/tutoriales/tutoriales.jpg",
     "visible": true
   },
   {
@@ -23,7 +23,7 @@
     "name": "Electrónica",
     "title": "Tutoriales de electrónica",
     "description": "Cursos y tutoriales online de electrónica.",
-    "image": "images/tutoriales/tutoriales.jpg",
+    "image": "/images/tutoriales/tutoriales.jpg",
     "visible": true
   },
 
@@ -35,7 +35,7 @@
     "name": "Scratch",
     "title": "Tutoriales de Scratch",
     "description": "Cursos y tutoriales online para aprender a programar con Scratch.",
-    "image": "images/tutoriales/scratch.jpg",
+    "image": "/images/tutoriales/scratch.jpg",
     "visible": true
   },
   {
@@ -44,7 +44,7 @@
     "name": "mBlock",
     "title": "Tutoriales de mBlock",
     "description": "Cursos y tutoriales de programación y electrónica con mBlock.",
-    "image": "images/tutoriales/mblock.jpg",
+    "image": "/images/tutoriales/mblock.jpg",
     "visible": false
   },
   {
@@ -53,7 +53,7 @@
     "name": "Arduino",
     "title": "Tutoriales de Arduino",
     "description": "Cursos y tutoriales de programación y electrónica de placas Arduino.",
-    "image": "images/tutoriales/arduino.jpg",
+    "image": "/images/tutoriales/arduino.jpg",
     "visible": true
   },
   {
@@ -62,7 +62,7 @@
     "name": "Raspberry Pi",
     "title": "Tutoriales con Raspberry Pi",
     "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
-    "image": "images/tutoriales/raspberry-pi.jpg",
+    "image": "/images/tutoriales/raspberry-pi.jpg",
     "visible": true
   },
   {
@@ -71,7 +71,7 @@
     "name": "Python",
     "title": "Tutoriales de Python con Raspberry Pi",
     "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
-    "image": "images/tutoriales/raspberry-pi.jpg",
+    "image": "/images/tutoriales/raspberry-pi.jpg",
     "visible": true
   },
   {
@@ -80,7 +80,7 @@
     "name": "Pines GPIO",
     "title": "Tutoriales de electrónica con Raspberry Pi",
     "description": "Cursos y tutoriales de informática utilizando la Raspberry Pi.",
-    "image": "images/tutoriales/raspberry-pi.jpg",
+    "image": "/images/tutoriales/raspberry-pi.jpg",
     "visible": true
   },
   {
@@ -89,7 +89,7 @@
     "name": "Micro:bit",
     "title": "Tutoriales con Micro:bit",
     "description": "Cursos y tutoriales de programación y electrónica con Micro:bit.",
-    "image": "images/tutoriales/microbit.jpg",
+    "image": "/images/tutoriales/microbit.jpg",
     "visible": true
   },
   {
@@ -98,7 +98,7 @@
     "name": "Videojuegos",
     "title": "Tutoriales de videojuegos",
     "description": "Cursos y tutoriales online para aprender a programar videojuegos.",
-    "image": "images/tutoriales/scratch.jpg",
+    "image": "/images/tutoriales/scratch.jpg",
     "visible": true
   },
   {
@@ -107,7 +107,7 @@
     "name": "Robótica educativa",
     "title": "Tutoriales de Robótica educativa",
     "description": "Cursos y tutoriales de robótica educativa.",
-    "image": "images/tutoriales/robotica-educativa.jpg",
+    "image": "/images/tutoriales/robotica-educativa.jpg",
     "visible": true
   },
   {
@@ -116,7 +116,7 @@
     "name": "Makey-Makey",
     "title": "Tutoriales de Makey-Makey",
     "description": "Cursos y tutoriales de Makey-Makey.",
-    "image": "images/tutoriales/robotica-educativa.jpg",
+    "image": "/images/tutoriales/robotica-educativa.jpg",
     "visible": true
   },
   {
@@ -125,7 +125,7 @@
     "name": "Robot mBot",
     "title": "Tutoriales de mBot",
     "description": "Cursos y tutoriales de robótica educativa con mBot.",
-    "image": "images/tutoriales/mbot.jpg",
+    "image": "/images/tutoriales/mbot.jpg",
     "visible": true
   },
   {
@@ -134,7 +134,7 @@
     "name": "Realidad aumentada",
     "title": "Tutoriales de Realidad aumentada con Scratch",
     "description": "Cursos y tutoriales online para aprender a programar Realidad aumentada con Scratch.",
-    "image": "images/tutoriales/scratch.jpg",
+    "image": "/images/tutoriales/scratch.jpg",
     "visible": true
   },
   {
@@ -143,7 +143,7 @@
     "name": "Impresión 3D",
     "title": "Tutoriales de Impresión 3D",
     "description": "Cursos y tutoriales de impresión 3D para makers desde cero.",
-    "image": "images/tutoriales/impresion-3d.jpg",
+    "image": "/images/tutoriales/impresion-3d.jpg",
     "visible": true
   },
   {
@@ -152,7 +152,7 @@
     "name": "TinkerCAD",
     "title": "Tutoriales de TinkerCAD",
     "description": "Cursos y tutoriales de TinkerCAD para makers desde cero.",
-    "image": "images/tutoriales/tinkercad.jpg",
+    "image": "/images/tutoriales/tinkercad.jpg",
     "visible": true
   },
   {
@@ -161,7 +161,7 @@
     "name": "AppInventor",
     "title": "Tutoriales de AppInventor",
     "description": "Cursos y tutoriales para aprender a programar con AppInventor.",
-    "image": "images/tutoriales/appinventor.jpg",
+    "image": "/images/tutoriales/appinventor.jpg",
     "visible": false
   },
   {
@@ -170,7 +170,7 @@
     "name": "Páginas web",
     "title": "Tutoriales de páginas web.",
     "description": "Cursos y tutoriales para aprender a programar páginas web.",
-    "image": "images/tutoriales/paginas-web.jpg",
+    "image": "/images/tutoriales/paginas-web.jpg",
     "visible": false
   }
 ]
