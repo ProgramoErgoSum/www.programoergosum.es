@@ -58,7 +58,6 @@ export default {
           github: ''
         }
       },
-      /*
       {
         name: 'Pepe García',
         image: 'images/colabora/ppgarsan123.jpg',
@@ -70,7 +69,6 @@ export default {
           github: ''
         }
       },
-      */
       {
         name: 'Francisco Román',
         image: 'images/colabora/FranciscoRomnC2.jpg',

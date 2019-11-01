@@ -79,16 +79,11 @@ export default {
       },
       // 5
       {
-        name: 'Pepe García',
-        website: 'http://www.ceipvillaespesa.es'
-      },
-      {
         name: 'David Pons',
         twitter: 'https://twitter.com/DavidPons'
       },
       {
-        name: 'Maria Moure',
-        website: ''
+        name: 'Maria Moure'
       },
       {
         name: 'Nasim Maldonado'
