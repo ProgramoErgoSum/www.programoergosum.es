@@ -19,9 +19,27 @@
     ],
     "editions": [
       {
+        "number": "6ª Edición",
+        "date": "Octubre 2019",
+        "center": "CEIP Ciudad del Mar, Águilas (Murcia)",
+        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
+      },
+      {
+        "number": "5ª Edición",
+        "date": "Octubre 2019",
+        "center": "CEIP Hnos. S. Isidoro y Sta. Florentina, Cartagena (Murcia)",
+        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
+      },
+      {
+        "number": "4ª Edición",
+        "date": "Octubre 2019",
+        "center": "CEIP Hernández Ardieta, Roldan (Murcia)",
+        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
+      },
+      {
         "number": "3ª Edición",
         "date": "Octubre 2019",
-        "center": "Lorca, Roldán, Cartagena, Águilas",
+        "center": "CEIP San José, Lorca (Murcia)",
         "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
       },
       {
@@ -39,7 +57,7 @@
     ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
-      "mdate": "2019-10-29 11:14:12"
+      "mdate": "2019-11-01 11:14:12"
     }
   },
   {
