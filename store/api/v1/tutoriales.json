@@ -366,6 +366,21 @@
     }
   },
   {
+    "alias": "notas-musicales-con-makey-makey",
+    "title": "Notas musicales con Makey-Makey",
+    "description": "Aplicaciones educativas para utilizar la placa Makey-Makey con diferentes actividades musicales.",
+    "image": "img/preview.jpg",
+    "tags": ["robotica-educativa", "makey-makey"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-11-01 14:05:12"
+    }
+  },
+  {
     "alias": "el-cuerpo-humano-con-makey-makey-y-scratch",
     "title": "El cuerpo humano con Makey-Makey y Scratch",
     "description": "Videojuegos educativos para niños de infantil y primaria utilizando Makey Makey y Scratch.",
