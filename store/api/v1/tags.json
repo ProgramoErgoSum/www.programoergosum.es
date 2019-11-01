@@ -1,6 +1,6 @@
 [
   {
-    "category": "learning",
+    "category": "learning-disabled",
     "alias": "informatica",
     "name": "Informática",
     "title": "Tutoriales de informática",
@@ -24,6 +24,24 @@
     "title": "Tutoriales de electrónica",
     "description": "Cursos y tutoriales online de electrónica.",
     "image": "/images/tutoriales/tutoriales.jpg",
+    "visible": true
+  },
+  {
+    "category": "learning",
+    "alias": "robotica-educativa",
+    "name": "Robótica educativa",
+    "title": "Tutoriales de Robótica educativa",
+    "description": "Cursos y tutoriales de robótica educativa.",
+    "image": "/images/tutoriales/robotica-educativa.jpg",
+    "visible": true
+  },
+  {
+    "category": "learning",
+    "alias": "impresion-3d",
+    "name": "Impresión 3D",
+    "title": "Tutoriales de Impresión 3D",
+    "description": "Cursos y tutoriales de impresión 3D para makers desde cero.",
+    "image": "/images/tutoriales/impresion-3d.jpg",
     "visible": true
   },
 
@@ -103,15 +121,6 @@
   },
   {
     "category": "categorias",
-    "alias": "robotica-educativa",
-    "name": "Robótica educativa",
-    "title": "Tutoriales de Robótica educativa",
-    "description": "Cursos y tutoriales de robótica educativa.",
-    "image": "/images/tutoriales/robotica-educativa.jpg",
-    "visible": true
-  },
-  {
-    "category": "categorias-disabled",
     "alias": "makey-makey",
     "name": "Makey-Makey",
     "title": "Tutoriales de Makey-Makey",
@@ -135,15 +144,6 @@
     "title": "Tutoriales de Realidad aumentada con Scratch",
     "description": "Cursos y tutoriales online para aprender a programar Realidad aumentada con Scratch.",
     "image": "/images/tutoriales/scratch.jpg",
-    "visible": true
-  },
-  {
-    "category": "categorias",
-    "alias": "impresion-3d",
-    "name": "Impresión 3D",
-    "title": "Tutoriales de Impresión 3D",
-    "description": "Cursos y tutoriales de impresión 3D para makers desde cero.",
-    "image": "/images/tutoriales/impresion-3d.jpg",
     "visible": true
   },
   {
