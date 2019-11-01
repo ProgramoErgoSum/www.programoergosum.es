@@ -64,7 +64,7 @@ export default {
         description:
           'Director del CEIP Francisco Villaespesa El Parador de Roquetas de Mar. Cacharreando en temas de robótica educativa desde 1978.',
         social: {
-          url: '',
+          url: 'http://ceipvillaespesa.es/',
           twitter: '',
           github: ''
         }
