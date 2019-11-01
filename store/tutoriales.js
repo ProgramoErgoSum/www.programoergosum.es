@@ -12,7 +12,7 @@ const state = () => ({
   adsense: {
     // ToDo: Add in .env file
     left: '9837792964', // [PES-es] /tutoriales/{alias} CONTENT-LEFT "display"
-    top: '3707498883', // [PES-es] /tutoriales/{alias} CONTENT-TOP "inarticle"
+    // top: '3707498883', // [PES-es] /tutoriales/{alias} CONTENT-TOP "inarticle"
     bottom: '8576326964' // [PES-es] /tutoriales/{alias} CONTENT-BOTTOM "inarticle"
   },
   list: tutoriales,

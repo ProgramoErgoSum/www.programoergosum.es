@@ -14,17 +14,18 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <div class="mb-3">
+          <div class="mb-12">
+            <span class="body-2 font-weight-light">Etiquetas:</span>
             <Tags :tags="tags" />
           </div>
-
+          <!--
           <Adsense
             type="inarticle"
             :data-ad-slot="adsense.top"
             class="mb-0 pb-0"
           />
-
-          <Content :raw="raw" :cdn="cdn" class="pb-6" />
+          -->
+          <Content :raw="raw" :cdn="cdn" />
 
           <Adsense
             type="inarticle"
@@ -36,7 +37,7 @@
           <Contributing
             :authors="authors"
             :edit-link="editLink"
-            class="mb-6 py-12"
+            class="mb-3 pt-3"
           />
           <Posted :mdate="date.mdate" />
         </v-col>

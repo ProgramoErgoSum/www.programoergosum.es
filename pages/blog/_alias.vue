@@ -19,6 +19,10 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
+          <div class="mb-12">
+            <span class="body-2 font-weight-light">Etiquetas:</span>
+            <Tags :tags="tags" />
+          </div>
           <!--
           <Adsense
             v-if="isAdsense"
@@ -27,7 +31,7 @@
             class="mb-0 pb-0"
           />
           -->
-          <Content :raw="raw" :cdn="cdn" class="pb-6" />
+          <Content :raw="raw" :cdn="cdn" />
           <!--
           <Adsense
             v-if="isAdsense"
@@ -36,14 +40,13 @@
             class="my-0 my-0"
           />
           -->
-          <v-divider class="mt-12 mb-0" />
+          <v-divider class="my-6" />
           <Contributing
             :authors="authors"
             :edit-link="editLink"
-            class="mb-0 py-12"
+            class="mb-3 pt-3"
           />
           <Posted :mdate="date.mdate" />
-          <Tags :tags="tags" class="ml-3" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
