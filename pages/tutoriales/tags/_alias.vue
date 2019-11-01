@@ -23,7 +23,25 @@
           </div>
           <div class="sticky-top">
             <v-card flat color="transparent" class="pa-3">
+              <!--
               <p>Categorías</p>
+              -->
+              <template
+                v-for="tag in tags.filter(el => el.category === 'learning')"
+              >
+                <v-checkbox
+                  :key="tag.alias"
+                  v-model="tagsSelected"
+                  :label="tag.name"
+                  :value="tag.alias"
+                  :disabled="!tag.visible"
+                  color="primary"
+                  hide-details
+                />
+              </template>
+            </v-card>
+            <v-divider class="mt-4" />
+            <v-card flat color="transparent" class="pa-3">
               <template
                 v-for="tag in tags.filter(el => el.category === 'categorias')"
               >
