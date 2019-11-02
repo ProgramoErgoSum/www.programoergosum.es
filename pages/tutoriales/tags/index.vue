@@ -65,21 +65,21 @@ export default {
   data() {
     return {
       search: '',
-      pagItems: 12,
-      tagsSelected: []
+      pagItems: 12
+      // tagsSelected: []
     }
   },
   computed: {
     filter() {
       let tutoriales = this.tutoriales
-
+      /*
       if (this.tagsSelected.length > 0) {
         tutoriales = tutoriales.filter(
           el =>
             this.tagsSelected.filter(tag => el.tags.includes(tag)).length > 0
         )
       }
-
+      */
       if (this.search !== '' && this.search.length > 2) {
         const search = this.search.toLowerCase()
         tutoriales = tutoriales.filter(el => {
