@@ -9,7 +9,7 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
           <div class="sticky-top">
-            <v-card flat color="transparent" class="pa-3">
+            <v-card flat color="transparent" class="pa-0 py-2">
               <v-text-field
                 v-model="search"
                 label="Buscar"
