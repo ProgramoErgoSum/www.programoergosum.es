@@ -15,6 +15,21 @@
     }
   },
   {
+    "alias": "nueva-version-de-scratch-3",
+    "title": "Mejoras en la nueva versión de Scratch 3.0",
+    "description": "Repasamos las principales mejoras que encontrarás sobre la nueva versión de Scratch 3.0.",
+    "image": "img/preview.jpg",
+    "tags": ["scratch"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2019-01-15 17:53:47",
+      "mdate": "2019-10-25 16:05:12"
+    }
+  },
+  {
     "alias": "videojuego-de-laberinto-con-scratch-2",
     "title": "Videojuego del laberinto programado con Scratch 2.0",
     "description": "Aprende a programar paso a paso con Scratch el famoso videojuego del laberinto con obstáculos.",
@@ -283,21 +298,6 @@
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 14:05:12"
-    }
-  },
-  {
-    "alias": "nueva-version-de-scratch-3",
-    "title": "Mejoras en la nueva versión de Scratch 3.0",
-    "description": "Repasamos las principales mejoras que encontrarás sobre la nueva versión de Scratch 3.0.",
-    "image": "img/preview.jpg",
-    "tags": ["scratch"],
-    "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
-    },
-    "date": {
-      "cdate": "2019-01-15 17:53:47",
-      "mdate": "2019-10-25 16:05:12"
     }
   },
   {
