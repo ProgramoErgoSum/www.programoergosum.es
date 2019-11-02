@@ -8,8 +8,8 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
-          <div class="sticky-top-false">
-            <v-card flat color="transparent" class="pa-3">
+          <div class="sticky-top">
+            <v-card flat color="transparent" class="pa-0 py-2">
               <v-text-field
                 v-model="search"
                 label="Buscar"
@@ -19,42 +19,7 @@
                 validate-on-blur
               />
             </v-card>
-          </div>
-          <div class="sticky-top">
-            <v-card flat color="transparent" class="pa-3">
-              <!--
-              <p>Categorías</p>
-              -->
-              <template
-                v-for="tag in tags.filter(el => el.category === 'learning')"
-              >
-                <v-checkbox
-                  :key="tag.alias"
-                  v-model="tagsSelected"
-                  :label="tag.name"
-                  :value="tag.alias"
-                  :disabled="!tag.visible"
-                  color="primary"
-                  hide-details
-                />
-              </template>
-            </v-card>
-            <v-divider class="mt-4" />
-            <v-card flat color="transparent" class="pa-3">
-              <template
-                v-for="tag in tags.filter(el => el.category === 'categorias')"
-              >
-                <v-checkbox
-                  :key="tag.alias"
-                  v-model="tagsSelected"
-                  :label="tag.name"
-                  :value="tag.alias"
-                  :disabled="!tag.visible"
-                  color="primary"
-                  hide-details
-                />
-              </template>
-            </v-card>
+            <categories :tags="tags" />
           </div>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="12" lg="10" xl="10">
@@ -89,10 +54,12 @@
 </template>
 
 <script>
+import Categories from '@/components/Pages/Tutoriales/Categories'
 import Item from '@/components/Pages/Tutoriales/Item'
 
 export default {
   components: {
+    Categories,
     Item
   },
   data() {
