@@ -183,9 +183,4 @@ export default {
 .nuxt-content > .container {
   margin-bottom: 50px;
 }
-.sticky-top {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 140px;
-}
 </style>

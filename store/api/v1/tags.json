@@ -127,7 +127,7 @@
   },
   
   {
-    "category": "learning",
+    "category": "categories",
     "alias": "robotica-educativa",
     "name": "Robótica educativa",
     "title": "Tutoriales de Robótica educativa",
@@ -169,7 +169,7 @@
   },
 
   {
-    "category": "learning",
+    "category": "categories",
     "alias": "impresion-3d",
     "name": "Impresión 3D",
     "title": "Tutoriales de Impresión 3D",

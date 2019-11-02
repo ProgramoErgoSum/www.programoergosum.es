@@ -125,10 +125,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.sticky-top {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 140px;
-}
-</style>
+<style lang="scss" scoped></style>

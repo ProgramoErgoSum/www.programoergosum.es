@@ -77,7 +77,7 @@ export default {
     goTo(anchor, event) {
       const options = {
         duration: 1000,
-        offset: 50,
+        offset: 30,
         easing: 'easeInOutCubic'
       }
       this.$vuetify.goTo(`#${anchor}`, options)
