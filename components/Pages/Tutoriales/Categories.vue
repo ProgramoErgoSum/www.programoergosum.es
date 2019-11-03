@@ -71,7 +71,7 @@ export default {
   components: {},
   props: {
     tags: {
-      type: Object,
+      type: Array,
       required: true
     }
   }
