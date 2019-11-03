@@ -1,27 +1,27 @@
 <template>
-  <v-card :to="`/actividades/${activity.alias}`" nuxt>
+  <v-card :to="`/actividades/${actividad.alias}`" nuxt>
     <VImageLazy
-      :src="`/images/actividades/${activity.alias}/${activity.image}`"
-      :title="activity.title"
+      :src="absoluteUrlImage"
+      :title="actividad.title"
       :height="250"
     />
     <v-card-title primary-title>
-      <h3 class="mb-4 title">{{ activity.title }}</h3>
-      <div class="subtitle-1">{{ activity.description }}</div>
+      <h3 class="mb-4 title">{{ actividad.title }}</h3>
+      <div class="subtitle-1">{{ actividad.description }}</div>
     </v-card-title>
     <v-divider class="mx-3 my-3"></v-divider>
-    <v-card-text v-if="activity.extra">
+    <v-card-text v-if="actividad.extra">
       <p>
         <v-icon>mdi-map</v-icon>
-        {{ activity.extra.address }}
+        {{ actividad.extra.address }}
       </p>
       <p>
         <v-icon>mdi-calendar</v-icon>
-        {{ activity.extra.calendar.day }}
+        {{ actividad.extra.calendar.day }}
       </p>
       <p>
         <v-icon>mdi-clock</v-icon>
-        {{ activity.extra.calendar.hour }}
+        {{ actividad.extra.calendar.hour }}
       </p>
     </v-card-text>
   </v-card>
@@ -31,9 +31,14 @@
 export default {
   name: 'Item',
   props: {
-    activity: {
+    actividad: {
       type: Object,
       required: true
+    }
+  },
+  computed: {
+    absoluteUrlImage() {
+      return `${this.$store.state.actividades.repo_raw}/${this.actividad.alias}/${this.actividad.image}`
     }
   }
 }

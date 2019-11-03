@@ -1,6 +1,6 @@
 import path from 'path'
 
-import apiActivities from './store/api/v1/activities.json'
+import apiActividades from './store/api/v1/actividades.json'
 import apiBlogs from './store/api/v1/blogs.json'
 import apiFormaciones from './store/api/v1/formaciones.json'
 import apiTags from './store/api/v1/tags.json'
@@ -147,7 +147,7 @@ export default {
           lastmod: el.date.mdate
         }
       })
-      const pagesActividades = apiActivities.map(el => {
+      const pagesActividades = apiActividades.map(el => {
         return {
           url: `/actividades/${el.alias}`,
           changefreq: 'monthly',
@@ -159,7 +159,7 @@ export default {
         return {
           url: `/blog/${el.alias}`,
           changefreq: 'monthly',
-          priority: 0.3,
+          priority: 0.1,
           lastmod: el.date.mdate
         }
       })
@@ -178,7 +178,7 @@ export default {
   generate: {
     async routes() {
       const pagesDefault = ['/', '/404', '/legal/coc', '/legal/cookies']
-      const pagesActividades = await apiActivities.map(el => {
+      const pagesActividades = await apiActividades.map(el => {
         return `/actividades/${el.alias}`
       })
       const pagesBlogs = await apiBlogs.map(el => {

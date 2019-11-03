@@ -3,7 +3,7 @@
     "alias": "coderdojo-murcia",
     "title": "Club de Programación y Robótica en Murcia",
     "description": "Club gratuito de programación y robótica para chicos y chicas de 10 a 17 años en Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["coderdojo", "murcia", "club"],
     "extra": {
       "address": "Centro Municipal 585m2, Murcia",
@@ -21,7 +21,7 @@
     "alias": "club-maker-murcia",
     "title": "Club maker de robótica en Murcia",
     "description": "Club maker gratuito de programación y robótica para jóvenes en el IES Alfonso X de Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["maker", "murcia", "club"],
     "extra": {
       "address": "IES Alfonso X, Murcia",
@@ -39,7 +39,7 @@
     "alias": "participo-luego-existo",
     "title": "Concurso Participo Luego Existo",
     "description": "Concurso de programación y robótica destinado a colegios e institutos de la Región de Murcia.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["concurso", "murcia"],
     "extra": {
       "address": "CEIP e IES de Murcia",
@@ -57,7 +57,7 @@
     "alias": "programacion-informatica-inclusiva",
     "title": "Programación y Robótica inclusiva",
     "description": "Talleres de programación y robótica destinados a jóvenes autistas u otra diversidad funcional.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["inclusión", "tea", "murcia"],
     "extra": {
       "address": "Asociaciones de Murcia",
@@ -75,7 +75,7 @@
     "alias": "scratch-day-murcia",
     "title": "Scratch Day en Murcia",
     "description": "Evento mundial de programación de videojuegos con Scratch celebrado en más de 80 países del mundo.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["scratch", "day", "murcia"],
     "extra": {
       "address": "Centro Municipal 585m2, Murcia",
@@ -93,7 +93,7 @@
     "alias": "codeweek-murcia",
     "title": "CodeWeek en Murcia",
     "description": "Semana Europea de la programación donde aprenderás a programar con ayuda de mentores voluntarios.",
-    "image": "preview.png",
+    "image": "img/preview.png",
     "tags": ["codeweek", "murcia"],
     "extra": {
       "address": "Centro Municipal 585m2, Murcia",

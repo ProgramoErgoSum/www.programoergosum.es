@@ -26,6 +26,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 import Volunteers from '@/components/Pages/Colabora/Volunteers'
@@ -42,26 +44,32 @@ export default {
     }
   },
   validate({ store, params }) {
-    return store.state.activities.list.find(e => e.alias === params.alias)
+    return store.state.actividades.list.find(e => e.alias === params.alias)
   },
   async asyncData({ env, store, params }) {
-    const activity = store.state.activities.list.find(e => {
+    const actividad = store.state.actividades.list.find(e => {
       return e.alias === params.alias
     })
 
-    const path = `actividades/${params.alias}`
-    const file = await import(`@/doc/${path}/README.md`)
+    const urlRaw = `${store.state.actividades.repo_raw}/${actividad.alias}`
+    const endpoint = `${store.state.actividades.repo_raw}/${actividad.alias}/README.md`
+    const edit = `${store.state.actividades.repo_edit}/${actividad.alias}/README.md`
+
+    const file = await axios.get(endpoint).then(res => {
+      return res.data
+    })
 
     return {
-      title: activity.title,
-      description: activity.description,
-      image: `${env.cdn}/images/${path}/${activity.image}`,
+      title: actividad.title,
+      description: actividad.description,
+      image: `${urlRaw}/${actividad.image}`,
 
-      date: activity.date,
-      tags: activity.tags,
+      date: actividad.date,
+      tags: actividad.tags,
+      editLink: edit,
 
-      raw: file.body,
-      cdn: `${env.cdn}/images/${path}/`,
+      raw: file,
+      cdn: `${urlRaw}/`,
 
       breadcrumbs: [
         {
@@ -70,7 +78,7 @@ export default {
           to: '/actividades'
         },
         {
-          text: activity.title,
+          text: actividad.title,
           disabled: true,
           to: ''
         }

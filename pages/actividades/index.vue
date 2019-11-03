@@ -8,8 +8,8 @@
     <v-container fluid>
       <v-row>
         <v-col
-          v-for="activity in activities"
-          :key="activity.alias"
+          v-for="actividad in actividades"
+          :key="actividad.alias"
           cols="12"
           xs="12"
           sm="12"
@@ -17,7 +17,7 @@
           lg="4"
           xl="3"
         >
-          <Item :activity="activity" />
+          <Item :actividad="actividad" />
         </v-col>
       </v-row>
     </v-container>
@@ -45,7 +45,7 @@ export default {
   asyncData({ store }) {
     return {
       metas: store.state.metas.actividades,
-      activities: store.state.activities.list
+      actividades: store.state.actividades.list
     }
   },
   head() {
