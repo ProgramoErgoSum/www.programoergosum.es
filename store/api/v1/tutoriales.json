@@ -566,6 +566,194 @@
 
 
   {
+    "alias": "introduccion-a-arduino",
+    "title": "Primeros pasos con una placa de Arduino",
+    "description": "Tutorial de iniciación a la programación de placas con Arduino.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "s4a", "snap", "mBlock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "salidas-digitales-con-arduino",
+    "title": "Salidas digitales con Arduino",
+    "description": "Programación y electrónica de sensores básicos utilizando salidas digitales con Arduino.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "mBlock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "salidas-analogicas-con-arduino",
+    "title": "Salidas analógicas con Arduino",
+    "description": "Programación y electrónica de sensores básicos utilizando salidas analógicas PWM con Arduino.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "mBlock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "entradas-digitales-con-arduino",
+    "title": "Entradas digitales con Arduino",
+    "description": "Programación y electrónica de sensores básicos utilizando salidas analógicas PWM con Arduino.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "mBlock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "entradas-analogicas-con-arduino",
+    "title": "Entradas analógicas con Arduino",
+    "description": "Programación y electrónica de sensores básicos utilizando entradas analógicas con Arduino.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "mBlock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "programacion-de-un-semaforo-con-arduino",
+    "title": "Programación de un semáforo con Arduino",
+    "description": "Programación de un semáforo con Arduino utilizando varios lenguajes de programación.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "s4a"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "efecto-del-coche-fantastico-programado-con-arduino",
+    "title": "Efecto de luces del coche fantástico con Arduino",
+    "description": "Programación del efecto de las luces del coche fantástico programado con Arduino.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "s4a"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "cubo-de-leds-2x2x2-programado-con-arduino",
+    "title": "Cubo de LEDs ( 2 x 2 x 2 ) con Arduino",
+    "description": "Construción de un cubo de LEDs ( 2 x 2 x 2 ) con forma de ruleta utilizando transistores.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "mblock"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2018-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+
+
+
+  {
+    "alias": "introduccion-a-nodemcu-esp8266",
+    "title": "Introducción a la placa de desarrollo NodeMCU ESP8266",
+    "description": "Introducción a la placa de prototipado NodeMCU con ESP8266.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "nodemcu", "esp8266"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "configurar-esp8266-con-arduino-ide",
+    "title": "Configuración de ESP8266 con el IDE de Arduino",
+    "description": "Configura el IDE de Arduino para programar en la ESP8266.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "nodemcu", "esp8266"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2019-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "conectar-a-la-wifi-con-esp8266",
+    "title": "Conectar a la WiFi con ESP8266",
+    "description": "Buscando señales de WiFi con la placa NodeMCU ESP8266.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "nodemcu", "esp8266"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2019-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "servidor-web-con-esp8266",
+    "title": "Servidor Web con ESP8266",
+    "description": "Crea una servidor web para controlar los pines GPIO de la ESP8266 desde el móvil.",
+    "image": "img/preview.jpg",
+    "tags": ["programacion", "electronica", "arduino", "nodemcu", "esp8266"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Avanzado"
+    },
+    "date": {
+      "cdate": "2019-01-26 15:57:33",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+
+
+
+
+
+  {
     "alias": "introduccion-a-raspberry-pi",
     "title": "Introducción a Raspberry Pi",
     "description": "Introducción a Raspberry Pi e instalación del sistema operativo Raspbian.",
