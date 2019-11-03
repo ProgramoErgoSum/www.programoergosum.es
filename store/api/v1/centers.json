@@ -10,12 +10,33 @@
     "social": {
       "url": "https://www.murciaeduca.es/cprregiondemurcia/sitio/",
       "twitter": "https://twitter.com/CPRRegionMurcia"
+    }
+  },
+  {
+    "name": "Centro de Profesores y Recursos",
+    "address": {
+      "city": "Plasencia",
+      "province": "Cáceres"
     },
-    "ambassadors": [
-      {
-        "name": "Eva María"
-      }
-    ]
+    "image": "images/centros/cprplasencia.jpg",
+    "coordinates": ["40.0351702","-6.0862074"],
+    "social": {
+      "url": "http://cprplasencia.juntaextremadura.net",
+      "twitter": "https://twitter.com/cprplasencia"
+    }
+  },
+  {
+    "name": "Centro del Profesorado",
+    "address": {
+      "city": "Lora del Río",
+      "province": "Sevilla"
+    },
+    "image": "images/centros/ceplora.jpg",
+    "coordinates": ["37.6554715","-5.5329349"],
+    "social": {
+      "url": "http://www.juntadeandalucia.es/educacion/portals/web/cep-lora-rio",
+      "twitter": "https://twitter.com/ceplora"
+    }
   },
   {
     "name": "Centro Aragonés de Tecnologías para la Educación",
@@ -28,12 +49,20 @@
     "social": {
       "url": "http://web.catedu.es/webcatedu/",
       "twitter": "https://twitter.com/catedu_es"
+    }
+  },
+  {
+    "name": "Centro del Profesorado",
+    "address": {
+      "city": "Jaén",
+      "province": "Jaén"
     },
-    "ambassadors": [
-      {
-        "name": "Javier"
-      }
-    ]
+    "image": "images/centros/cepjaen.jpg",
+    "coordinates": ["37.7712565","-3.8176359"],
+    "social": {
+      "url": "http://www.juntadeandalucia.es/educacion/portals/web/cep-jaen",
+      "twitter": "https://twitter.com/cepjaen1"
+    }
   },
 
 
@@ -49,12 +78,7 @@
     "social": {
       "url": "http://www.edu.xunta.gal/centros/iessalvadormadariaga/",
       "twitter": ""
-    },
-    "ambassadors": [
-      {
-        "name": "Julio"
-      }
-    ]
+    }
   },
 
 
@@ -70,12 +94,7 @@
     "social": {
       "url": "http://www.svpsoller.fecib.net",
       "twitter": ""
-    },
-    "ambassadors": [
-      {
-        "name": "Tolo Piza"
-      }
-    ]
+    }
   },
 
 
@@ -91,12 +110,7 @@
     "social": {
       "url": "http://www.ceipvillaespesa.es/",
       "twitter": ""
-    },
-    "ambassadors": [
-      {
-        "name": "José Sánchez"
-      }
-    ]
+    }
   },
   {
     "name": "CEIP San Miguel",
@@ -109,12 +123,7 @@
     "social": {
       "url": "http://www.ceipsanmiguelnerja.com",
       "twitter": "https://twitter.com/CEIPSanmiguel18"
-    },
-    "ambassadors": [
-      {
-        "name": "David Sánchez"
-      }
-    ]
+    }
   },
 
 
@@ -130,12 +139,7 @@
     "social": {
       "url": "http://www.ceipsanisidro.com",
       "twitter": "https://twitter.com/ceipsanisidro"
-    },
-    "ambassadors": [
-      {
-        "name": "Anibal Parra"
-      }
-    ]
+    }
   },
   {
     "name": "CC Reina Sofía",
@@ -148,12 +152,7 @@
     "social": {
       "url": "http://www.rsofia.es/",
       "twitter": "https://twitter.com/CReinaSofia"
-    },
-    "ambassadors": [
-      {
-        "name": "Francisco Román"
-      }
-    ]
+    }
   },
 
   {
@@ -167,12 +166,7 @@
     "social": {
       "url": "https://www.iax.es",
       "twitter": "https://twitter.com/iaxmurcia"
-    },
-    "ambassadors": [
-      {
-        "name": "Matías"
-      }
-    ]
+    }
   },
   {
     "name": "IES Florida Blanca",
@@ -185,12 +179,7 @@
     "social": {
       "url": "http://www.iesfloridablanca.com",
       "twitter": "https://twitter.com/iesflori"
-    },
-    "ambassadors": [
-      {
-        "name": "José Antonio"
-      }
-    ]
+    }
   },
   {
     "name": "IES Juan Carlos I",
@@ -203,12 +192,7 @@
     "social": {
       "url": "http://www.iesjuancarlosi.es",
       "twitter": "https://twitter.com/JuancarlosiIes"
-    },
-    "ambassadors": [
-      {
-        "name": "Agustín"
-      }
-    ]
+    }
   },
   {
     "name": "IES La Flota",
@@ -221,12 +205,7 @@
     "social": {
       "url": "https://ieslaflota.blogspot.com",
       "twitter": "https://twitter.com/ieslaflota"
-    },
-    "ambassadors": [
-      {
-        "name": "José Antonio"
-      }
-    ]
+    }
   },
   {
     "name": "IES Miguel de Cervantes",
@@ -239,12 +218,7 @@
     "social": {
       "url": "http://iesmigueldecervantes.com",
       "twitter": "https://twitter.com/IESMdCervantes"
-    },
-    "ambassadors": [
-      {
-        "name": "Mónica"
-      }
-    ]
+    }
   },
   {
     "name": "IES Antonio Hellín Costa",
@@ -257,12 +231,7 @@
     "social": {
       "url": "https://www.iesantoniohellin.es",
       "twitter": "https://twitter.com/ieshellincosta"
-    },
-    "ambassadors": [
-      {
-        "name": "José Antonio"
-      }
-    ]
+    }
   },
   {
     "name": "IES Ramón Arcas Meca",
@@ -275,12 +244,7 @@
     "social": {
       "url": "https://www.iesramonarcas.es",
       "twitter": "https://twitter.com/iesramonarcas"
-    },
-    "ambassadors": [
-      {
-        "name": "Lola Blázquez"
-      }
-    ]
+    }
   },
   {
     "name": "IES Príncipe Asturias",
@@ -293,12 +257,7 @@
     "social": {
       "url": "http://www.iesprincipe.com",
       "twitter": "https://twitter.com/iesprincipe"
-    },
-    "ambassadors": [
-      {
-        "name": "Antonio Manuel"
-      }
-    ]
+    }
   },
 
 
@@ -314,12 +273,7 @@
     "social": {
       "url": "",
       "twitter": "https://twitter.com/ies_monastil"
-    },
-    "ambassadors": [
-      {
-        "name": "Juan José"
-      }
-    ]
+    }
   },
   
   {
@@ -333,15 +287,7 @@
     "social": {
       "url": "http://www.ieshermanosamoros.com",
       "twitter": "https://twitter.com/HermanosAmoros"
-    },
-    "ambassadors": [
-      {
-        "name": "Wladi"
-      },
-      {
-        "name": "Encarni"
-      }
-    ]
+    }
   },
 
 
@@ -357,11 +303,6 @@
     "social": {
       "url": "https://iesmurillo.com/",
       "twitter": "https://twitter.com/IES_MURILLO"
-    },
-    "ambassadors": [
-      {
-        "name": "@toninosevilla"
-      }
-    ]
+    }
   }
 ]
