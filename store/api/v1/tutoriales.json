@@ -1184,5 +1184,115 @@
       "cdate": "2018-01-26 15:57:33",
       "mdate": "2019-10-23 14:28:12"
     }
+  },
+
+
+
+
+
+  {
+    "alias": "introduccion-a-la-programacion-con-appinventor",
+    "title": "Introducción a la programación con AppInventor",
+    "description": "Aprende a programar aplicaciones para android sin conocimientos previos de programación.",
+    "image": "img/preview.jpg",
+    "tags": ["appinventor"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "eventos-y-condiciones-con-appinventor",
+    "title": "Programar Eventos y Condiciones con AppInventor",
+    "description": "Aprende a programar eventos y condiciones con AppInventor realizando esta sencilla aplicación de lógica.",
+    "image": "img/preview.jpg",
+    "tags": ["appinventor"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "cronometro-con-appinventor",
+    "title": "Programación de un cronómetro en AppInventor",
+    "description": "Aprende a programar tu propio reloj con cronómetro y tu aplicación con AppInventor.",
+    "image": "img/preview.jpg",
+    "tags": ["appinventor"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "procedimientos-y-funciones-con-appinventor",
+    "title": "Procedimientos y Funciones con AppInventor",
+    "description": "Aprende a utilizar los procedimientos en AppInventor programando un sencillo buscador.",
+    "image": "img/preview.jpg",
+    "tags": ["appinventor"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "videojuego-de-persigue-con-appinventor",
+    "title": "Videojuego de persigue con AppInventor",
+    "description": "Programa el videojuego de persigue con AppInventor para dispositivos móviles de Android.",
+    "image": "img/preview.jpg",
+    "tags": ["appinventor", "videojuego"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Iniciación"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "listas-y-funciones-con-appinventor",
+    "title": "Listas y Funciones con AppInventor",
+    "description": "Aprende a utilizar las listas o colecciones de elementos y las funciones en AppInventor.",
+    "image": "img/preview.jpg",
+    "tags": ["appinventor"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
+  },
+  {
+    "alias": "algoritmo-de-ordenacion-con-appinventor",
+    "title": "Algoritmo de ordenación con AppInventor",
+    "description": "Aprende a utilizar las listas o colecciones de elementos y las funciones en AppInventor.",
+    "image": "img/preview.jpg",
+    "tags": ["appinventor"],
+    "authors": ["migueabellan"],
+    "extra": {
+      "level": "Medio"
+    },
+    "date": {
+      "cdate": "2017-06-01 00:00:00",
+      "mdate": "2019-07-09 14:05:12"
+    }
   }
 ]
