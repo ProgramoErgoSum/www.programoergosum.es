@@ -65,17 +65,6 @@
   },
 
   {
-    "category": "categories-disabled",
-    "alias": "appinventor",
-    "name": "AppInventor",
-    "title": "Tutoriales de AppInventor",
-    "description": "Cursos y tutoriales para aprender a programar con AppInventor.",
-    "image": "/images/tutoriales/appinventor.jpg",
-    "icon": "mdi-tablet-android",
-    "visible": false
-  },
-
-  {
     "category": "categories",
     "alias": "arduino",
     "name": "Arduino",
@@ -187,6 +176,17 @@
     "image": "/images/tutoriales/tinkercad.jpg",
     "icon": "mdi-printer-3d",
     "visible": true
+  },
+
+  {
+    "category": "categories",
+    "alias": "appinventor",
+    "name": "AppInventor",
+    "title": "Tutoriales de AppInventor",
+    "description": "Cursos y tutoriales para aprender a programar con AppInventor.",
+    "image": "/images/tutoriales/appinventor.jpg",
+    "icon": "mdi-tablet-android",
+    "visible": false
   },
 
   {
