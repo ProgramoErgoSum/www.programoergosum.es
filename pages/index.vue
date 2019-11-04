@@ -6,11 +6,9 @@
     <section>
       <What />
     </section>
-
-    <section class="py-12" :class="background">
-      <Volunteers />
+    <section>
+      <Map :centers="centers" />
     </section>
-
     <section>
       <Reg />
     </section>
@@ -19,25 +17,21 @@
 
 <script>
 import Cover from '@/components/Pages/Home/Cover'
+import Map from '@/components/Pages/Centros/Map'
 import What from '@/components/Pages/Home/What'
-import Volunteers from '@/components/Pages/Colabora/Volunteers'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
     Cover,
+    Map,
     What,
-    Volunteers,
     Reg
-  },
-  computed: {
-    background() {
-      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
-    }
   },
   asyncData({ store }) {
     return {
-      metas: store.state.metas.index
+      metas: store.state.metas.index,
+      centers: store.state.centers.list
     }
   },
   head() {
