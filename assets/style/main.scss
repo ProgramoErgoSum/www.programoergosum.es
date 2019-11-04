@@ -21,35 +21,22 @@ a {
   color: #ae4119;
 }
 
-.nuxt-content {
-  margin-top: 15px;
-}
-
-
-
 .v-toolbar__content {
-  // height: 64px !important;
-  label {
-    font-size: 12px;
-  }
-  .v-btn {
-    font-weight: 300;
-  }
   .v-btn:hover,
   .v-btn--active {
     color: #ae4119 !important;
-    font-weight: 300 !important;
     .v-icon {
       color: #ae4119 !important;
     }
   }
-  .v-btn.primary{
+  .v-btn.primary {
+    border-radius: 5px;
     color: #fff !important;
     .v-icon {
       color: #fff !important;
     }
   }
-  .v-btn:hover.primary{
+  .v-btn:hover.primary {
     color: #fff !important;
   }
   .v-btn--active {
@@ -60,32 +47,11 @@ a {
     opacity: 0 !important;
   }
 }
-.v-toolbar__extension {
-  // height: 48px !important;
-  height: 64px !important;
-  padding: 0 !important;
-  border-top: 1px solid #f0f0f0;
-  .v-btn:hover,
-  .v-btn--active {
-    color: #ae4119 !important;
-  }
-  .v-btn:hover::before,
-  .v-btn--active::before {
-    opacity: 0 !important;
-  }
-}
 
-@media only screen and (max-width: 1904px) {
-}
-@media only screen and (max-width: 1264px) {
-}
-@media only screen and (max-width: 960px) {
-  .v-toolbar__extension {
-    height: 0 !important;
-  }
-}
-@media only screen and (max-width: 600px) {
-}
+@media only screen and (max-width: 1904px) {}
+@media only screen and (max-width: 1264px) {}
+@media only screen and (max-width: 960px) {}
+@media only screen and (max-width: 600px) {}
 
 .page-enter-active, .page-leave-active {
   transition: opacity .25s;

@@ -3,58 +3,17 @@ import metas from '~/store/api/v1/metas.json'
 const state = () => ({
   drawer: false,
   metas,
-  topNavigation: [
-    /*
-    {
-      title: 'Cursos de programación',
-      icon: '',
-      class: '',
-      href: 'https://www.programoergosum.com'
-    },
-    {
-      title: 'Plataforma STEM',
-      icon: '',
-      class: '',
-      href: 'https://www.aprendeprogramando.es'
-    },
-    */
-    {
-      title: 'Centros',
-      icon: 'mdi-school-outline',
-      class: '',
-      to: '/centros'
-    },
-    {
-      title: 'Colabora',
-      icon: 'mdi-account-heart-outline',
-      class: '',
-      to: '/colabora'
-    },
-    {
-      title: 'Donaciones',
-      icon: 'mdi-paypal',
-      class: 'primary',
-      href:
-        'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url'
-    }
-  ],
   navigation: [
     {
-      title: 'Asociación',
-      icon: '',
-      to: '/asociacion'
-    },
-    {
-      title: 'Tutoriales',
-      icon: '',
+      title: 'Cursos y tutoriales',
+      icon: 'mdi-file-document-outline',
       to: '/tutoriales'
     },
     {
       title: 'Formación del profesorado',
-      icon: '',
+      icon: 'mdi-teach',
       to: '/formaciones'
-    }
-    /*
+    },
     {
       title: 'Centros',
       icon: 'mdi-school-outline',
@@ -64,15 +23,9 @@ const state = () => ({
     {
       title: 'Colabora',
       icon: 'mdi-account-heart-outline',
-      class: '',
+      class: 'primary',
       to: '/colabora'
-    },
-    {
-      title: 'Blog',
-      icon: '',
-      to: '/blog'
     }
-    */
   ],
   mobile: [
     {
@@ -81,7 +34,7 @@ const state = () => ({
       to: '/asociacion'
     },
     {
-      title: 'Tutoriales',
+      title: 'Cursos y tutoriales',
       icon: 'mdi-file-document-outline',
       to: '/tutoriales'
     },
@@ -99,18 +52,12 @@ const state = () => ({
       title: 'Colabora',
       icon: 'mdi-account-heart-outline',
       to: '/colabora'
-    },
-    {
-      title: 'Contacto',
-      icon: 'mdi-at',
-      to: '/contacto'
     }
   ]
 })
 
 const getters = {
   metas: state => state.metas,
-  topNavigation: state => state.topNavigation,
   navigation: state => state.navigation,
   mobile: state => state.mobile
 }

@@ -205,6 +205,7 @@ export default {
         title: 'Nosotros',
         to: '/asociacion'
       },
+      /*
       {
         title: 'Centros',
         to: '/centros'
@@ -213,6 +214,7 @@ export default {
         title: 'Colabora',
         to: '/colabora'
       },
+      */
       {
         title: 'Extraescolares',
         to: '/actividades'
@@ -228,9 +230,15 @@ export default {
     ],
     learning: [
       {
+        title: 'Formación del profesorado',
+        to: '/formaciones'
+      },
+      /*
+      {
         title: 'Cursos de programación',
         href: 'https://www.programoergosum.com'
       },
+      */
       {
         title: 'Aprende con las STEM',
         href: 'https://www.aprendeprogramando.es'
@@ -238,10 +246,6 @@ export default {
       {
         title: 'Prácticas de robótica',
         href: 'https://www.elcableamarillo.cc'
-      },
-      {
-        title: 'Formación del profesorado',
-        to: '/formaciones'
       }
     ]
   })
