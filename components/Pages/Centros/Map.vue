@@ -1,7 +1,12 @@
 <template>
   <div class="map">
-    <l-map :min-zoom="6" :max-zoom="12" :center="[40.4636688, -3.7492199]">
-      <l-tile-layer url="https://{s}.tile.osm.org/{z}/{x}/{y}.png" />
+    <l-map
+      :min-zoom="minZoom"
+      :max-zoom="maxZoom"
+      :center="center"
+      :options="mapOptions"
+    >
+      <l-tile-layer :url="url" />
       <Market v-for="(item, index) in centers" :key="index" :center="item" />
     </l-map>
   </div>
@@ -20,7 +25,16 @@ export default {
       type: Array,
       default: () => []
     }
-  }
+  },
+  data: () => ({
+    minZoom: 6,
+    maxZoom: 12,
+    center: [40.4636688, -3.7492199],
+    url: 'https://{s}.tile.osm.org/{z}/{x}/{y}.png',
+    mapOptions: {
+      scrollWheelZoom: false
+    }
+  })
 }
 </script>
 
