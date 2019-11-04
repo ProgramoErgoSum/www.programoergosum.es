@@ -19,7 +19,7 @@
       </v-row>
     </v-container>
 
-    <section class="py-12" :class="background">
+    <section class="mt-12 py-12" :class="background">
       <Volunteers />
     </section>
   </div>
@@ -118,8 +118,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.nuxt-content > .container {
-  margin-bottom: 50px;
-}
-</style>
+<style lang="scss" scoped></style>

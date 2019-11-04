@@ -19,27 +19,8 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <div class="mb-12">
-            <span class="body-2 font-weight-light">Etiquetas:</span>
-            <Tags :tags="tags" />
-          </div>
-          <!--
-          <Adsense
-            v-if="isAdsense"
-            type="inarticle"
-            :data-ad-slot="adsense.top"
-            class="mb-0 pb-0"
-          />
-          -->
           <Content :raw="raw" :cdn="cdn" />
-          <!--
-          <Adsense
-            v-if="isAdsense"
-            type="inarticle"
-            :data-ad-slot="adsense.bottom"
-            class="my-0 my-0"
-          />
-          -->
+
           <v-divider class="my-6" />
           <Contributing
             :authors="authors"
@@ -56,7 +37,11 @@
       </v-row>
     </v-container>
 
-    <section v-show="related.length > 1" class="py-12" :class="background">
+    <section
+      v-show="related.length > 1"
+      class="mt-12 py-12"
+      :class="background"
+    >
       <v-container>
         <v-row>
           <v-col cols="12">
@@ -179,8 +164,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.nuxt-content > .container {
-  margin-bottom: 50px;
-}
-</style>
+<style lang="scss" scoped></style>

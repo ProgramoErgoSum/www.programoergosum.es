@@ -22,14 +22,6 @@
           <v-col :key="blog.alias" cols="12">
             <Item :blog="blog" />
             <v-divider class="mt-6" />
-            <!-- [PES-es] /blog LIST -->
-            <!--
-            <Adsense-Infeed
-              v-if="key === 1"
-              class="mt-10"
-              data-ad-slot="6318738446"
-            />
-            -->
           </v-col>
         </template>
         <v-col cols="12" class="text-center">
@@ -49,12 +41,10 @@
 
 <script>
 import Item from '@/components/Pages/Blog/Item'
-// import AdsenseInfeed from '@/components/Adsense/Infeed'
 
 export default {
   components: {
     Item
-    // AdsenseInfeed
   },
   data() {
     return {

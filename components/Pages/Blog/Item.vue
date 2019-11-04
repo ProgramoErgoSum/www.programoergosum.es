@@ -12,10 +12,7 @@
           <div class="mb-6 body-1 font-weight-light">
             {{ blog.description }}
           </div>
-          <div>
-            <Posted :cdate="blog.date.cdate" :mdate="blog.date.mdate" />
-            <Tags :tags="blog.tags" class="ml-3" />
-          </div>
+          <Posted :cdate="blog.date.cdate" :mdate="blog.date.mdate" />
         </v-card-title>
       </v-col>
     </v-row>

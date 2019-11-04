@@ -21,21 +21,15 @@
         </v-col>
       </v-row>
     </v-container>
-
-    <section class="py-12" :class="background">
-      <Volunteers />
-    </section>
   </div>
 </template>
 
 <script>
 import Item from '@/components/Pages/Actividades/Item'
-import Volunteers from '@/components/Pages/Colabora/Volunteers'
 
 export default {
   components: {
-    Item,
-    Volunteers
+    Item
   },
   computed: {
     background() {

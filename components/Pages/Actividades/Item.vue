@@ -3,24 +3,24 @@
     <VImageLazy
       :src="absoluteUrlImage"
       :title="actividad.title"
-      :height="250"
+      :height="300"
     />
     <v-card-title primary-title>
       <h3 class="mb-4 title">{{ actividad.title }}</h3>
-      <div class="subtitle-1">{{ actividad.description }}</div>
+      <div class="mb-2 subtitle-1">{{ actividad.description }}</div>
     </v-card-title>
-    <v-divider class="mx-3 my-3"></v-divider>
+    <v-divider class="mx-3" />
     <v-card-text v-if="actividad.extra">
       <p>
-        <v-icon>mdi-map</v-icon>
+        <v-icon class="mr-2">mdi-map</v-icon>
         {{ actividad.extra.address }}
       </p>
       <p>
-        <v-icon>mdi-calendar</v-icon>
+        <v-icon class="mr-2">mdi-calendar</v-icon>
         {{ actividad.extra.calendar.day }}
       </p>
       <p>
-        <v-icon>mdi-clock</v-icon>
+        <v-icon class="mr-2">mdi-clock</v-icon>
         {{ actividad.extra.calendar.hour }}
       </p>
     </v-card-text>

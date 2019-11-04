@@ -32,7 +32,11 @@
       </v-row>
     </v-container>
 
-    <section v-show="related.length > 1" class="py-12" :class="background">
+    <section
+      v-show="related.length > 1"
+      class="mt-12 py-12"
+      :class="background"
+    >
       <v-container>
         <v-row>
           <v-col cols="12">
@@ -157,8 +161,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.nuxt-content > .container {
-  margin-bottom: 50px;
-}
-</style>
+<style lang="scss" scoped></style>

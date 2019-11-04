@@ -7,7 +7,7 @@
     />
     <v-card-title primary-title>
       <h3 class="mb-4 title">{{ formacion.title }}</h3>
-      <div class="subtitle-1">{{ formacion.description }}</div>
+      <div class="mb-2 subtitle-1">{{ formacion.description }}</div>
     </v-card-title>
   </v-card>
 </template>
