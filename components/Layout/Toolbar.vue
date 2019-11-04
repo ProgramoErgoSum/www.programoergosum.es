@@ -22,7 +22,7 @@
           tile
           nuxt
         >
-          <v-icon class="pr-1" size="18" color="grey">
+          <v-icon class="pr-2" size="20" color="grey">
             {{ item.icon }}
           </v-icon>
           {{ item.title }}

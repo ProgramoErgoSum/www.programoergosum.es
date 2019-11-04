@@ -6,7 +6,7 @@ const state = () => ({
   navigation: [
     {
       title: 'Cursos y tutoriales',
-      icon: 'mdi-file-document-outline',
+      icon: 'mdi-school-outline',
       to: '/tutoriales'
     },
     {
@@ -16,7 +16,7 @@ const state = () => ({
     },
     {
       title: 'Centros',
-      icon: 'mdi-school-outline',
+      icon: 'mdi-domain',
       class: '',
       to: '/centros'
     },
@@ -35,7 +35,7 @@ const state = () => ({
     },
     {
       title: 'Cursos y tutoriales',
-      icon: 'mdi-file-document-outline',
+      icon: 'mdi-school-outline',
       to: '/tutoriales'
     },
     {
@@ -45,7 +45,7 @@ const state = () => ({
     },
     {
       title: 'Centros',
-      icon: 'mdi-school-outline',
+      icon: 'mdi-domain',
       to: '/centros'
     },
     {
