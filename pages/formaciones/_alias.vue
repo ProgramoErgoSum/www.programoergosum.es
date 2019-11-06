@@ -8,7 +8,7 @@
     />
     <v-container fluid>
       <v-row>
-        <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
+        <v-col class="hidden-md-and-down" lg="2" xl="2">
           <div class="sticky-top">
             <Collaborators title="Centro de formación" />
             <!--

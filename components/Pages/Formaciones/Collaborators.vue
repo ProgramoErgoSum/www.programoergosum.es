@@ -1,5 +1,21 @@
 <template>
   <v-list shaped tile disabled color="transparent" class="pa-0">
+    <!--
+    <v-list-item-group>
+      <v-list-item>
+        <v-list-item-content>
+          <v-list-item-title>
+            <v-img
+              max-width="200px"
+              height="auto"
+              src="/logos/escuela-publica.jpg"
+              alt="Escuela pública"
+            />
+          </v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+    </v-list-item-group>
+    -->
     <v-list-item-group>
       <v-list-item disabled>
         <v-list-item-content>
