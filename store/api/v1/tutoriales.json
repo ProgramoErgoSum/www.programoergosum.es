@@ -4,10 +4,13 @@
     "title": "Iniciación a la programación con Scratch 2.0",
     "description": "Tutorial de iniciación a la programación para aprender a programar videojuegos con Scratch 2.0.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Introducción"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -19,10 +22,13 @@
     "title": "Mejoras en la nueva versión de Scratch 3.0",
     "description": "Repasamos las principales mejoras que encontrarás sobre la nueva versión de Scratch 3.0.",
     "image": "img/preview.jpg",
-    "tags": ["scratch"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": [],
+      "others": []
     },
     "date": {
       "cdate": "2019-01-15 17:53:47",
@@ -34,10 +40,13 @@
     "title": "Videojuego del laberinto programado con Scratch 2.0",
     "description": "Aprende a programar paso a paso con Scratch el famoso videojuego del laberinto con obstáculos.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Laberinto"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -49,10 +58,13 @@
     "title": "Videojuego de Pong programado con Scratch 2.0",
     "description": "Aprende a programar utilizando Scratch el videojuego de Pong en su versión para 2 jugadores.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Pong"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -64,10 +76,13 @@
     "title": "Videojuego de pájaros programado con Scratch 2.0",
     "description": "Aprende a programar clones con Scratch programando este sencillo videojuego de cazar pájaros.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Clones"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -80,10 +95,13 @@
     "description": "Aprende a programar un sencillo videojuego de fútbol utilizando el lenguaje por bloques de Scratch.",
     "image": "img/preview.jpg",
     "category": "scratch",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Fútbol"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -95,10 +113,13 @@
     "title": "Videojuego de Arkanoid programado con Scratch 2.0",
     "description": "Aprende a programar el video juego de Arkanoid a través de video tutoriales y buenas prácticas de programación.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Arkanoid"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -110,10 +131,13 @@
     "title": "Videojuego de Duck Hunt programado con Scratch 2.0",
     "description": "Aprende a programar con Scratch el juego de Duck Hunt explicado paso a paso a través de video tutoriales.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Duck Hunt"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -125,10 +149,13 @@
     "title": "Videojuego de Flappy Bird programado con Scratch 2.0",
     "description": "Aprende a programar con Scratch el mítico video juego de Flappy Bird ayudándote de video tutoriales.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Flappy Bird"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -140,10 +167,13 @@
     "title": "Videojuego de Space Invaders programado con Scratch 2.0",
     "description": "Aprende paso a paso como programar con Scratch el mítico videojuego de Space Invaders.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Space Invaders"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -155,10 +185,13 @@
     "title": "Videojuego de Frogger programado con Scratch 2.0",
     "description": "Aprende a programar el juego de la rana a través de la programación con Scratch.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Frogger"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -170,10 +203,13 @@
     "title": "Videojuego de Battle City programado con Scratch 2.0",
     "description": "Aprende paso a paso como programar con Scratch el videojuego de tanques Battle City.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Battle City"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -185,10 +221,13 @@
     "title": "Videojuego de Pac Man programado con Scratch 2.0",
     "description": "Aprende a programar el famoso videojuego del come cocos o Pac-Man con Scratch.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Pac-Man"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -200,10 +239,13 @@
     "title": "Videojuego de Berzerk programado con Scratch 2.0",
     "description": "Aprende paso a paso como programar con Scratch el videojuego de Berzerk de atari.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Berzerk"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -215,10 +257,13 @@
     "title": "Aprende las vocales con Scratch 2.0",
     "description": "Aprende a programar un videojuego educativo con Scratch para atrapar las vocales u otros objetos.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "educativo"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Infantil", "Primaria"],
+      "others": ["Educativo", "Vocales"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -230,10 +275,13 @@
     "title": "Pokemon Go con Scratch 2.0",
     "description": "Tutorial de realidad aumentada para aprender a programar con Scratch el videojuego de Pokemon.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "realidad-aumentada"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Realidad aumentada"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Videojuegos", "Pokemon"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -245,10 +293,13 @@
     "title": "Efecto nieve con Scratch 2.0",
     "description": "Tutorial de realidad aumentada para aprender a programar con Scratch el efecto de nieve.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "realidad-aumentada"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Realidad aumentada"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Nieve"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -260,10 +311,13 @@
     "title": "Efecto altavoz con Scratch 2.0",
     "description": "Realidad aumentada para aprender a programar con Scratch el efecto de detección de audio.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "realidad-aumentada"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Realidad aumentada"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Sonido"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -275,10 +329,13 @@
     "title": "Control de volumen con Scratch 2.0",
     "description": "Aplicación de realidad aumentada programada con Scratch para detectar el audio de una sala.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "realidad-aumentada"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Realidad aumentada"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Infantil", "Primaria", "Secundaria"],
+      "others": ["Audio"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -290,10 +347,13 @@
     "title": "Gráficas de audio con Scratch 2.0",
     "description": "Aplicación de realidad aumentada programada con Scratch para simular gráficas con el volumen del micrófono.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "scratch", "realidad-aumentada"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Realidad aumentada"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Gráfica"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -305,10 +365,13 @@
     "title": "Programación Orientada a Objetos con Scratch",
     "description": "Aprendiendo el paradigma de la programación orientada a objetos o POO, con Scratch 3.0.",
     "image": "img/preview.jpg",
-    "tags": ["scratch"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["Scratch"],
+      "level": ["Secundaria"],
+      "others": []
     },
     "date": {
       "cdate": "2018-01-28 10:42:24",
@@ -325,10 +388,13 @@
     "title": "Introducción a la robótica educativa con Bee-Bot",
     "description": "Aprende diferentes usos de la Bee-Bot para la inclusión de alumnos con necesidades educativas.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "beebot"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Bee-bot"],
+      "software": [],
+      "level": ["Infantil", "Primaria"],
+      "others": ["Introducción"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -340,10 +406,13 @@
     "title": "Introducción a la robótica educativa con Escornabot",
     "description": "Aprende diferentes usos del robot de suelo Escornabot en el aula de educación infantil y primaria.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "escornabot"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Escornabot"],
+      "software": [],
+      "level": ["Infantil", "Primaria"],
+      "others": ["Introducción"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -355,10 +424,13 @@
     "title": "Introducción a la robótica educativa con Makey-Makey",
     "description": "Aplicaciones educativas para introducir la placa Makey-Makey en el aula desde educación primaria.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "makey-makey"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Makey-Makey"],
+      "software": [],
+      "level": ["Infantil", "Primaria"],
+      "others": ["Introducción"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -370,10 +442,13 @@
     "title": "Notas musicales con Makey-Makey",
     "description": "Aplicaciones educativas para utilizar la placa Makey-Makey con diferentes actividades musicales.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "makey-makey"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Makey-Makey"],
+      "software": [],
+      "level": ["Infantil", "Primaria"],
+      "others": ["Música"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -385,10 +460,13 @@
     "title": "Conectando Makey-Makey con Scratch",
     "description": "Programación de videojuegos con Scratch conectados a las placas Makey-Makey.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "makey-makey", "scratch"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Makey-Makey"],
+      "software": ["Scratch"],
+      "level": ["Infantil", "Primaria"],
+      "others": ["Videojuegos"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -400,10 +478,13 @@
     "title": "Manualidades con Makey-Makey",
     "description": "Aplicaciones educativas con plastilina conductora utilizando Makey-Makey en el aula.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "makey-makey"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Makey-Makey"],
+      "software": [],
+      "level": ["Infantil", "Primaria"],
+      "others": ["Manualidades", "Plastilina conductora"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -415,10 +496,13 @@
     "title": "El cuerpo humano con Makey-Makey y Scratch",
     "description": "Videojuegos educativos para niños de infantil y primaria utilizando Makey Makey y Scratch.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "makey-makey", "scratch"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Makey-Makey"],
+      "software": ["Scratch"],
+      "level": ["Infantil", "Primaria"],
+      "others": ["Educativo"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -430,10 +514,13 @@
     "title": "Juego de operación con Makey-Makey y Scratch",
     "description": "Tutorial para recrear el juego de operación utilizando una placa de Makey Makey y Scratch.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "makey-makey", "scratch"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Makey-Makey"],
+      "software": ["Scratch"],
+      "level": ["Infantil", "Primaria"],
+      "others": ["Educativo"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -445,10 +532,13 @@
     "title": "Introducción a la robótica educativa con Echidna Shield",
     "description": "Programación de videojuegos utilizando la placa educativa Echidna Shield con mBlock.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "echidna-shield", "mblock", "snap4arduino"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Echidna Shield"],
+      "software": ["mBlock", "Snap 4 Arduino"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Introducción"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -460,10 +550,13 @@
     "title": "Introducción a la robótica educativa con mBot",
     "description": "Programación del robot mBot para introducir la robótica en el aula.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "mbot", "mblock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Robot mBot"],
+      "software": ["mBlock"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Introducción"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -475,10 +568,13 @@
     "title": "Led RGB del robot mBot con mBlock",
     "description": "Programación de los Led RGB en el robot mBot utilizando mblock.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "mbot", "mblock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Robot mBot"],
+      "software": ["mBlock"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["LED RGB"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -490,10 +586,13 @@
     "title": "Sensor ultrasonidos del robot mBot con mBlock",
     "description": "Programación del sensor de ultrasonidos en el robot mBot utilizando mblock.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "mbot", "mblock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Robot mBot"],
+      "software": ["mBlock"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Ultrasonidos"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -505,10 +604,13 @@
     "title": "Sensor sigue-líneas del robot mBot con mBlock",
     "description": "Programación del sensor sigue-líneas en el robot mBot utilizando Scratch y mblock.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "mbot", "mblock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Robot mBot"],
+      "software": ["mBlock"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Sigue líneas"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -520,10 +622,13 @@
     "title": "Mando IR del robot mBot con mBlock",
     "description": "Programación del mando a distancia IR en el robot mBot utilizando mblock.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "mbot", "mblock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Robot mBot"],
+      "software": ["mBlock"],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Mando IR"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -535,10 +640,13 @@
     "title": "Videojuego de tocado con mBlock y Arduino",
     "description": "Programación de un videojuego utilizando Arduino y el lenguaje de programación por bloques de mBlock.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "arduino", "mblock", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Arduino"],
+      "software": ["mBlock"],
+      "level": ["Secundaria"],
+      "others": ["Videojuegos"]
     },
     "date": {
       "cdate": "2018-02-11 13:42:34",
@@ -550,10 +658,13 @@
     "title": "Videojuego de Arkanoid con mBlock y Arduino",
     "description": "Programación del videojuego de Arkanoid utilizando Arduino y el lenguaje de programación por bloques de mBlock.",
     "image": "img/preview.jpg",
-    "tags": ["robotica-educativa", "arduino", "mblock", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Robótica educativa"],
+      "hardware": ["Arduino"],
+      "software": ["mBlock"],
+      "level": ["Secundaria"],
+      "others": ["Videojuegos"]
     },
     "date": {
       "cdate": "2018-02-11 13:42:34",
@@ -570,10 +681,13 @@
     "title": "Primeros pasos con una placa de Arduino",
     "description": "Tutorial de iniciación a la programación de placas con Arduino.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "s4a", "snap", "mBlock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Arduino"],
+      "software": ["Arduino IDE", "mBlock", "Scratch 4 Arduino", "Snap 4 Arduino"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Introducción"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -585,10 +699,13 @@
     "title": "Salidas digitales con Arduino",
     "description": "Programación y electrónica de sensores básicos utilizando salidas digitales con Arduino.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "mBlock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Arduino"],
+      "software": ["Arduino IDE", "mBlock"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Salidas", "Digitales"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -600,10 +717,13 @@
     "title": "Salidas analógicas con Arduino",
     "description": "Programación y electrónica de sensores básicos utilizando salidas analógicas PWM con Arduino.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "mBlock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Arduino"],
+      "software": ["Arduino IDE", "mBlock"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Salidas", "Analógicas"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -615,10 +735,13 @@
     "title": "Entradas digitales con Arduino",
     "description": "Programación y electrónica de sensores básicos utilizando salidas analógicas PWM con Arduino.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "mBlock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Arduino"],
+      "software": ["Arduino IDE", "mBlock"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Entradas", "Digitales"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -630,10 +753,13 @@
     "title": "Entradas analógicas con Arduino",
     "description": "Programación y electrónica de sensores básicos utilizando entradas analógicas con Arduino.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "mBlock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Arduino"],
+      "software": ["Arduino IDE", "mBlock"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Entradas", "Analógicas"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -645,10 +771,13 @@
     "title": "Programación de un semáforo con Arduino",
     "description": "Programación de un semáforo con Arduino utilizando varios lenguajes de programación.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "s4a"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Arduino"],
+      "software": ["Arduino IDE", "Scratch 4 Arduino"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Semáforo"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -660,10 +789,13 @@
     "title": "Efecto de luces del coche fantástico con Arduino",
     "description": "Programación del efecto de las luces del coche fantástico programado con Arduino.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "s4a"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Arduino"],
+      "software": ["Arduino IDE", "Scratch 4 Arduino"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Coche"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -675,10 +807,13 @@
     "title": "Cubo de LEDs ( 2 x 2 x 2 ) con Arduino",
     "description": "Construción de un cubo de LEDs ( 2 x 2 x 2 ) con forma de ruleta utilizando transistores.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "mblock"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Arduino"],
+      "software": ["Arduino IDE", "mBlock"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Cubo LEDs"]
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -693,10 +828,13 @@
     "title": "Introducción a la placa de desarrollo NodeMCU ESP8266",
     "description": "Introducción a la placa de prototipado NodeMCU con ESP8266.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "nodemcu", "esp8266"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["ESP8266"],
+      "software": [],
+      "level": ["Bachillerato"],
+      "others": ["Introducción"]
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -708,10 +846,13 @@
     "title": "Configuración de ESP8266 con el IDE de Arduino",
     "description": "Configura el IDE de Arduino para programar en la ESP8266.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "nodemcu", "esp8266"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["ESP8266"],
+      "software": ["Arduino IDE"],
+      "level": ["Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -723,10 +864,13 @@
     "title": "Conectar a la WiFi con ESP8266",
     "description": "Buscando señales de WiFi con la placa NodeMCU ESP8266.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "nodemcu", "esp8266"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["ESP8266"],
+      "software": ["Arduino IDE"],
+      "level": ["Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -738,10 +882,13 @@
     "title": "Servidor Web con ESP8266",
     "description": "Crea una servidor web para controlar los pines GPIO de la ESP8266 desde el móvil.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "arduino", "nodemcu", "esp8266"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["ESP8266"],
+      "software": ["Arduino IDE"],
+      "level": ["Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -758,10 +905,13 @@
     "title": "Introducción a Raspberry Pi",
     "description": "Introducción a Raspberry Pi e instalación del sistema operativo Raspbian.",
     "image": "img/preview.jpg",
-    "tags": ["raspberry-pi"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -773,10 +923,13 @@
     "title": "Instalar Raspbian en Raspberry Pi con NOOBs",
     "description": "Instalación del sistema operativo Raspbian a través del asistente NOOBs.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "raspbian"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -788,10 +941,13 @@
     "title": "Instalar imagen de Raspbian en Raspberry Pi",
     "description": "Instalación del sistema operativo Raspbian a través de una imagen con Etcher.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "raspbian"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -803,10 +959,13 @@
     "title": "Actualizar el sistema operativo Raspbian",
     "description": "Actualización del sistema operativo Raspbian a través de la terminal o consola.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "raspbian"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -818,10 +977,13 @@
     "title": "Introducción al sistema operativo Raspbian",
     "description": "Primeros pasos y configuración del sistema operativo Raspbian para Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "raspbian"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -833,10 +995,13 @@
     "title": "Clonar tarjeta SD Raspbian en Raspberry Pi con piclone",
     "description": "Clonar tarjetas con Raspbian utilizando el programa SD Card Copier (piclone).",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "raspbian"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -848,10 +1013,13 @@
     "title": "Introducción a GPIO con Scratch en Raspberry Pi",
     "description": "Programa con Scratch en los pines GPIO de tu Raspberry Pi para activar entradas y salidas.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "raspberry-pi", "scratch", "gpio"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Scratch"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "GPIO"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -863,10 +1031,13 @@
     "title": "Aprender a programar con Scratch en Raspberry Pi",
     "description": "Disponible la nueva versión offline de Scratch 3.0 para Raspbian Buster en Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "raspberry-pi", "scratch"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Scratch"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-10-26 11:31:24",
@@ -878,10 +1049,13 @@
     "title": "Introducción a Python en Raspberry Pi",
     "description": "Tutorial de iniciación a la programación con el  lenguaje Python a través de Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "raspberry-pi", "python"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -893,10 +1067,13 @@
     "title": "Introducción a Python Turtle Graphics en Raspberry Pi",
     "description": "Tutorial de Programación Orientada a Objetos en Python a través de Turtle Graphics en Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "raspberry-pi", "python"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -908,10 +1085,13 @@
     "title": "Introducción a PyGame en Raspberry Pi",
     "description": "Tutorial de programación de videojuegos en Python utilizando el módulo PyGame.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "raspberry-pi", "python", "videojuegos"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -923,10 +1103,13 @@
     "title": "Introducción a Minecraft en Raspberry Pi",
     "description": "Aprende a programar tus propios mundos en Minecraft Pi  con el lenguaje de programación Python.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "raspberry-pi", "python", "videojuegos", "minecraft"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "Minecraft"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -938,10 +1121,13 @@
     "title": "Introducción a la terminal en Raspberry Pi",
     "description": "Tutorial de introducción a los comandos de linux a través de Raspbian para Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "raspbian"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -953,10 +1139,13 @@
     "title": "Máquina virtual de Raspberry Pi con Pixel",
     "description": "Crea una máquina virtual con el sistema operativo de Pixel para emular una Raspberry Pi en tu PC.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -968,10 +1157,13 @@
     "title": "Consola arcade basada en Raspberry Pi con RetroPie",
     "description": "Crea una consola arcade basada en Raspberry Pi con el sistema operativo RetroPie.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "retropie"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Ratropie"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -983,10 +1175,13 @@
     "title": "Direcciones IP en Raspberry Pi",
     "description": "Establecer una dirección IP Fija a nuestra Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "redes"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "Redes"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -998,10 +1193,13 @@
     "title": "Escritorio remoto a través de VNC",
     "description": "Accede a tu Raspberry Pi desde otro ordenador a través de un escritorio remoto con VNC.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "redes"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "Redes"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1013,10 +1211,13 @@
     "title": "Acceso remoto a través de SSH",
     "description": "Accede a tu Raspberry Pi desde otro ordenador a través del protocolo SSH.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "redes"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "Redes"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1028,10 +1229,13 @@
     "title": "Punto de acceso WiFi con Raspberry Pi",
     "description": "Crea un punto de acceso con RaspAp Webgui para tu raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "redes"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "Redes"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1043,10 +1247,13 @@
     "title": "Red Privada Virtual con OpenVPN",
     "description": "Configura una red privada virtual con OpenVPN.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "redes"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "Redes"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1058,10 +1265,13 @@
     "title": "Configura una webcam en Raspberry Pi con LUVCview",
     "description": "Visualiza y captura el contenido de una webcam con LUVCview en tu Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "webcam"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "Webcam"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1073,10 +1283,13 @@
     "title": "Imágenes automáticas con fswebcam en Raspberry Pi",
     "description": "Tomar imágenes de forma automática con una webcam en Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "webcam"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "Webcam"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1088,10 +1301,13 @@
     "title": "Detecta movimientos con una webcam y Motion en Raspberry Pi",
     "description": "Con Motion podrás detectar movimientos utilizando una webcam en tu Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "webcam"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "Webcam"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1104,10 +1320,13 @@
     "description": "Programa tu Micro:bit en Raspberry Pi con MicroPython.",
     "image": "img/preview.jpg",
     "category": "raspberry-pi",
-    "tags": ["raspberry-pi", "microbit", "micropython"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": ["Raspberry Pi", "Micro:bit"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1119,10 +1338,13 @@
     "title": "Primeros pasos con Pines GPIO en Raspberry Pi",
     "description": "Programación en Python de los pines GPIO en Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["electronica", "raspberry-pi", "gpio"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "GPIO"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1135,10 +1357,13 @@
     "description": "Programación en Python para crear un servidor web en Python con Flask",
     "image": "img/preview.jpg",
     "category": "raspberry-pi",
-    "tags": ["programacion", "raspberry-pi", "python"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1150,10 +1375,13 @@
     "title": "Control de GPIO con Flask en Python",
     "description": "Controlar los pines GPIO a través de un servidor web en Python.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "raspberry-pi", "python", "gpio"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian", "GPIO"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1165,10 +1393,13 @@
     "title": "Arranque automático en Raspbian",
     "description": "Ejecutar programas de forma automática al arrancar Raspbian.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "raspberry-pi", "raspbian"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Avanzado"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": ["Raspberry Pi"],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1180,10 +1411,13 @@
     "title": "Instalar Arduino IDE en Raspberry Pi",
     "description": "Instalación de Arduino IDE en Raspberry Pi con Raspbian.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "raspberry-pi", "arduino"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Raspberry Pi", "Arduino"],
+      "software": ["Arduino IDE"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1195,10 +1429,13 @@
     "title": "Conectando Raspberry Pi y Arduino con PySerial",
     "description": "Enviando datos desde Raspberry Pi a Arduino a través del Serial.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "electronica", "raspberry-pi", "python", "arduino"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Python", "Arduino IDE"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1210,10 +1447,13 @@
     "title": "Introducción a Node-RED en Raspberry Pi",
     "description": "Programando con Node-RED en Raspberry Pi.",
     "image": "img/preview.jpg",
-    "tags": ["raspberry-pi", "node-red"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Node-RED"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1225,10 +1465,13 @@
     "title": "Pines GPIO a través de Node-RED",
     "description": "Programando pines GPIO a través de Node-RED en Raspberry Pi..",
     "image": "img/preview.jpg",
-    "tags": ["raspberry-pi", "node-red", "gpio"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Raspberry Pi"],
+      "software": ["Node-RED"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": ["Raspbian"]
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1245,10 +1488,13 @@
     "title": "Matriz de LEDs en Microbit con Python",
     "description": "Crear imágenes en la matriz de LED de Micro:bit con MicroPython.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "microbit", "python"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Micro:bit"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -1260,10 +1506,13 @@
     "title": "Botones en Microbit con Python",
     "description": "Utiliza los botones de Micro:bit con MicroPython.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "microbit", "python"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Micro:bit"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -1275,10 +1524,13 @@
     "title": "Pines GPIO en Microbit con Python",
     "description": "Utiliza los pines de entrada y salida de Micro:bit con MicroPython.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "microbit", "python"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Micro:bit"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -1290,10 +1542,13 @@
     "title": "Acelerómetro en Microbit con Python",
     "description": "Utiliza el acelerómetro de Micro:bit con MicroPython.",
     "image": "img/preview.jpg",
-    "tags": ["programacion", "microbit", "python"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación", "Electrónica"],
+      "hardware": ["Micro:bit"],
+      "software": ["Python"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -1311,10 +1566,13 @@
     "title": "Introducción a GitHub",
     "description": "Control de versiones GIT en la plataforma GitHub.",
     "image": "img/preview.jpg",
-    "tags": ["informatica", "github"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": [],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1333,10 +1591,13 @@
     "title": "Introducción a la impresora 3D Prusa i3 BQ Hephestos",
     "description": "Configuración y mantenimiento de una impresora 3D como la Prusa i3 de BQ Hephestos.",
     "image": "img/preview.jpg",
-    "tags": ["impresion-3d"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Impresión 3D"],
+      "hardware": [],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -1348,10 +1609,13 @@
     "title": "Introducción al diseño 3D con TinkerCAD",
     "description": "Aprende a utilizar la herramienta TinkerCAD para crear diferentes diseños en 3D.",
     "image": "img/preview.jpg",
-    "tags": ["impresion-3d", "tinkercad"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Impresión 3D"],
+      "hardware": [],
+      "software": ["TinkerCAD"],
+      "level": ["Primaria", "Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -1363,10 +1627,13 @@
     "title": "Llavero personalizado en 3D con TinkerCAD",
     "description": "Aprende a utilizar la herramienta TinkerCAD y créate un llavero en 3D.",
     "image": "img/preview.jpg",
-    "tags": ["impresion-3d", "tinkercad"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Impresión 3D"],
+      "hardware": [],
+      "software": ["TinkerCAD"],
+      "level": ["Primaria", "Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -1383,10 +1650,13 @@
     "title": "Introducción a la programación con AppInventor",
     "description": "Aprende a programar aplicaciones para android sin conocimientos previos de programación.",
     "image": "img/preview.jpg",
-    "tags": ["appinventor"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["App-Inventor"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1398,10 +1668,13 @@
     "title": "Programar Eventos y Condiciones con AppInventor",
     "description": "Aprende a programar eventos y condiciones con AppInventor realizando esta sencilla aplicación de lógica.",
     "image": "img/preview.jpg",
-    "tags": ["appinventor"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["App-Inventor"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1413,10 +1686,13 @@
     "title": "Programación de un cronómetro en AppInventor",
     "description": "Aprende a programar tu propio reloj con cronómetro y tu aplicación con AppInventor.",
     "image": "img/preview.jpg",
-    "tags": ["appinventor"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["App-Inventor"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1428,10 +1704,13 @@
     "title": "Procedimientos y Funciones con AppInventor",
     "description": "Aprende a utilizar los procedimientos en AppInventor programando un sencillo buscador.",
     "image": "img/preview.jpg",
-    "tags": ["appinventor"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["App-Inventor"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1443,10 +1722,13 @@
     "title": "Videojuego de persigue con AppInventor",
     "description": "Programa el videojuego de persigue con AppInventor para dispositivos móviles de Android.",
     "image": "img/preview.jpg",
-    "tags": ["appinventor", "videojuego"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Iniciación"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["App-Inventor"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1458,10 +1740,13 @@
     "title": "Listas y Funciones con AppInventor",
     "description": "Aprende a utilizar las listas o colecciones de elementos y las funciones en AppInventor.",
     "image": "img/preview.jpg",
-    "tags": ["appinventor"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["App-Inventor"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1473,10 +1758,13 @@
     "title": "Algoritmo de ordenación con AppInventor",
     "description": "Aprende a utilizar las listas o colecciones de elementos y las funciones en AppInventor.",
     "image": "img/preview.jpg",
-    "tags": ["appinventor"],
     "authors": ["migueabellan"],
-    "extra": {
-      "level": "Medio"
+    "tags": {
+      "technology": ["Programación"],
+      "hardware": [],
+      "software": ["App-Inventor"],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",

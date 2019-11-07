@@ -23,13 +23,18 @@ const getters = {
   adsense: state => state.adsense,
   related: state => item => {
     const tutoriales = []
-    item.tags.map(tag => {
+    const tags = item.tags.hardware.concat(item.tags.software)
+    tags.map(tag => {
       state.list.map(el => {
-        if (el.tags.includes(tag) && el.title !== item.title)
-          tutoriales.push(el)
+        if (el.title !== item.title) {
+          if (el.tags.hardware.includes(tag) || el.tags.software.includes(tag))
+            tutoriales.push(el)
+        }
       })
     })
-    return tutoriales.slice(0, 3)
+    const ini = Math.floor(Math.random() * tutoriales.length) - 3
+    const end = ini + 3
+    return tutoriales.slice(ini, end)
   }
 }
 

@@ -41,7 +41,7 @@
                 v-if="filter.length > pagItems"
                 depressed
                 small
-                @click="pagItems += 12"
+                @click="pagItems += 24"
               >
                 Mostrar más
               </v-btn>
@@ -65,7 +65,7 @@ export default {
   data() {
     return {
       search: '',
-      pagItems: 12
+      pagItems: 24
       // tagsSelected: []
     }
   },
@@ -80,13 +80,11 @@ export default {
         )
       }
       */
-      if (this.search !== '' && this.search.length > 2) {
-        const search = this.search.toLowerCase()
+      if (this.search !== '' && this.search.length > 3) {
         tutoriales = tutoriales.filter(el => {
-          const title = el.title.toLowerCase()
-          const description = el.description.toLowerCase()
           return (
-            title.search(search) !== -1 || description.search(search) !== -1
+            el.title.search(new RegExp(this.search, 'i')) !== -1 ||
+            el.description.search(new RegExp(this.search, 'i')) !== -1
           )
         })
       }

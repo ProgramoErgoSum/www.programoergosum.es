@@ -42,7 +42,7 @@
                 v-if="filter.length > pagItems"
                 depressed
                 small
-                @click="pagItems += 12"
+                @click="pagItems += 24"
               >
                 Mostrar más
               </v-btn>
@@ -66,28 +66,19 @@ export default {
   data() {
     return {
       search: '',
-      pagItems: 12,
-      tagsSelected: []
+      pagItems: 24,
+      tutorialesByTag: []
     }
   },
   computed: {
     filter() {
-      let tutoriales = this.tutoriales
+      let tutoriales = this.tutorialesByTag
 
-      if (this.tagsSelected.length > 0) {
-        tutoriales = tutoriales.filter(
-          el =>
-            this.tagsSelected.filter(tag => el.tags.includes(tag)).length > 0
-        )
-      }
-
-      if (this.search !== '' && this.search.length > 2) {
-        const search = this.search.toLowerCase()
+      if (this.search !== '' && this.search.length > 3) {
         tutoriales = tutoriales.filter(el => {
-          const title = el.title.toLowerCase()
-          const description = el.description.toLowerCase()
           return (
-            title.search(search) !== -1 || description.search(search) !== -1
+            el.title.search(new RegExp(this.search, 'i')) !== -1 ||
+            el.description.search(new RegExp(this.search, 'i')) !== -1
           )
         })
       }
@@ -122,7 +113,18 @@ export default {
     }
   },
   created() {
-    this.tagsSelected.push(this.tag.alias)
+    const tagName = this.$store.state.tutoriales.tags.find(
+      el => el.alias === this.tag.alias
+    ).name
+
+    this.tutorialesByTag = this.tutoriales.filter(el => {
+      const tags = el.tags.technology
+        .concat(el.tags.hardware)
+        .concat(el.tags.software)
+        .concat(el.tags.level)
+        .concat(el.tags.others)
+      if (tags.includes(tagName)) return el
+    })
   },
   head() {
     const title = this.tag.title
