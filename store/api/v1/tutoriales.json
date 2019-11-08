@@ -8,7 +8,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Introducción"]
     },
@@ -26,7 +26,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 3"],
       "level": [],
       "others": []
     },
@@ -44,7 +44,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Laberinto"]
     },
@@ -62,7 +62,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Pong"]
     },
@@ -80,7 +80,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Clones"]
     },
@@ -99,7 +99,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Fútbol"]
     },
@@ -117,7 +117,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Arkanoid"]
     },
@@ -135,7 +135,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Duck Hunt"]
     },
@@ -153,7 +153,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Flappy Bird"]
     },
@@ -171,7 +171,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Space Invaders"]
     },
@@ -189,7 +189,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Frogger"]
     },
@@ -207,7 +207,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Battle City"]
     },
@@ -225,7 +225,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Pac-Man"]
     },
@@ -243,7 +243,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Berzerk"]
     },
@@ -261,7 +261,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Infantil", "Primaria"],
       "others": ["Educativo", "Vocales"]
     },
@@ -279,7 +279,7 @@
     "tags": {
       "technology": ["Programación", "Realidad aumentada"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Pokemon"]
     },
@@ -297,7 +297,7 @@
     "tags": {
       "technology": ["Programación", "Realidad aumentada"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Nieve"]
     },
@@ -315,7 +315,7 @@
     "tags": {
       "technology": ["Programación", "Realidad aumentada"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Sonido"]
     },
@@ -333,7 +333,7 @@
     "tags": {
       "technology": ["Programación", "Realidad aumentada"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Infantil", "Primaria", "Secundaria"],
       "others": ["Audio"]
     },
@@ -351,7 +351,7 @@
     "tags": {
       "technology": ["Programación", "Realidad aumentada"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Gráfica"]
     },
@@ -369,7 +369,7 @@
     "tags": {
       "technology": ["Programación"],
       "hardware": [],
-      "software": ["Scratch"],
+      "software": ["Scratch", "Scratch 3"],
       "level": ["Secundaria"],
       "others": []
     },
@@ -554,13 +554,13 @@
     "tags": {
       "technology": ["Robótica educativa"],
       "hardware": ["Robot mBot"],
-      "software": ["mBlock"],
+      "software": ["mBlock", "mblock 3", "mblock 5"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Introducción"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
-      "mdate": "2019-10-27 14:05:12"
+      "mdate": "2019-11-08 14:05:12"
     }
   },
   {
@@ -572,13 +572,13 @@
     "tags": {
       "technology": ["Robótica educativa"],
       "hardware": ["Robot mBot"],
-      "software": ["mBlock"],
+      "software": ["mBlock", "mblock 3", "mblock 5"],
       "level": ["Primaria", "Secundaria"],
       "others": ["LED RGB"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
-      "mdate": "2019-11-04 13:05:12"
+      "mdate": "2019-11-08 13:05:12"
     }
   },
   {
