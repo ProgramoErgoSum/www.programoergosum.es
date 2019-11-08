@@ -1,6 +1,6 @@
 [
   {
-    "category": "learning-disabled",
+    "category": "technology",
     "alias": "informatica",
     "name": "Informática",
     "title": "Tutoriales de informática",
@@ -10,7 +10,7 @@
     "visible": true
   },
   {
-    "category": "learning-disabled",
+    "category": "technology",
     "alias": "programacion",
     "name": "Programación",
     "title": "Tutoriales de programación",
@@ -20,7 +20,7 @@
     "visible": true
   },
   {
-    "category": "learning-disabled",
+    "category": "technology",
     "alias": "electronica",
     "name": "Electrónica",
     "title": "Tutoriales de electrónica",

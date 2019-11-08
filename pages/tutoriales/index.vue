@@ -19,6 +19,21 @@
                 validate-on-blur
               />
             </v-card>
+            <!--
+            <template
+              v-for="tag in tags.filter(el => el.category === 'technology')"
+            >
+              <v-checkbox
+                :key="tag.alias"
+                v-model="tagsSelected"
+                :label="tag.name"
+                :value="tag.name"
+                :disabled="!tag.visible"
+                color="primary"
+                hide-details
+              />
+            </template>
+            -->
             <categories :tags="tags" />
           </div>
         </v-col>
@@ -74,10 +89,15 @@ export default {
       let tutoriales = this.tutoriales
       /*
       if (this.tagsSelected.length > 0) {
-        tutoriales = tutoriales.filter(
-          el =>
-            this.tagsSelected.filter(tag => el.tags.includes(tag)).length > 0
-        )
+        tutoriales = tutoriales.filter(el => {
+          const tags = el.tags.technology
+            .concat(el.tags.hardware)
+            .concat(el.tags.software)
+            .concat(el.tags.level)
+            .concat(el.tags.others)
+          if (this.tagsSelected.filter(tag => tags.includes(tag)).length > 0)
+            return el
+        })
       }
       */
       if (this.search !== '' && this.search.length > 3) {
