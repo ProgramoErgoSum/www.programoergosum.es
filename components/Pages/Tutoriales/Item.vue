@@ -5,21 +5,19 @@
       <h3 class="mb-4 font-weight-medium body-1">{{ tutorial.title }}</h3>
       <div class="mb-2 body-2">{{ tutorial.description }}</div>
       <div class="my-4">
-        <template v-for="tag in tags">
-          <Tag :key="tag" :name="tag" />
-        </template>
+        <Tags :tags="tags" />
       </div>
     </v-card-title>
   </v-card>
 </template>
 
 <script>
-import Tag from '@/components/Pages/Tutoriales/Tag'
+import Tags from '@/components/Pages/Tutoriales/Tags'
 
 export default {
   name: 'Item',
   components: {
-    Tag
+    Tags
   },
   props: {
     tutorial: {

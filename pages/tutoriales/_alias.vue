@@ -16,9 +16,7 @@
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
           <div class="mb-12">
             <span class="body-2 font-weight-light">Etiquetas:</span>
-            <template v-for="tag in tags">
-              <Tag :key="tag" :name="tag" />
-            </template>
+            <Tags :tags="tags" />
           </div>
           <!--
           <Adsense
@@ -82,14 +80,14 @@ import { mapGetters } from 'vuex'
 
 import axios from 'axios'
 
-import Tag from '@/components/Pages/Tutoriales/Tag'
+import Tags from '@/components/Pages/Tutoriales/Tags'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 import ItemCol from '@/components/Pages/Tutoriales/ItemCol'
 
 export default {
   components: {
-    Tag,
+    Tags,
     Content,
     Toc,
     ItemCol
