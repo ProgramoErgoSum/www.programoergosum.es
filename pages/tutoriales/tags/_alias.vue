@@ -9,18 +9,16 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
-          <div class="sticky-top">
-            <v-card flat color="transparent" class="pa-0 py-2">
-              <v-text-field
-                v-model="search"
-                label="Buscar"
-                outlined
-                :messages="`${filter.length} tutoriales`"
-                append-icon="mdi-magnify"
-                validate-on-blur
-              />
-            </v-card>
-            <categories :tags="tags" />
+          <div class="sticky-top-disabled">
+            <v-text-field
+              v-model="search"
+              label="Buscar"
+              outlined
+              :messages="`${filter.length} tutoriales`"
+              append-icon="mdi-magnify"
+              validate-on-blur
+            />
+            <categories class="hidden-md-and-down" :tags="tags" />
           </div>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="12" lg="10" xl="10">
@@ -66,7 +64,7 @@ export default {
   data() {
     return {
       search: '',
-      pagItems: 24,
+      pagItems: 12,
       tutorialesByTag: []
     }
   },

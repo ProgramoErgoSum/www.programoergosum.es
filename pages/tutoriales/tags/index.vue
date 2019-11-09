@@ -8,18 +8,16 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
-          <div class="sticky-top">
-            <v-card flat color="transparent" class="pa-0 py-2">
-              <v-text-field
-                v-model="search"
-                label="Buscar"
-                outlined
-                :messages="`${filter.length} tutoriales`"
-                append-icon="mdi-magnify"
-                validate-on-blur
-              />
-            </v-card>
-            <categories :tags="tags" />
+          <div class="sticky-top-disabled">
+            <v-text-field
+              v-model="search"
+              label="Buscar"
+              outlined
+              :messages="`${filter.length} tutoriales`"
+              append-icon="mdi-magnify"
+              validate-on-blur
+            />
+            <categories class="hidden-md-and-down" :tags="tags" />
           </div>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="12" lg="10" xl="10">
@@ -65,21 +63,21 @@ export default {
   data() {
     return {
       search: '',
-      pagItems: 24
-      // tagsSelected: []
+      pagItems: 12,
+      tagsSelected: []
     }
   },
   computed: {
     filter() {
       let tutoriales = this.tutoriales
-      /*
+
       if (this.tagsSelected.length > 0) {
         tutoriales = tutoriales.filter(
           el =>
             this.tagsSelected.filter(tag => el.tags.includes(tag)).length > 0
         )
       }
-      */
+
       if (this.search !== '' && this.search.length > 3) {
         tutoriales = tutoriales.filter(el => {
           return (
