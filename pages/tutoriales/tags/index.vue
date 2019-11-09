@@ -30,7 +30,7 @@
               md="4"
               lg="4"
               xl="3"
-              class="pa-2"
+              class="pa-0 px-1 pb-2"
             >
               <Item :tutorial="tutorial" />
             </v-col>
