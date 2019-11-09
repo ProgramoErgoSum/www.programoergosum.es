@@ -590,7 +590,7 @@
     "tags": {
       "technology": ["Robótica educativa"],
       "hardware": ["Robot mBot"],
-      "software": ["mBlock"],
+      "software": ["mBlock", "mblock 3", "mblock 5"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Ultrasonidos"]
     },
@@ -608,7 +608,7 @@
     "tags": {
       "technology": ["Robótica educativa"],
       "hardware": ["Robot mBot"],
-      "software": ["mBlock"],
+      "software": ["mBlock", "mblock 3", "mblock 5"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Sigue líneas"]
     },
@@ -626,7 +626,7 @@
     "tags": {
       "technology": ["Robótica educativa"],
       "hardware": ["Robot mBot"],
-      "software": ["mBlock"],
+      "software": ["mBlock", "mblock 3", "mblock 5"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Mando IR"]
     },
@@ -635,6 +635,7 @@
       "mdate": "2019-10-27 14:05:12"
     }
   },
+
   {
     "alias": "videojuego-de-tocado-con-mblock-y-arduino",
     "title": "Videojuego de tocado con mBlock y Arduino",
