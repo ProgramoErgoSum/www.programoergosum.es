@@ -1,9 +1,9 @@
 <template>
   <v-card flat color="transparent">
-    <v-card-title>
+    <v-card-title class="px-1">
       <span class="subtitle-1 font-weight-light">Tecnología</span>
     </v-card-title>
-    <v-card-text class="pa-0 px-2">
+    <v-card-text class="px-1">
       <v-list shaped tile color="transparent" class="pa-0">
         <v-list-item-group color="primary">
           <template
@@ -31,10 +31,10 @@
 
     <v-divider class="my-1" />
 
-    <v-card-title>
+    <v-card-title class="px-1">
       <span class="subtitle-1 font-weight-light">Programación</span>
     </v-card-title>
-    <v-card-text class="pa-0 px-2">
+    <v-card-text class="px-1">
       <v-list shaped tile color="transparent" class="pa-0">
         <v-list-item-group color="primary">
           <template
@@ -62,10 +62,10 @@
 
     <v-divider class="my-1" />
 
-    <v-card-title>
+    <v-card-title class="px-1">
       <span class="subtitle-1 font-weight-light">Robótica</span>
     </v-card-title>
-    <v-card-text class="pa-0 px-2">
+    <v-card-text class="px-1">
       <v-list shaped tile color="transparent" class="pa-0">
         <v-list-item-group color="primary">
           <template
