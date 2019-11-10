@@ -1,0 +1,15 @@
+[
+  {
+    "name": "CEIP Atenea",
+    "address": {
+      "city": "Arroyo de la Encomienda",
+      "province": "Valladolid"
+    },
+    "image": "https://pbs.twimg.com/profile_images/910775133115166720/8ojtIVpD_400x400.jpg",
+    "coordinates": ["41.6173809","-4.7784329"],
+    "social": {
+      "url": "http://ceipatenea.centros.educa.jcyl.es/sitio/index.cgi",
+      "twitter": "https://twitter.com/CEIPATENEA"
+    }
+  }
+]

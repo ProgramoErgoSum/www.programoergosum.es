@@ -1,0 +1,28 @@
+[
+  {
+    "name": "CEIP León Felipe",
+    "address": {
+      "city": "San Sebastián de los Reyes",
+      "province": "Madrid"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1084010412830613504/8oNylbkl_400x400.jpg",
+    "coordinates": ["40.5578145","-3.6323554"],
+    "social": {
+      "url": "https://www.educa2.madrid.org/web/centro.cp.leonfelipe.sansebastian",
+      "twitter": "https://twitter.com/leonfelipecole"
+    }
+  },
+  {
+    "name": "IES Isabel Católica",
+    "address": {
+      "city": "Madrid",
+      "province": "Madrid"
+    },
+    "image": "https://pbs.twimg.com/profile_images/560511188916645888/CYsPGE7H_400x400.png",
+    "coordinates": ["40.4084909","-3.6877525"],
+    "social": {
+      "url": "https://www.iesisabellacatolica.es/",
+      "twitter": "https://twitter.com/IES_Isabella"
+    }
+  }
+]

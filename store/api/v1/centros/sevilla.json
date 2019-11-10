@@ -1,5 +1,31 @@
 [
   {
+    "name": "CEIP Juan de Mairena",
+    "address": {
+      "city": "sevilla",
+      "province": "Sevilla"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1209614673/LOGO_SOLO_baja_calidad_400x400.jpg",
+    "coordinates": ["37.4128117","-5.9688166"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/cpjuandemairena"
+    }
+  },
+  {
+    "name": "CEIP El Palmarillo",
+    "address": {
+      "city": "Dos Hermanas",
+      "province": "Sevilla"
+    },
+    "image": "https://pbs.twimg.com/profile_images/571222844094480384/Q6t3DgjA_400x400.jpeg",
+    "coordinates": ["37.2821845","-5.934245"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/elpalmarillo"
+    }
+  },
+  {
     "name": "IES Murillo",
     "address": {
       "city": "Sevilla",

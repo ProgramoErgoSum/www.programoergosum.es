@@ -5,7 +5,7 @@
       "city": "Murcia",
       "province": "Región de Murcia"
     },
-    "image": "images/centros/cprmurcia.jpg",
+    "image": "https://pbs.twimg.com/profile_images/1006106905528463360/EcVgJP76_400x400.jpg",
     "coordinates": ["37.9914646","-1.1290893"],
     "social": {
       "url": "https://www.murciaeduca.es/cprregiondemurcia/sitio/",
@@ -18,11 +18,24 @@
       "city": "Plasencia",
       "province": "Cáceres"
     },
-    "image": "images/centros/cprplasencia.jpg",
+    "image": "https://pbs.twimg.com/profile_images/1179322610548711425/ztwaYS_I_400x400.jpg",
     "coordinates": ["40.0351702","-6.0862074"],
     "social": {
       "url": "http://cprplasencia.juntaextremadura.net",
       "twitter": "https://twitter.com/cprplasencia"
+    }
+  },
+  {
+    "name": "Centro de Profesores y Recursos",
+    "address": {
+      "city": "Hoyos",
+      "province": "Cáceres"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1110519651061166080/5WKvrIwV_400x400.png",
+    "coordinates": ["40.1711046","-6.7226736"],
+    "social": {
+      "url": "http://cprhoyos.juntaextremadura.net/",
+      "twitter": "https://twitter.com/hoyos_cpr"
     }
   },
   {
@@ -31,7 +44,7 @@
       "city": "Lora del Río",
       "province": "Sevilla"
     },
-    "image": "images/centros/ceplora.jpg",
+    "image": "https://pbs.twimg.com/profile_images/1113424308666347520/kVE-a474_400x400.png",
     "coordinates": ["37.6554715","-5.5329349"],
     "social": {
       "url": "http://www.juntadeandalucia.es/educacion/portals/web/cep-lora-rio",
@@ -44,11 +57,37 @@
       "city": "Alcorisa",
       "province": "Aragón"
     },
-    "image": "images/centros/catedu.jpg",
+    "image": "https://pbs.twimg.com/profile_images/378800000501255182/8304049504353e8eee00a720b9ba3c10_400x400.png",
     "coordinates": ["40.8969747","-0.3859592"],
     "social": {
       "url": "http://web.catedu.es/webcatedu/",
       "twitter": "https://twitter.com/catedu_es"
+    }
+  },
+  {
+    "name": "Centro del Profesorado e Innovación Educativa",
+    "address": {
+      "city": "Benavente",
+      "province": "Zamora"
+    },
+    "image": "https://pbs.twimg.com/profile_images/923100423468339201/LYk-ZsCp_400x400.jpg",
+    "coordinates": ["41.991031","-5.6707897"],
+    "social": {
+      "url": "http://cfiebenavente.centros.educa.jcyl.es/sitio/index.cgi",
+      "twitter": "https://twitter.com/cfiebenavente"
+    }
+  },
+  {
+    "name": "Centro del Profesorado e Innovación Educativa",
+    "address": {
+      "city": "Salamanca",
+      "province": "Salamanca"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1575587101/logo_cfie_400x400.jpg",
+    "coordinates": ["40.9751333","-5.6505066"],
+    "social": {
+      "url": "http://cfiesalamanca.centros.educa.jcyl.es/sitio/",
+      "twitter": "https://twitter.com/cfiesalamanca"
     }
   },
   {
@@ -57,11 +96,24 @@
       "city": "Jaén",
       "province": "Jaén"
     },
-    "image": "images/centros/cepjaen.jpg",
+    "image": "https://pbs.twimg.com/profile_images/951787974261460992/Q-U8bITU_400x400.jpg",
     "coordinates": ["37.7712565","-3.8176359"],
     "social": {
       "url": "http://www.juntadeandalucia.es/educacion/portals/web/cep-jaen",
       "twitter": "https://twitter.com/cepjaen1"
+    }
+  },
+  {
+    "name": "Centro del Profesorado",
+    "address": {
+      "city": "Laredo",
+      "province": "Cantábria"
+    },
+    "image": "https://pbs.twimg.com/profile_images/974704626191740928/0nqftJVg_400x400.jpg",
+    "coordinates": ["43.4073138","-3.4191093"],
+    "social": {
+      "url": "http://www.cepdecantabria.es/laredo/info-laredo",
+      "twitter": "https://twitter.com/CEPdeLaredo"
     }
   }
 ]

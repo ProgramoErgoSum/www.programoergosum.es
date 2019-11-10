@@ -1,0 +1,15 @@
+[
+  {
+    "name": "CEIP Ciudad de Ceuta",
+    "address": {
+      "city": "Ceuta",
+      "province": "Ceuta"
+    },
+    "image": "https://pbs.twimg.com/profile_images/875778275372675073/krh9totV_400x400.jpg",
+    "coordinates": ["35.7989131","-5.941974"],
+    "social": {
+      "url": "https://fcl-ceipciudaddeceuta.blogspot.com/",
+      "twitter": "https://twitter.com/Ceip17_Ceuta"
+    }
+  }
+]

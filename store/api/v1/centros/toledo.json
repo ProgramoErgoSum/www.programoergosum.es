@@ -1,0 +1,28 @@
+[
+  {
+    "name": "CEIP Nuestra Sra. de la Asunción",
+    "address": {
+      "city": "Alameda de la Sagra",
+      "province": "Toledo"
+    },
+    "image": "https://pbs.twimg.com/profile_images/579587215539437568/dmP_9ki8_400x400.jpg",
+    "coordinates": ["40.0090036","-3.80515"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/CAlamedaSagra"
+    }
+  },
+  {
+    "name": "IES Ribera del Tajo",
+    "address": {
+      "city": "Talavera de la Reina",
+      "province": "Toledo"
+    },
+    "image": "https://pbs.twimg.com/profile_images/445887656866500608/kPCb4mNC_400x400.jpeg",
+    "coordinates": ["39.9556247","-4.8392093"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/IESRiberaTajo"
+    }
+  }
+]

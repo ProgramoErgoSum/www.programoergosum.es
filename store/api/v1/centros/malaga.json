@@ -11,5 +11,18 @@
       "url": "http://www.ceipsanmiguelnerja.com",
       "twitter": "https://twitter.com/CEIPSanmiguel18"
     }
+  },
+  {
+    "name": "IES Torre del Prado",
+    "address": {
+      "city": "Campanillas",
+      "province": "Málaga"
+    },
+    "image": "https://pbs.twimg.com/profile_images/672771666259365892/LQ10Ym1S_400x400.jpg",
+    "coordinates": ["36.7234894","-4.5392257"],
+    "social": {
+      "url": "http://www.iestorredelprado.es/",
+      "twitter": "https://twitter.com/iestdp"
+    }
   }
 ]

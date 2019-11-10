@@ -13,6 +13,19 @@
     }
   },
   {
+    "name": "CEIP Isabel Bellvis",
+    "address": {
+      "city": "Corvera",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/539341223907954689/hBsLd5j-_400x400.jpeg",
+    "coordinates": ["37.8265282","-1.1639166"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/CPEIBasBellvis"
+    }
+  },
+  {
     "name": "CC Reina Sofía",
     "address": {
       "city": "Totana",
@@ -89,6 +102,71 @@
     "social": {
       "url": "http://iesmigueldecervantes.com",
       "twitter": "https://twitter.com/IESMdCervantes"
+    }
+  },
+  {
+    "name": "IES Saavedra Fajardo",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/782489964386848768/p_-QFu9u_400x400.jpg",
+    "coordinates": ["37.979839","-1.1216455"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/IESSaavedra"
+    }
+  },
+  {
+    "name": "IES Francisco Salzillo",
+    "address": {
+      "city": "Alcantarilla",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/975863990365622272/8AvfWiqr_400x400.jpg",
+    "coordinates": ["37.9752452","-1.2160857"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/iesfsalzillo"
+    }
+  },
+  {
+    "name": "IES Eduardo Linares Lumeras",
+    "address": {
+      "city": "Molina de segura",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/890238078987771906/sv3YGEmr_400x400.jpg",
+    "coordinates": ["38.0476511","-1.2068282"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/IESedulinares"
+    }
+  },
+  {
+    "name": "IES Manuel Tárraga Escribano",
+    "address": {
+      "city": "San Pedro del Pinatar",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/3167151577/9c41315672384e1fcfe67b04f2c5577a_400x400.png",
+    "coordinates": ["37.8317304","-0.801785"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/iestarraga"
+    }
+  },
+  {
+    "name": "IES Menarguez Costa",
+    "address": {
+      "city": "Los Alcáceres",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/909795750292463617/GMx76qol_400x400.jpg",
+    "coordinates": ["37.7426297","-0.8599844"],
+    "social": {
+      "url": "https://www.murciaeduca.es/iesantoniomenarguezcosta/sitio/",
+      "twitter": "https://twitter.com/iesmenarguez"
     }
   },
   {

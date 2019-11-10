@@ -1,0 +1,15 @@
+[
+  {
+    "name": "IES María Pérez Trujillo",
+    "address": {
+      "city": "Puerto de la Cruz",
+      "province": "Santa Cruz de Tenerife"
+    },
+    "image": "https://pbs.twimg.com/profile_images/3335501424/7fc7056d0f4a7db08bc632309a6d5209_400x400.png",
+    "coordinates": ["28.3979364","-16.5645607"],
+    "social": {
+      "url": "https://www.iesmariapereztrujillo.es/",
+      "twitter": "https://twitter.com/IESMPT"
+    }
+  }
+]
