@@ -114,7 +114,7 @@ export default {
       {
         icon: 'mdi-school',
         title: 'Centros de enseñanza',
-        description: 'Colegios e institutos públicos o concertados'
+        description: 'Colegios e institutos públicos'
       },
       {
         icon: 'mdi-chat-outline',
