@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Centro de Profesores y Recursos",
+    "address": {
+      "city": "Murcia",
+      "province": "Región de Murcia"
+    },
+    "image": "images/centros/cprmurcia.jpg",
+    "coordinates": ["37.9914646","-1.1290893"],
+    "social": {
+      "url": "https://www.murciaeduca.es/cprregiondemurcia/sitio/",
+      "twitter": "https://twitter.com/CPRRegionMurcia"
+    }
+  },
+  {
+    "name": "Centro de Profesores y Recursos",
+    "address": {
+      "city": "Plasencia",
+      "province": "Cáceres"
+    },
+    "image": "images/centros/cprplasencia.jpg",
+    "coordinates": ["40.0351702","-6.0862074"],
+    "social": {
+      "url": "http://cprplasencia.juntaextremadura.net",
+      "twitter": "https://twitter.com/cprplasencia"
+    }
+  },
+  {
+    "name": "Centro del Profesorado",
+    "address": {
+      "city": "Lora del Río",
+      "province": "Sevilla"
+    },
+    "image": "images/centros/ceplora.jpg",
+    "coordinates": ["37.6554715","-5.5329349"],
+    "social": {
+      "url": "http://www.juntadeandalucia.es/educacion/portals/web/cep-lora-rio",
+      "twitter": "https://twitter.com/ceplora"
+    }
+  },
+  {
+    "name": "Centro Aragonés de Tecnologías para la Educación",
+    "address": {
+      "city": "Alcorisa",
+      "province": "Aragón"
+    },
+    "image": "images/centros/catedu.jpg",
+    "coordinates": ["40.8969747","-0.3859592"],
+    "social": {
+      "url": "http://web.catedu.es/webcatedu/",
+      "twitter": "https://twitter.com/catedu_es"
+    }
+  },
+  {
+    "name": "Centro del Profesorado",
+    "address": {
+      "city": "Jaén",
+      "province": "Jaén"
+    },
+    "image": "images/centros/cepjaen.jpg",
+    "coordinates": ["37.7712565","-3.8176359"],
+    "social": {
+      "url": "http://www.juntadeandalucia.es/educacion/portals/web/cep-jaen",
+      "twitter": "https://twitter.com/cepjaen1"
+    }
+  }
+]

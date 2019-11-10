@@ -1,0 +1,15 @@
+[
+  {
+    "name": "IES Murillo",
+    "address": {
+      "city": "Sevilla",
+      "province": "Sevilla"
+    },
+    "image": "images/centros/ies-murillo.jpg",
+    "coordinates": ["37.3793557","-5.9819078"],
+    "social": {
+      "url": "https://iesmurillo.com/",
+      "twitter": "https://twitter.com/IES_MURILLO"
+    }
+  }
+]

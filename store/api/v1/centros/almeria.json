@@ -1,0 +1,15 @@
+[
+  {
+    "name": "CEIP Francisco Villaespesa",
+    "address": {
+      "city": "El Parador, Roquetas de Mar",
+      "province": "Almería"
+    },
+    "image": "images/centros/ceip-francisco-villaespesa.jpg",
+    "coordinates": ["36.8067133","-2.5999698"],
+    "social": {
+      "url": "http://www.ceipvillaespesa.es/",
+      "twitter": ""
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "name": "CEIP San Miguel",
+    "address": {
+      "city": "Nerja",
+      "province": "Málaga"
+    },
+    "image": "images/centros/ceip-san-miguel.jpg",
+    "coordinates": ["36.7466588","-3.8816852"],
+    "social": {
+      "url": "http://www.ceipsanmiguelnerja.com",
+      "twitter": "https://twitter.com/CEIPSanmiguel18"
+    }
+  }
+]

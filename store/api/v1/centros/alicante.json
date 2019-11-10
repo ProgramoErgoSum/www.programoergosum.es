@@ -1,0 +1,28 @@
+[
+  {
+    "name": "IES Monastil",
+    "address": {
+      "city": "Elda",
+      "province": "Alicante"
+    },
+    "image": "https://pbs.twimg.com/profile_images/938844271490355202/y7dX2Sp3_400x400.jpg",
+    "coordinates": ["38.4803587","-0.8066305"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/ies_monastil"
+    }
+  },
+  {
+    "name": "IES Hermanos Amorós",
+    "address": {
+      "city": "Villena",
+      "province": "Alicante"
+    },
+    "image": "https://pbs.twimg.com/profile_images/809897644654989312/RtOUC1LC_400x400.jpg",
+    "coordinates": ["38.6438542","-0.8756787"],
+    "social": {
+      "url": "http://www.ieshermanosamoros.com",
+      "twitter": "https://twitter.com/HermanosAmoros"
+    }
+  }
+]

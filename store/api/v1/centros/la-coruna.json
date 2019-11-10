@@ -1,0 +1,15 @@
+[
+  {
+    "name": "IES Salvador de Madariaga",
+    "address": {
+      "city": "A Coruña",
+      "province": "La Coruña"
+    },
+    "image": "images/centros/ies-salvador-madariaga.jpg",
+    "coordinates": ["43.3700571","-8.4206792"],
+    "social": {
+      "url": "http://www.edu.xunta.gal/centros/iessalvadormadariaga/",
+      "twitter": ""
+    }
+  }
+]

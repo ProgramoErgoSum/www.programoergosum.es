@@ -31,7 +31,7 @@ export default {
   asyncData({ store }) {
     return {
       metas: store.state.metas.index,
-      centers: store.state.centers.list
+      centers: store.state.centros.list
     }
   },
   head() {

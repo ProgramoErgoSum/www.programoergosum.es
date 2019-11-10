@@ -1,0 +1,133 @@
+[
+  {
+    "name": "CEIP San Isidro",
+    "address": {
+      "city": "Los Belones",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1210231414/logo_400x400.png",
+    "coordinates": ["37.6235489","-0.7813239"],
+    "social": {
+      "url": "http://www.ceipsanisidro.com",
+      "twitter": "https://twitter.com/ceipsanisidro"
+    }
+  },
+  {
+    "name": "CC Reina Sofía",
+    "address": {
+      "city": "Totana",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/3675568430/dc5bbfb7e6400c2a1b4498016ee28fcd_400x400.jpeg",
+    "coordinates": ["37.7773581","-1.4985646"],
+    "social": {
+      "url": "http://www.rsofia.es/",
+      "twitter": "https://twitter.com/CReinaSofia"
+    }
+  },
+
+  {
+    "name": "IES Alfonso X El Sabio",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/965879059870900224/USpYHGCQ_400x400.jpg",
+    "coordinates": ["37.9950942","-1.1280427"],
+    "social": {
+      "url": "https://www.iax.es",
+      "twitter": "https://twitter.com/iaxmurcia"
+    }
+  },
+  {
+    "name": "IES Florida Blanca",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1092767612373815296/JB9IeQ_J_400x400.jpg",
+    "coordinates": ["37.979799","-1.120516"],
+    "social": {
+      "url": "http://www.iesfloridablanca.com",
+      "twitter": "https://twitter.com/iesflori"
+    }
+  },
+  {
+    "name": "IES Juan Carlos I",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1021662639615877120/HusEihru_400x400.jpg",
+    "coordinates": ["37.9989132","-1.1380948"],
+    "social": {
+      "url": "http://www.iesjuancarlosi.es",
+      "twitter": "https://twitter.com/JuancarlosiIes"
+    }
+  },
+  {
+    "name": "IES La Flota",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/956144408885329920/et6PX0j5_400x400.png",
+    "coordinates": ["37.9967587","-1.1248994"],
+    "social": {
+      "url": "https://ieslaflota.blogspot.com",
+      "twitter": "https://twitter.com/ieslaflota"
+    }
+  },
+  {
+    "name": "IES Miguel de Cervantes",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/915124237039480833/x7hfNtm5_400x400.jpg",
+    "coordinates": ["37.9949282","-1.144677"],
+    "social": {
+      "url": "http://iesmigueldecervantes.com",
+      "twitter": "https://twitter.com/IESMdCervantes"
+    }
+  },
+  {
+    "name": "IES Antonio Hellín Costa",
+    "address": {
+      "city": "Puerto de Mazarrón",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1168176152999071746/t2voe93n_400x400.jpg",
+    "coordinates": ["37.5694088","-1.2716645"],
+    "social": {
+      "url": "https://www.iesantoniohellin.es",
+      "twitter": "https://twitter.com/ieshellincosta"
+    }
+  },
+  {
+    "name": "IES Ramón Arcas Meca",
+    "address": {
+      "city": "Lorca",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/775381821429313536/chHoviwr_400x400.jpg",
+    "coordinates": ["37.6765921","-1.6966465"],
+    "social": {
+      "url": "https://www.iesramonarcas.es",
+      "twitter": "https://twitter.com/iesramonarcas"
+    }
+  },
+  {
+    "name": "IES Príncipe Asturias",
+    "address": {
+      "city": "Lorca",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/854999859648188417/YPoNx-aP_400x400.jpg",
+    "coordinates": ["37.6793618","-1.6925855"],
+    "social": {
+      "url": "http://www.iesprincipe.com",
+      "twitter": "https://twitter.com/iesprincipe"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "name": "CC Sant Vicenç de Paül (Sóller) - FECIB",
+    "address": {
+      "city": "Sóller",
+      "province": "Illes Balears"
+    },
+    "image": "images/centros/fecib.jpg",
+    "coordinates": ["39.7657891","2.7113723"],
+    "social": {
+      "url": "http://www.svpsoller.fecib.net",
+      "twitter": ""
+    }
+  }
+]
