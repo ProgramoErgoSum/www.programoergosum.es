@@ -12,6 +12,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Introducción"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "5 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-28 12:46:12"

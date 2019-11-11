@@ -8,6 +8,43 @@
         <Tags :tags="tags" />
       </div>
     </v-card-title>
+    <!--
+    <v-card-text v-if="tutorial.extra" class="pt-6 text-center">
+      <div class="d-inline-flex ma-2">
+        <v-tooltip top>
+          <template v-slot:activator="{ on }">
+            <span v-on="on">
+              <v-icon class="mr-2">mdi-school-outline</v-icon>
+              {{ tutorial.extra.level }}
+            </span>
+          </template>
+          <span>Nivel de dificultad</span>
+        </v-tooltip>
+      </div>
+      <div class="d-inline-flex ma-2">
+        <v-tooltip top>
+          <template v-slot:activator="{ on }">
+            <span v-on="on">
+              <v-icon class="mr-2">mdi-clock-outline</v-icon>
+              {{ tutorial.extra.duration }}
+            </span>
+          </template>
+          <span>Duración aproximada</span>
+        </v-tooltip>
+      </div>
+      <div class="d-inline-flex ma-2">
+        <v-tooltip top>
+          <template v-slot:activator="{ on }">
+            <span v-on="on">
+              <v-icon class="mr-2">mdi-video-outline</v-icon>
+              {{ tutorial.extra.videos }}
+            </span>
+          </template>
+          <span>Vídeos en Youtube</span>
+        </v-tooltip>
+      </div>
+    </v-card-text>
+    -->
   </v-card>
 </template>
 
