@@ -77,6 +77,9 @@ export default {
         name: 'Juan Antonio Pérez',
         twitter: 'https://twitter.com/toninosevilla'
       },
+      {
+        name: 'Sergio Pérez'
+      },
       // 5
       {
         name: 'David Pons',
