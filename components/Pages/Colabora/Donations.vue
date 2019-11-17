@@ -86,6 +86,9 @@ export default {
         twitter: 'https://twitter.com/DavidPons'
       },
       {
+        name: 'José Antonio Torrecillas'
+      },
+      {
         name: 'Maria Moure'
       },
       {
@@ -96,10 +99,10 @@ export default {
         name: 'Andres Montilla'
       },
       {
-        name: 'Julieta Brenda'
+        name: 'Carlos Hernán'
       },
       {
-        name: 'Carlos Hernán'
+        name: 'Julieta Brenda'
       }
     ]
   })
