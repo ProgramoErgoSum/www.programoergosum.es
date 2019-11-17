@@ -21,21 +21,8 @@ const state = () => ({
 
 const getters = {
   adsense: state => state.adsense,
-  related: state => item => {
-    const tutoriales = []
-    const tags = item.tags.hardware.concat(item.tags.software)
-    tags.map(tag => {
-      state.list.map(el => {
-        if (el.title !== item.title) {
-          if (el.tags.hardware.includes(tag) || el.tags.software.includes(tag))
-            tutoriales.push(el)
-        }
-      })
-    })
-    const ini = Math.floor(Math.random() * tutoriales.length) - 3
-    const end = ini + 3
-    return tutoriales.slice(ini, end)
-  }
+  list: state => state.list,
+  tags: state => state.tags
 }
 
 const actions = {}

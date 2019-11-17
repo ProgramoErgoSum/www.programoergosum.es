@@ -49,29 +49,7 @@
       </v-row>
     </v-container>
 
-    <section
-      v-show="related.length > 0"
-      class="mt-12 py-12"
-      :class="background"
-    >
-      <v-container>
-        <v-row>
-          <v-col cols="12">
-            <h2>Tutoriales relacionados</h2>
-          </v-col>
-          <v-col
-            v-for="tutorial in related"
-            :key="tutorial.alias"
-            cols="12"
-            xs="12"
-            sm="12"
-            md="4"
-          >
-            <ItemCol :tutorial="tutorial" />
-          </v-col>
-        </v-row>
-      </v-container>
-    </section>
+    <Related :tutorial="tutorial" />
   </div>
 </template>
 
@@ -83,14 +61,14 @@ import axios from 'axios'
 import Tags from '@/components/Pages/Tutoriales/Tags'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
-import ItemCol from '@/components/Pages/Tutoriales/ItemCol'
+import Related from '@/components/Pages/Tutoriales/Related'
 
 export default {
   components: {
     Tags,
     Content,
     Toc,
-    ItemCol
+    Related
   },
   computed: {
     ...mapGetters({ adsense: 'tutoriales/adsense' }),
@@ -121,6 +99,8 @@ export default {
       .concat(tutorial.tags.others)
 
     return {
+      tutorial,
+
       title: tutorial.title,
       description: tutorial.description,
       image: `${urlRaw}/${tutorial.image}`,
@@ -132,8 +112,6 @@ export default {
 
       raw: file,
       cdn: `${urlRaw}/`,
-
-      related: store.getters['tutoriales/related'](tutorial),
 
       breadcrumbs: [
         {
