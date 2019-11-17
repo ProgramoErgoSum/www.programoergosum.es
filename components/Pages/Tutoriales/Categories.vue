@@ -7,7 +7,9 @@
       <v-list shaped tile color="transparent" class="pa-0">
         <v-list-item-group color="primary">
           <template
-            v-for="tag in tags.filter(el => el.category === 'technology')"
+            v-for="tag in tags.filter(
+              el => el.category === 'technology' && el.visible
+            )"
           >
             <v-list-item
               :key="tag.alias"
@@ -38,7 +40,9 @@
       <v-list shaped tile color="transparent" class="pa-0">
         <v-list-item-group color="primary">
           <template
-            v-for="tag in tags.filter(el => el.category === 'software')"
+            v-for="tag in tags.filter(
+              el => el.category === 'software' && el.visible
+            )"
           >
             <v-list-item
               :key="tag.alias"
@@ -69,7 +73,9 @@
       <v-list shaped tile color="transparent" class="pa-0">
         <v-list-item-group color="primary">
           <template
-            v-for="tag in tags.filter(el => el.category === 'hardware')"
+            v-for="tag in tags.filter(
+              el => el.category === 'hardware' && el.visible
+            )"
           >
             <v-list-item
               :key="tag.alias"
