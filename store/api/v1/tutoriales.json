@@ -29,7 +29,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación"],
+      "technology": [],
       "hardware": [],
       "software": ["Scratch", "Scratch 3"],
       "level": [],
@@ -282,7 +282,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Realidad aumentada"],
+      "technology": ["Realidad aumentada", "Programación"],
       "hardware": [],
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
@@ -300,7 +300,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Realidad aumentada"],
+      "technology": ["Realidad aumentada", "Programación"],
       "hardware": [],
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
@@ -318,7 +318,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Realidad aumentada"],
+      "technology": ["Realidad aumentada", "Programación"],
       "hardware": [],
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
@@ -336,7 +336,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Realidad aumentada"],
+      "technology": ["Realidad aumentada", "Programación"],
       "hardware": [],
       "software": ["Scratch", "Scratch 2"],
       "level": ["Infantil", "Primaria", "Secundaria"],
@@ -354,7 +354,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Realidad aumentada"],
+      "technology": ["Realidad aumentada", "Programación"],
       "hardware": [],
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
@@ -372,7 +372,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación"],
+      "technology": [],
       "hardware": [],
       "software": ["Scratch", "Scratch 3"],
       "level": ["Secundaria"],
@@ -689,7 +689,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Arduino"],
       "software": ["Arduino IDE", "mBlock", "Scratch 4 Arduino", "Snap 4 Arduino"],
       "level": ["Secundaria", "Bachillerato"],
@@ -707,7 +707,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Arduino"],
       "software": ["Arduino IDE", "mBlock"],
       "level": ["Secundaria", "Bachillerato"],
@@ -725,7 +725,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Arduino"],
       "software": ["Arduino IDE", "mBlock"],
       "level": ["Secundaria", "Bachillerato"],
@@ -743,7 +743,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Arduino"],
       "software": ["Arduino IDE", "mBlock"],
       "level": ["Secundaria", "Bachillerato"],
@@ -761,7 +761,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Arduino"],
       "software": ["Arduino IDE", "mBlock"],
       "level": ["Secundaria", "Bachillerato"],
@@ -779,7 +779,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Arduino"],
       "software": ["Arduino IDE", "Scratch 4 Arduino"],
       "level": ["Secundaria", "Bachillerato"],
@@ -797,7 +797,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Arduino"],
       "software": ["Arduino IDE", "Scratch 4 Arduino"],
       "level": ["Secundaria", "Bachillerato"],
@@ -815,7 +815,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Arduino"],
       "software": ["Arduino IDE", "mBlock"],
       "level": ["Secundaria", "Bachillerato"],
@@ -836,7 +836,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["ESP8266"],
       "software": [],
       "level": ["Bachillerato"],
@@ -854,7 +854,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["ESP8266"],
       "software": ["Arduino IDE"],
       "level": ["Bachillerato"],
@@ -872,7 +872,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["ESP8266"],
       "software": ["Arduino IDE"],
       "level": ["Bachillerato"],
@@ -890,7 +890,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["ESP8266"],
       "software": ["Arduino IDE"],
       "level": ["Bachillerato"],
@@ -1021,7 +1021,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Raspberry Pi"],
       "software": ["Scratch"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1365,7 +1365,7 @@
     "category": "raspberry-pi",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Raspberry Pi"],
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1383,7 +1383,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Raspberry Pi"],
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1419,7 +1419,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Raspberry Pi", "Arduino"],
       "software": ["Arduino IDE"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1437,7 +1437,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Raspberry Pi"],
       "software": ["Python", "Arduino IDE"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1455,7 +1455,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Raspberry Pi"],
       "software": ["Node-RED"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1473,7 +1473,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Raspberry Pi"],
       "software": ["Node-RED"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1496,7 +1496,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Micro:bit"],
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1514,7 +1514,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Micro:bit"],
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1532,7 +1532,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Micro:bit"],
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
@@ -1550,7 +1550,7 @@
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
     "tags": {
-      "technology": ["Programación", "Electrónica"],
+      "technology": ["Electrónica", "Programación"],
       "hardware": ["Micro:bit"],
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
