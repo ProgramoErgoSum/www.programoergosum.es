@@ -41,6 +41,11 @@ export default {
     related() {
       let tutorials = this.list
       tutorials = tutorials.filter(el => el.alias !== this.tutorial.alias)
+      if (this.tutorial.tags.technology.length > 0) {
+        tutorials = tutorials.filter(el =>
+          el.tags.technology.includes(this.tutorial.tags.technology[0])
+        )
+      }
       if (this.tutorial.tags.hardware.length > 0) {
         tutorials = tutorials.filter(el =>
           el.tags.hardware.includes(this.tutorial.tags.hardware[0])
