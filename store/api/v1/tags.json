@@ -59,6 +59,16 @@
     "icon": "mdi-printer-3d-nozzle",
     "visible": true
   },
+  {
+    "category": "technology",
+    "alias": "unplugged",
+    "name": "Unplugged",
+    "title": "Tutoriales de programación desenchufada",
+    "description": "Cursos y tutoriales para aprender a programar sin ordenador.",
+    "image": "/images/tutoriales/tutoriales.jpg",
+    "icon": "mdi-power-plug-off",
+    "visible": true
+  },
 
 
 
