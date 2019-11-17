@@ -20,8 +20,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
-
 export default {
   name: 'Tags',
   props: {
@@ -30,12 +28,17 @@ export default {
       required: true
     }
   },
-  computed: {
-    ...mapGetters({ allTags: 'tutoriales/tags' })
+  data() {
+    return {
+      myTags: []
+    }
+  },
+  mounted() {
+    this.myTags = this.$store.state.tutoriales.tags
   },
   methods: {
     alias(name) {
-      const tag = this.allTags.find(el => el.name === name)
+      const tag = this.myTags.find(el => el.name === name)
       return tag ? tag.alias : false
     }
   }
