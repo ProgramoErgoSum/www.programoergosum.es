@@ -67,7 +67,7 @@
     "description": "Cursos y tutoriales para aprender a programar sin ordenador.",
     "image": "/images/tutoriales/tutoriales.jpg",
     "icon": "mdi-power-plug-off",
-    "visible": true
+    "visible": false
   },
 
 
