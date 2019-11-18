@@ -35,6 +35,11 @@
       "level": [],
       "others": []
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "10 minutos",
+      "videos": "1 vídeo"
+    },
     "date": {
       "cdate": "2019-01-15 17:53:47",
       "mdate": "2019-10-25 16:05:12"
@@ -52,6 +57,11 @@
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Laberinto"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "5 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -71,6 +81,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Pong"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "4 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 14:25:12"
@@ -88,6 +103,11 @@
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Clones"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -108,6 +128,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Fútbol"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 14:45:12"
@@ -125,6 +150,11 @@
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Arkanoid"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "60 minutos",
+      "videos": "3 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -144,6 +174,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Duck Hunt"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "60 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 15:05:12"
@@ -161,6 +196,11 @@
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Flappy Bird"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "60 minutos",
+      "videos": "3 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -180,6 +220,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Space Invaders"]
     },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "60 minutos",
+      "videos": "5 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 15:25:12"
@@ -197,6 +242,11 @@
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Frogger"]
+    },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "60 minutos",
+      "videos": "5 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -216,6 +266,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Battle City"]
     },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "60 minutos",
+      "videos": "5 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 15:45:12"
@@ -233,6 +288,11 @@
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Pac-Man"]
+    },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "60 minutos",
+      "videos": "4 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -252,6 +312,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Berzerk"]
     },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "60 minutos",
+      "videos": "5 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 16:05:12"
@@ -269,6 +334,11 @@
       "software": ["Scratch", "Scratch 2"],
       "level": ["Infantil", "Primaria"],
       "others": ["Educativo", "Vocales"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "30 minutos",
+      "videos": "3 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -288,6 +358,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Videojuegos", "Pokemon"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 16:25:12"
@@ -305,6 +380,11 @@
       "software": ["Scratch", "Scratch 2"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Nieve"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "60 minutos",
+      "videos": "4 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -324,6 +404,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Sonido"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 14:05:12"
@@ -341,6 +426,11 @@
       "software": ["Scratch", "Scratch 2"],
       "level": ["Infantil", "Primaria", "Secundaria"],
       "others": ["Audio"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "30 minutos",
+      "videos": "2 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -360,6 +450,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Gráfica"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": "2 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-25 14:05:12"
@@ -377,6 +472,11 @@
       "software": ["Scratch", "Scratch 3"],
       "level": ["Secundaria"],
       "others": []
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "15 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2018-01-28 10:42:24",
@@ -401,6 +501,11 @@
       "level": ["Infantil", "Primaria"],
       "others": ["Introducción"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "4 vídeos"
+    },
     "date": {
       "cdate": "2018-01-26 15:57:33",
       "mdate": "2019-10-23 14:05:12"
@@ -418,6 +523,11 @@
       "software": [],
       "level": ["Infantil", "Primaria"],
       "others": ["Introducción"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "15 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -437,6 +547,11 @@
       "level": ["Infantil", "Primaria"],
       "others": ["Introducción"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "30 minutos",
+      "videos": "2 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -454,6 +569,11 @@
       "software": [],
       "level": ["Infantil", "Primaria"],
       "others": ["Música"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "30 minutos",
+      "videos": "3 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -473,6 +593,11 @@
       "level": ["Infantil", "Primaria"],
       "others": ["Videojuegos"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "30 minutos",
+      "videos": "1 vídeo"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-11-01 14:05:12"
@@ -490,6 +615,11 @@
       "software": [],
       "level": ["Infantil", "Primaria"],
       "others": ["Manualidades", "Plastilina conductora"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "30 minutos",
+      "videos": "2 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -509,6 +639,11 @@
       "level": ["Infantil", "Primaria"],
       "others": ["Educativo"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": "2 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -526,6 +661,11 @@
       "software": ["Scratch"],
       "level": ["Infantil", "Primaria"],
       "others": ["Educativo"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -545,6 +685,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Introducción"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-27 14:05:12"
@@ -562,6 +707,11 @@
       "software": ["mBlock", "mblock 3", "mblock 5"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Introducción"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "1 vídeo"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -581,6 +731,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["LED RGB"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-11-08 13:05:12"
@@ -598,6 +753,11 @@
       "software": ["mBlock", "mblock 3", "mblock 5"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Ultrasonidos"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -617,6 +777,11 @@
       "level": ["Primaria", "Secundaria"],
       "others": ["Sigue líneas"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-11-08 14:05:12"
@@ -634,6 +799,11 @@
       "software": ["mBlock", "mblock 3", "mblock 5"],
       "level": ["Primaria", "Secundaria"],
       "others": ["Mando IR"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -654,6 +824,11 @@
       "level": ["Secundaria"],
       "others": ["Videojuegos"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "1 vídeo"
+    },
     "date": {
       "cdate": "2018-02-11 13:42:34",
       "mdate": "2019-10-27 14:05:12"
@@ -671,6 +846,11 @@
       "software": ["mBlock"],
       "level": ["Secundaria"],
       "others": ["Videojuegos"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "1 vídeo"
     },
     "date": {
       "cdate": "2018-02-11 13:42:34",
@@ -695,6 +875,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Introducción"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2018-01-26 15:57:33",
       "mdate": "2019-07-09 14:05:12"
@@ -712,6 +897,11 @@
       "software": ["Arduino IDE", "mBlock"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Salidas", "Digitales"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "120 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -731,6 +921,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Salidas", "Analógicas"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "120 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2018-01-26 15:57:33",
       "mdate": "2019-07-09 14:05:12"
@@ -748,6 +943,11 @@
       "software": ["Arduino IDE", "mBlock"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Entradas", "Digitales"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "120 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -767,6 +967,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Entradas", "Analógicas"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "120 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2018-01-26 15:57:33",
       "mdate": "2019-07-09 14:05:12"
@@ -784,6 +989,11 @@
       "software": ["Arduino IDE", "Scratch 4 Arduino"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Semáforo"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "4 vídeos"
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -803,6 +1013,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Coche"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "60 minutos",
+      "videos": "6 vídeos"
+    },
     "date": {
       "cdate": "2018-01-26 15:57:33",
       "mdate": "2019-07-09 14:05:12"
@@ -820,6 +1035,11 @@
       "software": ["Arduino IDE", "mBlock"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Cubo LEDs"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "60 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -842,6 +1062,11 @@
       "level": ["Bachillerato"],
       "others": ["Introducción"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-01-26 15:57:33",
       "mdate": "2019-07-09 14:05:12"
@@ -859,6 +1084,11 @@
       "software": ["Arduino IDE"],
       "level": ["Bachillerato"],
       "others": []
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -878,6 +1108,11 @@
       "level": ["Bachillerato"],
       "others": []
     },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "60 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-01-26 15:57:33",
       "mdate": "2019-07-09 14:05:12"
@@ -895,6 +1130,11 @@
       "software": ["Arduino IDE"],
       "level": ["Bachillerato"],
       "others": []
+    },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "120 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -919,6 +1159,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-26 16:10:00"
@@ -936,6 +1181,11 @@
       "software": [],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -955,6 +1205,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 16:08:12"
@@ -972,6 +1227,11 @@
       "software": [],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "20 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -991,6 +1251,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "20 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 17:08:12"
@@ -1008,6 +1273,11 @@
       "software": [],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1027,6 +1297,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "GPIO"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1044,6 +1319,11 @@
       "software": ["Scratch"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "10 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-10-26 11:31:24",
@@ -1063,6 +1343,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "4 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1080,6 +1365,11 @@
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1099,6 +1389,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1116,6 +1411,11 @@
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "Minecraft"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1135,6 +1435,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1152,6 +1457,11 @@
       "software": [],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1171,6 +1481,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Ratropie"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "60 minutos",
+      "videos": "4 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1188,6 +1503,11 @@
       "software": [],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "Redes"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "30 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1207,6 +1527,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "Redes"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1224,6 +1549,11 @@
       "software": [],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "Redes"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1243,6 +1573,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "Redes"]
     },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "60 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1260,6 +1595,11 @@
       "software": [],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "Redes"]
+    },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1279,6 +1619,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "Webcam"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1297,6 +1642,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "Webcam"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 15:05:12"
@@ -1314,6 +1664,11 @@
       "software": [],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "Webcam"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1334,6 +1689,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "15 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1351,6 +1711,11 @@
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "GPIO"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1371,6 +1736,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "60 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1388,6 +1758,11 @@
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian", "GPIO"]
+    },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "60 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1407,6 +1782,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Avanzado",
+      "duration": "15 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1424,6 +1804,11 @@
       "software": ["Arduino IDE"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "15 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1443,6 +1828,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1461,6 +1851,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "15 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-04-01 00:00:00",
       "mdate": "2019-10-26 14:05:12"
@@ -1478,6 +1873,11 @@
       "software": ["Node-RED"],
       "level": ["Secundaria", "Bachillerato"],
       "others": ["Raspbian"]
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "30 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1502,6 +1902,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": []
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "30 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-02-11 13:42:34",
       "mdate": "2019-10-26 14:05:12"
@@ -1519,6 +1924,11 @@
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
       "others": []
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "30 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -1538,6 +1948,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": []
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "30 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2019-02-11 13:42:34",
       "mdate": "2019-10-26 14:05:12"
@@ -1555,6 +1970,11 @@
       "software": ["Python"],
       "level": ["Secundaria", "Bachillerato"],
       "others": []
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "30 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -1579,6 +1999,11 @@
       "software": [],
       "level": ["Secundaria", "Bachillerato"],
       "others": []
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "30 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1605,6 +2030,11 @@
       "level": ["Primaria", "Secundaria", "Bachillerato"],
       "others": ["Pensamiento computacional"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "15 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2018-11-17 10:57:33",
       "mdate": "2019-11-17 14:28:12"
@@ -1622,6 +2052,11 @@
       "software": [],
       "level": ["Primaria", "Secundaria", "Bachillerato"],
       "others": ["Pensamiento computacional"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "15 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2018-11-17 10:57:33",
@@ -1641,6 +2076,11 @@
       "level": ["Primaria", "Secundaria", "Bachillerato"],
       "others": ["Pensamiento computacional"]
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "15 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2018-11-17 10:57:33",
       "mdate": "2019-11-18 14:28:12"
@@ -1658,6 +2098,11 @@
       "software": [],
       "level": ["Primaria", "Secundaria", "Bachillerato"],
       "others": ["Pensamiento computacional"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "15 minutos",
+      "videos": ""
     },
     "date": {
       "cdate": "2018-11-17 10:57:33",
@@ -1684,6 +2129,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": []
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "15 minutos",
+      "videos": ""
+    },
     "date": {
       "cdate": "2018-01-26 15:57:33",
       "mdate": "2019-10-23 14:05:12"
@@ -1702,6 +2152,11 @@
       "level": ["Primaria", "Secundaria", "Bachillerato"],
       "others": []
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "4 vídeos"
+    },
     "date": {
       "cdate": "2018-01-26 15:57:33",
       "mdate": "2019-10-23 14:15:12"
@@ -1719,6 +2174,11 @@
       "software": ["TinkerCAD"],
       "level": ["Primaria", "Secundaria", "Bachillerato"],
       "others": []
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "30 minutos",
+      "videos": "2 vídeos"
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -1743,6 +2203,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": []
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "4 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-07-09 14:05:12"
@@ -1760,6 +2225,11 @@
       "software": ["App-Inventor"],
       "level": ["Secundaria", "Bachillerato"],
       "others": []
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "4 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1779,6 +2249,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": []
     },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-07-09 14:05:12"
@@ -1796,6 +2271,11 @@
       "software": ["App-Inventor"],
       "level": ["Secundaria", "Bachillerato"],
       "others": []
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": "2 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1815,6 +2295,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": []
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "60 minutos",
+      "videos": "5 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-07-09 14:05:12"
@@ -1833,6 +2318,11 @@
       "level": ["Secundaria", "Bachillerato"],
       "others": []
     },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": "3 vídeos"
+    },
     "date": {
       "cdate": "2017-06-01 00:00:00",
       "mdate": "2019-07-09 14:05:12"
@@ -1850,6 +2340,11 @@
       "software": ["App-Inventor"],
       "level": ["Secundaria", "Bachillerato"],
       "others": []
+    },
+    "extra": {
+      "level": "Medio",
+      "duration": "45 minutos",
+      "videos": "4 vídeos"
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",

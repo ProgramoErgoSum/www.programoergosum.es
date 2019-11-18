@@ -101,7 +101,7 @@
     "title": "Tutoriales de Arduino",
     "description": "Cursos y tutoriales de programación y electrónica de placas Arduino.",
     "image": "/images/tutoriales/arduino.jpg",
-    "icon": "mdi-code-braces",
+    "icon": "mdi-chip",
     "visible": true
   },
   {
@@ -121,7 +121,7 @@
     "title": "Tutoriales con Micro:bit",
     "description": "Cursos y tutoriales de programación y electrónica con Micro:bit.",
     "image": "/images/tutoriales/microbit.jpg",
-    "icon": "mdi-chip",
+    "icon": "mdi-select-inverse",
     "visible": true
   },
 
@@ -157,6 +157,16 @@
     "description": "Cursos y tutoriales para aprender a programar con AppInventor.",
     "image": "/images/tutoriales/appinventor.jpg",
     "icon": "mdi-tablet-android",
+    "visible": true
+  },
+  {
+    "category": "software",
+    "alias": "arduino-ide",
+    "name": "Arduino IDE",
+    "title": "Tutoriales de Arduino",
+    "description": "Cursos y tutoriales de programación con el lenguaje de Arduino.",
+    "image": "/images/tutoriales/arduino.jpg",
+    "icon": "mdi-code-braces",
     "visible": true
   },
   {
