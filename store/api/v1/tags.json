@@ -67,7 +67,7 @@
     "description": "Cursos y tutoriales para aprender a programar sin ordenador.",
     "image": "/images/tutoriales/tutoriales.jpg",
     "icon": "mdi-power-plug-off",
-    "visible": false
+    "visible": true
   },
 
 
@@ -182,7 +182,7 @@
     "description": "Cursos y tutoriales online para aprender a programar videojuegos.",
     "image": "/images/tutoriales/scratch.jpg",
     "icon": "mdi-gamepad",
-    "visible": true
+    "visible": false
   },
   {
     "category": "others",
@@ -202,7 +202,7 @@
     "description": "Cursos y tutoriales de TinkerCAD para makers desde cero.",
     "image": "/images/tutoriales/tinkercad.jpg",
     "icon": "mdi-printer-3d",
-    "visible": true
+    "visible": false
   },
   {
     "category": "others",

@@ -1594,7 +1594,7 @@
 
   {
     "alias": "programar-sin-ordenador-con-mis-amigos-robots",
-    "title": "Programar sin ordenador con Mis Amigos Robots",
+    "title": "Mis Amigos Robots",
     "description": "El juego Mis Amigos Robots para aprender a programar sin utilizar un ordenador.",
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
@@ -1612,7 +1612,7 @@
   },
   {
     "alias": "programar-sin-ordenador-con-cody-roby",
-    "title": "Programar sin ordenador con Cody & Roby",
+    "title": "Cody & Roby",
     "description": "El juego de mesa Cody & Roby para aprender a programar sin utilizar un ordenador.",
     "image": "img/preview.jpg",
     "authors": ["migueabellan"],
@@ -1628,9 +1628,45 @@
       "mdate": "2019-11-17 14:28:12"
     }
   },
+  {
+    "alias": "programar-sin-ordenador-con-el-laberinto-del-robot",
+    "title": "El Laberinto del Robot",
+    "description": "Aprende a programar sin utilizar un ordenador con este juego de mesa casero.",
+    "image": "img/preview.jpg",
+    "authors": ["migueabellan"],
+    "tags": {
+      "technology": ["Unplugged"],
+      "hardware": [],
+      "software": [],
+      "level": ["Primaria", "Secundaria", "Bachillerato"],
+      "others": ["Pensamiento computacional"]
+    },
+    "date": {
+      "cdate": "2018-11-17 10:57:33",
+      "mdate": "2019-11-18 14:28:12"
+    }
+  },
+  {
+    "alias": "programar-sin-ordenador-con-aprendo-a-programar",
+    "title": "Aprendo a programar",
+    "description": "Aprende a programar sin utilizar un ordenador con este juego de mesa casero.",
+    "image": "img/preview.jpg",
+    "authors": ["migueabellan"],
+    "tags": {
+      "technology": ["Unplugged"],
+      "hardware": [],
+      "software": [],
+      "level": ["Primaria", "Secundaria", "Bachillerato"],
+      "others": ["Pensamiento computacional"]
+    },
+    "date": {
+      "cdate": "2018-11-17 10:57:33",
+      "mdate": "2019-11-18 14:28:12"
+    }
+  },
   
   
-  
+
 
 
   
