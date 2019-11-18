@@ -424,7 +424,7 @@
       "technology": ["Realidad aumentada", "Programación"],
       "hardware": [],
       "software": ["Scratch", "Scratch 2"],
-      "level": ["Infantil", "Primaria", "Secundaria"],
+      "level": ["Primaria", "Secundaria"],
       "others": ["Audio"]
     },
     "extra": {
@@ -2027,7 +2027,7 @@
       "technology": ["Unplugged"],
       "hardware": [],
       "software": [],
-      "level": ["Primaria", "Secundaria", "Bachillerato"],
+      "level": ["Primaria", "Secundaria"],
       "others": ["Pensamiento computacional"]
     },
     "extra": {
@@ -2050,7 +2050,7 @@
       "technology": ["Unplugged"],
       "hardware": [],
       "software": [],
-      "level": ["Primaria", "Secundaria", "Bachillerato"],
+      "level": ["Primaria", "Secundaria"],
       "others": ["Pensamiento computacional"]
     },
     "extra": {
@@ -2073,7 +2073,7 @@
       "technology": ["Unplugged"],
       "hardware": [],
       "software": [],
-      "level": ["Primaria", "Secundaria", "Bachillerato"],
+      "level": ["Primaria", "Secundaria"],
       "others": ["Pensamiento computacional"]
     },
     "extra": {
@@ -2096,7 +2096,7 @@
       "technology": ["Unplugged"],
       "hardware": [],
       "software": [],
-      "level": ["Primaria", "Secundaria", "Bachillerato"],
+      "level": ["Primaria", "Secundaria"],
       "others": ["Pensamiento computacional"]
     },
     "extra": {
