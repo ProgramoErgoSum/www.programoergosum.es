@@ -10,50 +10,30 @@
       </div>
       -->
     </v-card-title>
-    <v-card-text v-if="tutorial.extra" class="text-center">
-      <div v-if="tutorial.extra.level">
-        <v-chip class="ma-1" outlined>
+    <v-card-text class="text-center">
+      <Extra :extra="tutorial.extra" />
+      <!--
+      <template v-for="tag in tutorial.tags.level">
+        <v-chip :key="tag" class="ma-1" outlined>
           <v-icon size="16" class="mr-1">
             mdi-school-outline
           </v-icon>
-          {{ tutorial.extra.level }}
+          {{ tag }}
         </v-chip>
-        <template v-for="tag in tutorial.tags.level">
-          <v-chip :key="tag" class="ma-1" outlined>
-            <v-icon size="16" class="mr-1">
-              mdi-school-outline
-            </v-icon>
-            {{ tag }}
-          </v-chip>
-        </template>
-      </div>
-
-      <div v-if="tutorial.extra.duration" class="d-inline-flex">
-        <v-chip class="ma-1" outlined>
-          <v-icon size="16" class="mr-1">
-            mdi-clock-outline
-          </v-icon>
-          {{ tutorial.extra.duration }}
-        </v-chip>
-      </div>
-      <div v-if="tutorial.extra.videos" class="d-inline-flex">
-        <v-chip class="ma-1" outlined>
-          <v-icon size="16" class="mr-1">
-            mdi-video-outline
-          </v-icon>
-          {{ tutorial.extra.videos }}
-        </v-chip>
-      </div>
+      </template>
+      -->
     </v-card-text>
   </v-card>
 </template>
 
 <script>
+import Extra from '@/components/Pages/Tutoriales/Extra'
 // import Tags from '@/components/Pages/Tutoriales/Tags'
 
 export default {
   name: 'Item',
   components: {
+    Extra
     // Tags
   },
   props: {
