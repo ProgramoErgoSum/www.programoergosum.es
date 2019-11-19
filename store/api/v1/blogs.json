@@ -1,18 +1,5 @@
 [
   {
-    "alias": "aprender-a-programar-sin-ordenador",
-    "title": "Aprender a programar sin ordenador",
-    "description": "Aprendiendo conceptos del paradigma de la programación informática sin necesidad de disponer de un ordenador.",
-    "image": "img/preview.jpg",
-    "tags": ["aprender", "programación", "pensamiento computacional", "programar sin ordenador"],
-    "authors": ["migueabellan"],
-    "date": {
-      "cdate": "2017-01-07 11:31:24",
-      "mdate": "2019-10-13 10:01:35"
-    },
-    "adsense": true
-  },
-  {
     "alias": "pensamiento-computacional-con-scratch",
     "title": "Pensamiento computacional con Scratch",
     "description": "El pensamiento computacional está directamente relacionado con la informática y puede analizarse a través de la programación con Scratch.",
