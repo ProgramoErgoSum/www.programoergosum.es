@@ -20,7 +20,7 @@ export default {
   name: 'Extra',
   props: {
     extra: {
-      type: Array,
+      type: Object,
       required: true
     }
   }
