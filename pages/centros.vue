@@ -63,7 +63,7 @@
         </v-col>
       </v-row>
     </v-container>
-
+    <!--
     <v-container fluid>
       <v-row>
         <v-col cols="12">
@@ -91,17 +91,18 @@
         </v-col>
       </v-row>
     </v-container>
+    -->
   </div>
 </template>
 
 <script>
 import Map from '@/components/Pages/Centros/Map'
-import Popup from '@/components/Pages/Centros/Popup'
+// import Popup from '@/components/Pages/Centros/Popup'
 
 export default {
   components: {
-    Map,
-    Popup
+    Map
+    // Popup
   },
   data: () => ({
     search: '',
@@ -133,6 +134,7 @@ export default {
       }
     ]
   }),
+  /*
   computed: {
     filter() {
       let centers = this.centers
@@ -154,6 +156,7 @@ export default {
       return centers
     }
   },
+  */
   asyncData({ store }) {
     return {
       metas: store.state.metas.centros,

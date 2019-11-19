@@ -6,8 +6,33 @@
       :center="center"
       :options="mapOptions"
     >
+      <v-autocomplete
+        v-model="search"
+        :items="centers"
+        label="Centros"
+        filled
+        item-text="name"
+        item-value="coordinates"
+        background-color="white"
+        color="primary"
+        clearable
+      >
+        <template v-slot:item="data">
+          <v-list-item-avatar>
+            <VImageLazy :src="data.item.image" :title="data.item.name" />
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>
+              {{ data.item.name }}
+            </v-list-item-title>
+            <v-list-item-subtitle>
+              {{ data.item.address.city }}, {{ data.item.address.province }}
+            </v-list-item-subtitle>
+          </v-list-item-content>
+        </template>
+      </v-autocomplete>
       <l-tile-layer :url="url" />
-      <Market v-for="(item, index) in centers" :key="index" :center="item" />
+      <Market v-for="(item, index) in filter" :key="index" :center="item" />
     </l-map>
   </div>
 </template>
@@ -27,6 +52,7 @@ export default {
     }
   },
   data: () => ({
+    search: '',
     minZoom: 6,
     maxZoom: 12,
     center: [40.4636688, -3.7492199],
@@ -34,7 +60,25 @@ export default {
     mapOptions: {
       scrollWheelZoom: false
     }
-  })
+  }),
+  computed: {
+    filter() {
+      let centers = this.centers
+
+      if (this.search !== '') {
+        centers = centers.filter(el => {
+          return (
+            el.coordinates.toString().search(new RegExp(this.search, 'i')) !==
+            -1
+            // el.name.search(new RegExp(this.search, 'i')) !== -1 ||
+            // el.address.city.search(new RegExp(this.search, 'i')) !== -1 ||
+            // el.address.province.search(new RegExp(this.search, 'i')) !== -1
+          )
+        })
+      }
+      return centers
+    }
+  }
 }
 </script>
 
@@ -43,5 +87,11 @@ export default {
   height: 600px;
   position: relative;
   z-index: 1;
+  .v-autocomplete {
+    position: absolute;
+    top: 12px;
+    left: 55px;
+    z-index: 999;
+  }
 }
 </style>
