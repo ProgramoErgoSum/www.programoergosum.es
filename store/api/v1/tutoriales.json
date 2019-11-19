@@ -2018,6 +2018,29 @@
 
 
   {
+    "alias": "programar-sin-ordenador-con-csunplugged",
+    "title": "CS Unplugged",
+    "description": "Recursos para aprender programación sin necesidad de disponer de un ordenador.",
+    "image": "img/preview.jpg",
+    "authors": ["migueabellan"],
+    "tags": {
+      "technology": ["Unplugged"],
+      "hardware": [],
+      "software": [],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Pensamiento computacional"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "15 minutos",
+      "videos": ""
+    },
+    "date": {
+      "cdate": "2018-11-17 10:57:33",
+      "mdate": "2019-11-19 15:40:12"
+    }
+  },
+  {
     "alias": "programar-sin-ordenador-con-mis-amigos-robots",
     "title": "Mis Amigos Robots",
     "description": "El juego Mis Amigos Robots para aprender a programar sin utilizar un ordenador.",
@@ -2064,29 +2087,6 @@
     }
   },
   {
-    "alias": "programar-sin-ordenador-con-el-laberinto-del-robot",
-    "title": "El Laberinto del Robot",
-    "description": "Aprende a programar sin utilizar un ordenador con este juego de mesa casero.",
-    "image": "img/preview.jpg",
-    "authors": ["migueabellan"],
-    "tags": {
-      "technology": ["Unplugged"],
-      "hardware": [],
-      "software": [],
-      "level": ["Primaria", "Secundaria"],
-      "others": ["Pensamiento computacional"]
-    },
-    "extra": {
-      "level": "Iniciación",
-      "duration": "15 minutos",
-      "videos": ""
-    },
-    "date": {
-      "cdate": "2018-11-17 10:57:33",
-      "mdate": "2019-11-18 14:28:12"
-    }
-  },
-  {
     "alias": "programar-sin-ordenador-con-aprendo-a-programar",
     "title": "Aprendo a programar",
     "description": "Aprende a programar sin utilizar un ordenador con este juego de mesa casero.",
@@ -2107,6 +2107,29 @@
     "date": {
       "cdate": "2018-11-17 10:57:33",
       "mdate": "2019-11-18 20:30:12"
+    }
+  },
+  {
+    "alias": "programar-sin-ordenador-con-el-laberinto-del-robot",
+    "title": "El Laberinto del Robot",
+    "description": "Aprende a programar sin utilizar un ordenador con este juego de mesa casero.",
+    "image": "img/preview.jpg",
+    "authors": ["migueabellan"],
+    "tags": {
+      "technology": ["Unplugged"],
+      "hardware": [],
+      "software": [],
+      "level": ["Primaria", "Secundaria"],
+      "others": ["Pensamiento computacional"]
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "15 minutos",
+      "videos": ""
+    },
+    "date": {
+      "cdate": "2018-11-17 10:57:33",
+      "mdate": "2019-11-18 14:28:12"
     }
   },
   
