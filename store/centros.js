@@ -2,6 +2,7 @@ import cpr from '~/store/api/v1/centros/cpr.json'
 import alicante from '~/store/api/v1/centros/alicante.json'
 import almeria from '~/store/api/v1/centros/almeria.json'
 import baleares from '~/store/api/v1/centros/baleares.json'
+import granada from '~/store/api/v1/centros/granada.json'
 import lacoruna from '~/store/api/v1/centros/la-coruna.json'
 import malaga from '~/store/api/v1/centros/malaga.json'
 import madrid from '~/store/api/v1/centros/madrid.json'
@@ -17,6 +18,7 @@ const state = () => ({
     .concat(alicante)
     .concat(almeria)
     .concat(baleares)
+    .concat(granada)
     .concat(lacoruna)
     .concat(malaga)
     .concat(madrid)
