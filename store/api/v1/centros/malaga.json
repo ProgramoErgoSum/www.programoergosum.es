@@ -24,5 +24,18 @@
       "url": "http://www.iestorredelprado.es/",
       "twitter": "https://twitter.com/iestdp"
     }
+  },
+  {
+    "name": "IES Reyes Católicos",
+    "address": {
+      "city": "Vélez-Málaga",
+      "province": "Málaga"
+    },
+    "image": "https://pbs.twimg.com/profile_images/615061559698714625/LXJ49TF8_400x400.png",
+    "coordinates": ["36.7735038","-4.1022645"],
+    "social": {
+      "url": "https://iesreyescatolicos.es/",
+      "twitter": "https://twitter.com/iesrrcc"
+    }
   }
 ]
