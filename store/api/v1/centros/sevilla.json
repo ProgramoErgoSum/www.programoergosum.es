@@ -37,5 +37,18 @@
       "url": "https://iesmurillo.com/",
       "twitter": "https://twitter.com/IES_MURILLO"
     }
+  },
+  {
+    "name": "IES Virgen de Valme",
+    "address": {
+      "city": "Dos Hermanas",
+      "province": "Sevilla"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1100790057282269186/DWBaF3hu_400x400.jpg",
+    "coordinates": ["37.2935071","-5.9269845"],
+    "social": {
+      "url": "https://www.iesvirgendevalme.org",
+      "twitter": "https://twitter.com/iesvvalme"
+    }
   }
 ]
