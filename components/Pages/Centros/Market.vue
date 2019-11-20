@@ -1,6 +1,6 @@
 <template>
   <l-marker :lat-lng="center.coordinates" :title="center.name">
-    <l-popup>
+    <l-popup v-show="loading">
       <Popup :center="center" />
     </l-popup>
   </l-marker>
@@ -19,6 +19,14 @@ export default {
       type: Object,
       default: () => {}
     }
+  },
+  data() {
+    return {
+      loading: false
+    }
+  },
+  mounted() {
+    this.loading = true
   }
 }
 </script>
