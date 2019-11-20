@@ -29,17 +29,6 @@
     >
       <v-icon size="18" color="#1da1f2">mdi-twitter</v-icon>
     </v-btn>
-    <!--
-    <div class="mt-1 text-xs-left">
-      <b v-if="center.ambassadors.length > 1">Embajadores</b>
-      <b v-else>Embajador</b>
-      <ul class="mt-1">
-        <li v-for="(ambassador, index) in center.ambassadors" :key="index">
-          {{ ambassador.name }}
-        </li>
-      </ul>
-    </div>
-    -->
   </div>
 </template>
 
