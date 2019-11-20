@@ -12,7 +12,7 @@
       >
         {{ tag }}
       </v-chip>
-      <v-chip v-else :key="tag" class="mr-1" small label disabled>
+      <v-chip v-else :key="tag" class="mr-1" small label outlined>
         {{ tag }}
       </v-chip>
     </template>
