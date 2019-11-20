@@ -6,31 +6,15 @@
       :center="center"
       :options="mapOptions"
     >
-      <v-autocomplete
+      <v-text-field
         v-model="search"
         :items="centers"
-        label="Centros"
-        filled
-        item-text="name"
-        item-value="coordinates"
-        background-color="white"
+        label="Buscar centro"
+        prepend-inner-icon="mdi-domain"
+        append-icon="mdi-map-marker"
         color="primary"
-        clearable
-      >
-        <template v-slot:item="data">
-          <v-list-item-avatar>
-            <VImageLazy :src="data.item.image" :title="data.item.name" />
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title>
-              {{ data.item.name }}
-            </v-list-item-title>
-            <v-list-item-subtitle>
-              {{ data.item.address.city }}, {{ data.item.address.province }}
-            </v-list-item-subtitle>
-          </v-list-item-content>
-        </template>
-      </v-autocomplete>
+        outlined
+      />
       <l-tile-layer :url="url" />
       <Market v-for="(item, index) in filter" :key="index" :center="item" />
     </l-map>
@@ -64,15 +48,12 @@ export default {
   computed: {
     filter() {
       let centers = this.centers
-
       if (this.search !== '') {
         centers = centers.filter(el => {
           return (
-            el.coordinates.toString().search(new RegExp(this.search, 'i')) !==
-            -1
-            // el.name.search(new RegExp(this.search, 'i')) !== -1 ||
-            // el.address.city.search(new RegExp(this.search, 'i')) !== -1 ||
-            // el.address.province.search(new RegExp(this.search, 'i')) !== -1
+            el.name.search(new RegExp(this.search, 'i')) !== -1 ||
+            el.address.city.search(new RegExp(this.search, 'i')) !== -1 ||
+            el.address.province.search(new RegExp(this.search, 'i')) !== -1
           )
         })
       }
@@ -87,6 +68,7 @@ export default {
   height: 600px;
   position: relative;
   z-index: 1;
+  .v-text-field,
   .v-autocomplete {
     position: absolute;
     top: 12px;
