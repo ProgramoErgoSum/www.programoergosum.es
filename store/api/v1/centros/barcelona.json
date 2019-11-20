@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Institut Pau Vila",
+    "address": {
+      "city": "Sabadell",
+      "province": "Barcelona"
+    },
+    "image": "https://pbs.twimg.com/profile_images/804029538703462400/JvSeAxHL_400x400.jpg",
+    "coordinates": ["41.539191","2.0990405"],
+    "social": {
+      "url": "https://agora.xtec.cat/iespauvila/",
+      "twitter": "https://twitter.com/inspauvila"
+    }
+  }
+]
