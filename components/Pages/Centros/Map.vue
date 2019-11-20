@@ -65,7 +65,7 @@ export default {
 
 <style lang="scss" scoped>
 .map {
-  height: 600px;
+  height: 650px;
   position: relative;
   z-index: 1;
   .v-text-field,
