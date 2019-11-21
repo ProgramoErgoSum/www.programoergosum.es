@@ -76,4 +76,13 @@ export default {
     z-index: 999;
   }
 }
+@media only screen and (max-width: 960px) {
+  .map {
+    height: 450px;
+    .v-text-field,
+    .v-autocomplete {
+      display: none;
+    }
+  }
+}
 </style>

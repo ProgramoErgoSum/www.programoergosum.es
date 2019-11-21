@@ -7,32 +7,10 @@
     />
     <v-container fluid>
       <v-row>
-        <v-col
-          xs="12"
-          order-xs="2"
-          sm="12"
-          order-sm="2"
-          md="12"
-          order-md="2"
-          lg="8"
-          order-lg="1"
-          xl="9"
-          order-xl="1"
-        >
+        <v-col cols="12" md="12" lg="8" xl="9">
           <Map :centers="centers" />
         </v-col>
-        <v-col
-          xs="12"
-          order-xs="1"
-          sm="12"
-          order-sm="1"
-          md="12"
-          order-md="1"
-          lg="4"
-          order-lg="2"
-          xl="3"
-          order-xl="2"
-        >
+        <v-col cols="12" md="12" lg="4" xl="3">
           <v-list color="transparent" three-line>
             <v-list-item v-for="(item, key) in faqs" :key="key">
               <v-list-item-avatar>
