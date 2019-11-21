@@ -3,7 +3,7 @@
     "alias": "coderdojo-murcia",
     "title": "Club de Programación y Robótica en Murcia",
     "description": "Club gratuito de programación y robótica para chicos y chicas de 10 a 17 años en Murcia.",
-    "image": "img/preview.png",
+    "image": "img/preview.jpg",
     "tags": ["coderdojo", "murcia", "club"],
     "extra": {
       "address": "Centro Municipal 585m2, Murcia",
@@ -14,7 +14,7 @@
     },
     "date": {
       "cdate": "2017-12-28 11:07:45",
-      "mdate": "2019-07-09 14:05:12"
+      "mdate": "2019-11-21 10:05:12"
     }
   },
   {
