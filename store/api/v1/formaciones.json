@@ -172,8 +172,8 @@
   },
   {
     "alias": "robotica-para-la-integracion-de-alumnos-con-nee",
-    "title": "Robótica para la integración de alumnos con NEE",
-    "description": "Curso de introducción a la programación y robótica para la integración de alumnos con necesidades educativas especiales.",
+    "title": "Robótica para la inclusión de alumnos con NEE",
+    "description": "Curso de programación y robótica para la inclusión de alumnos con necesidades educativas especiales.",
     "image": "img/preview.jpg",
     "tags": ["programación", "robótica", "infantil", "primaria", "secundaria"],
     "speakers": [
