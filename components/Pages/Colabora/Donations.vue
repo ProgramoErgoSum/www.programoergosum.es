@@ -86,6 +86,9 @@ export default {
         twitter: 'https://twitter.com/DavidPons'
       },
       {
+        name: 'Francisco José Marín'
+      },
+      {
         name: 'José Antonio Torrecillas'
       },
       {
