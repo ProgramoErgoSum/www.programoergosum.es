@@ -49,7 +49,7 @@ export default {
   asyncData() {
     const title = 'Gracias'
     const description =
-      'Gracias por colaborar con la iniciativa. En unos días aparecerás en el apartado como colaborador.'
+      'Gracias por colaborar con la iniciativa. En unos días aparecerás en el apartado de donaciones.'
     return {
       title,
       description
