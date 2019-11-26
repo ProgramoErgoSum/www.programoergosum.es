@@ -55,19 +55,16 @@
         </v-col>
       </v-row>
     </v-container>
-
-    <!--
     <Reg />
-    -->
   </div>
 </template>
 
 <script>
-// import Reg from '@/components/Pages/Home/Reg'
+import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    // Reg
+    Reg
   },
   data: () => ({
     faqs: [
