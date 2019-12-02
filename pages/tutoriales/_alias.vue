@@ -27,6 +27,7 @@
           -->
           <Content :raw="raw" :cdn="cdn" />
 
+          <br />
           <Descargas :descargas="descargas" />
 
           <Adsense
