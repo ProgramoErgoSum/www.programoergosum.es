@@ -39,7 +39,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "10 minutos",
-      "videos": "1 vídeo"
+      "videos": "1 vídeo",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-01-15 17:53:47",
@@ -62,7 +63,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "5 vídeos"
+      "videos": "5 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -85,7 +87,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -108,7 +111,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -132,7 +136,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -155,7 +160,8 @@
     "extra": {
       "level": "Medio",
       "duration": "60 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -178,7 +184,8 @@
     "extra": {
       "level": "Medio",
       "duration": "60 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -201,7 +208,8 @@
     "extra": {
       "level": "Medio",
       "duration": "60 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -224,7 +232,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "60 minutos",
-      "videos": "5 vídeos"
+      "videos": "5 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -247,7 +256,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "60 minutos",
-      "videos": "5 vídeos"
+      "videos": "5 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -270,7 +280,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "60 minutos",
-      "videos": "5 vídeos"
+      "videos": "5 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -293,7 +304,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "60 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -316,7 +328,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "60 minutos",
-      "videos": "5 vídeos"
+      "videos": "5 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -339,7 +352,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "30 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -362,7 +376,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -385,7 +400,8 @@
     "extra": {
       "level": "Medio",
       "duration": "60 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -408,7 +424,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -431,7 +448,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "30 minutos",
-      "videos": "2 vídeos"
+      "videos": "2 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -454,7 +472,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": "2 vídeos"
+      "videos": "2 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -477,7 +496,8 @@
     "extra": {
       "level": "Medio",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-28 10:42:24",
@@ -505,7 +525,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -528,7 +549,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -551,7 +573,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "30 minutos",
-      "videos": "2 vídeos"
+      "videos": "2 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -574,7 +597,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "30 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -597,7 +621,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "30 minutos",
-      "videos": "1 vídeo"
+      "videos": "1 vídeo",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -620,7 +645,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "30 minutos",
-      "videos": "2 vídeos"
+      "videos": "2 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -643,7 +669,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": "2 vídeos"
+      "videos": "2 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -666,7 +693,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -689,7 +717,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -712,7 +741,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "1 vídeo"
+      "videos": "1 vídeo",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -735,7 +765,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -758,7 +789,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -781,7 +813,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -804,7 +837,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -828,7 +862,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "1 vídeo"
+      "videos": "1 vídeo",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-02-11 13:42:34",
@@ -851,7 +886,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "1 vídeo"
+      "videos": "1 vídeo",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-02-11 13:42:34",
@@ -879,7 +915,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -902,7 +939,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "120 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -925,7 +963,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "120 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -948,7 +987,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "120 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -971,7 +1011,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "120 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -994,7 +1035,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -1017,7 +1059,8 @@
     "extra": {
       "level": "Medio",
       "duration": "60 minutos",
-      "videos": "6 vídeos"
+      "videos": "6 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -1040,7 +1083,8 @@
     "extra": {
       "level": "Medio",
       "duration": "60 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -1066,7 +1110,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -1089,7 +1134,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -1112,7 +1158,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "60 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -1135,7 +1182,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "120 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-01-26 15:57:33",
@@ -1163,7 +1211,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1186,7 +1235,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1209,7 +1259,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1232,7 +1283,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "20 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1255,7 +1307,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "20 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1278,7 +1331,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1301,7 +1355,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1324,7 +1379,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "10 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-10-26 11:31:24",
@@ -1347,7 +1403,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1370,7 +1427,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1393,7 +1451,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1416,7 +1475,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1439,7 +1499,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1462,7 +1523,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1485,7 +1547,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "60 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -1508,7 +1571,8 @@
     "extra": {
       "level": "Medio",
       "duration": "30 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1531,7 +1595,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1554,7 +1619,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1577,7 +1643,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "60 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1600,7 +1667,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1623,7 +1691,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1646,7 +1715,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1669,7 +1739,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1693,7 +1764,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1716,7 +1788,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1740,7 +1813,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "60 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1763,7 +1837,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "60 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1786,7 +1861,8 @@
     "extra": {
       "level": "Avanzado",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1809,7 +1885,8 @@
     "extra": {
       "level": "Medio",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1832,7 +1909,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1855,7 +1933,8 @@
     "extra": {
       "level": "Medio",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1878,7 +1957,8 @@
     "extra": {
       "level": "Medio",
       "duration": "30 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -1906,7 +1986,8 @@
     "extra": {
       "level": "Medio",
       "duration": "30 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -1929,7 +2010,8 @@
     "extra": {
       "level": "Medio",
       "duration": "30 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -1952,7 +2034,8 @@
     "extra": {
       "level": "Medio",
       "duration": "30 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -1975,7 +2058,8 @@
     "extra": {
       "level": "Medio",
       "duration": "30 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-02-11 13:42:34",
@@ -2004,7 +2088,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "30 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
@@ -2034,7 +2119,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-11-17 10:57:33",
@@ -2057,7 +2143,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-11-17 10:57:33",
@@ -2080,7 +2167,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-11-17 10:57:33",
@@ -2103,7 +2191,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-11-17 10:57:33",
@@ -2126,7 +2215,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-11-17 10:57:33",
@@ -2156,7 +2246,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "15 minutos",
-      "videos": ""
+      "videos": "",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -2179,7 +2270,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -2202,7 +2294,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "30 minutos",
-      "videos": "2 vídeos"
+      "videos": "2 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2018-01-26 15:57:33",
@@ -2230,7 +2323,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -2253,7 +2347,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -2276,7 +2371,8 @@
     "extra": {
       "level": "Iniciación",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -2299,7 +2395,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": "2 vídeos"
+      "videos": "2 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -2322,7 +2419,8 @@
     "extra": {
       "level": "Medio",
       "duration": "60 minutos",
-      "videos": "5 vídeos"
+      "videos": "5 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -2345,7 +2443,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": "3 vídeos"
+      "videos": "3 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -2368,7 +2467,8 @@
     "extra": {
       "level": "Medio",
       "duration": "45 minutos",
-      "videos": "4 vídeos"
+      "videos": "4 vídeos",
+      "descargas": []
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",

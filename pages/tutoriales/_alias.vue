@@ -27,10 +27,7 @@
           -->
           <Content :raw="raw" :cdn="cdn" />
 
-          <Descargas
-            v-if="tutorial.extra.descargas"
-            :descargas="tutorial.extra.descargas"
-          />
+          <Descargas :descargas="descargas" />
 
           <Adsense
             type="inarticle"
@@ -48,11 +45,7 @@
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
-            <Toc
-              :raw="raw"
-              title="Lecciones"
-              :descargas="tutorial.extra.descargas"
-            />
+            <Toc :raw="raw" title="Lecciones" :descargas="descargas" />
           </div>
         </v-col>
       </v-row>
@@ -123,6 +116,8 @@ export default {
 
       raw: file,
       cdn: `${urlRaw}/`,
+
+      descargas: tutorial.extra.descargas,
 
       breadcrumbs: [
         {

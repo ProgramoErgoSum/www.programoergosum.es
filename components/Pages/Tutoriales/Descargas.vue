@@ -1,5 +1,5 @@
 <template>
-  <v-card color="secondary" dark class="mt-12 mb-12">
+  <v-card v-if="descargas.length" color="secondary" dark class="mt-12 mb-12">
     <v-card-title id="descargas" class="headline">
       <v-icon size="30" class="mr-3">mdi-download</v-icon>
       Descarga los materiales
