@@ -27,9 +27,6 @@
           -->
           <Content :raw="raw" :cdn="cdn" />
 
-          <br />
-          <Descargas :descargas="descargas" />
-
           <Adsense
             type="inarticle"
             :data-ad-slot="adsense.bottom"
@@ -63,7 +60,6 @@ import axios from 'axios'
 
 import Tags from '@/components/Pages/Tutoriales/Tags'
 import Content from '@/components/Markdown/Content'
-import Descargas from '@/components/Pages/Tutoriales/Descargas'
 import Toc from '@/components/Markdown/Toc'
 import Related from '@/components/Pages/Tutoriales/Related'
 
@@ -71,7 +67,6 @@ export default {
   components: {
     Tags,
     Content,
-    Descargas,
     Toc,
     Related
   },
@@ -117,8 +112,6 @@ export default {
 
       raw: file,
       cdn: `${urlRaw}/`,
-
-      descargas: tutorial.extra.descargas,
 
       breadcrumbs: [
         {
