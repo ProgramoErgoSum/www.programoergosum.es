@@ -27,6 +27,11 @@
           -->
           <Content :raw="raw" :cdn="cdn" />
 
+          <Descargas
+            v-if="tutorial.extra.descargas"
+            :descargas="tutorial.extra.descargas"
+          />
+
           <Adsense
             type="inarticle"
             :data-ad-slot="adsense.bottom"
@@ -43,7 +48,11 @@
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
-            <Toc :raw="raw" title="Lecciones" />
+            <Toc
+              :raw="raw"
+              title="Lecciones"
+              :descargas="tutorial.extra.descargas"
+            />
           </div>
         </v-col>
       </v-row>
@@ -60,6 +69,7 @@ import axios from 'axios'
 
 import Tags from '@/components/Pages/Tutoriales/Tags'
 import Content from '@/components/Markdown/Content'
+import Descargas from '@/components/Pages/Tutoriales/Descargas'
 import Toc from '@/components/Markdown/Toc'
 import Related from '@/components/Pages/Tutoriales/Related'
 
@@ -67,6 +77,7 @@ export default {
   components: {
     Tags,
     Content,
+    Descargas,
     Toc,
     Related
   },

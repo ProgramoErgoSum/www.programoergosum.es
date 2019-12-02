@@ -24,6 +24,13 @@
           </v-list-item-content>
         </v-list-item>
       </template>
+      <v-list-item v-if="descargas" @click="goTo('descargas', $event)">
+        <v-list-item-content id="descargas">
+          <v-list-item-title class="font-weight-regular body-2">
+            Descarga los materiales
+          </v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
     </v-list-item-group>
   </v-list>
 </template>
@@ -41,6 +48,10 @@ export default {
     },
     title: {
       type: String,
+      default: null
+    },
+    descargas: {
+      type: Array,
       default: null
     }
   },
