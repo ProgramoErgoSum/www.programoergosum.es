@@ -104,7 +104,7 @@ export default {
           {
             title: '¿Puedo preguntar dudas por email?',
             description:
-              'No, por email ya no resolvemos dudas. si tienes alguna duda puedes ponerla como comentario en los vídeos de YouTube o en el apartado de dudas.'
+              'No, por email ya no resolvemos dudas. Si tienes alguna duda puedes ponerla como comentario en los vídeos de YouTube o en el apartado de dudas.'
           }
         ]
       },
