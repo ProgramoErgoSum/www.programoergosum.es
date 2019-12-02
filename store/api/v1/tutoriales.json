@@ -64,7 +64,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "5 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego del Laberinto [Laberinto.sb2]", "Reto 1: Evitar atravesar las paredes [Reto-1.sb2]", "Reto 2: Añade un temporizador [Reto-2.sb2]", "Reto 3: Oscurece la visión del personaje [Reto-3.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -88,7 +88,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "4 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Pong [Pong.sb2]", "Reto 1: Evitar atravesar las paredes [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -112,7 +112,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Pájaros [Pajaros.sb2]", "Reto 1: Consigue 10 puntos y gana la partida [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -137,7 +137,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Fútbol [Futbol.sb2]", "Reto 1: El Jugador 1 mueve más rápido el balón [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -161,7 +161,7 @@
       "level": "Medio",
       "duration": "60 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Arkanoid [Arkanoid.sb2]", "Reto 1: Movimiento de la nave mediante teclado [Reto-1.sb2]", "Reto 2: Cambio de disfraces [Reto-2.sb2]", "Reto 3: Efecto de bloque al desaparecer [Reto-3.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -185,7 +185,7 @@
       "level": "Medio",
       "duration": "60 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Duck Hunt [Duck-hunt.sb2]", "Reto 1: Dispara pulsando la tecla espacio [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -209,7 +209,7 @@
       "level": "Medio",
       "duration": "60 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Flappy Bird [Flappy-bird.sb2]", "Reto 1: Aumentar la subida de Flappy según el nivel [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -233,7 +233,7 @@
       "level": "Avanzado",
       "duration": "60 minutos",
       "videos": "5 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Space Invaders [Space-invaders.sb2]", "Reto 1: Disparo metralleta [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -257,7 +257,7 @@
       "level": "Avanzado",
       "duration": "60 minutos",
       "videos": "5 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Frogger [Frogger.sb2]", "Reto 1: Consigue puntos al tocar la hoja de lirio [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -281,7 +281,7 @@
       "level": "Avanzado",
       "duration": "60 minutos",
       "videos": "5 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Battle City [Battle-city.sb2]", "Reto 1: Haz desaparecer los tanques al finalizar la partida [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -305,7 +305,7 @@
       "level": "Avanzado",
       "duration": "60 minutos",
       "videos": "4 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Pac-Man [Pac-man.sb2]", "Reto 1: Crea diferentes tipos de comida [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -329,7 +329,7 @@
       "level": "Avanzado",
       "duration": "60 minutos",
       "videos": "5 vídeos",
-      "descargas": []
+      "descargas": ["VideoJuego de Berzerk [Berzerk.sb2]", "Reto 1: Crea diferentes tipos de enemigos [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -353,7 +353,7 @@
       "level": "Iniciación",
       "duration": "30 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["Aprende las vocales [Vocales.sb2]", "Reto 1: Utiliza tu propia voz [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -377,7 +377,7 @@
       "level": "Medio",
       "duration": "45 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["Pokemon Go [Pokemon.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -401,7 +401,7 @@
       "level": "Medio",
       "duration": "60 minutos",
       "videos": "4 vídeos",
-      "descargas": []
+      "descargas": ["Efecto nieve [Nieve.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -425,7 +425,7 @@
       "level": "Medio",
       "duration": "45 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["Efecto altavoz [Altavoz.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -449,7 +449,7 @@
       "level": "Iniciación",
       "duration": "30 minutos",
       "videos": "2 vídeos",
-      "descargas": []
+      "descargas": ["Control de volumen [Volumen.sb2]", "Reto 1: Añade nuevos puntos de corte [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -473,7 +473,7 @@
       "level": "Medio",
       "duration": "45 minutos",
       "videos": "2 vídeos",
-      "descargas": []
+      "descargas": ["Gráficas de audio [Graficas.sb2]", "Reto 1: Aumenta la altura de la gráfica [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -598,7 +598,7 @@
       "level": "Iniciación",
       "duration": "30 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["Frutas musicales con Scratch [Frutas-musicales.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -622,7 +622,7 @@
       "level": "Iniciación",
       "duration": "30 minutos",
       "videos": "1 vídeo",
-      "descargas": []
+      "descargas": ["Código secreto con Scratch [Codigo-secreto.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -646,7 +646,7 @@
       "level": "Iniciación",
       "duration": "30 minutos",
       "videos": "2 vídeos",
-      "descargas": []
+      "descargas": ["Ejemplos de juegos con Scratch [Scratch.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -670,7 +670,7 @@
       "level": "Medio",
       "duration": "45 minutos",
       "videos": "2 vídeos",
-      "descargas": []
+      "descargas": ["El Cuerpo Humano con Scratch [El-cuerpo-humano.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -694,7 +694,7 @@
       "level": "Medio",
       "duration": "45 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["Juego de operación [Juego-de-operacion.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -766,7 +766,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "",
-      "descargas": []
+      "descargas": ["Led RGB en mBot [Led-rgb.sb2]", "Reto 1: Luces aleatorias [Reto-1.sb2]", "Reto 2: Detecta el sonido [Reto-2.sb2]", "Reto 3: Tonalidades RGB [Reto-3.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -790,7 +790,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["Ultrasonidos en mBot [Ultrasonidos.sb2]", "Reto 1: Pelotas de tenis [Reto-1.sb2]", "Reto 2: Disminuyendo la velocidad [Reto-2.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -814,7 +814,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "3 vídeos",
-      "descargas": []
+      "descargas": ["Sigue-líneas sobre Scratch [Scratch.sb2]", "Sigue-líneas sobre mBlock [mBlock.sb2]", "Reto 1: Aumentando la velocidad [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -838,7 +838,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "",
-      "descargas": []
+      "descargas": ["Mando IR en mBot [Mando.sb2]", "Reto 1: Aumentando la velocidad [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2017-06-01 00:00:00",
@@ -863,7 +863,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "1 vídeo",
-      "descargas": []
+      "descargas": ["VideoJuego de tocado [Tocado.sb2]", "Reto 1: Añade una variable de tiempo [Reto-1.sb2]"]
     },
     "date": {
       "cdate": "2018-02-11 13:42:34",
@@ -887,7 +887,7 @@
       "level": "Iniciación",
       "duration": "45 minutos",
       "videos": "1 vídeo",
-      "descargas": []
+      "descargas": ["VideoJuego de Arkanoid [Arkanoid.sb2]"]
     },
     "date": {
       "cdate": "2018-02-11 13:42:34",
