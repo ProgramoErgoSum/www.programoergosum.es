@@ -99,7 +99,12 @@ export default {
           {
             title: '¿Cómo descargo los materiales?',
             description:
-              'Solamente los profesores verificados podrán obtener los materiales con el fin de ayudar a sus alumnos en clase. Solicita el acceso como profesor.'
+              'Solamente los centros y profesores verificados podrán obtener los materiales con el fin de ayudar a sus alumnos en clase.'
+          },
+          {
+            title: '¿Puedo preguntar dudas por email?',
+            description:
+              'No, por email ya no resolvemos dudas. si tienes alguna duda puedes ponerla como comentario en los vídeos de YouTube o en el apartado de dudas.'
           }
         ]
       },
