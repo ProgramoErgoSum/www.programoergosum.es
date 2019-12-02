@@ -46,7 +46,7 @@
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
-            <Toc :raw="raw" title="Lecciones" :descargas="descargas" />
+            <Toc :raw="raw" title="Lecciones" />
           </div>
         </v-col>
       </v-row>
