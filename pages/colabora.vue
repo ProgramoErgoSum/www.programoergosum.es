@@ -6,30 +6,30 @@
       :image="metas.image"
     />
     <section class="py-12">
+      <Patrons />
+    </section>
+
+    <section class="py-12" :class="background">
       <v-container>
         <v-row>
           <v-col cols="12">
-            <h2 class="mb-3">
-              ¿Por qué necesitamos donaciones?
-            </h2>
-            <p>
+            <p class="headline font-weight-light">
               Cuando en 2015 se creó la Asociación Programo Ergo Sum, se
-              estableció como una <b>entidad sin ánimo de lucro</b> para que
-              cualquier persona pudiera aprender informática, programación,
-              electrónica y robótica educativa <b>gratis</b> a través de
-              videotutoriales y sin moverse de su casa. Hemos trabajado duro
-              durante años para cumplir con los fines y objetivos de la
+              estableció como una entidad sin ánimo de lucro para que cualquier
+              persona pudiera
+              <b class="font-weight-bold">
+                aprender informática, programación, electrónica y robótica
+                educativa gratis
+              </b>
+              a través de videotutoriales y sin moverse de su casa. Hemos
+              trabajado duro durante años para cumplir con los fines y objetivos
+              de la
               <nuxt-link to="/asociacion" title="Asociación Programo Ergo Sum">
                 asociación
               </nuxt-link>
               y el camino no ha hecho nada más que empezar.
             </p>
-            <p>
-              Nuestros proyectos educativos, <b>además de gratuitos</b>,
-              <b>son libres y de código abierto</b>, lo que significa que puedes
-              acceder a todo el contenido de los tutoriales así como al código
-              fuente.
-            </p>
+
             <h2 class="mt-12 mb-3">
               ¿A qué se destinan las donaciones?
             </h2>
@@ -54,9 +54,7 @@
         </v-row>
       </v-container>
     </section>
-    <section class="py-12" :class="background">
-      <Patrons />
-    </section>
+
     <section class="py-12">
       <Donations />
     </section>
