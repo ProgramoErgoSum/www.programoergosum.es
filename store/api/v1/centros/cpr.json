@@ -39,6 +39,19 @@
     }
   },
   {
+    "name": "Departament d’Educació",
+    "address": {
+      "city": "Bigues i Riells",
+      "province": "Barcelona"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1053549569307492354/2ihyZCJ6_400x400.jpg",
+    "coordinates": ["41.5989802","2.1615076"],
+    "social": {
+      "url": "https://serveiseducatius.xtec.cat/vallesoriental4/",
+      "twitter": "https://twitter.com/sevoriental4"
+    }
+  },
+  {
     "name": "Centro del Profesorado",
     "address": {
       "city": "Lora del Río",
