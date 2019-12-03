@@ -19,15 +19,7 @@ const state = () => ({
 
 const getters = {
   adsense: state => state.adsense,
-  related: state => item => {
-    const blogs = []
-    item.tags.map(tag => {
-      state.list.map(el => {
-        if (el.tags.includes(tag) && el.title !== item.title) blogs.push(el)
-      })
-    })
-    return blogs.slice(0, 3)
-  }
+  list: state => state.list
 }
 
 const actions = {}

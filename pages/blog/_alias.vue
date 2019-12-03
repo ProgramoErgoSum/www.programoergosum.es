@@ -37,29 +37,7 @@
       </v-row>
     </v-container>
 
-    <section
-      v-show="related.length > 1"
-      class="mt-12 py-12"
-      :class="background"
-    >
-      <v-container>
-        <v-row>
-          <v-col cols="12">
-            <h2>También te puede interesar</h2>
-          </v-col>
-          <v-col
-            v-for="blog in related"
-            :key="blog.alias"
-            cols="12"
-            xs="12"
-            sm="12"
-            md="4"
-          >
-            <ItemCol :blog="blog" />
-          </v-col>
-        </v-row>
-      </v-container>
-    </section>
+    <Related :blog="blog" />
   </div>
 </template>
 
@@ -69,14 +47,14 @@ import { mapGetters } from 'vuex'
 import axios from 'axios'
 
 import Content from '@/components/Markdown/Content'
-import ItemCol from '@/components/Pages/Blog/ItemCol'
 import Toc from '@/components/Markdown/Toc'
+import Related from '@/components/Pages/Blog/Related'
 
 export default {
   components: {
     Content,
-    ItemCol,
-    Toc
+    Toc,
+    Related
   },
   computed: {
     ...mapGetters({ adsense: 'blogs/adsense' }),
@@ -101,6 +79,8 @@ export default {
     })
 
     return {
+      blog,
+
       title: blog.title,
       description: blog.description,
       image: `${urlRaw}/${blog.image}`,
@@ -114,8 +94,6 @@ export default {
       cdn: `${urlRaw}/`,
 
       isAdsense: blog.adsense === true,
-
-      related: store.getters['blogs/related'](blog),
 
       breadcrumbs: [
         {
