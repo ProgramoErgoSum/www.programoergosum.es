@@ -20,14 +20,9 @@
     "image": "/images/colabora.png"
   },
   "centros": {
-    "title": "Centros educativos colaboradores",
+    "title": "Centros educativos",
     "description": "Cada alumno de cada escuela debería tener la oportunidad de aprender informática, programación y robótica. ¡Ayúdanos a hacerlo posible!",
     "image": "/images/centros.png"
-  },
-  "merchandising": {
-    "title": "Merchandising",
-    "description": "Una forma de colaborar es ayudarnos a difundir la iniciativa. ¿Quieres colaborar?",
-    "image": "/images/preview.png"
   },
   "contacto": {
     "title": "Contacta con nosotros",

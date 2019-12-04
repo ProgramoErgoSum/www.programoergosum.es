@@ -115,13 +115,7 @@ export default {
       priority: 0.5,
       lastmod: new Date()
     },
-    exclude: [
-      '/404',
-      '/legal',
-      '/gracias',
-      '/merchandising',
-      '/tutoriales/tags'
-    ],
+    exclude: ['/404', '/legal', '/gracias', '/tutoriales/tags'],
     routes() {
       const pagesFormaciones = apiFormaciones.map(el => {
         return {
