@@ -1,5 +1,18 @@
 [
   {
+    "name": "IES Miguel hernández",
+    "address": {
+      "city": "Bigastro",
+      "province": "Alicante"
+    },
+    "image": "https://scontent.fpmi1-1.fna.fbcdn.net/v/t1.0-0/p370x247/16832401_1868262336775223_7963350401608076575_n.jpg?_nc_cat=105&_nc_ohc=3AwbZLGE2MQAQkPHRAbFSCHRoku-7tE308r7V8U-TSelje3ggU7Y9O4UQ&_nc_ht=scontent.fpmi1-1.fna&oh=3280d5aab98749dccacf2b6871556570&oe=5E75D4E7",
+    "coordinates": ["38.0636826","-0.9079628"],
+    "social": {
+      "url": "http://iesbigastro.edu.gva.es/wp/",
+      "twitter": ""
+    }
+  },
+  {
     "name": "IES Monastil",
     "address": {
       "city": "Elda",

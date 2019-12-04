@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Cor De María",
+    "address": {
+      "city": "Sant Feliu de Guíxols",
+      "province": "Girona"
+    },
+    "image": "https://pbs.twimg.com/profile_images/526866597256781824/nB1thrvC_400x400.jpeg",
+    "coordinates": ["41.7832262","3.0267917"],
+    "social": {
+      "url": "https://www.fundaciocordemariasantjosep.com/",
+      "twitter": "https://twitter.com/CorMariaStJosep"
+    }
+  },
+  {
+    "name": "Sant Josep",
+    "address": {
+      "city": "Sant Feliu de Guíxols",
+      "province": "Girona"
+    },
+    "image": "https://pbs.twimg.com/profile_images/526866597256781824/nB1thrvC_400x400.jpeg",
+    "coordinates": ["41.7832262","3.0267917"],
+    "social": {
+      "url": "https://www.fundaciocordemariasantjosep.com/",
+      "twitter": "https://twitter.com/CorMariaStJosep"
+    }
+  }
+]
