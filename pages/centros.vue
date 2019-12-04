@@ -33,108 +33,60 @@
                   nuxt
                   color="secondary"
                 >
-                  Solicitud de centro
+                  Solicitud de centro colaborador
                 </v-btn>
+                <br />
+                <p class="mt-3 caption">
+                  * Solo si consideramos que estás colaborando o ayudando de
+                  alguna forma a la asociación aparecerás en el mapa como centro
+                  educativo colaborador.
+                </p>
               </v-list-item-content>
             </v-list-item>
           </v-list>
         </v-col>
       </v-row>
     </v-container>
-    <!--
-    <v-container fluid>
-      <v-row>
-        <v-col cols="12">
-          <v-text-field
-            v-model="search"
-            label="Buscar"
-            outlined
-            rounded
-            :messages="`${filter.length} centros educativos inscritos`"
-            append-icon="mdi-magnify"
-            validate-on-blur
-          />
-        </v-col>
-        <v-col
-          v-for="(item, index) in filter"
-          :key="index"
-          xs="6"
-          sm="4"
-          md="3"
-          lg="2"
-          xl="2"
-          class="pa-2"
-        >
-          <Popup :center="item" />
-        </v-col>
-      </v-row>
-    </v-container>
-    -->
   </div>
 </template>
 
 <script>
 import Map from '@/components/Pages/Centros/Map'
-// import Popup from '@/components/Pages/Centros/Popup'
 
 export default {
   components: {
     Map
-    // Popup
   },
   data: () => ({
     search: '',
     faqs: [
       {
         icon: 'mdi-domain',
-        title: 'Formación del profesorado',
-        description: 'Centros de profesores y recursos'
+        title: 'Centros educativos públicos',
+        description: 'Apostamos por una enseñanza pública y gratuita'
       },
       {
         icon: 'mdi-school',
-        title: 'Centros de enseñanza',
-        description: 'Colegios e institutos públicos'
+        title: 'En el aula con tus alumnos',
+        description: 'Utiliza nuestras plataformas educativas'
       },
       {
-        icon: 'mdi-chat-outline',
-        title: 'Ayúdanos a mejorar',
-        description: 'Ponte en contacto con nosotros de forma regular'
+        icon: 'mdi-chat',
+        title: 'Difunde la iniciativa',
+        description: 'Síguenos en las redes sociales y difunde'
       },
       {
-        icon: 'mdi-account-multiple',
-        title: 'En el aula',
-        description: 'Utiliza nuestras plataformas con tus alumnos'
+        icon: 'mdi-heart-multiple',
+        title: 'Colabora con la iniciativa',
+        description: 'Puedes colaborar de cualquier forma'
       },
       {
         icon: 'mdi-map-marker',
         title: 'Sitúate en el mapa',
-        description: 'Aparecerás en el mapa como centro colaborador'
+        description: 'Aparecerás en el mapa de centros educativos'
       }
     ]
   }),
-  /*
-  computed: {
-    filter() {
-      let centers = this.centers
-
-      if (this.search !== '') {
-        const search = this.search.toLowerCase()
-        centers = centers.filter(el => {
-          const name = el.name.toLowerCase()
-          const city = el.address.city.toLowerCase()
-          const province = el.address.province.toLowerCase()
-          return (
-            name.search(search) !== -1 ||
-            city.search(search) !== -1 ||
-            province.search(search) !== -1
-          )
-        })
-      }
-
-      return centers
-    }
-  },
-  */
   asyncData({ store }) {
     return {
       metas: store.state.metas.centros,

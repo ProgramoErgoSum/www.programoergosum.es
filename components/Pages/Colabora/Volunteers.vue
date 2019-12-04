@@ -21,8 +21,8 @@
         <div class="my-6">
           <p>
             Buscamos personas que quieran
-            <b>colaborar desinteresadamentes</b>. Personas interesadas en
-            aportar sus conocimientos, experiencia y tiempo en los talleres
+            <b>compartir sus conocimientos desinteresadamente</b>. Personas
+            interesadas en aportar su experiencia y tiempo en los talleres
             gratuitos que hacemos en la Región de Murcia. ¿Te apetece?
           </p>
           <v-btn to="/contacto" nuxt tile outlined>

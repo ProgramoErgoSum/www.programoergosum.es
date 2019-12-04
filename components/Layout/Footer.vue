@@ -205,16 +205,6 @@ export default {
         title: 'Nosotros',
         to: '/asociacion'
       },
-      /*
-      {
-        title: 'Centros',
-        to: '/centros'
-      },
-      {
-        title: 'Colabora',
-        to: '/colabora'
-      },
-      */
       {
         title: 'Extraescolares',
         to: '/actividades'
@@ -233,12 +223,6 @@ export default {
         title: 'Formación del profesorado',
         to: '/formaciones'
       },
-      /*
-      {
-        title: 'Cursos de programación',
-        href: 'https://www.programoergosum.com'
-      },
-      */
       {
         title: 'Aprende con las STEM',
         href: 'https://www.aprendeprogramando.es'

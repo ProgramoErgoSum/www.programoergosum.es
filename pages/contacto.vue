@@ -77,7 +77,7 @@ export default {
               'Nuestro objetivo principal es acercar las nuevas tecnologías a todas las edades. Cada alumno de cada escuela debería tener la oportunidad de aprender informática, programación y robótica.'
           },
           {
-            title: '¿Cómo puedo colaborar?',
+            title: '¿Puedo realizar una donación?',
             description:
               'Puedes realizar una donación totalmente desinteresada y el importe estará destinado al mantenimiento de las plataformas educativas y nuevas mejoras informáticas.'
           },

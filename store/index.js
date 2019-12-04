@@ -49,7 +49,7 @@ const state = () => ({
       to: '/centros'
     },
     {
-      title: 'Colabora',
+      title: 'Donaciones',
       icon: 'mdi-account-heart-outline',
       to: '/colabora'
     }
