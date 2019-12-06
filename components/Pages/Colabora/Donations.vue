@@ -92,6 +92,9 @@ export default {
         name: 'José Antonio Torrecillas'
       },
       {
+        name: 'María Bouvier'
+      },
+      {
         name: 'Maria Moure'
       },
       {
