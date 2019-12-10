@@ -21,8 +21,8 @@
               </v-list-item-icon>
               <v-list-item-content>
                 <v-list-item-title
-                  class="font-weight-regular body-2"
                   v-text="tag.name"
+                  class="font-weight-regular body-2"
                 />
               </v-list-item-content>
             </v-list-item>
@@ -54,8 +54,8 @@
               </v-list-item-icon>
               <v-list-item-content>
                 <v-list-item-title
-                  class="font-weight-regular body-2"
                   v-text="tag.name"
+                  class="font-weight-regular body-2"
                 />
               </v-list-item-content>
             </v-list-item>
@@ -87,8 +87,8 @@
               </v-list-item-icon>
               <v-list-item-content>
                 <v-list-item-title
-                  class="font-weight-regular body-2"
                   v-text="tag.name"
+                  class="font-weight-regular body-2"
                 />
               </v-list-item-content>
             </v-list-item>

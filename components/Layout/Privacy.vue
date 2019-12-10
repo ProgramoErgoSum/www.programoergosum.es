@@ -1,5 +1,5 @@
 <template>
-  <v-snackbar v-model="snackbar" bottom left :timeout="timeout">
+  <v-snackbar v-model="snackbar" :timeout="timeout" bottom left>
     <p class="ma-0 pa-0">
       Utilizamos cookies propias y de terceros para obtener datos estadísticos
       de la navegación de nuestros usuarios. Si continúa navegando consideramos
@@ -12,7 +12,7 @@
         Ver más
       </nuxt-link>
     </p>
-    <v-btn text small @click="close">
+    <v-btn @click="close" text small>
       Cerrar
     </v-btn>
   </v-snackbar>

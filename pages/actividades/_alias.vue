@@ -19,7 +19,7 @@
       </v-row>
     </v-container>
 
-    <section class="mt-12 py-12" :class="background">
+    <section :class="background" class="mt-12 py-12">
       <Volunteers />
     </section>
   </div>

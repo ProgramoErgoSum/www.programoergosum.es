@@ -3,8 +3,8 @@
     <v-avatar size="110">
       <VImageLazy
         :src="card.image"
-        lazy-src="/lazy-user.png"
         :title="card.name"
+        lazy-src="/lazy-user.png"
       />
     </v-avatar>
     <p class="my-3">
@@ -15,8 +15,8 @@
     </p>
     <v-btn
       v-if="card.social.url"
-      icon
       :href="card.social.url"
+      icon
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Url"
@@ -25,8 +25,8 @@
     </v-btn>
     <v-btn
       v-if="card.social.twitter"
-      icon
       :href="card.social.twitter"
+      icon
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Twitter"
@@ -35,8 +35,8 @@
     </v-btn>
     <v-btn
       v-if="card.social.github"
-      icon
       :href="card.social.github"
+      icon
       target="_blank"
       rel="noopener noreferrer"
       aria-label="GitHub"

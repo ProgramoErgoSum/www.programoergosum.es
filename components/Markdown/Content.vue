@@ -1,6 +1,6 @@
 <template>
   <!-- eslint-disable-next-line vue/no-v-html -->
-  <div class="DynamicMarkdown" v-html="renderer" />
+  <div v-html="renderer" class="DynamicMarkdown" />
 </template>
 
 <script>

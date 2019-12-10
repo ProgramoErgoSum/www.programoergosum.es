@@ -1,5 +1,5 @@
 <template>
-  <div class="title primary" :style="background()">
+  <div :style="background()" class="title primary">
     <v-container class="pb-6">
       <v-row>
         <v-col class="pt-12" cols="12">
@@ -12,8 +12,8 @@
         </v-col>
         <v-col cols="12">
           <v-breadcrumbs
-            class="breadcrumb hidden-sm-and-down pa-0"
             :items="breadcrumbs"
+            class="breadcrumb hidden-sm-and-down pa-0"
             divider=">"
           >
             <template v-slot:item="props">

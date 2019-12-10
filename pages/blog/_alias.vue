@@ -12,8 +12,8 @@
           <div class="sticky-top">
             <Adsense
               v-if="isAdsense"
-              type="display"
               :data-ad-slot="adsense.left"
+              type="display"
               class="mb-0 pb-0"
             />
           </div>

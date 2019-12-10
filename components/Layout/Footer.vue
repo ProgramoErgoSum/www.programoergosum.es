@@ -9,11 +9,11 @@
               v-for="social in socials"
               :key="social.icon"
               :href="social.href"
+              :aria-label="social.name"
               class="ma-0 mr-2"
               rel="noopener noreferrer"
               target="_blank"
               icon
-              :aria-label="social.name"
             >
               <v-icon class="grey--text">
                 {{ social.icon }}
@@ -36,10 +36,10 @@
                 </li>
                 <li v-if="item.href" :key="index">
                   <a
-                    rel="noopener noreferrer"
-                    target="_blank"
                     :href="item.href"
                     :title="item.title"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     {{ item.title }}
                     <v-icon class="pl-1" size="12">mdi-open-in-new</v-icon>
@@ -64,10 +64,10 @@
                 </li>
                 <li v-if="item.href" :key="index">
                   <a
-                    rel="noopener noreferrer"
-                    target="_blank"
                     :href="item.href"
                     :title="item.title"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     {{ item.title }}
                     <v-icon class="pl-1" size="12" dark>

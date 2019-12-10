@@ -8,7 +8,7 @@
 
     <v-spacer />
 
-    <v-app-bar-nav-icon class="hidden-md-and-up" @click="toggleDrawer" />
+    <v-app-bar-nav-icon @click="toggleDrawer" class="hidden-md-and-up" />
 
     <div class="navigation hidden-sm-and-down">
       <template v-for="(item, index) in navigation">

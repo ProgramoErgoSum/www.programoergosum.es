@@ -13,10 +13,10 @@
           <v-chip
             v-if="item.twitter"
             :key="key"
+            :href="item.twitter"
             label
             outlined
             class="ma-1"
-            :href="item.twitter"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -28,10 +28,10 @@
           <v-chip
             v-else-if="item.website"
             :key="key"
+            :href="item.website"
             label
             outlined
             class="ma-1"
-            :href="item.website"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -11,8 +11,8 @@
     </p>
     <v-btn
       v-if="center.social.url"
-      icon
       :href="center.social.url"
+      icon
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Url"
@@ -21,8 +21,8 @@
     </v-btn>
     <v-btn
       v-if="center.social.twitter"
-      icon
       :href="center.social.twitter"
+      icon
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Twitter"

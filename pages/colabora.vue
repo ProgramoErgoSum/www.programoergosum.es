@@ -9,7 +9,7 @@
       <Patrons />
     </section>
 
-    <section class="py-12" :class="background">
+    <section :class="background" class="py-12">
       <v-container>
         <v-row>
           <v-col cols="12">
@@ -37,7 +37,7 @@
               <v-list-item-group>
                 <v-list-item v-for="(item, i) in faqs" :key="i" class="mb-3">
                   <v-list-item-icon>
-                    <v-icon size="40" v-text="item.icon" />
+                    <v-icon v-text="item.icon" size="40" />
                   </v-list-item-icon>
                   <v-list-item-content>
                     <v-list-item-title class="title">

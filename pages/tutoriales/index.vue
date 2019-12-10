@@ -11,13 +11,13 @@
           <div class="sticky-top-disabled">
             <v-text-field
               v-model="search"
+              :messages="`${filter.length} tutoriales`"
               label="Buscar"
               outlined
-              :messages="`${filter.length} tutoriales`"
               append-icon="mdi-magnify"
               validate-on-blur
             />
-            <categories class="hidden-md-and-down" :tags="tags" />
+            <categories :tags="tags" class="hidden-md-and-down" />
           </div>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="12" lg="10" xl="10">
@@ -37,9 +37,9 @@
             <v-col cols="12" class="text-center">
               <v-btn
                 v-if="filter.length > pagItems"
+                @click="pagItems += 24"
                 depressed
                 small
-                @click="pagItems += 24"
               >
                 Mostrar más
               </v-btn>

@@ -31,9 +31,9 @@
           <v-list-item
             v-if="item.href"
             :href="item.href"
+            :disabled="item.disabled"
             rel="noopener noreferrer"
             target="_blank"
-            :disabled="item.disabled"
           >
             <v-list-item-icon>
               <v-icon v-text="item.icon" />

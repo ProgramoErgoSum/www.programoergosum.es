@@ -34,8 +34,8 @@
 
     <section
       v-show="related.length > 1"
-      class="mt-12 py-12"
       :class="background"
+      class="mt-12 py-12"
     >
       <v-container>
         <v-row>

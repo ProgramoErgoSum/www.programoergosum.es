@@ -10,10 +10,10 @@
         <v-col cols="12">
           <v-text-field
             v-model="search"
+            :messages="`${filter.length} artículos en el blog`"
             label="Buscar"
             outlined
             rounded
-            :messages="`${filter.length} artículos en el blog`"
             append-icon="mdi-magnify"
             validate-on-blur
           />
@@ -27,9 +27,9 @@
         <v-col cols="12" class="text-center">
           <v-btn
             v-show="pagItems < maxItems"
+            @click="pagItems += 5"
             depressed
             small
-            @click="pagItems += 5"
           >
             Mostrar más
           </v-btn>

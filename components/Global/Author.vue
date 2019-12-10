@@ -1,11 +1,11 @@
 <template>
   <v-chip
     v-if="author"
+    :href="author.github"
     pill
     outlined
     class="mr-1"
     label
-    :href="author.github"
     rel="noopener noreferrer nofollow"
     target="_blank"
   >

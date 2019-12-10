@@ -3,12 +3,12 @@
     <v-btn
       v-show="fab"
       v-scroll="onScroll"
+      @click="toTop"
       fab
       fixed
       bottom
       right
       aria-label="Subir"
-      @click="toTop"
     >
       <v-icon>mdi-chevron-up</v-icon>
     </v-btn>

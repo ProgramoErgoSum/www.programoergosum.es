@@ -12,8 +12,8 @@
                 <v-avatar class="d-inline" size="110">
                   <VImageLazy
                     :src="speaker.image"
-                    lazy-src="/lazy-user.png"
                     :title="speaker.name"
+                    lazy-src="/lazy-user.png"
                   />
                 </v-avatar>
               </v-col>
@@ -26,8 +26,8 @@
                 </p>
                 <v-btn
                   v-if="speaker.social.url"
-                  icon
                   :href="speaker.social.url"
+                  icon
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Url"
@@ -36,8 +36,8 @@
                 </v-btn>
                 <v-btn
                   v-if="speaker.social.twitter"
-                  icon
                   :href="speaker.social.twitter"
+                  icon
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Twitter"
@@ -46,8 +46,8 @@
                 </v-btn>
                 <v-btn
                   v-if="speaker.social.github"
-                  icon
                   :href="speaker.social.github"
+                  icon
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"

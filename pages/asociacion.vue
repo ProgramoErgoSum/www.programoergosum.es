@@ -8,7 +8,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <section class="py-12" :class="background">
+    <section :class="background" class="py-12">
       <Volunteers />
     </section>
     <Reg />
