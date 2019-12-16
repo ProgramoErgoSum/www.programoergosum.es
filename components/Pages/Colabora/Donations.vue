@@ -89,6 +89,9 @@ export default {
         name: 'Francisco José Marín'
       },
       {
+        name: 'Javier Garcia'
+      },
+      {
         name: 'José Antonio Torrecillas'
       },
       {
