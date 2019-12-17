@@ -75,7 +75,7 @@ export default {
       // 10
       {
         name: 'Juan Antonio Pérez',
-        twitter: 'https://twitter.com/toninosevilla'
+        twitter: 'https://twitter.com/profetonino'
       },
       {
         name: 'Sergio Pérez'
