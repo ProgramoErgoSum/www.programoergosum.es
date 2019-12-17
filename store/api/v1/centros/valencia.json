@@ -1,0 +1,15 @@
+[
+  {
+    "name": "IES Veles e Vents",
+    "address": {
+      "city": "Torrent",
+      "province": "Valencia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/739423853739409408/45r2dnxv_400x400.jpg",
+    "coordinates": ["39.4234518","-0.4789781"],
+    "social": {
+      "url": "http://iesvelesevents.edu.gva.es/",
+      "twitter": "https://twitter.com/veleseventsIES"
+    }
+  }
+]
