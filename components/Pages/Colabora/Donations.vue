@@ -82,8 +82,7 @@ export default {
       },
       // 5
       {
-        name: 'David Pons',
-        twitter: 'https://twitter.com/DavidPons'
+        name: 'David Pons'
       },
       {
         name: 'Francisco José Marín'
