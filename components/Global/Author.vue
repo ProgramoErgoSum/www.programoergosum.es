@@ -43,7 +43,7 @@ export default {
       },
       {
         username: 'carmenb_mg',
-        name: 'Miguel Ángel Abellán',
+        name: 'Carmen B. Martínez',
         image:
           'https://pbs.twimg.com/profile_images/650326709242302464/f27brfje_400x400.jpg',
         github: 'https://twitter.com/carmenb_mg'
