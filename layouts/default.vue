@@ -1,5 +1,8 @@
 <template>
   <v-app>
+    <!--
+    <Systembar />
+    -->
     <Navigation />
     <Toolbar />
     <v-content>
@@ -12,6 +15,7 @@
 </template>
 
 <script>
+// import Systembar from '@/components/Layout/Systembar'
 import Navigation from '@/components/Layout/Navigation'
 import Toolbar from '@/components/Layout/Toolbar'
 import Privacy from '@/components/Layout/Privacy'
@@ -20,6 +24,7 @@ import Footer from '@/components/Layout/Footer'
 
 export default {
   components: {
+    // Systembar,
     Navigation,
     Toolbar,
     Privacy,
