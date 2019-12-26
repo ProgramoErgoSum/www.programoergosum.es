@@ -4,8 +4,10 @@
       <v-col cols="12">
         <h2 class="mb-3">Donaciones</h2>
         <p>
-          Realiza una <b>donación casual</b> con el importe que creas necesario
-          y aparecerás en esta sección.
+          Si te gustan nuestros proyectos educativos y quieres ayudarnos
+          aportando tu granito de arena, puedes realizar una
+          <b>donación totalmente desinteresada</b>. Para agradecertelo,
+          aparecerá tu nombre en esta sección.
         </p>
       </v-col>
       <v-col cols="12">

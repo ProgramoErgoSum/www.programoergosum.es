@@ -4,6 +4,13 @@
       <v-col cols="12">
         <h2 class="mb-3">Donaciones mensuales</h2>
         <p>
+          Desde la Asociación Programo Ergo Sum, apostamos por una
+          <b>educación libre, publica y gratuita</b>. Nuestro objetivo es que
+          cada alumno de cada escuela tenga la oportunidad de aprender
+          informática, programación, electrónica y robótica educativa y queremos
+          que sean las propias personas las que apoyen los proyectos educativos.
+        </p>
+        <p>
           Realiza una <b>donación mensual</b> con el importe que creas necesario
           y aparecerás en esta sección.
         </p>
@@ -32,6 +39,9 @@
           >
             Apóyanos mensualmente
           </v-btn>
+          <p class="mt-3 caption">
+            * Solamente aparecerá información personal y no empresarial.
+          </p>
         </div>
       </v-col>
     </v-row>
