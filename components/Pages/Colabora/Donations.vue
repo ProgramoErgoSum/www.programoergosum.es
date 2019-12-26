@@ -4,10 +4,11 @@
       <v-col cols="12">
         <h2 class="mb-3">Donaciones</h2>
         <p>
-          Si te gustan nuestros proyectos educativos y quieres ayudarnos
-          aportando tu granito de arena, puedes realizar una
-          <b>donación totalmente desinteresada</b>. Para agradecertelo,
-          aparecerá tu nombre en esta sección.
+          Si te gusta lo que hacemos o utilizas algunos de nuestros proyectos
+          educativos y quieres ayudarnos aportando tu granito de arena, puedes
+          realizar una
+          <b>donación totalmente desinteresada</b> con el importe que creas
+          necesario. Para agradecértelo, aparecerá tu nombre en esta sección.
         </p>
       </v-col>
       <v-col cols="12">
@@ -20,7 +21,7 @@
             outlined
             class="ma-1"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
           >
             <v-avatar class="mr-1">
               <v-icon size="18" color="#00aced">mdi-twitter</v-icon>
@@ -35,7 +36,7 @@
             outlined
             class="ma-1"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
           >
             <v-avatar class="mr-1">
               <v-icon size="18" color="#333">mdi-link</v-icon>
@@ -52,7 +53,7 @@
           <v-btn
             href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             tile
             color="secondary"
           >
