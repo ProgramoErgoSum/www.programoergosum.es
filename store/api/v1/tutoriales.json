@@ -775,7 +775,7 @@
       "hardware": ["Robot mBot"],
       "software": ["mBlock", "mblock 3", "mblock 5"],
       "level": ["Primaria", "Secundaria"],
-      "others": ["Sigue líneas"]
+      "others": ["Sigue-líneas"]
     },
     "extra": {
       "level": "Iniciación",
