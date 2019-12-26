@@ -13,7 +13,7 @@
     </p>
     <v-chip-group column>
       <v-chip
-        v-for="username in authors"
+        v-for="username in contributors"
         :key="username"
         :href="`https://github.com/${username}`"
         pill
@@ -40,7 +40,7 @@
 <script>
 export default {
   props: {
-    authors: {
+    contributors: {
       type: Array,
       required: true
     },

@@ -20,14 +20,6 @@
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
           <Content :raw="raw" :cdn="cdn" />
-
-          <v-divider class="my-6" />
-          <Contributing
-            :authors="authors"
-            :edit-link="editLink"
-            class="mb-3 pt-3"
-          />
-          <Posted :mdate="date.mdate" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
@@ -88,7 +80,6 @@ export default {
       date: blog.date,
       tags: blog.tags,
       editLink: edit,
-      authors: blog.authors,
 
       raw: file,
       cdn: `${urlRaw}/`,

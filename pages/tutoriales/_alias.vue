@@ -35,7 +35,7 @@
           -->
           <v-divider class="my-6" />
           <Contributing
-            :authors="authors"
+            :contributors="contributors"
             :edit-link="editLink"
             class="mb-3 pt-3"
           />
@@ -108,7 +108,7 @@ export default {
       date: tutorial.date,
       tags,
       editLink: edit,
-      authors: tutorial.authors,
+      contributors: tutorial.contributors,
 
       raw: file,
       cdn: `${urlRaw}/`,
