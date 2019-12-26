@@ -64,7 +64,7 @@ export default {
   data() {
     return {
       search: '',
-      pagItems: 12,
+      pagItems: 24,
       tutorialesByTag: []
     }
   },
