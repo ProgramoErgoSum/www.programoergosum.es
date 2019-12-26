@@ -2,8 +2,7 @@
   <div>
     <h3 class="mb-3">Contribuciones</h3>
     <p class="font-weight-light">
-      ¿Has encontrado algún error en el contenido? ¿Te gustaría colaborar en el
-      proyecto?
+      ¿Has encontrado algún error en el contenido?
       <br />
       Edita
       <a :href="editLink" rel="noopener noreferrer nofollow" target="_blank">
@@ -12,22 +11,34 @@
       </a>
       en <b>GitHub</b> y aparecerás en este apartado.
     </p>
-    <Author
-      v-for="(author, index) in authors"
-      :key="index"
-      :username="author"
-    />
+    <v-chip-group column>
+      <v-chip
+        v-for="username in authors"
+        :key="username"
+        :href="`https://github.com/${username}`"
+        pill
+        outlined
+        class="mr-1"
+        label
+        rel="noopener noreferrer nofollow"
+        target="_blank"
+      >
+        <v-avatar tile left>
+          <VImageLazy
+            :src="`https://avatars.githubusercontent.com/${username}`"
+            :title="username"
+          />
+        </v-avatar>
+        <span class="font-weight-light">
+          {{ username }} <v-icon size="10">mdi-open-in-new</v-icon>
+        </span>
+      </v-chip>
+    </v-chip-group>
   </div>
 </template>
 
 <script>
-import Author from '@/components/Global/Author'
-
 export default {
-  name: 'Contributing',
-  components: {
-    Author
-  },
   props: {
     authors: {
       type: Array,
