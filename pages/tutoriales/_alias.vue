@@ -26,13 +26,13 @@
           />
           -->
           <Content :raw="raw" :cdn="cdn" />
-
+          <!--
           <Adsense
             :data-ad-slot="adsense.bottom"
             type="inarticle"
             class="my-0 my-0"
           />
-
+          -->
           <v-divider class="my-6" />
           <Contributing
             :authors="authors"
