@@ -363,5 +363,31 @@
       "url": "http://www.iesvilladeabaran.es/",
       "twitter": "https://twitter.com/iesvillabaran"
     }
+  },
+  {
+    "name": "IES Pedro Guillén",
+    "address": {
+      "city": "Archena",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/785153575571877891/ptEdSvKW_400x400.jpg",
+    "coordinates": ["38.11143","-1.2898157"],
+    "social": {
+      "url": "",
+      "twitter": "iesdrpguillen"
+    }
+  },
+  {
+    "name": "IES Juan Sebastián Elcano",
+    "address": {
+      "city": "Cartagena",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1049366292598345728/7iWdNp_8_400x400.jpg",
+    "coordinates": ["37.6095038","-1.0254538"],
+    "social": {
+      "url": "",
+      "twitter": "https://twitter.com/IESElcanoCT"
+    }
   }
 ]
