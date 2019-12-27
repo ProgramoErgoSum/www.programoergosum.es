@@ -272,5 +272,18 @@
       "url": "https://www.murciaeduca.es/iesfedericobalart/sitio/",
       "twitter": "https://twitter.com/BalartIes"
     }
+  },
+  {
+    "name": "IES Europa",
+    "address": {
+      "city": "Águilas",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1039095916765032448/huCXYoUg_400x400.jpg",
+    "coordinates": ["37.4132506","-1.5752506"],
+    "social": {
+      "url": "https://www.murciaeduca.es/ieseuropa/sitio/",
+      "twitter": "https://twitter.com/europa_Aguilas"
+    }
   }
 ]
