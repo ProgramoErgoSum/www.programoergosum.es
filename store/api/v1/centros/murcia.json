@@ -144,6 +144,19 @@
     }
   },
   {
+    "name": "IES Miguel Espinosa",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1054332589861990400/jERzvG92_400x400.jpg",
+    "coordinates": ["37.9947832","-1.1470274"],
+    "social": {
+      "url": "https://www.murciaeduca.es/iesmiguelespinosa/sitio/",
+      "twitter": "https://twitter.com/miguel_ies"
+    }
+  },
+  {
     "name": "IES Francisco Salzillo",
     "address": {
       "city": "Alcantarilla",
