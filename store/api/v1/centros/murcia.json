@@ -26,6 +26,19 @@
     }
   },
   {
+    "name": "CEIP José María de Lapuerta",
+    "address": {
+      "city": "Cartagena",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1182535663410995200/sO0i1bLS_400x400.jpg",
+    "coordinates": ["37.6248657","-0.9871384"],
+    "social": {
+      "url": "https://www.murciaeduca.es/cpjosemariadelapuerta/sitio/",
+      "twitter": "https://twitter.com/JMLapuerta"
+    }
+  },
+  {
     "name": "CC Reina Sofía",
     "address": {
       "city": "Totana",
@@ -115,6 +128,19 @@
     "social": {
       "url": "",
       "twitter": "https://twitter.com/IESSaavedra"
+    }
+  },
+  {
+    "name": "IES Mariano Baquero Goyanes",
+    "address": {
+      "city": "Murcia",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/2633346887/f7e21fbcdeaa223dc8b7e00716422073_400x400.png",
+    "coordinates": ["37.9744899","-1.1257439"],
+    "social": {
+      "url": "https://www.murciaeduca.es/iesmarianobaquerogoyanes/sitio/",
+      "twitter": "https://twitter.com/MarianoBaquero"
     }
   },
   {
