@@ -157,6 +157,19 @@
     }
   },
   {
+    "name": "IES Francisco de Goya",
+    "address": {
+      "city": "Molina de segura",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1157304515487551494/gv3T-oO1_400x400.jpg",
+    "coordinates": ["38.0597903","-1.2145567"],
+    "social": {
+      "url": "https://iesgoya.com/",
+      "twitter": "https://twitter.com/IESGOYAMOLINA"
+    }
+  },
+  {
     "name": "IES Eduardo Linares Lumeras",
     "address": {
       "city": "Molina de segura",
