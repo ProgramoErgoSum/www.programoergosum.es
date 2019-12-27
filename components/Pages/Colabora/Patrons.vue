@@ -40,7 +40,7 @@
             Apóyanos mensualmente
           </v-btn>
           <p class="mt-3 caption">
-            * Solamente aparecerá información personal y no empresarial.
+            * Solamente aparecerá información personal y no comercial.
           </p>
         </div>
       </v-col>
