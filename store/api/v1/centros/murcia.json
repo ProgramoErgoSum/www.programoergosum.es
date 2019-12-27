@@ -222,6 +222,19 @@
     }
   },
   {
+    "name": "IES Gil de Junterón",
+    "address": {
+      "city": "Beniel",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1171710825251377152/ARIuZzmd_400x400.jpg",
+    "coordinates": ["38.0496942","-1.0007646"],
+    "social": {
+      "url": "https://www.murciaeduca.es/iesgildejunteron/sitio/",
+      "twitter": "https://twitter.com/iesgiljunteron"
+    }
+  },
+  {
     "name": "IES José Ibañez Martín",
     "address": {
       "city": "Lorca",
@@ -271,6 +284,19 @@
     "social": {
       "url": "https://www.murciaeduca.es/iesfedericobalart/sitio/",
       "twitter": "https://twitter.com/BalartIes"
+    }
+  },
+  {
+    "name": "IESO Sierra Almenara",
+    "address": {
+      "city": "Purias",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/378800000330708028/9cdb1192676ee9a33678f7bd8ea63c32_400x400.jpeg",
+    "coordinates": ["37.5796718","-1.6736394"],
+    "social": {
+      "url": "https://www.murciaeduca.es/iessierraalmenara/sitio/index.cgi",
+      "twitter": "https://twitter.com/IESOALMENARA"
     }
   },
   {
