@@ -233,5 +233,18 @@
       "url": "http://www.iesprincipe.com",
       "twitter": "https://twitter.com/iesprincipe"
     }
+  },
+  {
+    "name": "IES Federico Balart",
+    "address": {
+      "city": "Pliego",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/854999859648188417/YPoNx-aP_400x400.jpg",
+    "coordinates": ["37.9856125","-1.5049014"],
+    "social": {
+      "url": "https://www.murciaeduca.es/iesfedericobalart/sitio/",
+      "twitter": "https://twitter.com/BalartIes"
+    }
   }
 ]
