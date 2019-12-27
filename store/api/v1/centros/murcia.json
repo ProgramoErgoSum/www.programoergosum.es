@@ -261,6 +261,19 @@
     }
   },
   {
+    "name": "IES Bartolomé Pérez Casas",
+    "address": {
+      "city": "Lorca",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/431732642615021568/hFf_0fNV_400x400.jpeg",
+    "coordinates": ["37.6871592","-1.6891397"],
+    "social": {
+      "url": "https://www.murciaeduca.es/iesbartolomeperezcasas/sitio/",
+      "twitter": "https://twitter.com/IESbPC"
+    }
+  },
+  {
     "name": "IES Príncipe Asturias",
     "address": {
       "city": "Lorca",
@@ -310,6 +323,19 @@
     "social": {
       "url": "https://www.murciaeduca.es/ieseuropa/sitio/",
       "twitter": "https://twitter.com/europa_Aguilas"
+    }
+  },
+  {
+    "name": "IES Villa de Abarán",
+    "address": {
+      "city": "Abarán",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/512657278793576448/N4NX14oK_400x400.jpeg",
+    "coordinates": ["38.2007927","-1.4010589"],
+    "social": {
+      "url": "http://www.iesvilladeabaran.es/",
+      "twitter": "https://twitter.com/iesvillabaran"
     }
   }
 ]
