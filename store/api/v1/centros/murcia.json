@@ -144,6 +144,19 @@
     }
   },
   {
+    "name": "IES La Florida",
+    "address": {
+      "city": "Las Torres de Cotillas",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1088535757617356806/27mfeHiz_400x400.jpg",
+    "coordinates": ["38.037007","-1.2498199"],
+    "social": {
+      "url": "https://www.murciaeduca.es/iesonumero2/sitio/upload/inicio_1.html",
+      "twitter": "https://twitter.com/IESLaFlorida"
+    }
+  },
+  {
     "name": "IES Manuel Tárraga Escribano",
     "address": {
       "city": "San Pedro del Pinatar",
@@ -180,6 +193,19 @@
     "social": {
       "url": "https://www.iesantoniohellin.es",
       "twitter": "https://twitter.com/ieshellincosta"
+    }
+  },
+  {
+    "name": "IES José Ibañez Martín",
+    "address": {
+      "city": "Lorca",
+      "province": "Murcia"
+    },
+    "image": "https://pbs.twimg.com/profile_images/581027543635136512/pioE1zTP_400x400.jpg",
+    "coordinates": ["37.6695025","-1.7017677"],
+    "social": {
+      "url": "https://www.murciaeduca.es/iesjoseibanezmartin/sitio/index.cgi",
+      "twitter": "https://twitter.com/IES_Ibanez"
     }
   },
   {
