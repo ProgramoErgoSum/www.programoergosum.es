@@ -8,6 +8,12 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" md="12" lg="8" xl="9">
+          <v-toolbar flat color="secondary" dark>
+            <v-btn icon class="mr-1">
+              <v-icon>mdi-heart-multiple</v-icon>
+            </v-btn>
+            {{ centers.length }} centros educativos inscritos
+          </v-toolbar>
           <Map :centers="centers" />
         </v-col>
         <v-col cols="12" md="12" lg="4" xl="3">
