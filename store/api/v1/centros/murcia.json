@@ -389,5 +389,18 @@
       "url": "",
       "twitter": "https://twitter.com/IESElcanoCT"
     }
+  },
+  {
+    "name": "CEIP Cuatro Santos",
+    "address": {
+      "city": "Cartagena",
+      "province": "Murcia"
+    },
+    "image": "https://scontent.fpmi1-1.fna.fbcdn.net/v/t1.0-1/p160x160/45800830_321650288617445_3900208820235796480_o.jpg?_nc_cat=108&_nc_oc=AQmdR9Oa2JBccULOgHcbDFQFxezq0ZFdr5GpOxv7t4SPMR0KvGOmoqbCMb2D6oFGH60&_nc_ht=scontent.fpmi1-1.fna&oh=d1ef8263fb54ea258a96ee86087ee9e4&oe=5E7590F1",
+    "coordinates": ["37.6210385","-0.9965865"],
+    "social": {
+      "url": "https://www.murciaeduca.es/cpcuatrosantos/sitio/",
+      "twitter": ""
+    }
   }
 ]
