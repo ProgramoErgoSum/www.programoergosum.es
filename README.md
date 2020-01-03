@@ -21,7 +21,7 @@
 
 <div align="center">
   <h3>
-    Para que este proyecto educativo siga siendo libre y gratuito, realiza una donación totalmente desinteresada y estarás colaborando.
+    Ayúdanos con una donación para que este proyecto educativo siga siendo libre y gratuito.
   </h3>
   <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7N56RY2QKJJDS&source=url">
     <img width="200" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donateCC_LG.gif" />
