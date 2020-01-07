@@ -1,0 +1,15 @@
+[
+  {
+    "name": "IES Reyes Católicos",
+    "address": {
+      "city": "Ejea de los Caballeros",
+      "province": "Zaragoza"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1184869807176507392/arDdLqv-_400x400.jpg",
+    "coordinates": ["42.1280608","-1.1275869"],
+    "social": {
+      "url": "http://iesreyescatolicos.com/",
+      "twitter": "https://twitter.com/ies_rrcc"
+    }
+  }
+]

@@ -14,6 +14,7 @@ import stcruzdetenerife from '~/store/api/v1/centros/st-cruz-tenerife.json'
 import toledo from '~/store/api/v1/centros/toledo.json'
 import valencia from '~/store/api/v1/centros/valencia.json'
 import valladolid from '~/store/api/v1/centros/valladolid.json'
+import zaragoza from '~/store/api/v1/centros/zaragoza.json'
 import ceutaymelilla from '~/store/api/v1/centros/ceuta-y-melilla.json'
 
 const state = () => ({
@@ -33,6 +34,7 @@ const state = () => ({
     .concat(toledo)
     .concat(valencia)
     .concat(valladolid)
+    .concat(zaragoza)
     .concat(ceutaymelilla)
 })
 
