@@ -50,6 +50,7 @@ export default {
   },
   data: () => ({
     isProduction: process.env.NODE_ENV === 'production',
+    // ToDo: Add in .env file
     dataAdClient: 'ca-pub-6757981017018187'
   }),
   head() {
