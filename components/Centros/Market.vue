@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Popup from '@/components/Pages/Centros/Popup'
+import Popup from './Popup'
 
 export default {
   name: 'Market',

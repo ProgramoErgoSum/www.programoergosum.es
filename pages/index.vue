@@ -22,7 +22,7 @@
 
 <script>
 import Cover from '@/components/Pages/Home/Cover'
-import Map from '@/components/Pages/Centros/Map'
+import Map from '@/components/Centros/Map'
 import What from '@/components/Pages/Home/What'
 import Reg from '@/components/Pages/Home/Reg'
 
@@ -36,7 +36,6 @@ export default {
   asyncData({ store }) {
     return {
       metas: store.state.metas.index
-      // centers: store.state.centros.list
     }
   },
   head() {

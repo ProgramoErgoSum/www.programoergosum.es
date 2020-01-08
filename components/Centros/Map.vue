@@ -23,7 +23,7 @@
 <script>
 import { mapGetters } from 'vuex'
 
-import Market from '@/components/Pages/Centros/Market'
+import Market from './Market'
 
 export default {
   name: 'Map',
