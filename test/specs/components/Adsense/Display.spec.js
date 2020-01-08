@@ -1,8 +1,8 @@
 import { shallowMount } from '@vue/test-utils'
 
-import Display from '@/components/Global/Adsense/Blocks/Display.vue'
+import Display from '@/components/Global/Adsense/Display.vue'
 
-const display = () =>
+const component = () =>
   shallowMount(Display, {
     propsData: {
       dataAdClient: 'ca-pub-xxxxxxxxxx',
@@ -12,17 +12,17 @@ const display = () =>
 
 describe('Display', () => {
   test('mounts properly', () => {
-    const wrapper = display()
+    const wrapper = component()
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
   /*
   test('renders properly', () => {
-    const wrapper = display()
+    const wrapper = component()
     expect(wrapper.html()).toMatchSnapshot()
   })
   */
   test('renders props', () => {
-    const wrapper = display()
+    const wrapper = component()
     expect(wrapper.props().dataAdClient).toBe('ca-pub-xxxxxxxxxx')
     expect(wrapper.props().dataAdSlot).toBe('xxxxxxxxxx')
   })

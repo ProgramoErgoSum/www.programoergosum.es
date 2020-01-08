@@ -27,9 +27,9 @@
 </template>
 
 <script>
-import Display from './Blocks/Display'
-import Inarticle from './Blocks/Inarticle'
-import Infeed from './Blocks/Infeed'
+import Display from './Display'
+import Inarticle from './Inarticle'
+import Infeed from './Infeed'
 
 export default {
   name: 'Index',
