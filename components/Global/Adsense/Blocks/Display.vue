@@ -1,25 +1,12 @@
 <template>
-  <div>
-    <!--
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-    ></script>
-    -->
-    <ins
-      :data-ad-slot="dataAdSlot"
-      class="adsbygoogle"
-      style="display:block;"
-      data-ad-client="ca-pub-6757981017018187"
-      data-ad-format="auto"
-      data-full-width-responsive="true"
-    />
-    <!--
-    <script>
-      ;(adsbygoogle = window.adsbygoogle || []).push({})
-    </script>
-    -->
-  </div>
+  <ins
+    :data-ad-slot="dataAdSlot"
+    class="adsbygoogle"
+    style="display:block;"
+    data-ad-client="ca-pub-6757981017018187"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  />
 </template>
 
 <script>
@@ -30,7 +17,8 @@ export default {
       type: String,
       required: true
     }
-  },
+  }
+  /*
   head() {
     return {
       script: [
@@ -45,6 +33,7 @@ export default {
       ]
     }
   }
+  */
 }
 </script>
 

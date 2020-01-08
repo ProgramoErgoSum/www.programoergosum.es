@@ -33,10 +33,37 @@ export default {
       required: true
     }
   },
+  data: () => ({
+    isProduction: process.env.NODE_ENV === 'production'
+  }),
+  /*
   computed: {
     isProduction() {
       return process.env.NODE_ENV === 'production'
     }
+  },
+  */
+  /*
+  created() {
+    this.isProduction = process.env.NODE_ENV === 'production'
+  },
+  */
+  head() {
+    return this.isProduction
+      ? {
+          script: [
+            {
+              src:
+                'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+              async: true,
+              defer: true
+            },
+            {
+              innerHTML: ';(adsbygoogle = window.adsbygoogle || []).push({})'
+            }
+          ]
+        }
+      : {}
   }
 }
 </script>
