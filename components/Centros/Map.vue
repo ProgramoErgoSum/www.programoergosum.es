@@ -30,14 +30,6 @@ export default {
   components: {
     Market
   },
-  /*
-  props: {
-    centers: {
-      type: Array,
-      default: () => []
-    }
-  },
-  */
   data: () => ({
     search: '',
     minZoom: 6,

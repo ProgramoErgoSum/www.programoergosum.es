@@ -1,5 +1,5 @@
 <template>
-  <l-marker :lat-lng="center.coordinates" :title="center.name">
+  <l-marker :lat-lng="center.coordinates">
     <l-popup v-show="loading">
       <Popup :center="center" />
     </l-popup>
