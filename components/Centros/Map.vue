@@ -15,13 +15,13 @@
         outlined
       />
       <l-tile-layer :url="url" />
-      <Market v-for="(item, index) in filter" :key="index" :center="item" />
+      <Market v-for="(item, index) in list" :key="index" :center="item" />
     </l-map>
   </div>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters, mapActions } from 'vuex'
 
 import Market from './Market'
 
@@ -31,7 +31,6 @@ export default {
     Market
   },
   data: () => ({
-    search: '',
     minZoom: 6,
     maxZoom: 12,
     center: [40.4636688, -3.7492199],
@@ -41,20 +40,18 @@ export default {
     }
   }),
   computed: {
-    ...mapGetters('centros', ['list']),
-    filter() {
-      let centers = this.list
-      if (this.search !== '') {
-        centers = centers.filter(el => {
-          return (
-            el.name.search(new RegExp(this.search, 'i')) !== -1 ||
-            el.address.city.search(new RegExp(this.search, 'i')) !== -1 ||
-            el.address.province.search(new RegExp(this.search, 'i')) !== -1
-          )
-        })
+    ...mapGetters('centros', ['filter', 'list']),
+    search: {
+      get() {
+        return this.filter
+      },
+      set(val) {
+        this.setFilter(val)
       }
-      return centers
     }
+  },
+  methods: {
+    ...mapActions('centros', ['setFilter'])
   }
 }
 </script>

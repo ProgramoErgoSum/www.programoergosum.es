@@ -1,3 +1,5 @@
+import centros from './modules/centros'
+
 import metas from '~/store/api/v1/metas.json'
 
 const state = () => ({
@@ -74,5 +76,8 @@ export default {
   state,
   getters,
   actions,
-  mutations
+  mutations,
+  modules: {
+    centros
+  }
 }
