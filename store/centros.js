@@ -1,44 +1,12 @@
-import cpr from '~/store/api/v1/centros/cpr.json'
-import alicante from '~/store/api/v1/centros/alicante.json'
-import almeria from '~/store/api/v1/centros/almeria.json'
-import baleares from '~/store/api/v1/centros/baleares.json'
-import barcelona from '~/store/api/v1/centros/barcelona.json'
-import gerona from '~/store/api/v1/centros/gerona.json'
-import granada from '~/store/api/v1/centros/granada.json'
-import lacoruna from '~/store/api/v1/centros/la-coruna.json'
-import malaga from '~/store/api/v1/centros/malaga.json'
-import madrid from '~/store/api/v1/centros/madrid.json'
-import murcia from '~/store/api/v1/centros/murcia.json'
-import sevilla from '~/store/api/v1/centros/sevilla.json'
-import stcruzdetenerife from '~/store/api/v1/centros/st-cruz-tenerife.json'
-import toledo from '~/store/api/v1/centros/toledo.json'
-import valencia from '~/store/api/v1/centros/valencia.json'
-import valladolid from '~/store/api/v1/centros/valladolid.json'
-import zaragoza from '~/store/api/v1/centros/zaragoza.json'
-import ceutaymelilla from '~/store/api/v1/centros/ceuta-y-melilla.json'
+import centros from '~/api/v1/centros/index.js'
 
 const state = () => ({
-  list: cpr
-    .concat(alicante)
-    .concat(almeria)
-    .concat(baleares)
-    .concat(barcelona)
-    .concat(gerona)
-    .concat(granada)
-    .concat(lacoruna)
-    .concat(malaga)
-    .concat(madrid)
-    .concat(murcia)
-    .concat(sevilla)
-    .concat(stcruzdetenerife)
-    .concat(toledo)
-    .concat(valencia)
-    .concat(valladolid)
-    .concat(zaragoza)
-    .concat(ceutaymelilla)
+  list: centros
 })
 
-const getters = {}
+const getters = {
+  list: state => state.list
+}
 
 const actions = {}
 

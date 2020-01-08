@@ -8,7 +8,6 @@
     >
       <v-text-field
         v-model="search"
-        :items="centers"
         label="Buscar centro"
         prepend-inner-icon="mdi-domain"
         append-icon="mdi-map-marker"
@@ -22,6 +21,8 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 import Market from '@/components/Pages/Centros/Market'
 
 export default {
@@ -29,12 +30,14 @@ export default {
   components: {
     Market
   },
+  /*
   props: {
     centers: {
       type: Array,
       default: () => []
     }
   },
+  */
   data: () => ({
     search: '',
     minZoom: 6,
@@ -46,8 +49,9 @@ export default {
     }
   }),
   computed: {
+    ...mapGetters('centros', ['list']),
     filter() {
-      let centers = this.centers
+      let centers = this.list
       if (this.search !== '') {
         centers = centers.filter(el => {
           return (

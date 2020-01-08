@@ -8,6 +8,7 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" md="12" lg="8" xl="9">
+          <!--
           <v-toolbar flat color="secondary" dark>
             <v-btn icon class="mr-1">
               <v-icon>mdi-heart-multiple</v-icon>
@@ -15,6 +16,8 @@
             {{ centers.length }} centros educativos inscritos
           </v-toolbar>
           <Map :centers="centers" />
+          -->
+          <Map />
         </v-col>
         <v-col cols="12" md="12" lg="4" xl="3">
           <v-list color="transparent" three-line>
@@ -95,8 +98,8 @@ export default {
   }),
   asyncData({ store }) {
     return {
-      metas: store.state.metas.centros,
-      centers: store.state.centros.list
+      metas: store.state.metas.centros
+      // centers: store.state.centros.list
     }
   },
   head() {

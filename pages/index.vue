@@ -6,8 +6,13 @@
     <section>
       <What />
     </section>
+    <!--
     <section>
       <Map :centers="centers" />
+    </section>
+    -->
+    <section>
+      <Map />
     </section>
     <section>
       <Reg />
@@ -30,8 +35,8 @@ export default {
   },
   asyncData({ store }) {
     return {
-      metas: store.state.metas.index,
-      centers: store.state.centros.list
+      metas: store.state.metas.index
+      // centers: store.state.centros.list
     }
   },
   head() {
