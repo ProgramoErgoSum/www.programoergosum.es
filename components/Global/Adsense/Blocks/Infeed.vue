@@ -1,9 +1,11 @@
 <template>
   <div>
+    <!--
     <script
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     ></script>
+    -->
     <ins
       :data-ad-slot="dataAdSlot"
       class="adsbygoogle"
@@ -11,10 +13,12 @@
       data-ad-format="fluid"
       data-ad-layout-key="-df-2r+b4+7x-14z"
       data-ad-client="ca-pub-6757981017018187"
-    ></ins>
+    />
+    <!--
     <script>
       ;(adsbygoogle = window.adsbygoogle || []).push({})
     </script>
+    -->
   </div>
 </template>
 
@@ -25,6 +29,20 @@ export default {
     dataAdSlot: {
       type: String,
       required: true
+    }
+  },
+  head() {
+    return {
+      script: [
+        {
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+          async: true,
+          defer: true
+        },
+        {
+          innerHTML: ';(adsbygoogle = window.adsbygoogle || []).push({})'
+        }
+      ]
     }
   }
 }
