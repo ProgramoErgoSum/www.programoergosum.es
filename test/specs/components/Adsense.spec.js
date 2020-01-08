@@ -1,29 +1,33 @@
+import Vue from 'vue'
+import Vuetify from 'vuetify'
 import { shallowMount } from '@vue/test-utils'
 
-import Display from '@/components/Global/Adsense/Blocks/Display.vue'
+import Adsense from '@/components/Global/Adsense/Index.vue'
 
-const display = () =>
-  shallowMount(Display, {
+Vue.use(Vuetify)
+
+const component = () =>
+  shallowMount(Adsense, {
     propsData: {
-      dataAdClient: 'ca-pub-xxxxxxxxxx',
+      type: 'display',
       dataAdSlot: 'xxxxxxxxxx'
     }
   })
 
-describe('Display', () => {
+describe('Adsense', () => {
   test('mounts properly', () => {
-    const wrapper = display()
+    const wrapper = component()
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
   /*
   test('renders properly', () => {
-    const wrapper = display()
+    const wrapper = component()
     expect(wrapper.html()).toMatchSnapshot()
   })
   */
   test('renders props', () => {
-    const wrapper = display()
-    expect(wrapper.props().dataAdClient).toBe('ca-pub-xxxxxxxxxx')
+    const wrapper = component()
+    expect(wrapper.props().type).toBe('display')
     expect(wrapper.props().dataAdSlot).toBe('xxxxxxxxxx')
   })
 })

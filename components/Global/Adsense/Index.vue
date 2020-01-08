@@ -1,12 +1,27 @@
 <template>
   <div>
     <template v-if="isProduction">
-      <Display v-if="type === 'display'" :data-ad-slot="dataAdSlot" />
-      <Inarticle v-if="type === 'inarticle'" :data-ad-slot="dataAdSlot" />
-      <Infeed v-if="type === 'infeed'" :data-ad-slot="dataAdSlot" />
+      <Display
+        v-if="type === 'display'"
+        :data-ad-client="dataAdClient"
+        :data-ad-slot="dataAdSlot"
+      />
+      <Inarticle
+        v-if="type === 'inarticle'"
+        :data-ad-client="dataAdClient"
+        :data-ad-slot="dataAdSlot"
+      />
+      <Infeed
+        v-if="type === 'infeed'"
+        :data-ad-client="dataAdClient"
+        :data-ad-slot="dataAdSlot"
+      />
     </template>
     <template v-else>
-      <v-alert type="warning">{{ type }} ({{ dataAdSlot }})</v-alert>
+      <v-alert class="py-12" border="bottom" color="warning" dark>
+        <div class="mb-3">{{ dataAdClient }}</div>
+        <div>{{ type }} ({{ dataAdSlot }})</div>
+      </v-alert>
     </template>
   </div>
 </template>
@@ -34,20 +49,9 @@ export default {
     }
   },
   data: () => ({
-    isProduction: process.env.NODE_ENV === 'production'
+    isProduction: process.env.NODE_ENV === 'production',
+    dataAdClient: 'ca-pub-6757981017018187'
   }),
-  /*
-  computed: {
-    isProduction() {
-      return process.env.NODE_ENV === 'production'
-    }
-  },
-  */
-  /*
-  created() {
-    this.isProduction = process.env.NODE_ENV === 'production'
-  },
-  */
   head() {
     return this.isProduction
       ? {

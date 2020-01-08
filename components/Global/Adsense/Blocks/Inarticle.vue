@@ -1,11 +1,11 @@
 <template>
   <ins
+    :data-ad-client="dataAdClient"
     :data-ad-slot="dataAdSlot"
     class="adsbygoogle"
     style="display:block; margin: 50px; text-align:center;"
     data-ad-layout="in-article"
     data-ad-format="fluid"
-    data-ad-client="ca-pub-6757981017018187"
   />
 </template>
 
@@ -13,27 +13,15 @@
 export default {
   name: 'Inarticle',
   props: {
+    dataAdClient: {
+      type: String,
+      required: true
+    },
     dataAdSlot: {
       type: String,
       required: true
     }
   }
-  /*
-  head() {
-    return {
-      script: [
-        {
-          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-          async: true,
-          defer: true
-        },
-        {
-          innerHTML: ';(adsbygoogle = window.adsbygoogle || []).push({})'
-        }
-      ]
-    }
-  }
-  */
 }
 </script>
 
