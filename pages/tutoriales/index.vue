@@ -63,7 +63,7 @@ export default {
   data() {
     return {
       search: '',
-      pagItems: 24
+      pagItems: 48
     }
   },
   computed: {

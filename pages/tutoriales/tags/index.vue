@@ -63,7 +63,7 @@ export default {
   data() {
     return {
       search: '',
-      pagItems: 12,
+      pagItems: 48,
       tagsSelected: []
     }
   },
