@@ -39,6 +39,19 @@
     }
   },
   {
+    "name": "CEIP Los Molinos",
+    "address": {
+      "city": "Calasparra",
+      "province": "Murcia"
+    },
+    "image": "https://scontent.fmad7-1.fna.fbcdn.net/v/t1.0-9/12795523_1585122128376947_8771734555905491712_n.png?_nc_cat=104&_nc_oc=AQmdfHQ-FH0VVuyjSdsVs4e2dI1PiNJJ0paI9n2NitQAdTFxYtqsP5MVYnj2hL-qJic&_nc_ht=scontent.fmad7-1.fna&oh=6acf74968775863de6caeae9fbd731a8&oe=5EA0E066",
+    "coordinates": ["38.2303948","-1.6945379"],
+    "social": {
+      "url": "https://www.murciaeduca.es/cpjosemariadelapuerta/sitio/",
+      "twitter": ""
+    }
+  },
+  {
     "name": "CC Reina Sofía",
     "address": {
       "city": "Totana",
