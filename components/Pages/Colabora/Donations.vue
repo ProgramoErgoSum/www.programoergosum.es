@@ -57,6 +57,13 @@ export default {
   name: 'Donations',
   data: () => ({
     donations: [
+      /*
+      {
+        name: 'Pepe García',
+        website: 'https://www.ceipvillaespesa.es',
+        date: '2019-09-22 - 2020-01-22'
+      },
+      */
       // 15
       {
         name: 'Julio C Cordeiro (IES Salvador Madariaga)',
