@@ -27,9 +27,9 @@
         <v-col cols="12" class="text-center">
           <v-btn
             v-show="pagItems < maxItems"
-            @click="pagItems += 5"
             depressed
             small
+            @click="pagItems += 5"
           >
             Mostrar más
           </v-btn>
@@ -45,6 +45,12 @@ import Item from '@/components/Pages/Blog/Item'
 export default {
   components: {
     Item
+  },
+  asyncData({ store }) {
+    return {
+      metas: store.state.metas.blog,
+      blogs: store.state.blogs.list
+    }
   },
   data() {
     return {
@@ -69,12 +75,6 @@ export default {
       }
 
       return blogs
-    }
-  },
-  asyncData({ store }) {
-    return {
-      metas: store.state.metas.blog,
-      blogs: store.state.blogs.list
     }
   },
   created() {

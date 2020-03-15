@@ -18,8 +18,8 @@
         >
           <v-list-item-content :id="item.anchor">
             <v-list-item-title
-              v-text="item.content"
               class="font-weight-regular body-2"
+              v-text="item.content"
             />
           </v-list-item-content>
         </v-list-item>

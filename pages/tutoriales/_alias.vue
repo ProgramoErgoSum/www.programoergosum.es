@@ -70,12 +70,6 @@ export default {
     Toc,
     Related
   },
-  computed: {
-    ...mapGetters({ adsense: 'tutoriales/adsense' }),
-    background() {
-      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
-    }
-  },
   validate({ store, params }) {
     return store.state.tutoriales.list.find(e => e.alias === params.alias)
   },
@@ -125,6 +119,12 @@ export default {
           to: ''
         }
       ]
+    }
+  },
+  computed: {
+    ...mapGetters({ adsense: 'tutoriales/adsense' }),
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
     }
   },
   head() {

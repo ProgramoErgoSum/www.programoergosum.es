@@ -38,14 +38,6 @@ export default {
     Toc,
     Volunteers
   },
-  computed: {
-    background() {
-      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
-    }
-  },
-  validate({ store, params }) {
-    return store.state.actividades.list.find(e => e.alias === params.alias)
-  },
   async asyncData({ env, store, params }) {
     const actividad = store.state.actividades.list.find(e => {
       return e.alias === params.alias
@@ -84,6 +76,14 @@ export default {
         }
       ]
     }
+  },
+  computed: {
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
+    }
+  },
+  validate({ store, params }) {
+    return store.state.actividades.list.find(e => e.alias === params.alias)
   },
   head() {
     const title = this.title

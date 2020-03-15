@@ -37,7 +37,7 @@
               <v-list-item-group>
                 <v-list-item v-for="(item, i) in faqs" :key="i" class="mb-3">
                   <v-list-item-icon>
-                    <v-icon v-text="item.icon" size="40" />
+                    <v-icon size="40" v-text="item.icon" />
                   </v-list-item-icon>
                   <v-list-item-content>
                     <v-list-item-title class="title">
@@ -73,6 +73,11 @@ export default {
     Donations,
     Reg
   },
+  asyncData({ store }) {
+    return {
+      metas: store.state.metas.colabora
+    }
+  },
   data: () => ({
     faqs: [
       {
@@ -104,11 +109,6 @@ export default {
   computed: {
     background() {
       return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
-    }
-  },
-  asyncData({ store }) {
-    return {
-      metas: store.state.metas.colabora
     }
   },
   head() {

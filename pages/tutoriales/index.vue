@@ -37,9 +37,9 @@
             <v-col cols="12" class="text-center">
               <v-btn
                 v-if="filter.length > pagItems"
-                @click="pagItems += 24"
                 depressed
                 small
+                @click="pagItems += 24"
               >
                 Mostrar más
               </v-btn>
@@ -59,6 +59,13 @@ export default {
   components: {
     Categories,
     Item
+  },
+  asyncData({ store }) {
+    return {
+      metas: store.state.metas.tutoriales,
+      tags: store.state.tutoriales.tags,
+      tutoriales: store.state.tutoriales.list
+    }
   },
   data() {
     return {
@@ -80,13 +87,6 @@ export default {
       }
 
       return tutoriales
-    }
-  },
-  asyncData({ store }) {
-    return {
-      metas: store.state.metas.tutoriales,
-      tags: store.state.tutoriales.tags,
-      tutoriales: store.state.tutoriales.list
     }
   },
   head() {

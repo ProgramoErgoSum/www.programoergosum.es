@@ -66,6 +66,11 @@ export default {
   components: {
     Reg
   },
+  asyncData({ store }) {
+    return {
+      metas: store.state.metas.contacto
+    }
+  },
   data: () => ({
     faqs: [
       {
@@ -135,11 +140,6 @@ export default {
       }
     ]
   }),
-  asyncData({ store }) {
-    return {
-      metas: store.state.metas.contacto
-    }
-  },
   head() {
     const title = this.metas.title
     const description = this.metas.description

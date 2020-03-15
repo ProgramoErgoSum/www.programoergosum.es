@@ -25,11 +25,6 @@ export default {
     Volunteers,
     Reg
   },
-  computed: {
-    background() {
-      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
-    }
-  },
   async asyncData({ env, store }) {
     const metas = store.state.metas.asociacion
 
@@ -42,6 +37,11 @@ export default {
 
       raw: file.body,
       cdn: `${env.cdn}/images/asociacion/`
+    }
+  },
+  computed: {
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
     }
   },
   head() {

@@ -12,7 +12,7 @@
         Ver más
       </nuxt-link>
     </p>
-    <v-btn @click="close" text small>
+    <v-btn text small @click="close">
       Cerrar
     </v-btn>
   </v-snackbar>

@@ -38,9 +38,9 @@
             <v-col cols="12" class="text-center">
               <v-btn
                 v-if="filter.length > pagItems"
-                @click="pagItems += 24"
                 depressed
                 small
+                @click="pagItems += 24"
               >
                 Mostrar más
               </v-btn>
@@ -60,6 +60,29 @@ export default {
   components: {
     Categories,
     Item
+  },
+  asyncData({ store, params }) {
+    const tag = store.state.tutoriales.tags.find(e => {
+      return e.alias === params.alias
+    })
+
+    return {
+      tag,
+      tags: store.state.tutoriales.tags,
+      tutoriales: store.state.tutoriales.list,
+      breadcrumbs: [
+        {
+          text: 'Tutoriales',
+          disabled: false,
+          to: '/tutoriales'
+        },
+        {
+          text: tag.name,
+          disabled: true,
+          to: ''
+        }
+      ]
+    }
   },
   data() {
     return {
@@ -86,29 +109,6 @@ export default {
   },
   validate({ store, params }) {
     return store.state.tutoriales.tags.find(e => e.alias === params.alias)
-  },
-  asyncData({ store, params }) {
-    const tag = store.state.tutoriales.tags.find(e => {
-      return e.alias === params.alias
-    })
-
-    return {
-      tag,
-      tags: store.state.tutoriales.tags,
-      tutoriales: store.state.tutoriales.list,
-      breadcrumbs: [
-        {
-          text: 'Tutoriales',
-          disabled: false,
-          to: '/tutoriales'
-        },
-        {
-          text: tag.name,
-          disabled: true,
-          to: ''
-        }
-      ]
-    }
   },
   created() {
     const tagName = this.$store.state.tutoriales.tags.find(

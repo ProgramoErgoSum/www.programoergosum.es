@@ -31,15 +31,15 @@ export default {
   components: {
     Item
   },
-  computed: {
-    background() {
-      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
-    }
-  },
   asyncData({ store }) {
     return {
       metas: store.state.metas.actividades,
       actividades: store.state.actividades.list
+    }
+  },
+  computed: {
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
     }
   },
   head() {

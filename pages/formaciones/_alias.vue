@@ -77,12 +77,6 @@ export default {
     Collaborators,
     ItemCol
   },
-  computed: {
-    ...mapGetters({ adsense: 'formaciones/adsense' }),
-    background() {
-      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
-    }
-  },
   validate({ store, params }) {
     return store.state.formaciones.list.find(e => e.alias === params.alias)
   },
@@ -127,6 +121,12 @@ export default {
           to: ''
         }
       ]
+    }
+  },
+  computed: {
+    ...mapGetters({ adsense: 'formaciones/adsense' }),
+    background() {
+      return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'
     }
   },
   head() {

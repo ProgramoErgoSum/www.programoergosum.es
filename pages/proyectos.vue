@@ -46,6 +46,11 @@
 <script>
 export default {
   components: {},
+  asyncData({ store }) {
+    return {
+      metas: store.state.metas.proyectos
+    }
+  },
   data: () => ({
     projects: [
       {
@@ -78,11 +83,6 @@ export default {
       }
     ]
   }),
-  asyncData({ store }) {
-    return {
-      metas: store.state.metas.proyectos
-    }
-  },
   head() {
     const title = this.metas.title
     const description = this.metas.description

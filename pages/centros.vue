@@ -57,6 +57,11 @@ export default {
   components: {
     Map
   },
+  asyncData({ store }) {
+    return {
+      metas: store.state.metas.centros
+    }
+  },
   data: () => ({
     search: '',
     faqs: [
@@ -87,11 +92,6 @@ export default {
       }
     ]
   }),
-  asyncData({ store }) {
-    return {
-      metas: store.state.metas.centros
-    }
-  },
   head() {
     const title = this.metas.title
     const description = this.metas.description

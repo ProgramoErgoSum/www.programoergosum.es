@@ -21,6 +21,10 @@ a {
   color: #ae4119;
 }
 
+.theme--light.v-app-bar.v-toolbar.v-sheet {
+  background-color: #fff !important;   
+}
+
 .v-toolbar__content {
   .v-btn:hover,
   .v-btn--active {
