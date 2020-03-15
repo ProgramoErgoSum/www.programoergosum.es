@@ -12,12 +12,12 @@ branches:
     - develop
 
 install:
-  - yarn install
-  - yarn run generate
+  - npm ci
+  - npm run generate
 
 script:
-  - yarn run lint
-  - yarn run test
+  - npm run lint
+  - npm run test
 
 deploy:
   provider: pages
