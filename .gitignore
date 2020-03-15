@@ -1,8 +1,10 @@
-# composer
-vendor/
-composer.json
-composer.lock
+# DEV .bash
+#vendor/
+#composer.json
+#composer.lock
 deploy.php
+dev-docker-up.sh
+dev-pre-commit.sh
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
