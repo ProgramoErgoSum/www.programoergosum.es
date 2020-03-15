@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  nuxt:
+    ports:
+      - "3001:3000"
+    command: bash -c "npm install && npm run dev"
