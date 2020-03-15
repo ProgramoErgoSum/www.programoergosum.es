@@ -8,11 +8,11 @@ import apiTutoriales from './store/api/v1/tutoriales.json'
 
 const www =
   process.env.NODE_ENV === 'development'
-    ? 'http://localhost:3000'
+    ? 'http://localhost:3001'
     : 'https://www.programoergosum.es'
 const cdn =
   process.env.NODE_ENV === 'development'
-    ? 'http://localhost:3000'
+    ? 'http://localhost:3001'
     : 'https://www.programoergosum.es'
 
 export default {
