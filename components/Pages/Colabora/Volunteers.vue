@@ -70,7 +70,7 @@ export default {
       {
         name: 'Miguel Manzano',
         image:
-          'https://pbs.twimg.com/profile_images/975973650959618049/gRdPUS4g_400x400.jpg',
+          'https://pbs.twimg.com/profile_images/1232983711328690177/r6pJsb3m_400x400.jpg',
         description:
           'Aporrea el teclado, eso sí, primero hace un commit por si los bytes.',
         social: {
