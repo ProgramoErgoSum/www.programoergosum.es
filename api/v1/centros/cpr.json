@@ -2,19 +2,6 @@
   {
     "name": "Centro de Profesores y Recursos",
     "address": {
-      "city": "Murcia",
-      "province": "Región de Murcia"
-    },
-    "image": "https://pbs.twimg.com/profile_images/1006106905528463360/EcVgJP76_400x400.jpg",
-    "coordinates": ["37.9914646","-1.1290893"],
-    "social": {
-      "url": "https://www.murciaeduca.es/cprregiondemurcia/sitio/",
-      "twitter": "https://twitter.com/CPRRegionMurcia"
-    }
-  },
-  {
-    "name": "Centro de Profesores y Recursos",
-    "address": {
       "city": "Plasencia",
       "province": "Cáceres"
     },

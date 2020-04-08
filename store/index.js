@@ -6,24 +6,46 @@ const state = () => ({
   drawer: false,
   metas,
   navigation: [
+    /*
     {
       title: 'Cursos y tutoriales',
       icon: 'mdi-school-outline',
       to: '/tutoriales'
     },
-    /*
-    {
-      title: 'Cursos',
-      icon: 'mdi-teach',
-      to: '/formaciones'
-    },
     */
+    {
+      title: 'Scratch',
+      icon: '',
+      to: '/tutoriales/tags/scratch'
+    },
+    {
+      title: 'Arduino',
+      icon: '',
+      to: '/tutoriales/tags/arduino'
+    },
+    {
+      title: 'Raspberry Pi',
+      icon: '',
+      to: '/tutoriales/tags/raspberry-pi'
+    },
+    {
+      title: 'Robot mBot',
+      icon: '',
+      to: '/tutoriales/tags/mbot'
+    },
+    {
+      title: 'Makey-Makey',
+      icon: '',
+      to: '/tutoriales/tags/makey-makey'
+    },
+    /*
     {
       title: 'Centros',
       icon: 'mdi-domain',
       class: '',
       to: '/centros'
     },
+    */
     {
       title: 'Donaciones',
       icon: 'mdi-account-heart-outline',
@@ -41,11 +63,6 @@ const state = () => ({
       title: 'Cursos y tutoriales',
       icon: 'mdi-school-outline',
       to: '/tutoriales'
-    },
-    {
-      title: 'Formación profesores',
-      icon: 'mdi-teach',
-      to: '/formaciones'
     },
     {
       title: 'Centros',
