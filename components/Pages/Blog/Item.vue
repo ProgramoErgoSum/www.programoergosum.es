@@ -1,10 +1,10 @@
 <template>
   <v-card :to="`/blog/${blog.alias}`" flat tile nuxt>
     <v-row no-gutters>
-      <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="3">
+      <v-col cols="12" xs="12" sm="12" md="4" lg="4">
         <VImageLazy :src="absoluteUrlImage" :title="blog.title" :height="185" />
       </v-col>
-      <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="9">
+      <v-col cols="12" xs="12" sm="12" md="8" lg="8">
         <v-card-title primary-title>
           <h3 class="mb-4 title">
             {{ blog.title }}
@@ -12,8 +12,10 @@
           <div class="mb-6 body-1 font-weight-light">
             {{ blog.description }}
           </div>
-          <Posted :cdate="blog.date.cdate" :mdate="blog.date.mdate" />
         </v-card-title>
+        <v-card-content class="ml-4">
+          <Posted :cdate="blog.date.cdate" :mdate="blog.date.mdate" />
+        </v-card-content>
       </v-col>
     </v-row>
   </v-card>

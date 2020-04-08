@@ -3,7 +3,7 @@
     "alias": "iniciacion-a-la-robotica-en-educacion-primaria",
     "title": "Iniciación a la Robótica en Educación Primaria",
     "description": "Curso de introducción a la programación y robótica educativa en las aulas de educación infantil y primaria.",
-    "image": "img/preview.jpg",
+    "image": "img/preview.png",
     "tags": ["programación", "robótica", "infantil", "primaria"],
     "speakers": [
       {
@@ -26,7 +26,7 @@
     "alias": "iniciacion-a-la-robotica-en-educacion-secundaria",
     "title": "Iniciación a la Robótica en Educación Secundaria",
     "description": "Curso de introducción a la programación y robótica educativa en las aulas de educación secundaria.",
-    "image": "img/preview.jpg",
+    "image": "img/preview.png",
     "tags": ["programación", "robótica", "secundaria"],
     "speakers": [
       {
@@ -49,7 +49,7 @@
     "alias": "programacion-en-python-con-raspberry-pi",
     "title": "Programación en Python con Raspberry Pi",
     "description": "Curso de introducción a la domótica e internet de las cosas con Raspberry Pi para profesores de educación secundaria.",
-    "image": "img/preview.jpg",
+    "image": "img/preview.png",
     "tags": ["programación", "robótica", "secundaria", "bachillerato"],
     "speakers": [
       {
@@ -72,7 +72,7 @@
     "alias": "robotica-para-la-integracion-de-alumnos-con-nee",
     "title": "Robótica para la inclusión de alumnos con NEE",
     "description": "Curso de programación y robótica para la inclusión de alumnos con necesidades educativas especiales.",
-    "image": "img/preview.jpg",
+    "image": "img/preview.png",
     "tags": ["programación", "robótica", "infantil", "primaria", "secundaria"],
     "speakers": [
       {
@@ -105,7 +105,7 @@
     "alias": "recursos-educativos-mediante-la-programacion",
     "title": "Recursos educativos mediante la programación",
     "description": "Curso sobre creación de recursos educativos mediante la programación de videojuegos y robótica educativa.",
-    "image": "img/preview.jpg",
+    "image": "img/preview.png",
     "tags": ["programación", "robótica", "secundaria", "bachillerato"],
     "speakers": [
       {
@@ -128,7 +128,7 @@
     "alias": "jornadas-sobre-programacion-y-robotica-en-murcia",
     "title": "Jornadas sobre programación y robótica en Murcia",
     "description": "Jornadas sobre experiencias en programación y robótica educativa en educación primaria y secundaria.",
-    "image": "img/preview.jpg",
+    "image": "img/preview.png",
     "tags": ["programación", "robótica", "infantil", "primaria", "secundaria", "bachillerato"],
     "speakers": [
       {
