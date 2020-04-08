@@ -29,23 +29,16 @@ const state = () => ({
       to: '/tutoriales/tags/raspberry-pi'
     },
     {
-      title: 'Robot mBot',
+      title: 'Robótica educativa',
       icon: '',
-      to: '/tutoriales/tags/mbot'
+      to: '/tutoriales/tags/robotica-educativa'
     },
-    {
-      title: 'Makey-Makey',
-      icon: '',
-      to: '/tutoriales/tags/makey-makey'
-    },
-    /*
     {
       title: 'Centros',
       icon: 'mdi-domain',
       class: '',
       to: '/centros'
     },
-    */
     {
       title: 'Donaciones',
       icon: 'mdi-account-heart-outline',
