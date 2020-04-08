@@ -220,7 +220,7 @@ export default {
     ],
     learning: [
       {
-        title: 'Formación del profesorado',
+        title: 'Cursos para profesores',
         to: '/formaciones'
       },
       {

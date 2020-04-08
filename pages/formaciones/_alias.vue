@@ -82,7 +82,7 @@ export default {
 
       breadcrumbs: [
         {
-          text: 'Formación del profesorado',
+          text: 'Cursos para profesores',
           disabled: false,
           to: '/formaciones'
         },
@@ -109,7 +109,7 @@ export default {
 
     return {
       title,
-      titleTemplate: 'Formación del profesorado - %s',
+      titleTemplate: 'Cursos para profesores - %s',
       meta: [
         // Global
         { hid: 'description', name: 'description', content: description },
@@ -120,7 +120,7 @@ export default {
         { hid: 'o:i', property: 'og:image', content: image },
         { property: 'og:article:published_time', content: date.cdate },
         { property: 'og:article:modified_time', content: date.mdate },
-        { property: 'og:article:section', content: 'Formación profesorado' },
+        { property: 'og:article:section', content: 'Cursos para profesores' },
         { property: 'og:article:tag', content: tags },
         // Twitter
         { hid: 't:t', name: 'twitter:title', content: title },
