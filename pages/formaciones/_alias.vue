@@ -10,7 +10,6 @@
       <v-row>
         <v-col class="hidden-md-and-down" lg="2" xl="2">
           <div class="sticky-top">
-            <Collaborators title="Centro de formación" />
             <!--
             <Adsense
               type="display"
@@ -21,8 +20,12 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
+          <!--
           <Info :speakers="speakers" :editions="editions" class="mb-12" />
+          -->
+          <!--
           <Content :raw="raw" :cdn="cdn" />
+          -->
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
@@ -31,7 +34,7 @@
         </v-col>
       </v-row>
     </v-container>
-
+    <!--
     <section
       v-show="related.length > 1"
       :class="background"
@@ -55,6 +58,7 @@
         </v-row>
       </v-container>
     </section>
+    -->
   </div>
 </template>
 
@@ -63,19 +67,17 @@ import { mapGetters } from 'vuex'
 
 import axios from 'axios'
 
-import Info from '@/components/Pages/Formaciones/Info'
-import Content from '@/components/Markdown/Content'
-import Toc from '@/components/Markdown/Toc'
-import Collaborators from '@/components/Pages/Formaciones/Collaborators'
-import ItemCol from '@/components/Pages/Formaciones/ItemCol'
+// import Info from '@/components/Pages/Formaciones/Info'
+// import Content from '@/components/Markdown/Content'
+// import Toc from '@/components/Markdown/Toc'
+// import ItemCol from '@/components/Pages/Formaciones/ItemCol'
 
 export default {
   components: {
-    Info,
-    Content,
-    Toc,
-    Collaborators,
-    ItemCol
+    // Info,
+    // Content,
+    // Toc,
+    // ItemCol
   },
   validate({ store, params }) {
     return store.state.formaciones.list.find(e => e.alias === params.alias)

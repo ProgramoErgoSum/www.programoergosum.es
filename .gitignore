@@ -4,8 +4,8 @@
 #composer.lock
 deploy.php
 deploy-development.sh
-dev-docker-up.sh
-dev-pre-commit.sh
+pre-start.sh
+pre-commit.sh
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template

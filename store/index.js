@@ -11,11 +11,13 @@ const state = () => ({
       icon: 'mdi-school-outline',
       to: '/tutoriales'
     },
+    /*
     {
-      title: 'Formación del profesorado',
+      title: 'Cursos',
       icon: 'mdi-teach',
       to: '/formaciones'
     },
+    */
     {
       title: 'Centros',
       icon: 'mdi-domain',

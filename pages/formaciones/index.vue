@@ -34,7 +34,9 @@
           lg="4"
           xl="3"
         >
+          <!--
           <Item :formacion="formacion" />
+          -->
         </v-col>
       </v-row>
     </v-container>
@@ -42,11 +44,11 @@
 </template>
 
 <script>
-import Item from '@/components/Pages/Formaciones/Item'
+// import Item from '@/components/Pages/Formaciones/Item'
 
 export default {
   components: {
-    Item
+    // Item
   },
   /*
   data() {
