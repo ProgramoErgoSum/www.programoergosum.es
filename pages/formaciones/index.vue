@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!--
     <Title
       :title="metas.title"
       :description="metas.description"
@@ -20,15 +21,16 @@
         </v-col>
       </v-row>
     </v-container>
+    -->
   </div>
 </template>
 
 <script>
-import Item from '@/components/Pages/Formaciones/Item'
+// import Item from '@/components/Pages/Formaciones/Item'
 
 export default {
   components: {
-    Item
+    // Item
   },
   asyncData({ store }) {
     return {
