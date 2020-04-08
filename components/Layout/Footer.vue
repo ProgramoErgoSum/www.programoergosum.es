@@ -219,9 +219,15 @@ export default {
       }
     ],
     learning: [
+      /*
       {
         title: 'Cursos para profesores',
         to: '/formaciones'
+      },
+      */
+      {
+        title: 'Plataforma anterior',
+        href: 'https://www.programoergosum.com'
       },
       {
         title: 'Aprende con las STEM',
