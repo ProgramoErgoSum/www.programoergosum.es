@@ -1,29 +1,16 @@
 <template>
   <v-card :to="`/formaciones/${formacion.alias}`" nuxt>
+    <!--
     <VImageLazy
       :src="absoluteUrlImage"
       :title="formacion.title"
       :height="300"
     />
+    -->
     <v-card-title primary-title>
       <h3 class="mb-4 title">{{ formacion.title }}</h3>
       <div class="mb-2 subtitle-1">{{ formacion.description }}</div>
     </v-card-title>
-    <v-divider class="mx-3" />
-    <v-card-text v-if="formacion.editions[0]">
-      <p>
-        <v-icon class="mr-2">mdi-school</v-icon>
-        {{ formacion.editions[0].number }}
-      </p>
-      <p>
-        <v-icon class="mr-2">mdi-map</v-icon>
-        {{ formacion.editions[0].center }}
-      </p>
-      <p>
-        <v-icon class="mr-2">mdi-calendar</v-icon>
-        {{ formacion.editions[0].date }}
-      </p>
-    </v-card-text>
   </v-card>
 </template>
 

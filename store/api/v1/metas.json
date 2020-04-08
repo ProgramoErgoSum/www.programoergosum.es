@@ -40,9 +40,9 @@
     "image": "/images/actividades.png"
   },
   "formaciones": {
-    "title": "Cursos de Formación Permanente del Profesorado",
+    "title": "Cursos para profesores",
     "description": "Cursos de formación en programación y robótica educativa para docentes, maestros de educación primaria y profesores de secundaria o bachillerato.",
-    "image": "/images/formaciones.jpg"
+    "image": "/images/formaciones.png"
   },
   "tutoriales": {
     "title": "Cursos y tutoriales de programación y robótica educativa",

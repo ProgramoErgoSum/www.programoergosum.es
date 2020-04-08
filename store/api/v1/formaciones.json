@@ -17,56 +17,6 @@
         }
       }
     ],
-    "editions": [
-      {
-        "number": "8ª Edición",
-        "date": "Enero 2020",
-        "center": "CEIP Los Molinos, Calasparra (Murcia)",
-        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "7ª Edición",
-        "date": "Noviembre 2019",
-        "center": "CEIP Purísima Concepción, Puerto Lumbreras (Murcia)",
-        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "6ª Edición",
-        "date": "Octubre 2019",
-        "center": "CEIP Ciudad del Mar, Águilas (Murcia)",
-        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "5ª Edición",
-        "date": "Octubre 2019",
-        "center": "CEIP Hnos. S. Isidoro y Sta. Florentina, Cartagena (Murcia)",
-        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "4ª Edición",
-        "date": "Octubre 2019",
-        "center": "CEIP Hernández Ardieta, Roldan (Murcia)",
-        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "3ª Edición",
-        "date": "Octubre 2019",
-        "center": "CEIP San José, Lorca (Murcia)",
-        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "2ª Edición",
-        "date": "Enero 2019",
-        "center": "IES Juan Carlos I, Murcia",
-        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "1ª Edición",
-        "date": "Noviembre 2016",
-        "center": "CEIP Gines García Martínez, Mazarrón (Murcia)",
-        "description": "Profesorado de Educación Infantil y Primaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-11-24 10:14:12"
@@ -90,44 +40,6 @@
         }
       }
     ],
-    "editions": [
-      {
-        "number": "6ª Edición",
-        "date": "Enero 2020 - Próximamente",
-        "center": "IES Miguel de Cervantes, Murcia",
-        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "5ª Edición",
-        "date": "Febrero 2018",
-        "center": "IES Miguel de Cervantes, Murcia",
-        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "4ª Edición",
-        "date": "Enero 2017",
-        "center": "IES Bartolomé Perez casas, Lorca (Murcia)",
-        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "3ª Edición",
-        "date": "Enero 2017",
-        "center": "IES Los Molinos, Cartagena (Murcia)",
-        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "2ª Edición",
-        "date": "Enero 2017",
-        "center": "IES Miguel de Cervantes, Murcia",
-        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "1ª Edición",
-        "date": "Noviembre 2016",
-        "center": "IES José Ibañez, Lorca (Murcia)",
-        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-10-05 14:05:12"
@@ -149,26 +61,6 @@
           "twitter": "https://twitter.com/migueabellan",
           "github": "https://github.com/migueabellan"
         }
-      }
-    ],
-    "editions": [
-      {
-        "number": "3ª Edición",
-        "date": "Septiembre 2019",
-        "center": "IES Miguel de Cervantes, Murcia",
-        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "2ª Edición",
-        "date": "Abril 2019",
-        "center": "IES Miguel de Cervantes, Murcia",
-        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "1ª Edición",
-        "date": "Octubre 2017",
-        "center": "IES Miguel Espinosa, Murcia",
-        "description": "Profesorado de Educación Secundaria de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
       }
     ],
     "date": {
@@ -204,26 +96,6 @@
         }
       }
     ],
-    "editions": [
-      {
-        "number": "3ª Edición",
-        "date": "Enero 2020",
-        "center": "IES Juan Carlos I, Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "2ª Edición",
-        "date": "Octubre 2018",
-        "center": "IES Juan Carlos I, Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "1ª Edición",
-        "date": "Septiembre 2017",
-        "center": "IES Juan Carlos I, Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-11-25 12:05:12"
@@ -247,20 +119,6 @@
         }
       }
     ],
-    "editions": [
-      {
-        "number": "2ª Edición",
-        "date": "Enero 2018",
-        "center": "IES Juan Carlos I, Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "1ª Edición",
-        "date": "Enero 2017",
-        "center": "IES Juan Carlos I, Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-10-07 11:05:12"
@@ -282,38 +140,6 @@
           "twitter": "https://twitter.com/migueabellan",
           "github": "https://github.com/migueabellan"
         }
-      }
-    ],
-    "editions": [
-      {
-        "number": "5ª Edición",
-        "date": "Mayo 2020 - Próximamente",
-        "center": "Facultad de Informática, Universidad de Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "4ª Edición",
-        "date": "Mayo 2019",
-        "center": "Facultad de Informática, Universidad de Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "3ª Edición",
-        "date": "Mayo 2018",
-        "center": "Facultad de Informática, Universidad de Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "2ª Edición",
-        "date": "Mayo 2017",
-        "center": "Facultad de Informática, Universidad de Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
-      },
-      {
-        "number": "1ª Edición",
-        "date": "Mayo 2016",
-        "center": "Facultad de Informática, Universidad de Murcia",
-        "description": "Profesorado de la Consejería de Educación y Cultura de centros educativos de la Región de Murcia."
       }
     ],
     "date": {

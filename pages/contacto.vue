@@ -114,16 +114,6 @@ export default {
         ]
       },
       {
-        title: 'Sobre cursos para profesores ...',
-        items: [
-          {
-            title: '¿Cómo puedo realizar los cursos para profesores?',
-            description:
-              'Los cursos de formación permanente del profesorado se realizan a través del Centro de Profesores y Recursos de la Región de Murcia (CPR Murcia). Para asistir a los cursos deberás cumplir los requisitos de docente en la Región de Murcia.'
-          }
-        ]
-      },
-      {
         title: 'Sobre actividades extraescolares ...',
         items: [
           {
