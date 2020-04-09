@@ -1,22 +1,10 @@
 [
   {
     "alias": "iniciacion-a-la-robotica-en-educacion-primaria",
-    "title": "Iniciación a la Robótica en Educación Primaria",
-    "description": "Curso de introducción a la programación y robótica educativa en las aulas de educación infantil y primaria.",
-    "image": "img/preview.png",
+    "title": "Introducción a la robótica en primaria",
+    "description": "Introducción a la programación y robótica educativa en las aulas de educación infantil y primaria.",
+    "image": "img/preview.jpg",
     "tags": ["programación", "robótica", "infantil", "primaria"],
-    "speakers": [
-      {
-        "name": "Miguel Ángel Abellán",
-        "image": "https://avatars.githubusercontent.com/migueabellan",
-        "description": "Cofundador Programo Ergo Sum, Programador y profesor de programación",
-        "social": {
-          "url": "https://migueabellan.github.io",
-          "twitter": "https://twitter.com/migueabellan",
-          "github": "https://github.com/migueabellan"
-        }
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-11-24 10:14:12"
@@ -24,22 +12,10 @@
   },
   {
     "alias": "iniciacion-a-la-robotica-en-educacion-secundaria",
-    "title": "Iniciación a la Robótica en Educación Secundaria",
-    "description": "Curso de introducción a la programación y robótica educativa en las aulas de educación secundaria.",
-    "image": "img/preview.png",
+    "title": "Introducción a la robótica en secundaria",
+    "description": "Introducción a la programación y robótica educativa en las aulas de educación secundaria.",
+    "image": "img/preview.jpg",
     "tags": ["programación", "robótica", "secundaria"],
-    "speakers": [
-      {
-        "name": "Miguel Ángel Abellán",
-        "image": "https://avatars.githubusercontent.com/migueabellan",
-        "description": "Cofundador Programo Ergo Sum, Programador y profesor de programación",
-        "social": {
-          "url": "https://migueabellan.github.io",
-          "twitter": "https://twitter.com/migueabellan",
-          "github": "https://github.com/migueabellan"
-        }
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-10-05 14:05:12"
@@ -47,9 +23,9 @@
   },
   {
     "alias": "programacion-en-python-con-raspberry-pi",
-    "title": "Programación en Python con Raspberry Pi",
-    "description": "Curso de introducción a la domótica e internet de las cosas con Raspberry Pi para profesores de educación secundaria.",
-    "image": "img/preview.png",
+    "title": "Programación en python con Raspberry Pi",
+    "description": "Introducción a la domótica e internet de las cosas con Raspberry Pi para profesores de educación secundaria.",
+    "image": "img/preview.jpg",
     "tags": ["programación", "robótica", "secundaria", "bachillerato"],
     "speakers": [
       {
@@ -70,32 +46,10 @@
   },
   {
     "alias": "robotica-para-la-integracion-de-alumnos-con-nee",
-    "title": "Robótica para la inclusión de alumnos con NEE",
-    "description": "Curso de programación y robótica para la inclusión de alumnos con necesidades educativas especiales.",
-    "image": "img/preview.png",
+    "title": "Robótica para la inclusión de alumnos con necesidades",
+    "description": "Robótica para la inclusión de alumnos con necesidades educativas.",
+    "image": "img/preview.jpg",
     "tags": ["programación", "robótica", "infantil", "primaria", "secundaria"],
-    "speakers": [
-      {
-        "name": "Miguel Ángel Abellán",
-        "image": "https://avatars.githubusercontent.com/migueabellan",
-        "description": "Cofundador Programo Ergo Sum, Programador y profesor de programación",
-        "social": {
-          "url": "https://migueabellan.github.io",
-          "twitter": "https://twitter.com/migueabellan",
-          "github": "https://github.com/migueabellan"
-        }
-      },
-      {
-        "name": "Carmen Belén Martínez",
-        "image": "https://pbs.twimg.com/profile_images/650326709242302464/f27brfje_400x400.jpg",
-        "description": "Cofundadora Programo Ergo Sum, Psicóloga en la asociación Astrade",
-        "social": {
-          "url": "",
-          "twitter": "https://twitter.com/carmenb_mg",
-          "github": ""
-        }
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-11-25 12:05:12"
@@ -103,22 +57,10 @@
   },
   {
     "alias": "recursos-educativos-mediante-la-programacion",
-    "title": "Recursos educativos mediante la programación",
-    "description": "Curso sobre creación de recursos educativos mediante la programación de videojuegos y robótica educativa.",
-    "image": "img/preview.png",
+    "title": "Recursos educativos mediante la programación de videojuegos",
+    "description": "Recursos educativos mediante la programación de videojuegos y aplicaciones.",
+    "image": "img/preview.jpg",
     "tags": ["programación", "robótica", "secundaria", "bachillerato"],
-    "speakers": [
-      {
-        "name": "Miguel Ángel Abellán",
-        "image": "https://avatars.githubusercontent.com/migueabellan",
-        "description": "Cofundador Programo Ergo Sum, Programador y profesor de programación",
-        "social": {
-          "url": "https://migueabellan.github.io",
-          "twitter": "https://twitter.com/migueabellan",
-          "github": "https://github.com/migueabellan"
-        }
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-10-07 11:05:12"
@@ -127,21 +69,9 @@
   {
     "alias": "jornadas-sobre-programacion-y-robotica-en-murcia",
     "title": "Jornadas sobre programación y robótica en Murcia",
-    "description": "Jornadas sobre experiencias en programación y robótica educativa en educación primaria y secundaria.",
-    "image": "img/preview.png",
+    "description": "Talleres realizados en Jornadas de programación y robótica educativa.",
+    "image": "img/preview.jpg",
     "tags": ["programación", "robótica", "infantil", "primaria", "secundaria", "bachillerato"],
-    "speakers": [
-      {
-        "name": "Miguel Ángel Abellán",
-        "image": "https://avatars.githubusercontent.com/migueabellan",
-        "description": "Cofundador Programo Ergo Sum, Programador y profesor de programación",
-        "social": {
-          "url": "https://migueabellan.github.io",
-          "twitter": "https://twitter.com/migueabellan",
-          "github": "https://github.com/migueabellan"
-        }
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-10-05 14:05:12"

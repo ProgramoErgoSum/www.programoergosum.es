@@ -1,15 +1,15 @@
 <template>
   <v-card :to="`/formaciones/${formacion.alias}`" nuxt>
-    <!--
     <VImageLazy
       :src="absoluteUrlImage"
       :title="formacion.title"
       :height="300"
     />
-    -->
     <v-card-title primary-title>
       <h3 class="mb-4 title">{{ formacion.title }}</h3>
+      <!--
       <div class="mb-2 subtitle-1">{{ formacion.description }}</div>
+      -->
     </v-card-title>
   </v-card>
 </template>

@@ -20,12 +20,11 @@
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
-          <Info :speakers="speakers" class="mb-12" />
           <Content :raw="raw" :cdn="cdn" />
         </v-col>
         <v-col class="hidden-sm-and-down" md="3" lg="3" xl="2">
           <div class="sticky-top">
-            <Toc :raw="raw" title="Temario del curso" />
+            <Toc :raw="raw" title="Temario" />
           </div>
         </v-col>
       </v-row>
@@ -38,13 +37,11 @@ import { mapGetters } from 'vuex'
 
 import axios from 'axios'
 
-import Info from '@/components/Pages/Formaciones/Info'
 import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 
 export default {
   components: {
-    Info,
     Content,
     Toc
   },

@@ -40,8 +40,8 @@
     "image": "/images/actividades.png"
   },
   "formaciones": {
-    "title": "Cursos para profesores",
-    "description": "Cursos de formación en programación y robótica educativa para docentes, maestros de educación primaria y profesores de secundaria o bachillerato.",
+    "title": "Tutoriales educativos",
+    "description": "Tutoriales de programación, electrónica y robótica educativa para utilizar en las aulas con los alumnos.",
     "image": "/images/formaciones.png"
   },
   "tutoriales": {
