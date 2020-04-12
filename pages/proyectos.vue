@@ -2,7 +2,7 @@
   <div>
     <Title :title="metas.title" :description="metas.description" />
     <v-container fluid>
-      <v-row>
+      <v-row justify="center">
         <v-col
           v-for="project in projects"
           :key="project.link"
@@ -10,8 +10,7 @@
           xs="12"
           sm="12"
           md="6"
-          lg="3"
-          xl="3"
+          lg="4"
         >
           <v-card
             :href="project.link"
@@ -66,7 +65,8 @@ export default {
         title: 'Aprende Programando',
         description:
           'Plataforma de aprendizaje STEM a través de la programación en distintos niveles de ESO y Bachiller.'
-      },
+      }
+      /*
       {
         link: 'https://wikitic.github.io',
         img: 'wikitic.png',
@@ -81,6 +81,7 @@ export default {
         description:
           'Proyecto educativo para fomentar el uso de la programación y la robótica en primaria y secundaria.'
       }
+      */
     ]
   }),
   head() {
