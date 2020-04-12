@@ -1,0 +1,15 @@
+[
+  {
+    "name": "CEIP General Fresneda",
+    "address": {
+      "city": "Jódar",
+      "province": "Jaen"
+    },
+    "image": "https://pbs.twimg.com/profile_images/1227481581092208640/MgS1Lhwk_400x400.jpg",
+    "coordinates": ["37.8425137","-3.353657"],
+    "social": {
+      "url": "http://www.ceipgeneralfresneda.es/",
+      "twitter": ""
+    }
+  }
+]
