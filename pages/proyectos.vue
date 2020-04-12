@@ -66,22 +66,6 @@ export default {
         description:
           'Plataforma de aprendizaje STEM a través de la programación en distintos niveles de ESO y Bachiller.'
       }
-      /*
-      {
-        link: 'https://wikitic.github.io',
-        img: 'wikitic.png',
-        title: 'Wiki TIC',
-        description:
-          'Recopilatorio de prácticas educativas para fomentar el uso de las TIC en los niveles de ESO y Bachiller.'
-      },
-      {
-        link: 'https://www.elcableamarillo.cc',
-        img: 'elcableamarillo.png',
-        title: 'El Cable Amarillo',
-        description:
-          'Proyecto educativo para fomentar el uso de la programación y la robótica en primaria y secundaria.'
-      }
-      */
     ]
   }),
   head() {
