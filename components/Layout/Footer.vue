@@ -183,21 +183,10 @@ export default {
         name: 'LinkedIn',
         href: 'https://www.linkedin.com/company/programo-ergo-sum'
       },
-      /*
       {
-        icon: 'mdi-slideshare',
-        href: 'https://www.slideshare.net/ProgramoErgoSum'
-      },
-      */
-      {
-        icon: 'mdi-github-circle',
+        icon: 'mdi-github',
         name: 'GitHub',
         href: 'https://github.com/ProgramoErgoSum'
-      },
-      {
-        icon: 'mdi-slack',
-        name: 'Slack',
-        href: 'https://programoergosum.slack.com/'
       }
     ],
     association: [
@@ -209,10 +198,12 @@ export default {
         title: 'Extraescolares',
         to: '/actividades'
       },
+      /*
       {
         title: 'Blog',
         to: '/blog'
       },
+      */
       {
         title: 'Contacto',
         to: '/contacto'
@@ -232,11 +223,13 @@ export default {
       {
         title: 'Aprende con las STEM',
         href: 'https://www.aprendeprogramando.es'
-      },
+      }
+      /*
       {
         title: 'Prácticas de robótica',
         href: 'https://www.elcableamarillo.cc'
       }
+      */
     ]
   })
 }
