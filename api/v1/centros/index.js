@@ -10,6 +10,7 @@ import lacoruna from './la-coruna.json'
 import malaga from './malaga.json'
 import madrid from './madrid.json'
 import murcia from './murcia.json'
+import pamplona from './pamplona.json'
 import sevilla from './sevilla.json'
 import stcruzdetenerife from './st-cruz-tenerife.json'
 import toledo from './toledo.json'
@@ -30,6 +31,7 @@ export default cpr
   .concat(malaga)
   .concat(madrid)
   .concat(murcia)
+  .concat(pamplona)
   .concat(sevilla)
   .concat(stcruzdetenerife)
   .concat(toledo)
