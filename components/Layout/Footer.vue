@@ -224,12 +224,6 @@ export default {
         title: 'Aprende con las STEM',
         href: 'https://www.aprendeprogramando.es'
       }
-      /*
-      {
-        title: 'Prácticas de robótica',
-        href: 'https://www.elcableamarillo.cc'
-      }
-      */
     ]
   })
 }
