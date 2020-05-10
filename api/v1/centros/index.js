@@ -3,6 +3,7 @@ import alicante from './alicante.json'
 import almeria from './almeria.json'
 import baleares from './baleares.json'
 import barcelona from './barcelona.json'
+import cordoba from './cordoba.json'
 import gerona from './gerona.json'
 import granada from './granada.json'
 import jaen from './jaen.json'
@@ -24,6 +25,7 @@ export default cpr
   .concat(almeria)
   .concat(baleares)
   .concat(barcelona)
+  .concat(cordoba)
   .concat(gerona)
   .concat(granada)
   .concat(jaen)

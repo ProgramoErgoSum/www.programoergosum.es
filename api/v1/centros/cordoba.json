@@ -1,0 +1,15 @@
+[
+  {
+    "name": "I.E.S Ángel de Saavedra",
+    "address": {
+      "city": "Córdoba",
+      "province": "Córdoba"
+    },
+    "image": "https://pbs.twimg.com/profile_images/963755628895330309/k_x9e1HG_400x400.jpg",
+    "coordinates": ["37.9008412","-4.7780917"],
+    "social": {
+      "url": "https://www.iesangeldesaavedra.es/",
+      "twitter": "https://twitter.com/angeldesaavedra"
+    }
+  }
+]
