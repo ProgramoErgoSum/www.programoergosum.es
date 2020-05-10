@@ -1,0 +1,15 @@
+[
+  {
+    "name": "IES Juan Sebastián Elcano",
+    "address": {
+      "city": "Sanlúcar de Barrameda",
+      "province": "Cádiz"
+    },
+    "image": "https://pbs.twimg.com/profile_images/693826871050530817/JD8BdOCw_400x400.png",
+    "coordinates": ["36.7779669","-6.3628151"],
+    "social": {
+      "url": "https://www.iesangeldesaavedra.es/",
+      "twitter": "https://twitter.com/angeldesaavedra"
+    }
+  }
+]
