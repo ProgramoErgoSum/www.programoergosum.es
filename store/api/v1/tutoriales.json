@@ -1992,7 +1992,7 @@
     "title": "Introducción a GitHub",
     "description": "Control de versiones GIT en la plataforma GitHub.",
     "image": "img/preview.jpg",
-    "contributors": ["migueabellan"],
+    "contributors": ["migueabellan", "fabiopolancoe"],
     "tags": {
       "technology": ["Informática"],
       "hardware": [],
@@ -2007,7 +2007,7 @@
     },
     "date": {
       "cdate": "2019-04-01 00:00:00",
-      "mdate": "2019-10-26 14:05:12"
+      "mdate": "2020-06-07 10:03:17"
     }
   },
 
