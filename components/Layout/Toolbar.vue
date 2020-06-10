@@ -17,7 +17,7 @@
           :to="item.to"
           :disabled="item.disabled"
           :class="item.class"
-          class="font-weight-regular text-none mr-0"
+          class="font-weight-regular text-none px-3 mr-0"
           text
           tile
           nuxt
