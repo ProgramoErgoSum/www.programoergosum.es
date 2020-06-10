@@ -6,10 +6,6 @@
       :image="metas.image"
     />
     <section class="py-12">
-      <Patrons />
-    </section>
-
-    <section :class="background" class="py-12">
       <v-container>
         <v-row>
           <v-col cols="12">
@@ -53,6 +49,10 @@
           </v-col>
         </v-row>
       </v-container>
+    </section>
+
+    <section :class="background" class="py-12">
+      <Patrons />
     </section>
 
     <section class="py-12">
