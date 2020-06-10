@@ -210,12 +210,10 @@ export default {
       }
     ],
     learning: [
-      /*
       {
         title: 'Cursos para profesores',
         to: '/formaciones'
       },
-      */
       {
         title: 'Plataforma anterior',
         href: 'https://www.programoergosum.com'
