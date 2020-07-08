@@ -45,8 +45,7 @@ export default {
     volunteers: [
       {
         name: 'Miguel Ángel Abellán',
-        image:
-          'https://pbs.twimg.com/profile_images/629634647912267777/gOmLRG8A_400x400.png',
+        image: '/images/voluntarios/migueabellan.png',
         description:
           'Porque disfruto programando y tengo la suerte de aprender todos los días.',
         social: {
@@ -57,8 +56,7 @@ export default {
       },
       {
         name: 'Carmen B. Martínez',
-        image:
-          'https://pbs.twimg.com/profile_images/650326709242302464/f27brfje_400x400.jpg',
+        image: '/images/voluntarios/carmenb_mg.jpg',
         description:
           'Psicóloga en constante reinvención. De todas las personas se aprende algo nuevo.',
         social: {
@@ -69,8 +67,7 @@ export default {
       },
       {
         name: 'Miguel Manzano',
-        image:
-          'https://pbs.twimg.com/profile_images/1232983711328690177/r6pJsb3m_400x400.jpg',
+        image: '/images/voluntarios/mmanzano.jpg',
         description:
           'Aporrea el teclado, eso sí, primero hace un commit por si los bytes.',
         social: {
