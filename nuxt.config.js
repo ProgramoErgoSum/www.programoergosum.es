@@ -1,7 +1,7 @@
 import path from 'path'
 
 import apiActividades from './store/api/v1/actividades.json'
-import apiBlogs from './store/api/v1/blogs.json'
+import apiBlogs from './api/v1/blogs.json'
 import apiFormaciones from './store/api/v1/formaciones.json'
 import apiTags from './store/api/v1/tags.json'
 import apiTutoriales from './store/api/v1/tutoriales.json'

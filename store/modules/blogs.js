@@ -1,4 +1,4 @@
-import blogs from '~/store/api/v1/blogs.json'
+import blogs from '~/api/v1/blogs.json'
 
 // ToDo: Add in .env file
 const repo = 'ProgramoErgoSum/Blog'

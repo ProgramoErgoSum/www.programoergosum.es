@@ -1,3 +1,4 @@
+import blogs from './modules/blogs'
 import centros from './modules/centros'
 
 import metas from '~/store/api/v1/metas.json'
@@ -6,13 +7,6 @@ const state = () => ({
   drawer: false,
   metas,
   navigation: [
-    /*
-    {
-      title: 'Cursos y tutoriales',
-      icon: 'mdi-school-outline',
-      to: '/tutoriales'
-    },
-    */
     {
       title: 'Scratch',
       icon: '',
@@ -90,6 +84,7 @@ export default {
   actions,
   mutations,
   modules: {
+    blogs,
     centros
   }
 }
