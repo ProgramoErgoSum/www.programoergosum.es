@@ -1,6 +1,7 @@
 import actividades from './modules/actividades'
 import blogs from './modules/blogs'
 import centros from './modules/centros'
+import formaciones from './modules/formaciones'
 
 import metas from '~/store/api/v1/metas.json'
 
@@ -87,6 +88,7 @@ export default {
   modules: {
     actividades,
     blogs,
-    centros
+    centros,
+    formaciones
   }
 }

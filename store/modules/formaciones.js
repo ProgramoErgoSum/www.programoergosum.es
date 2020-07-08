@@ -1,4 +1,4 @@
-import formaciones from '~/store/api/v1/formaciones.json'
+import formaciones from '~/api/v1/formaciones.json'
 
 // ToDo: Add in .env file
 const repo = 'ProgramoErgoSum/Formaciones'
