@@ -1,4 +1,4 @@
-import centros from '~/api/v1/centros/index.js'
+import centros from '@/api/v1/centros/index.js'
 
 const state = () => ({
   filter: '',

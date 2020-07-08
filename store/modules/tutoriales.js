@@ -1,5 +1,5 @@
-import tags from '~/api/v1/tags.json'
-import tutoriales from '~/api/v1/tutoriales.json'
+import tags from '@/api/v1/tags.json'
+import tutoriales from '@/api/v1/tutoriales.json'
 
 // ToDo: Add in .env file
 const repo = 'ProgramoErgoSum/Tutoriales'

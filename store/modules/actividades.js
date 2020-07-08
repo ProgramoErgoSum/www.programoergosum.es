@@ -1,4 +1,4 @@
-import actividades from '~/api/v1/actividades.json'
+import actividades from '@/api/v1/actividades.json'
 
 // ToDo: Add in .env file
 const repo = 'ProgramoErgoSum/Actividades'
