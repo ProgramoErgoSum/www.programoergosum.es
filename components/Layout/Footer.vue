@@ -195,6 +195,10 @@ export default {
         to: '/asociacion'
       },
       {
+        title: 'Tutoriales',
+        to: '/tutoriales'
+      },
+      {
         title: 'Extraescolares',
         to: '/actividades'
       },

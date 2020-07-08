@@ -3,8 +3,8 @@ import path from 'path'
 import apiActividades from './api/v1/actividades.json'
 import apiBlogs from './api/v1/blogs.json'
 import apiFormaciones from './api/v1/formaciones.json'
-import apiTags from './store/api/v1/tags.json'
-import apiTutoriales from './store/api/v1/tutoriales.json'
+import apiTags from './api/v1/tags.json'
+import apiTutoriales from './api/v1/tutoriales.json'
 
 const www =
   process.env.NODE_ENV === 'development'
