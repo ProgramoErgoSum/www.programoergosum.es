@@ -6,6 +6,10 @@
       :image="metas.image"
     />
     <section class="py-12">
+      <Donations />
+    </section>
+
+    <section :class="background" class="py-12">
       <v-container>
         <v-row>
           <v-col cols="12">
@@ -51,25 +55,16 @@
       </v-container>
     </section>
 
-    <section :class="background" class="py-12">
-      <Patrons />
-    </section>
-
-    <section class="py-12">
-      <Donations />
-    </section>
     <Reg />
   </div>
 </template>
 
 <script>
-import Patrons from '@/components/Pages/Colabora/Patrons'
 import Donations from '@/components/Pages/Colabora/Donations'
 import Reg from '@/components/Pages/Home/Reg'
 
 export default {
   components: {
-    Patrons,
     Donations,
     Reg
   },

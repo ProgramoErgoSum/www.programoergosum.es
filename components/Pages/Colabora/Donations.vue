@@ -4,6 +4,13 @@
       <v-col cols="12">
         <h2 class="mb-3">Donaciones</h2>
         <p>
+          Desde la Asociación Programo Ergo Sum, apostamos por una
+          <b>educación libre, publica y gratuita</b>. Nuestro objetivo es que
+          cada alumno de cada escuela tenga la oportunidad de aprender
+          informática, programación, electrónica y robótica educativa y queremos
+          que sean las propias personas las que apoyen los proyectos educativos.
+        </p>
+        <p>
           Si te gusta lo que hacemos y quieres ayudarnos economicamente, puedes
           realizar una
           <b>donación totalmente desinteresada</b> con el importe que creas
@@ -57,20 +64,45 @@ export default {
   name: 'Donations',
   data: () => ({
     donations: [
+      {
+        name: 'David Sánchez',
+        website: 'https://twitter.com/davidsanlo78',
+        date: '2020-06-01'
+      },
+      {
+        name: 'Tolo Piza',
+        website: 'https://twitter.com/tolo_piza',
+        date: '2020-06-01'
+      },
+      {
+        name: 'Pepe García',
+        website: 'http://ceipvillaespesa.es/',
+        date: '2020-06-01'
+      },
+      {
+        name: 'Francisco Román',
+        website: 'https://twitter.com/FranciscoRomnC2',
+        date: '2020-06-01'
+      },
+      {
+        name: 'Pablo Nuñez',
+        website: 'https://twitter.com/eltercerlugar',
+        date: '2020-06-01'
+      },
       // 15
       {
-        name: 'Julio C Cordeiro (IES Salvador Madariaga)',
+        name: 'Julio C Cordeiro',
         website: 'http://www.edu.xunta.gal/centros/iessalvadormadariaga',
         date: '2019-09-29'
       },
       // 10
       {
-        name: 'Jesús Barrera (Aprender con robots)',
+        name: 'Jesús Barrera',
         website: 'https://aprenderconrobots.com',
         date: '2019-12-27'
       },
       {
-        name: 'Juan Antonio Pérez (IES Murillo)',
+        name: 'Juan Antonio Pérez',
         website: 'https://sites.google.com/iesmurillo.es/tecnomurillo',
         date: '2019-10-20'
       },
