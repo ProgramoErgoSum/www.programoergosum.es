@@ -1,3 +1,4 @@
+import actividades from './modules/actividades'
 import blogs from './modules/blogs'
 import centros from './modules/centros'
 
@@ -84,6 +85,7 @@ export default {
   actions,
   mutations,
   modules: {
+    actividades,
     blogs,
     centros
   }
