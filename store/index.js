@@ -53,7 +53,7 @@ const state = () => ({
       to: '/asociacion'
     },
     {
-      title: 'Cursos y tutoriales',
+      title: 'Tutoriales',
       icon: 'mdi-school-outline',
       to: '/tutoriales'
     },
