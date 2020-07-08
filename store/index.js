@@ -1,10 +1,10 @@
+import metas from '@/doc/metas.json'
+
 import actividades from './modules/actividades'
 import blogs from './modules/blogs'
 import centros from './modules/centros'
 import formaciones from './modules/formaciones'
 import tutoriales from './modules/tutoriales'
-
-import metas from '~/store/api/v1/metas.json'
 
 const state = () => ({
   drawer: false,
