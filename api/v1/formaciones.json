@@ -27,18 +27,6 @@
     "description": "Introducción a la domótica e internet de las cosas con Raspberry Pi para profesores de educación secundaria.",
     "image": "img/preview.jpg",
     "tags": ["programación", "robótica", "secundaria", "bachillerato"],
-    "speakers": [
-      {
-        "name": "Miguel Ángel Abellán",
-        "image": "https://avatars.githubusercontent.com/migueabellan",
-        "description": "Cofundador Programo Ergo Sum, Programador y profesor de programación",
-        "social": {
-          "url": "https://migueabellan.github.io",
-          "twitter": "https://twitter.com/migueabellan",
-          "github": "https://github.com/migueabellan"
-        }
-      }
-    ],
     "date": {
       "cdate": "2017-09-28 11:07:45",
       "mdate": "2019-10-05 14:05:12"
