@@ -10,13 +10,7 @@
       <v-row>
         <v-col class="hidden-md-and-down" lg="2" xl="2">
           <div class="sticky-top">
-            <!--
-            <Adsense
-              type="display"
-              :data-ad-slot="adsense.left"
-              class="mt-0 pt-3"
-            />
-            -->
+            <Adsense :data-ad-slot="adsense.left" type="display" />
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">

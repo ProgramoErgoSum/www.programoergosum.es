@@ -14,7 +14,6 @@
               v-if="isAdsense"
               :data-ad-slot="adsense.left"
               type="display"
-              class="mb-0 pb-0"
             />
           </div>
         </v-col>
