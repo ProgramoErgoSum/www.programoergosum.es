@@ -17,7 +17,8 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "cross-env": "^7.0.2",
     "nuxt": "^2.13.3",
-    "nuxt-leaflet": "^0.0.21"
+    "nuxt-leaflet": "^0.0.21",
+    "vue-moment": "^4.1.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.2",

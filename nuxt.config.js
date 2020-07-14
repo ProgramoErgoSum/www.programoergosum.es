@@ -57,14 +57,15 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~/assets/style/main.scss'],
+  css: ['@/assets/style/main.scss'],
 
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: '~plugins/components.js' },
-    { src: '~plugins/ga.js', ssr: false }
+    { src: '@/plugins/components.js' },
+    { src: '@/plugins/ga.js', ssr: false },
+    { src: '@/plugins/global.js' }
   ],
 
   buildModules: [

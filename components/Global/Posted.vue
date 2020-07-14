@@ -1,18 +1,12 @@
 <template>
-  <span>
-    <!--<v-icon size="20">mdi-calendar</v-icon>-->
-    <time :datetime="mdate" class="body-2 font-weight-light">
-      Última actualización: {{ mdate | formatDate }}
-    </time>
-  </span>
+  <time :datetime="mdate" class="body-2 font-weight-light">
+    Última actualización: {{ mdate | moment('DD MMMM, YYYY') }}
+  </time>
 </template>
 
 <script>
-import { formatDate } from '@/mixins/formatDate'
-
 export default {
   name: 'Posted',
-  filters: { formatDate },
   props: {
     mdate: {
       type: String,
