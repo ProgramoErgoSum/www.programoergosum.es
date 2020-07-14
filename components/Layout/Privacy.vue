@@ -24,7 +24,7 @@ export default {
   data() {
     return {
       snackbar: false,
-      timeout: 0
+      timeout: -1
     }
   },
   mounted() {

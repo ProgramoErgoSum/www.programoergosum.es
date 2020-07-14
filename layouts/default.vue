@@ -3,9 +3,9 @@
     <Systembar />
     <Navigation />
     <Toolbar />
-    <v-content>
+    <v-main>
       <nuxt class="nuxt-content" />
-    </v-content>
+    </v-main>
     <Privacy />
     <ToTop />
     <Footer />

@@ -168,8 +168,10 @@ export default {
 
   /*
    ** Generate
+   ** See https://nuxtjs.org/api/configuration-generate
    */
   generate: {
+    crawler: false, // Nuxt >= v2.13
     async routes() {
       const pagesDefault = ['/', '/404', '/legal/coc', '/legal/cookies']
       const pagesActividades = await apiActividades.map(el => {
