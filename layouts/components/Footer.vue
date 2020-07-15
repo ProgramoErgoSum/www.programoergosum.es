@@ -149,7 +149,7 @@
 </template>
 
 <script>
-import ccbysa from '@/components/Layout/Logos/ccbysa'
+import ccbysa from './Ccbysa'
 
 export default {
   name: 'Footer',

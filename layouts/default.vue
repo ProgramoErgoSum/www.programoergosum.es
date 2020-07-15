@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Systembar />
+    <!--<Systembar />-->
     <Navigation />
     <Toolbar />
     <v-main>
@@ -13,16 +13,16 @@
 </template>
 
 <script>
-import Systembar from '@/components/Layout/Systembar'
-import Navigation from '@/components/Layout/Navigation'
-import Toolbar from '@/components/Layout/Toolbar'
-import Privacy from '@/components/Layout/Privacy'
-import ToTop from '@/components/Layout/ToTop'
-import Footer from '@/components/Layout/Footer'
+// import Systembar from './components/Systembar'
+import Navigation from './components/Navigation'
+import Toolbar from './components/Toolbar'
+import Privacy from './components/Privacy'
+import ToTop from './components/ToTop'
+import Footer from './components/Footer'
 
 export default {
   components: {
-    Systembar,
+    // Systembar,
     Navigation,
     Toolbar,
     Privacy,

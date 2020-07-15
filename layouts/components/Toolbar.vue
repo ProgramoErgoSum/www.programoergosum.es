@@ -44,7 +44,7 @@
 <script>
 import { mapGetters, mapMutations } from 'vuex'
 
-import Logo from '@/components/Layout/Logo'
+import Logo from './Logo'
 
 export default {
   name: 'Toolbar',
