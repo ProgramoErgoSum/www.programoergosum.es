@@ -55,6 +55,13 @@ export default {
   loading: { color: '#eb8059' },
 
   /*
+   ** Customize messages
+   */
+  messages: {
+    error_404: 'Página no encontrada'
+  },
+
+  /*
    ** Global CSS
    */
   css: ['@/assets/style/main.scss'],

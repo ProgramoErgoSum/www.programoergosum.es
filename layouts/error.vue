@@ -5,10 +5,7 @@
         <h3 class="font-weight-black">
           {{ error.statusCode }}
         </h3>
-        <p v-if="error.statusCode == 404">
-          Página no encontrada
-        </p>
-        <p v-else>
+        <p>
           {{ error.message }}
         </p>
       </v-col>
@@ -22,6 +19,11 @@ export default {
     error: {
       type: Object,
       default: null
+    }
+  },
+  head() {
+    return {
+      title: this.error.message
     }
   }
 }
