@@ -2010,6 +2010,29 @@
       "mdate": "2020-06-07 10:03:17"
     }
   },
+  {
+    "alias": "flujo-de-trabajo-en-git-con-gitflow",
+    "title": "Flujo de trabajo en Git con GitFlow",
+    "description": "Trabajando en ramas Git con la herramienta GitFlow.",
+    "image": "img/preview.jpg",
+    "contributors": ["migueabellan"],
+    "tags": {
+      "technology": ["Informática"],
+      "hardware": [],
+      "software": [],
+      "level": ["Secundaria", "Bachillerato"],
+      "others": []
+    },
+    "extra": {
+      "level": "Iniciación",
+      "duration": "30 minutos",
+      "videos": ""
+    },
+    "date": {
+      "cdate": "2020-07-23 00:00:00",
+      "mdate": "2020-07-23 19:03:17"
+    }
+  },
 
 
 
