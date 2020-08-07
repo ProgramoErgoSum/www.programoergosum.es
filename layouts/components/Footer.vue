@@ -198,10 +198,12 @@ export default {
         title: 'Tutoriales',
         to: '/tutoriales'
       },
+      /*
       {
         title: 'Extraescolares',
         to: '/actividades'
       },
+      */
       {
         title: 'Blog',
         to: '/blog'
