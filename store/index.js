@@ -55,7 +55,12 @@ const state = () => ({
       to: '/tutoriales'
     },
     {
-      title: 'Centros',
+      title: 'Cursos de profesores',
+      icon: 'mdi-school',
+      to: '/formaciones'
+    },
+    {
+      title: 'Centros educativos',
       icon: 'mdi-domain',
       to: '/centros'
     },
