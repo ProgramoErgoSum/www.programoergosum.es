@@ -8,7 +8,7 @@
         libres y gratuitos</b
       >.
       <nuxt-link to="/legal/cookies" rel="noopener noreferrer">
-        Leer más {{ gdpr }}
+        Leer más
       </nuxt-link>
     </p>
     <div class="text-center">
@@ -27,25 +27,21 @@ export default {
   data() {
     return {
       snackbar: false,
-      timeout: -1,
-      gdpr: false
+      timeout: -1
     }
   },
   mounted() {
     if (process.browser) {
-      this.gdpr = localStorage.getItem('GDPR')
       this.snackbar = localStorage.getItem('GDPR') === 'canceled'
     }
   },
   methods: {
     accept() {
-      this.gdpr = true
       localStorage.setItem('GDPR', 'accepted')
       this.snackbar = false
       location.reload()
     },
     reject() {
-      this.gdpr = false
       localStorage.setItem('GDPR', 'canceled')
       this.snackbar = false
       this.$router.push({ path: '/colabora' })
