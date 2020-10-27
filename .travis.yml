@@ -20,10 +20,19 @@ script:
   - npm run test
 
 deploy:
-  provider: pages
-  skip_cleanup: true
-  github-token: $PES_ACCESS_TOKEN
-  target-branch: master
-  local-dir: dist
+  provider: pages:git
+  cleanup: true
+  token: $PES_ACCESS_TOKEN
+  target_branch: master
+  local_dir: dist
   on:
     branch: develop
+
+#deploy:
+#  provider: pages
+#  skip_cleanup: true
+#  github-token: $PES_ACCESS_TOKEN
+#  target-branch: master
+#  local-dir: dist
+#  on:
+#    branch: develop
