@@ -180,6 +180,7 @@ export default {
    */
   generate: {
     crawler: false, // Nuxt >= v2.13
+    concurrency: 10,
     async routes() {
       const pagesDefault = ['/', '/404', '/legal/coc', '/legal/cookies']
       const pagesActividades = await apiActividades.map(el => {
