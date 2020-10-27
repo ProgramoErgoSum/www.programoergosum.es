@@ -21,7 +21,7 @@ script:
 
 deploy:
   provider: pages
-  cleanup: true
+  skip_cleanup: true
   github-token: $PES_ACCESS_TOKEN
   target-branch: master
   local-dir: dist
