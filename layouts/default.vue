@@ -6,7 +6,7 @@
     <v-main>
       <nuxt class="nuxt-content" />
     </v-main>
-    <Privacy />
+    <GDPR />
     <ToTop />
     <Footer />
   </v-app>
@@ -16,7 +16,7 @@
 // import Systembar from './components/Systembar'
 import Navigation from './components/Navigation'
 import Toolbar from './components/Toolbar'
-import Privacy from './components/Privacy'
+import GDPR from './components/GDPR'
 import ToTop from './components/ToTop'
 import Footer from './components/Footer'
 
@@ -25,7 +25,7 @@ export default {
     // Systembar,
     Navigation,
     Toolbar,
-    Privacy,
+    GDPR,
     ToTop,
     Footer
   },

@@ -71,7 +71,7 @@ export default {
    */
   plugins: [
     { src: '@/plugins/components.js' },
-    { src: '@/plugins/ga.js', ssr: false },
+    { src: '@/plugins/gdpr.client.js', mode: 'client' },
     { src: '@/plugins/global.js' }
   ],
 

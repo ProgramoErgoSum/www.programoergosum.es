@@ -4,7 +4,16 @@ export default ({ app }) => {
   /*
   ** Only run on client-side and only in production mode
   */
-  if (process.env.NODE_ENV !== 'production') return
+  // if (process.env.NODE_ENV !== 'production') return
+
+  /*
+  ** Only run on GDPR
+  */
+  if (localStorage.getItem('GDPR') === null) {
+    localStorage.setItem('GDPR', 'canceled')
+  }
+  if (localStorage.getItem('GDPR') === 'canceled') return
+  
   /*
   ** Include Google Analytics Script
   */
@@ -16,6 +25,7 @@ export default ({ app }) => {
   ** Set the current page
   */
   ga('create', 'UA-60927212-5', 'auto')
+
   /*
   ** Every time the route changes (fired on initialization too)
   */
