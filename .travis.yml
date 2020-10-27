@@ -20,7 +20,7 @@ script:
   - npm run test
 
 deploy:
-  provider: pages:git
+  provider: pages
   cleanup: true
   token: $PES_ACCESS_TOKEN
   target_branch: master
