@@ -16,7 +16,7 @@ install:
   - npm run generate
 
 script:
-  - npm run lint
+  # - npm run lint
   # - npm run test
 
 deploy:
