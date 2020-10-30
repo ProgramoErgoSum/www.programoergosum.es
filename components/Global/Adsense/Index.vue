@@ -60,11 +60,24 @@ export default {
       return this.$store.state.gdpr === 'accepted'
     }
   },
-  /*
   mounted() {
-    //
-  },
-  */
+    if (
+      process.env.NODE_ENV === 'production' &&
+      this.$store.state.gdpr === 'accepted'
+    ) {
+      const script = document.createElement('script')
+      script.setAttribute(
+        'src',
+        'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+      )
+      script.setAttribute(
+        'innerHTML',
+        ';(adsbygoogle = window.adsbygoogle || []).push({})'
+      )
+      document.head.appendChild(script)
+    }
+  }
+  /*
   head() {
     return this.isProduction
       ? {
@@ -82,6 +95,7 @@ export default {
         }
       : {}
   }
+  */
 }
 </script>
 
