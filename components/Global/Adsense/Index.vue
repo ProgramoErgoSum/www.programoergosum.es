@@ -1,6 +1,7 @@
 <template>
   <div>
     <div v-if="isProduction">
+      <!--
       <div v-if="isGdpr">
         <script
           async
@@ -25,6 +26,7 @@
           :data-ad-slot="dataAdSlot"
         />
       </div>
+      -->
     </div>
     <v-alert v-else class="py-12" border="bottom" color="warning" dark>
       <div class="mb-3">{{ dataAdClient }}</div>
@@ -34,16 +36,16 @@
 </template>
 
 <script>
-import Display from './Display'
-import Inarticle from './Inarticle'
-import Infeed from './Infeed'
+// import Display from './Display'
+// import Inarticle from './Inarticle'
+// import Infeed from './Infeed'
 
 export default {
   name: 'Index',
   components: {
-    Display,
-    Inarticle,
-    Infeed
+    // Display,
+    // Inarticle,
+    // Infeed
   },
   props: {
     type: {
@@ -62,10 +64,12 @@ export default {
   computed: {
     isProduction() {
       return process.env.NODE_ENV === 'production'
-    },
+    }
+    /*
     isGdpr() {
       return this.$store.state.gdpr === 'accepted'
     }
+    */
   }
   /*
   head() {
