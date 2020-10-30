@@ -59,7 +59,8 @@ export default {
     isGdpr() {
       return this.$store.state.gdpr === 'accepted'
     }
-  },
+  }
+  /*
   mounted() {
     if (
       process.env.NODE_ENV === 'production' &&
@@ -77,6 +78,7 @@ export default {
       document.head.appendChild(script)
     }
   }
+  */
   /*
   head() {
     return this.isProduction
