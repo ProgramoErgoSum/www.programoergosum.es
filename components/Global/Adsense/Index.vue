@@ -1,28 +1,28 @@
 <template>
   <div>
-    <template v-if="isProduction">
-      <Display
-        v-if="type === 'display'"
-        :data-ad-client="dataAdClient"
-        :data-ad-slot="dataAdSlot"
-      />
-      <Inarticle
-        v-if="type === 'inarticle'"
-        :data-ad-client="dataAdClient"
-        :data-ad-slot="dataAdSlot"
-      />
-      <Infeed
-        v-if="type === 'infeed'"
-        :data-ad-client="dataAdClient"
-        :data-ad-slot="dataAdSlot"
-      />
-    </template>
-    <template v-else>
-      <v-alert class="py-12" border="bottom" color="warning" dark>
+    <div v-if="isGdpr">
+      <template v-if="isProduction">
+        <Display
+          v-if="type === 'display'"
+          :data-ad-client="dataAdClient"
+          :data-ad-slot="dataAdSlot"
+        />
+        <Inarticle
+          v-if="type === 'inarticle'"
+          :data-ad-client="dataAdClient"
+          :data-ad-slot="dataAdSlot"
+        />
+        <Infeed
+          v-if="type === 'infeed'"
+          :data-ad-client="dataAdClient"
+          :data-ad-slot="dataAdSlot"
+        />
+      </template>
+      <v-alert v-else class="py-12" border="bottom" color="warning" dark>
         <div class="mb-3">{{ dataAdClient }}</div>
         <div>{{ type }} ({{ dataAdSlot }})</div>
       </v-alert>
-    </template>
+    </div>
   </div>
 </template>
 
@@ -49,10 +49,22 @@ export default {
     }
   },
   data: () => ({
-    isProduction: process.env.NODE_ENV === 'production',
     // ToDo: Add in .env file
     dataAdClient: 'ca-pub-6757981017018187'
   }),
+  computed: {
+    isProduction() {
+      return process.env.NODE_ENV === 'production'
+    },
+    isGdpr() {
+      return this.$store.state.gdpr === 'accepted'
+    }
+  },
+  /*
+  mounted() {
+    //
+  },
+  */
   head() {
     return this.isProduction
       ? {

@@ -85,8 +85,7 @@ const getters = {
   metas: state => state.metas,
   navigation: state => state.navigation,
   mobile: state => state.mobile,
-  gdpr: state => state.gdpr,
-  is_gdpr_accepted: state => state.gdpr === 'accepted'
+  gdpr: state => state.gdpr
 }
 
 const actions = {}
