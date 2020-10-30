@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/proyectos", {data:[{metas:{title:"Proyectos educativos",description:"Proyectos educativos libres y de código abierto para aprender informática, programación, robótica y nuevas tecnologías con herramientas libres.",image:"\u002Fimages\u002Fpreview.png"}}],fetch:[],mutations:[]});

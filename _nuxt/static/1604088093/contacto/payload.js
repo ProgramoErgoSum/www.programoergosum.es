@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/contacto", {data:[{metas:{title:"Contacta con nosotros",description:"¿Tienes algo que preguntarnos? Puedes contactar con nosotros a través de nuestro correo electrónico y redes sociales.",image:"\u002Fimages\u002Fpreview.png"}}],fetch:[],mutations:[]});

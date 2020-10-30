@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/colabora", {data:[{metas:{title:"Ayúdanos con una donación",description:"Para hacer frente al gasto en mantenimiento informático de todos nuestros proyectos educativos necesitamos tu apoyo. ¿Quieres realizar una donación?",image:"\u002Fimages\u002Fcolabora.png"}}],fetch:[],mutations:[]});

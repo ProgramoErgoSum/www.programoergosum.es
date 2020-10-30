@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{metas:{title:"Iniciativa Programo Ergo Sum",description:"Proyectos educativos abiertos para aprender informática, programación y robótica con herramientas de software libre.",image:"\u002Fimages\u002Fpreview.png"}}],fetch:[],mutations:[]});

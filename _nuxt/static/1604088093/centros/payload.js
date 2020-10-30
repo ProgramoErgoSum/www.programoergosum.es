@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/centros", {data:[{metas:{title:"Centros educativos colaboradores",description:"Cada alumno de cada escuela debería tener la oportunidad de aprender informática, programación y robótica. ¡Ayúdanos a hacerlo posible!",image:"\u002Fimages\u002Fcentros.png"}}],fetch:[],mutations:[]});

@@ -4,7 +4,7 @@
  */
 
 /*!
-  * vue-router v3.3.4
+  * vue-router v3.4.8
   * (c) 2020 Evan You
   * @license MIT
   */
@@ -17,8 +17,8 @@
  */
 
 /*!
- * Vue.js v2.6.11
- * (c) 2014-2019 Evan You
+ * Vue.js v2.6.12
+ * (c) 2014-2020 Evan You
  * Released under the MIT License.
  */
 
@@ -41,6 +41,8 @@
  */
 
 /*! https://mths.be/punycode v1.4.1 by @mathias */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 //! moment.js
 
