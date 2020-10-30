@@ -16,7 +16,8 @@ const cdn =
     : 'https://www.programoergosum.es'
 
 export default {
-  mode: 'universal',
+  // mode: 'universal',
+  target: 'static',
 
   router: {
     base: '/'

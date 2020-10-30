@@ -9,13 +9,15 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
+          <!--
           <div class="sticky-top">
             <Adsense
-              v-if="isAdsense"
+              v-if="is_gdpr_accepted && isAdsense"
               :data-ad-slot="adsense.left"
               type="display"
             />
           </div>
+          -->
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
           <Content :raw="raw" :cdn="cdn" />
@@ -94,6 +96,7 @@ export default {
     }
   },
   computed: {
+    ...mapGetters(['is_gdpr_accepted']),
     ...mapGetters({ adsense: 'blogs/adsense' }),
     background() {
       return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'

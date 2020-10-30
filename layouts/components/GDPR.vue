@@ -1,49 +1,67 @@
 <template>
-  <v-snackbar v-model="snackbar" :timeout="timeout" bottom color="white">
-    <p class="mb-5 black--text">
-      Utilizamos cookies propias y de terceros para obtener datos estadísticos
-      de la navegación de nuestros usuarios
-      <b>
-        con el objetivo de mantener y mejorar nuestros proyectos educativos
-        libres y gratuitos</b
-      >.
-      <nuxt-link to="/legal/cookies" rel="noopener noreferrer">
-        Leer más
-      </nuxt-link>
-    </p>
-    <div class="text-center">
-      <v-btn small outlined dark class="primary--text" @click="accept">
-        Aceptar y seguir navegando gratis
-      </v-btn>
-      <v-btn small outlined class="primary--text" @click="reject">
-        Rechazar
-      </v-btn>
-    </div>
-  </v-snackbar>
+  <v-dialog v-model="dialog" persistent max-width="640">
+    <v-card class="pa-5">
+      <v-card-title>
+        Antes de continuar
+      </v-card-title>
+      <v-card-text>
+        <p>
+          En <b>ProgramoErgoSum</b> Utilizamos cookies propias y de terceros
+          para fines analíticos y para mostrarte publicidad personalizada en
+          base a un perfil elaborado a partir de tus hábitos de navegación (por
+          ejemplo, páginas visitadas).
+        </p>
+        <p>
+          También
+          <b
+            >utilizamos cookies de terceros necesarias para la reproducción de
+            vídeos de YouTube</b
+          >
+          o cookies para la analítica web que nos ayudan a analizar y comprender
+          cómo utiliza este sitio. Estas cookies se almacenarán en tu navegador
+          solo con tu consentimiento. También puedes rechazar todas las cookies
+          haciendo click
+          <span class="text-decoration-underline" @click="reject">aquí</span>,
+          pero se verá afectada tu experiencia de navegación.
+        </p>
+      </v-card-text>
+      <v-card-actions>
+        <v-btn class="primary" dark block depressed @click="accept">
+          Aceptar cookies y seguir navegando gratis
+        </v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-dialog>
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
+
 export default {
   data() {
     return {
-      snackbar: false,
-      timeout: -1
+      dialog: false
     }
   },
   mounted() {
     if (process.browser) {
-      this.snackbar = localStorage.getItem('GDPR') === 'canceled'
+      this.dialog = localStorage.getItem('GDPR') === null
     }
   },
   methods: {
+    ...mapMutations(['SET_GDPR']),
     accept() {
-      localStorage.setItem('GDPR', 'accepted')
-      this.snackbar = false
+      const gdpr = 'accepted'
+      localStorage.setItem('GDPR', gdpr)
+      this.SET_GDPR(gdpr)
+      this.dialog = false
       location.reload()
     },
     reject() {
-      localStorage.setItem('GDPR', 'canceled')
-      this.snackbar = false
+      const gdpr = 'canceled'
+      localStorage.setItem('GDPR', gdpr)
+      this.SET_GDPR(gdpr)
+      this.dialog = false
       this.$router.push({ path: '/colabora' })
     }
   }

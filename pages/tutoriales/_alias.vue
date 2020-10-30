@@ -9,31 +9,26 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
+          <!--
           <div class="sticky-top">
-            <Adsense :data-ad-slot="adsense.left" type="display" />
+            <Adsense
+              v-if="is_gdpr_accepted"
+              :data-ad-slot="adsense.left"
+              type="display"
+            />
           </div>
+          -->
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
           <div class="mb-12">
             <span class="body-2 font-weight-light">Etiquetas:</span>
             <Tags :tags="tags" />
           </div>
-          <!--
-          <Adsense
-            type="inarticle"
-            :data-ad-slot="adsense.top"
-            class="mb-0 pb-0"
-          />
-          -->
+
           <Content :raw="raw" :cdn="cdn" />
-          <!--
-          <Adsense
-            :data-ad-slot="adsense.bottom"
-            type="inarticle"
-            class="my-0 my-0"
-          />
-          -->
+
           <v-divider class="my-6" />
+
           <Contributing
             :contributors="contributors"
             :edit-link="editLink"
@@ -122,6 +117,7 @@ export default {
     }
   },
   computed: {
+    ...mapGetters(['is_gdpr_accepted']),
     ...mapGetters({ adsense: 'tutoriales/adsense' }),
     background() {
       return this.$vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-3'

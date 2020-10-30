@@ -68,6 +68,7 @@ export default {
         return `<figure><img class="lazy" src="${src}" data-src="${dataSrc}" alt="${alt}"><figcaption>${alt}</figcaption></figure>`
       }
 
+      /*
       md.renderer.rules.html_block = function(tokens, idx, options, env, slf) {
         const content = tokens[idx].content
         if (content.includes('youtube.com/embed')) {
@@ -78,6 +79,7 @@ export default {
 
         return tokens[idx].content
       }
+      */
 
       // Renderer a internals links in markdown
       md.renderer.rules.link_open = function(tokens, idx, options, env, slf) {

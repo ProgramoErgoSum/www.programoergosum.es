@@ -8,6 +8,7 @@ import tutoriales from './modules/tutoriales'
 
 const state = () => ({
   drawer: false,
+  gdpr: null,
   metas,
   navigation: [
     {
@@ -72,18 +73,23 @@ const state = () => ({
   ]
 })
 
+const mutations = {
+  setDrawer: (state, payload) => (state.drawer = payload),
+  toggleDrawer: state => (state.drawer = !state.drawer),
+  SET_GDPR(state, payload) {
+    state.gdpr = payload
+  }
+}
+
 const getters = {
   metas: state => state.metas,
   navigation: state => state.navigation,
-  mobile: state => state.mobile
+  mobile: state => state.mobile,
+  gdpr: state => state.gdpr,
+  is_gdpr_accepted: state => state.gdpr === 'accepted'
 }
 
 const actions = {}
-
-const mutations = {
-  setDrawer: (state, payload) => (state.drawer = payload),
-  toggleDrawer: state => (state.drawer = !state.drawer)
-}
 
 export default {
   namespaced: true,

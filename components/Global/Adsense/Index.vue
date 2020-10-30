@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!--
     <template v-if="isProduction">
       <Display
         v-if="type === 'display'"
@@ -24,19 +23,15 @@
         <div>{{ type }} ({{ dataAdSlot }})</div>
       </v-alert>
     </template>
-    -->
   </div>
 </template>
 
 <script>
-/*
 import Display from './Display'
 import Inarticle from './Inarticle'
 import Infeed from './Infeed'
-*/
 
 export default {
-  /*
   name: 'Index',
   components: {
     Display,
@@ -75,7 +70,6 @@ export default {
         }
       : {}
   }
-  */
 }
 </script>
 
