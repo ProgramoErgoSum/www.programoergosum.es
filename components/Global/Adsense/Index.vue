@@ -1,7 +1,14 @@
 <template>
   <div>
-    <div v-if="isGdpr">
-      <template v-if="isProduction">
+    <div v-if="isProduction">
+      <div v-if="isGdpr">
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        />
+        <script>
+          ;(adsbygoogle = window.adsbygoogle || []).push({})
+        </script>
         <Display
           v-if="type === 'display'"
           :data-ad-client="dataAdClient"
@@ -17,12 +24,12 @@
           :data-ad-client="dataAdClient"
           :data-ad-slot="dataAdSlot"
         />
-      </template>
-      <v-alert v-else class="py-12" border="bottom" color="warning" dark>
-        <div class="mb-3">{{ dataAdClient }}</div>
-        <div>{{ type }} ({{ dataAdSlot }})</div>
-      </v-alert>
+      </div>
     </div>
+    <v-alert v-else class="py-12" border="bottom" color="warning" dark>
+      <div class="mb-3">{{ dataAdClient }}</div>
+      <div>{{ type }} ({{ dataAdSlot }})</div>
+    </v-alert>
   </div>
 </template>
 
@@ -54,31 +61,12 @@ export default {
   }),
   computed: {
     isProduction() {
-      return process.env.NODE_ENV === 'production'
+      return process.env.NODE_ENV !== 'production'
     },
     isGdpr() {
       return this.$store.state.gdpr === 'accepted'
     }
   }
-  /*
-  mounted() {
-    if (
-      process.env.NODE_ENV === 'production' &&
-      this.$store.state.gdpr === 'accepted'
-    ) {
-      const script = document.createElement('script')
-      script.setAttribute(
-        'src',
-        'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-      )
-      script.setAttribute(
-        'innerHTML',
-        ';(adsbygoogle = window.adsbygoogle || []).push({})'
-      )
-      document.head.appendChild(script)
-    }
-  }
-  */
   /*
   head() {
     return this.isProduction
