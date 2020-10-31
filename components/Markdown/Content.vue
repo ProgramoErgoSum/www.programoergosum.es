@@ -73,7 +73,8 @@ export default {
         if (content.includes('youtube.com/embed')) {
           const res = content.split('youtube.com/embed/')
           const url = res[1].split('"')
-          return `<a href="https://youtube.com/embed/${url[0]}" target="_blank">Ver vídeo en YouTube</a>`
+          const code = url[0]
+          return `<div class="youtube"><a href="https://youtube.com/embed/${code}" target="_blank"><img src="https://i.ytimg.com/vi_webp/${code}/maxresdefault.webp" /><i class="v-icon mdi mdi-youtube"></i></a></div>`
         }
 
         return tokens[idx].content
@@ -329,6 +330,33 @@ export default {
     width: 100%;
     margin: 0;
     border: 0;
+  }
+  .youtube {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    margin: 20px auto 50px;
+    border: 20px solid #333;
+    border-radius: 20px;
+    a {
+      position: relative;
+      display: block;
+      img {
+        display: block;
+        width: 100%;
+      }
+      i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20rem;
+        color: #e52d27;
+        &:hover {
+          color: #b31217;
+        }
+      }
+    }
   }
 }
 @media only screen and (max-width: 1904px) {
