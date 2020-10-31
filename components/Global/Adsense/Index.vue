@@ -2,6 +2,7 @@
   <div>
     <div v-if="isProduction">
       <div v-if="isGdpr">
+        <!--
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
@@ -9,6 +10,7 @@
         <script>
           ;(adsbygoogle = window.adsbygoogle || []).push({})
         </script>
+        -->
         <Display
           v-if="type === 'display'"
           :data-ad-client="dataAdClient"
@@ -67,8 +69,7 @@ export default {
   },
   mounted() {
     this.isGdpr = this.$store.state.gdpr === 'accepted'
-  }
-  /*
+  },
   head() {
     return this.isProduction
       ? {
@@ -86,7 +87,6 @@ export default {
         }
       : {}
   }
-  */
 }
 </script>
 
