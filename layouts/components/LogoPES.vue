@@ -133,7 +133,6 @@
 
 <script>
 export default {
-  name: 'Logo',
   props: {
     size: {
       type: String,

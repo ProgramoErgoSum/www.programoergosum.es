@@ -334,7 +334,7 @@ export default {
   .youtube {
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 150px;
     margin: 20px auto 50px;
     border: 20px solid #333;
     border-radius: 20px;
@@ -350,7 +350,7 @@ export default {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 20rem;
+        font-size: 6rem;
         color: #e52d27;
         &:hover {
           color: #b31217;

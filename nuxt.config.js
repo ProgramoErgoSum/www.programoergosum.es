@@ -71,9 +71,9 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: '@/plugins/components.js' },
     { src: '@/plugins/gdpr.client.js', mode: 'client' },
-    { src: '@/plugins/global.js' }
+    { src: '@/plugins/global.js' },
+    { src: '@/plugins/template.js' }
   ],
 
   buildModules: [

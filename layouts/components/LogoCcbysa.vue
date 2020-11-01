@@ -28,7 +28,6 @@
 
 <script>
 export default {
-  name: 'Ccbysa',
   props: {
     size: {
       type: String,

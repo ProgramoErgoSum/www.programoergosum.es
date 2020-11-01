@@ -1,28 +1,53 @@
 <template>
-  <v-dialog v-model="dialog" persistent max-width="640">
+  <v-dialog v-model="dialog" persistent max-width="760">
     <v-card class="pa-5">
       <v-card-title>
-        Antes de continuar
+        <h3>Antes de continuar</h3>
+        <v-spacer />
+        <LogoPES size="60" />
       </v-card-title>
-      <v-card-text>
+      <v-card-subtitle>
+        Sí, también tenemos cookies...
+      </v-card-subtitle>
+      <v-card-text class="pt-5">
         <p>
-          En <b>ProgramoErgoSum</b> Utilizamos cookies propias y de terceros
-          para fines analíticos y para mostrarte publicidad personalizada en
-          base a un perfil elaborado a partir de tus hábitos de navegación (por
-          ejemplo, páginas visitadas).
+          Esta web es un proyecto educativo libre y gratuito de la Asociación
+          Programo Ergo Sum y utilizamos las siguiente cookies:
         </p>
+        <ul class="mb-3">
+          <li>
+            Utilizamos
+            <b>cookies propias técnicas y de terceros para fines analíticos</b>
+            que nos ayudan a analizar, medir y comprender cómo utiliza este
+            sitio para poder mejorar el proyecto.
+          </li>
+          <li>
+            Utilizamos
+            <b
+              >cookies de terceros necesarias para que puedas reproducir los
+              vídeos de YouTube en esta plataforma</b
+            >.
+          </li>
+          <li>
+            Utilizamos
+            <b
+              >cookies de terceros para mostrar publicidad personalizada
+              comportamental</b
+            >
+            en base a un perfil elaborado a partir de tus hábitos de navegación
+            cuando visitas una página web por ejemplo.
+          </li>
+        </ul>
         <p>
-          También
+          Estas cookies se almacenarán en tu navegador solo con tu
+          consentimiento expreso, aunque también puedes
+          <span class="text-decoration-underline" @click="reject"
+            >rechazar todas las cookies</span
+          >,
           <b
-            >utilizamos cookies de terceros necesarias para la reproducción de
-            vídeos de YouTube</b
-          >
-          o cookies para la analítica web que nos ayudan a analizar y comprender
-          cómo utiliza este sitio. Estas cookies se almacenarán en tu navegador
-          solo con tu consentimiento. También puedes rechazar todas las cookies
-          haciendo click
-          <span class="text-decoration-underline" @click="reject">aquí</span>,
-          pero se verá afectada tu experiencia de navegación.
+            >pero se verá afectada tu experiencia de navegación y es posible que
+            no puedas acceder a ciertos contenidos de la plataforma</b
+          >.
         </p>
       </v-card-text>
       <v-card-actions>
