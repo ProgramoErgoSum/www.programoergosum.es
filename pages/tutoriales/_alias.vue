@@ -53,6 +53,7 @@ import Toc from '@/components/Markdown/Toc'
 import Related from '@/components/Pages/Tutoriales/Related'
 
 export default {
+  middleware: 'isGdpr',
   components: {
     Tags,
     Content,

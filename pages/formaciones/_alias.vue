@@ -35,6 +35,7 @@ import Content from '@/components/Markdown/Content'
 import Toc from '@/components/Markdown/Toc'
 
 export default {
+  middleware: 'isGdpr',
   components: {
     Content,
     Toc
