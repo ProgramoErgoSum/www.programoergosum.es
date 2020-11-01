@@ -39,7 +39,7 @@
       />
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" app fixed>
+    <v-navigation-drawer v-model="drawer" app fixed temporary>
       <nuxt-link to="/" aria-label="Inicio">
         <LogoPES class="mt-2" />
       </nuxt-link>
