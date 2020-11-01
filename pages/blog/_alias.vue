@@ -42,6 +42,7 @@ import Toc from '@/components/Markdown/Toc'
 import Related from '@/components/Pages/Blog/Related'
 
 export default {
+  middleware: 'needGdpr',
   components: {
     Content,
     Toc,

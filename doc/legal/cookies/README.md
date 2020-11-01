@@ -1,31 +1,54 @@
-# Ley de cookies
+# Política de cookies
 
-> En cumplimiento con lo dispuesto en el artículo 22.2 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, esta página web le informa, en esta sección, sobre la política de recogida y tratamiento de cookies.
+Fecha de última actualización 31 de octubre de 2020
 
-Una cookie es un fichero que se descarga en su ordenador al acceder a determinadas páginas web. Las cookies permiten a una página web, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de su equipo y, dependiendo de la información que contengan y de la forma en que utilice su equipo, pueden utilizarse para reconocer al usuario.
+En los todos los proyectos educativos de la Asociación Programo Ergo Sum utilizamos cookies y queremos contarte todo sobre ellas.
 
-## Tipos de cookies
+## ¿Qué son las cookies?
 
-Esta página web utiliza los siguientes tipos de cookies:
+Las cookies son archivos de almacenamiento y recuperación de datos que se descargan en los dispositivos de los usuarios cuando acceden a nuestra web y/o navegan en ella. Contienen incluso un número que permite identificar unívocamente el ordenador o dispositivo móvil del usuario, aunque éste cambie de localización o de dirección IP.
 
-* Cookies de análisis: Son aquéllas que bien tratadas por nosotros o por terceros, nos permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del servicio ofertado. Para ello se analiza su navegación en nuestra página web con el fin de mejorar la oferta de productos o servicios que le ofrecemos.
-* Cookies técnicas: Son aquellas que permiten al usuario la navegación a través del área restringida y la utilización de sus diferentes funciones, como por ejemplo, llevar a cambio el proceso de compra de un artículo.
-* Cookies de personalización: Son aquellas que permiten al usuario acceder al servicio con algunas características de carácter general predefinidas en función de una serie de criterios en el terminal del usuario como por ejemplo serian el idioma o el tipo de navegador a través del cual se conecta al servicio.
-* Cookies publicitarias: Son aquéllas que, bien tratadas por esta web o por terceros, permiten gestionar de la forma más eficaz posible la oferta de los espacios publicitarios que hay en la página web, adecuando el contenido del anuncio al contenido del servicio solicitado o al uso que realice de nuestra página web. Para ello podemos analizar sus hábitos de navegación en Internet y podemos mostrarle publicidad relacionada con su perfil de navegación.
-* Cookies de publicidad comportamental: Son aquellas que permiten la gestión, de la forma más eficaz posible, de los espacios publicitarios que, en su caso, el editor haya incluido en una página web, aplicación o plataforma desde la que presta el servicio solicitado. Este tipo de cookies almacenan información del comportamiento de los visitantes obtenida a través de la observación continuada de sus hábitos de navegación, lo que permite desarrollar un perfil específico para mostrar avisos publicitarios en función del mismo.
+## ¿Para qué sirven?
 
-## Desactivar las cookies
+Las cookies nos permiten recopilar datos que podrían identificarte o identificar tu ubicación aproximada, el tiempo de conexión, el dispositivo desde el que accedes (fijo o móvil), el sistema operativo y navegador utilizado, las páginas más visitadas, el número de clicks realizados y de datos respecto a tu comportamiento en Internet.
 
-Puede usted permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador.
+Además, en algunos casos guardan información sobre tus hábitos y preferencias de navegación que nos permitirán proporcionarte una experiencia mejor y más personal, incluso para mostrarte publicidad relacionada con tus preferencias cada vez que nos visites en nuestra página.
 
-En la mayoría de los navegadores web se ofrece la posibilidad de permitir, bloquear o eliminar las cookies instaladas en su equipo.
+También nos permiten recoger datos sobre patrones de uso de nuestra página web a fin de identificar problemas y realizar mejoras, desarrollar nuevos productos o servicios y hacer estadísticas o mediciones de uso.
 
-A continuación puede acceder a la configuración de los navegadores webs más frecuentes para aceptar, instalar o desactivar las cookies:
+## ¿Cómo se activan las cookies?
 
-- <a target="_blank" rel="noopener noreferrer" href="https://support.google.com/chrome/answer/95647?hl=es">Configurar cookies en Google Chrome</a>
-- <a target="_blank" rel="noopener noreferrer" href="https://support.microsoft.com/es-es/hub/4338813/windows-help?os=windows-7">Configurar cookies en Microsoft Internet Explorer</a>
-- <a target="_blank" rel="noopener noreferrer" href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias?redirectlocale=es&redirectslug=habilitar-y-deshabilitar-cookies-que-los-sitios-we">Configurar cookies en Mozilla Firefox</a>
-- <a target="_blank" rel="noopener noreferrer" href="https://support.apple.com/es-es/HT201265">Configurar cookies en Safari (Apple)</a>
+Las cookies se pueden activar de diferentes maneras, dependiendo de su funcionalidad. En algunos casos, en tanto que son necesarias para el funcionamiento de nuestra web, se instalan durante la navegación y en otros, como será necesaria tu autorización, se activarán cuando nos des tu permiso. Este consentimiento podrás modificarlo en cualquier momento a través de las diferentes opciones de configuración que te ofrecemos más adelante en esta Política de Cookies.
+
+Ten en cuenta que puedes acceder a nuestra página sin necesidad de que todas las cookies estén activadas, si bien, su desactivación puede impedir el correcto funcionamiento de la misma.
+
+## ¿Qué tipos de cookies utilizamos?
+
+Cuando navegas por nuestra página puedes encontrar los siguientes tipos de cookies y te vamos a explicar cuáles son y su funcionalidad:
+
+### Cookies técnicas
+
+Estas cookies son necesarias para facilitar la correcta navegación de nuestra página web y aseguran que el contenido se carga eficazmente permitiendo la correcta utilización de las diferentes opciones que en ella existan. 
+
+### Cookies analíticas
+
+Estas cookies nos facilitan información estadística sobre el uso que realizas de nuestra página web que nos permite introducir mejoras, como por ejemplo, si has tenido problemas técnicos en los accesos a ciertas páginas, podemos detectarlo y mejorarlo.
+
+### Cookies de personalización
+
+Las cookies de personalización nos permiten ofrecerte unas características predeterminadas de carácter general en función de los datos recabados del terminal del usuario, por ejemplo: el idioma, el tipo de navegador, la configuración regional a través la cual accedes, etc.
+
+### Cookies de publicidad comportamental
+
+Las cookies de publicidad comportamental recaban información sobre tu comportamiento según tus hábitos de navegación y nos permiten gestionar de forma más eficaz los espacios publicitarios adecuando el contenido a tu perfil específico.
+
+## ¿Cuánto tiempo están activadas las cookies?
+
+Dependiendo del tipo de cookies y de lo que te informemos en cada una de ellas, las cookies podrán permanecer activas un tiempo u otro.
+
+En el caso de las cookies de sesión, estas están diseñadas para recabar y almacenar datos mientras el usuario accede a una página web, cuando se cierra el navegador o caduca la sesión, estas cookies desaparecen.
+
+En el caso de las cookies persistentes, es decir, que siguen activas cuando abandona la página web y el usuario vuelve a conectarse, las mismas permanecerán almacenadas durante el tiempo indicado en cada caso, si bien podrás borrarlas en cualquier momento.
 
 ## Cookies de terceros
 

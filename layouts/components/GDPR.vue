@@ -41,7 +41,10 @@
         <p>
           Estas cookies se almacenarán en tu navegador solo con tu
           consentimiento expreso, aunque también puedes
-          <span class="text-decoration-underline" @click="reject"
+          <span
+            class="text-decoration-underline"
+            style="cursor: pointer"
+            @click="reject"
             >rechazar todas las cookies</span
           >,
           <b
@@ -87,7 +90,7 @@ export default {
       localStorage.setItem('GDPR', gdpr)
       this.SET_GDPR(gdpr)
       this.dialog = false
-      this.$router.push({ path: '/colabora' })
+      this.$router.push({ path: '/legal/cookies' })
     }
   }
 }
