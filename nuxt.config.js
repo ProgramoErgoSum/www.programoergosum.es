@@ -76,16 +76,17 @@ export default {
     { src: '@/plugins/template.js' }
   ],
 
-  buildModules: [
-    // Simple usage
-    '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/vuetify-module/
-    '@nuxtjs/vuetify'
-  ],
+  buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/vuetify'],
+
+  /*
+   ** vuetify module configuration
+   ** https://github.com/nuxt-community/vuetify-module
+   */
   vuetify: {
+    // treeShake: true,
+    // customVariables: ['@/assets/variables.scss'],
     theme: {
       light: true,
-      // dark: true,
       themes: {
         light: {
           primary: '#ae4119',

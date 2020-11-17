@@ -1,34 +1,35 @@
 <template>
-  <v-dialog v-model="dialog" persistent max-width="760">
-    <v-card class="pa-5">
-      <v-card-title>
-        <h3>Antes de continuar</h3>
+  <v-dialog v-model="dialog" persistent max-width="640">
+    <v-card class="pa-3">
+      <v-card-subtitle class="d-none d-md-flex pa-0 mb-3 border">
+        <div>
+          <p class="mb-1 text-h5 font-weight-bold">Antes de continuar</p>
+          <p>Sí, también tenemos cookies...</p>
+        </div>
         <v-spacer />
-        <LogoPES size="60" />
-      </v-card-title>
-      <v-card-subtitle>
-        Sí, también tenemos cookies...
+        <LogoPES size="50" />
       </v-card-subtitle>
-      <v-card-text class="pt-5">
-        <p>
+      <v-card-text class="pa-0 text-caption">
+        <p class="mb-1">
           Esta web es un proyecto educativo libre y gratuito de la Asociación
           Programo Ergo Sum y utilizamos las siguiente cookies:
         </p>
-        <ul class="mb-3">
-          <li>
+        <ul class="ma-0 py-2 pl-3">
+          <li class="mb-1">
             Utilizamos
             <b>cookies propias técnicas y de terceros para fines analíticos</b>
             que nos ayudan a analizar, medir y comprender cómo utiliza este
             sitio para poder mejorar el proyecto.
           </li>
-          <li>
+          <li class="mb-1">
             Utilizamos
             <b
-              >cookies de terceros necesarias para que puedas reproducir los
-              vídeos de YouTube en esta plataforma</b
-            >.
+              >cookies de terceros necesarias para reproducir vídeos de
+              YouTube</b
+            >
+            en esta plataforma.
           </li>
-          <li>
+          <li class="mb-1">
             Utilizamos
             <b
               >cookies de terceros para mostrar publicidad personalizada
@@ -53,9 +54,9 @@
           >.
         </p>
       </v-card-text>
-      <v-card-actions>
+      <v-card-actions class="ma-0 pa-0">
         <v-btn class="primary" dark block depressed @click="accept">
-          Aceptar cookies y seguir navegando gratis
+          Aceptar cookies y continuar gratis
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -96,4 +97,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.border {
+  border-bottom: 1px solid #f0f0f0;
+}
+</style>
