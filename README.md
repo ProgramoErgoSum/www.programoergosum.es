@@ -3,8 +3,8 @@
   
   <br /><br />
   
-  <a target="_blank" href="https://travis-ci.org/ProgramoErgoSum/www.programoergosum.es">
-    <img src="https://travis-ci.org/ProgramoErgoSum/www.programoergosum.es.svg?branch=develop">
+  <a target="_blank" href="https://github.com/ProgramoErgoSum/www.programoergosum.es/actions">
+    <img src="https://github.com/ProgramoErgoSum/www.programoergosum.es/workflows/github%20pages/badge.svg">
   </a>
   <a target="_blank" href="https://www.programoergosum.es/colabora">
     <img src="https://badgen.net/badge/collaborators/♥/orange">
