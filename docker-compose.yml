@@ -2,7 +2,7 @@ version: "3"
 
 services:
   nuxt:
-    image: node:10
+    image: node:12
     working_dir: "/var/www/app"
     environment:
       - HOST=0.0.0.0
