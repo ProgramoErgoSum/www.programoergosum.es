@@ -12,7 +12,8 @@
       <v-card-text class="pa-0 text-caption">
         <p class="mb-1">
           Esta web es un proyecto educativo libre y gratuito de la Asociación
-          Programo Ergo Sum y utilizamos las siguiente cookies:
+          Programo Ergo Sum y utilizamos cookies que se almacenarán en tu
+          navegador solo con tu consentimiento expreso.
         </p>
         <ul class="ma-0 py-2 pl-3">
           <li class="mb-1">
@@ -40,23 +41,20 @@
           </li>
         </ul>
         <p>
-          Estas cookies se almacenarán en tu navegador solo con tu
-          consentimiento expreso, aunque también puedes
+          Puedes
           <span
             class="text-decoration-underline"
             style="cursor: pointer"
             @click="reject"
             >rechazar todas las cookies</span
-          >,
-          <b
-            >pero se verá afectada tu experiencia de navegación y es posible que
-            no puedas acceder a ciertos contenidos de la plataforma</b
-          >.
+          >, pero se verá afectada tu experiencia de navegación y
+          <b>es posible que no puedas acceder a ciertos contenidos</b> de esta
+          plataforma.
         </p>
       </v-card-text>
       <v-card-actions class="ma-0 pa-0">
         <v-btn class="primary" dark block depressed @click="accept">
-          Aceptar cookies y continuar gratis
+          Aceptar cookies y continuar
         </v-btn>
       </v-card-actions>
     </v-card>
