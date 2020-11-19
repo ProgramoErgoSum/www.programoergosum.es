@@ -7,6 +7,7 @@ import cadiz from './cadiz.json'
 import cordoba from './cordoba.json'
 import gerona from './gerona.json'
 import granada from './granada.json'
+import guipuzcoa from './guipuzcoa.json'
 import jaen from './jaen.json'
 import lacoruna from './la-coruna.json'
 import malaga from './malaga.json'
@@ -30,6 +31,7 @@ export default cpr
   .concat(cordoba)
   .concat(gerona)
   .concat(granada)
+  .concat(guipuzcoa)
   .concat(jaen)
   .concat(lacoruna)
   .concat(malaga)

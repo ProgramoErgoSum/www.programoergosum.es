@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Colegio Mary Ward Ikastetxea",
+    "address": {
+      "city": "Donostia",
+      "province": "Guipúzcoa"
+    },
+    "image": "https://instagram.fmad8-1.fna.fbcdn.net/v/t51.2885-19/s150x150/68834871_424504514867140_4583874176745472000_n.jpg?_nc_ht=instagram.fmad8-1.fna.fbcdn.net&_nc_ohc=w97TJcvSq18AX8obys6&tp=25&oh=142352ace833be13dc2bf93e831ca9e6&oe=5FDFCA2B",
+    "coordinates": ["43.294347","-1.9666079"],
+    "social": {
+      "url": "https://maryward.com/"
+    }
+  }
+]

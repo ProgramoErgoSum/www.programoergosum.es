@@ -107,6 +107,10 @@ export default {
         date: '2019-10-20'
       },
       {
+        name: 'Ane Bilbao',
+        date: '2020-11-18'
+      },
+      {
         name: 'Ángel Otalora',
         date: '2020-04-13'
       },
