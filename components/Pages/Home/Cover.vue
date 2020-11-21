@@ -41,12 +41,13 @@ export default {
   padding: 35vh 20px;
   h1 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
   }
   h2 {
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 26px;
     font-weight: 300;
     line-height: 1.8;
   }
