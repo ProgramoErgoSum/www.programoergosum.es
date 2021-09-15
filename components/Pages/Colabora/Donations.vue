@@ -120,6 +120,10 @@ export default {
       },
       // 5
       {
+        name: 'Eduardo Ovando',
+        date: '2021-06-21'
+      },
+      {
         name: 'David Pons',
         date: '2019-07-11'
       },
