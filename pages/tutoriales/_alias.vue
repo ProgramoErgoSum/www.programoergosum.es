@@ -9,9 +9,11 @@
     <v-container fluid>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="12" lg="2" xl="2">
+          <!--
           <div class="sticky-top">
             <Adsense :data-ad-slot="adsense.left" type="display" />
           </div>
+          -->
         </v-col>
         <v-col xs="12" sm="12" md="9" lg="7" xl="8">
           <div class="mb-12">
