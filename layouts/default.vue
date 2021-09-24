@@ -285,10 +285,6 @@ export default {
         to: '/asociacion'
       },
       {
-        title: 'Extraescolares',
-        to: '/actividades'
-      },
-      {
         title: 'Blog',
         to: '/blog'
       },
@@ -307,8 +303,8 @@ export default {
         to: '/formaciones'
       },
       {
-        title: 'Aprende con las STEM',
-        href: 'https://www.aprendeprogramando.es'
+        title: 'Extraescolares',
+        to: '/actividades'
       }
     ]
   }),
