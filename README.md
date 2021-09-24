@@ -12,7 +12,7 @@
   <a target="_blank" href="https://www.paypal.me/programoergosum">
     <img src="https://badgen.net/badge/donations/paypal%20me/orange">
   </a>
-  <a target="_blank" href="https://github.com/ProgramoErgoSum/www.programoergosum.com/blob/develop/LICENSE">
+  <a target="_blank" href="https://github.com/ProgramoErgoSum/www.programoergosum.es/blob/develop/LICENSE">
     <img src="https://badgen.net/badge/license/MIT/orange">
   </a>
 </div>
