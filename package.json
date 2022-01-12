@@ -43,7 +43,7 @@
     "frontmatter-markdown-loader": "^3.6.1",
     "highlight.js": "^9.18.3",
     "jest": "^25.5.4",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "nodemon": "^2.0.6",
     "prettier": "^1.19.1",
