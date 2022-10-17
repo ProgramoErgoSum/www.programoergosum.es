@@ -2,10 +2,9 @@
 #vendor/
 #composer.json
 #composer.lock
+Makefile
 deploy.php
 deploy.sh
-pre-start.sh
-pre-commit.sh
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
