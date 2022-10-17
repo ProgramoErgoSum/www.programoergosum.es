@@ -91,9 +91,13 @@ export default {
       },
       // 15
       {
+        name: 'Orlando Pérez',
+        date: '2020-06-01'
+      },
+      {
         name: 'Julio C Cordeiro',
         website: 'http://www.edu.xunta.gal/centros/iessalvadormadariaga',
-        date: '2019-09-29'
+        date: '2022-08-03'
       },
       // 10
       {
