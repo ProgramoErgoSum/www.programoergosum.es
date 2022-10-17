@@ -210,7 +210,7 @@
       </v-container>
     </div>
 
-    <GDPR />
+    <!--<GDPR />-->
     <ToTop />
   </v-app>
 </template>
